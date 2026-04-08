@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Free Fire Items Library</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Poppins:wght@700;900&family=Montserrat:wght@700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Poppins:wght@700;900&family=Montserrat:wght@700;900&family=Cairo:wght@400;700;900&display=swap" rel="stylesheet">
   <style>
     :root {
       --bg: #040d1f;
@@ -14,6 +14,8 @@
       --accent: #4a78c2;
       --border: rgba(255, 255, 255, 0.09);
       --radius: 12px;
+      --font-en: 'Roboto', sans-serif;
+      --font-ar: 'Cairo', sans-serif;
     }
     
     * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -21,11 +23,38 @@
     body {
       background: var(--bg);
       color: var(--text);
-      font-family: Roboto, sans-serif;
+      font-family: var(--font-en);
       padding: 20px;
       min-height: 100vh;
       overflow-x: hidden;
+      transition: all 0.3s ease;
     }
+
+    body[dir="rtl"] {
+      font-family: var(--font-ar);
+    }
+
+    .loader-container {
+      position: fixed;
+      inset: 0;
+      background: var(--bg);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 1000;
+      transition: opacity 0.4s ease;
+    }
+
+    .loader {
+      width: 50px;
+      height: 50px;
+      border: 5px solid var(--border);
+      border-top-color: var(--accent);
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin { 100% { transform: rotate(360deg); } }
 
     .header-container {
       background: linear-gradient(145deg, var(--card), #051329);
@@ -61,6 +90,11 @@
       animation: titleShine 3s linear infinite;
     }
 
+    body[dir="rtl"] .main-title {
+      font-family: var(--font-ar);
+      letter-spacing: 0;
+    }
+
     @keyframes titleShine { to { background-position: 200% center; } }
 
     .subtitle-wrapper {
@@ -79,17 +113,27 @@
       animation: glowEffect 1.5s ease-in-out infinite alternate;
     }
 
+    body[dir="rtl"] .sub-title {
+      font-family: var(--font-ar);
+      letter-spacing: 0;
+    }
+
     @keyframes glowEffect {
       from { text-shadow: 0 0 5px #FFD700, 0 0 10px #FFD700; }
       to { text-shadow: 0 0 15px #FFD700, 0 0 25px #FF8C00; }
     }
 
-    .music-btn {
+    .header-btns {
+      display: flex;
+      gap: 8px;
+    }
+
+    .icon-btn {
       background: rgba(255, 255, 255, 0.05);
       border: 1px solid var(--border);
       color: var(--text);
-      width: 26px;
-      height: 26px;
+      width: 32px;
+      height: 32px;
       border-radius: 50%;
       cursor: pointer;
       display: flex;
@@ -98,7 +142,7 @@
       transition: all 0.3s ease;
     }
 
-    .music-btn:hover {
+    .icon-btn:hover {
       background: var(--accent);
       border-color: var(--accent);
       transform: scale(1.1);
@@ -119,7 +163,7 @@
 
     .search-share-btn {
       position: absolute;
-      right: 12px;
+      inset-inline-end: 12px;
       top: 50%;
       transform: translateY(-50%);
       background: rgba(255, 255, 255, 0.1);
@@ -153,13 +197,22 @@
       color: var(--text); 
       outline: none; 
       transition: border-color 0.3s;
+      font-family: inherit;
     }
     
     input[type="text"] { 
       width: 100%; 
       padding: 14px; 
-      padding-right: 50px;
+      padding-inline-end: 50px;
       font-size: 0.95rem; 
+    }
+
+    body[dir="rtl"] input[type="text"] {
+      font-size: 0.8rem;
+    }
+
+    body[dir="rtl"] input[type="text"]::placeholder {
+      font-size: 0.75rem;
     }
     
     .filters-row select {
@@ -174,6 +227,40 @@
     }
 
     input[type="text"]:focus, select:focus { border-color: var(--accent); }
+
+    .dev-action-bar {
+      display: none;
+      flex-direction: row;
+      gap: 10px;
+      justify-content: center;
+      margin-bottom: 20px;
+      background: rgba(74, 120, 194, 0.1);
+      padding: 15px;
+      border-radius: var(--radius);
+      border: 1px dashed var(--accent);
+      flex-wrap: wrap;
+    }
+
+    .dev-btn {
+      background: var(--card);
+      border: 1px solid var(--accent);
+      color: #fff;
+      padding: 8px 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-family: inherit;
+      font-weight: bold;
+      font-size: 0.85rem;
+      transition: all 0.2s ease;
+    }
+
+    .dev-btn:hover {
+      background: var(--accent);
+      transform: translateY(-2px);
+    }
 
     .grid {
       display: grid; 
@@ -195,7 +282,7 @@
       cursor: pointer;
       aspect-ratio: 1 / 1; 
       padding: 10%; 
-      transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.3s ease;
+      transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.3s ease, border-color 0.3s ease;
       box-shadow: 0 4px 10px rgba(0,0,0,0.5);
       animation: fadeIn 0.5s ease backwards;
     }
@@ -205,6 +292,29 @@
       border-color: var(--accent); 
       box-shadow: 0 8px 20px rgba(0,0,0,0.7), 0 0 15px rgba(74, 120, 194, 0.3);
       z-index: 10; 
+    }
+
+    .card.selected {
+      border: 3px solid #10b981;
+      box-shadow: 0 0 20px rgba(16, 185, 129, 0.5);
+      transform: scale(0.95);
+    }
+
+    .card.selected::after {
+      content: '✓';
+      position: absolute;
+      top: 5px;
+      inset-inline-end: 5px;
+      background: #10b981;
+      color: #fff;
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      z-index: 20;
     }
     
     .card-icon {
@@ -224,12 +334,15 @@
     .pagination {
       display: flex; justify-content: center; align-items: center;
       gap: 8px; margin-top: 10px; margin-bottom: 40px; flex-wrap: wrap;
+      direction: ltr;
     }
+
+    body[dir="rtl"] .pagination { direction: rtl; }
 
     .page-btn {
       background: rgba(255, 255, 255, 0.05); border: 1px solid var(--border);
       color: var(--text); padding: 10px 14px; border-radius: 8px;
-      cursor: pointer; font-family: 'Poppins', sans-serif; font-weight: 700;
+      cursor: pointer; font-family: inherit; font-weight: 700;
       transition: all 0.2s ease;
     }
 
@@ -251,8 +364,10 @@
       background: linear-gradient(90deg, #ef4444, #f87171); -webkit-background-clip: text; -webkit-text-fill-color: transparent;
       animation: pulseGlow 2s infinite alternate;
     }
+
+    body[dir="rtl"] .empty-title { font-family: var(--font-ar); }
     
-    .empty-desc { color: var(--muted); font-size: 0.95rem; margin-bottom: 35px; font-family: 'Poppins', sans-serif; }
+    .empty-desc { color: var(--muted); font-size: 0.95rem; margin-bottom: 35px; }
     
     .empty-socials-wrapper { border-top: 1px solid rgba(255,255,255,0.1); padding-top: 25px; width: 100%; }
     
@@ -260,6 +375,8 @@
       font-family: 'Poppins', sans-serif; font-size: 0.85rem; color: #FFD700; margin-bottom: 20px;
       animation: glowEffect 1.5s ease-in-out infinite alternate; text-transform: uppercase; letter-spacing: 1px;
     }
+
+    body[dir="rtl"] .socials-title { font-family: var(--font-ar); letter-spacing: 0; }
     
     .social-icons { display: flex; justify-content: center; gap: 20px; }
     
@@ -286,7 +403,7 @@
     @keyframes pulseGlow { from { text-shadow: 0 0 10px rgba(239, 68, 68, 0.2); } to { text-shadow: 0 0 20px rgba(239, 68, 68, 0.6); } }
 
     .modal {
-      display: none; position: fixed; z-index: 100; left: 0; top: 0;
+      display: none; position: fixed; z-index: 100; inset: 0;
       width: 100%; height: 100%; background-color: rgba(2, 6, 15, 0.85);
       backdrop-filter: blur(5px); align-items: center; justify-content: center; padding: 20px;
     }
@@ -301,9 +418,9 @@
     }
     
     .close-btn {
-      position: absolute; top: 20px; right: 30px; color: #fff;
+      position: absolute; top: 20px; inset-inline-end: 30px; color: #fff;
       font-size: 45px; cursor: pointer; font-weight: bold; transition: all 0.2s;
-      z-index: 101; text-shadow: 0 4px 10px rgba(0,0,0,0.5);
+      z-index: 101; text-shadow: 0 4px 10px rgba(0,0,0,0.5); line-height: 0.8;
     }
     
     .close-btn:hover { color: #ef4444; transform: scale(1.1) rotate(90deg); }
@@ -332,7 +449,7 @@
     .modal-icon.unknown-scale { transform: scale(0.3); }
     
     .modal-title { 
-      text-align: center; margin-bottom: 20px; font-family: Montserrat, sans-serif; 
+      text-align: center; margin-bottom: 20px; font-family: inherit; font-weight: 900;
       color: #fff; white-space: nowrap; width: 100%; padding-bottom: 5px;
     }
 
@@ -347,15 +464,18 @@
     }
 
     .multi-line-text { margin-bottom: 0; line-height: 1.6; word-wrap: break-word; white-space: normal; display: block; }
-    .multi-line-text strong { color: #fff; margin-right: 8px; font-size: 0.95rem; }
+    .multi-line-text strong { color: #fff; margin-inline-end: 8px; font-size: 0.95rem; }
     .multi-line-text span { color: var(--muted); font-size: 0.8rem; white-space: normal; word-wrap: break-word; display: inline; }
 
-    .modal-details strong { color: #fff; margin-right: 8px; flex-shrink: 0; font-size: 0.95rem; }
+    .modal-details strong { color: #fff; margin-inline-end: 8px; flex-shrink: 0; font-size: 0.95rem; }
     .modal-details span { color: var(--muted); font-size: 0.8rem; }
+    
+    body[dir="rtl"] .modal-details strong { font-size: 0.8rem; }
+    body[dir="rtl"] .modal-details span { font-size: 0.75rem; }
 
     .copy-btn {
       background: transparent; border: none; color: var(--accent);
-      margin-left: 8px; cursor: pointer; transition: all 0.2s;
+      margin-inline-start: 8px; cursor: pointer; transition: all 0.2s;
       display: flex; align-items: center; justify-content: center;
       padding: 4px; border-radius: 4px;
     }
@@ -379,6 +499,91 @@
 
     .modal-btn:hover { transform: translateY(-3px) scale(1.05); }
 
+    .settings-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 0;
+    }
+
+    .settings-socials {
+      border-top: 1px solid rgba(255,255,255,0.05);
+      padding-top: 20px;
+      margin-top: 15px;
+      text-align: center;
+    }
+
+    .settings-info {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+    }
+
+    .settings-info strong {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: #fff;
+      font-size: 1rem;
+    }
+
+    .settings-info span {
+      color: var(--muted);
+      font-size: 0.8rem;
+    }
+
+    .toggle-switch {
+      position: relative;
+      width: 46px;
+      height: 24px;
+    }
+
+    .toggle-switch input {
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+
+    .toggle-slider {
+      position: absolute;
+      cursor: pointer;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background-color: rgba(255,255,255,0.1);
+      transition: .4s;
+      border-radius: 24px;
+    }
+
+    .toggle-slider:before {
+      position: absolute;
+      content: "";
+      height: 18px;
+      width: 18px;
+      left: 3px;
+      bottom: 3px;
+      background-color: #fff;
+      transition: .4s;
+      border-radius: 50%;
+    }
+
+    body[dir="rtl"] .toggle-slider:before {
+      left: auto;
+      right: 3px;
+    }
+
+    input:checked + .toggle-slider { background-color: #10b981; }
+    input:checked + .toggle-slider:before { transform: translateX(22px); }
+    body[dir="rtl"] input:checked + .toggle-slider:before { transform: translateX(-22px); }
+
+    .dl-options { display: flex; flex-direction: column; gap: 10px; margin-top: 15px; }
+
+    .dl-opt-btn {
+      background: rgba(255,255,255,0.05); border: 1px solid var(--border);
+      color: #fff; padding: 12px; border-radius: 8px; cursor: pointer;
+      font-family: inherit; transition: all 0.2s; display: flex; align-items: center; gap: 10px;
+    }
+
+    .dl-opt-btn:hover { background: var(--accent); border-color: var(--accent); }
+
     @keyframes fadeIn { 0% { opacity: 0; transform: translateY(15px); } 100% { opacity: 1; transform: translateY(0); } }
     @keyframes modalPop { 0% { transform: scale(0.85); opacity: 0; } 100% { transform: scale(1); opacity: 1; } }
     @keyframes floatIcon { 0% { transform: translateY(0px); } 50% { transform: translateY(-8px); } 100% { transform: translateY(0px); } }
@@ -386,19 +591,31 @@
 </head>
 <body>
 
+  <div id="mainLoader" class="loader-container">
+    <div class="loader"></div>
+  </div>
+
   <div class="header-container">
     <div class="titles-wrapper">
-      <h1 class="main-title">Free Fire Items Library</h1>
+      <h1 class="main-title" id="txtMainTitle">Free Fire Items Library</h1>
       <div class="subtitle-wrapper">
-        <div class="sub-title">Made By King of Games</div>
-        <button id="musicToggle" class="music-btn" title="Toggle Music"></button>
+        <div class="sub-title" id="txtSubTitle">Made By King of Games</div>
+        <div class="header-btns">
+          <button id="musicToggle" class="icon-btn" title="Toggle Music"></button>
+          <button id="langToggle" class="icon-btn" title="Toggle Language">
+            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"></path><path d="M2 12H22"></path><path d="M12 2C14.5013 4.73835 15.9228 8.29203 16 12C15.9228 15.708 14.5013 19.2616 12 22C9.49872 19.2616 8.07725 15.708 8 12C8.07725 8.29203 9.49872 4.73835 12 2Z"></path></svg>
+          </button>
+          <button id="settingsToggle" class="icon-btn" title="Settings">
+            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15Z"></path><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+          </button>
+        </div>
       </div>
     </div>
     
     <div class="controls-wrapper">
       <div class="search-wrapper">
         <input type="text" id="searchInput" placeholder="Search by item Name, icon & item ID">
-        <button id="searchShareBtn" class="search-share-btn" title="Share Search Result">
+        <button id="searchShareBtn" class="search-share-btn">
           <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg>
         </button>
       </div>
@@ -409,6 +626,17 @@
       </div>
     </div>
   </div>
+
+  <div id="devActionBar" class="dev-action-bar">
+    <button class="dev-btn" id="btnDevCopy">
+      <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
+      <span id="txtDevCopy">Copy Page IDs</span>
+    </button>
+    <button class="dev-btn" id="btnDevDl">
+      <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
+      <span id="txtDevDl">Download Page icons</span>
+    </button>
+  </div>
   
   <div class="grid" id="itemsGrid"></div>
   <div class="pagination" id="paginationControls"></div>
@@ -418,21 +646,72 @@
       <circle cx="11" cy="11" r="8"></circle>
       <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
     </svg>
-    <h2 class="empty-title">NO ITEMS FOUND</h2>
-    <p class="empty-desc">Nothing matches your search or filter</p>
+    <h2 class="empty-title" id="txtEmptyTitle">NO ITEMS FOUND</h2>
+    <p class="empty-desc" id="txtEmptyDesc">Nothing matches your search or filter</p>
     
     <div class="empty-socials-wrapper">
-      <h3 class="socials-title">Follow King of Games</h3>
+      <h3 class="socials-title" id="txtFollow">Follow King of Games</h3>
       <div class="social-icons">
-        <a href="https://www.instagram.com/_kingofgames02" target="_blank" class="social-btn instagram" title="Instagram">
+        <a href="https://www.instagram.com/_kingofgames02" target="_blank" class="social-btn instagram">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
         </a>
-        <a href="https://t.me/FF_MENA_Updates" target="_blank" class="social-btn telegram" title="Telegram">
+        <a href="https://t.me/FF_MENA_Updates" target="_blank" class="social-btn telegram">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
         </a>
-        <a href="https://linktr.ee/KingofGames02" target="_blank" class="social-btn linktree" title="Linktree">
+        <a href="https://linktr.ee/KingofGames02" target="_blank" class="social-btn linktree">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M13.636 12L19 7.424 16.892 5 12 9.192 7.108 5 5 7.424 10.364 12H4v3h6.545v7h2.91V15H20v-3h-6.364z"/></svg>
         </a>
+      </div>
+    </div>
+  </div>
+
+  <div id="settingsModal" class="modal">
+    <span class="close-btn" onclick="closeSettingsModal()">&times;</span>
+    <div class="modal-content">
+      <h2 class="modal-title" id="txtSettingsTitle">Settings</h2>
+      <div class="settings-item">
+        <div class="settings-info">
+          <strong>
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
+            <span id="txtDevMode" style="font-size: 1rem; color: #fff;">Developer Mode</span>
+          </strong>
+          <span id="txtDevDesc">Tap cards to copy IDs or Download icons</span>
+        </div>
+        <label class="toggle-switch">
+          <input type="checkbox" id="devModeToggle">
+          <span class="toggle-slider"></span>
+        </label>
+      </div>
+      <div class="settings-socials">
+        <h3 class="socials-title" id="txtSettingsFollow">Follow King of Games</h3>
+        <div class="social-icons">
+          <a href="https://www.instagram.com/_kingofgames02" target="_blank" class="social-btn instagram">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+          </a>
+          <a href="https://t.me/FF_MENA_Updates" target="_blank" class="social-btn telegram">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+          </a>
+          <a href="https://linktr.ee/KingofGames02" target="_blank" class="social-btn linktree">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M13.636 12L19 7.424 16.892 5 12 9.192 7.108 5 5 7.424 10.364 12H4v3h6.545v7h2.91V15H20v-3h-6.364z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="dlTypeModal" class="modal">
+    <span class="close-btn" onclick="closeDlTypeModal()">&times;</span>
+    <div class="modal-content">
+      <h2 class="modal-title" id="txtDlTitle">Download options</h2>
+      <div class="dl-options">
+        <button class="dl-opt-btn" id="btnDlOpt1">
+          <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
+          <span id="txtDlOpt1">Download icons</span>
+        </button>
+        <button class="dl-opt-btn" id="btnDlOpt2">
+          <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+          <span id="txtDlOpt2">Download icons with rarity backgrounds</span>
+        </button>
       </div>
     </div>
   </div>
@@ -448,22 +727,22 @@
       <h2 class="modal-title" id="modalName"></h2>
       <div class="modal-details">
         <div class="single-line-text">
-          <strong>Item id:</strong> <span id="modalId"></span>
-          <button class="copy-btn" id="btnCopyId" onclick="copyItemId()" title="Copy ID">
+          <strong id="txtModalId">Item id:</strong> <span id="modalId"></span>
+          <button class="copy-btn" id="btnCopyId" onclick="copyItemId()">
             <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
           </button>
         </div>
-        <div class="single-line-text"><strong>Icon id:</strong> <span id="modalIconId"></span></div>
-        <div class="multi-line-text"><strong>Description:</strong> <span id="modalDesc"></span></div>
+        <div class="single-line-text"><strong id="txtModalIconId">Icon id:</strong> <span id="modalIconId"></span></div>
+        <div class="multi-line-text"><strong id="txtModalDesc">Description:</strong> <span id="modalDesc"></span></div>
       </div>
       <div class="modal-actions">
-        <button class="modal-btn btn-share" id="btnShare" title="Share Item">
+        <button class="modal-btn btn-share" id="btnShare">
           <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z"></path></svg>
         </button>
-        <button class="modal-btn btn-dl-icon" id="btnDlIcon" title="Download Icon">
+        <button class="modal-btn btn-dl-icon" id="btnDlIcon">
           <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
         </button>
-        <button class="modal-btn btn-dl-bg" id="btnDlBg" title="Download with Background">
+        <button class="modal-btn btn-dl-bg" id="btnDlBg">
           <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
         </button>
       </div>
@@ -471,10 +750,68 @@
   </div>
 
   <script>
-    let itemsData = [], filteredItems = [];
+    const tr = {
+      en: {
+        title: "Free Fire Items Library", subTitle: "Made By King of Games", search: "Search by item Name, icon & item ID",
+        allTags: "All Tags", allTypes: "All Types", allRaritiesFull: "All Rarities", allRaritiesShort: "All Rarities", prev: "&laquo; Prev", next: "Next &raquo;",
+        emptyTitle: "NO ITEMS FOUND", emptyDesc: "Nothing matches your search or filter", follow: "Follow King of Games",
+        itemId: "Item id:", iconId: "Icon id:", desc: "Description:", settings: "Settings", devMode: "Developer Mode",
+        devDesc: "Tap cards to copy IDs or Download icons", copyIds: "Copy Page IDs", copySelIds: "Copy Selected IDs",
+        dlIcons: "Download Page icons", dlSelIcons: "Download Selected icons", dlTitle: "Download options",
+        dlOpt1: "Download icons", dlOpt2: "Download icons with rarity backgrounds",
+        shareItemText: "Check out this item:", shareSearchText: "Check out this Items Collection:",
+        rarities: {
+          "ARTIFACT": "ARTIFACT 🟥", "MYTHIC++": "MYTHIC++ 🟡", "MYTHIC": "MYTHIC 🟨", "EPIC++": "EPIC++ 🟣",
+          "EPIC": "EPIC 🟪", "RARE": "RARE 🟦", "UNCOMMON": "UNCOMMON 🟩", "COMMON": "COMMON ⬜"
+        },
+        types: {
+          "Bundles": "Bundles", "Top": "Top", "Bottom": "Bottom", "Shoe": "Shoe", "Head": "Head", "Mask": "Mask", "Facepaint": "Facepaint",
+          "Weapon Skins": "Weapon Skins", "Fist Skins": "Fist Skins", "Gloo Walls": "Gloo Walls", "Grenade Skin": "Grenade Skin", "Final Shot": "Final Shot", "Weapon Crates": "Weapon Crates",
+          "Emote": "Emote", "Super Emote": "Super Emote", "Arrival Animation": "Arrival Animation", "Finishing Move": "Finishing Move", "Look Changer": "Look Changer", "Vehicle Skins": "Vehicle Skins", "Loot Box": "Loot Box", "Bag Skins": "Bag Skins", "Parachute": "Parachute", "Skyboard": "Skyboard", "Skywings": "Skywings", "Hyperbook": "Hyperbook",
+          "Banners": "Banners", "Avatars": "Avatars", "Profile Pin": "Profile Pin", "Battle Card": "Battle Card", "Skill Skins": "Skill Skins", "Music": "Music", "Voice Packs": "Voice Packs", "Photo Frame": "Photo Frame", "Avatar Frame": "Avatar Frame", "Photo Pose": "Photo Pose", "Stickers": "Stickers", "Titles": "Titles",
+          "Characters": "Characters", "Pets": "Pets", "Spark Pet Vault": "Spark Pet Vault",
+          "Bundle Create": "Bundle Create", "Exchange Tokens": "Exchange Tokens", "Loot Crates": "Loot Crates", "Choice Crates": "Choice Crates", "Vouchers": "Vouchers"
+        }
+      },
+      ar: {
+        title: "مكتبة عناصر فري فاير", subTitle: "تطوير King of Games", search: "البحث حسب اسم العنصر، أو أيقونته، أو معرّفه",
+        allTags: "جميع التحديثات", allTypes: "جميع الأنواع", allRaritiesFull: "جميع درجات الندرة", allRaritiesShort: "جميع الندرات", prev: "&laquo; السابق", next: "التالي &raquo;",
+        emptyTitle: "لا توجد عناصر", emptyDesc: "لا يوجد شيء يطابق بحثك أو عامل التصفية", follow: "تابع King of Games",
+        itemId: "معرف العنصر:", iconId: "معرف الأيقونة:", desc: "الوصف:", settings: "الإعدادات", devMode: "وضع المطور",
+        devDesc: "اضغط على البطاقات لتحديد العناصر لنسخ المعرفات أو تحميل الأيقونات", copyIds: "نسخ معرفات الصفحة", copySelIds: "نسخ المعرفات المحددة",
+        dlIcons: "تحميل أيقونات الصفحة", dlSelIcons: "تحميل الأيقونات المحددة", dlTitle: "خيارات التحميل",
+        dlOpt1: "تحميل الأيقونات", dlOpt2: "تحميل الأيقونات مع خلفيات الندرة",
+        shareItemText: "اطلع على هذا العنصر:", shareSearchText: "اطلع على هذه المجموعة من العناصر:",
+        rarities: {
+          "ARTIFACT": "خرافي 🟥", "MYTHIC++": "أسطوري ++ 🟡", "MYTHIC": "أسطوري 🟨", "EPIC++": "ملحمي ++ 🟣",
+          "EPIC": "ملحمي 🟪", "RARE": "نادر 🟦", "UNCOMMON": "غير شائع 🟩", "COMMON": "عادي ⬜"
+        },
+        types: {
+          "Bundles": "الحزم", "Top": "الجزء العلوي", "Bottom": "الجزء السفلي", "Shoe": "الحذاء", "Head": "الرأس", "Mask": "القناع", "Facepaint": "طلاء الوجه",
+          "Weapon Skins": "أشكال الأسلحة", "Fist Skins": "أشكال القبضات", "Gloo Walls": "جدران جلو", "Grenade Skin": "أشكال القنبلة اليدوية", "Final Shot": "الطلقة الأخيرة", "Weapon Crates": "صناديق الأسلحة",
+          "Emote": "الرقصات", "Super Emote": "الرقصات الخارقة", "Arrival Animation": "حركة الوصول", "Finishing Move": "حركة الإنهاء", "Look Changer": "تغيير المظهر", "Vehicle Skins": "أشكال المركبات", "Loot Box": "صندوق الغنائم", "Bag Skins": "أشكال الحقائب", "Parachute": "المظلة", "Skyboard": "لوح التزلج", "Skywings": "الأجنحة", "Hyperbook": "الكتاب التشعبي",
+          "Banners": "الرايات", "Avatars": "الصور الرمزية", "Profile Pin": "دبوس الملف الشخصي", "Battle Card": "بطاقة المعركة", "Skill Skins": "أشكال المهارات", "Music": "الموسيقى", "Voice Packs": "حزم الأصوات", "Photo Frame": "إطار الصورة", "Avatar Frame": "إطار الصورة الرمزية", "Photo Pose": "وضعيات التصوير", "Stickers": "الملصقات", "Titles": "الألقاب",
+          "Characters": "الشخصيات", "Pets": "الحيوانات الأليفة", "Spark Pet Vault": "خزنة حيوانات سبارك الأليفة",
+          "Bundle Create": "صناديق الحزم", "Exchange Tokens": "توكن الاستبدال", "Loot Crates": "صناديق الجوائز", "Choice Crates": "صناديق الاختيار", "Vouchers": "القسائم"
+        }
+      }
+    };
+
+    let currentLang = 'en';
+    let itemsData = [], filteredItems = [], selectedItems = new Set();
     const validRarities = ["ARTIFACT", "MYTHIC++", "MYTHIC", "EPIC++", "EPIC", "RARE", "UNCOMMON", "COMMON"];
+    const typeGroups = [
+      ["Bundles", "Top", "Bottom", "Shoe", "Head", "Mask", "Facepaint"],
+      ["Weapon Skins", "Fist Skins", "Gloo Walls", "Grenade Skin", "Final Shot", "Weapon Crates"],
+      ["Emote", "Super Emote", "Arrival Animation", "Finishing Move", "Look Changer", "Vehicle Skins", "Loot Box", "Bag Skins", "Parachute", "Skyboard", "Skywings", "Hyperbook"],
+      ["Banners", "Avatars", "Profile Pin", "Battle Card", "Skill Skins", "Music", "Voice Packs", "Photo Frame", "Avatar Frame", "Photo Pose", "Stickers", "Titles"],
+      ["Characters", "Pets", "Spark Pet Vault"],
+      ["Bundle Create", "Exchange Tokens", "Loot Crates", "Choice Crates", "Vouchers"]
+    ];
+    
     const defaultBg = "./RareBG_Quality/UNKNOWN.png";
     let currentItem = null, currentPage = 1, itemsPerPage = 80;
+    let isDevMode = false;
 
     const searchInput = document.getElementById('searchInput');
     const searchShareBtn = document.getElementById('searchShareBtn');
@@ -485,6 +822,10 @@
     const paginationControls = document.getElementById('paginationControls');
     const emptyState = document.getElementById('emptyState');
     const musicBtn = document.getElementById('musicToggle');
+    const langBtn = document.getElementById('langToggle');
+    const mainLoader = document.getElementById('mainLoader');
+    const devActionBar = document.getElementById('devActionBar');
+    const devModeToggle = document.getElementById('devModeToggle');
 
     const copyIconSVG = `<svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>`;
     const checkIconSVG = `<svg width="18" height="18" fill="none" stroke="#10b981" stroke-width="3" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"></path></svg>`;
@@ -501,10 +842,7 @@
       for (let ext of audioExts) {
         try {
           let res = await fetch(`Music.${ext}`, { method: 'HEAD' });
-          if (res.ok) {
-            bgMusic.src = `Music.${ext}`;
-            break;
-          }
+          if (res.ok) { bgMusic.src = `Music.${ext}`; break; }
         } catch(e) {}
       }
     }
@@ -512,32 +850,89 @@
     musicBtn.addEventListener('click', (e) => {
       e.stopPropagation();
       if(!bgMusic.src) return;
-      if (isPlaying) {
-        bgMusic.pause();
-        isPlaying = false;
-        musicBtn.innerHTML = svgMute;
-      } else {
-        bgMusic.play();
-        isPlaying = true;
-        musicBtn.innerHTML = svgPlay;
-      }
+      if (isPlaying) { bgMusic.pause(); isPlaying = false; musicBtn.innerHTML = svgMute; } 
+      else { bgMusic.play(); isPlaying = true; musicBtn.innerHTML = svgPlay; }
     });
 
-    fetch('./ItemsData.json')
-      .then(r => r.json())
-      .then(data => {
-        const allItems = Array.isArray(data) ? data : Object.values(data);
-        itemsData = allItems.filter(item => item.IconInAB === "IconInCDN" && item.icon && item.icon.trim() !== "");
-        setupFilters();
-        checkUrlForSharedItem();
-        applyFilters();
-        loadMusic();
-      })
-      .catch(error => {
-        itemsGrid.innerHTML = '<p style="text-align:center; width:100%; color: #ef4444;">Failed to load ItemsData.json</p>';
-      });
+    langBtn.addEventListener('click', () => {
+      currentLang = currentLang === 'en' ? 'ar' : 'en';
+      document.body.setAttribute('dir', currentLang === 'en' ? 'ltr' : 'rtl');
+      updateUIStrings();
+      fetchData();
+    });
+
+    devModeToggle.addEventListener('change', (e) => {
+      isDevMode = e.target.checked;
+      selectedItems.clear();
+      devActionBar.style.display = isDevMode ? 'flex' : 'none';
+      updateDevButtons();
+      renderPage(currentPage);
+    });
+
+    document.getElementById('settingsToggle').addEventListener('click', () => {
+      document.getElementById('settingsModal').style.display = 'flex';
+    });
+
+    function closeSettingsModal() { document.getElementById('settingsModal').style.display = 'none'; }
+    function closeDlTypeModal() { document.getElementById('dlTypeModal').style.display = 'none'; }
+
+    function updateUIStrings() {
+      const text = tr[currentLang];
+      document.getElementById('txtMainTitle').textContent = text.title;
+      document.getElementById('txtSubTitle').textContent = text.subTitle;
+      searchInput.placeholder = text.search;
+      document.getElementById('txtEmptyTitle').textContent = text.emptyTitle;
+      document.getElementById('txtEmptyDesc').textContent = text.emptyDesc;
+      document.getElementById('txtFollow').textContent = text.follow;
+      document.getElementById('txtSettingsFollow').textContent = text.follow;
+      document.getElementById('txtModalId').textContent = text.itemId;
+      document.getElementById('txtModalIconId').textContent = text.iconId;
+      document.getElementById('txtModalDesc').textContent = text.desc;
+      document.getElementById('txtSettingsTitle').textContent = text.settings;
+      document.getElementById('txtDevMode').textContent = text.devMode;
+      document.getElementById('txtDevDesc').textContent = text.devDesc;
+      document.getElementById('txtDlTitle').textContent = text.dlTitle;
+      document.getElementById('txtDlOpt1').textContent = text.dlOpt1;
+      document.getElementById('txtDlOpt2').textContent = text.dlOpt2;
+      updateDevButtons();
+    }
+
+    function updateDevButtons() {
+      const text = tr[currentLang];
+      const itemsToProcess = getItemsToProcess();
+      const count = itemsToProcess.length;
+      const isSel = selectedItems.size > 0;
+      document.getElementById('txtDevCopy').textContent = `${isSel ? text.copySelIds : text.copyIds} (${count})`;
+      document.getElementById('txtDevDl').textContent = `${isSel ? text.dlSelIcons : text.dlIcons} (${count})`;
+    }
+
+    function fetchData() {
+      mainLoader.style.opacity = '1';
+      mainLoader.style.pointerEvents = 'all';
+      const file = currentLang === 'en' ? './ItemsData_en.json' : './ItemsData_ar.json';
+      
+      fetch(file)
+        .then(r => r.json())
+        .then(data => {
+          const allItems = Array.isArray(data) ? data : Object.values(data);
+          itemsData = allItems.filter(item => item.IconInAB === "IconInCDN" && item.icon && item.icon.trim() !== "");
+          setupFilters();
+          checkUrlForSharedItem();
+          applyFilters();
+          setTimeout(() => {
+            mainLoader.style.opacity = '0';
+            mainLoader.style.pointerEvents = 'none';
+          }, 400);
+        })
+        .catch(error => {
+          itemsGrid.innerHTML = '<p style="text-align:center; width:100%; color: #ef4444;">Failed to load data</p>';
+          mainLoader.style.opacity = '0';
+          mainLoader.style.pointerEvents = 'none';
+        });
+    }
 
     function setupFilters() {
+      const text = tr[currentLang];
       const tags = new Set();
       const types = new Set();
       const rarities = new Set();
@@ -548,48 +943,31 @@
         if (item.Rare && item.Rare.trim() !== "") rarities.add(item.Rare);
       });
       
-      let tagHtml = `<option value="all">All Tags</option>`;
-      Array.from(tags).sort().reverse().forEach(tag => { 
-        tagHtml += `<option value="${tag}">${tag}</option>`; 
-      });
+      let tagHtml = `<option value="all">${text.allTags}</option>`;
+      Array.from(tags).sort().reverse().forEach(tag => { tagHtml += `<option value="${tag}">${tag}</option>`; });
       tagFilter.innerHTML = tagHtml;
 
-      const typeGroups = [
-        ["Bundles", "Top", "Bottom", "Shoe", "Head", "Mask", "Facepaint"],
-        ["Weapon Skins", "Fist Skins", "Gloo Walls", "Grenade Skin", "Final Shot", "Weapon Crates"],
-        ["Emote", "Super Emote", "Arrival Animation", "Finishing Move", "Look Changer", "Vehicle Skins", "Loot Box", "Bag Skins", "Parachute", "Skyboard", "Skywings", "Hyperbook"],
-        ["Banners", "Avatars", "Profile Pin", "Battle Card", "Skill Skins", "Music", "Voice Packs", "Photo Frame", "Avatar Frame", "Photo Pose", "Stickers", "Titles"],
-        ["Characters", "Pets", "Spark Pet Vault"],
-        ["Bundle Create", "Exchange Tokens", "Loot Crates", "Choice Crates", "Vouchers"]
-      ];
-      
-      let typeHtml = `<option value="all">All Types</option>`;
+      let typeHtml = `<option value="all">${text.allTypes}</option>`;
       const definedTypes = new Set(typeGroups.flat());
       
       typeGroups.forEach((group, index) => {
         const availableInGroup = group.filter(t => types.has(t));
         if (availableInGroup.length > 0) {
-          if (index > 0 || typeHtml !== `<option value="all">All Types</option>`) {
-             typeHtml += `<option disabled>──────</option>`;
-          }
-          availableInGroup.forEach(t => {
-            typeHtml += `<option value="${t}">${t}</option>`;
-          });
+          if (index > 0 || typeHtml !== `<option value="all">${text.allTypes}</option>`) typeHtml += `<option disabled>──────</option>`;
+          availableInGroup.forEach(t => { typeHtml += `<option value="${t}">${text.types[t] || t}</option>`; });
         }
       });
       
       const otherTypes = Array.from(types).filter(t => !definedTypes.has(t)).sort();
       if (otherTypes.length > 0) {
         typeHtml += `<option disabled>──────</option>`;
-        otherTypes.forEach(t => {
-          typeHtml += `<option value="${t}">${t}</option>`;
-        });
+        otherTypes.forEach(t => { typeHtml += `<option value="${t}">${text.types[t] || t}</option>`; });
       }
       typeFilter.innerHTML = typeHtml;
 
-      let rareHtml = `<option value="all">All Rarities</option>`;
-      Array.from(rarities).sort().forEach(rare => { 
-        rareHtml += `<option value="${rare}">${rare}</option>`; 
+      let rareHtml = `<option value="all" label="${text.allRaritiesShort}">${text.allRaritiesFull}</option>`;
+      validRarities.forEach(rare => {
+        if(rarities.has(rare)) rareHtml += `<option value="${rare}">${text.rarities[rare] || rare}</option>`;
       });
       rarityFilter.innerHTML = rareHtml;
     }
@@ -598,6 +976,21 @@
       if (rare === "NONE") return "./RareBG_Quality/COMMON.png";
       if (!rare || !validRarities.includes(rare)) return defaultBg;
       return `./RareBG_Quality/${rare}.png`;
+    }
+
+    function handleCardClick(globalIndex, cardEl) {
+      if (isDevMode) {
+        if (selectedItems.has(globalIndex)) {
+          selectedItems.delete(globalIndex);
+          cardEl.classList.remove('selected');
+        } else {
+          selectedItems.add(globalIndex);
+          cardEl.classList.add('selected');
+        }
+        updateDevButtons();
+      } else {
+        openModal(globalIndex);
+      }
     }
 
     function openModal(globalIndex) {
@@ -609,15 +1002,10 @@
       modalIconEl.className = 'modal-icon';
       
       modalIconEl.onload = function() {
-        if (this.src.includes('UNKNOWN.png')) {
-          this.classList.add('unknown-scale');
-        } else if (this.naturalWidth === 300 && this.naturalHeight === 90) {
-          this.classList.add('weapon-tilt');
-        }
+        if (this.src.includes('UNKNOWN.png')) this.classList.add('unknown-scale');
+        else if (this.naturalWidth === 300 && this.naturalHeight === 90) this.classList.add('weapon-tilt');
         void this.offsetWidth;
-        if (!this.src.includes('UNKNOWN.png')) {
-          this.style.transition = 'transform 0.3s ease, opacity 0.2s ease';
-        }
+        if (!this.src.includes('UNKNOWN.png')) this.style.transition = 'transform 0.3s ease, opacity 0.2s ease';
         this.style.opacity = '1';
       };
 
@@ -637,19 +1025,24 @@
       else if (nameLen < 45) modalNameEl.style.fontSize = '0.75rem';
       else modalNameEl.style.fontSize = '0.65rem';
 
-      document.getElementById('modalId').textContent = currentItem.itemID;
+      const modalIdEl = document.getElementById('modalId');
+      modalIdEl.textContent = currentItem.itemID;
+      let idLen = currentItem.itemID.toString().length;
+      if (idLen < 15) modalIdEl.style.fontSize = '0.8rem';
+      else if (idLen < 25) modalIdEl.style.fontSize = '0.7rem';
+      else modalIdEl.style.fontSize = '0.6rem';
       
       const iconStr = currentItem.icon || "N/A";
       const modalIconIdEl = document.getElementById('modalIconId');
       modalIconIdEl.textContent = iconStr;
       let iconLen = iconStr.length;
-      if (iconLen < 25) modalIconIdEl.style.fontSize = '0.8rem';
-      else if (iconLen < 35) modalIconIdEl.style.fontSize = '0.7rem';
-      else if (iconLen < 45) modalIconIdEl.style.fontSize = '0.65rem';
-      else if (iconLen < 55) modalIconIdEl.style.fontSize = '0.55rem';
+      if (iconLen < 20) modalIconIdEl.style.fontSize = '0.8rem';
+      else if (iconLen < 30) modalIconIdEl.style.fontSize = '0.7rem';
+      else if (iconLen < 40) modalIconIdEl.style.fontSize = '0.6rem';
+      else if (iconLen < 50) modalIconIdEl.style.fontSize = '0.5rem';
       else modalIconIdEl.style.fontSize = '0.45rem';
-
-      document.getElementById('modalDesc').textContent = currentItem.description || "No description available.";
+      
+      document.getElementById('modalDesc').textContent = currentItem.description || (currentLang === 'en' ? "No description available." : "لا يوجد وصف.");
       
       document.getElementById('btnCopyId').innerHTML = copyIconSVG;
       document.getElementById('itemModal').style.display = 'flex';
@@ -662,6 +1055,8 @@
 
     window.onclick = function(event) {
       if (event.target === document.getElementById('itemModal')) closeModal();
+      if (event.target === document.getElementById('settingsModal')) closeSettingsModal();
+      if (event.target === document.getElementById('dlTypeModal')) closeDlTypeModal();
     }
 
     function copyItemId() {
@@ -700,6 +1095,7 @@
       });
 
       currentPage = 1;
+      selectedItems.clear();
       
       if (filteredItems.length === 0) {
         itemsGrid.style.display = 'none';
@@ -711,6 +1107,7 @@
         emptyState.style.display = 'none';
         renderPage(currentPage);
       }
+      updateDevButtons();
     }
 
     function renderPage(page) {
@@ -725,9 +1122,10 @@
         const iconPath = `./icons/${item.itemID}.png`;
         const delay = (index % 20) * 0.03;
         const globalIndex = itemsData.indexOf(item);
+        const selClass = isDevMode && selectedItems.has(globalIndex) ? 'selected' : '';
         
         htmlContent += `
-          <div class="card" style="background-image: url('${bgData}'); animation-delay: ${delay}s;" onclick="openModal(${globalIndex})">
+          <div class="card ${selClass}" style="background-image: url('${bgData}'); animation-delay: ${delay}s;" onclick="handleCardClick(${globalIndex}, this)">
             <img src="${iconPath}" class="card-icon" loading="lazy" alt="icon" 
                  onload="if(this.naturalWidth === 300 && this.naturalHeight === 90) { this.classList.add('weapon-tilt'); }"
                  onerror="this.onerror=null; this.src='./RareBG_Quality/UNKNOWN.png'; this.classList.remove('weapon-tilt');">
@@ -736,28 +1134,30 @@
       });
       itemsGrid.innerHTML = htmlContent;
       renderPaginationControls();
+      updateDevButtons();
     }
 
     function renderPaginationControls() {
       const totalPages = Math.ceil(filteredItems.length / itemsPerPage);
       if (totalPages <= 1) { paginationControls.innerHTML = ''; return; }
 
-      let html = `<button class="page-btn" ${currentPage === 1 ? 'disabled' : ''} onclick="renderPage(${currentPage - 1})">&laquo; Prev</button>`;
+      const text = tr[currentLang];
+      let html = `<button class="page-btn" ${currentPage === 1 ? 'disabled' : ''} onclick="selectedItems.clear(); renderPage(${currentPage - 1})">${text.prev}</button>`;
       let startPage = Math.max(1, currentPage - 2);
       let endPage = Math.min(totalPages, currentPage + 2);
       
       if (startPage > 1) {
-        html += `<button class="page-btn" onclick="renderPage(1)">1</button>`;
+        html += `<button class="page-btn" onclick="selectedItems.clear(); renderPage(1)">1</button>`;
         if (startPage > 2) html += `<span class="page-dots">...</span>`;
       }
       for (let i = startPage; i <= endPage; i++) {
-        html += `<button class="page-btn ${i === currentPage ? 'active' : ''}" onclick="renderPage(${i})">${i}</button>`;
+        html += `<button class="page-btn ${i === currentPage ? 'active' : ''}" onclick="selectedItems.clear(); renderPage(${i})">${i}</button>`;
       }
       if (endPage < totalPages) {
         if (endPage < totalPages - 1) html += `<span class="page-dots">...</span>`;
-        html += `<button class="page-btn" onclick="renderPage(${totalPages})">${totalPages}</button>`;
+        html += `<button class="page-btn" onclick="selectedItems.clear(); renderPage(${totalPages})">${totalPages}</button>`;
       }
-      html += `<button class="page-btn" ${currentPage === totalPages ? 'disabled' : ''} onclick="renderPage(${currentPage + 1})">Next &raquo;</button>`;
+      html += `<button class="page-btn" ${currentPage === totalPages ? 'disabled' : ''} onclick="selectedItems.clear(); renderPage(${currentPage + 1})">${text.next}</button>`;
       paginationControls.innerHTML = html;
     }
 
@@ -770,24 +1170,81 @@
       if (!currentItem) return;
       const shareUrl = window.location.origin + window.location.pathname + '?item=' + currentItem.itemID;
       const displayName = currentItem.name || "Free Fire Item";
-      if (navigator.share) {
-        navigator.share({ title: displayName, text: `Check out this item: ${displayName}`, url: shareUrl });
+      
+      let shareMsg = "";
+      let shareTextOnly = "";
+      if (currentLang === 'ar') {
+        shareTextOnly = `${displayName}\n${tr[currentLang].shareItemText}`;
+        shareMsg = `${shareTextOnly}\n${shareUrl}`;
       } else {
-        navigator.clipboard.writeText(shareUrl).then(() => alert('Link copied to clipboard!'));
+        shareTextOnly = `${displayName}\n${tr[currentLang].shareItemText}`;
+        shareMsg = `${shareTextOnly}\n${shareUrl}`;
+      }
+
+      if (navigator.share) {
+        navigator.share({ text: shareTextOnly, url: shareUrl });
+      } else {
+        navigator.clipboard.writeText(shareMsg).then(() => alert(currentLang === 'en' ? 'Link copied!' : 'تم النسخ!'));
       }
     });
 
     searchShareBtn.addEventListener('click', () => {
       const url = new URL(window.location.origin + window.location.pathname);
-      if (searchInput.value.trim() !== '') url.searchParams.set('search', searchInput.value.trim());
-      if (tagFilter.value !== 'all') url.searchParams.set('tag', tagFilter.value);
-      if (typeFilter.value !== 'all') url.searchParams.set('type', typeFilter.value);
-      if (rarityFilter.value !== 'all') url.searchParams.set('rare', rarityFilter.value);
+      
+      let searchStr = "";
+      let typeStr = "";
+      let rareStr = "";
+      let tagStr = "";
+
+      if (searchInput.value.trim() !== '') {
+        url.searchParams.set('search', searchInput.value.trim());
+        searchStr = searchInput.value.trim();
+      }
+      if (typeFilter.value !== 'all') {
+        url.searchParams.set('type', typeFilter.value);
+        typeStr = tr[currentLang].types[typeFilter.value] || typeFilter.value;
+      }
+      if (rarityFilter.value !== 'all') {
+        url.searchParams.set('rare', rarityFilter.value);
+        rareStr = tr[currentLang].rarities[rarityFilter.value] || rarityFilter.value;
+      }
+      if (tagFilter.value !== 'all') {
+        url.searchParams.set('tag', tagFilter.value);
+        tagStr = tagFilter.value;
+      }
+
+      let shareMsg = "";
+      let shareTextOnly = "";
+
+      if (currentLang === 'ar') {
+        let lines = [];
+        if (searchStr) lines.push(searchStr);
+        let typeRareArr = [];
+        if (typeStr) typeRareArr.push(typeStr);
+        if (rareStr) typeRareArr.push(rareStr);
+        if (typeRareArr.length > 0) lines.push(typeRareArr.join(' '));
+        if (tagStr) lines.push(tagStr);
+        if (lines.length === 0) lines.push("جميع العناصر");
+        
+        let collectionName = lines.join('\n');
+        shareTextOnly = `${collectionName}\n${tr[currentLang].shareSearchText}`;
+        shareMsg = `${shareTextOnly}\n${url.toString()}`;
+      } else {
+        let parts = [];
+        if (searchStr) parts.push(searchStr);
+        if (typeStr) parts.push(typeStr);
+        if (rareStr) parts.push(rareStr);
+        if (tagStr) parts.push(tagStr);
+        let collectionName = parts.length > 0 ? parts.join(' ') : 'All Items';
+        
+        shareTextOnly = `${collectionName}\n${tr[currentLang].shareSearchText}`;
+        shareMsg = `${shareTextOnly}\n${url.toString()}`;
+      }
       
       if (navigator.share) {
-        navigator.share({ title: 'Free Fire Items Search', url: url.toString() });
+        navigator.share({ text: shareTextOnly, url: url.toString() });
       } else {
-        navigator.clipboard.writeText(url.toString()).then(() => alert('Search link copied to clipboard!'));
+        navigator.clipboard.writeText(shareMsg).then(() => alert(currentLang === 'en' ? 'Link copied!' : 'تم النسخ!'));
       }
     });
 
@@ -810,59 +1267,112 @@
       }
     }
 
+    function downloadIcon(item) {
+      return new Promise(resolve => {
+        const a = document.createElement('a');
+        a.href = `./icons/${item.itemID}.png`;
+        a.download = `${item.itemID}_icon.png`;
+        a.click();
+        setTimeout(resolve, 200);
+      });
+    }
+
+    function downloadIconBg(item) {
+      return new Promise(resolve => {
+        const canvas = document.createElement('canvas');
+        canvas.width = 512; canvas.height = 512;
+        const ctx = canvas.getContext('2d');
+        const bgImg = new Image();
+        bgImg.crossOrigin = "Anonymous";
+        bgImg.src = getRarityBg(item.Rare);
+        
+        bgImg.onload = () => {
+          ctx.drawImage(bgImg, 0, 0, canvas.width, canvas.height);
+          const iconImg = new Image();
+          iconImg.crossOrigin = "Anonymous";
+          iconImg.src = `./icons/${item.itemID}.png`;
+          
+          iconImg.onload = () => {
+            let drawWidth = iconImg.width;
+            let drawHeight = iconImg.height;
+            const maxDim = canvas.width * 0.8;
+            const ratio = Math.min(maxDim / drawWidth, maxDim / drawHeight);
+            drawWidth *= ratio; drawHeight *= ratio;
+            const isWeapon = (iconImg.naturalWidth === 300 && iconImg.naturalHeight === 90);
+
+            ctx.save();
+            ctx.translate(canvas.width / 2, canvas.height / 2);
+            if (isWeapon) { ctx.rotate(25 * Math.PI / 180); drawWidth *= 1.4; drawHeight *= 1.4; }
+            ctx.drawImage(iconImg, -drawWidth / 2, -drawHeight / 2, drawWidth, drawHeight);
+            ctx.restore();
+
+            const a = document.createElement('a');
+            a.href = canvas.toDataURL('image/png');
+            a.download = `${item.itemID}_full.png`;
+            a.click();
+            setTimeout(resolve, 200);
+          };
+          iconImg.onerror = () => resolve();
+        };
+        bgImg.onerror = () => resolve();
+      });
+    }
+
     document.getElementById('btnDlIcon').addEventListener('click', () => {
-      if (!currentItem) return;
-      const a = document.createElement('a');
-      a.href = `./icons/${currentItem.itemID}.png`;
-      a.download = `${currentItem.itemID}_icon.png`;
-      a.click();
+      if (currentItem) downloadIcon(currentItem);
     });
 
     document.getElementById('btnDlBg').addEventListener('click', () => {
-      if (!currentItem) return;
-      const canvas = document.createElement('canvas');
-      canvas.width = 512; canvas.height = 512;
-      const ctx = canvas.getContext('2d');
-      const bgImg = new Image();
-      bgImg.crossOrigin = "Anonymous";
-      bgImg.src = getRarityBg(currentItem.Rare);
-      
-      bgImg.onload = () => {
-        ctx.drawImage(bgImg, 0, 0, canvas.width, canvas.height);
-        const iconImg = new Image();
-        iconImg.crossOrigin = "Anonymous";
-        iconImg.src = `./icons/${currentItem.itemID}.png`;
-        
-        iconImg.onload = () => {
-          let drawWidth = iconImg.width;
-          let drawHeight = iconImg.height;
-          const maxDim = canvas.width * 0.8;
-          
-          const ratio = Math.min(maxDim / drawWidth, maxDim / drawHeight);
-          drawWidth *= ratio;
-          drawHeight *= ratio;
-
-          const isWeapon = (iconImg.naturalWidth === 300 && iconImg.naturalHeight === 90);
-
-          ctx.save();
-          ctx.translate(canvas.width / 2, canvas.height / 2);
-          
-          if (isWeapon) {
-            ctx.rotate(25 * Math.PI / 180);
-            drawWidth *= 1.4;
-            drawHeight *= 1.4;
-          }
-          
-          ctx.drawImage(iconImg, -drawWidth / 2, -drawHeight / 2, drawWidth, drawHeight);
-          ctx.restore();
-
-          const a = document.createElement('a');
-          a.href = canvas.toDataURL('image/png');
-          a.download = `${currentItem.itemID}_full.png`;
-          a.click();
-        };
-      };
+      if (currentItem) downloadIconBg(currentItem);
     });
+
+    function getItemsToProcess() {
+      if (selectedItems.size > 0) {
+        return Array.from(selectedItems).map(idx => itemsData[idx]);
+      } else {
+        const start = (currentPage - 1) * itemsPerPage;
+        return filteredItems.slice(start, start + itemsPerPage);
+      }
+    }
+
+    document.getElementById('btnDevCopy').addEventListener('click', () => {
+      const items = getItemsToProcess();
+      const ids = items.map(item => item.itemID).join(', ');
+      navigator.clipboard.writeText(ids).then(() => {
+        const btn = document.getElementById('btnDevCopy');
+        const originalHtml = btn.innerHTML;
+        btn.innerHTML = checkIconSVG + `<span>${currentLang === 'en' ? 'Copied!' : 'تم النسخ!'}</span>`;
+        setTimeout(() => { btn.innerHTML = originalHtml; updateDevButtons(); }, 2000);
+      });
+    });
+
+    document.getElementById('btnDevDl').addEventListener('click', () => {
+      document.getElementById('dlTypeModal').style.display = 'flex';
+    });
+
+    document.getElementById('btnDlOpt1').addEventListener('click', async () => {
+      closeDlTypeModal();
+      const items = getItemsToProcess();
+      mainLoader.style.opacity = '1';
+      for (const item of items) { await downloadIcon(item); }
+      mainLoader.style.opacity = '0';
+      selectedItems.clear();
+      renderPage(currentPage);
+    });
+
+    document.getElementById('btnDlOpt2').addEventListener('click', async () => {
+      closeDlTypeModal();
+      const items = getItemsToProcess();
+      mainLoader.style.opacity = '1';
+      for (const item of items) { await downloadIconBg(item); }
+      mainLoader.style.opacity = '0';
+      selectedItems.clear();
+      renderPage(currentPage);
+    });
+
+    updateUIStrings();
+    loadMusic();
+    fetchData();
   </script>
 </body>
 </html>
