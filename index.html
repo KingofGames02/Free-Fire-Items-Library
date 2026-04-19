@@ -1303,7 +1303,8 @@
 
     document.getElementById('btnShare').addEventListener('click', () => {
       if (!currentItem) return;
-      const shareUrl = new URL(window.location.origin + window.location.pathname);
+      const cleanPath = window.location.pathname.replace('index.html', '');
+      const shareUrl = new URL(window.location.origin + cleanPath);
       shareUrl.searchParams.set('item', currentItem.itemID);
       shareUrl.searchParams.set('lang', currentLang);
       const displayName = currentItem.name || "Free Fire Item";
@@ -1326,7 +1327,8 @@
     });
 
     searchShareBtn.addEventListener('click', () => {
-      const url = new URL(window.location.origin + window.location.pathname);
+      const cleanPath = window.location.pathname.replace('index.html', '');
+      const url = new URL(window.location.origin + cleanPath);
       url.searchParams.set('lang', currentLang);
       
       let searchStr = "";
