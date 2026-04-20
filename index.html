@@ -1027,14 +1027,12 @@
       document.getElementById('txtDevDl').textContent = `${isSel ? text.dlSelIcons : text.dlIcons} (${count})`;
     }
 
-        function filterRawItems() {
+            function filterRawItems() {
       itemsData = rawItemsData.filter(item => {
         if (item.hideInIndex === true) return false;
         
-        if (item.IconInAB === "Normal" && item.icon && defaultIconsMap[item.icon]) return true;
-
         if (showAllIcons) {
-          return (item.IconInAB === "IconInCDN" || item.IconInAB === "Normal") && item.icon && item.icon.trim() !== "";
+          return item.icon && item.icon.trim() !== "";
         } else {
           return item.IconInAB === "IconInCDN" && item.icon && item.icon.trim() !== "";
         }
