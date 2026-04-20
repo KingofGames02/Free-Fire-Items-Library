@@ -862,12 +862,40 @@
     
     const defaultBg = imgBase + "RareBG_Quality/UNKNOWN.png";
 
-    // Dictionary for Default Icons mapped by Icon id
+        // Dictionary for Default Icons mapped by Icon id
     const defaultIconsMap = {
-      "Icon_box_3": "Icon_box_3.png",
-      "Icon_OptionalBundle_default": "Icon_OptionalBundle_default.png",
+      "Icon_Primecake": "Icon_Primecake.png",
+      "Icon_IAPBundle_common": "Icon_IAPBundle_common.png",
+      "FF_UI_CupMatchBox_02": "FF_UI_CupMatchBox_02.png",
       "Icon_box_weaponskin_Random": "Icon_box_weaponskin_Random.png",
-      "FF_Icon_Title_CommonIcon": "FF_Icon_Title_CommonIcon.png"
+      "Icon_HyperBook_Firedragon": "Icon_HyperBook_Firedragon.png",
+      "UI_Character_icon_AddSkill": "UI_Character_icon_AddSkill.png",
+      "UI_Icon_Privilege_Effect": "UI_Icon_Privilege_Effect.png",
+      "FF_Icon_Title_CommonIcon": "FF_Icon_Title_CommonIcon.png",
+      "FF_UI_CupMatchBox_03": "FF_UI_CupMatchBox_03.png",
+      "FF_UI_CupMatchBox_04": "FF_UI_CupMatchBox_04.png",
+      "FF_Icon_Blueprint_Base": "FF_Icon_Blueprint_Base.png",
+      "Icon_HyperBook_Rampage": "Icon_HyperBook_Rampage.png",
+      "FF_UI_Voiceitem_KOUKI43": "FF_UI_Voiceitem_KOUKI43.png",
+      "FF_UI_DoubleWheel_Box": "FF_UI_DoubleWheel_Box.png",
+      "Icon_exchange_ob27_basics_token": "Icon_exchange_ob27_basics_token.png",
+      "Icon_box_highlevel_red": "Icon_box_highlevel_red.png",
+      "Icon_box_special": "Icon_box_special.png",
+      "Icon_subscribe_package": "Icon_subscribe_package.png",
+      "Icon_EAP_Bundle_package": "Icon_EAP_Bundle_package.png",
+      "Icon_HyperBook_Inkpainting": "Icon_HyperBook_Inkpainting.png",
+      "FF_Lottery_spin_shards_ramadan_2025": "FF_Lottery_spin_shards_ramadan_2025.png",
+      "Icon_box_3": "Icon_box_3.png",
+      "Icon_HyperBook_Free": "Icon_HyperBook_Free.png",
+      "Icon_HyperBook_Theboy": "Icon_HyperBook_Theboy.png",
+      "Icon_FF_CupMatch_cscup": "Icon_FF_CupMatch_cscup.png",
+      "Icon_HyperBook_Cityhero": "Icon_HyperBook_Cityhero.png",
+      "Icon_HyperBook_Growth": "Icon_HyperBook_Growth.png",
+      "Icon_HyperBook_Persona": "Icon_HyperBook_Persona.png",
+      "FF_UI_CupMatchBox_01": "FF_UI_CupMatchBox_01.png",
+      "FF_Lottery_UniversalRing_Token": "FF_Lottery_UniversalRing_Token.png",
+      "Icon_OptionalBundle_default": "Icon_OptionalBundle_default.png",
+      "Icon_voucher": "Icon_voucher.png"
     };
 
     let currentItem = null, currentPage = 1, itemsPerPage = 80;
@@ -999,11 +1027,11 @@
       document.getElementById('txtDevDl').textContent = `${isSel ? text.dlSelIcons : text.dlIcons} (${count})`;
     }
 
-    function filterRawItems() {
+        function filterRawItems() {
       itemsData = rawItemsData.filter(item => {
         if (item.hideInIndex === true) return false;
         
-        if (item.icon && defaultIconsMap[item.icon]) return true;
+        if (item.IconInAB === "Normal" && item.icon && defaultIconsMap[item.icon]) return true;
 
         if (showAllIcons) {
           return (item.IconInAB === "IconInCDN" || item.IconInAB === "Normal") && item.icon && item.icon.trim() !== "";
@@ -1106,8 +1134,8 @@
       return imgBase + `RareBG_Quality/${rare}.png`;
     }
 
-    function getIconUrl(item) {
-      if (item.icon && defaultIconsMap[item.icon]) {
+        function getIconUrl(item) {
+      if (item.IconInAB === "Normal" && item.icon && defaultIconsMap[item.icon]) {
         return imgBase + 'RareBG_Quality/Default_icons/' + defaultIconsMap[item.icon];
       }
       return imgBase + `icons/${item.itemID}.png`;
