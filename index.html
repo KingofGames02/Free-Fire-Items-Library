@@ -792,7 +792,7 @@
   </div>
 
   <script>
-    const APP_VERSION = "1.4";
+    const APP_VERSION = "1.5";
     
     if (localStorage.getItem('appVersion') !== APP_VERSION) {
       localStorage.setItem('appVersion', APP_VERSION);
@@ -843,7 +843,7 @@
         types: {
           "Bundles": "الحزم", "Top": "الجزء العلوي", "Bottom": "الجزء السفلي", "Shoe": "الحذاء", "Head": "الرأس", "Mask": "القناع", "Facepaint": "طلاء الوجه",
           "Weapon Skins": "أشكال الأسلحة", "Fist Skins": "أشكال القبضات", "Gloo Walls": "جدران جلو", "Grenade Skin": "أشكال القنبلة اليدوية", "Final Shot": "الطلقة الأخيرة", 
-          "Emote": "الرقصات", "Super Emote": "الرقصات الخارقة", "Arrival Animation": "حركة الوصول", "Finركة الإنهاء", "Look Changer": "تغيير المظهر", "Vehicle Skins": "أشكال المركبات", "Loot Box": "صندوق الغنائم", "Bag Skins": "أشكال الحقائب", "Parachute": "المظلة", "Skyboard": "لوح التزلج", "Skywings": "الأجنحة", "Hyperbook": "الكتاب التشعبي",
+          "Emote": "الرقصات", "Super Emote": "الرقصات الخارقة", "Arrival Animation": "حركة الوصول", "Finishing Move": "حركة الإنهاء", "Look Changer": "تغيير المظهر", "Vehicle Skins": "أشكال المركبات", "Loot Box": "صندوق الغنائم", "Bag Skins": "أشكال الحقائب", "Parachute": "المظلة", "Skyboard": "لوح التزلج", "Skywings": "الأجنحة", "Hyperbook": "الكتاب التشعبي",
           "Banners": "الرايات", "Avatars": "الصور الرمزية", "Profile Pin": "دبوس الملف الشخصي", "Battle Card": "بطاقة المعركة", "Skill Skins": "أشكال المهارات", "Music": "الموسيقى", "Voice Packs": "حزم الأصوات", "Photo Frame": "إطار الصورة", "Avatar Frame": "إطار الصورة الرمزية", "Photo Pose": "وضعيات التصوير", "Stickers": "الملصقات", "Titles": "الألقاب",
           "Characters": "الشخصيات", "Pets": "الحيوانات الأليفة", "Spark Pet Vault": "خزنة حيوانات سبارك الأليفة",
           "Bundle Create": "صناديق الحزم", "Choice Crates": "صناديق الاختيار", "Loot Crates": "صناديق الجوائز", "Weapon Crates": "صناديق الأسلحة", "Exchange Tokens": "توكن الاستبدال", "Vouchers": "القسائم"
@@ -862,6 +862,8 @@
     const imgBase = '';
 
     let rawItemsData = [], itemsData = [], filteredItems = [], selectedItems = new Set();
+    let updatedIconsSet = new Set();
+    
     const validRarities = ["ARTIFACT", "MYTHIC++", "MYTHIC", "EPIC++", "EPIC", "RARE", "UNCOMMON", "COMMON"];
     const typeGroups = [
       ["Bundles", "Top", "Bottom", "Shoe", "Head", "Mask", "Facepaint"],
@@ -993,14 +995,15 @@
       mainLoader.style.pointerEvents = 'all';
       const file = currentLang === 'en' ? 'ItemsData_en.json' : 'ItemsData_ar.json';
       
-      fetch(`${file}?v=${APP_VERSION}`)
-        .then(r => {
-          if (!r.ok) throw new Error("HTTP error " + r.status);
-          return r.json();
-        })
-        .then(data => {
+      Promise.all([
+        fetch(`${file}?v=${APP_VERSION}`).then(r => { if (!r.ok) throw new Error("HTTP error"); return r.json(); }),
+        fetch(`updated_icons.json?v=${APP_VERSION}`).then(r => r.ok ? r.json() : []).catch(() => [])
+      ])
+        .then(([data, updatedData]) => {
           try {
             rawItemsData = Array.isArray(data) ? data : Object.values(data);
+            updatedIconsSet = new Set(updatedData);
+            
             filterRawItems();
             setupFilters();
             
@@ -1112,13 +1115,16 @@
       };
 
       const fallbackUrl = imgBase + 'RareBG_Quality/UNKNOWN.png';
+      const imageSources = [];
+      const idStr = currentItem.itemID.toString();
       
-      const imageSources = [
-        imgBase + `ff-icons/${currentItem.itemID}_2.png`,
-        imgBase + `ff-icons/${currentItem.itemID}.png`
-      ];
+      if (updatedIconsSet.has(idStr)) imageSources.push(imgBase + `ff-icons/${idStr}_2.png`);
+      imageSources.push(imgBase + `ff-icons/${idStr}.png`);
+      
       if (currentItem.icon) {
-        imageSources.push(imgBase + `ff-icons/${currentItem.icon}.png`);
+        const iconStr = currentItem.icon.toString();
+        if (updatedIconsSet.has(iconStr)) imageSources.push(imgBase + `ff-icons/${iconStr}_2.png`);
+        imageSources.push(imgBase + `ff-icons/${iconStr}.png`);
       }
       imageSources.push(fallbackUrl);
 
@@ -1243,17 +1249,22 @@
         const globalIndex = itemsData.indexOf(item);
         const selClass = isDevMode && selectedItems.has(globalIndex) ? 'selected' : '';
 
-        const urls = [
-          `'${imgBase}ff-icons/${item.itemID}_2.png'`,
-          `'${imgBase}ff-icons/${item.itemID}.png'`
-        ];
+        const idStr = item.itemID.toString();
+        const urls = [];
+        
+        if (updatedIconsSet.has(idStr)) urls.push(`'${imgBase}ff-icons/${idStr}_2.png'`);
+        urls.push(`'${imgBase}ff-icons/${idStr}.png'`);
+        
         if (item.icon) {
-          urls.push(`'${imgBase}ff-icons/${item.icon}.png'`);
+          const iconStr = item.icon.toString();
+          if (updatedIconsSet.has(iconStr)) urls.push(`'${imgBase}ff-icons/${iconStr}_2.png'`);
+          urls.push(`'${imgBase}ff-icons/${iconStr}.png'`);
         }
+        
         const urlsArrayStr = `[${urls.join(',')}]`;
 
         const errHandler = `let urls=${urlsArrayStr}; let idx = parseInt(this.dataset.idx || 0) + 1; if(idx < urls.length) { this.dataset.idx = idx; this.src = urls[idx]; } else { this.onerror=null; this.parentElement.classList.remove('is-loading'); this.style.opacity='1'; this.src='${fallbackUrl}'; this.classList.remove('weapon-tilt'); }`;
-        const initialUrl = `${imgBase}ff-icons/${item.itemID}_2.png`;
+        const initialUrl = urls[0].replace(/'/g, '');
 
         htmlContent += `
           <div class="card ${selClass} is-loading" style="background-image: url('${bgData}'); animation-delay: ${delay}s;" onclick="handleCardClick(${globalIndex}, this)">
@@ -1411,12 +1422,16 @@
 
     function downloadIcon(item) {
       return new Promise(resolve => {
-        const urls = [
-          imgBase + `ff-icons/${item.itemID}_2.png`,
-          imgBase + `ff-icons/${item.itemID}.png`
-        ];
+        const urls = [];
+        const idStr = item.itemID.toString();
+        
+        if (updatedIconsSet.has(idStr)) urls.push(imgBase + `ff-icons/${idStr}_2.png`);
+        urls.push(imgBase + `ff-icons/${idStr}.png`);
+        
         if (item.icon) {
-          urls.push(imgBase + `ff-icons/${item.icon}.png`);
+          const iconStr = item.icon.toString();
+          if (updatedIconsSet.has(iconStr)) urls.push(imgBase + `ff-icons/${iconStr}_2.png`);
+          urls.push(imgBase + `ff-icons/${iconStr}.png`);
         }
 
         const executeDownload = async (finalUrl) => {
@@ -1466,12 +1481,16 @@
         bgImg.crossOrigin = "Anonymous";
         bgImg.src = getRarityBg(item.Rare);
         
-        const urls = [
-          imgBase + `ff-icons/${item.itemID}_2.png`,
-          imgBase + `ff-icons/${item.itemID}.png`
-        ];
+        const urls = [];
+        const idStr = item.itemID.toString();
+        
+        if (updatedIconsSet.has(idStr)) urls.push(imgBase + `ff-icons/${idStr}_2.png`);
+        urls.push(imgBase + `ff-icons/${idStr}.png`);
+        
         if (item.icon) {
-          urls.push(imgBase + `ff-icons/${item.icon}.png`);
+          const iconStr = item.icon.toString();
+          if (updatedIconsSet.has(iconStr)) urls.push(imgBase + `ff-icons/${iconStr}_2.png`);
+          urls.push(imgBase + `ff-icons/${iconStr}.png`);
         }
 
         bgImg.onload = () => {
