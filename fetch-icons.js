@@ -4,7 +4,7 @@ const path = require('path');
 const dataPath = path.join(__dirname, 'ItemsData_en.json');
 const iconsDir = path.join(__dirname, 'ff-icons');
 const CONCURRENCY_LIMIT = 120;
-const FORCE_UPDATE = false;
+const FORCE_UPDATE = true;
 
 const stats = {
     downloaded: 0,
