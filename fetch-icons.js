@@ -13,7 +13,13 @@ const stats = {
     failedItems: []
 };
 
-if (!fs.existsSync(iconsDir)) {
+if (fs.existsSync(iconsDir)) {
+    if (FORCE_UPDATE) {
+        fs.rmSync(iconsDir, { recursive: true, force: true });
+        fs.mkdirSync(iconsDir);
+        console.log('Cleaned ff-icons folder.');
+    }
+} else {
     fs.mkdirSync(iconsDir);
 }
 
@@ -39,47 +45,63 @@ async function downloadIcon(item) {
     const itemID = item.itemID;
     const iconName = item.icon;
     
-    const targets = [
-        { id: itemID, file: `${itemID}.png` },
-        { id: `${itemID}_2`, file: `${itemID}_2.png` }
-    ];
+    let mainIconFound = false;
 
-    if (iconName) {
-        targets.push({ id: iconName, file: `${iconName}.png` });
+    const targetId = { id: itemID, file: `${itemID}.png` };
+    const pathId = path.join(iconsDir, targetId.file);
+    
+    if (!FORCE_UPDATE && fs.existsSync(pathId)) {
+        stats.skipped++;
+        mainIconFound = true;
+    } else {
+        const url1 = `https://kog-ff-icons.vercel.app/api/icon/${targetId.id}?no_fallback=true`;
+        let res1 = await fetchWithRetry(url1);
+        if (res1.ok) {
+            fs.writeFileSync(pathId, Buffer.from(await res1.arrayBuffer()));
+            stats.downloaded++;
+            console.log(`Downloaded: ${targetId.file}`);
+            mainIconFound = true;
+        }
     }
 
-    let isAnyDownloaded = false;
+    if (!mainIconFound && iconName) {
+        const targetIcon = { id: iconName, file: `${iconName}.png` };
+        const pathIcon = path.join(iconsDir, targetIcon.file);
 
-    for (const target of targets) {
-        const savePath = path.join(iconsDir, target.file);
-
-        if (!FORCE_UPDATE && fs.existsSync(savePath)) {
+        if (!FORCE_UPDATE && fs.existsSync(pathIcon)) {
             stats.skipped++;
-            isAnyDownloaded = true;
-            continue;
-        }
-
-        const url = `https://kog-ff-icons.vercel.app/api/icon/${target.id}?no_fallback=true`;
-
-        try {
-            const response = await fetchWithRetry(url);
-            
-            if (response.ok) {
-                const buffer = await response.arrayBuffer();
-                fs.writeFileSync(savePath, Buffer.from(buffer));
+            mainIconFound = true;
+        } else {
+            const urlIcon = `https://kog-ff-icons.vercel.app/api/icon/${targetIcon.id}?no_fallback=true`;
+            let resIcon = await fetchWithRetry(urlIcon);
+            if (resIcon.ok) {
+                fs.writeFileSync(pathIcon, Buffer.from(await resIcon.arrayBuffer()));
                 stats.downloaded++;
-                console.log(`Downloaded: ${target.file}`);
-                isAnyDownloaded = true;
+                console.log(`Downloaded: ${targetIcon.file}`);
+                mainIconFound = true;
             }
-        } catch (error) {
-            console.error(`Error ${target.id}:`, error.message);
         }
     }
 
-    if (!isAnyDownloaded) {
+    if (!mainIconFound) {
         stats.failed++;
         stats.failedItems.push(itemID);
         console.log(`Failed: ${itemID} ${iconName ? '& ' + iconName : ''}`);
+    }
+
+    const targetId2 = { id: `${itemID}_2`, file: `${itemID}_2.png` };
+    const pathId2 = path.join(iconsDir, targetId2.file);
+    
+    if (!FORCE_UPDATE && fs.existsSync(pathId2)) {
+        stats.skipped++;
+    } else {
+        const url2 = `https://kog-ff-icons.vercel.app/api/icon/${targetId2.id}?no_fallback=true`;
+        let res2 = await fetchWithRetry(url2);
+        if (res2.ok) {
+            fs.writeFileSync(pathId2, Buffer.from(await res2.arrayBuffer()));
+            stats.downloaded++;
+            console.log(`Downloaded: ${targetId2.file}`);
+        }
     }
 }
 
