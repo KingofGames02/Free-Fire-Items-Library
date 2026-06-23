@@ -5,7 +5,7 @@ const dataPath = path.join(__dirname, 'ItemsData_en.json');
 const iconsDir = path.join(__dirname, 'ff-icons');
 const ignoreListPath = path.join(__dirname, 'ignore_list.json');
 const CONCURRENCY_LIMIT = 150;
-const FORCE_UPDATE = true;
+const FORCE_UPDATE = false;
 
 const stats = {
     downloaded: 0,
