@@ -39,53 +39,47 @@ async function downloadIcon(item) {
     const itemID = item.itemID;
     const iconName = item.icon;
     
-    const savePathID = path.join(iconsDir, `${itemID}.png`);
-    const savePathIcon = iconName ? path.join(iconsDir, `${iconName}.png`) : null;
+    const targets = [
+        { id: itemID, file: `${itemID}.png` },
+        { id: `${itemID}_2`, file: `${itemID}_2.png` }
+    ];
 
-    if (!FORCE_UPDATE) {
-        if (fs.existsSync(savePathID)) {
+    if (iconName) {
+        targets.push({ id: iconName, file: `${iconName}.png` });
+    }
+
+    let isAnyDownloaded = false;
+
+    for (const target of targets) {
+        const savePath = path.join(iconsDir, target.file);
+
+        if (!FORCE_UPDATE && fs.existsSync(savePath)) {
             stats.skipped++;
-            return;
+            isAnyDownloaded = true;
+            continue;
         }
 
-        if (savePathIcon && fs.existsSync(savePathIcon)) {
-            stats.skipped++;
-            return;
+        const url = `https://kog-ff-icons.vercel.app/api/icon/${target.id}?no_fallback=true`;
+
+        try {
+            const response = await fetchWithRetry(url);
+            
+            if (response.ok) {
+                const buffer = await response.arrayBuffer();
+                fs.writeFileSync(savePath, Buffer.from(buffer));
+                stats.downloaded++;
+                console.log(`Downloaded: ${target.file}`);
+                isAnyDownloaded = true;
+            }
+        } catch (error) {
+            console.error(`Error ${target.id}:`, error.message);
         }
     }
 
-    const url1 = `https://kog-ff-icons.vercel.app/api/icon/${itemID}?no_fallback=true`;
-    const url2 = iconName ? `https://kog-ff-icons.vercel.app/api/icon/${iconName}?no_fallback=true` : null;
-
-    try {
-        let response = await fetchWithRetry(url1);
-        
-        if (response.ok) {
-            const buffer = await response.arrayBuffer();
-            fs.writeFileSync(savePathID, Buffer.from(buffer));
-            stats.downloaded++;
-            console.log(`Downloaded: ${itemID}.png`);
-            return;
-        }
-
-        if (url2) {
-            response = await fetchWithRetry(url2);
-            if (response.ok) {
-                const buffer = await response.arrayBuffer();
-                fs.writeFileSync(savePathIcon, Buffer.from(buffer));
-                stats.downloaded++;
-                console.log(`Downloaded: ${iconName}.png`);
-                return;
-            }
-        }
-        
+    if (!isAnyDownloaded) {
         stats.failed++;
         stats.failedItems.push(itemID);
         console.log(`Failed: ${itemID} ${iconName ? '& ' + iconName : ''}`);
-    } catch (error) {
-        stats.failed++;
-        stats.failedItems.push(itemID);
-        console.error(`Error ${itemID}:`, error.message);
     }
 }
 
