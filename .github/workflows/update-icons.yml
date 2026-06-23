@@ -28,4 +28,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Auto-fetched new icons"
-          file_pattern: 'ff-icons/*.png'
+          file_pattern: 'ff-icons/ updated_icons.json'
