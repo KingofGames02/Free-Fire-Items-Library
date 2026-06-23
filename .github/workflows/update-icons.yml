@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - 'ItemsData_en.json'
+      - 'ignore_list.json'
   workflow_dispatch:
 
 jobs:
