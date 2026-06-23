@@ -106,6 +106,13 @@ async function start() {
 
     await Promise.all(workers);
 
+    const allFiles = fs.readdirSync(iconsDir);
+    const updatedIcons = allFiles
+        .filter(file => file.endsWith('_2.png'))
+        .map(file => file.replace('_2.png', ''));
+    
+    fs.writeFileSync(path.join(__dirname, 'updated_icons.json'), JSON.stringify(updatedIcons));
+
     console.log('\n====================================');
     console.log('         DOWNLOAD SUMMARY           ');
     console.log('====================================');
@@ -113,6 +120,7 @@ async function start() {
     console.log(`Skipped (Exists): ${stats.skipped}`);
     console.log(`Downloaded New  : ${stats.downloaded}`);
     console.log(`Failed          : ${stats.failed}`);
+    console.log(`Updated Icons Detected & Saved: ${updatedIcons.length}`);
     
     if (stats.failedItems.length > 0) {
         console.log('------------------------------------');
