@@ -792,7 +792,7 @@
   </div>
 
   <script>
-    const APP_VERSION = "1.3";
+    const APP_VERSION = "1.4";
     
     if (localStorage.getItem('appVersion') !== APP_VERSION) {
       localStorage.setItem('appVersion', APP_VERSION);
@@ -843,7 +843,7 @@
         types: {
           "Bundles": "الحزم", "Top": "الجزء العلوي", "Bottom": "الجزء السفلي", "Shoe": "الحذاء", "Head": "الرأس", "Mask": "القناع", "Facepaint": "طلاء الوجه",
           "Weapon Skins": "أشكال الأسلحة", "Fist Skins": "أشكال القبضات", "Gloo Walls": "جدران جلو", "Grenade Skin": "أشكال القنبلة اليدوية", "Final Shot": "الطلقة الأخيرة", 
-          "Emote": "الرقصات", "Super Emote": "الرقصات الخارقة", "Arrival Animation": "حركة الوصول", "Finishing Move": "حركة الإنهاء", "Look Changer": "تغيير المظهر", "Vehicle Skins": "أشكال المركبات", "Loot Box": "صندوق الغنائم", "Bag Skins": "أشكال الحقائب", "Parachute": "المظلة", "Skyboard": "لوح التزلج", "Skywings": "الأجنحة", "Hyperbook": "الكتاب التشعبي",
+          "Emote": "الرقصات", "Super Emote": "الرقصات الخارقة", "Arrival Animation": "حركة الوصول", "Finركة الإنهاء", "Look Changer": "تغيير المظهر", "Vehicle Skins": "أشكال المركبات", "Loot Box": "صندوق الغنائم", "Bag Skins": "أشكال الحقائب", "Parachute": "المظلة", "Skyboard": "لوح التزلج", "Skywings": "الأجنحة", "Hyperbook": "الكتاب التشعبي",
           "Banners": "الرايات", "Avatars": "الصور الرمزية", "Profile Pin": "دبوس الملف الشخصي", "Battle Card": "بطاقة المعركة", "Skill Skins": "أشكال المهارات", "Music": "الموسيقى", "Voice Packs": "حزم الأصوات", "Photo Frame": "إطار الصورة", "Avatar Frame": "إطار الصورة الرمزية", "Photo Pose": "وضعيات التصوير", "Stickers": "الملصقات", "Titles": "الألقاب",
           "Characters": "الشخصيات", "Pets": "الحيوانات الأليفة", "Spark Pet Vault": "خزنة حيوانات سبارك الأليفة",
           "Bundle Create": "صناديق الحزم", "Choice Crates": "صناديق الاختيار", "Loot Crates": "صناديق الجوائز", "Weapon Crates": "صناديق الأسلحة", "Exchange Tokens": "توكن الاستبدال", "Vouchers": "القسائم"
@@ -860,10 +860,6 @@
     document.body.setAttribute('dir', currentLang === 'en' ? 'ltr' : 'rtl');
 
     const imgBase = '';
-
-    const customIconMap = {
-      "909853001": "909853001_2"
-    };
 
     let rawItemsData = [], itemsData = [], filteredItems = [], selectedItems = new Set();
     const validRarities = ["ARTIFACT", "MYTHIC++", "MYTHIC", "EPIC++", "EPIC", "RARE", "UNCOMMON", "COMMON"];
@@ -1115,24 +1111,28 @@
         this.style.opacity = '1';
       };
 
-      const primaryName = customIconMap[currentItem.itemID] || currentItem.itemID;
-      const url1 = imgBase + `ff-icons/${primaryName}.png`;
-      const url2 = currentItem.icon ? imgBase + `ff-icons/${currentItem.icon}.png` : '';
       const fallbackUrl = imgBase + 'RareBG_Quality/UNKNOWN.png';
+      
+      const imageSources = [
+        imgBase + `ff-icons/${currentItem.itemID}_2.png`,
+        imgBase + `ff-icons/${currentItem.itemID}.png`
+      ];
+      if (currentItem.icon) {
+        imageSources.push(imgBase + `ff-icons/${currentItem.icon}.png`);
+      }
+      imageSources.push(fallbackUrl);
 
+      let currentSrcIndex = 0;
       modalIconEl.onerror = function() {
-        if (this.dataset.triedIcon === 'true' || !url2) {
-          this.onerror = null;
-          this.src = fallbackUrl;
-          this.classList.remove('weapon-tilt');
+        currentSrcIndex++;
+        if (currentSrcIndex < imageSources.length) {
+          this.src = imageSources[currentSrcIndex];
         } else {
-          this.dataset.triedIcon = 'true';
-          this.src = url2;
+          this.onerror = null;
         }
       };
       
-      modalIconEl.dataset.triedIcon = 'false';
-      modalIconEl.src = url1;
+      modalIconEl.src = imageSources[0];
       
       const nameStr = currentItem.name || (currentItem.icon || "Unknown");
       const modalNameEl = document.getElementById('modalName');
@@ -1243,18 +1243,21 @@
         const globalIndex = itemsData.indexOf(item);
         const selClass = isDevMode && selectedItems.has(globalIndex) ? 'selected' : '';
 
-        const primaryName = customIconMap[item.itemID] || item.itemID;
-        const url1 = imgBase + `ff-icons/${primaryName}.png`;
-        const url2 = item.icon ? imgBase + `ff-icons/${item.icon}.png` : '';
-
-        let errHandler = `this.onerror=null; this.parentElement.classList.remove('is-loading'); this.style.opacity='1'; this.src='${fallbackUrl}'; this.classList.remove('weapon-tilt');`;
-        if (url2) {
-          errHandler = `this.onerror=function(){ this.onerror=null; this.parentElement.classList.remove('is-loading'); this.style.opacity='1'; this.src='${fallbackUrl}'; this.classList.remove('weapon-tilt'); }; this.src='${url2}';`;
+        const urls = [
+          `'${imgBase}ff-icons/${item.itemID}_2.png'`,
+          `'${imgBase}ff-icons/${item.itemID}.png'`
+        ];
+        if (item.icon) {
+          urls.push(`'${imgBase}ff-icons/${item.icon}.png'`);
         }
-        
+        const urlsArrayStr = `[${urls.join(',')}]`;
+
+        const errHandler = `let urls=${urlsArrayStr}; let idx = parseInt(this.dataset.idx || 0) + 1; if(idx < urls.length) { this.dataset.idx = idx; this.src = urls[idx]; } else { this.onerror=null; this.parentElement.classList.remove('is-loading'); this.style.opacity='1'; this.src='${fallbackUrl}'; this.classList.remove('weapon-tilt'); }`;
+        const initialUrl = `${imgBase}ff-icons/${item.itemID}_2.png`;
+
         htmlContent += `
           <div class="card ${selClass} is-loading" style="background-image: url('${bgData}'); animation-delay: ${delay}s;" onclick="handleCardClick(${globalIndex}, this)">
-            <img src="${url1}" class="card-icon" loading="lazy" alt="icon" crossorigin="anonymous" style="opacity: 0;"
+            <img src="${initialUrl}" data-idx="0" class="card-icon" loading="lazy" alt="icon" crossorigin="anonymous" style="opacity: 0;"
                  onload="this.parentElement.classList.remove('is-loading'); this.style.opacity='1'; if(this.naturalWidth === 300 && this.naturalHeight === 90) { this.classList.add('weapon-tilt'); }"
                  onerror="${errHandler}">
           </div>
@@ -1408,9 +1411,13 @@
 
     function downloadIcon(item) {
       return new Promise(resolve => {
-        const primaryName = customIconMap[item.itemID] || item.itemID;
-        const url1 = imgBase + `ff-icons/${primaryName}.png`;
-        const url2 = item.icon ? imgBase + `ff-icons/${item.icon}.png` : '';
+        const urls = [
+          imgBase + `ff-icons/${item.itemID}_2.png`,
+          imgBase + `ff-icons/${item.itemID}.png`
+        ];
+        if (item.icon) {
+          urls.push(imgBase + `ff-icons/${item.icon}.png`);
+        }
 
         const executeDownload = async (finalUrl) => {
           try {
@@ -1438,16 +1445,15 @@
           setTimeout(resolve, 200);
         };
 
-        const img1 = new Image();
-        img1.onload = () => executeDownload(url1);
-        img1.onerror = () => {
-          if (!url2) return resolve();
-          const img2 = new Image();
-          img2.onload = () => executeDownload(url2);
-          img2.onerror = () => resolve();
-          img2.src = url2;
+        const tryNext = (index) => {
+          if (index >= urls.length) { resolve(); return; }
+          const img = new Image();
+          img.onload = () => executeDownload(urls[index]);
+          img.onerror = () => tryNext(index + 1);
+          img.src = urls[index];
         };
-        img1.src = url1;
+        
+        tryNext(0);
       });
     }
 
@@ -1460,58 +1466,60 @@
         bgImg.crossOrigin = "Anonymous";
         bgImg.src = getRarityBg(item.Rare);
         
-        const primaryName = customIconMap[item.itemID] || item.itemID;
-        const url1 = imgBase + `ff-icons/${primaryName}.png`;
-        const url2 = item.icon ? imgBase + `ff-icons/${item.icon}.png` : '';
+        const urls = [
+          imgBase + `ff-icons/${item.itemID}_2.png`,
+          imgBase + `ff-icons/${item.itemID}.png`
+        ];
+        if (item.icon) {
+          urls.push(imgBase + `ff-icons/${item.icon}.png`);
+        }
 
         bgImg.onload = () => {
           ctx.drawImage(bgImg, 0, 0, canvas.width, canvas.height);
-          const iconImg = new Image();
-          iconImg.crossOrigin = "Anonymous";
           
-          iconImg.onload = () => {
-            let drawWidth = iconImg.width;
-            let drawHeight = iconImg.height;
-            const maxDim = canvas.width * 0.8;
-            const ratio = Math.min(maxDim / drawWidth, maxDim / drawHeight);
-            drawWidth *= ratio; drawHeight *= ratio;
-            const isWeapon = (iconImg.naturalWidth === 300 && iconImg.naturalHeight === 90);
+          const tryNextIcon = (index) => {
+            if (index >= urls.length) { resolve(); return; }
+            
+            const iconImg = new Image();
+            iconImg.crossOrigin = "Anonymous";
+            
+            iconImg.onload = () => {
+              let drawWidth = iconImg.width;
+              let drawHeight = iconImg.height;
+              const maxDim = canvas.width * 0.8;
+              const ratio = Math.min(maxDim / drawWidth, maxDim / drawHeight);
+              drawWidth *= ratio; drawHeight *= ratio;
+              const isWeapon = (iconImg.naturalWidth === 300 && iconImg.naturalHeight === 90);
 
-            ctx.save();
-            ctx.translate(canvas.width / 2, canvas.height / 2);
-            if (isWeapon) { ctx.rotate(25 * Math.PI / 180); drawWidth *= 1.4; drawHeight *= 1.4; }
-            ctx.drawImage(iconImg, -drawWidth / 2, -drawHeight / 2, drawWidth, drawHeight);
-            ctx.restore();
+              ctx.save();
+              ctx.translate(canvas.width / 2, canvas.height / 2);
+              if (isWeapon) { ctx.rotate(25 * Math.PI / 180); drawWidth *= 1.4; drawHeight *= 1.4; }
+              ctx.drawImage(iconImg, -drawWidth / 2, -drawHeight / 2, drawWidth, drawHeight);
+              ctx.restore();
 
-            try {
-              canvas.toBlob((blob) => {
-                const url = window.URL.createObjectURL(blob);
-                const a = document.createElement('a');
-                a.style.display = 'none';
-                a.href = url;
-                a.download = `${item.itemID}_full.png`;
-                document.body.appendChild(a);
-                a.click();
-                a.remove();
-                window.URL.revokeObjectURL(url);
-              }, 'image/png');
-            } catch (e) {
-              alert(currentLang === 'en' ? "CORS Error: Missing Access-Control-Allow-Origin header in API." : "خطأ CORS: واجهة الـ API تمنع تحميل الصور المدمجة، راجع إعدادات الـ Header.");
-            }
-            setTimeout(resolve, 200);
-          };
+              try {
+                canvas.toBlob((blob) => {
+                  const url = window.URL.createObjectURL(blob);
+                  const a = document.createElement('a');
+                  a.style.display = 'none';
+                  a.href = url;
+                  a.download = `${item.itemID}_full.png`;
+                  document.body.appendChild(a);
+                  a.click();
+                  a.remove();
+                  window.URL.revokeObjectURL(url);
+                }, 'image/png');
+              } catch (e) {
+                alert(currentLang === 'en' ? "CORS Error: Missing Access-Control-Allow-Origin header in API." : "خطأ CORS: واجهة الـ API تمنع تحميل الصور المدمجة، راجع إعدادات الـ Header.");
+              }
+              setTimeout(resolve, 200);
+            };
 
-          iconImg.onerror = function() {
-            if (this.dataset.triedIcon === 'true' || !url2) {
-              resolve();
-            } else {
-              this.dataset.triedIcon = 'true';
-              this.src = url2;
-            }
+            iconImg.onerror = () => tryNextIcon(index + 1);
+            iconImg.src = urls[index];
           };
           
-          iconImg.dataset.triedIcon = 'false';
-          iconImg.src = url1;
+          tryNextIcon(0);
         };
         bgImg.onerror = () => resolve();
       });
