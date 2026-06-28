@@ -120276,7 +120276,7 @@
         "tag": "OB54"
     },
     {
-        "name": "Not Found",
+        "name": "زعيم الموز (قناع)",
         "description": "Not Found",
         "itemID": 211054048,
         "icon": "Icon_avatar_cos_accessory_TH_Banana",
@@ -120289,7 +120289,7 @@
         "tag": "OB54"
     },
     {
-        "name": "Not Found",
+        "name": "فراولة جريئة (قناع)",
         "description": "Not Found",
         "itemID": 211054049,
         "icon": "Icon_avatar_cos_accessory_TH_Strawberry",
@@ -208875,6 +208875,19 @@
         "description": "افتح للحصول على جوائز مثيرة",
         "itemID": 400054522,
         "icon": "Icon_box_PizzaBox_latam_54",
+        "itemType": "TREASUREBOX",
+        "collectionType": "NONE",
+        "Rare": "RARE",
+        "isUnique": false,
+        "IconInAB": "IconInCDN",
+        "type": "Loot Crates",
+        "tag": "OB54"
+    },
+    {
+        "name": "صندوق توكن (AUG) الصدع الملتهب",
+        "description": "",
+        "itemID": 400054523,
+        "icon": "Icon_box_BFTC_54",
         "itemType": "TREASUREBOX",
         "collectionType": "NONE",
         "Rare": "RARE",
