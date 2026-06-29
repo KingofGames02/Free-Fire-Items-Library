@@ -136,7 +136,6 @@ async function downloadBanner(bannerItem) {
     const iconName = String(bannerItem.icon).toLowerCase();
     
     const isAllIgnored = ignoreData.ignore_all.includes(iconName);
-    const isUpdateIgnored = ignoreData.ignore_update.includes(iconName);
 
     if (isAllIgnored) {
         stats.ignoredFull++;
@@ -165,23 +164,6 @@ async function downloadBanner(bannerItem) {
         stats.failed++;
         stats.failedItems.push(`Banner: ${iconName}`);
         console.log(`Failed: Banner ${iconName}`);
-    }
-
-    if (!isUpdateIgnored) {
-        const targetId2 = { id: `${iconName}_2`, file: `${iconName}_2.png` };
-        const pathId2 = path.join(iconsDir, targetId2.file);
-        
-        if (!FORCE_UPDATE && fs.existsSync(pathId2)) {
-            stats.skipped++;
-        } else {
-            const url2 = `https://kog-ff-icons.vercel.app/api/icon/${targetId2.id}?no_fallback=true`;
-            let res2 = await fetchWithRetry(url2);
-            if (res2.ok) {
-                fs.writeFileSync(pathId2, Buffer.from(await res2.arrayBuffer()));
-                stats.downloaded++;
-                console.log(`Downloaded: ${targetId2.file}`);
-            }
-        }
     }
 }
 
