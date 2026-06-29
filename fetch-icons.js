@@ -2,6 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const dataPath = path.join(__dirname, 'ItemsData_en.json');
+const bannerPath = path.join(__dirname, 'CollectionBanner.json');
 const iconsDir = path.join(__dirname, 'ff-icons');
 const ignoreListPath = path.join(__dirname, 'ignore_list.json');
 const CONCURRENCY_LIMIT = 150;
@@ -57,7 +58,7 @@ async function fetchWithRetry(url, maxRetries = 5) {
 
 async function downloadIcon(item) {
     const itemID = String(item.itemID);
-    const iconName = item.icon ? String(item.icon) : null;
+    const iconName = item.icon ? (item.isBanner ? String(item.icon).toLowerCase() : String(item.icon)) : null;
     
     const isAllIgnored = ignoreData.ignore_all.includes(itemID) || (iconName && ignoreData.ignore_all.includes(iconName));
     const isUpdateIgnored = ignoreData.ignore_update.includes(itemID) || (iconName && ignoreData.ignore_update.includes(iconName));
@@ -130,11 +131,21 @@ async function downloadIcon(item) {
 }
 
 async function start() {
-    const rawData = fs.readFileSync(dataPath, 'utf8');
-    const items = JSON.parse(rawData);
-    
-    const itemsArray = Array.isArray(items) ? items : Object.values(items);
-    const validItems = itemsArray.filter(item => !(item.hideInIndex === true || !item.icon || item.icon.trim() === ""));
+    let validItems = [];
+
+    if (fs.existsSync(dataPath)) {
+        const rawData = fs.readFileSync(dataPath, 'utf8');
+        const items = JSON.parse(rawData);
+        const itemsArray = Array.isArray(items) ? items : Object.values(items);
+        validItems = validItems.concat(itemsArray.filter(item => !(item.hideInIndex === true || !item.icon || item.icon.trim() === "")));
+    }
+
+    if (fs.existsSync(bannerPath)) {
+        const rawBanner = fs.readFileSync(bannerPath, 'utf8');
+        const banners = JSON.parse(rawBanner);
+        const bannerArray = Array.isArray(banners) ? banners : Object.values(banners);
+        validItems = validItems.concat(bannerArray.filter(item => item.icon && item.icon.trim() !== "").map(item => ({ ...item, isBanner: true })));
+    }
 
     let currentIndex = 0;
 
