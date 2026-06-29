@@ -1,1 +1,33 @@
+name: Auto Fetch Icons
 
+on:
+  push:
+    paths:
+      - 'ItemsData_en.json'
+      - 'CollectionBanner.json'
+      - 'ignore_list.json'
+  workflow_dispatch:
+
+jobs:
+  update-icons:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Run fetch script
+        run: node fetch-icons.js
+
+      - name: Commit and Push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Auto-fetched new icons"
+          file_pattern: 'ff-icons/ updated_icons.json'
