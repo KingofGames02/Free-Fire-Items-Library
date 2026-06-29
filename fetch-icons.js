@@ -57,8 +57,8 @@ async function fetchWithRetry(url, maxRetries = 5) {
 }
 
 async function downloadIcon(item) {
-    const itemID = String(item.itemID);
-    const iconName = item.icon ? String(item.icon) : null;
+    const itemID = String(item.Id);
+    const iconName = item.Icon ? String(item.Icon) : null;
     
     const isAllIgnored = ignoreData.ignore_all.includes(itemID) || (iconName && ignoreData.ignore_all.includes(iconName));
     const isUpdateIgnored = ignoreData.ignore_update.includes(itemID) || (iconName && ignoreData.ignore_update.includes(iconName));
@@ -131,9 +131,10 @@ async function downloadIcon(item) {
 }
 
 async function downloadBanner(bannerItem) {
-    if (!bannerItem.icon || bannerItem.icon.trim() === "") return;
+    const iconVal = bannerItem.icon;
+    if (!iconVal || String(iconVal).trim() === "") return;
 
-    const iconName = String(bannerItem.icon).toLowerCase();
+    const iconName = String(iconVal).toLowerCase();
     
     const isAllIgnored = ignoreData.ignore_all.includes(iconName);
 
@@ -174,7 +175,7 @@ async function start() {
         const rawData = fs.readFileSync(dataPath, 'utf8');
         const items = JSON.parse(rawData);
         const itemsArray = Array.isArray(items) ? items : Object.values(items);
-        const validItems = itemsArray.filter(item => !(item.hideInIndex === true || !item.icon || item.icon.trim() === ""));
+        const validItems = itemsArray.filter(item => !(item.HideInIndex === true || !item.Icon || String(item.Icon).trim() === ""));
         
         validItems.forEach(item => {
             tasks.push(() => downloadIcon(item));

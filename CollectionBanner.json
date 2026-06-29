@@ -991,7 +991,7 @@
     },
     {
         "itemID": 901000110,
-        "name": "Black End",
+        "name": "Black Death",
         "sortID": 1,
         "sourceType": 4,
         "icon": "Icon_callsign_basebg_plague_doctor_02",
@@ -1162,7 +1162,7 @@
     },
     {
         "itemID": 901000129,
-        "name": "Lunar Mars",
+        "name": "Blood Moon's Night",
         "sortID": 1,
         "sourceType": 4,
         "icon": "Icon_callsign_basebg_bloodmoon",
@@ -1225,7 +1225,7 @@
     },
     {
         "itemID": 901000136,
-        "name": "Golden Hope",
+        "name": "Day of Death",
         "sortID": 1,
         "sourceType": 4,
         "icon": "Icon_callsign_basebg_apocalypse_02",
@@ -1234,7 +1234,7 @@
     },
     {
         "itemID": 901000137,
-        "name": "Mask of Mayhem",
+        "name": "Mask of Death",
         "sortID": 1,
         "sourceType": 5,
         "icon": "Icon_callsign_basebg_EP_WarDeath01",
@@ -1477,7 +1477,7 @@
     },
     {
         "itemID": 901000164,
-        "name": "Cold Gunman",
+        "name": "Deadly Killer",
         "sortID": 1,
         "sourceType": 1,
         "icon": "Icon_callsign_basebg_16_Hitman",
@@ -1621,7 +1621,7 @@
     },
     {
         "itemID": 901000180,
-        "name": "Samurai's Rage",
+        "name": "Blood Rush",
         "sortID": 1,
         "sourceType": 5,
         "icon": "Icon_callsign_basebg_Bloodmoonmk2_EP_A",
@@ -1630,7 +1630,7 @@
     },
     {
         "itemID": 901000181,
-        "name": "Stealth Honor",
+        "name": "Blood Price",
         "sortID": 1,
         "sourceType": 5,
         "icon": "Icon_callsign_basebg_Bloodmoonmk2_EP_B",
@@ -1639,7 +1639,7 @@
     },
     {
         "itemID": 901000182,
-        "name": "Red Lurk",
+        "name": "Blood Revenge",
         "sortID": 1,
         "sourceType": 5,
         "icon": "Icon_callsign_basebg_Bloodmoonmk2_FP",
@@ -1783,7 +1783,7 @@
     },
     {
         "itemID": 901000199,
-        "name": "Towards Nowhere Banner",
+        "name": "Ship of Death",
         "sortID": 1,
         "sourceType": 5,
         "icon": "Icon_callsign_basebg_Piratemk2_EP_A",
@@ -2413,7 +2413,7 @@
     },
     {
         "itemID": 901000269,
-        "name": "The End Is Coming",
+        "name": "Death is coming",
         "sortID": 1,
         "sourceType": 4,
         "icon": "Icon_callsign_basebg_Death2020",
@@ -2539,7 +2539,7 @@
     },
     {
         "itemID": 901000283,
-        "name": "Greenish Disaster",
+        "name": "Greenish death",
         "sortID": 1,
         "sourceType": 4,
         "icon": "Icon_callsign_basebg_Faimplague2",
@@ -3142,7 +3142,7 @@
     },
     {
         "itemID": 901026001,
-        "name": "Batwing City",
+        "name": "Bloodwing City",
         "sortID": 1,
         "sourceType": 5,
         "icon": "Icon_callsign_basebg_Vampirebat_EP_A",
@@ -3151,7 +3151,7 @@
     },
     {
         "itemID": 901026002,
-        "name": "Batwing",
+        "name": "Bloodsuckers",
         "sortID": 1,
         "sourceType": 5,
         "icon": "Icon_callsign_basebg_Vampirebat_EP_B",
@@ -4015,7 +4015,7 @@
     },
     {
         "itemID": 901029017,
-        "name": "BR Ranked Heroic",
+        "name": "BR-Ranked Heroic",
         "sortID": 1,
         "sourceType": 3,
         "icon": "Icon_callsign_basebg_BRRank_New",
@@ -4564,7 +4564,7 @@
     },
     {
         "itemID": 901031031,
-        "name": "Red Ink",
+        "name": "Blood Ink",
         "sortID": 1,
         "sourceType": 4,
         "icon": "Icon_callsign_basebg_Jumpsuit2",
@@ -5581,7 +5581,7 @@
     },
     {
         "itemID": 901035002,
-        "name": "Shark Tooth Banner",
+        "name": "Death Tooth Banner",
         "sortID": 1,
         "sourceType": 5,
         "icon": "Icon_callsign_basebg_Deepseasharks_EP_B",
@@ -5977,7 +5977,7 @@
     },
     {
         "itemID": 901036022,
-        "name": "Silent Pistol Banner",
+        "name": "Deatheye's Pistol Banner",
         "sortID": 1,
         "sourceType": 4,
         "icon": "Icon_callsign_basebg_Sniper_EU",
@@ -8092,7 +8092,7 @@
     },
     {
         "itemID": 901048008,
-        "name": "Rang Barse Banner",
+        "name": "Crystalline Wonder Banner",
         "sortID": 1,
         "sourceType": 4,
         "icon": "Icon_callsign_basebg_Holi25",
@@ -8551,7 +8551,7 @@
     },
     {
         "itemID": 901050015,
-        "name": "Diwali Theme Banner",
+        "name": "Light Fest Theme Banner",
         "sortID": 1,
         "sourceType": 4,
         "icon": "Icon_callsign_basebg_Diwali25",
@@ -8767,7 +8767,7 @@
     },
     {
         "itemID": 901052002,
-        "name": "Holi Banner",
+        "name": "Beat Carnival Banner",
         "sortID": 1,
         "sourceType": 4,
         "icon": "Icon_callsign_basebg_Carnival26",
