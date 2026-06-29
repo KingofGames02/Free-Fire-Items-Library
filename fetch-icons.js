@@ -58,7 +58,7 @@ async function fetchWithRetry(url, maxRetries = 5) {
 
 async function downloadIcon(item) {
     const itemID = String(item.itemID);
-    const iconName = item.icon ? (item.isBanner ? String(item.icon).toLowerCase() : String(item.icon)) : null;
+    const iconName = item.icon ? String(item.icon) : null;
     
     const isAllIgnored = ignoreData.ignore_all.includes(itemID) || (iconName && ignoreData.ignore_all.includes(iconName));
     const isUpdateIgnored = ignoreData.ignore_update.includes(itemID) || (iconName && ignoreData.ignore_update.includes(iconName));
@@ -130,29 +130,91 @@ async function downloadIcon(item) {
     }
 }
 
+async function downloadBanner(bannerItem) {
+    if (!bannerItem.icon || bannerItem.icon.trim() === "") return;
+
+    const iconName = String(bannerItem.icon).toLowerCase();
+    
+    const isAllIgnored = ignoreData.ignore_all.includes(iconName);
+    const isUpdateIgnored = ignoreData.ignore_update.includes(iconName);
+
+    if (isAllIgnored) {
+        stats.ignoredFull++;
+        return;
+    }
+
+    let mainIconFound = false;
+    const targetIcon = { id: iconName, file: `${iconName}.png` };
+    const pathIcon = path.join(iconsDir, targetIcon.file);
+
+    if (!FORCE_UPDATE && fs.existsSync(pathIcon)) {
+        stats.skipped++;
+        mainIconFound = true;
+    } else {
+        const urlIcon = `https://kog-ff-icons.vercel.app/api/icon/${targetIcon.id}?no_fallback=true`;
+        let resIcon = await fetchWithRetry(urlIcon);
+        if (resIcon.ok) {
+            fs.writeFileSync(pathIcon, Buffer.from(await resIcon.arrayBuffer()));
+            stats.downloaded++;
+            console.log(`Downloaded: ${targetIcon.file}`);
+            mainIconFound = true;
+        }
+    }
+
+    if (!mainIconFound) {
+        stats.failed++;
+        stats.failedItems.push(`Banner: ${iconName}`);
+        console.log(`Failed: Banner ${iconName}`);
+    }
+
+    if (!isUpdateIgnored) {
+        const targetId2 = { id: `${iconName}_2`, file: `${iconName}_2.png` };
+        const pathId2 = path.join(iconsDir, targetId2.file);
+        
+        if (!FORCE_UPDATE && fs.existsSync(pathId2)) {
+            stats.skipped++;
+        } else {
+            const url2 = `https://kog-ff-icons.vercel.app/api/icon/${targetId2.id}?no_fallback=true`;
+            let res2 = await fetchWithRetry(url2);
+            if (res2.ok) {
+                fs.writeFileSync(pathId2, Buffer.from(await res2.arrayBuffer()));
+                stats.downloaded++;
+                console.log(`Downloaded: ${targetId2.file}`);
+            }
+        }
+    }
+}
+
 async function start() {
-    let validItems = [];
+    const tasks = [];
 
     if (fs.existsSync(dataPath)) {
         const rawData = fs.readFileSync(dataPath, 'utf8');
         const items = JSON.parse(rawData);
         const itemsArray = Array.isArray(items) ? items : Object.values(items);
-        validItems = validItems.concat(itemsArray.filter(item => !(item.hideInIndex === true || !item.icon || item.icon.trim() === "")));
+        const validItems = itemsArray.filter(item => !(item.hideInIndex === true || !item.icon || item.icon.trim() === ""));
+        
+        validItems.forEach(item => {
+            tasks.push(() => downloadIcon(item));
+        });
     }
 
     if (fs.existsSync(bannerPath)) {
         const rawBanner = fs.readFileSync(bannerPath, 'utf8');
         const banners = JSON.parse(rawBanner);
         const bannerArray = Array.isArray(banners) ? banners : Object.values(banners);
-        validItems = validItems.concat(bannerArray.filter(item => item.icon && item.icon.trim() !== "").map(item => ({ ...item, isBanner: true })));
+        
+        bannerArray.forEach(banner => {
+            tasks.push(() => downloadBanner(banner));
+        });
     }
 
     let currentIndex = 0;
 
     async function worker() {
-        while (currentIndex < validItems.length) {
-            const item = validItems[currentIndex++];
-            await downloadIcon(item);
+        while (currentIndex < tasks.length) {
+            const task = tasks[currentIndex++];
+            await task();
         }
     }
 
@@ -174,7 +236,7 @@ async function start() {
     console.log('\n====================================');
     console.log('         DOWNLOAD SUMMARY           ');
     console.log('====================================');
-    console.log(`Total Processed : ${validItems.length}`);
+    console.log(`Total Processed : ${tasks.length}`);
     console.log(`Fully Ignored   : ${stats.ignoredFull}`);
     console.log(`Skipped (Exists): ${stats.skipped}`);
     console.log(`Downloaded New  : ${stats.downloaded}`);
@@ -183,7 +245,7 @@ async function start() {
     
     if (stats.failedItems.length > 0) {
         console.log('------------------------------------');
-        console.log('Failed Items IDs:');
+        console.log('Failed Items IDs / Banners:');
         console.log(stats.failedItems.join(', '));
     }
     console.log('====================================\n');
