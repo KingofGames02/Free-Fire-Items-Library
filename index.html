@@ -530,6 +530,7 @@
     .btn-share { background: linear-gradient(135deg, #10b981, #059669); }
     .btn-dl-icon { background: linear-gradient(135deg, #3b82f6, #2563eb); }
     .btn-dl-bg { background: linear-gradient(135deg, #8b5cf6, #6d28d9); }
+    .btn-dl-banner { background: linear-gradient(135deg, #f59e0b, #d97706); }
 
     .modal-btn:hover { transform: translateY(-3px) scale(1.05); }
 
@@ -787,12 +788,15 @@
         <button class="modal-btn btn-dl-bg" id="btnDlBg">
           <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
         </button>
+        <button class="modal-btn btn-dl-banner" id="btnDlBanner" style="display: none;" title="Download Callsign BaseBG">
+          <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
+        </button>
       </div>
     </div>
   </div>
 
   <script>
-    const APP_VERSION = "1.0.0";
+    const APP_VERSION = "1.0.1";
     
     if (localStorage.getItem('appVersion') !== APP_VERSION) {
       localStorage.setItem('appVersion', APP_VERSION);
@@ -843,7 +847,7 @@
         types: {
           "Bundles": "الحزم", "Top": "الجزء العلوي", "Bottom": "الجزء السفلي", "Shoe": "الحذاء", "Head": "الرأس", "Mask": "القناع", "Facepaint": "طلاء الوجه",
           "Weapon Skins": "أشكال الأسلحة", "Fist Skins": "أشكال القبضات", "Gloo Walls": "جدران جلو", "Grenade Skin": "أشكال القنبلة اليدوية", "Final Shot": "الطلقة الأخيرة", 
-          "Emote": "الرقصات", "Super Emote": "الرقصات الخارقة", "Arrival Animation": "حركة الوصول", "Finishing Move": "حركة الإنهاء", "Look Changer": "تغيير المظهر", "Vehicle Skins": "أشكال المركبات", "Loot Box": "صندوق الغنائم", "Bag Skins": "أشكال الحقائب", "Parachute": "المظلة", "Skyboard": "لوح التزلج", "Skywings": "الأجنحة", "Hyperbook": "الكتاب التشعبي",
+          "Emote": "الرقصات", "Super Emote": "الرقصات الخارقة", "Arrival Animation": "حركة الوصول", "حركة الإنهاء": "Finishing Move", "Look Changer": "تغيير المظهر", "Vehicle Skins": "أشكال المركبات", "Loot Box": "صندوق الغنائم", "Bag Skins": "أشكال الحقائب", "Parachute": "المظلة", "Skyboard": "لوح التزلج", "Skywings": "الأجنحة", "Hyperbook": "الكتاب التشعبي",
           "Banners": "الرايات", "Avatars": "الصور الرمزية", "Profile Pin": "دبوس الملف الشخصي", "Battle Card": "بطاقة المعركة", "Skill Skins": "أشكال المهارات", "Music": "الموسيقى", "Voice Packs": "حزم الأصوات", "Photo Frame": "إطار الصورة", "Avatar Frame": "إطار الصورة الرمزية", "Photo Pose": "وضعيات التصوير", "Stickers": "الملصقات", "Titles": "الألقاب",
           "Characters": "الشخصيات", "Pets": "الحيوانات الأليفة", "Spark Pet Vault": "خزنة حيوانات سبارك الأليفة",
           "Bundle Create": "صناديق الحزم", "Choice Crates": "صناديق الاختيار", "Loot Crates": "صناديق الجوائز", "Weapon Crates": "صناديق الأسلحة", "Exchange Tokens": "توكن الاستبدال", "Vouchers": "القسائم"
@@ -863,6 +867,8 @@
 
     let rawItemsData = [], itemsData = [], filteredItems = [], selectedItems = new Set();
     let updatedIconsSet = new Set();
+    let collectionBanners = [];
+    let currentBannerIconLower = null;
     
     const validRarities = ["ARTIFACT", "MYTHIC++", "MYTHIC", "EPIC++", "EPIC", "RARE", "UNCOMMON", "COMMON"];
     const typeGroups = [
@@ -997,12 +1003,14 @@
       
       Promise.all([
         fetch(`${file}?v=${APP_VERSION}`).then(r => { if (!r.ok) throw new Error("HTTP error"); return r.json(); }),
-        fetch(`updated_icons.json?v=${APP_VERSION}`).then(r => r.ok ? r.json() : []).catch(() => [])
+        fetch(`updated_icons.json?v=${APP_VERSION}`).then(r => r.ok ? r.json() : []).catch(() => []),
+        fetch(`CollectionBanner.json?v=${APP_VERSION}`).then(r => r.ok ? r.json() : []).catch(() => [])
       ])
-        .then(([data, updatedData]) => {
+        .then(([data, updatedData, bannerData]) => {
           try {
             rawItemsData = Array.isArray(data) ? data : Object.values(data);
             updatedIconsSet = new Set(updatedData);
+            collectionBanners = Array.isArray(bannerData) ? bannerData : Object.values(bannerData);
             
             filterRawItems();
             setupFilters();
@@ -1100,6 +1108,11 @@
 
     function openModal(globalIndex) {
       currentItem = itemsData[globalIndex];
+      
+      const bannerObj = collectionBanners.find(b => b.itemID === currentItem.itemID);
+      const isBanner = !!bannerObj;
+      currentBannerIconLower = (isBanner && bannerObj.icon) ? String(bannerObj.icon).toLowerCase() : null;
+
       const modalIconEl = document.getElementById('modalIcon');
       
       modalIconEl.style.transition = 'none';
@@ -1118,13 +1131,18 @@
       const imageSources = [];
       const idStr = currentItem.itemID.toString();
       
-      if (updatedIconsSet.has(idStr)) imageSources.push(imgBase + `ff-icons/${idStr}_2.png`);
-      imageSources.push(imgBase + `ff-icons/${idStr}.png`);
-      
-      if (currentItem.icon) {
-        const iconStr = currentItem.icon.toString();
-        if (updatedIconsSet.has(iconStr)) imageSources.push(imgBase + `ff-icons/${iconStr}_2.png`);
-        imageSources.push(imgBase + `ff-icons/${iconStr}.png`);
+      if (isBanner && currentBannerIconLower) {
+        if (updatedIconsSet.has(currentBannerIconLower)) imageSources.push(imgBase + `ff-icons/${currentBannerIconLower}_2.png`);
+        imageSources.push(imgBase + `ff-icons/${currentBannerIconLower}.png`);
+      } else {
+        if (updatedIconsSet.has(idStr)) imageSources.push(imgBase + `ff-icons/${idStr}_2.png`);
+        imageSources.push(imgBase + `ff-icons/${idStr}.png`);
+        
+        if (currentItem.icon) {
+          const iconStr = currentItem.icon.toString();
+          if (updatedIconsSet.has(iconStr)) imageSources.push(imgBase + `ff-icons/${iconStr}_2.png`);
+          imageSources.push(imgBase + `ff-icons/${iconStr}.png`);
+        }
       }
       imageSources.push(fallbackUrl);
 
@@ -1156,7 +1174,7 @@
       else if (idLen < 25) modalIdEl.style.fontSize = '0.7rem';
       else modalIdEl.style.fontSize = '0.6rem';
       
-      const iconStr = currentItem.icon || "N/A";
+      const iconStr = (isBanner && currentBannerIconLower) ? currentBannerIconLower : (currentItem.icon || "N/A");
       const modalIconIdEl = document.getElementById('modalIconId');
       modalIconIdEl.textContent = iconStr;
       let iconLen = iconStr.length;
@@ -1169,6 +1187,14 @@
       document.getElementById('modalDesc').textContent = currentItem.description || (currentLang === 'en' ? "No description available." : "لا يوجد وصف.");
       
       document.getElementById('btnCopyId').innerHTML = copyIconSVG;
+
+      const btnDlBanner = document.getElementById('btnDlBanner');
+      if (isBanner && currentBannerIconLower) {
+        btnDlBanner.style.display = 'flex';
+      } else {
+        btnDlBanner.style.display = 'none';
+      }
+
       document.getElementById('itemModal').style.display = 'flex';
     }
 
@@ -1544,12 +1570,62 @@
       });
     }
 
+    function downloadSpecificIcon(iconName, itemID) {
+      return new Promise(resolve => {
+        const urls = [];
+        if (updatedIconsSet.has(iconName)) urls.push(imgBase + `ff-icons/${iconName}_2.png`);
+        urls.push(imgBase + `ff-icons/${iconName}.png`);
+        
+        const executeDownload = async (finalUrl) => {
+          try {
+            const response = await fetch(finalUrl, { method: 'GET', mode: 'cors' });
+            if (!response.ok) throw new Error("HTTP error");
+            const blob = await response.blob();
+            const url = window.URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.style.display = 'none';
+            a.href = url;
+            a.download = `${itemID}_banner.png`;
+            document.body.appendChild(a);
+            a.click();
+            a.remove();
+            window.URL.revokeObjectURL(url);
+          } catch (e) {
+            const a = document.createElement('a');
+            a.href = finalUrl;
+            a.download = `${itemID}_banner.png`;
+            a.target = '_blank';
+            document.body.appendChild(a);
+            a.click();
+            a.remove();
+          }
+          setTimeout(resolve, 200);
+        };
+
+        const tryNext = (index) => {
+          if (index >= urls.length) { resolve(); return; }
+          const img = new Image();
+          img.onload = () => executeDownload(urls[index]);
+          img.onerror = () => tryNext(index + 1);
+          img.src = urls[index];
+        };
+        
+        tryNext(0);
+      });
+    }
+
     document.getElementById('btnDlIcon').addEventListener('click', () => {
       if (currentItem) downloadIcon(currentItem);
     });
 
     document.getElementById('btnDlBg').addEventListener('click', () => {
       if (currentItem) downloadIconBg(currentItem);
+    });
+
+    document.getElementById('btnDlBanner').addEventListener('click', () => {
+      if (currentItem && currentBannerIconLower) {
+        downloadSpecificIcon(currentBannerIconLower, currentItem.itemID);
+      }
     });
 
     function getItemsToProcess() {
