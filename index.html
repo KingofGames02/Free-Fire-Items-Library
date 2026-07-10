@@ -465,6 +465,21 @@
       background: radial-gradient(circle, rgba(255,255,255,0.05) 0%, rgba(0,0,0,0.3) 100%);
       border: 1px dashed rgba(255,255,255,0.1);
     }
+
+    .modal-icon-container.is-loading {
+      position: relative;
+      overflow: hidden;
+    }
+    .modal-icon-container.is-loading::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(110deg, transparent 20%, rgba(255, 255, 255, 0.1) 50%, transparent 80%);
+      background-size: 200% 100%;
+      animation: shimmer 1.5s infinite linear;
+      z-index: 5;
+      border-radius: var(--radius);
+    }
     
     .modal-float-wrapper {
       display: flex; justify-content: center; align-items: center;
@@ -528,9 +543,6 @@
     }
 
     .btn-share { background: linear-gradient(135deg, #10b981, #059669); }
-    .btn-dl-icon { background: linear-gradient(135deg, #3b82f6, #2563eb); }
-    .btn-dl-bg { background: linear-gradient(135deg, #8b5cf6, #6d28d9); }
-    .btn-dl-banner { background: linear-gradient(135deg, #f59e0b, #d97706); }
 
     .modal-btn:hover { transform: translateY(-3px) scale(1.05); }
 
@@ -755,6 +767,10 @@
           <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
           <span id="txtDlOpt2">Download icons with rarity backgrounds</span>
         </button>
+        <button class="dl-opt-btn" id="btnDlOpt3" style="display: none;">
+          <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
+          <span id="txtDlOpt3">Download Banner Base BG</span>
+        </button>
       </div>
     </div>
   </div>
@@ -782,13 +798,7 @@
         <button class="modal-btn btn-share" id="btnShare">
           <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z"></path></svg>
         </button>
-        <button class="modal-btn btn-dl-icon" id="btnDlIcon">
-          <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
-        </button>
-        <button class="modal-btn btn-dl-bg" id="btnDlBg">
-          <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
-        </button>
-        <button class="modal-btn btn-dl-banner" id="btnDlBanner" style="display: none;" title="Download Callsign BaseBG">
+        <button class="modal-btn" id="btnDlMain" style="background: linear-gradient(135deg, #10b981, #059669);">
           <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
         </button>
       </div>
@@ -796,7 +806,7 @@
   </div>
 
   <script>
-    const APP_VERSION = "1.0.0";
+    const APP_VERSION = "1.0.1";
     
     if (localStorage.getItem('appVersion') !== APP_VERSION) {
       localStorage.setItem('appVersion', APP_VERSION);
@@ -814,7 +824,7 @@
         itemId: "Item id:", iconId: "Icon id:", desc: "Description:", settings: "Settings", devMode: "Developer Mode",
         devDesc: "Tap cards to copy IDs or Download icons", copyIds: "Copy Page IDs", copySelIds: "Copy Selected IDs",
         dlIcons: "Download Page icons", dlSelIcons: "Download Selected icons", dlTitle: "Download options",
-        dlOpt1: "Download icons", dlOpt2: "Download icons with rarity backgrounds",
+        dlOpt1: "Download icons", dlOpt2: "Download icons with rarity backgrounds", dlOpt3: "Download Banner Base BG",
         shareItemText: "Check out this item:", shareSearchText: "Check out this Items Collection:",
         wishlistManager: "Wishlist Manager",
         rarities: {
@@ -837,7 +847,7 @@
         itemId: "معرف العنصر:", iconId: "معرف الأيقونة:", desc: "الوصف:", settings: "الإعدادات", devMode: "وضع المطور",
         devDesc: "اضغط على البطاقات لتحديد العناصر لنسخ المعرفات أو تحميل الأيقونات", copyIds: "نسخ معرفات الصفحة", copySelIds: "نسخ المعرفات المحددة",
         dlIcons: "تحميل أيقونات الصفحة", dlSelIcons: "تحميل الأيقونات المحددة", dlTitle: "خيارات التحميل",
-        dlOpt1: "تحميل الأيقونات", dlOpt2: "تحميل الأيقونات مع خلفيات الندرة",
+        dlOpt1: "تحميل الأيقونات", dlOpt2: "تحميل الأيقونات مع خلفيات الندرة", dlOpt3: "تحميل خلفيات الرايات",
         shareItemText: "اطلع على هذا العنصر:", shareSearchText: "اطلع على هذه المجموعة من العناصر:",
         wishlistManager: "مدير قائمة الأمنيات",
         rarities: {
@@ -882,6 +892,7 @@
     let updatedIconsSet = new Set();
     let collectionBanners = [];
     let currentBannerIconLower = null;
+    let dlModalSource = 'batch';
     
     const validRarities = ["ARTIFACT", "MYTHIC++", "MYTHIC", "EPIC++", "EPIC", "RARE", "UNCOMMON", "COMMON"];
     const typeGroups = [
@@ -988,6 +999,7 @@
       document.getElementById('txtDlTitle').textContent = text.dlTitle;
       document.getElementById('txtDlOpt1').textContent = text.dlOpt1;
       document.getElementById('txtDlOpt2').textContent = text.dlOpt2;
+      document.getElementById('txtDlOpt3').textContent = text.dlOpt3;
       document.getElementById('wishlistBtn').title = text.wishlistManager;
       updateDevButtons();
     }
@@ -1132,13 +1144,16 @@
       const isBanner = !!bannerObj;
       currentBannerIconLower = (isBanner && bannerObj.icon) ? String(bannerObj.icon).toLowerCase() : null;
 
+      const modalIconContainer = document.querySelector('.modal-icon-container');
       const modalIconEl = document.getElementById('modalIcon');
       
+      modalIconContainer.classList.add('is-loading');
       modalIconEl.style.transition = 'none';
       modalIconEl.style.opacity = '0';
       modalIconEl.className = 'modal-icon';
       
       modalIconEl.onload = function() {
+        modalIconContainer.classList.remove('is-loading');
         if (this.src.includes('UNKNOWN.png')) this.classList.add('unknown-scale');
         else if (this.naturalWidth === 300 && this.naturalHeight === 90) this.classList.add('weapon-tilt');
         void this.offsetWidth;
@@ -1172,6 +1187,7 @@
           this.src = imageSources[currentSrcIndex];
         } else {
           this.onerror = null;
+          modalIconContainer.classList.remove('is-loading');
         }
       };
       
@@ -1208,13 +1224,6 @@
       document.getElementById('modalDesc').textContent = (currentItem.Desc && currentItem.Desc.trim() !== "") ? currentItem.Desc : descFallback;
       
       document.getElementById('btnCopyId').innerHTML = copyIconSVG;
-
-      const btnDlBanner = document.getElementById('btnDlBanner');
-      if (isBanner && currentBannerIconLower) {
-        btnDlBanner.style.display = 'flex';
-      } else {
-        btnDlBanner.style.display = 'none';
-      }
 
       document.getElementById('itemModal').style.display = 'flex';
     }
@@ -1637,20 +1646,6 @@
       });
     }
 
-    document.getElementById('btnDlIcon').addEventListener('click', () => {
-      if (currentItem) downloadIcon(currentItem);
-    });
-
-    document.getElementById('btnDlBg').addEventListener('click', () => {
-      if (currentItem) downloadIconBg(currentItem);
-    });
-
-    document.getElementById('btnDlBanner').addEventListener('click', () => {
-      if (currentItem && currentBannerIconLower) {
-        downloadSpecificIcon(currentBannerIconLower, currentItem.Id);
-      }
-    });
-
     function getItemsToProcess() {
       if (selectedItems.size > 0) {
         return Array.from(selectedItems).map(idx => itemsData[idx]);
@@ -1671,28 +1666,64 @@
       });
     });
 
+    document.getElementById('btnDlMain').addEventListener('click', () => {
+      if (!currentItem) return;
+      dlModalSource = 'single';
+      const isBanner = currentBannerIconLower != null;
+      document.getElementById('btnDlOpt3').style.display = isBanner ? 'flex' : 'none';
+      document.getElementById('dlTypeModal').style.display = 'flex';
+    });
+
     document.getElementById('btnDevDl').addEventListener('click', () => {
+      dlModalSource = 'batch';
+      const items = getItemsToProcess();
+      const allBanners = items.length > 0 && items.every(item => {
+         const b = collectionBanners.find(cb => cb.itemID === item.Id);
+         return b && b.icon;
+      });
+      document.getElementById('btnDlOpt3').style.display = allBanners ? 'flex' : 'none';
       document.getElementById('dlTypeModal').style.display = 'flex';
     });
 
     document.getElementById('btnDlOpt1').addEventListener('click', async () => {
       closeDlTypeModal();
-      const items = getItemsToProcess();
+      const items = dlModalSource === 'single' ? [currentItem] : getItemsToProcess();
       mainLoader.style.opacity = '1';
       for (const item of items) { await downloadIcon(item); }
       mainLoader.style.opacity = '0';
-      selectedItems.clear();
-      renderPage(currentPage);
+      if (dlModalSource === 'batch') {
+        selectedItems.clear();
+        renderPage(currentPage);
+      }
     });
 
     document.getElementById('btnDlOpt2').addEventListener('click', async () => {
       closeDlTypeModal();
-      const items = getItemsToProcess();
+      const items = dlModalSource === 'single' ? [currentItem] : getItemsToProcess();
       mainLoader.style.opacity = '1';
       for (const item of items) { await downloadIconBg(item); }
       mainLoader.style.opacity = '0';
-      selectedItems.clear();
-      renderPage(currentPage);
+      if (dlModalSource === 'batch') {
+        selectedItems.clear();
+        renderPage(currentPage);
+      }
+    });
+
+    document.getElementById('btnDlOpt3').addEventListener('click', async () => {
+      closeDlTypeModal();
+      const items = dlModalSource === 'single' ? [currentItem] : getItemsToProcess();
+      mainLoader.style.opacity = '1';
+      for (const item of items) {
+        const b = collectionBanners.find(cb => cb.itemID === item.Id);
+        if (b && b.icon) {
+          await downloadSpecificIcon(String(b.icon).toLowerCase(), item.Id);
+        }
+      }
+      mainLoader.style.opacity = '0';
+      if (dlModalSource === 'batch') {
+        selectedItems.clear();
+        renderPage(currentPage);
+      }
     });
 
     updateUIStrings();
