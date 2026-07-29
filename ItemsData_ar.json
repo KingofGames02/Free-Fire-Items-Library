@@ -39338,6 +39338,19 @@
         "Tag": "OB54"
     },
     {
+        "Id": 203054042,
+        "Type": "CLOTHES",
+        "CollectionType": "NONE",
+        "Name": "قميص أبطال EWC 2026",
+        "Desc": "",
+        "Icon": "Icon_avatar_cos_top_ewc26",
+        "Rare": "Blue",
+        "IsUnique": true,
+        "IconInAB": "CDN",
+        "Category": "Top",
+        "Tag": "OB54"
+    },
+    {
         "Id": 204000000,
         "Type": "CLOTHES",
         "CollectionType": "NONE",
@@ -333594,6 +333607,19 @@
         "Tag": "OB54"
     },
     {
+        "Id": 901054016,
+        "Type": "COLLECTION",
+        "CollectionType": "BANNER",
+        "Name": "راية رحلة الصيف",
+        "Desc": "",
+        "Icon": "Icon_callsign_storebg_SummerVoyage",
+        "Rare": "Purple",
+        "IsUnique": true,
+        "IconInAB": "CDN",
+        "Category": "Banners",
+        "Tag": "OB54"
+    },
+    {
         "Id": 902000001,
         "Type": "COLLECTION",
         "CollectionType": "HEADPIC",
@@ -346952,6 +346978,45 @@
         "Desc": "",
         "Icon": "Icon_face_CraftlandLevel_O",
         "Rare": "Orange",
+        "IsUnique": true,
+        "IconInAB": "CDN",
+        "Category": "Avatars",
+        "Tag": "OB54"
+    },
+    {
+        "Id": 902054018,
+        "Type": "COLLECTION",
+        "CollectionType": "HEADPIC",
+        "Name": "صورة الرمال",
+        "Desc": "",
+        "Icon": "Icon_face_Sands",
+        "Rare": "Purple",
+        "IsUnique": true,
+        "IconInAB": "CDN",
+        "Category": "Avatars",
+        "Tag": "OB54"
+    },
+    {
+        "Id": 902054019,
+        "Type": "COLLECTION",
+        "CollectionType": "HEADPIC",
+        "Name": "صورة الأمواج",
+        "Desc": "",
+        "Icon": "Icon_face_Waves",
+        "Rare": "Purple",
+        "IsUnique": true,
+        "IconInAB": "CDN",
+        "Category": "Avatars",
+        "Tag": "OB54"
+    },
+    {
+        "Id": 902054020,
+        "Type": "COLLECTION",
+        "CollectionType": "HEADPIC",
+        "Name": "صورة البحار",
+        "Desc": "",
+        "Icon": "Icon_face_Seas",
+        "Rare": "Purple",
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Avatars",
