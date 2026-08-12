@@ -39351,6 +39351,19 @@
         "Tag": "OB54"
     },
     {
+        "Id": 203055003,
+        "Type": "CLOTHES",
+        "CollectionType": "NONE",
+        "Name": "",
+        "Desc": "",
+        "Icon": "Icon_avatar_female_cos_top_nb1re_ct_white",
+        "Rare": "Orange",
+        "IsUnique": true,
+        "IconInAB": "CDN",
+        "Category": "Top",
+        "Tag": ""
+    },
+    {
         "Id": 204000000,
         "Type": "CLOTHES",
         "CollectionType": "NONE",
@@ -63219,6 +63232,19 @@
         "Tag": "OB54"
     },
     {
+        "Id": 204055003,
+        "Type": "CLOTHES",
+        "CollectionType": "NONE",
+        "Name": "",
+        "Desc": "",
+        "Icon": "Icon_avatar_female_cos_bottom_nb1re_ct_white",
+        "Rare": "Orange",
+        "IsUnique": true,
+        "IconInAB": "CDN",
+        "Category": "Bottom",
+        "Tag": ""
+    },
+    {
         "Id": 205000000,
         "Type": "CLOTHES",
         "CollectionType": "NONE",
@@ -85824,6 +85850,19 @@
         "IconInAB": "CDN",
         "Category": "Shoe",
         "Tag": "OB54"
+    },
+    {
+        "Id": 205055003,
+        "Type": "CLOTHES",
+        "CollectionType": "NONE",
+        "Name": "",
+        "Desc": "",
+        "Icon": "Icon_avatar_female_cos_shoe_nb1re_ct_white",
+        "Rare": "Orange",
+        "IsUnique": true,
+        "IconInAB": "CDN",
+        "Category": "Shoe",
+        "Tag": ""
     },
     {
         "Id": 208000000,
@@ -120430,6 +120469,19 @@
         "IconInAB": "CDN",
         "Category": "Head",
         "Tag": "OB54"
+    },
+    {
+        "Id": 211055003,
+        "Type": "CLOTHES",
+        "CollectionType": "NONE",
+        "Name": "",
+        "Desc": "",
+        "Icon": "Icon_avatar_female_cos_accessory_nb1re_ct_white",
+        "Rare": "Orange",
+        "IsUnique": true,
+        "IconInAB": "CDN",
+        "Category": "Mask",
+        "Tag": ""
     },
     {
         "Id": 212000000,
@@ -263573,6 +263625,19 @@
         "IconInAB": "CDN",
         "Category": "Bundles",
         "Tag": "OB54"
+    },
+    {
+        "Id": 710055005,
+        "Type": "BUNDLE",
+        "CollectionType": "NONE",
+        "Name": "",
+        "Desc": "",
+        "Icon": "Icon_bundle_female_NB1RE_CT_White_55",
+        "Rare": "Orange",
+        "IsUnique": false,
+        "IconInAB": "CDN",
+        "Category": "Bundles",
+        "Tag": ""
     },
     {
         "Id": 710099999,
