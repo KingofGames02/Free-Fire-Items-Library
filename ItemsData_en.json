@@ -39354,14 +39354,14 @@
         "Id": 203055003,
         "Type": "CLOTHES",
         "CollectionType": "NONE",
-        "Name": "",
+        "Name": "Hinata Top",
         "Desc": "",
         "Icon": "Icon_avatar_female_cos_top_nb1re_ct_white",
         "Rare": "Orange",
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Top",
-        "Tag": ""
+        "Tag": "OB55"
     },
     {
         "Id": 204000000,
@@ -63235,14 +63235,14 @@
         "Id": 204055003,
         "Type": "CLOTHES",
         "CollectionType": "NONE",
-        "Name": "",
+        "Name": "Hinata Bottom",
         "Desc": "",
         "Icon": "Icon_avatar_female_cos_bottom_nb1re_ct_white",
         "Rare": "Orange",
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Bottom",
-        "Tag": ""
+        "Tag": "OB55"
     },
     {
         "Id": 205000000,
@@ -85855,14 +85855,14 @@
         "Id": 205055003,
         "Type": "CLOTHES",
         "CollectionType": "NONE",
-        "Name": "",
+        "Name": "Hinata Shoes",
         "Desc": "",
         "Icon": "Icon_avatar_female_cos_shoe_nb1re_ct_white",
         "Rare": "Orange",
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Shoe",
-        "Tag": ""
+        "Tag": "OB55"
     },
     {
         "Id": 208000000,
@@ -120474,14 +120474,14 @@
         "Id": 211055003,
         "Type": "CLOTHES",
         "CollectionType": "NONE",
-        "Name": "",
+        "Name": "Hinata Headwear",
         "Desc": "",
         "Icon": "Icon_avatar_female_cos_accessory_nb1re_ct_white",
         "Rare": "Orange",
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Mask",
-        "Tag": ""
+        "Tag": "OB55"
     },
     {
         "Id": 212000000,
@@ -143816,7 +143816,7 @@
         "IsUnique": false,
         "IconInAB": "AB",
         "Category": "Bundle Create",
-        "Tag": "OB20"
+        "Tag": ""
     },
     {
         "Id": 400020899,
@@ -143829,7 +143829,7 @@
         "IsUnique": false,
         "IconInAB": "AB",
         "Category": "Bundle Create",
-        "Tag": "OB20"
+        "Tag": ""
     },
     {
         "Id": 400020900,
@@ -143842,7 +143842,7 @@
         "IsUnique": false,
         "IconInAB": "AB",
         "Category": "Bundle Create",
-        "Tag": "OB20"
+        "Tag": ""
     },
     {
         "Id": 400020901,
@@ -143855,7 +143855,7 @@
         "IsUnique": false,
         "IconInAB": "AB",
         "Category": "Bundle Create",
-        "Tag": "OB20"
+        "Tag": ""
     },
     {
         "Id": 400020902,
@@ -143868,7 +143868,7 @@
         "IsUnique": false,
         "IconInAB": "AB",
         "Category": "Bundle Create",
-        "Tag": "OB20"
+        "Tag": ""
     },
     {
         "Id": 400020903,
@@ -143881,7 +143881,7 @@
         "IsUnique": false,
         "IconInAB": "AB",
         "Category": "Bundle Create",
-        "Tag": "OB20"
+        "Tag": ""
     },
     {
         "Id": 400020904,
@@ -143894,7 +143894,7 @@
         "IsUnique": false,
         "IconInAB": "AB",
         "Category": "Bundle Create",
-        "Tag": "OB20"
+        "Tag": ""
     },
     {
         "Id": 400020905,
@@ -143907,7 +143907,7 @@
         "IsUnique": false,
         "IconInAB": "AB",
         "Category": "Bundle Create",
-        "Tag": "OB20"
+        "Tag": ""
     },
     {
         "Id": 400020906,
@@ -143920,7 +143920,7 @@
         "IsUnique": false,
         "IconInAB": "AB",
         "Category": "Bundle Create",
-        "Tag": "OB20"
+        "Tag": ""
     },
     {
         "Id": 400020907,
@@ -143933,7 +143933,7 @@
         "IsUnique": false,
         "IconInAB": "AB",
         "Category": "Bundle Create",
-        "Tag": "OB20"
+        "Tag": ""
     },
     {
         "Id": 400026001,
@@ -210038,7 +210038,7 @@
         "IsUnique": false,
         "IconInAB": "AB",
         "Category": "Weapon Crates",
-        "Tag": "OB22"
+        "Tag": ""
     },
     {
         "Id": 407102202,
@@ -210051,7 +210051,7 @@
         "IsUnique": false,
         "IconInAB": "AB",
         "Category": "Weapon Crates",
-        "Tag": "OB22"
+        "Tag": ""
     },
     {
         "Id": 407102203,
@@ -210064,7 +210064,7 @@
         "IsUnique": false,
         "IconInAB": "AB",
         "Category": "Weapon Crates",
-        "Tag": "OB22"
+        "Tag": ""
     },
     {
         "Id": 407102204,
@@ -210077,7 +210077,7 @@
         "IsUnique": false,
         "IconInAB": "AB",
         "Category": "Weapon Crates",
-        "Tag": "OB22"
+        "Tag": ""
     },
     {
         "Id": 407102205,
@@ -210090,7 +210090,7 @@
         "IsUnique": false,
         "IconInAB": "AB",
         "Category": "Weapon Crates",
-        "Tag": "OB22"
+        "Tag": ""
     },
     {
         "Id": 407102206,
@@ -210103,7 +210103,7 @@
         "IsUnique": false,
         "IconInAB": "AB",
         "Category": "Weapon Crates",
-        "Tag": "OB22"
+        "Tag": ""
     },
     {
         "Id": 407102207,
@@ -210116,7 +210116,7 @@
         "IsUnique": false,
         "IconInAB": "AB",
         "Category": "Weapon Crates",
-        "Tag": "OB22"
+        "Tag": ""
     },
     {
         "Id": 407102301,
@@ -210129,7 +210129,7 @@
         "IsUnique": false,
         "IconInAB": "AB",
         "Category": "Weapon Crates",
-        "Tag": "OB23"
+        "Tag": ""
     },
     {
         "Id": 407102302,
@@ -210142,7 +210142,7 @@
         "IsUnique": false,
         "IconInAB": "AB",
         "Category": "Weapon Crates",
-        "Tag": "OB23"
+        "Tag": ""
     },
     {
         "Id": 407102303,
@@ -210155,7 +210155,7 @@
         "IsUnique": false,
         "IconInAB": "AB",
         "Category": "Weapon Crates",
-        "Tag": "OB23"
+        "Tag": ""
     },
     {
         "Id": 407102304,
@@ -210168,7 +210168,7 @@
         "IsUnique": false,
         "IconInAB": "AB",
         "Category": "Weapon Crates",
-        "Tag": "OB23"
+        "Tag": ""
     },
     {
         "Id": 407102305,
@@ -210181,7 +210181,7 @@
         "IsUnique": false,
         "IconInAB": "AB",
         "Category": "Weapon Crates",
-        "Tag": "OB23"
+        "Tag": ""
     },
     {
         "Id": 407102306,
@@ -210194,7 +210194,7 @@
         "IsUnique": false,
         "IconInAB": "AB",
         "Category": "Weapon Crates",
-        "Tag": "OB23"
+        "Tag": ""
     },
     {
         "Id": 407102401,
@@ -210207,7 +210207,7 @@
         "IsUnique": false,
         "IconInAB": "AB",
         "Category": "Weapon Crates",
-        "Tag": "OB24"
+        "Tag": ""
     },
     {
         "Id": 407102402,
@@ -210220,7 +210220,7 @@
         "IsUnique": false,
         "IconInAB": "AB",
         "Category": "Weapon Crates",
-        "Tag": "OB24"
+        "Tag": ""
     },
     {
         "Id": 407102403,
@@ -210233,7 +210233,7 @@
         "IsUnique": false,
         "IconInAB": "AB",
         "Category": "Weapon Crates",
-        "Tag": "OB24"
+        "Tag": ""
     },
     {
         "Id": 407102404,
@@ -210246,7 +210246,7 @@
         "IsUnique": false,
         "IconInAB": "AB",
         "Category": "Weapon Crates",
-        "Tag": "OB24"
+        "Tag": ""
     },
     {
         "Id": 407102405,
@@ -210259,7 +210259,7 @@
         "IsUnique": false,
         "IconInAB": "AB",
         "Category": "Weapon Crates",
-        "Tag": "OB24"
+        "Tag": ""
     },
     {
         "Id": 407102406,
@@ -210272,7 +210272,7 @@
         "IsUnique": false,
         "IconInAB": "AB",
         "Category": "Weapon Crates",
-        "Tag": "OB24"
+        "Tag": ""
     },
     {
         "Id": 407102407,
@@ -210285,7 +210285,7 @@
         "IsUnique": false,
         "IconInAB": "AB",
         "Category": "Weapon Crates",
-        "Tag": "OB24"
+        "Tag": ""
     },
     {
         "Id": 407102408,
@@ -210298,7 +210298,7 @@
         "IsUnique": false,
         "IconInAB": "AB",
         "Category": "Weapon Crates",
-        "Tag": "OB24"
+        "Tag": ""
     },
     {
         "Id": 407102501,
@@ -210311,7 +210311,7 @@
         "IsUnique": false,
         "IconInAB": "AB",
         "Category": "Weapon Crates",
-        "Tag": "OB25"
+        "Tag": ""
     },
     {
         "Id": 407102502,
@@ -210324,7 +210324,7 @@
         "IsUnique": false,
         "IconInAB": "AB",
         "Category": "Weapon Crates",
-        "Tag": "OB25"
+        "Tag": ""
     },
     {
         "Id": 407102503,
@@ -210337,7 +210337,7 @@
         "IsUnique": false,
         "IconInAB": "AB",
         "Category": "Weapon Crates",
-        "Tag": "OB25"
+        "Tag": ""
     },
     {
         "Id": 407102504,
@@ -210350,7 +210350,7 @@
         "IsUnique": false,
         "IconInAB": "AB",
         "Category": "Weapon Crates",
-        "Tag": "OB25"
+        "Tag": ""
     },
     {
         "Id": 407102505,
@@ -210363,7 +210363,7 @@
         "IsUnique": false,
         "IconInAB": "AB",
         "Category": "Weapon Crates",
-        "Tag": "OB25"
+        "Tag": ""
     },
     {
         "Id": 407102506,
@@ -210376,7 +210376,7 @@
         "IsUnique": false,
         "IconInAB": "AB",
         "Category": "Weapon Crates",
-        "Tag": "OB25"
+        "Tag": ""
     },
     {
         "Id": 407102507,
@@ -210389,7 +210389,7 @@
         "IsUnique": false,
         "IconInAB": "AB",
         "Category": "Weapon Crates",
-        "Tag": "OB25"
+        "Tag": ""
     },
     {
         "Id": 407102508,
@@ -210402,7 +210402,7 @@
         "IsUnique": false,
         "IconInAB": "AB",
         "Category": "Weapon Crates",
-        "Tag": "OB25"
+        "Tag": ""
     },
     {
         "Id": 407102509,
@@ -210415,7 +210415,7 @@
         "IsUnique": false,
         "IconInAB": "AB",
         "Category": "Weapon Crates",
-        "Tag": "OB25"
+        "Tag": ""
     },
     {
         "Id": 407102510,
@@ -210428,7 +210428,7 @@
         "IsUnique": false,
         "IconInAB": "AB",
         "Category": "Weapon Crates",
-        "Tag": "OB25"
+        "Tag": ""
     },
     {
         "Id": 407102603,
@@ -263630,14 +263630,14 @@
         "Id": 710055005,
         "Type": "BUNDLE",
         "CollectionType": "NONE",
-        "Name": "",
+        "Name": "Hinata Bundle",
         "Desc": "",
         "Icon": "Icon_bundle_female_NB1RE_CT_White_55",
         "Rare": "Orange",
         "IsUnique": false,
         "IconInAB": "CDN",
         "Category": "Bundles",
-        "Tag": ""
+        "Tag": "OB55"
     },
     {
         "Id": 710099999,
@@ -374983,7 +374983,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB13"
+        "Tag": ""
     },
     {
         "Id": 907101301,
@@ -374996,7 +374996,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB13"
+        "Tag": ""
     },
     {
         "Id": 907101302,
@@ -375009,7 +375009,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB13"
+        "Tag": ""
     },
     {
         "Id": 907101303,
@@ -375022,7 +375022,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB13"
+        "Tag": ""
     },
     {
         "Id": 907101304,
@@ -375035,7 +375035,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB13"
+        "Tag": ""
     },
     {
         "Id": 907101305,
@@ -375048,7 +375048,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB13"
+        "Tag": ""
     },
     {
         "Id": 907101306,
@@ -375061,7 +375061,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB13"
+        "Tag": ""
     },
     {
         "Id": 907101307,
@@ -375074,7 +375074,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB13"
+        "Tag": ""
     },
     {
         "Id": 907101308,
@@ -375087,7 +375087,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB13"
+        "Tag": ""
     },
     {
         "Id": 907101309,
@@ -375100,7 +375100,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB13"
+        "Tag": ""
     },
     {
         "Id": 907101310,
@@ -375113,7 +375113,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB13"
+        "Tag": ""
     },
     {
         "Id": 907101311,
@@ -375126,7 +375126,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB13"
+        "Tag": ""
     },
     {
         "Id": 907101312,
@@ -375139,7 +375139,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB13"
+        "Tag": ""
     },
     {
         "Id": 907101313,
@@ -375152,7 +375152,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB13"
+        "Tag": ""
     },
     {
         "Id": 907101314,
@@ -375165,7 +375165,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB13"
+        "Tag": ""
     },
     {
         "Id": 907101315,
@@ -375178,7 +375178,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB13"
+        "Tag": ""
     },
     {
         "Id": 907101316,
@@ -375191,7 +375191,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB13"
+        "Tag": ""
     },
     {
         "Id": 907101317,
@@ -375204,7 +375204,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB13"
+        "Tag": ""
     },
     {
         "Id": 907101318,
@@ -375217,7 +375217,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB13"
+        "Tag": ""
     },
     {
         "Id": 907101319,
@@ -375230,7 +375230,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Grenade Skin",
-        "Tag": "OB13"
+        "Tag": ""
     },
     {
         "Id": 907101320,
@@ -375243,7 +375243,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Grenade Skin",
-        "Tag": "OB13"
+        "Tag": ""
     },
     {
         "Id": 907101321,
@@ -375256,7 +375256,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Grenade Skin",
-        "Tag": "OB13"
+        "Tag": ""
     },
     {
         "Id": 907101322,
@@ -375269,7 +375269,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB13"
+        "Tag": ""
     },
     {
         "Id": 907101323,
@@ -375282,7 +375282,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB13"
+        "Tag": ""
     },
     {
         "Id": 907101324,
@@ -375295,7 +375295,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB13"
+        "Tag": ""
     },
     {
         "Id": 907101325,
@@ -375308,7 +375308,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB13"
+        "Tag": ""
     },
     {
         "Id": 907101326,
@@ -375321,7 +375321,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB13"
+        "Tag": ""
     },
     {
         "Id": 907101401,
@@ -375334,7 +375334,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB14"
+        "Tag": ""
     },
     {
         "Id": 907101402,
@@ -375347,7 +375347,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB14"
+        "Tag": ""
     },
     {
         "Id": 907101403,
@@ -375360,7 +375360,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB14"
+        "Tag": ""
     },
     {
         "Id": 907101404,
@@ -375373,7 +375373,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB14"
+        "Tag": ""
     },
     {
         "Id": 907101405,
@@ -375386,7 +375386,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB14"
+        "Tag": ""
     },
     {
         "Id": 907101406,
@@ -375399,7 +375399,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB14"
+        "Tag": ""
     },
     {
         "Id": 907101407,
@@ -375412,7 +375412,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB14"
+        "Tag": ""
     },
     {
         "Id": 907101408,
@@ -375425,7 +375425,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB14"
+        "Tag": ""
     },
     {
         "Id": 907101409,
@@ -375438,7 +375438,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB14"
+        "Tag": ""
     },
     {
         "Id": 907101410,
@@ -375451,7 +375451,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB14"
+        "Tag": ""
     },
     {
         "Id": 907101411,
@@ -375464,7 +375464,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB14"
+        "Tag": ""
     },
     {
         "Id": 907101412,
@@ -375477,7 +375477,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB14"
+        "Tag": ""
     },
     {
         "Id": 907101413,
@@ -375490,7 +375490,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB14"
+        "Tag": ""
     },
     {
         "Id": 907101414,
@@ -375503,7 +375503,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB14"
+        "Tag": ""
     },
     {
         "Id": 907101415,
@@ -375516,7 +375516,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB14"
+        "Tag": ""
     },
     {
         "Id": 907101416,
@@ -375529,7 +375529,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB14"
+        "Tag": ""
     },
     {
         "Id": 907101417,
@@ -375542,7 +375542,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB14"
+        "Tag": ""
     },
     {
         "Id": 907101418,
@@ -375555,7 +375555,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB14"
+        "Tag": ""
     },
     {
         "Id": 907101419,
@@ -375568,7 +375568,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB14"
+        "Tag": ""
     },
     {
         "Id": 907101420,
@@ -375581,7 +375581,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB14"
+        "Tag": ""
     },
     {
         "Id": 907101421,
@@ -375594,7 +375594,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB14"
+        "Tag": ""
     },
     {
         "Id": 907101422,
@@ -375607,7 +375607,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB14"
+        "Tag": ""
     },
     {
         "Id": 907101423,
@@ -375620,7 +375620,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB14"
+        "Tag": ""
     },
     {
         "Id": 907101424,
@@ -375633,7 +375633,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB14"
+        "Tag": ""
     },
     {
         "Id": 907101425,
@@ -375646,7 +375646,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB14"
+        "Tag": ""
     },
     {
         "Id": 907101426,
@@ -375659,7 +375659,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Grenade Skin",
-        "Tag": "OB14"
+        "Tag": ""
     },
     {
         "Id": 907101427,
@@ -375672,7 +375672,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Grenade Skin",
-        "Tag": "OB14"
+        "Tag": ""
     },
     {
         "Id": 907101428,
@@ -375685,7 +375685,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Grenade Skin",
-        "Tag": "OB14"
+        "Tag": ""
     },
     {
         "Id": 907101429,
@@ -375698,7 +375698,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB14"
+        "Tag": ""
     },
     {
         "Id": 907101430,
@@ -375711,7 +375711,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB14"
+        "Tag": ""
     },
     {
         "Id": 907101431,
@@ -375724,7 +375724,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB14"
+        "Tag": ""
     },
     {
         "Id": 907101432,
@@ -375737,7 +375737,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB14"
+        "Tag": ""
     },
     {
         "Id": 907101433,
@@ -375750,7 +375750,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB14"
+        "Tag": ""
     },
     {
         "Id": 907101434,
@@ -375763,7 +375763,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB14"
+        "Tag": ""
     },
     {
         "Id": 907101435,
@@ -375776,7 +375776,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB14"
+        "Tag": ""
     },
     {
         "Id": 907101436,
@@ -375789,7 +375789,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB14"
+        "Tag": ""
     },
     {
         "Id": 907101437,
@@ -375802,7 +375802,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB14"
+        "Tag": ""
     },
     {
         "Id": 907101438,
@@ -375815,7 +375815,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB14"
+        "Tag": ""
     },
     {
         "Id": 907101439,
@@ -375828,7 +375828,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB14"
+        "Tag": ""
     },
     {
         "Id": 907101440,
@@ -375841,7 +375841,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB14"
+        "Tag": ""
     },
     {
         "Id": 907101441,
@@ -375854,7 +375854,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB14"
+        "Tag": ""
     },
     {
         "Id": 907101442,
@@ -375867,7 +375867,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB14"
+        "Tag": ""
     },
     {
         "Id": 907101443,
@@ -375880,7 +375880,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB14"
+        "Tag": ""
     },
     {
         "Id": 907101444,
@@ -375893,7 +375893,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB14"
+        "Tag": ""
     },
     {
         "Id": 907101445,
@@ -375906,7 +375906,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB14"
+        "Tag": ""
     },
     {
         "Id": 907101446,
@@ -375919,7 +375919,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB14"
+        "Tag": ""
     },
     {
         "Id": 907101501,
@@ -375932,7 +375932,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB15"
+        "Tag": ""
     },
     {
         "Id": 907101502,
@@ -375945,7 +375945,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB15"
+        "Tag": ""
     },
     {
         "Id": 907101503,
@@ -375958,7 +375958,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB15"
+        "Tag": ""
     },
     {
         "Id": 907101504,
@@ -375971,7 +375971,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB15"
+        "Tag": ""
     },
     {
         "Id": 907101505,
@@ -375984,7 +375984,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB15"
+        "Tag": ""
     },
     {
         "Id": 907101506,
@@ -375997,7 +375997,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB15"
+        "Tag": ""
     },
     {
         "Id": 907101507,
@@ -376010,7 +376010,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB15"
+        "Tag": ""
     },
     {
         "Id": 907101508,
@@ -376023,7 +376023,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB15"
+        "Tag": ""
     },
     {
         "Id": 907101509,
@@ -376036,7 +376036,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB15"
+        "Tag": ""
     },
     {
         "Id": 907101510,
@@ -376049,7 +376049,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB15"
+        "Tag": ""
     },
     {
         "Id": 907101511,
@@ -376062,7 +376062,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB15"
+        "Tag": ""
     },
     {
         "Id": 907101512,
@@ -376075,7 +376075,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB15"
+        "Tag": ""
     },
     {
         "Id": 907101513,
@@ -376088,7 +376088,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB15"
+        "Tag": ""
     },
     {
         "Id": 907101514,
@@ -376101,7 +376101,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB15"
+        "Tag": ""
     },
     {
         "Id": 907101515,
@@ -376114,7 +376114,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB15"
+        "Tag": ""
     },
     {
         "Id": 907101516,
@@ -376127,7 +376127,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB15"
+        "Tag": ""
     },
     {
         "Id": 907101517,
@@ -376140,7 +376140,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB15"
+        "Tag": ""
     },
     {
         "Id": 907101518,
@@ -376153,7 +376153,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB15"
+        "Tag": ""
     },
     {
         "Id": 907101519,
@@ -376166,7 +376166,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB15"
+        "Tag": ""
     },
     {
         "Id": 907101520,
@@ -376179,7 +376179,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB15"
+        "Tag": ""
     },
     {
         "Id": 907101521,
@@ -376192,7 +376192,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB15"
+        "Tag": ""
     },
     {
         "Id": 907101524,
@@ -376205,7 +376205,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB15"
+        "Tag": ""
     },
     {
         "Id": 907101525,
@@ -376218,7 +376218,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB15"
+        "Tag": ""
     },
     {
         "Id": 907101531,
@@ -376231,7 +376231,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB15"
+        "Tag": ""
     },
     {
         "Id": 907101532,
@@ -376244,7 +376244,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB15"
+        "Tag": ""
     },
     {
         "Id": 907101533,
@@ -376257,7 +376257,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB15"
+        "Tag": ""
     },
     {
         "Id": 907101534,
@@ -376270,7 +376270,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB15"
+        "Tag": ""
     },
     {
         "Id": 907101535,
@@ -376283,7 +376283,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB15"
+        "Tag": ""
     },
     {
         "Id": 907101536,
@@ -376296,7 +376296,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB15"
+        "Tag": ""
     },
     {
         "Id": 907101537,
@@ -376309,7 +376309,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB15"
+        "Tag": ""
     },
     {
         "Id": 907101538,
@@ -376322,7 +376322,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB15"
+        "Tag": ""
     },
     {
         "Id": 907101539,
@@ -376335,7 +376335,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB15"
+        "Tag": ""
     },
     {
         "Id": 907101540,
@@ -376348,7 +376348,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB15"
+        "Tag": ""
     },
     {
         "Id": 907101541,
@@ -376361,7 +376361,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB15"
+        "Tag": ""
     },
     {
         "Id": 907101542,
@@ -376374,7 +376374,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB15"
+        "Tag": ""
     },
     {
         "Id": 907101543,
@@ -376387,7 +376387,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB15"
+        "Tag": ""
     },
     {
         "Id": 907101544,
@@ -376400,7 +376400,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB15"
+        "Tag": ""
     },
     {
         "Id": 907101545,
@@ -376413,7 +376413,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB15"
+        "Tag": ""
     },
     {
         "Id": 907101546,
@@ -376426,7 +376426,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB15"
+        "Tag": ""
     },
     {
         "Id": 907101547,
@@ -376439,7 +376439,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB15"
+        "Tag": ""
     },
     {
         "Id": 907101548,
@@ -376452,7 +376452,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB15"
+        "Tag": ""
     },
     {
         "Id": 907101549,
@@ -376465,7 +376465,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB15"
+        "Tag": ""
     },
     {
         "Id": 907101550,
@@ -376478,7 +376478,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB15"
+        "Tag": ""
     },
     {
         "Id": 907101551,
@@ -376491,7 +376491,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB15"
+        "Tag": ""
     },
     {
         "Id": 907101554,
@@ -376504,7 +376504,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB15"
+        "Tag": ""
     },
     {
         "Id": 907101555,
@@ -376517,7 +376517,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB15"
+        "Tag": ""
     },
     {
         "Id": 907101601,
@@ -376530,7 +376530,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB16"
+        "Tag": ""
     },
     {
         "Id": 907101602,
@@ -376543,7 +376543,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB16"
+        "Tag": ""
     },
     {
         "Id": 907101603,
@@ -376556,7 +376556,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB16"
+        "Tag": ""
     },
     {
         "Id": 907101604,
@@ -376569,7 +376569,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB16"
+        "Tag": ""
     },
     {
         "Id": 907101605,
@@ -376582,7 +376582,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB16"
+        "Tag": ""
     },
     {
         "Id": 907101606,
@@ -376595,7 +376595,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB16"
+        "Tag": ""
     },
     {
         "Id": 907101607,
@@ -376608,7 +376608,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB16"
+        "Tag": ""
     },
     {
         "Id": 907101608,
@@ -376621,7 +376621,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB16"
+        "Tag": ""
     },
     {
         "Id": 907101609,
@@ -376634,7 +376634,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB16"
+        "Tag": ""
     },
     {
         "Id": 907101610,
@@ -376647,7 +376647,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB16"
+        "Tag": ""
     },
     {
         "Id": 907101611,
@@ -376660,7 +376660,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB16"
+        "Tag": ""
     },
     {
         "Id": 907101612,
@@ -376673,7 +376673,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB16"
+        "Tag": ""
     },
     {
         "Id": 907101613,
@@ -376686,7 +376686,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB16"
+        "Tag": ""
     },
     {
         "Id": 907101614,
@@ -376699,7 +376699,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB16"
+        "Tag": ""
     },
     {
         "Id": 907101615,
@@ -376712,7 +376712,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB16"
+        "Tag": ""
     },
     {
         "Id": 907101616,
@@ -376725,7 +376725,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB16"
+        "Tag": ""
     },
     {
         "Id": 907101617,
@@ -376738,7 +376738,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB16"
+        "Tag": ""
     },
     {
         "Id": 907101618,
@@ -376751,7 +376751,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB16"
+        "Tag": ""
     },
     {
         "Id": 907101619,
@@ -376764,7 +376764,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB16"
+        "Tag": ""
     },
     {
         "Id": 907101620,
@@ -376777,7 +376777,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB16"
+        "Tag": ""
     },
     {
         "Id": 907101621,
@@ -376790,7 +376790,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB16"
+        "Tag": ""
     },
     {
         "Id": 907101622,
@@ -376803,7 +376803,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB16"
+        "Tag": ""
     },
     {
         "Id": 907101623,
@@ -376816,7 +376816,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB16"
+        "Tag": ""
     },
     {
         "Id": 907101624,
@@ -376829,7 +376829,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB16"
+        "Tag": ""
     },
     {
         "Id": 907101625,
@@ -376842,7 +376842,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB16"
+        "Tag": ""
     },
     {
         "Id": 907101626,
@@ -376855,7 +376855,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB16"
+        "Tag": ""
     },
     {
         "Id": 907101627,
@@ -376868,7 +376868,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB16"
+        "Tag": ""
     },
     {
         "Id": 907101628,
@@ -376881,7 +376881,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB16"
+        "Tag": ""
     },
     {
         "Id": 907101629,
@@ -376894,7 +376894,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB16"
+        "Tag": ""
     },
     {
         "Id": 907101630,
@@ -376907,7 +376907,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Grenade Skin",
-        "Tag": "OB16"
+        "Tag": ""
     },
     {
         "Id": 907101631,
@@ -376920,7 +376920,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Grenade Skin",
-        "Tag": "OB16"
+        "Tag": ""
     },
     {
         "Id": 907101701,
@@ -376933,7 +376933,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB17"
+        "Tag": ""
     },
     {
         "Id": 907101702,
@@ -376946,7 +376946,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB17"
+        "Tag": ""
     },
     {
         "Id": 907101703,
@@ -376959,7 +376959,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB17"
+        "Tag": ""
     },
     {
         "Id": 907101704,
@@ -376972,7 +376972,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB17"
+        "Tag": ""
     },
     {
         "Id": 907101705,
@@ -376985,7 +376985,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB17"
+        "Tag": ""
     },
     {
         "Id": 907101706,
@@ -376998,7 +376998,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB17"
+        "Tag": ""
     },
     {
         "Id": 907101707,
@@ -377011,7 +377011,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB17"
+        "Tag": ""
     },
     {
         "Id": 907101708,
@@ -377024,7 +377024,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB17"
+        "Tag": ""
     },
     {
         "Id": 907101711,
@@ -377037,7 +377037,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Grenade Skin",
-        "Tag": "OB17"
+        "Tag": ""
     },
     {
         "Id": 907101713,
@@ -377050,7 +377050,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB17"
+        "Tag": ""
     },
     {
         "Id": 907101714,
@@ -377063,7 +377063,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB17"
+        "Tag": ""
     },
     {
         "Id": 907101715,
@@ -377076,7 +377076,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB17"
+        "Tag": ""
     },
     {
         "Id": 907101716,
@@ -377089,7 +377089,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB17"
+        "Tag": ""
     },
     {
         "Id": 907101717,
@@ -377102,7 +377102,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB17"
+        "Tag": ""
     },
     {
         "Id": 907101718,
@@ -377115,7 +377115,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB17"
+        "Tag": ""
     },
     {
         "Id": 907101719,
@@ -377128,7 +377128,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB17"
+        "Tag": ""
     },
     {
         "Id": 907101720,
@@ -377141,7 +377141,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB17"
+        "Tag": ""
     },
     {
         "Id": 907101721,
@@ -377154,7 +377154,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB17"
+        "Tag": ""
     },
     {
         "Id": 907101722,
@@ -377167,7 +377167,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB17"
+        "Tag": ""
     },
     {
         "Id": 907101723,
@@ -377180,7 +377180,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB17"
+        "Tag": ""
     },
     {
         "Id": 907101724,
@@ -377193,7 +377193,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB17"
+        "Tag": ""
     },
     {
         "Id": 907101725,
@@ -377206,7 +377206,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB17"
+        "Tag": ""
     },
     {
         "Id": 907101801,
@@ -377219,7 +377219,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB18"
+        "Tag": ""
     },
     {
         "Id": 907101802,
@@ -377232,7 +377232,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB18"
+        "Tag": ""
     },
     {
         "Id": 907101803,
@@ -377245,7 +377245,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Grenade Skin",
-        "Tag": "OB18"
+        "Tag": ""
     },
     {
         "Id": 907101804,
@@ -377258,7 +377258,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB18"
+        "Tag": ""
     },
     {
         "Id": 907101805,
@@ -377271,7 +377271,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB18"
+        "Tag": ""
     },
     {
         "Id": 907101806,
@@ -377284,7 +377284,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB18"
+        "Tag": ""
     },
     {
         "Id": 907101807,
@@ -377297,7 +377297,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB18"
+        "Tag": ""
     },
     {
         "Id": 907101808,
@@ -377310,7 +377310,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB18"
+        "Tag": ""
     },
     {
         "Id": 907101809,
@@ -377323,7 +377323,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB18"
+        "Tag": ""
     },
     {
         "Id": 907101810,
@@ -377336,7 +377336,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB18"
+        "Tag": ""
     },
     {
         "Id": 907101811,
@@ -377349,7 +377349,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB18"
+        "Tag": ""
     },
     {
         "Id": 907101812,
@@ -377362,7 +377362,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Gloo Walls",
-        "Tag": "OB18"
+        "Tag": ""
     },
     {
         "Id": 907101813,
@@ -377375,7 +377375,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Grenade Skin",
-        "Tag": "OB18"
+        "Tag": ""
     },
     {
         "Id": 907101814,
@@ -377388,7 +377388,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Gloo Walls",
-        "Tag": "OB18"
+        "Tag": ""
     },
     {
         "Id": 907101815,
@@ -377401,7 +377401,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB18"
+        "Tag": ""
     },
     {
         "Id": 907101816,
@@ -377414,7 +377414,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB18"
+        "Tag": ""
     },
     {
         "Id": 907101817,
@@ -377427,7 +377427,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB18"
+        "Tag": ""
     },
     {
         "Id": 907101818,
@@ -377440,7 +377440,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB18"
+        "Tag": ""
     },
     {
         "Id": 907101819,
@@ -377453,7 +377453,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB18"
+        "Tag": ""
     },
     {
         "Id": 907101820,
@@ -377466,7 +377466,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB18"
+        "Tag": ""
     },
     {
         "Id": 907101821,
@@ -377479,7 +377479,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB18"
+        "Tag": ""
     },
     {
         "Id": 907101822,
@@ -377492,7 +377492,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB18"
+        "Tag": ""
     },
     {
         "Id": 907101823,
@@ -377505,7 +377505,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB18"
+        "Tag": ""
     },
     {
         "Id": 907101824,
@@ -377518,7 +377518,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB18"
+        "Tag": ""
     },
     {
         "Id": 907101825,
@@ -377531,7 +377531,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB18"
+        "Tag": ""
     },
     {
         "Id": 907101826,
@@ -377544,7 +377544,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB18"
+        "Tag": ""
     },
     {
         "Id": 907101827,
@@ -377557,7 +377557,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB18"
+        "Tag": ""
     },
     {
         "Id": 907101828,
@@ -377570,7 +377570,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB18"
+        "Tag": ""
     },
     {
         "Id": 907101901,
@@ -377583,7 +377583,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB19"
+        "Tag": ""
     },
     {
         "Id": 907101902,
@@ -377596,7 +377596,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB19"
+        "Tag": ""
     },
     {
         "Id": 907101903,
@@ -377609,7 +377609,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB19"
+        "Tag": ""
     },
     {
         "Id": 907101904,
@@ -377622,7 +377622,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB19"
+        "Tag": ""
     },
     {
         "Id": 907101905,
@@ -377635,7 +377635,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB19"
+        "Tag": ""
     },
     {
         "Id": 907101906,
@@ -377648,7 +377648,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB19"
+        "Tag": ""
     },
     {
         "Id": 907101907,
@@ -377661,7 +377661,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB19"
+        "Tag": ""
     },
     {
         "Id": 907101908,
@@ -377674,7 +377674,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB19"
+        "Tag": ""
     },
     {
         "Id": 907101909,
@@ -377687,7 +377687,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB19"
+        "Tag": ""
     },
     {
         "Id": 907101910,
@@ -377700,7 +377700,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB19"
+        "Tag": ""
     },
     {
         "Id": 907101911,
@@ -377713,7 +377713,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB19"
+        "Tag": ""
     },
     {
         "Id": 907101912,
@@ -377726,7 +377726,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB19"
+        "Tag": ""
     },
     {
         "Id": 907101913,
@@ -377739,7 +377739,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB19"
+        "Tag": ""
     },
     {
         "Id": 907101914,
@@ -377752,7 +377752,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Grenade Skin",
-        "Tag": "OB19"
+        "Tag": ""
     },
     {
         "Id": 907101915,
@@ -377765,7 +377765,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Grenade Skin",
-        "Tag": "OB19"
+        "Tag": ""
     },
     {
         "Id": 907101916,
@@ -377778,7 +377778,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Gloo Walls",
-        "Tag": "OB19"
+        "Tag": ""
     },
     {
         "Id": 907101917,
@@ -377791,7 +377791,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB19"
+        "Tag": ""
     },
     {
         "Id": 907101918,
@@ -377804,7 +377804,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB19"
+        "Tag": ""
     },
     {
         "Id": 907101919,
@@ -377817,7 +377817,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB19"
+        "Tag": ""
     },
     {
         "Id": 907101920,
@@ -377830,7 +377830,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB19"
+        "Tag": ""
     },
     {
         "Id": 907101921,
@@ -377843,7 +377843,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB19"
+        "Tag": ""
     },
     {
         "Id": 907101922,
@@ -377856,7 +377856,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB19"
+        "Tag": ""
     },
     {
         "Id": 907101923,
@@ -377869,7 +377869,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB19"
+        "Tag": ""
     },
     {
         "Id": 907101924,
@@ -377882,7 +377882,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB19"
+        "Tag": ""
     },
     {
         "Id": 907101925,
@@ -377895,7 +377895,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB19"
+        "Tag": ""
     },
     {
         "Id": 907101926,
@@ -377908,7 +377908,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB19"
+        "Tag": ""
     },
     {
         "Id": 907102001,
@@ -377921,7 +377921,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB20"
+        "Tag": ""
     },
     {
         "Id": 907102002,
@@ -377934,7 +377934,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB20"
+        "Tag": ""
     },
     {
         "Id": 907102003,
@@ -377947,7 +377947,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB20"
+        "Tag": ""
     },
     {
         "Id": 907102004,
@@ -377960,7 +377960,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB20"
+        "Tag": ""
     },
     {
         "Id": 907102005,
@@ -377973,7 +377973,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB20"
+        "Tag": ""
     },
     {
         "Id": 907102006,
@@ -377986,7 +377986,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB20"
+        "Tag": ""
     },
     {
         "Id": 907102007,
@@ -377999,7 +377999,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB20"
+        "Tag": ""
     },
     {
         "Id": 907102008,
@@ -378012,7 +378012,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB20"
+        "Tag": ""
     },
     {
         "Id": 907102009,
@@ -378025,7 +378025,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB20"
+        "Tag": ""
     },
     {
         "Id": 907102010,
@@ -378038,7 +378038,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB20"
+        "Tag": ""
     },
     {
         "Id": 907102011,
@@ -378051,7 +378051,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB20"
+        "Tag": ""
     },
     {
         "Id": 907102012,
@@ -378064,7 +378064,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB20"
+        "Tag": ""
     },
     {
         "Id": 907102013,
@@ -378077,7 +378077,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB20"
+        "Tag": ""
     },
     {
         "Id": 907102014,
@@ -378090,7 +378090,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB20"
+        "Tag": ""
     },
     {
         "Id": 907102015,
@@ -378103,7 +378103,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB20"
+        "Tag": ""
     },
     {
         "Id": 907102016,
@@ -378116,7 +378116,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB20"
+        "Tag": ""
     },
     {
         "Id": 907102017,
@@ -378129,7 +378129,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB20"
+        "Tag": ""
     },
     {
         "Id": 907102018,
@@ -378142,7 +378142,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB20"
+        "Tag": ""
     },
     {
         "Id": 907102019,
@@ -378155,7 +378155,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB20"
+        "Tag": ""
     },
     {
         "Id": 907102020,
@@ -378168,7 +378168,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB20"
+        "Tag": ""
     },
     {
         "Id": 907102021,
@@ -378181,7 +378181,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB20"
+        "Tag": ""
     },
     {
         "Id": 907102022,
@@ -378194,7 +378194,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB20"
+        "Tag": ""
     },
     {
         "Id": 907102023,
@@ -378207,7 +378207,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB20"
+        "Tag": ""
     },
     {
         "Id": 907102024,
@@ -378220,7 +378220,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB20"
+        "Tag": ""
     },
     {
         "Id": 907102025,
@@ -378233,7 +378233,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB20"
+        "Tag": ""
     },
     {
         "Id": 907102026,
@@ -378246,7 +378246,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB20"
+        "Tag": ""
     },
     {
         "Id": 907102027,
@@ -378259,7 +378259,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Grenade Skin",
-        "Tag": "OB20"
+        "Tag": ""
     },
     {
         "Id": 907102028,
@@ -378272,7 +378272,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Gloo Walls",
-        "Tag": "OB20"
+        "Tag": ""
     },
     {
         "Id": 907102029,
@@ -378285,7 +378285,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Gloo Walls",
-        "Tag": "OB20"
+        "Tag": ""
     },
     {
         "Id": 907102101,
@@ -378298,7 +378298,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB21"
+        "Tag": ""
     },
     {
         "Id": 907102102,
@@ -378311,7 +378311,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB21"
+        "Tag": ""
     },
     {
         "Id": 907102103,
@@ -378324,7 +378324,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB21"
+        "Tag": ""
     },
     {
         "Id": 907102104,
@@ -378337,7 +378337,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB21"
+        "Tag": ""
     },
     {
         "Id": 907102105,
@@ -378350,7 +378350,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB21"
+        "Tag": ""
     },
     {
         "Id": 907102106,
@@ -378363,7 +378363,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB21"
+        "Tag": ""
     },
     {
         "Id": 907102107,
@@ -378376,7 +378376,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB21"
+        "Tag": ""
     },
     {
         "Id": 907102108,
@@ -378389,7 +378389,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB21"
+        "Tag": ""
     },
     {
         "Id": 907102109,
@@ -378402,7 +378402,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB21"
+        "Tag": ""
     },
     {
         "Id": 907102110,
@@ -378415,7 +378415,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB21"
+        "Tag": ""
     },
     {
         "Id": 907102111,
@@ -378428,7 +378428,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB21"
+        "Tag": ""
     },
     {
         "Id": 907102112,
@@ -378441,7 +378441,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB21"
+        "Tag": ""
     },
     {
         "Id": 907102113,
@@ -378454,7 +378454,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB21"
+        "Tag": ""
     },
     {
         "Id": 907102118,
@@ -378467,7 +378467,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB21"
+        "Tag": ""
     },
     {
         "Id": 907102119,
@@ -378480,7 +378480,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB21"
+        "Tag": ""
     },
     {
         "Id": 907102120,
@@ -378493,7 +378493,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB21"
+        "Tag": ""
     },
     {
         "Id": 907102121,
@@ -378506,7 +378506,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB21"
+        "Tag": ""
     },
     {
         "Id": 907102122,
@@ -378519,7 +378519,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB21"
+        "Tag": ""
     },
     {
         "Id": 907102123,
@@ -378532,7 +378532,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB21"
+        "Tag": ""
     },
     {
         "Id": 907102124,
@@ -378545,7 +378545,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Grenade Skin",
-        "Tag": "OB21"
+        "Tag": ""
     },
     {
         "Id": 907102125,
@@ -378558,7 +378558,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Gloo Walls",
-        "Tag": "OB21"
+        "Tag": ""
     },
     {
         "Id": 907102126,
@@ -378571,7 +378571,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Gloo Walls",
-        "Tag": "OB21"
+        "Tag": ""
     },
     {
         "Id": 907102127,
@@ -378584,7 +378584,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Grenade Skin",
-        "Tag": "OB21"
+        "Tag": ""
     },
     {
         "Id": 907102128,
@@ -378597,7 +378597,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Gloo Walls",
-        "Tag": "OB21"
+        "Tag": ""
     },
     {
         "Id": 907102129,
@@ -378610,7 +378610,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB21"
+        "Tag": ""
     },
     {
         "Id": 907102130,
@@ -378623,7 +378623,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Gloo Walls",
-        "Tag": "OB21"
+        "Tag": ""
     },
     {
         "Id": 907102201,
@@ -378636,7 +378636,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB22"
+        "Tag": ""
     },
     {
         "Id": 907102202,
@@ -378649,7 +378649,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB22"
+        "Tag": ""
     },
     {
         "Id": 907102203,
@@ -378662,7 +378662,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB22"
+        "Tag": ""
     },
     {
         "Id": 907102204,
@@ -378675,7 +378675,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB22"
+        "Tag": ""
     },
     {
         "Id": 907102205,
@@ -378688,7 +378688,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB22"
+        "Tag": ""
     },
     {
         "Id": 907102206,
@@ -378701,7 +378701,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB22"
+        "Tag": ""
     },
     {
         "Id": 907102207,
@@ -378714,7 +378714,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB22"
+        "Tag": ""
     },
     {
         "Id": 907102208,
@@ -378727,7 +378727,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB22"
+        "Tag": ""
     },
     {
         "Id": 907102209,
@@ -378740,7 +378740,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB22"
+        "Tag": ""
     },
     {
         "Id": 907102210,
@@ -378753,7 +378753,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB22"
+        "Tag": ""
     },
     {
         "Id": 907102211,
@@ -378766,7 +378766,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB22"
+        "Tag": ""
     },
     {
         "Id": 907102212,
@@ -378779,7 +378779,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB22"
+        "Tag": ""
     },
     {
         "Id": 907102213,
@@ -378792,7 +378792,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB22"
+        "Tag": ""
     },
     {
         "Id": 907102214,
@@ -378805,7 +378805,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB22"
+        "Tag": ""
     },
     {
         "Id": 907102215,
@@ -378818,7 +378818,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB22"
+        "Tag": ""
     },
     {
         "Id": 907102216,
@@ -378831,7 +378831,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB22"
+        "Tag": ""
     },
     {
         "Id": 907102217,
@@ -378844,7 +378844,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB22"
+        "Tag": ""
     },
     {
         "Id": 907102218,
@@ -378857,7 +378857,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB22"
+        "Tag": ""
     },
     {
         "Id": 907102219,
@@ -378870,7 +378870,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB22"
+        "Tag": ""
     },
     {
         "Id": 907102220,
@@ -378883,7 +378883,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB22"
+        "Tag": ""
     },
     {
         "Id": 907102221,
@@ -378896,7 +378896,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB22"
+        "Tag": ""
     },
     {
         "Id": 907102222,
@@ -378909,7 +378909,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB22"
+        "Tag": ""
     },
     {
         "Id": 907102223,
@@ -378922,7 +378922,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB22"
+        "Tag": ""
     },
     {
         "Id": 907102224,
@@ -378935,7 +378935,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB22"
+        "Tag": ""
     },
     {
         "Id": 907102225,
@@ -378948,7 +378948,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB22"
+        "Tag": ""
     },
     {
         "Id": 907102226,
@@ -378961,7 +378961,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB22"
+        "Tag": ""
     },
     {
         "Id": 907102227,
@@ -378974,7 +378974,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB22"
+        "Tag": ""
     },
     {
         "Id": 907102228,
@@ -378987,7 +378987,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB22"
+        "Tag": ""
     },
     {
         "Id": 907102229,
@@ -379000,7 +379000,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB22"
+        "Tag": ""
     },
     {
         "Id": 907102230,
@@ -379013,7 +379013,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB22"
+        "Tag": ""
     },
     {
         "Id": 907102231,
@@ -379026,7 +379026,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB22"
+        "Tag": ""
     },
     {
         "Id": 907102232,
@@ -379039,7 +379039,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB22"
+        "Tag": ""
     },
     {
         "Id": 907102233,
@@ -379052,7 +379052,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Grenade Skin",
-        "Tag": "OB22"
+        "Tag": ""
     },
     {
         "Id": 907102234,
@@ -379065,7 +379065,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Grenade Skin",
-        "Tag": "OB22"
+        "Tag": ""
     },
     {
         "Id": 907102235,
@@ -379078,7 +379078,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Gloo Walls",
-        "Tag": "OB22"
+        "Tag": ""
     },
     {
         "Id": 907102236,
@@ -379091,7 +379091,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Gloo Walls",
-        "Tag": "OB22"
+        "Tag": ""
     },
     {
         "Id": 907102301,
@@ -379104,7 +379104,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB23"
+        "Tag": ""
     },
     {
         "Id": 907102302,
@@ -379117,7 +379117,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB23"
+        "Tag": ""
     },
     {
         "Id": 907102303,
@@ -379130,7 +379130,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB23"
+        "Tag": ""
     },
     {
         "Id": 907102304,
@@ -379143,7 +379143,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB23"
+        "Tag": ""
     },
     {
         "Id": 907102305,
@@ -379156,7 +379156,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB23"
+        "Tag": ""
     },
     {
         "Id": 907102306,
@@ -379169,7 +379169,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB23"
+        "Tag": ""
     },
     {
         "Id": 907102307,
@@ -379182,7 +379182,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB23"
+        "Tag": ""
     },
     {
         "Id": 907102308,
@@ -379195,7 +379195,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB23"
+        "Tag": ""
     },
     {
         "Id": 907102309,
@@ -379208,7 +379208,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB23"
+        "Tag": ""
     },
     {
         "Id": 907102310,
@@ -379221,7 +379221,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB23"
+        "Tag": ""
     },
     {
         "Id": 907102311,
@@ -379234,7 +379234,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB23"
+        "Tag": ""
     },
     {
         "Id": 907102312,
@@ -379247,7 +379247,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB23"
+        "Tag": ""
     },
     {
         "Id": 907102313,
@@ -379260,7 +379260,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB23"
+        "Tag": ""
     },
     {
         "Id": 907102314,
@@ -379273,7 +379273,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB23"
+        "Tag": ""
     },
     {
         "Id": 907102315,
@@ -379286,7 +379286,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB23"
+        "Tag": ""
     },
     {
         "Id": 907102316,
@@ -379299,7 +379299,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB23"
+        "Tag": ""
     },
     {
         "Id": 907102317,
@@ -379312,7 +379312,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB23"
+        "Tag": ""
     },
     {
         "Id": 907102318,
@@ -379325,7 +379325,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB23"
+        "Tag": ""
     },
     {
         "Id": 907102319,
@@ -379338,7 +379338,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB23"
+        "Tag": ""
     },
     {
         "Id": 907102320,
@@ -379351,7 +379351,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB23"
+        "Tag": ""
     },
     {
         "Id": 907102321,
@@ -379364,7 +379364,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB23"
+        "Tag": ""
     },
     {
         "Id": 907102322,
@@ -379377,7 +379377,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB23"
+        "Tag": ""
     },
     {
         "Id": 907102323,
@@ -379390,7 +379390,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB23"
+        "Tag": ""
     },
     {
         "Id": 907102324,
@@ -379403,7 +379403,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB23"
+        "Tag": ""
     },
     {
         "Id": 907102325,
@@ -379416,7 +379416,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB23"
+        "Tag": ""
     },
     {
         "Id": 907102326,
@@ -379429,7 +379429,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Grenade Skin",
-        "Tag": "OB23"
+        "Tag": ""
     },
     {
         "Id": 907102327,
@@ -379442,7 +379442,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Gloo Walls",
-        "Tag": "OB23"
+        "Tag": ""
     },
     {
         "Id": 907102328,
@@ -379455,7 +379455,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Gloo Walls",
-        "Tag": "OB23"
+        "Tag": ""
     },
     {
         "Id": 907102401,
@@ -379468,7 +379468,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB24"
+        "Tag": ""
     },
     {
         "Id": 907102402,
@@ -379481,7 +379481,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB24"
+        "Tag": ""
     },
     {
         "Id": 907102403,
@@ -379494,7 +379494,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB24"
+        "Tag": ""
     },
     {
         "Id": 907102404,
@@ -379507,7 +379507,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB24"
+        "Tag": ""
     },
     {
         "Id": 907102405,
@@ -379520,7 +379520,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB24"
+        "Tag": ""
     },
     {
         "Id": 907102406,
@@ -379533,7 +379533,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB24"
+        "Tag": ""
     },
     {
         "Id": 907102407,
@@ -379546,7 +379546,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB24"
+        "Tag": ""
     },
     {
         "Id": 907102408,
@@ -379559,7 +379559,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB24"
+        "Tag": ""
     },
     {
         "Id": 907102409,
@@ -379572,7 +379572,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB24"
+        "Tag": ""
     },
     {
         "Id": 907102410,
@@ -379585,7 +379585,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB24"
+        "Tag": ""
     },
     {
         "Id": 907102411,
@@ -379598,7 +379598,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB24"
+        "Tag": ""
     },
     {
         "Id": 907102412,
@@ -379611,7 +379611,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB24"
+        "Tag": ""
     },
     {
         "Id": 907102413,
@@ -379624,7 +379624,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB24"
+        "Tag": ""
     },
     {
         "Id": 907102414,
@@ -379637,7 +379637,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB24"
+        "Tag": ""
     },
     {
         "Id": 907102415,
@@ -379650,7 +379650,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB24"
+        "Tag": ""
     },
     {
         "Id": 907102416,
@@ -379663,7 +379663,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB24"
+        "Tag": ""
     },
     {
         "Id": 907102417,
@@ -379676,7 +379676,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB24"
+        "Tag": ""
     },
     {
         "Id": 907102418,
@@ -379689,7 +379689,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB24"
+        "Tag": ""
     },
     {
         "Id": 907102419,
@@ -379702,7 +379702,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB24"
+        "Tag": ""
     },
     {
         "Id": 907102420,
@@ -379715,7 +379715,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB24"
+        "Tag": ""
     },
     {
         "Id": 907102421,
@@ -379728,7 +379728,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB24"
+        "Tag": ""
     },
     {
         "Id": 907102422,
@@ -379741,7 +379741,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB24"
+        "Tag": ""
     },
     {
         "Id": 907102423,
@@ -379754,7 +379754,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB24"
+        "Tag": ""
     },
     {
         "Id": 907102424,
@@ -379767,7 +379767,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB24"
+        "Tag": ""
     },
     {
         "Id": 907102425,
@@ -379780,7 +379780,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB24"
+        "Tag": ""
     },
     {
         "Id": 907102426,
@@ -379793,7 +379793,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB24"
+        "Tag": ""
     },
     {
         "Id": 907102427,
@@ -379806,7 +379806,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB24"
+        "Tag": ""
     },
     {
         "Id": 907102428,
@@ -379819,7 +379819,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB24"
+        "Tag": ""
     },
     {
         "Id": 907102429,
@@ -379832,7 +379832,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB24"
+        "Tag": ""
     },
     {
         "Id": 907102430,
@@ -379845,7 +379845,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB24"
+        "Tag": ""
     },
     {
         "Id": 907102431,
@@ -379858,7 +379858,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB24"
+        "Tag": ""
     },
     {
         "Id": 907102432,
@@ -379871,7 +379871,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB24"
+        "Tag": ""
     },
     {
         "Id": 907102433,
@@ -379884,7 +379884,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB24"
+        "Tag": ""
     },
     {
         "Id": 907102434,
@@ -379897,7 +379897,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB24"
+        "Tag": ""
     },
     {
         "Id": 907102435,
@@ -379910,7 +379910,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB24"
+        "Tag": ""
     },
     {
         "Id": 907102436,
@@ -379923,7 +379923,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB24"
+        "Tag": ""
     },
     {
         "Id": 907102437,
@@ -379936,7 +379936,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB24"
+        "Tag": ""
     },
     {
         "Id": 907102439,
@@ -379949,7 +379949,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Grenade Skin",
-        "Tag": "OB24"
+        "Tag": ""
     },
     {
         "Id": 907102440,
@@ -379962,7 +379962,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Grenade Skin",
-        "Tag": "OB24"
+        "Tag": ""
     },
     {
         "Id": 907102441,
@@ -379975,7 +379975,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Grenade Skin",
-        "Tag": "OB24"
+        "Tag": ""
     },
     {
         "Id": 907102442,
@@ -379988,7 +379988,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Gloo Walls",
-        "Tag": "OB24"
+        "Tag": ""
     },
     {
         "Id": 907102443,
@@ -380001,7 +380001,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Gloo Walls",
-        "Tag": "OB24"
+        "Tag": ""
     },
     {
         "Id": 907102444,
@@ -380014,7 +380014,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Gloo Walls",
-        "Tag": "OB24"
+        "Tag": ""
     },
     {
         "Id": 907102445,
@@ -380027,7 +380027,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Gloo Walls",
-        "Tag": "OB24"
+        "Tag": ""
     },
     {
         "Id": 907102446,
@@ -380040,7 +380040,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Gloo Walls",
-        "Tag": "OB24"
+        "Tag": ""
     },
     {
         "Id": 907102447,
@@ -380053,7 +380053,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB24"
+        "Tag": ""
     },
     {
         "Id": 907102448,
@@ -380066,7 +380066,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB24"
+        "Tag": ""
     },
     {
         "Id": 907102501,
@@ -380079,7 +380079,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB25"
+        "Tag": ""
     },
     {
         "Id": 907102502,
@@ -380092,7 +380092,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB25"
+        "Tag": ""
     },
     {
         "Id": 907102503,
@@ -380105,7 +380105,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB25"
+        "Tag": ""
     },
     {
         "Id": 907102504,
@@ -380118,7 +380118,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB25"
+        "Tag": ""
     },
     {
         "Id": 907102505,
@@ -380131,7 +380131,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB25"
+        "Tag": ""
     },
     {
         "Id": 907102506,
@@ -380144,7 +380144,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB25"
+        "Tag": ""
     },
     {
         "Id": 907102507,
@@ -380157,7 +380157,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB25"
+        "Tag": ""
     },
     {
         "Id": 907102508,
@@ -380170,7 +380170,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB25"
+        "Tag": ""
     },
     {
         "Id": 907102509,
@@ -380183,7 +380183,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB25"
+        "Tag": ""
     },
     {
         "Id": 907102510,
@@ -380196,7 +380196,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB25"
+        "Tag": ""
     },
     {
         "Id": 907102511,
@@ -380209,7 +380209,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB25"
+        "Tag": ""
     },
     {
         "Id": 907102512,
@@ -380222,7 +380222,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB25"
+        "Tag": ""
     },
     {
         "Id": 907102513,
@@ -380235,7 +380235,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB25"
+        "Tag": ""
     },
     {
         "Id": 907102514,
@@ -380248,7 +380248,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB25"
+        "Tag": ""
     },
     {
         "Id": 907102515,
@@ -380261,7 +380261,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB25"
+        "Tag": ""
     },
     {
         "Id": 907102516,
@@ -380274,7 +380274,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB25"
+        "Tag": ""
     },
     {
         "Id": 907102517,
@@ -380287,7 +380287,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB25"
+        "Tag": ""
     },
     {
         "Id": 907102518,
@@ -380300,7 +380300,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB25"
+        "Tag": ""
     },
     {
         "Id": 907102519,
@@ -380313,7 +380313,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB25"
+        "Tag": ""
     },
     {
         "Id": 907102520,
@@ -380326,7 +380326,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB25"
+        "Tag": ""
     },
     {
         "Id": 907102521,
@@ -380339,7 +380339,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB25"
+        "Tag": ""
     },
     {
         "Id": 907102522,
@@ -380352,7 +380352,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB25"
+        "Tag": ""
     },
     {
         "Id": 907102523,
@@ -380365,7 +380365,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB25"
+        "Tag": ""
     },
     {
         "Id": 907102524,
@@ -380378,7 +380378,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB25"
+        "Tag": ""
     },
     {
         "Id": 907102525,
@@ -380391,7 +380391,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB25"
+        "Tag": ""
     },
     {
         "Id": 907102526,
@@ -380404,7 +380404,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB25"
+        "Tag": ""
     },
     {
         "Id": 907102527,
@@ -380417,7 +380417,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB25"
+        "Tag": ""
     },
     {
         "Id": 907102528,
@@ -380430,7 +380430,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB25"
+        "Tag": ""
     },
     {
         "Id": 907102529,
@@ -380443,7 +380443,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB25"
+        "Tag": ""
     },
     {
         "Id": 907102530,
@@ -380456,7 +380456,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB25"
+        "Tag": ""
     },
     {
         "Id": 907102531,
@@ -380469,7 +380469,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB25"
+        "Tag": ""
     },
     {
         "Id": 907102532,
@@ -380482,7 +380482,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB25"
+        "Tag": ""
     },
     {
         "Id": 907102533,
@@ -380495,7 +380495,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB25"
+        "Tag": ""
     },
     {
         "Id": 907102534,
@@ -380508,7 +380508,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB25"
+        "Tag": ""
     },
     {
         "Id": 907102535,
@@ -380521,7 +380521,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB25"
+        "Tag": ""
     },
     {
         "Id": 907102536,
@@ -380534,7 +380534,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Grenade Skin",
-        "Tag": "OB25"
+        "Tag": ""
     },
     {
         "Id": 907102537,
@@ -380547,7 +380547,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Grenade Skin",
-        "Tag": "OB25"
+        "Tag": ""
     },
     {
         "Id": 907102538,
@@ -380560,7 +380560,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Grenade Skin",
-        "Tag": "OB25"
+        "Tag": ""
     },
     {
         "Id": 907102539,
@@ -380573,7 +380573,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Grenade Skin",
-        "Tag": "OB25"
+        "Tag": ""
     },
     {
         "Id": 907102540,
@@ -380586,7 +380586,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Gloo Walls",
-        "Tag": "OB25"
+        "Tag": ""
     },
     {
         "Id": 907102541,
@@ -380599,7 +380599,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Gloo Walls",
-        "Tag": "OB25"
+        "Tag": ""
     },
     {
         "Id": 907102542,
@@ -380612,7 +380612,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Gloo Walls",
-        "Tag": "OB25"
+        "Tag": ""
     },
     {
         "Id": 907102543,
@@ -380625,7 +380625,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Gloo Walls",
-        "Tag": "OB25"
+        "Tag": ""
     },
     {
         "Id": 907102601,
@@ -400918,7 +400918,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB24"
+        "Tag": ""
     },
     {
         "Id": 907192402,
@@ -400931,7 +400931,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB24"
+        "Tag": ""
     },
     {
         "Id": 907192403,
@@ -400944,7 +400944,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB24"
+        "Tag": ""
     },
     {
         "Id": 907192404,
@@ -400957,7 +400957,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB24"
+        "Tag": ""
     },
     {
         "Id": 907192405,
@@ -400970,7 +400970,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB24"
+        "Tag": ""
     },
     {
         "Id": 907192406,
@@ -400983,7 +400983,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB24"
+        "Tag": ""
     },
     {
         "Id": 907192407,
@@ -400996,7 +400996,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB24"
+        "Tag": ""
     },
     {
         "Id": 907192411,
@@ -401009,7 +401009,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB24"
+        "Tag": ""
     },
     {
         "Id": 907192412,
@@ -401022,7 +401022,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB24"
+        "Tag": ""
     },
     {
         "Id": 907192413,
@@ -401035,7 +401035,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB24"
+        "Tag": ""
     },
     {
         "Id": 907192414,
@@ -401048,7 +401048,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB24"
+        "Tag": ""
     },
     {
         "Id": 907192501,
@@ -401061,7 +401061,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB25"
+        "Tag": ""
     },
     {
         "Id": 907192502,
@@ -401074,7 +401074,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB25"
+        "Tag": ""
     },
     {
         "Id": 907192503,
@@ -401087,7 +401087,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB25"
+        "Tag": ""
     },
     {
         "Id": 907192504,
@@ -401100,7 +401100,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB25"
+        "Tag": ""
     },
     {
         "Id": 907192505,
@@ -401113,7 +401113,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB25"
+        "Tag": ""
     },
     {
         "Id": 907192506,
@@ -401126,7 +401126,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB25"
+        "Tag": ""
     },
     {
         "Id": 907192507,
@@ -401139,7 +401139,7 @@
         "IsUnique": true,
         "IconInAB": "CDN",
         "Category": "Weapon Skins",
-        "Tag": "OB25"
+        "Tag": ""
     },
     {
         "Id": 907192601,
