@@ -9205,5 +9205,122 @@
         "icon": "Icon_callsign_basebg_SummerVoyage",
         "effectRes": "",
         "notInCDN": false
+    },
+    {
+        "itemID": 901055001,
+        "name": "T_55_H_BANNER_WB_N",
+        "sortID": 1,
+        "sourceType": 4,
+        "icon": "Icon_callsign_basebg_WB",
+        "effectRes": "",
+        "notInCDN": false
+    },
+    {
+        "itemID": 901055002,
+        "name": "New Kenta Banner",
+        "sortID": 1,
+        "sourceType": 1,
+        "icon": "Icon_callsign_basebg_KentaRework",
+        "effectRes": "",
+        "notInCDN": false
+    },
+    {
+        "itemID": 901055003,
+        "name": "Cosmic Overlord Banner",
+        "sortID": 1,
+        "sourceType": 4,
+        "icon": "Icon_callsign_basebg_Blackdress26",
+        "effectRes": "VFX_Flash_Banner_Blackdress26",
+        "notInCDN": false
+    },
+    {
+        "itemID": 901055004,
+        "name": "Duty Hoots Banner",
+        "sortID": 1,
+        "sourceType": 5,
+        "icon": "Icon_callsign_basebg_Owlranger",
+        "effectRes": "",
+        "notInCDN": false
+    },
+    {
+        "itemID": 901055005,
+        "name": "Stellar Scorpions Banner",
+        "sortID": 1,
+        "sourceType": 5,
+        "icon": "Icon_callsign_basebg_Scorpio26",
+        "effectRes": "",
+        "notInCDN": false
+    },
+    {
+        "itemID": 901055006,
+        "name": "Fruit Frenzy Banner",
+        "sortID": 1,
+        "sourceType": 5,
+        "icon": "Icon_callsign_basebg_Ninja_Watermelon",
+        "effectRes": "",
+        "notInCDN": false
+    },
+    {
+        "itemID": 901055007,
+        "name": "CS-Ranked S39 Heroic Banner",
+        "sortID": 1,
+        "sourceType": 3,
+        "icon": "Icon_callsign_basebg_CSRank39_Purple",
+        "effectRes": "",
+        "notInCDN": false
+    },
+    {
+        "itemID": 901055008,
+        "name": "CS-Ranked S39 Master Banner",
+        "sortID": 1,
+        "sourceType": 3,
+        "icon": "Icon_callsign_basebg_CSRank39",
+        "effectRes": "VFX_Flash_Banner_CSRank39",
+        "notInCDN": false
+    },
+    {
+        "itemID": 901055009,
+        "name": "BR-Ranked S54 Heroic Banner",
+        "sortID": 1,
+        "sourceType": 3,
+        "icon": "Icon_callsign_basebg_Rank54_Purple",
+        "effectRes": "",
+        "notInCDN": false
+    },
+    {
+        "itemID": 901055010,
+        "name": "BR-Ranked S54 Master Banner",
+        "sortID": 1,
+        "sourceType": 3,
+        "icon": "Icon_callsign_basebg_Rank54",
+        "effectRes": "VFX_Flash_Banner_Rank54",
+        "notInCDN": false
+    },
+    {
+        "itemID": 901055011,
+        "name": "CS-Ranked S40 Heroic Banner",
+        "sortID": 1,
+        "sourceType": 3,
+        "icon": "Icon_callsign_basebg_CSRank40_Purple",
+        "effectRes": "",
+        "notInCDN": false
+    },
+    {
+        "itemID": 901055012,
+        "name": "CS-Ranked S40 Master Banner",
+        "sortID": 1,
+        "sourceType": 3,
+        "icon": "Icon_callsign_basebg_CSRank40",
+        "effectRes": "VFX_Flash_Banner_CSRank40",
+        "notInCDN": false
+    },
+    {
+        "itemID": 901055013,
+        "name": "Magma Fusion Banner",
+        "sortID": 1,
+        "sourceType": 4,
+        "icon": "Icon_callsign_basebg_Diwali26",
+        "effectRes": "",
+        "notInCDN": false
     }
 ]
