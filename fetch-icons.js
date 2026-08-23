@@ -1,6 +1,8 @@
 const fs = require('fs');
 const path = require('path');
 
+const API_KEY = process.env.API_KEY;
+
 const dataPath = path.join(__dirname, 'ItemsData_en.json');
 const bannerPath = path.join(__dirname, 'CollectionBanner.json');
 const iconsDir = path.join(__dirname, 'ff-icons');
@@ -77,7 +79,7 @@ async function downloadIcon(item) {
         stats.skipped++;
         mainIconFound = true;
     } else {
-        const url1 = `https://kog-ff-icons.vercel.app/api/icon/${targetId.id}?no_fallback=true`;
+        const url1 = `https://kog-ff-icons-v1.vercel.app/api/icon/${targetId.id}?no_fallback=true&key=${API_KEY}`;
         let res1 = await fetchWithRetry(url1);
         if (res1.ok) {
             fs.writeFileSync(pathId, Buffer.from(await res1.arrayBuffer()));
@@ -95,7 +97,7 @@ async function downloadIcon(item) {
             stats.skipped++;
             mainIconFound = true;
         } else {
-            const urlIcon = `https://kog-ff-icons.vercel.app/api/icon/${targetIcon.id}?no_fallback=true`;
+            const urlIcon = `https://kog-ff-icons-v1.vercel.app/api/icon/${targetIcon.id}?no_fallback=true&key=${API_KEY}`;
             let resIcon = await fetchWithRetry(urlIcon);
             if (resIcon.ok) {
                 fs.writeFileSync(pathIcon, Buffer.from(await resIcon.arrayBuffer()));
@@ -119,7 +121,7 @@ async function downloadIcon(item) {
         if (!FORCE_UPDATE && fs.existsSync(pathId2)) {
             stats.skipped++;
         } else {
-            const url2 = `https://kog-ff-icons.vercel.app/api/icon/${targetId2.id}?no_fallback=true`;
+            const url2 = `https://kog-ff-icons-v1.vercel.app/api/icon/${targetId2.id}?no_fallback=true&key=${API_KEY}`;
             let res2 = await fetchWithRetry(url2);
             if (res2.ok) {
                 fs.writeFileSync(pathId2, Buffer.from(await res2.arrayBuffer()));
@@ -151,7 +153,7 @@ async function downloadBanner(bannerItem) {
         stats.skipped++;
         mainIconFound = true;
     } else {
-        const urlIcon = `https://kog-ff-icons.vercel.app/api/icon/${targetIcon.id}?no_fallback=true`;
+        const urlIcon = `https://kog-ff-icons-v1.vercel.app/api/icon/${targetIcon.id}?no_fallback=true&key=${API_KEY}`;
         let resIcon = await fetchWithRetry(urlIcon);
         if (resIcon.ok) {
             fs.writeFileSync(pathIcon, Buffer.from(await resIcon.arrayBuffer()));
