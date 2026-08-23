@@ -25,6 +25,8 @@ jobs:
 
       - name: Run fetch script
         run: node fetch-icons.js
+        env:
+          API_KEY: ${{ secrets.API_KEY }}
 
       - name: Commit and Push changes
         uses: stefanzweifel/git-auto-commit-action@v5
