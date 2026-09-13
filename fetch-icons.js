@@ -11,7 +11,7 @@ const cdnMapPath = path.join(__dirname, 'Data', 'live', 'IconCDNMap.json');
 const iconsDir = path.join(__dirname, 'ff-icons');
 
 const CONCURRENCY_LIMIT = 150;
-const FORCE_UPDATE = false;
+const FORCE_UPDATE = true;
 
 const stats = {
     downloaded: 0,
