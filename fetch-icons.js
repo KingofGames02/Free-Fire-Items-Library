@@ -2,6 +2,12 @@ const fs = require('fs');
 const path = require('path');
 
 const API_KEY = process.env.API_KEY;
+const ROUTE_1 = process.env.ROUTE_1;
+const ROUTE_2 = process.env.ROUTE_2;
+const ROUTE_3 = process.env.ROUTE_3;
+const ROUTE_4 = process.env.ROUTE_4;
+
+const API_BASE_URL = 'https://kog-ff-icons-v1.vercel.app';
 
 const liveDataPath = path.join(__dirname, 'Data', 'live', 'FF_ItemsData.json');
 const advDataPath = path.join(__dirname, 'Data', 'advance', 'FFAdv_ItemsData.json');
@@ -24,9 +30,7 @@ let cdnMap = [];
 if (fs.existsSync(cdnMapPath)) {
     try {
         cdnMap = JSON.parse(fs.readFileSync(cdnMapPath, 'utf8'));
-    } catch (error) {
-        console.error(error.message);
-    }
+    } catch (error) {}
 }
 
 if (fs.existsSync(iconsDir)) {
@@ -52,14 +56,15 @@ async function fetchWithRetry(url, maxRetries = 5) {
     return { ok: false };
 }
 
-async function tryDownload(targetId, fileName) {
+async function tryDownload(route, targetId, fileName) {
     const filePath = path.join(iconsDir, fileName);
     if (!FORCE_UPDATE && fs.existsSync(filePath)) {
         stats.skipped++;
         return true;
     }
     
-    const url = `https://kog-ff-icons-v1.vercel.app/api/icon/${targetId}?no_fallback=true&key=${API_KEY}`;
+    const urlPath = route === 'general' ? `/api/icon/${targetId}` : `/api/icon/${route}/${targetId}`;
+    const url = `${API_BASE_URL}${urlPath}?no_fallback=true&key=${API_KEY}`;
     const res = await fetchWithRetry(url);
     
     if (res.ok) {
@@ -74,32 +79,45 @@ async function tryDownload(targetId, fileName) {
 async function downloadIcon(item) {
     const itemID = String(item.Id);
     const iconName = item.Icon ? String(item.Icon) : null;
-    let mainIconFound = false;
+    let success = false;
 
-    if (await tryDownload(itemID, `${itemID}.png`)) {
-        mainIconFound = true;
+    success = await tryDownload(ROUTE_1, itemID, `${itemID}.png`);
+    
+    if (!success && iconName) {
+        success = await tryDownload(ROUTE_1, iconName, `${iconName}.png`);
     }
 
-    if (!mainIconFound && iconName) {
-        if (await tryDownload(iconName, `${iconName}.png`)) {
-            mainIconFound = true;
+    if (!success && iconName) {
+        success = await tryDownload(ROUTE_2, iconName, `${iconName}.png`);
+    }
+
+    if (!success) {
+        success = await tryDownload(ROUTE_3, itemID, `${itemID}.png`);
+    }
+    
+    if (!success && iconName) {
+        success = await tryDownload(ROUTE_3, iconName, `${iconName}.png`);
+    }
+
+    if (!success && iconName) {
+        success = await tryDownload(ROUTE_4, iconName, `${iconName}.png`);
+    }
+
+    if (!success) {
+        const cdnEntry = cdnMap.find(entry => String(entry.IconName) === itemID || (iconName && String(entry.IconName) === iconName));
+        if (cdnEntry && cdnEntry.CDNUrl) {
+            const cdnUrl = String(cdnEntry.CDNUrl);
+            success = await tryDownload('general', cdnUrl, `${cdnUrl}.png`);
+            if (!success && /[a-zA-Z]/.test(cdnUrl)) {
+                success = await tryDownload('general', cdnUrl.toLowerCase(), `${cdnUrl.toLowerCase()}.png`);
+            }
         }
     }
 
-    if (!mainIconFound) {
+    if (!success) {
         stats.failed++;
         stats.failedItems.push(itemID);
         console.log(`Failed: ${itemID} ${iconName ? '& ' + iconName : ''}`);
-    }
-
-    const cdnEntry = cdnMap.find(entry => String(entry.IconName) === itemID || (iconName && String(entry.IconName) === iconName));
-    if (cdnEntry && cdnEntry.CDNUrl) {
-        const cdnUrl = String(cdnEntry.CDNUrl);
-        let success = await tryDownload(cdnUrl, `${cdnUrl}.png`);
-        if (!success && /[a-zA-Z]/.test(cdnUrl)) {
-            const lowerCdnUrl = cdnUrl.toLowerCase();
-            await tryDownload(lowerCdnUrl, `${lowerCdnUrl}.png`);
-        }
     }
 }
 
@@ -108,22 +126,28 @@ async function downloadBanner(bannerItem) {
     if (!iconVal || String(iconVal).trim() === "") return;
     
     const iconName = String(iconVal).toLowerCase();
-    
-    const mainIconFound = await tryDownload(iconName, `${iconName}.png`);
-    if (!mainIconFound) {
+    let success = false;
+
+    success = await tryDownload(ROUTE_1, iconName, `${iconName}.png`);
+    if (!success) success = await tryDownload(ROUTE_2, iconName, `${iconName}.png`);
+    if (!success) success = await tryDownload(ROUTE_3, iconName, `${iconName}.png`);
+    if (!success) success = await tryDownload(ROUTE_4, iconName, `${iconName}.png`);
+
+    if (!success) {
+        const cdnEntry = cdnMap.find(entry => String(entry.IconName).toLowerCase() === iconName);
+        if (cdnEntry && cdnEntry.CDNUrl) {
+            const cdnUrl = String(cdnEntry.CDNUrl);
+            success = await tryDownload('general', cdnUrl, `${cdnUrl}.png`);
+            if (!success && /[a-zA-Z]/.test(cdnUrl)) {
+                success = await tryDownload('general', cdnUrl.toLowerCase(), `${cdnUrl.toLowerCase()}.png`);
+            }
+        }
+    }
+
+    if (!success) {
         stats.failed++;
         stats.failedItems.push(`Banner: ${iconName}`);
         console.log(`Failed: Banner ${iconName}`);
-    }
-
-    const cdnEntry = cdnMap.find(entry => String(entry.IconName).toLowerCase() === iconName);
-    if (cdnEntry && cdnEntry.CDNUrl) {
-        const cdnUrl = String(cdnEntry.CDNUrl);
-        let success = await tryDownload(cdnUrl, `${cdnUrl}.png`);
-        if (!success && /[a-zA-Z]/.test(cdnUrl)) {
-            const lowerCdnUrl = cdnUrl.toLowerCase();
-            await tryDownload(lowerCdnUrl, `${lowerCdnUrl}.png`);
-        }
     }
 }
 
