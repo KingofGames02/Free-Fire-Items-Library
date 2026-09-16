@@ -1,13 +1,10 @@
 const fs = require('fs');
 const path = require('path');
 
-const API_KEY = process.env.API_KEY;
 const ROUTE_1 = process.env.ROUTE_1;
 const ROUTE_2 = process.env.ROUTE_2;
 const ROUTE_3 = process.env.ROUTE_3;
 const ROUTE_4 = process.env.ROUTE_4;
-
-const API_BASE_URL = 'https://kog-ff-icons-v1.vercel.app';
 
 const liveDataPath = path.join(__dirname, 'Data', 'live', 'FF_ItemsData.json');
 const advDataPath = path.join(__dirname, 'Data', 'advance', 'FFAdv_ItemsData.json');
@@ -56,15 +53,23 @@ async function fetchWithRetry(url, maxRetries = 5) {
     return { ok: false };
 }
 
-async function tryDownload(route, targetId, fileName) {
+async function tryDownload(routeStr, fileName) {
+    if (!routeStr) return false;
+    
     const filePath = path.join(iconsDir, fileName);
     if (!FORCE_UPDATE && fs.existsSync(filePath)) {
         stats.skipped++;
         return true;
     }
     
-    const urlPath = route === 'general' ? `/api/icon/${targetId}` : `/api/icon/${route}/${targetId}`;
-    const url = `${API_BASE_URL}${urlPath}?no_fallback=true&key=${API_KEY}`;
+    let url;
+    if (routeStr.includes('{icon}')) {
+        const nameWithoutExt = fileName.replace('.png', '');
+        url = routeStr.replace('{icon}', nameWithoutExt);
+    } else {
+        url = routeStr.endsWith('/') ? `${routeStr}${fileName}` : `${routeStr}/${fileName}`;
+    }
+
     const res = await fetchWithRetry(url);
     
     if (res.ok) {
@@ -76,11 +81,11 @@ async function tryDownload(route, targetId, fileName) {
     return false;
 }
 
-async function tryDownloadAllRoutes(targetId, fileName) {
-    const routes = [ROUTE_1, ROUTE_2, ROUTE_3, ROUTE_4, 'general'];
+async function tryDownloadAllRoutes(fileName) {
+    const routes = [ROUTE_1, ROUTE_2, ROUTE_3, ROUTE_4];
     for (const route of routes) {
         if (!route) continue;
-        if (await tryDownload(route, targetId, fileName)) return true;
+        if (await tryDownload(route, fileName)) return true;
     }
     return false;
 }
@@ -90,16 +95,22 @@ async function downloadIcon(item) {
     const iconName = item.Icon ? String(item.Icon) : null;
     let success = false;
 
-    success = await tryDownloadAllRoutes(itemID, `${itemID}.png`);
+    success = await tryDownload(ROUTE_1, `${itemID}.png`);
     
+    if (!success && iconName) {
+        success = await tryDownload(ROUTE_1, `${iconName}.png`);
+    }
+    if (!success && iconName) {
+        success = await tryDownload(ROUTE_2, `${iconName}.png`);
+    }
     if (!success) {
-        success = await tryDownloadAllRoutes(`${itemID}_2`, `${itemID}_2.png`);
+        success = await tryDownload(ROUTE_3, `${itemID}.png`);
     }
     if (!success && iconName) {
-        success = await tryDownloadAllRoutes(iconName, `${iconName}.png`);
+        success = await tryDownload(ROUTE_3, `${iconName}.png`);
     }
     if (!success && iconName) {
-        success = await tryDownloadAllRoutes(iconName.toLowerCase(), `${iconName.toLowerCase()}.png`);
+        success = await tryDownload(ROUTE_4, `${iconName}.png`);
     }
 
     if (!success) {
@@ -116,10 +127,10 @@ async function downloadBanner(bannerItem) {
     const iconName = String(iconVal).toLowerCase();
     let success = false;
 
-    success = await tryDownload(ROUTE_1, iconName, `${iconName}.png`);
-    if (!success) success = await tryDownload(ROUTE_2, iconName, `${iconName}.png`);
-    if (!success) success = await tryDownload(ROUTE_3, iconName, `${iconName}.png`);
-    if (!success) success = await tryDownload(ROUTE_4, iconName, `${iconName}.png`);
+    success = await tryDownload(ROUTE_1, `${iconName}.png`);
+    if (!success) success = await tryDownload(ROUTE_2, `${iconName}.png`);
+    if (!success) success = await tryDownload(ROUTE_3, `${iconName}.png`);
+    if (!success) success = await tryDownload(ROUTE_4, `${iconName}.png`);
 
     if (!success) {
         stats.failed++;
@@ -148,20 +159,24 @@ async function downloadCdnEntry(entry, allItems) {
         if (matchedItems.length > 0) {
             for (const matchedItem of matchedItems) {
                 const itemId = String(matchedItem.Id);
-                let currentSuccess = await tryDownloadAllRoutes(itemId + '_2', `${itemId}_2.png`);
-                if(currentSuccess) anyItemSuccess = true;
+                const currentSuccess = await tryDownloadAllRoutes(`${itemId}_2.png`);
+                if (currentSuccess) anyItemSuccess = true;
             }
         }
         
-        success = await tryDownloadAllRoutes(cdnUrl, `${cdnUrl}.png`);
+        success = await tryDownloadAllRoutes(`${cdnUrl}.png`);
+        
         if (!success) {
-            success = await tryDownloadAllRoutes(cdnUrl.toLowerCase(), `${cdnUrl.toLowerCase()}.png`);
+            success = await tryDownloadAllRoutes(`${cdnUrl.toLowerCase()}.png`);
         }
 
         if (anyItemSuccess) success = true;
 
     } else {
-        success = await tryDownloadAllRoutes(cdnUrl, `${cdnUrl}.png`);
+        success = await tryDownloadAllRoutes(`${cdnUrl}.png`);
+        if (!success && /[a-zA-Z]/.test(cdnUrl)) {
+            success = await tryDownloadAllRoutes(`${cdnUrl.toLowerCase()}.png`);
+        }
     }
 
     if (!success) {
