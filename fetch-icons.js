@@ -11,6 +11,8 @@ const API_BASE_URL = 'https://kog-ff-icons-v1.vercel.app';
 
 const liveDataPath = path.join(__dirname, 'Data', 'live', 'FF_ItemsData.json');
 const advDataPath = path.join(__dirname, 'Data', 'advance', 'FFAdv_ItemsData.json');
+const liveBannerPath = path.join(__dirname, 'Data', 'live', 'CollectionBanner.json');
+const advBannerPath = path.join(__dirname, 'Data', 'advance', 'CollectionBanner.json');
 const cdnMapPath = path.join(__dirname, 'Data', 'live', 'IconCDNMap.json');
 const iconsDir = path.join(__dirname, 'ff-icons');
 
@@ -54,27 +56,82 @@ async function fetchWithRetry(url, maxRetries = 5) {
     return { ok: false };
 }
 
-async function tryDownloadAllRoutes(targetId, fileName) {
+async function tryDownload(route, targetId, fileName) {
     const filePath = path.join(iconsDir, fileName);
     if (!FORCE_UPDATE && fs.existsSync(filePath)) {
         stats.skipped++;
         return true;
     }
+    
+    const urlPath = route === 'general' ? `/api/icon/${targetId}` : `/api/icon/${route}/${targetId}`;
+    const url = `${API_BASE_URL}${urlPath}?no_fallback=true&key=${API_KEY}`;
+    const res = await fetchWithRetry(url);
+    
+    if (res.ok) {
+        fs.writeFileSync(filePath, Buffer.from(await res.arrayBuffer()));
+        stats.downloaded++;
+        console.log(`Downloaded: ${fileName}`);
+        return true;
+    }
+    return false;
+}
 
+async function tryDownloadAllRoutes(targetId, fileName) {
     const routes = [ROUTE_1, ROUTE_2, ROUTE_3, ROUTE_4, 'general'];
     for (const route of routes) {
         if (!route) continue;
-        const urlPath = route === 'general' ? `/api/icon/${targetId}` : `/api/icon/${route}/${targetId}`;
-        const url = `${API_BASE_URL}${urlPath}?no_fallback=true&key=${API_KEY}`;
-        const res = await fetchWithRetry(url);
-        if (res.ok) {
-            fs.writeFileSync(filePath, Buffer.from(await res.arrayBuffer()));
-            stats.downloaded++;
-            console.log(`Downloaded: ${fileName}`);
-            return true;
-        }
+        if (await tryDownload(route, targetId, fileName)) return true;
     }
     return false;
+}
+
+async function downloadIcon(item) {
+    const itemID = String(item.Id);
+    const iconName = item.Icon ? String(item.Icon) : null;
+    let success = false;
+
+    success = await tryDownload(ROUTE_1, itemID, `${itemID}.png`);
+    
+    if (!success && iconName) {
+        success = await tryDownload(ROUTE_1, iconName, `${iconName}.png`);
+    }
+    if (!success && iconName) {
+        success = await tryDownload(ROUTE_2, iconName, `${iconName}.png`);
+    }
+    if (!success) {
+        success = await tryDownload(ROUTE_3, itemID, `${itemID}.png`);
+    }
+    if (!success && iconName) {
+        success = await tryDownload(ROUTE_3, iconName, `${iconName}.png`);
+    }
+    if (!success && iconName) {
+        success = await tryDownload(ROUTE_4, iconName, `${iconName}.png`);
+    }
+
+    if (!success) {
+        stats.failed++;
+        stats.failedItems.push(itemID);
+        console.log(`Failed: ${itemID} ${iconName ? '& ' + iconName : ''}`);
+    }
+}
+
+async function downloadBanner(bannerItem) {
+    const iconVal = bannerItem.icon;
+    if (!iconVal || String(iconVal).trim() === "") return;
+    
+    const iconName = String(iconVal).toLowerCase();
+    let success = false;
+
+    success = await tryDownload(ROUTE_1, iconName, `${iconName}.png`);
+    if (!success) success = await tryDownload(ROUTE_2, iconName, `${iconName}.png`);
+    if (!success) success = await tryDownload(ROUTE_3, iconName, `${iconName}.png`);
+    if (!success) success = await tryDownload(ROUTE_4, iconName, `${iconName}.png`);
+
+    if (!success) {
+        stats.failed++;
+        stats.failedItems.push(`Banner: ${iconName}`);
+        console.log(`Failed: Banner ${iconName}`);
+    }
 }
 
 async function downloadCdnEntry(entry, allItems) {
@@ -116,29 +173,65 @@ async function downloadCdnEntry(entry, allItems) {
     }
 
     if (!success) {
-        stats.failed++;
-        stats.failedItems.push(cdnUrl);
-        console.log(`Failed CDN Entry: ${cdnUrl}`);
+        if (!stats.failedItems.includes(cdnUrl)) {
+            stats.failed++;
+            stats.failedItems.push(cdnUrl);
+            console.log(`Failed CDN Entry: ${cdnUrl}`);
+        }
     }
 }
 
 async function start() {
     const tasks = [];
+    const processedItems = new Set();
+    const processedBanners = new Set();
     const processedCdn = new Set();
 
     let allItems = [];
-    const loadItemsForCheck = (filePath) => {
+
+    const parseDataFile = (filePath) => {
         if (!fs.existsSync(filePath)) return;
         try {
             const rawData = fs.readFileSync(filePath, 'utf8');
             const items = JSON.parse(rawData);
             const itemsArray = Array.isArray(items) ? items : Object.values(items);
+            
             allItems = allItems.concat(itemsArray);
+
+            itemsArray.forEach(item => {
+                const itemID = String(item.Id);
+                if (!processedItems.has(itemID) && !(item.HideInIndex === true || !item.Icon || String(item.Icon).trim() === "")) {
+                    processedItems.add(itemID);
+                    tasks.push(() => downloadIcon(item));
+                }
+            });
         } catch (e) {}
     };
 
-    loadItemsForCheck(liveDataPath);
-    loadItemsForCheck(advDataPath);
+    const parseBannerFile = (filePath) => {
+        if (!fs.existsSync(filePath)) return;
+        try {
+            const rawBanner = fs.readFileSync(filePath, 'utf8');
+            const banners = JSON.parse(rawBanner);
+            const bannerArray = Array.isArray(banners) ? banners : Object.values(banners);
+            
+            bannerArray.forEach(banner => {
+                const iconVal = banner.icon;
+                if (iconVal && String(iconVal).trim() !== "") {
+                    const iconName = String(iconVal).toLowerCase();
+                    if (!processedBanners.has(iconName)) {
+                        processedBanners.add(iconName);
+                        tasks.push(() => downloadBanner(banner));
+                    }
+                }
+            });
+        } catch (e) {}
+    };
+
+    parseDataFile(liveDataPath);
+    parseDataFile(advDataPath);
+    parseBannerFile(liveBannerPath);
+    parseBannerFile(advBannerPath);
 
     cdnMap.forEach(entry => {
         const cdnUrl = String(entry.CDNUrl);
