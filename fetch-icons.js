@@ -85,17 +85,29 @@ async function downloadCdnEntry(entry, allItems) {
     const isTextBased = isNaN(cdnUrl) && /[a-zA-Z]/.test(cdnUrl);
 
     if (isTextBased) {
-        const matchedItem = allItems.find(item => String(item.Id) === iconName || String(item.Icon) === iconName);
-        if (matchedItem) {
-            const itemId = String(matchedItem.Id);
-            success = await tryDownloadAllRoutes(itemId + '_2', `${itemId}_2.png`);
+        const matchedItems = allItems.filter(item => {
+            const iId = String(item.Id);
+            const iIcon = item.Icon ? String(item.Icon) : "";
+            const cleanIconName = iconName.replace(/_2$/, '');
+            const cleanIIcon = iIcon.replace(/_2$/, '');
+            return iId === iconName || iIcon === iconName || cleanIIcon === cleanIconName;
+        });
+
+        if (matchedItems.length > 0) {
+            for (const matchedItem of matchedItems) {
+                const itemId = String(matchedItem.Id);
+                let currentSuccess = await tryDownloadAllRoutes(itemId + '_2', `${itemId}_2.png`);
+                if(currentSuccess) success = true;
+            }
         }
+        
         if (!success) {
             success = await tryDownloadAllRoutes(cdnUrl, `${cdnUrl}.png`);
         }
         if (!success) {
             success = await tryDownloadAllRoutes(cdnUrl.toLowerCase(), `${cdnUrl.toLowerCase()}.png`);
         }
+
     } else {
         success = await tryDownloadAllRoutes(cdnUrl, `${cdnUrl}.png`);
         if (!success && /[a-zA-Z]/.test(cdnUrl)) {
