@@ -873,7 +873,7 @@
   </div>
 
   <script>
-    const APP_VERSION = "2.0.2";
+    const APP_VERSION = "2.0.5";
     const imgBase = "";
     const ENABLE_ADVANCE_SERVER = false;
 
@@ -1291,43 +1291,53 @@
       let urls = [];
       let itemID = String(item.Id);
       let iconName = item.Icon ? String(item.Icon) : null;
+      let iconNameClean = iconName ? iconName.replace(/_2$/, '') : null;
       const v = `?v=${APP_VERSION}`;
       
       let cdnMatch = null;
       if (isBanner && bannerIconStr) {
         cdnMatch = cdnMapData.find(e => String(e.IconName).toLowerCase() === bannerIconStr.toLowerCase());
       } else {
-        cdnMatch = cdnMapData.find(e => String(e.IconName) === itemID || (iconName && String(e.IconName) === iconName));
+        cdnMatch = cdnMapData.find(e => {
+            let eName = String(e.IconName);
+            let eNameClean = eName.replace(/_2$/, '');
+            return eName === itemID || eName === iconName || eNameClean === iconNameClean;
+        });
+      }
+
+      if (isBanner && bannerIconStr) {
+        if (cdnMatch && cdnMatch.CDNUrl) {
+          let cdnUrl = String(cdnMatch.CDNUrl);
+          urls.push(`'${imgBase}ff-icons/${cdnUrl}.png${v}'`);
+          if (/[a-zA-Z]/.test(cdnUrl)) {
+            urls.push(`'${imgBase}ff-icons/${cdnUrl.toLowerCase()}.png${v}'`);
+          }
+        }
+        urls.push(`'${imgBase}ff-icons/${bannerIconStr}.png${v}'`);
+        return [...new Set(urls)];
       }
 
       if (cdnMatch && cdnMatch.CDNUrl) {
         let cdnUrl = String(cdnMatch.CDNUrl);
         const isTextBased = isNaN(cdnUrl) && /[a-zA-Z]/.test(cdnUrl);
+        
         if (isTextBased) {
           urls.push(`'${imgBase}ff-icons/${itemID}_2.png${v}'`);
           urls.push(`'${imgBase}ff-icons/${cdnUrl}.png${v}'`);
-          if (/[a-zA-Z]/.test(cdnUrl)) {
-            urls.push(`'${imgBase}ff-icons/${cdnUrl.toLowerCase()}.png${v}'`);
-          }
+          urls.push(`'${imgBase}ff-icons/${cdnUrl.toLowerCase()}.png${v}'`);
         } else {
           urls.push(`'${imgBase}ff-icons/${cdnUrl}.png${v}'`);
-          if (/[a-zA-Z]/.test(cdnUrl)) {
-            urls.push(`'${imgBase}ff-icons/${cdnUrl.toLowerCase()}.png${v}'`);
-          }
         }
-      }
-
-      if (isBanner && bannerIconStr) {
-        urls.push(`'${imgBase}ff-icons/${bannerIconStr}.png${v}'`);
       } else {
-        urls.push(`'${imgBase}ff-icons/${itemID}_2.png${v}'`);
         urls.push(`'${imgBase}ff-icons/${itemID}.png${v}'`);
+        urls.push(`'${imgBase}ff-icons/${itemID}_2.png${v}'`);
         if (iconName) {
-          urls.push(`'${imgBase}ff-icons/${iconName}_2.png${v}'`);
           urls.push(`'${imgBase}ff-icons/${iconName}.png${v}'`);
+          urls.push(`'${imgBase}ff-icons/${iconName.toLowerCase()}.png${v}'`);
         }
       }
-      return urls;
+      
+      return [...new Set(urls)];
     }
 
     function getIconUrlsArrayObj(item, isBanner, bannerIconStr) {
