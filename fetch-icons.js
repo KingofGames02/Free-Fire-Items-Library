@@ -90,22 +90,16 @@ async function downloadIcon(item) {
     const iconName = item.Icon ? String(item.Icon) : null;
     let success = false;
 
-    success = await tryDownload(ROUTE_1, itemID, `${itemID}.png`);
+    success = await tryDownloadAllRoutes(itemID, `${itemID}.png`);
     
-    if (!success && iconName) {
-        success = await tryDownload(ROUTE_1, iconName, `${iconName}.png`);
-    }
-    if (!success && iconName) {
-        success = await tryDownload(ROUTE_2, iconName, `${iconName}.png`);
-    }
     if (!success) {
-        success = await tryDownload(ROUTE_3, itemID, `${itemID}.png`);
+        success = await tryDownloadAllRoutes(`${itemID}_2`, `${itemID}_2.png`);
     }
     if (!success && iconName) {
-        success = await tryDownload(ROUTE_3, iconName, `${iconName}.png`);
+        success = await tryDownloadAllRoutes(iconName, `${iconName}.png`);
     }
     if (!success && iconName) {
-        success = await tryDownload(ROUTE_4, iconName, `${iconName}.png`);
+        success = await tryDownloadAllRoutes(iconName.toLowerCase(), `${iconName.toLowerCase()}.png`);
     }
 
     if (!success) {
@@ -150,26 +144,24 @@ async function downloadCdnEntry(entry, allItems) {
             return iId === iconName || iIcon === iconName || cleanIIcon === cleanIconName;
         });
 
+        let anyItemSuccess = false;
         if (matchedItems.length > 0) {
             for (const matchedItem of matchedItems) {
                 const itemId = String(matchedItem.Id);
                 let currentSuccess = await tryDownloadAllRoutes(itemId + '_2', `${itemId}_2.png`);
-                if(currentSuccess) success = true;
+                if(currentSuccess) anyItemSuccess = true;
             }
         }
         
-        if (!success) {
-            success = await tryDownloadAllRoutes(cdnUrl, `${cdnUrl}.png`);
-        }
+        success = await tryDownloadAllRoutes(cdnUrl, `${cdnUrl}.png`);
         if (!success) {
             success = await tryDownloadAllRoutes(cdnUrl.toLowerCase(), `${cdnUrl.toLowerCase()}.png`);
         }
 
+        if (anyItemSuccess) success = true;
+
     } else {
         success = await tryDownloadAllRoutes(cdnUrl, `${cdnUrl}.png`);
-        if (!success && /[a-zA-Z]/.test(cdnUrl)) {
-            success = await tryDownloadAllRoutes(cdnUrl.toLowerCase(), `${cdnUrl.toLowerCase()}.png`);
-        }
     }
 
     if (!success) {
