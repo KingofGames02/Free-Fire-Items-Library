@@ -41,6 +41,7 @@ Anda sudah pun membeli Premium. Jangan ulangi pembelian anda.
 Tiada ganjaran tersedia
 Penjaga telah mencapai had untuk akaun minor yang dipantau. Aplikasi anda tidak dapat dihantar.
 Sedang dalam tempoh cooldown, proses nyahikat tidak boleh dibatalkan. Sila cuba lagi kemudian.
+Maklumat nyahpaut anda telah dikemas kini. Sila tunggu sementara halaman dimuat semula.
 Nyahpaut tengah cooldown. Sila cuba lagi nanti.
 Akaun tetamu tidak layak untuk menjadi penjaga bagi akaun minor.
 Pemain ini mempunyai terlalu banyak permintaan pautan yang menunggu. Sila cuba lagi nanti.
@@ -92,6 +93,7 @@ Ralat konfigurasi
 Misi ini tidak boleh disegar semula
 Anda telah mencapai had segar semula
 Tiada ganjaran misi harian untuk dituntut. (Sama ada kemajuan tidak mencukupi atau sudah dituntut.)
+Had pembelian telah dicapai
 Gagal menghantar Pas Booyah duo. Pengirim atau penerima belum mencapai tahap yang diperlukan.
 Belum dapat dibuka lagi
 Parameter klien salah
@@ -392,7 +394,7 @@ Event telah ditutup
 Ralat data, sila log masuk semula (03).
 Ralat data, sila log masuk semula (05).
 Ralat data, sila semak fail konfigurasi (04).
-Ralat data, sila semak fail konfigurasi (02).
+Ralat data. Sila semak fail konfigurasi (02).
 Ralat data, sila log masuk semula (06).
 Ralat data, sila log masuk semula (04).
 Jumlah pertukaran ganjaran telah mencapai had maksimum
@@ -433,7 +435,7 @@ Mod tutorial tidak sah
 Konfigurasi ibu jari ke atas tidak sah
 Ganjaran sudah dituntut. Tidak dapat menuntut lagi
 Ganjaran belum unlock
-BR_FRESH_ROOKIE_ANSWER_ALREADY_CLAIMED
+Anda telah menjawab soalan hari ini. Kembali lagi esok!
 Pemain ini tidak boleh ditambah sebagai rakan buat masa ini. Sila cuba lagi kemudian.
 Anda tidak boleh menambah rakan baharu buat masa ini. Sila cuba lagi kemudian.
 Dynamic Duo sudah dibentuk
@@ -442,6 +444,7 @@ Permintaan sudah dihantar kepada pemain ini
 Senarai hitam telah penuh
 Tidak boleh memasukkan ID anda sendiri
 Sudah dalam senarai rakan anda
+Permintaan rakan gagal. Senarai permintaan pemain ini penuh. Sila cuba lagi nanti.
 Tidak boleh menghantar permintaan menjadi rakan kepada pemain yang telah anda sekat. Sila nyahsekat mereka terlebih dahulu.
 Permintaan dihantar
 ID tidak sah, sila semak semula
@@ -465,6 +468,7 @@ Ini sudah menjadi Rakan Bintang.
 Bilangan maksimum Rakan Bintang dicapai.
 Pemain ini tiada dalam senarai rakan anda.
 Sekarang dalam tempoh perlindungan, tidak dapat diselesaikan
+Ralat data. Sila log masuk semula.
 Wilayah Tidak Tersedia
 Wilayah tidak tersedia
 Sudah berada dalam Unit
@@ -561,7 +565,7 @@ Warna skin tidak sah
 Ralat mengambil maklumat koleksi
 Harga tidak sepadan, sila maklumkan kepada khidmat pelanggan.
 ID konfigurasi tidak sah
-ID keistimewaan tidak sah
+Acara Telah Tamat
 Jenis mata wang tidak sah
 Jangan memenuhi keperluan untuk menggunakan kupon diskaun.
 Skin kenderaan tidak sah
@@ -575,6 +579,7 @@ Had pembelian dicapai
 Emas tidak mencukupi
 Diamonds tidak mencukupi
 Ralat item semasa. Sila semak semula item dalam Vault atau hubungi khidmat pelanggan
+Prime Diamond tidak mencukupi
 Baucar tidak mencukupi
 Skin senjata tamat tempoh yang tidak dilengkapkan
 Transaksi pembelian gagal
@@ -788,6 +793,7 @@ Gagal memperoleh data
 Tidak dapat melihat kadar jatuhan
 Tahap Prime belum mencapai 7
 Ralat rangkaian
+Ralat data. Sila log masuk semula.
 Tidak dapat unlock kerana tahap watak terlalu rendah.
 Kemahiran Aktif sudah dilengkapkan. Tidak dapat melengkapkan lebih daripada satu
 Watak ini tidak boleh melengkapkan kemahiran aktif ini
@@ -889,8 +895,16 @@ Panjang mesej abnormal
 Mesej mengandungi aksara yang dilarang
 Kemajuan tidak mencukupi
 Menunggu permintaan sebelumnya selesai
+Had tuntutan telah dicapai
+Masih belum mengumpulkan semua item yang diperlukan
+Rush Board telah tamat
 ID Rush Board tidak sah
+ID ganjaran koleksi tidak sah
+Permintaan spin tidak sah
+Permintaan spin berbilang tidak sah
+Jenis spin tidak sah
 Permintaan untuk menukar papan tidak sah
+Diamond tidak mencukupi
 Rush Board belum bermula
 Kumpulan hadiah Rush Board tidak sah
 Tiada maklumat konfigurasi
@@ -963,6 +977,7 @@ Sudah menjemput kawan ini
 ID ganjaran tidak sah
 Jenis Ganjaran tidak sah
 Wilayah skuad tidak sepadan
+Kod QR ini tidak lagi sah
 Acara tidak tersedia semasa ini
 Tidak dalam skuad
 Jemputan diperlukan untuk menyertai skuad persendirian
@@ -1030,9 +1045,13 @@ Slot dikunci
 Pemadanan gagal: tiada pasukan yang sesuai ditemukan
 Pada masa ini tiada kebenaran untuk mengakses ciri berkaitan keahlian
 Tiada peta disyorkan yang ditemukan
+Gagal membeli, CraftGems tidak mencukupi.
+Gagal membeli. Had pembelian maksimum telah dicapai.
 Maks. pencipta dipin
 Had pin telah dicapai
 Maks. peta dipin
+Maklumat produk dikemas kini (harga telah berubah), sila muat semula dan cuba lagi.
+Maklumat produk dikemas kini (produk tidak tersedia), sila muat semula dan cuba lagi.
 Data salah: Jumlah tag maksimum dicapai
 Ganjaran dituntut
 Masih belum mengikuti pencipta ini
@@ -1046,13 +1065,13 @@ Pemain sudah melakukan pemadanan (MM32)
 Bilangan ahli pasukan tidak memenuhi keperluan (MM31)
 Anda bukan ketua kumpulan (MM30)
 Tidak boleh menonton pemain ini kerana mereka menggunakan pelagak
-Tidak boleh menonton perlawanan yang dihadiri penipu
+Perlawanan ini tidak boleh ditonton buat masa ini
 Rakan anda tidak menyertai sebarang perlawanan
 Penonton penuh
 Anda sudah ada Pyro
 Anda dan pemain lain bukan Dynamic Duos
-Pyro Dynamic Duo anda belum mencapai tahap yang diperlukan lagi
-Dynamic Duo anda belum ada Pyro
+Pyro rakan anda belum mencapai tahap yang diperlukan
+Rakan anda belum memiliki Pyro
 ID Warna Tidak Wujud
 Tiada spin berbaki
 Kumpulan hadiah masih terkunci
@@ -2268,7 +2287,7 @@ Peraturan
 BELI
 Slot Senjata
 Ketepatan
-Lelopak Peluru
+Magazin
 Kerosakan
 Jarak Berkesan
 Kelajuan Isi Semula
@@ -7135,7 +7154,7 @@ Survivor yang dihormati, \nTahniah kerana mencapai rank {0} dalam Musim sebelum 
 Kekalkan ranking anda dan tuntut ganjaran Grandmaster eksklusif apabila musim tamat.
 Ganjaran Grandmaster
 Isi semula lebih pantas apabila kehabisan peluru
-Lelopak Peluru Berganda
+Magazin Berganda
 Apabila dilengkapi pada Kar98K, senjata itu akan dapat mengenal pasti benda hidup dan membidik dengan lebih tepat
 Cip Naik Taraf
 Cip Naik Taraf
@@ -10387,7 +10406,7 @@ Kiraan cabutan
 Tawaran Terhad: {0}
 Sahkan untuk mengalih keluar hadiah di bawah daripada kumpulan?
 Dialih keluar
-Sebelum spin, ketik bahagian kiri bawah ikon hadiah dan buang 2 hadiah yang anda tak suka.
+Pilih 2 item untuk dibuang. Tekan Sahkan untuk bermula.
 Hadiah yang telah diperoleh tidak akan berulang. Diamonds yang diperlukan akan meningkat dengan setiap cabutan.
 1. Sertai cabutan dengan menggunakan diamonds. Hadiah yang telah diperoleh tidak akan berulang. Setiap cabutan seterusnya akan memerlukan lebih banyak diamonds. Cabutan semasa memerlukan diamond sebanyak: {0}
 2. Sebelum membuat cabutan, pemain boleh mengalih keluar 2 hadiah yang tidak diingini [FFBA00](kecuali hadiah utama)[-], sekali gus meningkatkan kadar kemenangan hadiah utama.
@@ -11481,7 +11500,7 @@ Skin Haiwan Peliharaan: Cyber Waggor
 Mewah, kaya, bangsawan. Kata-kata sahaja tidak cukup untuk menggambarkan dirinya
 Skin Haiwan Peliharaan: Gold Waggor
 Tiada mesej terbaharu
-Pintu masuk ke kawasan perlawanan masih belum dibuka. Para Survivor, sila tunggu sebentar.
+Battlefield masih belum dibuka. Survivors, sila semak saluran rasmi untuk maklumat pembukaan.
 Kumpulan pemain yang sepadan tidak ditemukan. Pemadanan gagal. (MM9)
 Maaf, langganan tidak disokong oleh store peranti anda
 Sistem telah mengesan aktiviti tidak normal dalam akaun anda. Akaun telah digantung sementara. Sila muat turun Free Fire daripada saluran rasmi sahaja. Anda boleh bermain seperti biasa setelah penggantungan akaun ditarik balik. \nUntuk sebarang pertanyaan, sila hubungi sokongan pelanggan. \nTempoh penggantungan tamat dalam:
@@ -19777,7 +19796,7 @@ Teruskan semangat!
 Parang - Soundwave Thrasher
 Diprogram untuk menyingkir
 MAG-7 - Amber Megacypher
-Lelopak Peluru AR
+Magazin AR
 Apa-apa sahaja demi melindungi rakyat saya
 AC80 - Fury Tribe
 Menggigil?
@@ -19917,7 +19936,7 @@ Tahniah kerana mencapai rank Grandmaster!
 Kumpul [FFBA00]{0}[-] mata untuk mencapai rank Grandmaster
 Capai Master {0}[S0] untuk melayakkan diri ke rank Grandmaster
 TERATAS
-[FFB300]{0}s[-] selepas diserang, pulihkan [FFB300]{1}HP[-]/s selama [FFB300]{2}s[-]
+Selepas [FFB300]{0}s[-] menerima kerosakan, pulihkan [FFB300]{1}HP[-]/s selama [FFB300]{2}s[-]
 Selepas menyingkirkan musuh, lokasi musuh lain dalam lingkungan {0}m dari tempat penyingkiran tersebut akan didedahkan. Maklumat akan dikongsi bersama rakan sepasukan.
 Buzzer Beater
 Kabut Memori
@@ -24311,7 +24330,7 @@ Penunggang Naga
 BEATz Bangers
 Ancient Haunters
 Syiling CS
-[27B1FF]{0}[-] telah mengambil Syiling CS. Anda memperoleh [F7A335]{1}[-] tunai
+[27B1FF]{0}[-] mengambil CS Cash. Anda memperoleh [F7A335]{1}[-] cash.
 M1887 tiga laras, dicipta semula. Tembak sahaja!
 M1887-X
 Pemula
@@ -24589,7 +24608,7 @@ Ketepatan
 Sebaran peluru minimum
 Menyokong Akimbo
 Jika dua daripada jenis yang sama dimiliki, anda boleh mengacu-acukan dua senapang serentak
-Lelopak Peluru
+Magazin
 Kapasiti peluru lebih tinggi sedikit
 Kapasiti peluru agak lebih tinggi
 Kapasiti peluru nyata lebih tinggi
@@ -27375,7 +27394,7 @@ Luncur butang bergerak untuk bergerak ke sana sini
 Pilih senjata
 Menuju ke tempat yang membara untuk merampas senjata musuh
 Melengkapkan latihan adalah kunci untuk mendapat [ffba00]kemahiran pertempuran asas[-] dan anda boleh menerima [ffba00]ganjaran tambahan[-] pada penghujung. Kami mengesyorkan agar menyelesaikan latihan. Adakah anda mahu keluar sahaja?
-Isi lelopak peluru
+Isi magazin
 Ketik untuk mengisi semula senapang anda
 Ketik untuk lari pecut. Ketik lagi untuk membatalkan.
 Pergi ke rakan sepasukan anda untuk membantu mereka
@@ -28073,7 +28092,7 @@ LAB menggabungkan pakaian Legenda, Hyperbook, dsb. untuk menjadikan pemaparan da
 LAB
 Tiada kandungan
 Buku mistik dengan kuasa terkunci di dalam halamannya.
-Hyperbook Rampage
+Rampage
 Dinosaur Illusion (Bahagian bawah)
 Anda baru sahaja diusik!
 Lulus
@@ -30094,7 +30113,7 @@ Champion Tee
 Kemeja-T Flame Art
 Tidak menonjol tetapi penuh dengan gaya
 Top Criminal (Neon)
-Pergerakan pantas dan sasaran tepat, saya ialah Top Criminal. [FFB300](Mencetuskan kesan khas apabila menumbangkan atau menyingkirkan musuh atau apabila berjalan secara berterusan.[-]
+Pergerakan pantas dan bidikan tajam, akulah Penjenayah Terunggul. [FFB300](Mencetuskan kesan khas apabila menjatuhkan atau menyingkirkan musuh, atau apabila berlari secara berterusan.)[-]
 Squeeze Tee
 Sesak… nafas…
 Indigo (Bahagian atas)
@@ -31410,8 +31429,8 @@ Kerosakan asas
 Mula sebaran peluru
 Kawasan sebarang maks.
 Ledakan
-Peluru dalam lelopak
-Bilangan lelopak peluru awal
+Peluru dalam magazin
+Bilangan magazin awal
 Selang tembakan
 Jaran untuk kerosakan maks.
 Jaran untuk kerosakan min.
@@ -31825,7 +31844,7 @@ Nilai sasaran untuk ditukar menjadi rentetan
 Hasil pertukaran rentetan
 Nombor pihak dan nombor pasukan sama. Menara dan kubu neutral menyerang semua pemain dan AI dalam julat.
 Mulakan transaksi
-Pindahkan jumlah tertentu mata wang yang ditetapkan daripada satu dompet ke dompet yang lain
+Pindahkan sejumlah mata wang yang ditetapkan daripada satu dompet ke dompet yang lain.
 Pindahkan dompet (keluar daripada)
 Dompet untuk dipindahkan mata wang keluar daripadanya
 Jenis mata wang dalam transaksi
@@ -33114,7 +33133,7 @@ Ketibaan Prapesanan
 Anda telah berjaya membuat prapesanan {0}, yang akan tiba pada {1} melalui mel dalam permainan anda.\nU.P. Sila tuntut ganjaran prapesanan anda di bawah.
 Notis: Prapesanan dan Ketibaan
 Khazanah dengan kuasa galaksi yang terkunci di dalam halamannya
-Galaxy Hyperbook
+Galaxy
 Berjaya melanggan Pas Booyah.
 Mencetuskan getaran skrin apabila anda serangan berjaya mengenai musuh
 Yang pertama menjaringkan gol menang.
@@ -33292,7 +33311,7 @@ Tukar kepada [FFBA00]Mod Pelancar Grenade[-]
 Tukar kepada [FFBA00]Mod Shotgun[-]
 Shotgun
 Grenade
-Secara eksklusif untuk raifal. Meningkatkan lelopak peluru dan kadar tembakan.
+Secara eksklusif untuk raifal. Meningkatkan magazin dan kadar tembakan.
 Pakej Galaxy Hyperbook
 Bekalan Diamond Berpatutan
 Pek Diamond Berbaloi Dengan Harga
@@ -33506,7 +33525,7 @@ Boost Headshot Raifal
 {0}% kerosakan headshot meningkatkan apabila menggunakan raifal.
 Kesan Domino
 Setiap {0}s, menggunakan raifal akan mengenakan {3}% kerosakan kepada {2} sasaran dalam radius {1}m dari sasaran yang diserang.
-Lelopak Peluru Utama
+Magazin Utama
 Tidak perlu mengisi semula senjata anda.
 Ketepatan Lebih Baik
 Sebaran peluru maksimum berkurangan sebanyak {0}%.
@@ -33514,10 +33533,10 @@ Super SMG
 Apabila menggunakan SMG, kerosakan yang dikenakan akan meningkat sebanyak {0} setiap 0.2s (peningkatan maksimum: {1}) kepada sasaran yang sama. Ditetapkan semula apabila menyerang sasaran yang berbeza atau melahu selama {2}s.
 Isi Semula SMG Pantas
 Kelajuan isi semula SMG meningkat sebanyak {0}%.
-Pertumbuhan Lelopak Peluru SMG
-Storan lelopak peluru SMG meningkat sebanyak {0} dengan setiap penyingkiran.
+Pertumbuhan Magazin SMG
+Storan magazin SMG meningkat sebanyak {0} dengan setiap penyingkiran.
 Kitar Semula Peluru
-Lelopak peluru senjata semasa akan diisi penuh setiap kali anda menyingkirkan sasaran.
+Magazin senjata semasa akan diisi penuh setiap kali anda menyingkirkan sasaran.
 Kejutan Menyenangkan
 Peroleh item rawak setiap {0}s.
 Boost DMG Turet
@@ -33555,7 +33574,7 @@ Telah memperoleh item baharu: [FFB300]{0}[-]
 Serangan serta-merta menyingkirkan sasaran dengan HP rendah
 Boost kerosakan
 Kelajuan isi semula lebih pantas
-Lebih banyak storan lelopak peluru
+Lebih banyak storan magazin
 Menggunakan kelajuan pergerakan apabila memegang senapang
 Sukar
 Sukar - Peringkat {0}
@@ -35694,7 +35713,7 @@ Seret dan lepas butang Pin di mana-mana sahaja pada skrin untuk menghantar mesej
 Ketik butang togol untuk mengubah jenis mesej.
 Ketik butang Pin untuk membalas mesej.
 Ketopong
-Lelopak Peluru
+Magazin
 Mesej Cepat dalam tempoh bertenang. Sila cuba lagi kemudian.
 Muzzle
 Saya perlukan {0}.
@@ -37574,7 +37593,7 @@ Pendarab DMG Perisai
 Bonfire
 Lilin A
 Meriam Mekanikal
-Storan Lelopak Peluru
+Magazin Peluru
 Trak Rosak
 Patung yang Seram
 Rumah Bata A
@@ -38226,10 +38245,10 @@ Token yang ditukarkan:
 Sahkan untuk mendapat
 Penukaran Universal Evo Token
 Buku mistik dengan kuasa terkunci di dalam halamannya.
-Inferno Hyperbook
+Inferno
 Secret Page {0}
 Buku mistik dengan kuasa terkunci di dalam halamannya.
-Runestone Hyperbook
+Runestone
 Anak panah 2
 {0} [bababa](daripada {1})[-]
 {0} min
@@ -43972,7 +43991,7 @@ Jelly Assault
 Fishing Frenzy
 Had tercapai
 Buku mistik dengan kuasa terkunci di dalam halamannya.
-Hyperbook Ink
+Ink
 Hadiah besar dijamin dalam spin anda yang seterusnya
 Spin Bertuah Seterusnya!
 Tuah yang Hebat
@@ -44177,7 +44196,7 @@ Naik taraf Boost AR
 Menaik taraf tahap boost AR dalam perlawanan anda kepada Thp. {0}.
 Naik taraf Boost SMG
 Menaik taraf tahap boost SMG dalam perlawanan anda kepada Thp. {0}.
-Meningkatkan storan untuk lelopak peluru senjata utama sebanyak {0}%.
+Meningkatkan storan untuk magazinsenjata utama sebanyak {0}%.
 Naik taraf Boost Melee
 Menaik taraf tahap boost melee dalam perlawanan anda kepada Thp. {0}.
 Naik taraf Boost Item
@@ -45040,7 +45059,7 @@ Pembentukan Pasukan Dilarang
 Pembentukan Pasukan Dilarang. Perlawanan Ranking Dilarang.
 Pembentukan Pasukan Dilarang. Perlawanan Ranking Dilarang. Rank Ditetap semula.
 Diproses
-Bukti tidak mencukupi
+Dalam Pemantauan
 Sedang Disemak
 Ganjaran Honor Berturut-turut
 Log masuk dan kekalkan Honor Score sebanyak 100 secara berturut-turut selama bilangan hari yang tertentu untuk menuntut ganjaran yang sepadan.
@@ -45217,8 +45236,8 @@ Jenis kemahiran zombi
 Entiti AI
 Semua item
 Semua item
-Ubah suai saiz lelopak peluru
-Peluru dalam lelopak peluru
+Ubah suai saiz magazin
+Peluru dalam magazin
 Koordinat sauh relatif kepada induk
 Sudut putaran paksi z
 Seretan bersudut
@@ -45414,7 +45433,7 @@ Serangan
 Cipta serangan keamatan yang ditentukan
 Koordinat dunia awal
 Enum Buff
-Sepadan dengan lajur ID dalam BuffData.csv. Sebelum menambah kandungan baharu, sila semak keserasian dengan GPP dahulu.
+Merujuk kepada lajur ID dalam BuffData.csv. Sebelum menambah kandungan baharu, sila semak keserasian dengan GPP terlebih dahulu.
 Isian songsang
 Songsangkan pengisian
 Gelung
@@ -45686,7 +45705,7 @@ Sudah menerima Misi Memburu Evil Butcher
 Ikut
 Evil Butcher melarikan diri. Misi gagal!
 Amaran
-TELAH REVIVE
+REVIVE
 Rakan sepasukan telah meninggalkan perlawanan. Tidak dapat revive.
 Kad Perlindungan Rank CS
 Melindungi anda daripada penurunan rank jika perlawanan CS-Ranked anda yang seterusnya mengakibatkan penurunan rank.
@@ -46712,7 +46731,7 @@ Kelajuan isi semula meningkat sebanyak [FFB300]{0}%[-]. Setiap kali pengguna kem
 Kebangkitan: Apabila boost tambahan berada pada tahap maksimum, [FFB300]serangan pertama[-] pada sasaran akan memberikan [FFB300]{0}%[-] DMG.
 Menjadi kebal daripada kesan gangguan (cth. perlahan, menandakan, menyenyapkan kemahiran) dan dapatkan [FFB300]{1}%[-] boost kelajuan pergerakan selama [FFB300]{2}s[-]. Tempoh bertenang: [FFB300]{0}s[-].
 Semasa berlari pecut, kelajuan pergerakan meningkat sebanyak [FFB300]{0}%[-] sesaat (maks. [FFB300]{1}%[-]). Setiap boost tambahan bertahan selama [FFB300]{2}s[-].
-Selepas menumbangkan musuh atau menggunakan kemahiran aktif, [FFB300]{0}%[-] lelopak peluru senjata akan dimuatkan semula secara automatik
+Selepas menumbangkan musuh atau menggunakan skill aktif, [FFB300]{0}%[-] magazin senjata akan recover secara automatik.
 Sudu Perak
 Gangguan diimunisasi
 Tingkatkan kelajuan isi semula dan kurangkan penyembuhan musuh yang diserang
@@ -48301,7 +48320,7 @@ Asas
 Tersuai
 Tidak tersedia pada masa ini. Nantikan!
 Buku mistik dengan kuasa terkunci dalam halaman.
-Frostfire Hyperbook
+Frostfire
 Revival Pasukan Penuh
 Lokasi Terdedah
 Revive Semua Sekutu
@@ -48437,6 +48456,7 @@ Skor Had
 Mod Masa Terhad
 Perlawanan
 Pertandingan
+Notis Guild Wars
 Rekod Baharu!
 Pusingan Baharu
 Pusingan Seterusnya
@@ -51945,7 +51965,7 @@ Piramid Segi Tiga
 [FFBA00]Booyah Wipeout[-]\nCetuskan kesan penyingkiran ini apabila Booyah dalam mana-mana mod.\n[FFBA00]Team Wipeout[-]\nCetuskan kesan penyingkiran ini apabila menyingkirkan ahli terakhir pasukan musuh.
 Kesan Giroskop dalam Lobi
 Buku mistik dengan kuasa terkunci dalam halaman.
-Paradox Hyperbook
+Paradox
 Pek Suara Eksklusif Acara
 Pek Suara Eksklusif Guild
 Bermain akan menjadi lebih menyeronokkan dengan suara istimewa ahli JKT48!
@@ -52336,7 +52356,7 @@ Rakan sepasukan yang tumbang kini sedang dibantu
 Tiada rakan sepasukan untuk bantu
 Versi Heal Pistol yang dinaik taraf dengan peningkatan kuasa penyembuhan dan keupayaan untuk bantu rakan sepasukan yang tumbang dari jarak jauh
 Heal Pistol-Y
-[b]Kerosakan:[/b] Kuasa senjata\n[b]Kadar Tembakan:[/b] Bilangan tembakan setiap minit\n[b]Jarak:[/b] Jarak tembakan berkesan\n[b]Ketepatan:[/b] Kestabilan senjata semasa menembak\n[b]Kelajuan Pergerakan:[/b] Kelajuan pergerakan semasa membawa senjata\n[b]Lelopak Peluru:[/b] Bilangan peluru yang boleh dipegang oleh senjata sekali gus\n[b]Kelajuan Isi Semula:[/b]Masa yang diperlukan untuk isi semula\n[b]Penembusan Perisai:[/b] Keupayaan senjata untuk menembusi perisai musuh\n[b]Penyembuhan:[/b] Nilai setiap tika penyembuhan\n[b]Jarak Letupan:[/b] Jarak hentaman letupan peluru senjata
+[b]Kerosakan:[/b] Kuasa senjata\n[b]Kadar Tembakan:[/b] Bilangan tembakan setiap minit\n[b]Jarak:[/b] Jarak tembakan berkesan\n[b]Ketepatan:[/b] Kestabilan senjata semasa menembak\n[b]Kelajuan Pergerakan:[/b] Kelajuan pergerakan semasa membawa senjata\n[b]Magazin:[/b] Bilangan peluru yang boleh dipegang oleh senjata sekali gus\n[b]Kelajuan Isi Semula:[/b]Masa yang diperlukan untuk isi semula\n[b]Penembusan Perisai:[/b] Keupayaan senjata untuk menembusi perisai musuh\n[b]Penyembuhan:[/b] Nilai setiap tika penyembuhan\n[b]Jarak Letupan:[/b] Jarak hentaman letupan peluru senjata
 Kerosakan yang tinggi tetapi kadar tembakan yang agak rendah, sesuai untuk pertempuran jarak sederhana
 Seimbang, sesuai untuk pertempuran jarak sederhana
 Sesuai untuk pertempuran jarak dekat hingga sederhana dengan kadar tembakan yang pantas
@@ -52359,7 +52379,7 @@ Sesuai untuk pertempuran jarak dekat dengan kadar tembakan yang pantas dan keros
 Serba boleh dengan mod Shotgun 3 pusingan dan Pelancar Grenade. Mod Pelancar Grenade dimatikan dalam Clash Squad.
 Kerosakan tinggi dengan kadar tembakan yang rendah. Boleh dinaik taraf dengan Cip Naik Taraf untuk meningkatkan kadar tembakan. Sesuai untuk pertempuran jarak sederhana hingga jauh.
 Menggunakan Peluru SG, sesuai untuk pertempuran jarak dekat.
-Sesuai untuk pertempuran jarak dekat. M1887-X menambah saiz lelopak peluru sebanyak 1 berbanding versi biasa.
+Sesuai untuk pertempuran jarak dekat. M1887-X menambah saiz magazin sebanyak 1 berbanding versi biasa.
 Sesuai untuk pertempuran jarak sederhana dengan kerosakan yang tinggi dan kadar tembakan yang pantas
 Sesuai untuk pertempuran jarak jauh dengan penembusan perisai yang tinggi
 Ringan dengan kadar tembakan yang pantas dan penembusan Gloo Wall. Sesuai untuk pertempuran jarak jauh.
@@ -52373,7 +52393,7 @@ Kadar tembakan yang pantas, sesuai untuk pertempuran jarak dekat
 Sesuai untuk pertempuran jarak jauh dengan penembusan perisai yang tinggi. Kenakan dua tembakan berturut-turut untuk memberikan kerosakan tambahan.
 Sesuai untuk pertempuran jarak dekat dengan kadar tembakan yang sangat pantas
 Kadar tembakan pantas dengan penyebaran yang kurang. Boleh dinaik taraf dengan Cip Naik Taraf, yang meningkatkan kadar tembakan. Sesuai untuk pertempuran jarak dekat hingga sederhana.
-Kestabilan dan saiz lelopak peluru yang tinggi. Sesuai untuk pertempuran jarak dekat hingga sederhana.
+Kestabilan dan saiz magazin yang tinggi. Sesuai untuk pertempuran jarak dekat hingga sederhana.
 Sesuai untuk pertempuran jarak sederhana hingga jauh dengan kerosakan yang tinggi
 Sesuai untuk pertempuran jarak dekat hingga sederhana dengan kestabilan yang tinggi
 Seimbang, boleh dinaik taraf dengan Cip Naik Taraf, sesuai untuk pertempuran jarak sederhana. Naik taraf untuk meningkatkan kadar tembakan dan kerosakan, kestabilan meningkat apabila dinaik taraf sepenuhnya.
@@ -53015,7 +53035,7 @@ Perlumbaan Sengit
 Perlindungan bintang untuk permainan yang baik
 Bintang tambahan untuk permainan yang cemerlang
 Singkirkan atau bantu pemain {0} kali
-Masa untuk meraikan! (Pengguna akan dapat meletakkan hadiah rahsia - jumlah loadout yang rawak, Gold atau Baucar Diamond Royale - di pulau spawn. Hadiah tersedia untuk 10 pemain.)
+Masa untuk meraikan! (Pengguna boleh meletakkan hadiah rahsia — Loadout, Gold atau Baucar dalam jumlah rawak — di pulau permulaan. Hadiah tersedia untuk 10 pemain.)
 7th Anniversary
 Klasik
 Pilih Berbilang
@@ -53869,13 +53889,13 @@ Setiap penyingkiran meningkatkan Mata Perisai maks. secara kekal oleh [FFB300]{0
 Masuk keadaan Xtreme dan peroleh [FFB300]{1}[-] Mata Perisai sementara dengan serta-merta selama [FFB300]{0}[-]s, yang setiap tumbangan musuh memulihkan Mata Perisai sementara yang diperoleh melalui kemahiran ini kembali ke [FFB300]{2}[-] dan menetapkan semula tempoh keadaan. Setelah keadaan tamat, Mata Perisai yang diperoleh daripada proses ini akan dialih keluar. Tempoh bertenang: [FFB300]{3}s[-].
 Chakra Shield diterima
 Diselubungi api dan kehilangan HP setiap saat akibat Fireball Jutsu
-Ninjutsu yang membolehkan pengguna menghembuskan fire ball, memusnahkan mana-mana Gloo Wall di jalan dan menyebabkan letupan apabila terkena sasaran, meninggalkan api untuk menyebabkan kerosakan terbakar.
+Menghembus bola api, memusnahkan mana-mana Gloo Wall yang menghalang laluannya dan meletup apabila terkena sasaran, meninggalkan api yang memberikan kerosakan terbakar.
 Fireball Jutsu
 Ditelan oleh bebola air yang menghalang pandangan akibat Water Dragon Jutsu
-Ninjutsu yang membolehkan pengguna menghembus nafas dan membentuk air menjadi bentuk naga, memusnahkan mana-mana Gloo Wall di jalan dan menghasilkan waterball yang menghalang pandangan yang besar apabila terkena sasaran.
+Menghembus bola air yang memusnahkan mana-mana Gloo Wall yang menghalang laluannya dan menghalang pandangan.
 Water Dragon Jutsu
 Diselubungi angin pusaran dengan kelajuan pergerakan dan kadar tembakan dikurangkan akibat Great Breach
-Ninjutsu yang membolehkan pengguna menghembuskan letupan udara, memusnahkan mana-mana Gloo Wall di jalan dan menghasilkan ribut angin apabila terkena sasaran, meninggalkan pusaran angin yang mengurangkan kelajuan pergerakan dan kadar tembakan musuh.
+Hembuskan letupan udara yang memberikan kerosakan dan meninggalkan pusaran angin, memperlahankan musuh serta mengurangkan kadar tembakan mereka.
 Great Breach
 Cipta medan daya yang tidak dapat ditembusi dan meningkatkan kelajuan pergerakan semasa berada dalam medan.
 Mata Perisai maks. meningkat secara kekal dengan penyingkiran
@@ -54961,13 +54981,13 @@ Apabila menyerang musuh atau kenderaan menggunakan [FFB300]raifal serbu atau pen
 Gloo Strike
 Chakra Shield diterima
 Kelajuan pergerakan dan kadar tembakan berkurangan akibat Rasengan
-Ninjutsu yang membolehkan pengguna meluru ke hadapan dalam jarak sederhana dan memberikan kerosakan sederhana pada sasaran yang diserang, mengurangkan kelajuan pergerakan dan kadar tembakan mereka.
+Dash ke hadapan dan memberikan kerosakan kepada sasaran yang terkena, mengurangkan kelajuan pergerakan dan kadar tembakan mereka.
 Rasengan
 Tidak dapat menggunakan throwables atau memeriksa peta mini disebabkan oleh Chidori
-Ninjutsu yang membolehkan pengguna meluru ke hadapan dalam jarak jauh dan memberikan kerosakan yang ketara pada sasaran yang diserang, menghalang mereka daripada menggunakan throwables dan memeriksa peta mini.
+Dash ke hadapan, memberikan kerosakan dan mengganggu sasaran yang terkena.
 Chidori
 Ditumbangkan di udara kerana Cherry Blossom Clash
-Ninjutsu yang membolehkan pengguna meluru ke hadapan dalam jarak pendek dan memberikan kerosakan kecil pada sasaran yang diserang, menumbangkan mereka di udara.
+Dash ke hadapan, memberikan kerosakan kepada sasaran yang terkena dan melontarkannya ke udara.
 Cherry Blossom Clash
 Raifal Serbu dan Penembak Tepat boleh memperlahankan musuh. Gloo Wall tambahan dapat diperoleh.
 Sila masukkan alamat e-mel pemulihan dan kod keselamatan anda
@@ -54976,7 +54996,7 @@ Sebaik sahaja tempoh penampan tamat, e-mel pemulihan lama anda tidak lagi sah. S
 Sebaik sahaja tempoh penampan tamat, e-mel pemulihan anda akan terikat sepenuhnya. Anda boleh menggunakan e-mel ini untuk memulihkan akaun pada masa akan datang.
 Sebaik sahaja tempoh penampan tamat, e-mel pemulihan anda tidak lagi sah dan ini akan meningkatkan risiko kehilangan akaun.
 E-mel pemulihan:
-E-mel sasaran sudah terikat. Sila cuba e-mel lain.
+E-mel sasaran sudah terikat kepada akaun lain. Sila cuba e-mel lain.
 E-mel Pemulihan
 Pautan akaun akan lengkap dalam masa {0} hari
 Menggunakan e-mel akaun platform terikat anda atau e-mel kongsi tidak disyorkan.
@@ -55142,9 +55162,9 @@ Pochinok
 Riverside
 Sentosa
 Shipyard
-BOOYAH cara anda! (Pengguna akan dapat meletakkan hadiah rahsia - jumlah loadout yang rawak, Gold atau Baucar Diamond Royale - di pulau spawn. Hadiah tersedia untuk 10 pemain.)
+BOOYAH cara anda! (Pengguna boleh meletakkan hadiah rahsia — Loadout, Gold atau Baucar dalam jumlah rawak — di pulau permulaan. Hadiah tersedia untuk 10 pemain.)
 Trofi BOOYAH
-Nampak sesuatu yang anda suka? (Pengguna akan dapat meletakkan hadiah rahsia - jumlah loadout yang rawak, Gold atau Baucar Diamond Royale - di pulau spawn. Hadiah tersedia untuk 10 pemain.)
+Nampak sesuatu yang anda suka? (Pengguna boleh meletakkan hadiah rahsia — Loadout, Gold atau Baucar dalam jumlah rawak — di pulau permulaan. Hadiah tersedia untuk 10 pemain.)
 Paparan Lampu
 Ganjaran rank Elite Heroic CS M27
 Ganjaran rank Elite Heroic BR M42
@@ -55396,7 +55416,7 @@ Sambungkan mod rompi untuk mendapatkan kesan tambahan
 Sambungkan mod backpack untuk mendapatkan kesan tambahan
 Sambungkan Foregrip untuk mengurangkan sentakan semasa menembak
 Sambungkan mod helmet untuk mendapatkan kesan tambahan
-Sambungkan Lelopak Peluru untuk menambah kapasiti lelopak peluru dan kelajuan isi semula
+Sambungkan Magazin untuk menambah kapasiti lelopak peluru dan kelajuan isi semula
 Sambungkan Muzzle untuk meningkatkan jarak tembakan
 Sambungkan Skop untuk melihat sasaran dari jarak jauh
 Sambungkan Stock untuk mengurangkan sentakan dengan lebih pantas
@@ -55405,10 +55425,10 @@ Foregrip Thp. 1: Kurangkan sedikit sentakan semasa menembak
 Foregrip Thp. 2: Kurangkan sentakan dengan ketara semasa menembak
 Light Foregrip: Kurangkan sentakan dengan ketara semasa menembak dan tingkatkan kelajuan pergerakan semasa menembak
 Light Foregrip
-Lelopak Peluru
-Tingkatkan kapasiti lelopak peluru secara sederhana
-Tingkatkan kapasiti lelopak peluru dengan ketara
-Lelopak Peluru Pantas: Tingkatkan kapasiti lelopak peluru dengan ketara dan tingkatkan kelajuan isi semula
+Magazin
+Tingkatkan kapasiti magazin secara sederhana
+Tingkatkan magazin peluru dengan ketara
+Fast Mag: Tingkatkan kapasiti lelopak peluru dengan ketara dan tingkatkan kelajuan isi semula
 Lelopak Peluru Pantas
 Muzzle
 Muzzle Thp. 1: Meningkatkan sedikit jarak tembakan
@@ -56059,7 +56079,7 @@ Sertai Pasukan 7
 Tuntut
 Tuntut Semua
 Dituntut
-Terkumpul: [fec21c]{0}[-]/4
+Dikumpul: [fec21c]{0}[-]/5
 Untuk setiap peningkatan kemajuan {0}, terima ganjaran berikut
 Untuk setiap peningkatan kemajuan {0}, terima ganjaran rawak daripada senarai berikut
 Tugas Harian
@@ -56082,7 +56102,7 @@ Had Harian LW: {0}/{1}
 Memanggil Gamabunta
 Tersedia di {0}
 Kemajuan Pengumpulan
-Kumpul [fec21c]4[-] daripada 5 NARUTO SHIPPUDEN outfit bundle untuk unlock hadiah utama!
+Kumpul [fec21c]5[-] daripada 6 Bundle Kostum NARUTO SHIPPUDEN untuk membuka hadiah utama!
 Capai kemajuan {0} untuk memanggil
 Sumber acara dimuat turun
 Muat turun dan sertai acara "Bab 1: Nine Tails Strikes" dan dapatkan Jiraiya Bundle dan Battle Card bertema acara sebagai ganjaran!
@@ -56101,7 +56121,7 @@ Tempah
 Pakaian ditempah. Anda akan dimaklumkan apabila pakaian tersebut tersedia.
 Ditempah
 Menangi ganjaran berikut:
-Peraturan:\n1. Tugas Harian: Selesaikan tugas harian untuk memperoleh Skrol Api dan mulakan perjalanan ninja anda!\n2. Permainan Utama: Gunakan Skrol Api untuk pertahankan diri daripada Nine Tails! Tuntut ganjaran dan panggil rakan ninja apabila kemajuan meningkat. Anda juga boleh memenangi bundle pakaian percuma!\n3. Koleksi Pakaian Masa Terhad: Kumpul 4 daripada 5 NARUTO SHIPPUDEN outfit bundle untuk memenangi Emote Super Gamabunta!\n4. Battle Card Naruto: Selesaikan tugas khas untuk unlock kad pertempuran unik ini secara percuma!
+Peraturan:\n1. Tugasan Harian: Selesaikan tugasan harian untuk memperoleh Fire Scroll dan mulakan perjalanan ninja anda!\n2. Permainan Utama: Gunakan Fire Scroll untuk mempertahankan diri daripada Nine Tails! Tuntut ganjaran dan panggil rakan ninja apabila kemajuan meningkat. Anda juga berpeluang memperoleh Bundle Kostum secara percuma!\n3. Koleksi Kostum Masa Terhad: Kumpul 5 Bundle Kostum NARUTO SHIPPUDEN untuk memenangi Super Emote Gamabunta!\n4. Kad Pertempuran Naruto: Selesaikan tugasan khas untuk membuka kad pertempuran unik ini secara percuma!
 Butiran Acara
 Sekarang Tersedia
 Langkau
@@ -56350,11 +56370,11 @@ Zon Revival ditutup
 Baki: {0}
 Mesin Layan Diri Airdrop kembali! Beli item berkualiti dengan diskaun!
 Mesin Layan Diri Airdrop Kembali
-Nine Tails telah muncul di Bermuda. Berhati-hati!
+Nine Tails telah muncul. Berhati-hati!
 Pada awal perlawanan, pemain yang tersingkir di Hidden Leaf Village boleh revive sekali
 Nine Tails Strikes
 Tidak dapat menggunakan item ini pada masa ini
-Kolaborasi NARUTO SHIPPUDEN
+NARUTO SHIPPUDEN
 Panggil
 Ramen Ichiraku adalah yang terbaik! Pulihkan 2 EP/s.
 Yum Yum
@@ -56803,7 +56823,7 @@ Ganjaran tersedia sebelum kotak dikosongkan
 Berinteraksi dengan Mesin Berais pada peta untuk mendapatkan maklumat tambahan dan item misteri!
 Mesin Berais
 Panggilan gagal. Lokasi semasa tidak tersedia.
-Gamatatsu ada sesuatu untuk anda! (Pengguna akan dapat meletakkan hadiah rahsia - jumlah loadout yang rawak, Gold atau Baucar Diamond Royale - di pulau kemunculan. Hadiah tersedia untuk 10 orang pemain.)
+Gamatatsu ada sesuatu untuk anda! (Pengguna boleh meletakkan hadiah rahsia — Loadout, Gold atau Baucar dalam jumlah rawak — di pulau permulaan. Hadiah tersedia untuk 10 pemain.)
 Gamatatsu
 Pek suara eksklusif acara
 Ganjaran rank Elite Heroic BR M43
@@ -56853,7 +56873,7 @@ Alamak!
 Saya tidak boleh lakukan
 Tiga kuat, satu lemah
 Biarkan saja!
-Dibenamkan dengan rahsia kosmos paling dalam (Pengguna akan dapat meletakkan hadiah rahsia - jumlah loadout yang rawak, Gold atau Baucar Diamond Royale - di pulau kemunculan. Hadiah tersedia untuk 10 orang pemain.)
+Mengandungi rahsia terdalam alam semesta (Pengguna boleh meletakkan hadiah rahsia — Loadout, Gold atau Baucar dalam jumlah rawak — di pulau permulaan. Hadiah tersedia untuk 10 pemain.)
 Aurora Crystal
 Pemprosesan audio gagal
 Memproses audio
@@ -57029,7 +57049,7 @@ Kelajuan Isi Semula[S0]
 Kerosakan[S0], Ketepatan[S0]
 Jarak Percikan[S0], Kerosakan Percikan Min.[S1]
 Kerosakan Min.[S0]
-Kapasiti Lelopak Peluru[S0], Kelajuan Isi Semula[S1]
+Kapasiti Magazin[S0], Kelajuan Isi Semula[S1]
 Kelajuan Pemulihan Tenaga[S0], Kadar Tembakan[S0]
 Kerosakan[S0], Ketepatan[S0] Penembusan Perisai[S0], HP Perisai[S1]
 Jarak Headshot[S0], Ketepatan[S1]
@@ -57274,7 +57294,7 @@ Senjata tenaga berkuasa yang tidak memerlukan peluru.
 Shotgun yang paling sesuai digunakan dalam jarak dekat. Menggunakan peluru SG.
 Shotgun 3 tembakan berulang berkuasa.
 Senjata jarak jauh yang menggunakan peluru SMG. Didatangkan dengan skop 4x dan penyenyap.
-[b]Kerosakan:[/b] Kuasa senjata\n[b]Kelajuan Serangan:[/b] Bilangan serangan setiap unit masa\n[b]Jarak:[/b] Jarak serangan berkesan\n[b]Ketepatan:[/b] Kemudahan menyerang musuh dengan senjata\n[b]Kelajuan Pergerakan:[/b] Kelajuan pergerakan semasa membawa senjata\n[b]Lelopak Peluru:[/b] Bilangan peluru yang boleh dipegang oleh senjata sekali gus\n[b]Kelajuan Isi Semula:[/b]Masa yang diperlukan untuk isi semula\n[b]Penembusan Perisai:[/b] Keupayaan senjata untuk menembusi perisai musuh
+[b]Kerosakan:[/b] Kuasa senjata\n[b]Kelajuan Serangan:[/b] Bilangan serangan setiap unit masa\n[b]Jarak:[/b] Jarak serangan berkesan\n[b]Ketepatan:[/b] Kemudahan menyerang musuh dengan senjata\n[b]Kelajuan Pergerakan:[/b] Kelajuan pergerakan semasa membawa senjata\n[b]Magazin:[/b] Bilangan peluru yang boleh dipegang oleh senjata sekali gus\n[b]Kelajuan Isi Semula:[/b]Masa yang diperlukan untuk isi semula\n[b]Penembusan Perisai:[/b] Keupayaan senjata untuk menembusi perisai musuh
 Keadaan {0} tidak wujud dalam alat pengawal animasi
 Setuju
 Sorakan
@@ -58397,7 +58417,7 @@ Permulaan Keemasan
 Semua orang berpeluang untuk mendapat simpanan syiling yang sangat banyak pada permulaan.
 (3 Penggunaan)
 Kad Skill Cooldown: {0}s
-{0} diperoleh
+Peroleh {0}.
 (1 Penggunaan)
 (Tiada Had)
 Anda telah melengkapkan kemahiran yang sama seperti Kad Skill. Sebaliknya, tempoh bertenang kemahiran dikurangkan.
@@ -58540,7 +58560,7 @@ Backpack penuh. Tiada item untuk ditukar.
 Dialihkan ke Peti Selamat (item tidak akan dijatuhkan)
 Nilai Semasa
 Carian
-Kapasiti lelopak peluru +{0}%
+Kapasiti magazin +{0}%
 {0}% pengurangan kerosakan pada anggota badan
 Kehilangan ketahanan - {0}%
 Kira Detik Pengunduran
@@ -58726,7 +58746,7 @@ Sudah kenyang dan tidak boleh makan lagi
 Masa berbuka puasa! Cari gerai makan dan isi perut anda.
 MAKAN
 Buku mistik dengan kuasa terkunci dalam halaman.
-Midnight Hyperbook
+Midnight
 Artifak tersedia di Bengkel Teknologi
 Pergi ke Artifak Teknologi
 Pilih artifak untuk dibina
@@ -58779,9 +58799,9 @@ Ketik untuk menetapkan Zon Selamat
 Artifak tidak boleh digunakan lagi
 Lokasi tidak layak. Sila pilih lokasi lain.
 Zon Selamat yang akan datang telah ditempatkan semula!
-Bersedia untuk beberapa tindakan? (Pengguna boleh meletakkan hadiah rahsia seperti loadout, Gold atau Baucar Diamond Royale di dalam kabin. Hadiah tersedia untuk 10 pemain.)
+Bersedia untuk beraksi? (Pengguna boleh meletakkan hadiah rahsia seperti Loadout, Gold atau Baucar di dalam kabin. Hadiah tersedia untuk 10 pemain.)
 Midnight Havoc
-Zon saya, peraturan saya! (Pengguna boleh meletakkan hadiah rahsia seperti loadout, Gold atau Baucar Diamond Royale di dalam kabin. Hadiah tersedia untuk 10 pemain.)
+Zon saya, peraturan saya! (Pengguna boleh meletakkan hadiah rahsia seperti Loadout, Gold atau Baucar di dalam kabin. Hadiah tersedia untuk 10 pemain.)
 Zon Saya
 Pek Suara Ramadan 2025
 Pek Suara Puasa
@@ -60806,7 +60826,7 @@ Teruskan pegang Gloo Wall selepas Smart Throw
 Autotukar kembali kepada senjata
 Autotukar kembali kepada senjata selepas Smart Throw
 EWC 2025 Bandana
-Rasai infiniti! (Pengguna boleh meletakkan hadiah rahsia seperti loadout, Gold atau Baucar Diamond Royale di dalam kabin. Hadiah tersedia untuk 10 pemain.)
+Rasai Infinity! (Pengguna boleh meletakkan hadiah rahsia seperti Loadout, Gold atau Baucar di dalam kabin. Hadiah tersedia untuk 10 pemain.)
 Troli Infinity
 Green Delivery (Topeng)
 Orange Delivery Helmet (Topeng)
@@ -61536,8 +61556,8 @@ Crate Ninja Epik
 Crate Ninja Hebat
 Senjata Loot Crate Tema Akatsuki (AK47)
 Senjata Loot Crate Tema Akatsuki (M60)
-Token Crate Pertempuran Ninja
-Token Crate Pertarungan Ninja
+Peti Token Pertempuran Ninja
+Peti Token Pertarungan Ninja
 Bang! Popblaster (GROZA) Crate Pertukaran Token
 Bang! Popblaster (GROZA) Crate Pertukaran Token
 Golden Twilight Bundle
@@ -61764,7 +61784,7 @@ Skuad Persendirian
 Ketua skuad tidak boleh keluar jika masih ada pemain lain dalam skuad
 Berjaya diaktifkan
 Tuntut ganjaran selepas menyelesaikan Misi Top-up
-Tiada skuad tersedia untuk sertai
+Tiada skuad tersedia. Cuba lagi dalam 5 minit.
 Cipta skuad anda dengan {0} ahli
 {0} member, sertai untuk ganjaran!
 Sertai atau cipta skuad dahulu
@@ -62624,9 +62644,9 @@ Bulan Merah
 Dapatkan Airdrop Pohon Berkuasa dan aktifkan Bulan Merah
 Airdrop Pohon Berkuasa
 Dapatkan Airdrop Pohon Berkuasa untuk Bulan Merah dan Peninggalan Akatsuki!
-Hati hati, mungkin boleh meletup! (Pengguna boleh meletakkan hadiah rahsia seperti loadout, Emas atau Baucar Diamond Royale di dalam kabin. Hadiah tersedia untuk 10 pemain.)
+Awas, ia mungkin meletup! (Pengguna boleh meletakkan hadiah rahsia seperti Loadout, Gold atau Baucar di dalam kabin. Hadiah tersedia untuk 10 pemain.)
 Tanah Liat Burung Boleh Meletup
-Biarkan hatimu bersinar terang. (Pengguna boleh meletakkan hadiah rahsia seperti loadout, Gold atau Baucar Diamond Royale di dalam kabin. Hadiah tersedia untuk 10 pemain)
+Biarkan hatimu bersinar terang. (Pengguna boleh meletakkan hadiah rahsia seperti Loadout, Gold atau Baucar di dalam kabin. Hadiah tersedia untuk 10 pemain.)
 Hati Bersinar
 3 Master of Death Loot Crate
 Battle Card - Dreamspace
@@ -62690,7 +62710,7 @@ Peningkatan senjata yang dipenuhi dengan Kuasa Trouble, membenarkan senjata untu
 Pyro
 Peningkatan senjata yang dipenuhi dengan Kuasa Trouble, membenarkan senjata menembak api yang memberi kerosakan AoE.
 Lanjutan
-Peningkatan senjata yang dipenuhi dengan Kuasa Trouble, meningkatkan kapasiti lelopak peluru dengan ketara.
+Peningkatan senjata yang dipenuhi dengan Kuasa Trouble, meningkatkan kapasiti magazin dengan ketara.
 Apabila kegelapan menjelma, Peak menjadi istana gelap. Gunakan lampu untuk mengembalikan cahaya dan raih ganjaran!
 Istana Gelap
 Acara Bakal Tamat
@@ -63345,7 +63365,7 @@ Kadar Tembakan[S0], Tambahan Slot Foregrip[S0], Boleh dinaik taraf dengan Cip Na
 Penembusan Perisai[S0], Kerosakan[S0], Ketepatan[S0]
 Kerosakan[S0], Kadar Tembakan[S0], Boleh dinaik taraf dengan Cip Naik Taraf dan Kerosakan[S0]
 Kerosakan[S0], Jarak[S0], Ketepatan[S0], Penembusan Perisai[S0], Didatangkan dengan Skop 2x[S0]
-Kapasiti Lelopak Peluru[S1]
+Kapasiti Magazin[S1]
 Kadar tembakan tinggi untuk kuasa maksimum pada jarak dekat hingga sederhana. Berbanding versi biasa, Thompson-X mempunyai penembusan perisai, kadar tembakan, dan kelajuan isi semula yang lebih tinggi.
 Jarak Sederhana
 Sesuai untuk pertempuran jarak sederhana
@@ -63704,7 +63724,7 @@ Anda mempunyai ganjaran belum dituntut untuk Squad Treasure
 Anda akan kembali ke pasukan yang anda ciptakan sebelum ini
 Public
 (Sesiapa sahaja boleh sertai)
-(Sertai melalui jemputan sahaja)
+(Hanya jemputan ketua)
 Misi Top-Up dah settle! Sertai skuad untuk tuntut ganjaran!
 Anda boleh buat skuad anda public supaya pemain lain boleh join!
 Had Masa
@@ -64202,7 +64222,7 @@ Letakkan gajet taktikal di mana-mana lokasi dalam Zon Selamat
 Ketik untuk pilih gajet
 Pilih lokasi dan seret untuk laraskannya
 Ketik sini untuk menggunakan
-Super Bonfire meningkatkan kadar api sebanyak 15%
+Super Bonfire meningkatkan kadar tembakan sebanyak 8%
 Dapatkan Tactical Panel setiap pusingan. Gunakannya untuk meletakkan gajet taktikal di mana-mana lokasi dalam peta. Gajet itu juga tersedia untuk dibeli di CS store.
 Helper Bot sedia untuk digunakan
 Dapatkan Helper Bot setiap pusingan. Gunakannya untuk membantu rakan sepasukan dari jauh. Secret Bazaar juga akan dibuka di CS store untuk beli buff bagi pasukan anda.
@@ -64306,7 +64326,7 @@ Senjata ini sudah ditambah baik. Tiada syiling digunakan.
 Tidak dapat menaik taraf
 Pilih senjata anda atau pasukan untuk dinaik taraf
 Enhance Hammer
-Gunakan Enhance Hammer untuk meningkatkan senjata anda atau rakan sepasukan anda. Muzzle, foregrip, lelopak peluru, dan stock pada senjata yang dipilih akan dinaik taraf ke tahap maksimum, beserta satu attachment tambahan bagi jenis senjata tersebut.
+Gunakan Enhance Hammer untuk meningkatkan senjata anda atau rakan sepasukan anda. Muzzle, foregrip, magazin, dan stock pada senjata yang dipilih akan dinaik taraf ke tahap maksimum, beserta satu attachment tambahan bagi jenis senjata tersebut.
 Senjata dipertingkat
 Berjaya dinaik taraf
 Tidak boleh diletakkan di sini
@@ -64669,9 +64689,9 @@ Naiktaraf berjaya!
 Tak cukup syiling nak naik taraf arsenal
 Pasukan tak mempunyai Kunci Arsenal. Tidak boleh naik taraf.
 Naik taraf dalam progres. Cuba lagi nanti untuk unlock arsenal.
-Selamat Tahun Baru! (Pemain boleh letak hadiah rahsia seperti loadout, Emas, atau Baucar Diamond Royale dalam kabin. Hadiah tersedia untuk 10 pemain.)
+Selamat tahun baru! (Pengguna boleh meletakkan hadiah rahsia seperti Loadout, Gold atau Baucar di dalam kabin. Hadiah tersedia untuk 10 pemain.)
 Happy 2026
-Apa yang Yeti sedang mimpikan? (Pemain boleh meletakkan hadiah rahsia seperti loadout, Gold, atau Baucar Diamond Royale di dalam kabin. Hadiah tersedia untuk 10 pemain.)
+Apa yang sedang diimpikan Yeti? (Pengguna boleh meletakkan hadiah rahsia seperti Loadout, Gold atau Baucar di dalam kabin. Hadiah tersedia untuk 10 pemain.)
 Snoozing Yeti
 Lancar UAV-Lite khas yang memperkuat Gloo Wall dalam jangkauannya
 Gloo UAV-Lite dimusnahkan
@@ -64815,7 +64835,7 @@ Rakan sepasukan akan revive semula dengan item lanjutan dan sebuah peti harta ak
 Titik Revival Lanjutan
 Titik Revival Lanjutan akan muncul secara rawak
 Cas dan rempuh ke depan untuk menumbuk musuh. Setiap tumbukan yang kena akan bagi dua kali kerosakan.
-Divergent Fist
+Penumbuk Divergent
 Keluarkan serangga kepada musuh terdekat dan berikan kerosakan secara letupan dan pembakaran tanpa henti.
 Ember Insects
 Hantar jisim gergasi yang tidak dapat dihentikan ke hadapan untuk memberi kerosakan kepada musuh atau Gloo Wall apabila bersentuhan, dan meletup di penghujungnya
@@ -65382,7 +65402,7 @@ Hammer-II
 Hammer-III
 Tidak lagi boleh dinaik taraf, namun berkongsi atribut yang sama seperti FAMAS-III.
 Kerosakan [S0], Penembusan Perisai[S0], Jarak[S0]
-Kadar Tembakan [S0], Kapasiti Lelopak Peluru[S0], Kelajuan Pemulihan Tenaga [S0], Penyembuhan [S1]. Penyembuhan kini automatik mengesan rakan sepasukan.
+Kadar Tembakan [S0], Kapasiti Magazin[S0], Kelajuan Pemulihan Tenaga [S0], Penyembuhan [S1]. Penyembuhan kini automatik mengesan rakan sepasukan.
 Tidak lagi boleh dinaik taraf, namun berkongsi atribut yang sama seperti Kar98k-III.
 Kadar Tembakan[S0], Penembusan Perisai[S0]
 Kerosakan[S0], Jarak[S1], splash effect dikeluarkan
@@ -65838,7 +65858,7 @@ Stats
 Push to Talk
 Apabila dihidupkan, bertukar ke mikrofon Push-to-Talk. Tekan dan tahan butang mikrofon untuk bercakap, lepaskan untuk berhenti.
 Tekan butang mikrofon untuk bercakap dan lepaskan untuk berhenti
-Selalu On
+Mod Mikrofon
 Privasi
 Gagal memakai peralatan semasa matchmaking
 Pemain melebihi
@@ -65868,7 +65888,7 @@ Terus bersorak untuk mencetuskan combo!
 Rule
 Ganjaran Percuma!
 Beat Carnival
-Beat Fist
+Penumbuk Beat
 Beat Bundle
 BULLETPROOF
 Carnival Chase
@@ -66311,7 +66331,7 @@ Gojo Ascension
 Sukuna Ring
 Sukuna Wheel
 Yuji Itadori Groza
-Divergent Fist
+PenumbukbDivergent
 Acara ganjaran log masuk dah tamat. Jumpa kat acara seterusya!
 Ganjaran Log Masuk
 Group Photo
@@ -66414,7 +66434,7 @@ Titik Solo Revival
 Peluang Solo Revival
 Bilangan kali anda boleh direvive. Tawan Titik Revival untuk mendapatkan lebih banyak peluang!
 Revival Pasukan
-Perlindungan Revival Pasukan Dihidupkan
+Revive Pasukan diaktifkan dengan mendarat bersama pasukan
 Revival Pasukan diaktifkan!
 Lempar ke lokasi sasaran, kemudian teleport ke dagger.
 Blink Dagger
@@ -66422,7 +66442,7 @@ Lempar ke lokasi sasaran, kemudian teleport ke dagger.
 Blink Dagger
 Dedahkan senjata dalam airdrop dari jauh
 Dedahkan senjata dalam airdrop.
-Tawan Defensive Airdops lebih cepat
+Tawan Defense Airdops dengan lebih cepat
 Tawan Defense Airdrop lebih cepat.
 Dapatkan Bantuan Airdrop dengan 2 senjata airdrop yang dinaik taraf secara rawak
 Dapatkan Bantuan Airdrop!
@@ -66494,7 +66514,7 @@ Beat Drop Crate
 Beat Fiesta Crate
 Shadow Box
 DJ Box
-Dreambreaker (M60) Token Crate
+Peti Token Dreambreaker (M60)
 Exclusive Item Box 10
 Exclusive Item Box 11
 Exclusive Item Box 12
@@ -66607,7 +66627,7 @@ Headphone Token
 Golden Shovel
 Silver Shovel
 Metal Shovel
-Divergent Fist Token
+Token Penumbuk Divergent
 Jujutsu Token
 Jujutsu Battle Token
 Jujutsu Power Token
@@ -66817,7 +66837,7 @@ Arsenal telah dipecah masuk. Lokasi pasukan didedahkan.
 Arsenal telah dipecah masuk dan tidak boleh dibuka
 Arsenal telah dipecah masuk dan tidak boleh dinaik taraf
 Naik Taraf & Unlock
-Tame the wild beats! (Pemain boleh meletakkan hadiah rahsia seperti loadout, Gold, atau Baucar Diamond Royale di dalam van. Hadiah tersedia untuk 10 pemain.)
+Jinakkan haiwan liar! (Pengguna boleh meletakkan hadiah rahsia seperti Loadout, Gold atau Baucar di dalam kabin. Hadiah tersedia untuk 10 pemain.)
 Music Van
 Dengan Alok
 Treasure Dijumpai
@@ -66825,7 +66845,7 @@ Treasure Squad
 Fushiguro Theme
 Itadori Theme
 Kugisaki Theme
-Saksikan Kuasa Divine Dog: Totality! (Pengguna boleh letak hadiah rahsia seperti loadout, Emas atau Baucar Diamond Royale di kabin. Hadiah untuk 10 pemain.)
+Saksikan kuasa Divine Dog: Totality! (Pengguna boleh meletakkan hadiah rahsia seperti Loadout, Gold atau Baucar di dalam kabin. Hadiah tersedia untuk 10 pemain.)
 Divine Dog: Totality
 Bingkai Beat Carnival
 Bingkai Lost Treasure
@@ -66837,7 +66857,7 @@ Megumi Fushiguro Sticker
 Yuji Itadori Sticker
 Nobara Kugisaki Sticker
 Satoru Gojo Sticker
-Harta ini milik aku! (Pemain boleh meletakkan hadiah rahsia seperti loadout, Gold atau Diamond Royale Voucher di dalam kabin. Hadiah tersedia untuk 10 pemain.)
+Khazanah milik saya! (Pengguna boleh meletakkan hadiah rahsia seperti Loadout, Gold atau Baucar di dalam kabin. Hadiah tersedia untuk 10 pemain.)
 Peti Treasure
 Dalam mod Stealth. Sukar dikesan oleh musuh dari jauh dan tidak dapat dikesan oleh dron atau kemahiran imbasan.
 Musuh tersembunyi terkena serangan
@@ -67616,7 +67636,7 @@ Boleh dinaik taraf dengan Upgrade Chips[S0], Kerosakan[S0], Kelajuan Isi Semula[
 Slot Muzzle ditambah[S0]
 Kelajuan Tukar Senjata[S0], Kelajuan Gerakan[S0], Kadar Tembakan[S0]
 Kadar Tembakan[S0], Kapasiti Magazine[S1], Kelajuan Isi Semula[S1], Ketepatan[S1], Kelajuan Pergerakan[S1]
-Kadar Tembakan[S0], Jarak[S0], Kelajuan Isi Semula[S0], Kapasiti Lelopak Peluru[S1]
+Kadar Tembakan[S0], Jarak[S0], Kelajuan Isi Semula[S0], Kapasiti Magazin[S1]
 Penembusan Perisai[S0]
 Jarak[S0], slot Muzzle ditambah[S0]
 Pellet Count
@@ -67823,7 +67843,7 @@ Loot Crate Senjata Goal Kick (M4A1 + M1917)
 Tetapan Asas
 Simpanan Cloud Pemain
 Menukar jenis sifat autosimpan akan menjadikan data dalam talian sedia ada tidak boleh dibaca. Adakah anda pasti?
-Jika diaktifkan, data pemain akan disimpan secara automatik dan digunakan untuk perlawanan seterusnya.
+Jika diaktifkan, data pemain akan disimpan secara automatik dan digunakan untuk perlawanan seterusnya. Nota: setiap sifat hanya boleh menyimpan data sehingga 4 KB.
 Cipta
 Tiada simpanan playtest tersedia
 Sila aktifkan Data Storage Module terlebih dahulu.
@@ -68552,7 +68572,7 @@ Headshot memberikan lebih banyak kerosakan. Cuma aim ke arah kepala apabila mene
 Setiap loadout menawarkan kuasa yang unik, cubalah satu.
 Ini pistol jarak jauh. Lakukan kerosakan agar boleh dinaik taraf.
 Anda baru sahaja menyingkirkan musuh. Periksa loot box mereka untuk bekalan atau peralatan yang lebih baik!
-Lelopak peluru anda belum penuh, jangan lupa untuk isi semula!
+Magazin anda belum penuh, jangan lupa untuk isi semula!
 Peluru anda hampir habis, kena cari lagi.
 Makan cendawan untuk dapat EP, ia akan memulihkan HP anda perlahan-lahan.
 Mereka langsung tak ada peluang!
@@ -68694,7 +68714,7 @@ Mengesan musuh secara berkala
 Dapat satu Gloo Wall setiap 7s
 Dapat satu peluang revive
 EP tanpa had
-Dapat Helmet dan Vest Lv. 5
+Dapatkan Helmet dan Vest Lv. 5 dengan pembaikan automatik berterusan
 Penyingkiran memulihkan HP sepenuhnya
 HP berganda
 Penyingkiran memberi +100 Mata Perisai kekal
@@ -68703,7 +68723,7 @@ Dapat Monster Truck dengan kelajuan kenderaan +40%
 Kelajuan pergerakan +150% apabila menerima kerosakan
 Pemulihan HP tanpa had
 Self help-up tanpa had
-Kerosakan +50%
+Kerosakan +{0}%
 Kelajuan pergerakan +50%
 Gloo Wall HP +9999
 HP separuh, tapi kerosakan +50%
@@ -68819,7 +68839,7 @@ Token World Cup 2
 Token Football Star
 Token Yellow Coin 
 Buku mistik dengan kuasa yang disegel di dalam halamannya.
-Eclipse Hyperbook
+Eclipse
 Blue Voucher
 Baucar Undersea Mystery
 Baucar Cyber 
@@ -69007,9 +69027,9 @@ Versi anda berbeza dengan rakan sepasukan. Sila kemas kini sumber.
 Kemas Kini Sumber
 Team Di Lobby
 Arsenal masih locked
-Rahsia laut menanti! (Pengguna boleh letak hadiah rahsia seperti loadout, Emas, atau Baucar Diamond Royale dalam kabin. Hadiah tersedia untuk 10 pemain.)
+Misteri lautan menanti! (Pengguna boleh meletakkan hadiah rahsia seperti Loadout, Gold atau Baucar di dalam kabin. Hadiah tersedia untuk 10 pemain.)
 Penyu Laut
-Sasar ke gol! (Pengguna boleh meletakkan hadiah rahsia seperti loadout, Gold, atau Baucar Diamond Royale dalam kabin. Hadiah tersedia untuk 10 pemain.)
+Sasar ke gol! (Pengguna boleh meletakkan hadiah rahsia seperti Loadout, Gold atau Baucar di dalam kabin. Hadiah tersedia untuk 10 pemain.)
 Kickoff Football
 Undersea Tour
 Tangkapan Besar
@@ -69086,9 +69106,9 @@ Sticker Marlin
 Sticker Solar Eclipse
 Sticker Football
 Sticker Trofi
-Pengguna boleh meletakkan hadiah rahsia seperti loadout, Gold, atau Baucar Diamond Royale di dalam kabin. Hadiah tersedia untuk 10 pemain.
+Pengguna boleh meletakkan hadiah rahsia seperti Loadout, Gold atau Baucar di dalam kabin. Hadiah tersedia untuk 10 pemain.
 Rising Star
-Pengguna boleh meletakkan hadiah rahsia seperti loadout, Gold, atau Baucar Diamond Royale di dalam kabin. Hadiah tersedia untuk 10 pemain.
+Pengguna boleh meletakkan hadiah rahsia seperti Loadout, Gold atau Baucar di dalam kabin. Hadiah tersedia untuk 10 pemain.
 Superstar
 Bertukar menjadi semak belukar dengan pengurangan kelajuan pergerakan sebanyak [FFB300]{2}%[-], bertahan selama [FFB300]{1}s[-]. Tempoh boleh dilanjutkan jika pengguna kekal diam. Transformasi berakhir apabila Wukong menyerang. CD diset semula apabila Wukong menewaskan musuh dalam [FFB300]{3}s[-] selepas skill digunakan. Cooldown: [FFB300]{0}s[-]
 Bertukar menjadi semak dan mencipta dua semak tambahan. Bertahan selama [FFB300]{0}s[-].
@@ -69111,9 +69131,9 @@ Ditingkatkan ke versi tertinggi. Menembak Horizalines.
 Weapon Surge
 Assault Rifles tiada lagi pengurangan DMG jarak jauh
 Kurangkan penyebaran Machine Gun
-Meningkatkan kapasiti lelopak peluru SMG dengan ketara
+Meningkatkan kapasiti magazin SMG dengan ketara
 Meningkatkan kelajuan pergerakan semasa memegang SMG dengan ketara
-Meningkatkan kapasiti lelopak peluru Shotgun dengan ketara
+Meningkatkan kapasiti magazin Shotgun dengan ketara
 Meningkatkan kelajuan pergerakan semasa memegang Shotgun dengan ketara
 Peningkatan penembusan peluru untuk Assault Rifle
 Kurangkan penyebaran Assault Rifle
@@ -69215,7 +69235,7 @@ Ciri Autosimpan
 Lain-lain
 Animasi AI
 Tiada Property Sah
-SMG & Rifles
+Senjata Jarak Jauh
 Skrip Templat
 Simpan sebagai templat
 Guna Templat
@@ -69709,7 +69729,7 @@ Apabila anda melengkapkan item ini, Lencana Edisi Pertama anda akan muncul pada 
 Apabila anda menyertai pasukan dengan item ini dilengkapi, Lencana Edisi Pertama anda akan dipaparkan kepada rakan sepasukan anda
 Apabila anda melengkapkan item ini, Lencana Edisi Pertama anda akan muncul pada papan pendahulu.
 Kembali
-Rakan Pyro
+Pyro Pals
 Pyro Dynamic Duo anda sedang dalam perjalanan!
 Pilih personaliti
 Streak Log Masuk
@@ -69721,7 +69741,7 @@ Muka
 Pyro's Vault
 Paparan halaman profil
 Widget boleh disesuaikan halaman Profil
-Rakan Pyro
+Pyro Pals
 Unlock Pyro's Vault
 Unlock paparan streak log masuk pada halaman profil
 Unlock widget yang boleh disesuaikan pada halaman profil
@@ -69808,17 +69828,17 @@ Pergerakan lebih lancar dan kawalan tembakan semasa bergerak
 Ketepatan Dipertingkatkan
 Mengurangkan peningkatan sebaran semasa tembakan berterusan
 Shotgunner
-Meningkatkan kapasiti magazine, damage, dan kawalan sebar
+Meningkatkan kapasiti magazine, kerosakan, dan kawalan sebar
 Mag Stabil
 Meningkatkan kapasiti magazine dan kestabilan untuk tembakan berterusan
-Kadar Pengurangan DMG
+Pengurangan DMG Perisai
 Membolehkan serangan semasa berlari pecut
-Jarak ke Zon Runtuhan
-Sebahagian zon akan runtuh tidak lama lagi
-Sebahagian zon telah runtuh
-Zon akan runtuh tidak lama lagi
-Memasuki Zon Runtuhan
-Zon sedang runtuh
+Zon yang Akan Runtuh akan didedahkan dalam
+Zon yang Akan Runtuh Didedahkan
+Masa sebelum runtuh
+Memasuki
+Zon Runtuhan
+Fasiliti Dimusnahkan
 Tinggalkan Zon Runtuhan
 Rakan sepasukan memperoleh {0} penyingkiran, sertai mereka!
 Rakan sepasukan memperoleh {0} revive keseluruhan, sertai mereka!
@@ -69841,7 +69861,7 @@ Lone Wolf: Classic
 Clash Squad: Liga
 Clash Squad: Sorotan
 Larangan Skill
-Kedai Sama
+Store Sama
 Senjata Super
 Pertempuran Seronok
 Tiada Bantuan Aim
@@ -69855,7 +69875,7 @@ mengatasi {1} sepenuhnya dalam {0}!
 menghancurkan pasukan lawan dalam {0}!
 menewaskan {1} dengan tipis dalam {0}!
 meraih kemenangan tipis dalam {0}!
-dihancurkan oleh anda sebanyak {0} kali minggu ini!
+ditewaskan oleh anda sebanyak {0} kali minggu ini!
 Kemenangan Rakan Minggu Ini
 Ringkasan Seronok
 Tunjukkan Kadar Kemenangan
@@ -69910,7 +69930,7 @@ M590 - Captain of Courage
 Kingfisher - Pop Groove
 Blazing Fracture
 AUG - Blazing Fracture
-Material yang digunakan untuk menaik taraf skin AUG. Dapatkan daripada acara atau beli terus di Kedai.
+Material yang digunakan untuk menaik taraf skin AUG. Dapatkan daripada acara atau beli terus di Store.
 Token Blazing Fracture
 Backpack - Crisp Green
 Backpack - Apple Juice
@@ -69942,6 +69962,7 @@ Sepanduk Master BR-Ranked S52
 Sepanduk Heroic BR-Ranked S52
 Sepanduk Master S53 BR-Ranked
 Sepanduk Heroic BR-Ranked S53
+Sepanduk Summer Voyage
 Sepanduk Stellar Spica
 Sepanduk Baaast Friends
 Bat - EWC 2026
@@ -69968,12 +69989,13 @@ Drum Jam
 Celebration Dance
 Phoenix Flourish
 Anniversary Parade
-Left Right Sway
+Menarilah, Saudaraku
 Tarian Skuba
 Spotless
 Baa Baa Knit
 PARAFAL - 9th Anniversary
 Final Shot - Rising Phoenix
+Kad Merah
 Penghakiman Kebanggaan
 Penumbuk - Fracture Firewing
 G36 - S52 Eksklusif: Baa Baa
@@ -70014,8 +70036,11 @@ Avatar Master BR-Ranked S52
 Avatar Heroic BR-Ranked S52
 Avatar Master BR-Ranked S53
 Avatar Heroic BR-Ranked S53
+Avatar Sands
+Avatar Seas
 Avatar Justice
 Avatar Stellar Spica
+Avatar Waves
 Avatar Baaast Friends
 Kuda akan mempunyai kesan khas semasa bergerak
 Kesan Pergerakan Kuda
@@ -70046,10 +70071,13 @@ M500 - Pristine Spica
 Parang - Electro Morphosis
 Parang - Dimensional Bruiser
 Parang - S53 Exclusive: Spica
+Parang - SEA Fall 2026
 Parang - Baa Baa Woof
 MAG-7 - Scarlet Destiny
 Boat of Luxury
 Fractured Descent
+Lagu Tema Kolaborasi Tenxi
+Cari yang Baru
 Lagu tema kolaborasi AAA
 Booyahka
 Lagu tema ulang tahun ke-9
@@ -70091,6 +70119,7 @@ Horse - Moonshine
 Jeep - Crisp Green
 Jeep - Scarlet Samurai
 Jeep - Dimensional Drift
+Jeep - SEA Fall 2026
 Monster Truck - Cotton Wraps
 Monster Truck - S52 Exclusive: Baa Baa
 Motorbike - Fractured Feathers
@@ -70110,6 +70139,7 @@ Loot Crate Senjata Dimensional Bruiser (XM8 + Desert Eagle)
 Buka untuk menerima skin senjata rawak (Charge Buster + USP-2) daripada set Super Fresh
 Loot Crate Senjata Super Fresh (Charge Buster + USP-2)
 XM8 - Dimensional Bruiser
+Anda telah bermain untuk seketika. Mungkin boleh berehat sebentar?
 Skill {0} memberikan pemulihan
 Skill Kassie memberikan penyembuhan
 Skill {0} memberikan Mata Perisai
@@ -70123,6 +70153,7 @@ Scarlet Chanter Bundle
 Denim Crosscut Bundle
 Rosy Groove Bundle
 Pop Groove Bundle
+Street Diva Bundle
 Electro Butterfly Bundle
 Fracture Streetburst Bundle
 Scorching Fracture Bundle
@@ -70137,6 +70168,7 @@ Thunderborn MVP Bundle
 Rin Bundle
 Metallic Groove Bundle
 Captain of Courage Bundle
+Street Swagger Bundle
 Rey Mysterio Bundle
 Electro Morphosis Bundle
 Fracture Freestyle Bundle
@@ -70168,8 +70200,8 @@ Berdasarkan tetapan map semasa, ahli kumpulan mungkin akan dipisahkan ke pasukan
 Cover tidak diluluskan
 Cover sedang dalam semakan
 Kemas kini untuk menukar cover
-Pencipta ini bukan dari rantau anda, maklumat mereka tidak boleh dilihat.
-Akses rentas server dinyahaktifkan kerana map ini menggunakan versi lama dan masih belum lengkap. Pemain dari rantau lain tidak dapat memainkan map ini. Anda boleh mengemas kini map untuk mendapatkan kod map pendek bagi mengaktifkan akses rentas server.
+Pencipta ini bukan dari wilayah anda, maklumat mereka tidak boleh dilihat.
+Akses rentas server dinyahaktifkan kerana map ini menggunakan versi lama dan masih belum lengkap. Pemain dari wilayah lain tidak dapat memainkan map ini. Anda boleh mengemas kini map untuk mendapatkan kod map pendek bagi mengaktifkan akses rentas server.
 Sila masukkan penerangan map
 Sila masukkan nama map
 Map ini telah tamat tempoh, sila pergi ke Craftland Studio PC dan kemas kini map.
@@ -70179,7 +70211,7 @@ Map ini belum diluluskan, sila pergi ke Craftland Studio PC dan kemas kini map.
 Kebanyakannya Positif
 Sangat Positif
 Sangat Positif
-Penilaian map berdasarkan suka dan tidak suka, dan hanya dipaparkan apabila jumlah suka melebihi {0}
+Penilaian Map adalah berdasarkan kedua-dua tanda suka dan tidak suka
 Kadar Kejayaan Padanan Tinggi
 Kadar Kejayaan Padanan Rendah
 Kadar Kejayaan Padanan Sederhana
@@ -70188,12 +70220,15 @@ Anggaran kadar kejayaan padanan berdasarkan populariti map dan tetapan pencipta
 Midjoin: Diaktifkan
 Sesi Permainan: {0}
 Sesi Bermain
-Sesi Bermain: bilangan kali sesebuah peta telah dimainkan
+Sesi Bermain: Bilangan kali sesuatu Map telah dimainkan. Tidak dikemas kini dalam masa nyata.
 Map ini tidak boleh diakses pada server semasa.
 {0} pasukan x {1} pemain
 Lencana Penilaian Tingkah Laku Cemerlang
 Rakan sepasukan ini mempunyai penilaian tingkah laku yang cemerlang. Berjuang untuk Booyah bersama!
+Tiada pasukan yang sesuai tersedia. Cuba lagi kemudian atau cuba padanan sistem.
 Pilih jawapan
+Jejak Kawasan
+Kunci Sasaran Berterusan
 Mencipta kawasan pemusnah dinding bersaiz kecil selepas gelombang meletup. Kawasan tersebut akan melekat pada dan bergerak bersama musuh terdekat dalam julat [FFB300]{0}m[-]. Bertahan selama [FFB300]{1}s[-].
 Sticky Rhythm
 Mencipta kawasan kecil yang melekat pada musuh sasaran dan menyebabkan kerosakan berterusan kepada dinding di dalam kawasan tersebut.
@@ -70203,7 +70238,7 @@ Menyasarkan secara automatik beberapa Gloo Wall dalam julat dan melepaskan gelom
 [ffa200][Pendatang Baharu][-]
 Tutorial Wonder Vault (Step Up)
 FF Gold boleh digunakan untuk menampung kekurangan [S0]
-Langkau animasi
+Skip animasi
 Had putaran menang
 Koleksi melebihi had
 Kedudukan populariti mingguan dan bulanan item Senarai Hajat dikira berdasarkan data Senarai Hajat pemain terkini.
@@ -70246,7 +70281,7 @@ Versi Pratonton telah disekat. Sila sunting dalam Craftland Studio PC.
 Tetapkan CCT Ke Hadapan
 Tetapkan arah Character Controller menghadap
 Ke Hadapan
-Buang Sisa
+Buang Item Baki
 Buang sisa jenis tertentu
 Jenis
 Jenis sisa yang akan dibuang
@@ -70267,7 +70302,7 @@ Tetapkan penggantian material bagi slot material tertentu untuk bahagian tertent
 Material sasaran yang akan digunakan sebagai pengganti
 Tetapkan semula Material Appearance
 Kosongkan penggantian material bagi slot material tertentu untuk bahagian tertentu dalam kumpulan appearance tertentu pada entiti Appearance sasaran dan pulihkan material asal (hanya berkesan pada klien).
-Tetapkan semula semua material dalam kumpulan appearance
+Tetapkan Semula Kumpulan Material Penampilan
 Kosongkan semua penggantian material di bawah kumpulan appearance tertentu pada entiti Appearance sasaran dan pulihkan material asal (hanya berkesan pada klien).
 Tindakan berjaya atau tidak
 Dapatkan Appearance Material
@@ -70297,20 +70332,20 @@ ID atlas animasi
 Kadar bingkai
 Kadar bingkai animasi
 Animasi akan dimainkan secara loop atau tidak
-Ketelusan Bayang-bayang
+Alfa Bayang
 Ketelusan bayang-bayang
-Outline
+Gunakan Garis Luar
 Gunakan outline atau tidak
 Warna Outline
 Warna outline
-Ketelusan Outline
+Alfa Garis Luar
 Ketelusan outline
 Offset Outline
 Offset outline
-Nyahaktifkan Kawasan
+Kawasan Ditutup
 Nyahaktifkan ciri ini di kawasan ini
 ID yang digunakan untuk menerangkan aset atlas
-Jenis Item Kekal
+Jenis Item Baki
 Jenis objek kekal yang boleh dibuang
 Semua
 Semua item yang akan kekal selepas tetapan semula pusingan
@@ -70460,7 +70495,7 @@ Badan
 Kaki
 Sayap
 Rakan sepasukan anda telah disingkirkan. Tindakan manakah yang tidak akan membantu mereka?
-Menyalahkan mereka melalui voice chat
+Salahkan mereka melalui sembang suara
 Beli Kad Revival daripada mesin vending
 Tawan Revival Point
 Sentiasa berwaspada dan lindungi diri anda
@@ -70483,7 +70518,7 @@ Apabila [ffba00]{0}[-] pemain berpasukan dengan pemain di bawah rank [ffba00]{1}
 Asas
 Pertengahan
 Lanjutan
-Pusat Latihan
+Survivor Academy
 Apa itu dan cara menggunakannya
 Lontarkan dengan tepat untuk menghasilkan letupan!
 Bawa Beaston bersama anda untuk melontar lebih jauh
@@ -70522,7 +70557,7 @@ Kelajuan larian rendah tetapi tempoh dilanjutkan
 Menunjukkan lokasi musuh dalam jarak tertentu. Jika mereka masih bergerak selepas beberapa ketika, lokasi mereka akan terdedah sekali lagi.
 Julat Diperluas
 Larian Pecut Berterusan
-Perlanggaran dikesan, gagal untuk sertai
+Tidak dapat mengikuti dari kedudukan semasa
 Benarkan pemain lain mengikuti anda dalam perlawanan
 Jangan Benarkan
 Rakan Sahaja
@@ -70531,7 +70566,26 @@ Sertai event ini untuk memilih dan menuntut bundle pakaian percuma serta diskaun
 Sertai event ini untuk menuntut bundle pakaian percuma
 Anda sudah memiliki hadiah ini. Tidak boleh menukar Hadiah Utama.
 Sertai kembalinya Chapter 1: Nine Tails Strikes untuk memenangi bundle outfit percuma dan Battle Card khas!
-Gagal mengikuti, tidak dapat menyertai
+Tunjukkan jalan, saya akan ikut!
+Tidak dapat menjadi ketua kereta api dalam keadaan semasa
+Kereta api dibubarkan: memasuki pertempuran
+Kereta api dibubarkan: terlalu jauh daripada rakan sepasukan
+Kereta api dibubarkan: perbezaan ketinggian terlalu besar
+Kereta api dibubarkan: ketua kereta api mencetuskan interaksi khas
+Kereta api dibubarkan: ketua kereta api memasuki platform bergerak
+Kereta api dibubarkan: pergerakan tidak normal
+Memasuki pertempuran, meninggalkan kereta api semasa
+Kereta api dibubarkan: perbezaan ketinggian terlalu besar
+Tidak dapat ikut serta dalam keadaan semasa
+Tidak boleh menaiki kereta api sekarang
+Tidak dapat menyertai: kereta api penuh
+Tidak dapat menyertai: perbezaan ketinggian terlalu besar
+Tidak dapat ikut serta dari kedudukan semasa
+Tidak dapat menyertai: sasaran telah tumbang
+Sasaran tidak membenarkan ikut serta
+Tidak dapat menyertai: sasaran sedang offline
+Tidak dapat mengikuti sasaran di kedudukan semasanya
+Kereta api semasa dibubarkan
 Balang Syiling
 Digunakan untuk meningkatkan syiling bagi seluruh pasukan
 Coin Gun
@@ -70568,14 +70622,15 @@ Box 277
 Box 278
 Box 279
 Box 280
+Peti Token Blazing Fracture (AUG)
 Crate Scarlet
 Crate Scarlet Night
 Buka untuk menerima Defier's Anthem M1014
-M1014 Defier's Anthem Loot Crate
+Loot Crate M1014 Defier's Anthem
 Buka untuk menerima SPAS12 Golden Flash
-SPAS12 Golden Flash Loot Crate
+Loot Crate SPAS12 Golden Flash
 Buka untuk menerima Inner Whisper AC80
-AC80 Inner Whisper Loot Crate
+Loot Crate AC80 Inner Whisper
 Crate Fracture
 Crate Blazing
 Kotak Parti
@@ -70670,12 +70725,12 @@ Had kos peta lebih tinggi apabila Tahap Pencipta meningkat
 Nama samaran anda akan mempunyai warna eksklusif dalam Craftland dan beberapa antaramuka di luar Craftland
 Apabila anda mencapai Tahap Pencipta tertentu, ikon tahap anda akan dipaparkan pada halaman profil
 Pergi ke tutorial rasmi
-Sertai Komuniti Craftland di rantau anda
+Sertai Komuniti Craftland di wilayah anda
 Peta anda akan mendapat keutamaan semakan yang lebih tinggi apabila Tahap Pencipta meningkat
 Berhubung dengan Pasukan Craftland dan pencipta global
-Peluang untuk dipertimbangkan bagi Program Creator di rantau anda. Tertakluk pada peraturan Program Craftland tempatan.
-Sertai kumpulan Creator eksklusif bersama ahli daripada pasukan rasmi Craftland di rantau anda. Tertakluk pada peraturan Craftland tempatan.
-Peluang lebih tinggi untuk dipertimbangkan bagi Program Creator di rantau anda. Tertakluk pada peraturan Program Craftland tempatan.
+Peluang untuk dipertimbangkan bagi Program Creator di wilayah anda. Tertakluk pada peraturan Program Craftland tempatan.
+Sertai kumpulan Creator eksklusif bersama ahli pasukan rasmi Craftland di wilayah anda. Tertakluk pada peraturan Craftland tempatan.
+Peluang lebih tinggi untuk dipertimbangkan bagi Program Creator di wilayah anda. Tertakluk pada peraturan Program Craftland tempatan.
 Peluang untuk mendapatkan lencana pada profil Craftland anda. Tertakluk pada peraturan Craftland tempatan.
 Peluang untuk dipertimbangkan bagi Lencana V Craftland. Tertakluk pada peraturan Craftland tempatan.
 Had kos untuk satu map
@@ -70745,7 +70800,7 @@ Tunjukkan Pergerakan Ahli Pasukan
 Nak tingkatkan prestasi? Tekan untuk semak ulasan perlawanan!
 Ulasan perlawanan tersedia
 Legenda
-[S0] {0} unlock Defense Airdrop
+[S0] {0} telah menawan Defense Airdrop
 [S0] {0} unlock arsenal
 BOOYAH
 [S0] {0} telah disingkirkan
@@ -70762,7 +70817,7 @@ BOOYAH
 [S0] {0} revive {1} di Titik Revival Lanjutan
 [S0] {0} mencetuskan Revival Solo
 [S0] {0} mengaktifkan Revival Pasukan
-[S0] {0} menghapuskan satu skuad
+[S0] {0} menghapuskan satu pasukan
 Defense Airdrop
 Arsenal unlock
 Ultra Airdrop
@@ -70803,20 +70858,48 @@ Bunga Sakura
 Hari Hujan
 Kelip-kelip
 Kesan Visual
+Beige
 Biru
 Warna Bulu
+Pale Gold
+Chocolate
 Cyan
 Orange
+Macaron Blue
+Mint
 Warna dikunci. Naik tahap untuk spin dan mendapatkannya.
+Peach
 Pink
+Pistachio Green
 Purple
 Crimson
+Cherry Blossom
+Smoky Rose
+Taro Purple
 Golden
 Topi Pink Shark
+Golden Crown
+Yellow & Green Balloons
+Red & Purple Balloons
 Belon Merah Jambu & Biru
+Golden & Silver Balloons
+Blue Fireball
+Red Fireball
 Fireball Ungu
+Silver Fireball
+Yellow Goggle
+Pink Goggle
 Gogal Menyelam Putih
+Black Goggle
+Blue Heart Glasses
+Red Heart Glasses
+Black Heart Glasses
+Golden Heart Glasses
 Golden Wings
+Pink Skateboard
+Black Skateboard
+Orange Skateboard
+Blue Skateboard
 Spin
 Anda memerlukan lebih banyak hari log masuk untuk membuat putaran
 Terus log masuk untuk menuntut ganjaran kejutan
@@ -70837,7 +70920,7 @@ Peti Pilihan Anda 6
 Peti Pilihan Anda 7
 MAG-7 untuk Semua
 Mulakan perlawanan dengan MAG-7
-Jangkakan Hujan Airdrop besar-besaran selepas 400s! Tiada Airdrop Pertahanan dalam perlawanan ini.
+Jangkakan Hujan Airdrop besar-besaran selepas 400s! Tiada Defense Airdrop dalam perlawanan ini.
 Adakah anda perasan acara rawak dalam perlawanan ini?
 Adakah anda berpuas hati dengan acara rawak dalam perlawanan ini?
 Skill Boost: Skil cooldown dikurangkan sebanyak {0}%
@@ -70855,10 +70938,10 @@ Diperoleh oleh 10 yang terselamat
 Kebangkitan Senjata tersedia dalam Arsenal yang dinaik taraf!
 Pertarungan Akhir
 Kebangkitan Arsenal
-Kedai ini hanya menjual shotgun
-Kedai Shotgun
-Kedai ini hanya menjual SMG
-Kedai SMG
+Store ini hanya menjual shotgun
+Store Shotgun
+Store ini hanya menjual SMG
+Store SMG
 Bayaran Balik Pembelian
 Peningkatan kadar tembakan
 Super Kuasa Tembakan
@@ -70917,7 +71000,7 @@ Special Airdrop: Shield Zone
 Special Airdrop: Heal Zone
 Special Airdrop: Anti-Wall Zone
 Special Airdrop: Super Cover
-Awooooo! (Pengguna boleh meletakkan hadiah rahsia seperti loadout, Emas atau Baucar Diamond Royale di dalam kabin. Hadiah tersedia untuk 10 pemain.)
+Awoooo! (Pengguna boleh meletakkan hadiah rahsia seperti Loadout, Gold atau Baucar di dalam kabin. Hadiah tersedia untuk 10 pemain.)
 Panggilan Scarlet
 Di bawah Scarlet Moon
 Tema Rin
@@ -70931,7 +71014,7 @@ Parti Ulang Tahun
 10 Baucar Universal + 50 Diamond
 5 Baucar Universal + 100 Diamond
 Bundle + 5 Baucar Universal + 100 Gem
-Selamat ulang tahun ke-9! (Pengguna boleh meletakkan hadiah rahsia seperti loadout, Emas atau Baucar Diamond Royale di dalam kabin. Hadiah tersedia untuk 10 pemain.)
+Selamat Ulang Tahun Ke-9! (Pengguna boleh meletakkan hadiah rahsia seperti Loadout, Gold atau Baucar di dalam kabin. Hadiah tersedia untuk 10 pemain.)
 Trofi Ulang Tahun Ke-9
 Frame Scarlet Moon
 Bingkai BLUE LOCK Trio
@@ -71034,7 +71117,7 @@ Tulis peraturan anda sendiri!
 Masterclass Kelly
 Raih suka dan peminat! Masa untuk menjadi pencipta bintang!
 Anda pasti? Memadam peta ini akan menetapkan semula semua kemajuan anda.
-Langkau buat masa ini
+Skip buat masa ini
 Terbitkan peta anda dan kongsi keseronokan di seluruh dunia!
 Cipta dunia impian anda sendiri!
 Mula
@@ -71072,7 +71155,7 @@ Kandungan yang anda muat naik melanggar garis panduan komuniti dan anda disekat 
 Lihat Lagi
 Tindakan gagal. Objek {0} melebihi saiz maksimum selepas penskalaan.
 Produk Disyorkan
-Tiada produk jenis ini di dalam kedai
+Tiada produk jenis ini di dalam store
 Anda masih belum memuat naik sebarang produk
 Selamat Ulang Tahun ke-9! Anda mendapat {0}.
 Sesetengah kawasan mempunyai loot rare, pergi dapatkannya!
@@ -71107,10 +71190,10 @@ Misi Ulang Tahun kini tersedia
 Ganjaran
 Quest Ulang Tahun diterima, jom lakukannya!
 Quest Ulang Tahun selesai!
-Revive di loot box kini [e01f1f]tidak tersedia[-]
+Revive di loot box kini tidak tersedia
 Anda kini boleh revive semula rakan sepasukan terus dari loot box mereka!
-Revival Serta-merta
-Revive serta-merta di loot box
+Revive Serta-merta
+Revive terus di kotak loot
 Rakan sepasukan sedang revive anda
 Quest selesai! [ffba00]Bekalan melimpah[-] telah dijatuhkan, dan kawasan {0} telah [ffba00]disegarkan semula[-]!
 Lokasi quest akan [ffba00]menjatuhkan bekalan[-], manakala Mesin Layan Diri, Titik Revive dan Mesin Syiling akan [ffba00]disegarkan semula[-].
@@ -71184,6 +71267,8 @@ Digunakan untuk spin bagi mendapatkan ganjaran dalam Gold Vault
 Baucar Gusti
 Scorching Fracture (Topeng)
 Dimensional Brawler (Topeng)
+Boss Banana (Topeng)
+Sassy Strawberry (Topeng)
 Baa Baa Sheep (Topeng)
 Crisp Red (Bahagian Bawah)
 Scarlet Chanter (Bahagian Bawah)
@@ -71191,6 +71276,7 @@ Scarlet Dancer (Bahagian Bawah)
 Denim Crosscut (Bahagian Bawah)
 Rosy Groove (Bahagian Bawah)
 Pop Groove (Bahagian Bawah)
+Street Diva (Bahagian Bawah)
 Electro Butterfly (Bahagian Bawah)
 Scorching Fracture (Bahagian Bawah)
 Fracture Streetburst (Bahagian Bawah)
@@ -71204,6 +71290,7 @@ Scarlet Dancer (Kepala)
 Denim Crosscut (Kepala)
 Rosy Groove (Kepala)
 Pop Groove (Kepala)
+Street Diva (Kepala)
 Electro Butterfly (Kepala)
 Scorching Fracture (Kepala)
 Fracture Streetburst (Kepala)
@@ -71220,6 +71307,7 @@ Scarlet Dancer (Kasut)
 Denim Crosscut (Kasut)
 Rosy Groove (Kasut)
 Pop Groove (Kasut)
+Street Diva (Kasut)
 Electro Butterfly (Kasut)
 Scorching Fracture (Kasut)
 Fracture Streetburst (Kasut)
@@ -71233,6 +71321,7 @@ Scarlet Dancer (Bahagian Atas)
 Denim Crosscut (Bahagian Atas)
 Rosy Groove (Bahagian Atas)
 Pop Groove (Bahagian Atas)
+Street Diva (Bahagian Atas)
 Electro Butterfly (Bahagian Atas)
 Scorching Fracture (Bahagian Atas)
 Fracture Streetburst (Bahagian Atas)
@@ -71245,6 +71334,7 @@ Baby Eagle (Kepala)
 Scarlet Cinder (Cat Muka)
 Butterfly Facepaint
 Fractured Glow (Cat Muka)
+SEA Fall 2026 (Cat Muka)
 Groovy Gaze (Cat Muka)
 Crisp Green (Topeng)
 Scarlet Warrior (Topeng)
@@ -71252,6 +71342,7 @@ Thunderborn MVP (Topeng)
 Rin Mask
 Metallic Groove (Topeng)
 Captain of Courage (Topeng)
+Street Swagger (Topeng)
 Rey Mysterio (Topeng)
 Ember Fracture (Topeng)
 Flowing Fracture (Topeng)
@@ -71266,6 +71357,7 @@ Thunderborn MVP (Bahagian Bawah)
 Rin Bottom
 Metallic Groove (Bahagian Bawah)
 Captain of Courage (Bahagian Bawah)
+Street Swagger (Bahagian Bawah)
 Rey Mysterio (Bahagian Bawah)
 Electro Morphosis (Bahagian Bawah)
 Ember Fracture (Bahagian Bawah)
@@ -71281,6 +71373,7 @@ Crisp Green (Kepala)
 Denim Flipset (Kepala)
 Thunderborn MVP (Kepala)
 Metallic Groove (Kepala)
+Street Swagger (Kepala)
 Electro Morphosis (Kepala)
 Ember Fracture (Kepala)
 Fracture Freestyle (Kepala)
@@ -71297,6 +71390,7 @@ Thunderborn MVP (Kasut)
 Rin Shoes
 Metallic Groove (Kasut)
 Captain of Courage (Kasut)
+Street Swagger (Kasut)
 Rey Mysterio (Kasut)
 Electro Morphosis (Kasut)
 Ember Fracture (Kasut)
@@ -71316,6 +71410,7 @@ Thunderborn MVP (Bahagian Atas)
 Rin Top
 Metallic Groove (Bahagian Atas)
 Captain of Courage (Bahagian Atas)
+Street Swagger (Bahagian Atas)
 Rey Mysterio (Bahagian Atas)
 Electro Morphosis (Bahagian Atas)
 Ember Fracture (Bahagian Atas)
@@ -71333,6 +71428,7 @@ Pek Suara Scarlet Whisperer
 Pek Suara Scarlet Howler
 Pek Suara Ulang Tahun ke-9
 Pek Suara Ronaldinho
+Helo semua, saya kembali lagi. Wow, wow, wow!
 Pek Suara Tenxi
 Pek Suara Hari Kemerdekaan
 Pek Suara LATAM Meme 1
@@ -71342,6 +71438,7 @@ Pek Suara Scarlet Whisperer
 Pek Suara Scarlet Howler
 Pek Suara Ulang Tahun ke-9
 Pek Suara Ronaldinho
+Pek Suara Sahurrr
 Pek Suara Tenxi
 Pek Suara Hari Kemerdekaan
 Pek Suara LATAM Meme 1
@@ -71358,6 +71455,17 @@ Mereka membiarkan kita terus berharap!
 Lihatlah headshot gila ini!
 Tengoklah dia ni, saya baru je perdayakan anda
 Satu lagi kemenangan di papan skor!
+Helo semua, saya kembali lagi. Wow, wow, wow!
+Whoa, apa benda ni? Serius, apa benda ni?
+Ya, ya, saya pergi, saya pergi. Tapi saya pasti akan kembali! Ay, ay, ay!
+Tung tung tung
+Helo semua, nama saya Tung Tung Sahur
+Jangan membebel tanpa henti
+[Tenxi] Tolong saya!
+[Tenxi] Kenapa musuh begitu mudah?
+[Tenxi] Beri kami amaran dulu, kawan
+[Tenxi] Jom, jom, jom!
+[Tenxi] Dada saya sakit
 Tolong saya!
 Anda betul-betul cuba ke?
 Demi tanah air!
@@ -71386,6 +71494,7 @@ Spica Shoes
 Cotton Teddy (Bahagian Atas)
 Dark Desires Bundle
 Crop Top Groovy
+T-Shirt Juara EWC 2026
 Super Fresh Bundle
 Adakah anda berpuas hati dengan kualiti suara dalam perlawanan ini?
 Tonton Ulang Tayang
@@ -71461,7 +71570,7 @@ Tidak dapat membawa pemain lain
 Bawa
 Legenda
 Bergerak dan bantu rakan sepasukan anda menyerang!
-Hayunkan tumbukan anda dan serang pasukan lawan!
+Hayunkan penumbuk anda dan serang pasukan lawan!
 Batal
 [ECB1FF]Pertempuran Pelana:[-]\nBertarung dengan pemain lain dalam Pertempuran Pelana.
 Pendahulu
@@ -71532,7 +71641,7 @@ Selepas rakan sepasukan anda disingkirkan, pergi ke Loot Box mereka dalam had ma
 Senjata Kebangkitan muncul dalam Arsenal yang dinaik taraf. Apabila pertempuran terakhir bermula, semua pemain yang masih hidup akan menerima Kebangkitan Senjata. Lepaskan kuasa sebenar anda dan bersaing untuk menjadi juara terunggul!
 Sambutan Bubble
 Misi Ulang Tahun
-Revival Serta-merta
+Revive Serta-merta
 Senjata Kebangkitan
 Terjun. Ambil bubble!
 Misi menarik menanti di zon-zon!
@@ -71570,7 +71679,7 @@ Oscar
 Skyler
 Homer
 Mari Raikan
-1. Cari Patung Ulang Tahun Ke-9 di Lobi Parti Ulang Tahun Ke-9 dan gunakan token untuk meraikannya.\n2. Token boleh diperoleh dengan menyelesaikan tugasan harian atau bermain perlawanan.\n3. Setiap sambutan di patung tersebut akan memberikan ganjaran sambutan secara rawak.\n4. Sambutan mempunyai peluang untuk memberikan ganjaran keistimewaan khas yang boleh digunakan sehingga tamat tempoh.\n5. Capai progres milestone melalui sambutan untuk mendapatkan ganjaran milestone.\n6. Pelbagai aktiviti menyeronokkan menanti untuk ditemui di Party Lobby!
+1. Cari Patung Ulang Tahun Ke-9 di Lobi Parti Ulang Tahun Ke-9 dan gunakan token untuk membuat sambutan.\n2. Token boleh diperoleh dengan menyelesaikan tugasan harian.\n3. Setiap sambutan di patung akan memberikan ganjaran sambutan secara rawak.\n4. Sambutan berpeluang memberikan ganjaran keistimewaan khas yang boleh digunakan sehingga tamat tempoh.\n5. Capai progres pencapaian melalui sambutan untuk mendapatkan ganjaran pencapaian.\n6. Pelbagai aktiviti menarik menanti untuk ditemui di Lobi Parti!
 Peraturan
 Berinteraksi
 Memberikan syiling kepada pemain lain secara berterusan
@@ -71608,7 +71717,7 @@ Memuatkan Acara Ulang Tahun ke-9
 Memuatkan...
 Ganjaran Percuma!
 Ulang Tahun ke-9
-Hadiah Utama dijamin selepas {0} sambutan
+Ganjaran Istimewa dijamin selepas {0} sambutan
 Raikan
 Percuma
 Tugasan harian belum selesai!
@@ -71628,7 +71737,7 @@ Berikan {0} lagi DMG menggunakan kebangkitan senjata untuk menyelesaikan tugas!
 Gunakan skil dipertingkat {0} kali lagi untuk menyelesaikan tugas!
 Dapatkan {0} lagi Mata Kelebihan untuk menyelesaikan tugas!
 Maksimumkan Mata Perk {0} kali lagi untuk menyelesaikan tugasan!
-Token tersedia hari ini: [fs=26][FFE785]{0}[-][/fs]
+Token berbaki hari ini: [S0][fs=26][FFE785]{0}[-][/fs]
 Had Harian BR-Ranked:
 Had Harian CS-Ranked:
 Had Harian LW:
@@ -71707,7 +71816,7 @@ Papar Hadiah
 GANJARAN BONUS
 PAPARKAN MILIK SAYA SAHAJA
 PEMENANG
-Dijamin Tier {0} dalam {1} spin
+Dijamin hadiah Tahap {0} dalam [ffba00][fs=32][b]{1}[/b][/fs][-] pusingan
 S TIER
 A TIER
 B TIER
@@ -71759,6 +71868,2110 @@ Kawasan ini mempunyai banyak loot
 Kawasan ini ada banyak loot
 Kaya
 Bagus
+Admin Mengubah Anda
+Nama ini mengandungi aksara yang tidak disokong. Sila edit nama ini untuk meneruskan.
+Sesetengah nama atribut tersuai mengandungi aksara yang tidak disokong. Sila edit nama tersebut dan cuba lagi.
+{0} Simpanan Diterima
+Sahkan untuk menggunakan [S0]{0} + [S1]{1} untuk unlock [FFCD30]PREMIUM[-]?
+Sahkan untuk menggunakan [S0]{0} + [S1]{1} untuk unlock [FFCD30]PREMIUM PLUS[-]?
+Tetap gunakan [S0]
+Dapatkan 1 [S0] untuk membuka kunci dan menuntut
+Simpanan Semasa
+Belanjakan [S0] dalam {0} untuk menyimpan [S1],\ngunakan mereka dalam {1} selepas memperoleh [S0]
+Dapatkan mana-mana [S0] untuk membuka kunci [S1]\n[S1] hanya boleh digunakan untuk mengimbangi [S0] dalam event Royale dan Booyah Pass.\n[S1] yang tidak digunakan akan ditetapkan semula kepada 0 pada akhir bulan ini.
+Peroleh sebarang [S0] untuk unlock [S1]\n[S1] hanya boleh digunakan untuk mengimbangi [S0] dalam Deluxe Menu dan Booyah Pass.\n[S1] yang tidak digunakan akan direset kepada 0 pada penghujung bulan ini.
+{0} [S0] belum dituntut
+Buka Kunci [S0]{0} sekarang dan gunakan di sini!
+Perbelanjaan
+Prime Diamond
+Unlock di Prime {0}
+Capai Prime {0} untuk unlock
+Naik taraf ke Prime {0} untuk menuntut [S0]{1}
+Mula menyimpan Diamond Prime sekarang!
+Milestone baharu dicapai!\nLebih banyak [S0] Unlock!
+Jadikan perbelanjaan [S0] bulan ini sebagai simpanan bulan depan!\n\n1. Simpan Diamond Prime\n· Belanja [S0] untuk mengumpul kemajuan dan mencapai tahap ganjaran bagi menyimpan [S1]. Lebih banyak anda belanja, lebih banyak anda simpan!\n· Hanya perbelanjaan [S0] dikira dalam kemajuan. Jumlah yang dibayar menggunakan [S1] tidak dikira.\n\n2. Buka Kunci & Gunakan Diamond Prime\n· Diamond Prime yang disimpan bulan ini boleh digunakan pada bulan depan. Pada awal bulan depan, Diamond Prime akan dikunci: anda boleh melihatnya, tetapi belum boleh menggunakannya.\n· Tambah nilai [S0] dalam apa-apa jumlah pada bulan depan untuk membuka kunci Diamond Prime yang anda simpan.\n· Selepas dibuka kunci, [S1] boleh digunakan dalam Luck Royale dan Booyah Pass. 1 [S1] = 1 [S0]. [S1] akan ditolak terlebih dahulu semasa pembayaran.\n\n3. Tamat Tempoh Bulanan\n· [S1] yang anda simpan mesti digunakan pada bulan berikutnya, atau akan ditetapkan semula kepada 0 pada pukul 4:00 pagi bulan selepasnya.
+Jadikan perbelanjaan [S0] bulan ini sebagai simpanan bulan depan!\n\n1. Simpan Diamond Prime\n· Belanja [S0] untuk mengumpul kemajuan dan mencapai tahap ganjaran bagi menyimpan [S1]. Lebih banyak anda belanja, lebih banyak anda simpan!\n· Hanya perbelanjaan [S0] dikira dalam kemajuan. Jumlah yang dibayar menggunakan [S1] tidak dikira.\n\n2. Buka Kunci & Gunakan Diamond Prime\n· Diamond Prime yang disimpan bulan ini boleh digunakan pada bulan depan. Pada awal bulan depan, Diamond Prime akan dikunci: anda boleh melihatnya, tetapi belum boleh menggunakannya.\n· Tambah nilai [S0] dalam apa-apa jumlah pada bulan depan untuk membuka kunci Diamond Prime yang anda simpan.\n· Selepas dibuka kunci, [S1] boleh digunakan dalam Luck Royale, Deluxe Menu dan Booyah Pass. 1 [S1] = 1 [S0]. [S1] akan ditolak terlebih dahulu semasa pembayaran.\n\n3. Tamat Tempoh Bulanan\n· [S1] yang anda simpan mesti digunakan pada bulan berikutnya, atau akan ditetapkan semula kepada 0 pada pukul 4:00 pagi bulan selepasnya.
+Belanjakan [S0] untuk menyimpan [S1]
+Anda tidak menggunakan sebarang [S0], jadi kemajuan Diamond Prime anda tidak berubah
+Hanya perbelanjaan [S0] dikira untuk kemajuan jar. Diamond yang diimbangi oleh [S1] tidak termasuk.
+{0} - telah dituntut
+{0} - boleh dituntut
+Peraturan Prime Diamond
+{0} Diamond Jar
+Dapatkan 1 [S0] untuk menuntut [S1] yang disimpan
+[S0] akan tamat tempoh dalam {0} hari, pastikan untuk menggunakannya!
+Prime Diamond {0} anda telah mencapai jumlah maksimum! Pastikan anda membukanya dalam {1}!
+Milestone baharu dicapai! Pergi tuntut [S0] anda!
+Belanjakan [S0] dalam {0}, buka dan gunakan [S1] dalam {1}
+[S0]{0} telah disimpan!
+Pastikan untuk menggunakan semua [S0] anda sebelum bulan depan!
+Dalam Luck Royale dan Booyah Pass, [S0] akan digunakan sebelum [S1]!
+[S0] boleh digunakan sebelum [S1] dalam Menu Deluxe dan Booyah Pass
+Tempoh Tamat
+[S0]{1} tidak digunakan daripada {0} telah ditetapkan semula kepada 0.
+Notis Tamat Tempoh Prime Diamond
+[S0]Baki {0}. Direset dalam {1} hari.
+[S0]{1} akan direset dalam {0} hari! Gunakan sekarang!
+Hari terakhir! [S0]{0} akan ditetapkan semula kepada 0!
+Tamat tempoh dalam {0}
+Prime Diamond
+Diperoleh daripada
+Prime System
+Hanya Boleh Digunakan Dalam
+Knock down musuh untuk mendapatkan bonus kadar tembakan dan kelajuan pergerakan selama 20s
+Storm
+Tembakan memberikan kerosakan tambahan dan menyerap HP daripada musuh
+Menyerap
+Biasa
+Undur
+Skorp
+SMG penebus perisai yang berkesan menentang musuh berperisai tebal pada jarak dekat, sesuai untuk pertempuran jarak dekat
+FO12
+Automatic shotgun sepenuhnya dengan kuasa tembakan yang dahsyat pada jarak dekat, sesuai untuk serbuan pantas
+M200
+Rifle penembak tepat berkuasa tinggi yang dibina untuk singkiran tepat pada jarak jauh
+M7
+Assault Rifle dengan recoil yang mudah dikawal dan kerosakan yang baik, sesuai untuk pertempuran jarak sederhana.
+RPK
+Light Machine Gun dengan mekanik recoil yang unik, kerosakan tinggi dan mobiliti seperti senapang, sesuai untuk pertempuran jarak sederhana hingga jauh.
+Hawk
+Sniper rifle berkerosakan tinggi yang melepaskan dua tembakan berturut-turut dengan pantas. Hentakan muncung yang kuat selepas setiap tembakan menjadikannya paling sesuai untuk pertempuran jarak jauh.
+TEC-9
+Pistol dengan kadar tembakan tinggi serta kerosakan letusan yang hebat pada jarak dekat, sesuai sebagai senjata kedua yang fleksibel
+Recoil
+Kawasan sedang runtuh
+Pilih 1 pemain sebagai Sasaran Bounty
+Admin Hunt
+Jadikan Admin sebagai Sasaran Bounty untuk semua pemain
+Buff Lalai
+Saiz kepala x{0}
+Saiz lengan x{0}
+Saiz kaki x{0}
+Saiz badan x{0}
+Cooldown Skill
+Pemulihan HP
+Saiz Seluruh Badan
+Saiz Lengan
+Saiz Kepala
+Saiz Kaki
+Kelajuan pergerakan {0}%
+Ketinggian lompatan +{0}%
+CD Skill -{0}%
+HP +{0}/s
+HP Maks. {0}
+Ketinggian lompatan {0}%
+CD Skill {0}%
+Pemulihan HP {0}/s
+Kepala x{0}
+Lengan x{0}
+Kaki x{0}
+Badan x{0}
+Admin memberikan buff kepada SEMUA: [ffd888]{0}[-]
+Admin memberikan item kepada SEMUA: [ffd888]{0}[-]
+Admin memberikan ganjaran kepada SEMUA: [ffd888]{0}[-]
+Admin mengaktifkan Lightning Strike pada SEMUA
+Admin menetapkan Buruan terhadap [ffd888]{0}[-] dengan ganjaran [ffd888]{1}[-]
+Admin menetapkan Buruan terhadap diri sendiri dengan ganjaran [ffd888]{0}[-]
+Saya pernah nampak Admin ini sebelum ini. Mereka suka memberikan Diamond!
+Di mana Admin? Saya mahu bertarung satu lawan satu!
+Saya sedang diburu. Lindungi saya!
+Gencatan senjata! Mari dapatkan Admin dahulu.
+Tiada hukuman Rank Points. Mari pergi!
+Berikan saya item dan saya akan menjadi peminat anda!
+Tempoh
+{0} min
+Peratus
+Rawak
+Semua
+Sasaran
+Diri Sendiri
+Pemain Sasaran
+Sepanjang Perlawanan
+Ganjaran
+Buff
+Item
+Kilat
+Transformasi
+Freecam
+Berikan {0} kepada [ffe400]{1}[-]?
+Mulakan pengundian sekarang? (Berkuat kuasa selama {0} minit)
+Tukar kepada status tidak terkalahkan dan boleh dilihat? Anda tidak boleh kembali ke mod penonton selepas itu, tetapi masih boleh melakukan tindakan lain sebagai Admin.
+Sahkan untuk memadam preset yang disimpan?
+Berikan {0} kepada semua pemain yang masih hidup?
+Berikan {0} kepada semua pemain yang masih hidup selama {1} minit?
+Panggil 1 Serangan Kilat ke [ffe400]{0}[-]?
+Panggil 1 Serangan Kilat ke semua pemain yang masih hidup?
+Buru [ffe400]{0}[-] dengan nilai buruan sebanyak {1}?
+Memburu diri sendiri dengan nilai buruan sebanyak {0}?
+Utama
+Preset
+Spinner
+Lanjutan
+Umum
+Bounty Hunt
+Undi
+Tetapan Admin
+Sembang Pemain
+Cadangan Pantas/Preset Disimpan
+Menjana acara rawak
+Singkirkan [ffe400]{0}[-]
+Ganjaran: {0}
+Pastikan [ffe400]{0}[-] terus hidup
+Terus Hidup daripada Buruan
+Admin Mayhem
+Sertai perlawanan sasaran
+Cari melalui UID/ID perlawanan
+Sertai perlawanan rawak
+Perlawanan Sekarang
+Sertai perlawanan yang sedang berlangsung
+Tiada perlawanan ditemui
+Pemain sasaran tidak berada dalam perlawanan
+Tidak dapat sertai. Perlawanan sasaran tidak memenuhi syarat untuk Admin Mayhem.
+Disyorkan
+Simpan
+Laksanakan
+Edit
+Sedang Berlangsung
+Selesai
+Disingkirkan
+Terselamat
+Disingkirkan (medan)
+Bonus Admin Mayhem
+Admin dalam perlawanan ini
+Anda telah melengkapkan Bounty Hunt dalam perlawanan [ffe400]Admin Mayhem[-]
+Status Admin
+Tidak Kelihatan
+Tiada entiti dalam perlawanan. Admin boleh menonton pemain lain atau menggunakan Freecam.
+Boleh Dilihat
+Admin boleh dilihat dan tidak terkalahkan dalam perlawanan, serta boleh ditonton.
+Pilih lokasi mendarat
+Masuk melalui
+Kawasan
+Pilih kawasan map
+Acara
+Butiran
+Sasaran
+Edit
+Spin Semula Semua
+Sila tukar kepada status boleh dilihat terlebih dahulu
+Pilihan Pengundian
+Pilihan 1
+Pilihan 2
+Masukkan pilihan pengundian
+{0} berada di wilayah berbeza dan tidak boleh menyertai mod ini
+Pemain ini berada di wilayah berbeza dan tidak boleh menerima hadiah
+Pemain lain telah meninggalkan Assemble
+[ffe400]{0} penghapusan[-] dalam perlawanan terkini
+[ffe400]{0} help-up(s)[-] dalam perlawanan terkini
+[ffe400]{0} Revive[-] dalam perlawanan terkini
+Tembakan Penamat
+Kotak ini tidak boleh dibuka lagi
+Bawa Firefig ini selama [37e347]{0}[-] untuk mengeluarkannya dari perlawanan
+Firefig: Koleksi langka. Bawa untuk seketika bagi mengeluarkannya dari perlawanan dan menambahkannya ke koleksi anda.
+Baki Mystery Boxes: {0}
+Mengambil {0} Firefig
+{0} memperoleh Firefig [ffba00]{1}[-]
+Seorang rakan sepasukan menemui Firefig
+Anda tidak boleh bermain di map ini buat masa ini, tetapi map lain tersedia. Sila hubungi khidmat pelanggan untuk maklumat lanjut.
+Bilik ini mengandungi pemain yang telah disekat, gagal memulakan perlawanan.
+AK47 - S39 Exclusive: Owl
+Kingfisher - Melon Ninja
+Cosmic Pulse
+AWM - Cosmic Pulse
+Bahan yang digunakan untuk menaik taraf skin AWM. Dapatkan daripada acara atau beli terus dari Kedai.
+Token Nadi Kosmik
+Backpack - Cosmic Cloak
+Backpack - 2026 FFWS Champions
+Backpack - Dino Barbecue
+Backpack - Lamp Monster
+Backpack - Moon Cake
+Backpack - Melon Scroll
+Backpack - Owl Steel
+Backpack - Scorpio Sting
+Backpack - Scorpio Strings
+Backpack - Valor Dolly
+Sepanduk Cosmic Overlord
+Sepanduk CS-Ranked S39 Master
+Sepanduk CS-Ranked S39 Heroic
+Sepanduk CS-Ranked S40 Master
+Sepanduk CS-Ranked S40 Heroic
+Sepanduk Magma Fusion
+Sepanduk New Kenta
+Sepanduk Fruit Frenzy
+Sepanduk Duty Hoots
+Sepanduk BR-Ranked S54 Master
+Sepanduk BR-Ranked S54 Heroic
+Sepanduk Stellar Scorpions
+Bat - S54 Exclusive: Scorpio
+Bat - Masked Fox
+Bat - Solar Valor
+M82B - S54 Exclusive: Scorpio
+Duty Hoots
+Stellar Scorpions
+Fruit Frenzy
+Cosmic Powershot
+Cosmic Vortex
+Firefig Showcase
+Flame Attack!
+Crawl Out
+Broken Cry
+Lion Dancing
+Beast Pound
+Silent Sting
+Tornado Push
+Strange Power
+Turkey Balloon
+Skorp - Mamba Gnow
+Skorp - Orion
+Final Shot - Dino Shot
+Cosmic Execution
+Penumbuk - Cosmic Comet
+G36 - Bride's Revenge
+G36 - Owl Sheriff
+Gloo Wall - Cosmic Gaze
+Gloo Wall - Firework Wall
+Gloo Wall - 2026 FFWS Champion
+Gloo Wall - Flameborn
+Gloo Wall - Danger Elevator
+Gloo Wall - Cheering Lion
+Gloo Wall - The Creation
+Gloo Wall - Melon Slice
+Gloo Wall - Beast Within
+Gloo Wall - Owl's Watch
+Gloo Wall - Masked Boutique
+Gloo Wall - MAMA
+Grenade - Mr. Clown
+Grenade - Melon Blast
+Grenade - Owl Power
+Grenade - Badminton Owlie
+Grenade - Scorpio Shock
+Cosmic Ruler
+Horror Show
+Avatar Cosmic Overlord
+Avatar CS-Ranked S39 Master
+Avatar CS-Ranked S39 Heroic
+Avatar CS-Ranked S40 Master
+Avatar CS-Ranked S40 Heroic
+Avatar Magma Fusion
+Avatar New Kenta
+New Kenta Bobblehead
+Avatar Fruit Frenzy
+Avatar Duty Hoots
+Avatar BR-Ranked S54 Master
+Avatar BR-Ranked S54 Heroic
+Avatar Stellar Scorpions
+Katana - Cosmic Tear
+Katana - The Unseen
+Loot Box - Kitten in Box
+Loot Box - Firecracker Roll
+Loot Box - Twisted Twins
+Loot Box - Rabbit Lion Dance
+Loot Box - Banana Ninja
+Loot Box - Banana Jutsu
+Loot Box - Owl Tent
+Loot Box - Scorpio Record
+Loot Box - Storm Arena
+Loot Box - MAMA
+Loot Box - Solar Valor
+M1014 - Masked Fox
+Trogon - Kittensitter
+M1873 - Scorpio Sting
+M200 - Mambas Gnaw
+M200 - Morse
+M60 - Magma Fusion
+M7 - Mamba Gnaw
+M7 - Rin
+Parang - Kittensitter
+Parang - Spinning Machete
+Parang - Scorpio Sting
+Parang - Turkey Drumstick
+AC80 - Masked Fox
+Unseen Claws
+MP5 - Storm Arena
+Lagu tema Storm Arena
+Storm Δrena
+Memaparkan tekstur bulu berlapis serta kesan pencahayaan meresap
+P90 - S40 Exclusive: Ninja
+Pan - S39 Exclusive: Owl
+Pan - Flameborn
+Pan - Storm Arena
+Parachute - The Unseen
+Parachute - S54 Exclusive: Scorpio
+Pet Skin: Beasty Fang
+RPK - Mamba Gnaw
+RPK - Steffie
+Hawk - Mamba Gnow
+Hawk - Skyler
+Scythe - Carved Menace
+Scythe - Magma Plume
+Scythe - Melon Ninja
+Skyboard - Carved Claws
+Skyboard - Academy Notecase
+Skyboard - Chubby Rabbit
+Skyboard - Melon Kunai
+Skyboard - Owl Wings
+Skyboard - Scorpio Star
+TEC-9 - Mamba Gnaw
+TEC-9 - Dasha
+Dagger - S40 Exclusive: Ninja
+Dagger - Owl Sheriff
+USP-2 - Flame Dino
+Mini Uzi - Kittensitter
+Amphibian - S39 Exclusive: Owl
+Horse - Cosmic Guardian
+Horse - Owl Hoofs
+Jeep - King of Mirzapur
+Jeep - Axed Escape
+Jeep - Scorpio Wheels
+Monster Truck - Masked Getaway
+Monster Truck - Storm Voltage
+Motorbike - Turkey Turbo
+Pickup Truck - Melon Engine
+Tuk Tuk - S40 Exclusive: Ninja
+Buka untuk menerima Skin Senjata rawak (Trogon + Mini Uzi) daripada set Kittensitter
+Loot Crate Senjata Kittensitter (Trogon + Mini Uzi)
+Buka untuk menerima Skin Senjata rawak (M60) daripada set Magma Fusion
+Loot Crate Senjata Magma Fusion (M60)
+Buka untuk menerima Skin Senjata rawak (AC80 + M1014) daripada set Masked Fox
+Loot Crate Senjata Masked Fox (AC80 + M1014)
+Rakan sepasukan AFK: Rentetan kemenangan dikekalkan
+Pendarahan Lebih Cepat
+Kehabisan darah dengan lebih cepat selepas dijatuhkan
+Throwable percuma
+Grenade percuma  dalam pusingan tertentu
+Flash Freeze percuma dalam pusingan tertentu
+Dragon Freeze percuma dalam pusingan tertentu
+Gloo Melter percuma dalam pusingan tertentu
+Flame Grenade percuma dalam pusingan tertentu
+Sonar Grenade percuma dalam pusingan tertentu
+Bilah ke Bilah
+Pistol di store digantikan dengan senjata jarak dekat
+Tiada Med Kit
+Tiada Med Kit. Zon penyembuhan akan muncul pada map.
+Tiada Med Kit
+Pistol & Sniper
+Skill untuk Dijual
+Store Sprecial
+Item khas akan muncul di store
+Kad Skill akan muncul di store
+Hanya pistol dan senapang penembak tepat di store
+Log masuk dengan e-mel
+Untuk keselamatan akaun yang lebih baik, e-mel log masuk dan e-mel pemulihan anda hendaklah berbeza.
+Pemain Emulator
+Pilihan pendaftaran ini tidak tersedia buat sementara waktu. Sila cuba kaedah lain.
+Cosmic Empress Bundle
+Kittenlover Bundle
+Magma Phoenix Bundle
+Firesaur Bundle
+Academy Cutie Bundle
+Crimson Glitches Bundle
+Banana Ninja Bundle
+Lioness Instinct Bundle
+Owl Ranger Bundle
+Scorpio Venom Bundle
+Masked Rabbit Bundle
+Phantom Bride Bundle
+Lunar Valor Bundle
+Cloaked Terror Bundle
+Cosmic Overlord Bundle
+Red Bull Bundle
+Kittensitter Bundle
+Magma Fusion Bundle
+Infernosaur Bundle
+Academy Influencer Bundle
+Hollow Man Bundle
+Red Slicker Bundle
+Melon Ninja Bundle
+Lion Instinct Bundle
+Owl Sheriff Bundle
+Scorpio Sting Bundle
+Masked Fox Bundle
+Phantom Desperado Bundle
+MAMA Bundle
+Solar Valor Bundle
+{0} telah selesai dimuat turun. Main sekarang?
+Kami menemui map yang mungkin anda suka. Muat turun sumber sebelum bermain.
+Temui lebih banyak map Craftland yang menyeronokkan!
+Disyorkan untuk anda: {0} jumlah pemain, {1}% penilaian positif.
+Pergi ke Map rasmi? Anda boleh kembali ke Craftland pada bila-bila masa.
+Berhenti bermain map Craftland ini buat sementara waktu? [u]Pergi ke map rasmi>>[/u]
+Berhenti bermain map Craftland ini buat sementara waktu?
+Pergi ke map rasmi
+Bond of Eclipse (Ray)
+Jika anda menyukai sesuatu map, subscribe padanya supaya anda tidak terlepas sebarang kemas kini!
+Follow creator yang anda suka dan temui lebih banyak map yang dicipta oleh mereka.
+Kongsi map yang menyeronokkan dengan rakan anda dan bermain bersama!
+Berikan rating atau maklum balas selepas bermain map untuk dilihat oleh pemain lain.
+Craftland menghimpunkan map yang dicipta oleh pemain, dan setiap map menawarkan pengalaman gameplay yang unik.
+Dalam Craftland, anda boleh menemui, bermain dan berkongsi map yang dicipta oleh pemain lain.
+Dalam Craftland, anda boleh menemukan map popular serta map dengan gameplay yang kreatif.
+Admin Memanggil Serangan Kilat
+[ffe400]Semua[-] Terkena Serangan Kilat
+Admin Memanggil Serangan Kilat ke Atas Anda
+Bounty Hunt Bermula
+Rakan sepasukan [ffe400]terselamat[-]. Pasukan anda boleh berkongsi {0}.
+[ffe400]{0}[-] telah disingkirkan. Misi memburu gagal.
+Masa tamat! Misi memburu gagal.
+Terus Hidup untuk Mendapatkan Ganjaran
+Lindungi Rakan Sepasukan untuk Mendapatkan Ganjaran
+Berkongsi {0} dengan Rakan Sepasukan
+Berjuang untuk terus hidup!
+Singkirkan sasaran untuk mendapatkan ganjaran
+Singkirkan [ffe400]{0}[-] untuk berkongsi {1}
+Anda kini menjadi sasaran. Kekal hidup untuk berkongsi {0} dengan rakan sepasukan anda!
+Pastikan rakan sepasukan [ffe400]{0}[-] terus hidup untuk berkongsi {1} dengan mereka
+Misi Memburu Selesai
+Diselesaikan oleh {0}
+Anda [ffe400]terselamat[-]. Pasukan anda boleh berkongsi {0}.
+Anda telah disingkirkan. Misi memburu gagal.
+Admin Memberikan Buff
+[ffe400]Semua[-] Mendapat Buff
+Admin Memberikan Anda Buff
+Admin Hunt Bermula
+Admin Disingkirkan
+Admin Mengagihkan Item
+[ffe400]Semua[-] Mendapat Item
+Admin Memberi Anda Item
+Admin Mengagihkan Ganjaran
+[ffe400]Semua[-] Mendapat Ganjaran
+Admin Memberi Anda {0}
+Admin Memberikan Transformasi
+[ffe400]Semua[-] Berubah
+Admin Mengubah Anda
+Admin Memulakan Undian
+Apa seterusnya? Semuanya terpulang kepada anda!
+[ffe400]{0}[-] memenangi undian
+Admin Kini Dalam Perlawanan
+{0} Kini Dalam Perlawanan
+Tiada Mata Rank akan ditolak. Nikmati bonus dan bertempur dengan gaya!
+Backpack telah dikemas kini. Perubahan akan berkuat kuasa selepas anda keluar daripada mod edit.
+Semua
+Kualiti
+Saiz
+Masa Diperoleh
+Firefig Besar tidak boleh ditempatkan
+Firefig Legenda tidak boleh dihadiahkan atau didagangkan
+Firefig ditambahkan ke koleksi anda
+Nilai
+Katalog Firefig
+Lakukan pengambilan Firefig untuk Unlock entri Catalognya
+Setiap Firefig yang dibawa keluar dari perlawanan memberikan Nilai Katalog berdasarkan jenisnya
+Carry-Out Pertama Memberikan
+Buka Katalog
+Ganjaran masa terhad tersedia pada {0}
+Firefig Biasa
+Edit
+Perubahan belum disimpan. Buang perubahan?
+Pilih Firefig untuk Dipaparkan
+Paparan
+Unlock emote secara percuma
+Pergi ke Firefig
+Guna dalam Emote
+Pergi
+Emote Paparan Firefig Unlock
+Firefig
+Nilai Carry-Out Pertama
+Pertama
+Tarikh:
+Maklumat Pengambilan Pertama
+Lokasi:
+Rakan Sepasukan:
+{0} diperoleh dalam {1}
+Sahkan untuk memberikan Firefig ini?
+Jumlah milikan tidak mencukupi. Tidak boleh memberi hadiah.
+Pilih rakan
+Hadiah dihantar
+Kod Wilayah
+Mendapatkannya buat kali pertama memberikan Nilai Katalog
+{0} Firefig tersedia sebagai ganjaran masa terhad
+Firefig Masa Terhad
+Sedang Dihantar
+{0} masih dikunci
+Firefig Baharu Diperoleh
+Kod Wilayah Unik: Nombor {1} dalam {0}
+Had penempatan telah dicapai
+Pratonton
+Tiada set paparan Firefig
+Kemajuan
+Legenda
+Mythic
+Koleksi Firefig
+Peraturan Firefig
+Gagal untuk simpan
+Besar
+Ujian sistem Firefig telah tamat. Nantikan kemas kini seterusnya!
+Ganjaran Masa Terhad
+Jumlah Keseluruhan
+Terima Pertukaran
+Pertukaran Firefig
+Firefig akan ditukar selepas pengesahan
+Pertukaran berjaya
+Pertukaran tamat tempoh
+Firefig ini tidak boleh diperdagangkan buat masa ini
+Pilih Firefig
+Lawati Koleksi
+Imbas untuk sertai skuad
+Sertai skuad {0} dan top up bersama untuk mendapatkan ganjaran!
+Pencapaian
+Tiada Pencapaian Lagi
+Pencapaian x{0}
+Main untuk Mendapatkan Pencapaian
+≥{0}
+Anda masih dalam pertarungan! Storm Arena mula menyedari kehadiran anda. Teruskan mara ke hadapan!
+Unlock apabila Storm Reputation mencapai {0}
+Unlock semua milestone acara untuk melihat keperluan
+DMG
+2-penghapusan berturut-turut dalam mana-mana pusingan
+3-penghapusan berturut-turut dalam mana-mana pusingan
+4-penghapusan berturut-turut dalam mana-mana pusingan
+5-penghapusan berturut-turut dalam mana-mana pusingan
+Singkirkan 2 atau lebih pemain berturut-turut menggunakan senjata jarak dekat dalam mana-mana pusingan
+Sertai acara Storm Arena dan dapatkan pelbagai hadiah menarik!
+Storm Arena
+Pilih kelab
+Pilih pose
+Elims
+Itu dia, anda mula mencipta nama di Storm Arena! Mari lihat sejauh mana anda boleh pergi!
+Main perlawanan secara aktif untuk memperoleh ganjaran Storm Reputation!
+Tingkatkan Reputasi Storm anda untuk unlock Player Card tahap lebih tinggi dan ganjaran yang lebih rare!
+Headshots
+Bantuan Bangkit
+1. Main BR-Ranked dan CS-Ranked sepanjang acara untuk mendapatkan Reputasi Ribut berdasarkan prestasi anda.\n2. Tingkatkan Reputasi Ribut anda untuk menuntut ganjaran percuma dan menaik taraf bingkai Battle Card anda.\n3. Selepas membuka kunci semua tahap kemajuan, terus tingkatkan Reputasi Ribut anda untuk membuka kunci bingkai Battle Card khas.\n4. Edit Kad Pemain anda dengan gaya pose dan imej kelab kegemaran anda. Sepanjang acara, anda juga boleh menetapkan Kad Pemain anda sebagai Battle Card untuk menunjukkannya kepada pemain lain.\n5. Berikan sokongan kepada rakan anda dengan menyukai mereka dalam Feed.
+Peraturan
+Ganjaran Percuma!
+Storm Arena
+Acara Pencapaian
+Berjaya digunakan
+Big Time
+Enter the Storm
+Main perlawanan untuk memperoleh Storm Reputation!
+Cosmic Bundles
+EVO AWM
+Menangi Ganjaran Percuma!
+Acara
+First Time
+Aktiviti
+Acara Sorotan
+Pingat
+Pingat Emas
+Pingat Perak
+Peak Time
+Permainan Terbaik
+Prime Time
+Reputasi Storm
+Reputasi
+Tetapkan sebagai Battle Card
+Show Time
+Butiran Statistik
+Storm Arena
+Ringkasan Statistik
+FFWS GF
+Perlawanan Dimainkan: [ffba00]{0}[-]
+Menakjubkan! Daripada semua orang di Storm Arena, anda telah berjaya sampai sejauh ini. Satu dorongan terakhir menuju kejayaan!
+Semua mata tertumpu pada pentas utama. Storm Arena akan mengingati nama anda. INI... ADALAH PRIME TIME!
+Lihat itu! Lampu telah menyala, penonton sedang menyaksikan, dan tiba masanya untuk memberikan mereka persembahan!
+Sejarah
+Menang dalam perlawanan, tampil di pentas utama, dan nikmati detik anda menjadi tumpuan! Anda sudah bersedia?
+Annual Prizes
+Main ranked untuk memperoleh Rank Pack dan mengejar Annual Prize yang terlepas!
+Annual Prize yang terlepas pada bulan-bulan sebelumnya
+Main ranked untuk memperoleh Rank Pack
+Unlock Rank Pack untuk memenangi semula Annual Prize
+Terlepas Annual Prize?
+Peluang untuk Annual Prize: [FFBA00]{0}[-], Annual Prize dijamin dalam [FFBA00]{1}[-] Rank Pack
+Annual Prize seterusnya disegarkan dalam {0}
+Tidak Diperoleh
+Unlock x{0}
+[FFBA00]Hadiah Lain[-]
+Pratonton Hadiah
+Diperoleh [FFBA00]{0}[-]/{1}
+Memperoleh Rank Pack x{0}
+{0}/{1} min
+Main [FFBA00]{0}[-] minit lagi untuk mendapatkan yang seterusnya
+Capai masa bermain selama [x0.n][S0][]
+Segar Semula [x0.n][S0][-] dalam
+Dapatkan 1 secara rawak
+Hadiah dikemas kini
+1. Selesaikan perlawanan BR-Ranked/CS-Ranked untuk meningkatkan tempoh bermain yang sah dan memperoleh sehingga [FFBA00]{0}[-] Rank Pack setiap minggu, sehingga [FFBA00]{1}[-] secara keseluruhan. Rank Pack juga boleh diperoleh dengan mencapai rank sasaran.\n2. Unlock Rank Pack untuk menerima ganjaran di dalamnya, dengan peluang memenangi Annual Prize yang tidak boleh diperoleh berulang kali (sehingga 12 setahun). Satu Annual Prize akan diberikan secara rawak setiap bulan dan boleh disimpan. Refresh pada pukul 4:00 pagi pada hari pertama setiap bulan.\nEvent ini akan tamat pada 2026-12-31 23:59:00.
+Rank Pack
+Kemajuan Rank Pack Lebih Pantas
+Kiraan Mingguan: {0}/{1}
+Peluang lebih tinggi untuk Annual Prizes!
+Pek Taman
+Garden Pack, buka untuk mendapatkan alatan bagi membina taman anda.
+Map ini mempunyai ciri komersial yang didayakan dan tidak boleh dipadam atau diambil offline. Sila hubungi staf rasmi.
+Akaun Disekat
+Keistimewaan Creator disekat, tidak boleh memasuki Craftland Studio.
+Anda mempunyai map komersial di bawah akaun anda. Sila uruskan map tersebut terlebih dahulu sebelum memadam akaun anda.
+Akaun disekat. Tidak boleh menggunakan Creator Center.
+Map ini dikunci, tidak boleh dikemas kini atau diambil offline.
+Anda masih mempunyai pesanan tambah nilai aktif yang sedang diproses. Adakah anda pasti mahu meneruskan tambah nilai?
+Perlawanan telah tamat. Sila pergi ke lobi dan sahkan maklumat tambah nilai.
+Status komersial map semasa telah berubah, tidak boleh membuat pembelian sekarang.
+Status produk dikemas kini. Sila buka semula store.
+Sila pergi ke [Download Center] untuk menyemak sumber map, kemudian mulakan semula game.
+Kuantiti Pembelian.
+Mainkan Gegaran Kamera Tersuai
+Tetapkan gegaran kamera tersuai.
+Ofset Paksi
+Ofset paksi X/Y/Z.
+Amplitud
+Amplitud gegaran.
+Frekuensi
+Frekuensi gegaran.
+Muncul
+Masa pudar masuk. Unit: ms.
+Pudar
+Masa pudar keluar. Unit: ms.
+Tempoh Ms
+Tempoh gegaran. Unit: ms.
+Muat Turun Sumber Map
+Minta klien semasa memuat turun sumber map Craftland yang ditetapkan.
+Kod Map map Craftland yang sumbernya sedang dimuat turun.
+Semak Sama Ada Sumber Map Telah Dimuat Turun
+Semak status sumber map tempatan pada klien semasa dan kembalikan status muat turun, kemajuan dan kod status semakan.
+Kod Map map yang memerlukan semakan status sumber.
+Status Muat Turun
+Status muat turun sumber map tempatan klien semasa.
+Kemajuan
+Kemajuan muat turun klien semasa, dalam julat 0–100.
+Semak kod status yang dikembalikan oleh panggilan API.
+Semak UI Hit
+Semak sama ada UI terbina dalam lalai, UI tersuai Craftland atau UI terbina dalam Craftland wujud pada koordinat unit UI yang ditetapkan.
+Koordinat unit UI yang hendak dikesan.
+Rentetan kepada Big Float
+Huraikan rentetan kepada Big Float, mengekalkan sekurang-kurangnya 15 digit perpuluhan bererti dan mengekalkan tanda; menyokong kawalan parameter untuk tatatanda saintifik, pemisah angka dan akhiran ringkas K, M, B, T, Qa; mengembalikan nil untuk input tidak sah.
+Rentetan yang hendak dihuraikan.
+Benarkan Scientific Notation
+Sama ada membenarkan notasi saintifik. Jika dibenarkan, e dan E boleh digunakan sebagai penanda eksponen.
+Benarkan Pemisah
+Sama ada membenarkan koma sebagai pemisah angka.
+Benarkan Akhiran
+Sama ada membenarkan singkatan seperti K, M, B, T, Qa sebagai akhiran.
+Tetapkan Jumlah Skrol
+Tetapkan jumlah skrol menegak atau mendatar untuk paparan skrol.
+Arah skrol
+Nilai skrol.
+Tetapkan Semula Kedudukan Paparan Skrol
+Tetapkan semula kedudukan paparan skrol
+Dapatkan Emote Milik Tempatan
+Dapatkan senarai semua ID Emote yang dimiliki oleh akaun pemain tempatan; hanya pada pihak klien, dibaca secara serentak daripada cache Backpack tempatan.
+Dapatkan Pakaian Milik Tempatan
+Dapatkan senarai semua ID BackpackSkin yang dimiliki oleh akaun pemain tempatan; pelaksanaan pada klien sahaja, dibaca secara segerak daripada cache Backpack tempatan.
+Dapatkan Skin Kenderaan Milik Tempatan
+Dapatkan senarai semua ID Vehicle Skin yang dimiliki oleh akaun pemain tempatan; pelaksanaan pada client sahaja, dibaca secara segerak daripada cache Backpack tempatan.
+Dapatkan Skin Senjata Milik Tempatan
+Dapatkan senarai semua ID BackpackSkin yang dimiliki oleh akaun pemain tempatan; pelaksanaan pada klien sahaja, dibaca secara segerak daripada cache Backpack tempatan.
+Dapatkan Skin Backpack Milik Tempatan
+Dapatkan senarai semua ID BackpackSkin yang dimiliki oleh akaun pemain tempatan; pelaksanaan pada klien sahaja, dibaca secara segerak daripada cache Backpack tempatan.
+Baca Sel CSV Mengikut Nama dari Pelayan
+Baca kandungan sel berdasarkan nama baris dan lajur yang ditentukan dalam fail CSV pada pelayan.
+Nama fail CSV pelayan
+Indeks baris yang perlu dibaca
+Nama lajur yang perlu dibaca
+Baca Baris CSV Mengikut Kunci dari Pelayan
+Dalam fail CSV pada pelayan, cari baris pertama yang nilai lajur kunci sepadan dengan key, kemudian kembalikan keseluruhan kandungan baris tersebut.
+Lajur Kunci
+Indeks lajur yang digunakan untuk memadankan nilai sasaran.
+Kunci
+Nilai sasaran yang akan dipadankan.
+Nama Lajur CSV kepada Int
+Tukar nama lajur fail CSV pelayan kepada indeks lajur.
+Nama lajur yang akan ditukar kepada indeks lajur.
+Muat Semula Senarai Mudah
+Muat semula keseluruhan sel Easy List. Apabila Tetapkan Semula Skrol ditetapkan kepada benar, tetapkan semula kedudukan skrol; apabila Tetapkan Semula Skrol ditetapkan kepada palsu, cuba kekalkan kedudukan skrol semasa.
+Senarai sasaran mudah
+Tetapkan Semula Skrol
+Sama ada untuk menetapkan semula kedudukan skrol apabila dimuat semula.
+Dapatkan Sel
+Dapatkan Sel yang kelihatan yang sepadan dengan Indeks Data yang ditetapkan; kembalikan kosong atau tidak sah jika sasaran tidak kelihatan atau indeks tidak sah.
+Indeks Data
+Indeks item data tertentu dalam senarai data.
+Skrol ke Indeks Data
+Skrol terus ke kedudukan data yang ditetapkan; apabila skrol ke Data pertama atau terakhir, ia mesti boleh diletakkan pada bahagian atas atau bawah.
+Ofset kedudukan skrol.
+Hadkan
+Sama ada mengehadkan kedudukan skrol kepada julat yang sah.
+Pilih Data
+Pilih Sel yang sepadan dengan indeks data yang ditentukan. Jika sasaran tidak kelihatan, sama ada hendak menskrol ke sasaran ditentukan oleh scroll To Item.
+Skrol ke Item
+Sama ada hendak skrol ke item data ini apabila sasaran tidak kelihatan.
+Nyahpilih Data
+Batalkan status dipilih bagi sel yang sepadan dengan indeks data yang ditentukan.
+Kosongkan Pilihan
+Kosongkan pilihan dalam Easy List semasa
+Dapatkan Indeks Data yang Dipilih
+Dapatkan indeks data yang dipilih semasa. Kekalkan nama asal, Get Selected Data Indexes. Jika tiada yang dipilih, kembalikan senarai integer yang mengandungi -1.
+Dapatkan Julat Data Kelihatan
+Dapatkan julat data yang boleh kelihatan, dari firstIndex hingga lastIndex.
+Data Kelihatan
+Tentukan sama ada indeks data yang ditentukan berada dalam julat yang kelihatan semasa.
+Buka Almari Dalam Perlawanan
+Tunjukkan Almari Dalam Perlawanan
+Kod Status Hasil Fasa Permulaan Permintaan
+Tutup Almari Dalam Perlawanan
+Tutup Almari Dalam Perlawanan
+Ubah Pakaian Almari Tambahan
+Ubah Suai Pakaian Almari Tambahan
+Pakaian
+Senarai Pakaian
+Jenis Isihan
+Jenis susunan.
+Semak Status Muat Turun Sumber Almari
+Semak status muat turun sumber yang sepadan dengan senarai ID pakaian yang ditentukan.
+Tunjukkan HUD Sembang
+Tunjukkan HUD Chat
+Semak Status Produk
+Semak status produk.
+Status Produk
+Status produk.
+Cipta Widget UI daripada Prefab
+Di bawah UI tersuai dan komponen induk yang ditentukan, cipta pepohon kawalan lengkap berdasarkan ID UI Prefab dan keluarkan UIWidget akar yang dicipta.
+Entiti Dicipta
+Nama parameter dalam kod yang digunakan untuk mewakili entiti UIWidget akar yang baru dicipta, dengan nilai pemboleh ubah tempatan yang sepadan ialah entiti kawalan akar yang dicipta.
+ID Prefab
+ID UI Prefab yang digunakan untuk mencipta pepohon kawalan UIWidget.
+UI
+Entiti UI tersuai yang menjadi hos pepohon kawalan baharu.
+Widget Induk
+Widget UI induk yang akan dipasangkan kawalan akar baharu; jika kosong, pasangkannya pada nod akar UI tersuai yang ditentukan.
+Jeda Animasi
+Jeda main balik pengawal animasi mengikut bahagian badan.
+Sambung Semula Animasi
+Sambung semula main balik pengawal animasi mengikut bahagian badan.
+Tetapkan Semula Animasi
+Tetapkan semula kemajuan main animasi bahagian badan yang sepadan.
+Hentikan Animasi
+Hentikan main balik pengawal animasi mengikut bahagian badan. Secara umum, apabila tiada animasi sedang dimainkan pada bahagian badan, sistem akan cuba memainkan animasi Idle.
+Entiti dengan pengawal animasi yang dilampirkan
+Indeks bahagian badan, iaitu nombor indeks bahagian badan dalam fail BPC.
+Hentikan Klip Animasi Karakter
+Hentikan klip animasi watak.
+Jeda Klip Animasi Karakter
+Jeda klip animasi watak.
+Sambung Semula Klip Animasi Karakter
+Sambung semula klip animasi watak.
+Tetapkan Semula Klip Animasi Karakter
+Tetapkan semula klip animasi watak.
+Sembunyikan HUD Sembang
+Sembunyikan HUD Chat
+Dapatkan jumlah keseluruhan memori
+Dapatkan penggunaan memori yang diperuntukkan oleh klien semasa (unit: MB).
+Overhed memori yang diperuntukkan semasa ini (unit: MB).
+Tunjuk HUD Chat
+Tunjukkan HUD Chat
+Apabila Almari Dalam Perlawanan Ditutup
+Apabila Almari Dalam Perlawanan Ditutup
+Apabila Pemain Mengesahkan Pakaian Almari
+Dicetuskan apabila pemain mengesahkan pertukaran pakaian dalam almari pakaian.
+Apabila pemain menekan entri pakaian
+Dicetuskan apabila pemain menekan item pakaian, dan mengembalikan jenis entri serta senarai ID pakaian yang sepadan.
+Apabila Menerima Keputusan Muat Turun Sumber Almari
+Dicetuskan apabila muat turun selesai atau gagal, dan mengembalikan jenis entri, senarai ID pakaian serta hasil muat turun.
+Kod status muat turun sumber.
+Apabila Menerima Mesej Sembang
+Apabila Mesej Sembang Diterima
+Apabila HUD Sembang Dibuka
+Acara Sembang HUD Dibuka.
+Apabila HUD Sembang Ditutup
+Acara Sembang HUD Ditutup.
+Kod map bagi map yang status muat turunnya telah berubah.
+Status muat turun map semasa.
+Kod ralat yang sepadan dengan perubahan status. Jika status berjaya atau sedang dimuat turun, ia akan memaparkan Tiada Ralat.
+Pada Tick Visual Lewat
+Dipanggil semasa fasa Tick visual yang dipacu oleh Unity Late Update, digunakan untuk mengikuti kamera dan logik persembahan lain yang hanya melibatkan client.
+Apabila Sel Dipautkan
+Dicetuskan apabila widget sel UI mengikat atau mengikat semula dengan data yang kelihatan.
+Kandungan Data
+Data yang terikat pada sel semasa.
+Apabila Sel Ditekan
+Dicetuskan apabila pemain menekan sel yang sah.
+Sel
+Widget sel yang digunakan semula dan ditekan oleh pemain
+Indeks Sel
+Indeks sel semasa yang boleh digunakan semula
+Apabila Sel Dipilih
+Dicetuskan apabila status sel berubah kepada dipilih.
+Apabila Sel Nyahpilih
+Dicetuskan apabila status sel berubah kepada tidak dipilih.
+Kawalan sel grid guna semula yang status pilihannya telah berubah.
+Apabila Sel Batal Dipilih
+Dicetuskan apabila sel yang dipilih ditekan sekali lagi, lalu mencetuskan tingkah laku nyahpilihan.
+Widget sel guna semula yang mencetuskan semantik nyahpilihan.
+Apabila Julat Data Kelihatan Berubah
+Dicetuskan apabila indeks data pertama atau terakhir dalam julat data yang kelihatan berubah, untuk mengelakkan penghantaran berulang apabila tiada perubahan.
+Indeks Data Pertama
+Indeks senarai data pertama dalam julat data yang kelihatan semasa.
+Indeks Data Terakhir
+Indeks senarai data terakhir dalam julat data yang kelihatan semasa.
+Apabila Tick Logik
+Dipanggil setiap kali jam logik UGC bebas bergerak ke hadapan. Setiap panggilan sepadan satu dengan satu dengan Pra Tick dan Pasca Tick dalam bingkai logik yang sama.
+Tapis Entiti dengan Komponen Tapis Asas
+Skala Kelajuan Sudut Jatuh
+Skala kelajuan pusingan pemain semasa melompat atau jatuh, nilai lalai ialah 1.
+Skala Kelajuan Sudut Larian
+Skala kelajuan pusingan pemain semasa berdiri atau berlari, nilai lalai ialah 1.
+Skala Kelajuan Sudut Mencangkung
+Skala kelajuan pusingan pemain semasa mencangkung, nilai lalai ialah 1.
+Skala Kelajuan Sudut Meniarap
+Skala kelajuan pusingan pemain semasa meniarap, nilai lalai ialah 1.
+Skala Kelajuan Sudut Knock Down
+Skala kelajuan pusingan pemain semasa tumbang, nilai lalai ialah 1.
+Kepekaan Kamera
+Sensitiviti kamera umum tempatan klien semasa. Berkuat kuasa untuk pusingan semasa sahaja; tidak disegerakkan dengan pelayan.
+ID Karakter
+ID watak yang dipilih pemain semasa memasuki perlawanan.
+Halaju sebenar semasa pemain
+Scene UI ialah Billboard
+Sifat ini berkuat kuasa apabila sifat Dalam Scene UI ditetapkan kepada Benar. Ia menunjukkan sama ada scene ini sentiasa menghadap kamera.
+Ikuti Kedudukan Dunia
+Selepas sifat ini ditetapkan kepada Benar, kedudukan UI pada skrin diperoleh dengan memetakan nilai sifat Kedudukan Dunia ke satah 2D. Nota: Sifat ini tidak boleh digunakan serentak dengan Dalam Scene, tetapi kedua-duanya menggunakan sifat Kedudukan Dunia.
+Batal Muat Turun Matchmaking
+Batal Muat Turun Matchmaking Dalam Permainan
+Sumber Map Tidak Ditemui
+mapCode yang ditetapkan tidak mempunyai sumber yang boleh dimuat turun atau indeks sumber tidak dapat dihuraikan.
+Sasaran Sumber Map Tidak Tersedia
+Klien semasa belum bersedia atau modul muat turun tidak dapat menerima permintaan.
+Akses Sumber Map Ditolak
+Wilayah, semakan, senarai putih, status keluaran atau kebenaran akses tidak dipenuhi.
+Sumber Map Sibuk
+Sistem sibuk, barisan gilir muat turun penuh atau modul muat turun tidak tersedia buat sementara waktu.
+Muat Turun Sumber Map Gagal
+Selepas permintaan dimulakan, proses muat turun, penyimpanan atau pemindahan gagal.
+Pengesahan Sumber Map Gagal
+Selepas muat turun selesai, fail tempatan tiada, rosak atau pengesahan gagal.
+Rangkaian Sumber Map Terhad
+Tiada Wi-Fi, rangkaian lemah, tiada rangkaian atau muat turun automatik dilarang oleh dasar muat turun sedia ada.
+Status Muat Turun Sumber Almari Tidak Diketahui
+Tidak dapat mendapatkan status muat turun sumber Outfit yang ditetapkan.
+Sumber Almari Sedia untuk Dimuat Turun
+Sumber Outfit yang ditetapkan belum dimuat turun dan boleh mula dimuat turun sekarang.
+Sumber Almari Sedang Dimuat Turun
+Sedang memuat turun sumber Outfit yang ditetapkan.
+Muat Turun Sumber Almari Ditangguhkan
+Sumber Outfit yang ditetapkan sedang menunggu untuk dimuat turun.
+Sumber Almari Dijeda Muat Turun
+Muat turun sumber Outfit yang ditetapkan dijeda.
+Sumber Almari Selesai Dimuat Turun
+Muat turun sumber Outfit yang ditetapkan selesai.
+Perender Sahaja
+Hanya perender disediakan; setelah diaktifkan, zarah tidak boleh ditetapkan secara dinamik, tetapi menawarkan prestasi yang lebih baik.
+Jenis Penapis Pasca Pemprosesan
+Gunakan hanya kecerahan/ketepuan/kontras bersama.
+Comic book style.
+Sketch style.
+Pixel style.
+RGB split style.
+Gaya Golden Era yang hangat.
+Cyberpunk glitch style.
+Bahagian universal sifat penapis yang mengandungi jenis penapis serta parameter kecerahan/ketepuan/kontras global.
+Jenis penapis yang sedang aktif.
+Kecerahan
+Kecerahan Universal
+Tepuan
+Ketepuan Universal
+Kontras
+Kontras Universal
+Set parameter penapis Buku Komik.
+Ambang
+Ambang Binarisasi.
+Julat ambang.
+Kelajuan Flash
+Kelajuan kelipan.
+Intensiti Garisan
+Keamatan garisan.
+Saiz Garisan
+Saiz garisan.
+Set parameter penapis Lakaran.
+Saiz Pensel
+Saiz pensel.
+Pensel Pembetulan
+Pembetulan pensel.
+Pensel Warna
+Warna pensel.
+Kertas Warna
+Warna kertas.
+Sudut Hilang
+Kehilangan bucu.
+Tekstur Kertas
+Tekstur kertas. Jika kosong, gunakan tekstur lalai.
+Set parameter penapis Piksel.
+Pikselisasi
+Keamatan pikselasi.
+Ofset Warna
+Ofset warna.
+Set parameter pemisahan RGB.
+Ofset Pemisah
+Ofset pemisahan RGB.
+Set parameter penapis Golden Era.
+Keamatan
+Keamatan penapis Golden Era.
+Kehangatan
+Keamatan kehangatan.
+Set parameter penapis Cyberpunk
+Keamatan Tepi
+Keamatan tepi
+Saiz Tepi
+Saiz tepi.
+Kepekaan Tepi
+Kepekaan tepi.
+Selang Glitch
+Selang masa pencetus glitch.
+Tempoh Glitch
+Tempoh glitch.
+Warna Tepi 1
+Warna tepi 1 (HDR)
+Warna Tepi 2
+Warna tepi 2 (HDR)
+Tekstur Hingar Tepi
+Tekstur hingar tepi. Jika kosong, gunakan tekstur lalai.
+Jenis Sumber Jarak
+Jenis sumber jarak, digunakan untuk memilih objek rujukan bagi pengiraan jarak.
+Kamera Pemain
+Kira berdasarkan jarak kamera pemain.
+Karekter Pemain
+Kira berdasarkan jarak watak pemain.
+Entiti Tersuai
+Kira berdasarkan jarak Entiti yang ditetapkan.
+Jenis Ruang Jarak
+Jenis ruang jarak, digunakan untuk memilih sama ada pengiraan jarak menggunakan ruang dunia 3D, satah mendatar XZ atau ruang skrin.
+Dunia 3D
+Gunakan jarak ruang dunia 3D.
+Mendatar XZ
+Gunakan jarak mendatar XZ, dengan mengabaikan perbezaan ketinggian; sesuai untuk penanda map.
+Ruang Skrin
+Gunakan jarak ruang skrin; hanya sah apabila Sumber Jarak = Kamera Pemain.
+Keterlihatan Jarak
+Kawal keterlihatan, kelegapan, skala dan had saiz skrin Entiti Teks, Entiti Ikon dan UI Tersuai secara automatik berdasarkan jarak antara kamera pemain, Avatar pemain atau Entiti yang ditetapkan dengan sasaran.
+Sumber Jarak
+Pilih objek rujukan untuk pengiraan jarak. Kamera Pemain menggunakan kedudukan kamera pemain, Watak Pemain menggunakan kedudukan Avatar pemain dan Entiti Tersuai menggunakan kedudukan Entiti Sumber tersuai.
+Entiti Sumber Tersuai
+Entiti rujukan yang digunakan untuk mengira jarak apabila Sumber Jarak = Entiti Tersuai.
+Saiz Skrin Maks
+Had atas saiz skrin; x/y menunjukkan nisbah skrin. Julat yang disyorkan: 0.0–1.0.
+Ruang Jarak
+Pilih ruang untuk pengiraan jarak. World3D mengira jarak 3D, Mendatar XZ mengira jarak pada satah XZ, dan Ruang Skrin hanya sah apabila Sumber Jarak = Kamera Pemain.
+Jarak Mula Pudar
+Jarak permulaan untuk pensampelan berdasarkan jarak ternormalisasi bagi lengkung pudar dan lengkung skala.
+Jarak Tamat Pudar
+Jarak akhir untuk pensampelan berdasarkan jarak ternormalisasi bagi lengkung pudar dan lengkung skala.
+Lengkung Pudar
+Lengkung ketelusan yang disampel berdasarkan jarak ternormalisasi.
+Ambang Penyembunyian
+Apabila kelegapan berada di bawah ambang ini, sembunyikan Entiti atau hentikan pemaparan; jika tidak, gunakan kelegapan, ketajaman dan penskalaan.
+Lengkung Skala
+Lengkung penskalaan yang disampel berdasarkan jarak ternormalisasi.
+Had Saiz Skrin
+Sama ada untuk menetapkan had saiz apabila menukar UI 3D kepada ruang skrin, dengan mengehadkan saiz skrin melalui Saiz Skrin Minimum dan Saiz Skrin Maksimum.
+Saiz Skrin Min
+Saiz minimum skrin; x/y menunjukkan nisbah skrin. Julat yang disyorkan: 0.0–1.0.
+Arah Skrol
+Enum arah skrol
+Menegak
+Menegak
+Mendatar
+Mendatar
+Senarai ID Klip Animasi
+Senarai ID Klip Animasi, digunakan untuk mengembalikan ID Klip Animasi / ID item Emote yang sepadan bagi setiap Emote yang dimiliki oleh akaun pemain.
+Senarai ID Pakaian
+Senarai ID Outfit, digunakan untuk mengembalikan ID Outfit yang dimiliki oleh akaun pemain.
+Senarai ID Skin Kenderaan
+Senarai ID Skin Kenderaan, digunakan untuk mengembalikan ID Skin Kenderaan yang dimiliki oleh akaun pemain.
+Senarai ID Skin Senjata
+Senarai ID WeaponSkin, digunakan untuk mengembalikan ID WeaponSkin yang dimiliki oleh akaun pemain.
+Senarai ID Skin Backpack
+Senarai ID Skin Backpack, digunakan untuk mengembalikan ID Skin Backpack yang dimiliki oleh akaun pemain.
+ID Sumber
+Senarai  Mudah HUD
+Komponen senarai tervirtualisasi berprestasi tinggi yang hanya mencipta sel yang kelihatan dan menggunakannya semula, sesuai untuk memaparkan sejumlah besar data dalam senarai.
+Arah susun atur sel (Mendatar/Menegak).
+Saiz sel.
+Senarai Data
+Senarai memaparkan sumber data, penyimpanan pada klien sahaja.
+Jarak antara sel.
+Jenis kekangan susun atur.
+Bilangan sel dalam setiap baris/lajur.
+Ofset menegak bekas.
+Ofset mendatar bekas.
+Prefab Sel
+Aset prefab Sel; semasa masa jalan, klon tika Sel mengikut templat ini.
+Bilangan Baris Cache Tambahan
+Bilangan baris sel cache tambahan di luar kawasan pandangan.
+Benarkan Pelbagai Pilihan
+Sama ada membenarkan pemilihan beberapa sel pada masa yang sama.
+Jenis Isihan Almari Tambahan
+Ubah Suai Pakaian Tambahan Almari: Hadapan, Belakang, Lalai
+Letak di Hadapan
+Tambahkan pada bahagian hadapan.
+Letak di Belakang
+Tambahkan pada bahagian akhir.
+Lalai
+Sel Widget UI Mudah
+Komponen penyesuaian khusus yang dilampirkan pada prefab Sel Easy List, digunakan untuk menetapkan kawalan butang interaksi klik Sel ini.
+Butang Pencetus
+Kawalan butang dalam Sel yang menerima klik dan meneruskan semantik klik/pilih/batal pilih sel Easy List.
+Status Produk
+Enum status produk
+Tidak Ditemui
+Produk tidak ditemui
+Offline
+Produk luar talian
+Pra Online
+Produk belum dalam talian
+Online
+Produk dalam talian
+Dayakan Penggantian Penampilan
+Dayakan penggantian penampilan senjata tersuai. Jika dilumpuhkan, senjata asas atau penampilan lalai akan digunakan.
+Paparan Nama
+Nama paparan kedai, Backpack dan penyingkiran.
+Model Orang Pertama
+Aset model orang pertama. Jika kosong atau tidak sah, gunakan model orang pertama senjata asas.
+Model Orang Ketiga
+Sumber model genggam orang ketiga. Jika kosong atau tidak sah, gunakan model genggam orang ketiga senjata asas.
+Model Belakang
+Aset model belakang. Jika kosong atau tidak sah, gunakan model belakang senjata asas.
+Model Ambilan
+Aset model pengambilan di tanah. Jika kosong atau tidak sah, gunakan model pengambilan di tanah senjata asas.
+Ikon Backpack
+Aset ikon senjata untuk antara muka Backpack dan berkaitan dengan pengambilan. Jika kosong, gunakan ikon Backpack atau pengambilan senjata asas.
+Ikon Slot
+Aset ikon slot senjata HUD dan antara muka penukaran senjata. Jika kosong, gunakan ikon slot senjata asas.
+Ikon Penyingkiran
+Aset ikon senjata untuk pengumuman penyingkiran. Jika kosong, kembali kepada ikon senjata penyingkiran asas.
+ID Audio Tembakan
+Aset kesan bunyi tembakan. Jika kosong, kembali kepada kesan bunyi tembakan asas.
+ID Audio Masuk
+Aset SFX pemasangan magazin. Jika kosong, gunakan SFX pemasangan magazin senjata asas.
+ID Audio Keluar
+Aset kesan bunyi penanggalan magazin. Jika kosong, gunakan kesan bunyi penanggalan magazin senjata asas.
+ID Audio Tukar Senjata
+Aset kesan bunyi pertukaran senjata. Jika kosong, kembali kepada kesan bunyi pertukaran senjata asas.
+Bahan Jejak Peluru
+Aset jejak peluru. Menggantikan kesan visual jejak peluru lalai apabila konfigurasi sah.
+Kesan Tembakan
+Aset kesan tembakan. Apabila konfigurasi diaktifkan, gantikan kesan visual tembakan asal senjata standard.
+Kesan Hentaman
+Aset VFX Hit. Menggantikan kesan visual partikel hit apabila konfigurasi sah.
+Pemain atau Entiti dengan komponen Collider menyokong acara ini. Nota: pada klien, hanya pemain tempatan yang akan mencetuskan acara ini; pemain selain pemain tempatan tidak akan mencetuskannya.
+This is an Ultra Airdrop. Capture it to get the powerful Lv. 5 armor! You can also destroy the pillars to capture faster.
+Woo, a random event! In this match, you'll receive Gloo Walls over time!
+Here comes a random event! If you're eliminated, your main weapons will be carried over to the next round!
+Sasaran ditemui
+Lengkapkan mana-mana {0} map dalam Survivor Academy
+Meluru untuk mendekati musuh
+Lengkapkan [FFBA00]{0}[-]/{1} perlawanan
+Capai Lv. [FFBA00]{0}[-]/{1}
+Log masuk selama [FFBA00]{0}[-]/{1} hari
+Main dalam mana-mana mod selama [FFBA00]{0}[-]/{1} minit
+Melempar patung dengan [FFB300]{0} HP[-] yang bertahan selama [FFB300]{3}s[-], mengabaikan halangan dan bergerak sejauh [FFB300]{1}m[-] ([FFB300]{2}m[-] dalam BR). Ia menjejak musuh yang kelihatan paling dekat dalam lingkungan [FFB300]{4}m[-] dan mencipta ruang mimpi seluas [FFB300]{5}m[-]. Di dalam ruang tersebut, pengguna dan musuh [FFB300]tidak boleh meletakkan Gloo Wall[-], manakala musuh kehilangan [FFB300]{6} HP[-]/s. Ruang itu akan hilang apabila patung dimusnahkan, tetapi pemusnah akan ditanda selama [FFB300]{7}s[-]. Semasa patung masih aktif, tekan Skill sekali lagi untuk memanggilnya semula dan mengurangkan cooldown sebanyak [FFB300]{8}s[-].
+Cryo Echo
+Semasa kesan ini aktif, patung boleh dipanggil semula dan dilempar semula selepas cooldown yang dipendekkan.
+Melempar patung dengan [FFB300]{0} HP[-] yang bertahan selama [FFB300]{3}s[-], mengabaikan halangan dan bergerak sejauh [FFB300]{1}m[-] ([FFB300]{2}m[-] dalam BR). Ia menjejak musuh yang kelihatan paling dekat dalam lingkungan [FFB300]{4}m[-], mencipta ruang mimpi seluas [FFB300]{5}m[-] dan menghasilkan patung duplikasi. Di dalam ruang tersebut, pengguna dan musuh [FFB300]tidak boleh meletakkan Gloo Wall[-], manakala musuh kehilangan [FFB300]{6} HP[-]/s. Ruang itu akan hilang apabila patung dimusnahkan, tetapi pemusnah akan ditanda selama [FFB300]{7}s[-]. Patung duplikasi akan bergerak ke arah asal dan memberikan [FFB300]{8}[-] kerosakan letusan kepada musuh yang dijejaki.
+Serpihan Cryo
+Selepas mengesan musuh, patung akan menghasilkan duplikasi yang bergerak ke arah asal dan memberikan kerosakan letusan AoE kepada sasaran yang dijejaki.
+Preset ini mengandungi skill yang belum anda unlock. Belinya terlebih dahulu.
+Preset ini mengandungi skill atau loadout yang belum anda unlock
+Gunakan tempest untuk mengalih perhatian musuh, kemudian teleport pada masa yang tepat untuk mengejutkan mereka. Skill pasif memberikan perisai dan pemulihan selepas teleportasi.
+Tempest Ambush
+Menghasilkan pusaran badai yang bergerak pantas ke hadapan dan boleh menembusi wall, bertahan selama [FFB300]{0}s[-], serta memberikan [FFB300]{1}[-] DMG kepada musuh yang terkena. Semasa pusaran badai aktif, tekan kemahiran sekali lagi untuk teleport ke lokasi semasanya dan memperoleh perisai selama [FFB300]{2}s[-] dengan [FFB300]{3}%[-] pengurangan DMG. Pusaran badai akan hilang selepas pengguna melakukan teleport. Cooldown: [FFB300]{4}s[-].
+Tempest Raid
+Melepaskan pusaran badai yang bergerak pantas untuk memberikan kerosakan dan memperlahankan musuh. Pengguna boleh teleport ke lokasi tempest.
+Kesan Musuh
+Item Pemulihan
+Bahan Balingan Khas
+Apabila musuh berada berdekatan, anda akan mendengar bunyi tapak kaki. Anda juga boleh menghidupkan Footstep Vibration dalam Settings untuk mendapatkan amaran yang lebih kuat apabila musuh menghampiri.\nMinimap juga menunjukkan musuh berdekatan yang sedang menembak, jadi sentiasa perhatikannya.
+Kadangkala arsenal akan menjadi defensif dan hanya boleh dibuka kunci dengan menangkapnya.\nSetelah ditangkap, UAV akan diaktifkan untuk mengimbas musuh berdekatan.
+Di tengah-tengah perlawanan BR, banyak Airdrop akan jatuh dari langit. Dekati untuk mendapatkan loot.\nDefense Airdrop ialah Airdrop khas. Tangkapnya untuk mendapatkan ganjaran pada setiap peringkat.
+Ultra Airdrop memberikan armor yang berkuasa tetapi mempunyai masa tangkapan yang lebih lama dan hanya muncul sekali setiap perlawanan.\nMusnahkan tiang tenaga di sekelilingnya untuk meningkatkan kelajuan tangkapan.
+Anda boleh membeli Revival Card biasa berwarna biru atau Super Revival Card berwarna kuning.\nSuper Revival Card lebih mahal tetapi memberikan gear permulaan yang lebih baik kepada rakan sepasukan yang dihidupkan semula.
+Menangkap Titik Revival akan menghidupkan semula semua rakan sepasukan anda. Tetapi kemajuan tangkapan anda akan ditunjukkan pada map untuk semua pemain.\nTitik Revival akan ditutup kemudian dalam perlawanan.
+Adakah anda tahu apa itu Gloo Wall?
+Pelbagai jenis Cyber Mushroom boleh ditemui di atas tanah untuk memberikan scan, penyembuhan, peningkatan kelajuan dan peningkatan Gloo Wall.\nBerinteraksi atau musnahkan mereka untuk mencetuskan kesannya.
+Pasang Gloo Wall untuk dijadikan perlindungan.\nGloo Wall akan musnah selepas menerima sejumlah kerosakan atau hilang selepas tempoh tertentu sejak dipasang.
+Sesetengah skill karakter dan item memberikan kerosakan yang tinggi kepada Gloo Wall, seperti skill Skyler dan Oscar, M60 serta Gloo Melter.
+Sesetengah skill karakter dan senjata boleh memberikan kerosakan kepada musuh di sebalik Gloo Wall, seperti skill Iris, SVD-Y dan M82B.
+Skill watak seperti milik Moco dan Shiro boleh menanda musuh dan membantu anda serta rakan sepasukan mencari lokasi mereka.
+Armor anda terdiri daripada Vest dan Helmet. Kedua-duanya membantu mengurangkan kerosakan pada bahagian badan yang sepadan. Semakin tinggi tahap Vest dan Helmet, semakin tinggi pengurangan kerosakan.\nAnda boleh menyemak status armor anda di sebelah bar HP.
+Apabila diserang, armor anda mungkin rosak. Jangan lupa gunakan Repair Kit untuk membaikinya.\nVest atau Helmet yang rosak sepenuhnya tidak boleh dibaiki dan akan hilang.
+Gunakan Med Kit untuk memulihkan HP anda. Super Med memulihkan lebih banyak HP.\nNamun, penggunaan Med Kit mengambil masa. Bergerak semasa menggunakannya akan membatalkan tindakan tersebut.
+Inhaler boleh digunakan ketika bergerak dan memulihkan HP serta EP anda.\nSesetengah inhaler khas memberikan buff yang unik.
+Grenade memberikan kerosakan letupan yang tinggi kepada musuh dalam radius letupan, tetapi berhati-hati agar tidak mencederakan diri sendiri.\nGrenade akan meletup beberapa saat selepas dibaling. Masa yang tepat menjadikannya lebih berkesan.
+Tekan butang grenade di sebelah kiri untuk menarik pin lebih awal supaya ia meletup lebih cepat selepas dibaling.\nPastikan anda mengagak masa dengan tepat, atau anda mungkin mencederakan diri sendiri.
+Gloo Melter mencipta zon lebur yang memberikan kerosakan kepada semua Gloo Wall dalam lingkungan.
+Flash Freeze mencipta zon beku yang memberikan sedikit kerosakan berterusan serta memperlahankan musuh di dalamnya.\nDragon Freeze memberikan kerosakan sederhana kepada musuh dalam lingkungan sebanyak 3 kali.
+Pasang periuk api untuk menghendap musuh dan memberikan kerosakan tinggi jika mereka terpijaknya.\nBerhati-hati, pemasang juga boleh mencetuskan periuk api tersebut.
+Kawalan tak terasa sesuai? Laraskannya dalam Tetapan. Tetapan asas untuk kawalan, grafik, bunyi dan akaun anda semuanya boleh didapati di sini.
+Senjata mempunyai dua jenis: utama dan sekunder.\nAnda boleh melengkapkan dua senjata utama pada masa yang sama. Gabungan senjata jarak jauh dan senjata jarak dekat disyorkan.\nSenjata sekunder biasanya mempunyai ciri khas. Anda hanya boleh melengkapkan satu senjata sekunder pilihan anda.
+Melengkapkan skill watak menjadikan anda lebih kuat! Anda boleh melengkapkan empat skill untuk pertempuran, tetapi hanya satu daripadanya boleh menjadi skill aktif.
+Lihat maklumat senjata terperinci dalam sistem senjata untuk memahami ciri-ciri setiap senjata dengan lebih baik.
+Menembak musuh di kepala memberikan lebih banyak kerosakan. Nombor kerosakan berwarna merah menunjukkan headshot.\nKadangkala, membidik rendah sebelum menguis ke atas memudahkan anda mendapatkan headshot.
+Sesetengah senjata boleh dinaik taraf dengan Upgrade Chip atau dengan memberikan Kerosakan menggunakan senjata tersebut.\nButang upgrade akan muncul setelah bersedia.
+Sesetengah senjata mempunyai dua mod tembakan, seperti mod Assault dan Ranged G36, serta mod Shotgun dan Grenade Trogon.\nTekan butang switch untuk bertukar antara kedua-dua mod tersebut.
+Heal Pistol: Tembak rakan sepasukan anda untuk memulihkan mereka.\nHook Gun: Tembak cangkuk bergelut ke posisi sasaran dan tarik diri anda ke arahnya. Hook Gun biasanya hanya tersedia di Kalahari.\nFGL-24: Menembak api menembusi dinding apabila terkena dan memberikan Kerosakan kepada musuh di sebalik perlindungan.
+Dalam mod BR, anda boleh mendapatkan coin dengan mengambilnya atau mendekati Coin Machine. Coin boleh digunakan untuk membeli bekalan di Vending Machine, menaik taraf arsenal dan banyak lagi.\nCoin yang diperoleh melalui Coin Machine akan dikongsi dengan rakan sepasukan.
+Dalam mod BR, Vending Machine bertaburan di seluruh map. Anda boleh membeli item, senjata, Revival Card dan banyak lagi menggunakan coin.\nLokasi Vending Machine ditandakan pada map.
+Arsenal dipenuhi loot berkualiti. Anda boleh menaik tarafnya dengan coin untuk mendapatkan senjata dan gear yang lebih baik.\nArsenal boleh dibuka kunci dengan kunci atau coin.
+Jejak Langkah dan Tembakan
+Butiran Senjata
+Skill Penandaan
+Jenis Senjata
+Senjata Boleh Di-upgrade
+Senjata Dwi-Mod
+Senjata Sekunder Biasa
+Auto-Revival
+Grenade Cooking
+Flash Freeze dan Dragon Freeze
+Pengesahan umur:
+Anda tidak boleh menghantar mesej kepada pemain ini buat masa ini
+Masukkan tarikh lahir anda
+Format tarikh: YYYY-MM-DD
+Pengisytiharan Umur
+Penetapan semula belum tersedia lagi. Sila cuba lagi kemudian.
+Akaun yang mempunyai e-mel penjaga yang diikat perlu dinyahikat terlebih dahulu sebelum pengisytiharan umur boleh ditetapkan semula.
+17 tahun atau lebih muda
+Anda tidak boleh bersembang dengan pemain ini disebabkan sekatan umur.
+Anda tidak boleh bersembang dengan sesetengah pemain disebabkan sekatan umur.
+Pautkan emel penjaga dan dapatkan kebenaran sebelum membuat pembayaran
+Pemain bawah umur mesti memautkan akaun penjaga dan mendapatkan kebenaran penjaga sebelum membuat pembayaran
+Sekatan Pembayaran
+Anda tidak boleh bersembang dengan orang dewasa kerana sekatan umur
+Anda tidak boleh bersembang kerana umur anda tidak memenuhi keperluan peraturan tempatan
+Akaun untuk pemain bawah 18 tahun mesti dipautkan kepada akaun ibu bapa atau penjaga untuk pengalaman permainan penuh. Sila sahkan bahawa pengisytiharan umur anda adalah betul.
+Sila Sahkan Semula
+Sesetengah ciri sosial dihadkan kerana umur anda tidak memenuhi keperluan peraturan tempatan. Terima kasih atas pemahaman anda.
+Akaun ini tertakluk pada sekatan pembayaran bawah umur dan tidak boleh membuat pembayaran melalui saluran ini buat masa ini.
+Pautkan Emel Penjaga:
+Gagal memautkan emel penjaga. Sila cuba lagi kemudian.
+Emel Penjaga berjaya dipautkan
+Emel Penjaga Telah Dipautkan
+Masukkan alamat emel penjaga anda
+Emel penjaga ini telah mencapai jumlah maksimum akaun minor yang dipautkan. Gunakan emel lain atau nyahpaut akaun lain.
+Kod pengesahan telah dihantar ke emel penjaga anda. Masukkan kod tersebut untuk melengkapkan pautan.
+Sila lengkapkan pengesahan e-mel penjaga dalam game terlebih dahulu.
+Pergi ke Guardian Center
+Had pembayaran anda yang berbaki tidak mencukupi.\nHad pembayaran anda yang berbaki ialah {0}.\nJika akaun anda diikat kepada penjaga, mereka boleh melaraskan had pembayaran anda di Pusat Penjaga.
+Had Masa Pembayaran Telah Dicapai
+Had pembayaran mingguan anda yang berbaki tidak mencukupi untuk melengkapkan pembayaran ini
+Penjaga anda belum menetapkan had pembayaran. Pembayaran tidak tersedia.
+Anda mempunyai {0}m lagi sebelum mencapai had masa bermain. Sila urus masa bermain anda dengan bijak.
+Anda telah mencapai had masa bermain. Jika anda mempunyai penjaga yang diikat, mereka boleh melaraskan had masa bermain anda di Pusat Penjaga.
+Had Masa Bermain Telah Dicapai
+Jika penjaga anda tidak mengambil sebarang tindakan dalam tempoh {0}h, e-mel akan dinyahikat secara automatik.
+Permintaan nyahikat anda sedang diproses. Sila tunggu penjaga anda membuat pengesahan.
+Adakah anda pasti mahu menghantar permintaan untuk menyahikat e-mel penjaga semasa?
+Nyahikat E-mel Penjaga
+Sebelum melengkapkan pengesahan umur, anda hanya boleh bersembang dengan pemain yang belum disahkan
+Sebelum melengkapkan pengesahan umur, anda tidak boleh menghantar mesej dalam saluran awam atau melihat sejarah sembang
+Anda tidak boleh bersembang suara dengan sesetengah pemain dalam skuad anda disebabkan sekatan umur.
+DIGIMON ADVENTURE
+BLUE LOCK
+JUJUTSU KAISEN
+NARUTO SHIPPUDEN
+GINTAMA
+BEN 10
+Sumber untuk kolaborasi Digimon Adventure
+Sumber untuk kolaborasi BLUE LOCK
+Sumber untuk kolaborasi Jujutsu Kaisen
+Sumber untuk kolaborasi NARUTO SHIPPUDEN
+Sumber untuk kolaborasi GINTAMA
+Sumber untuk kolaborasi Ben 10
+Kadar tembakan: 8%→[ed3d0a]5%[-]
+Tempoh: 15s→[ed3d0a]13s[-]\nJarak pencetus bantuan bidikan: 4m→[ed3d0a]12m[-]\nKelewatan keluar dari Stealth: 0.8s→[37be7b]0.5s[-]
+Cooldown Lebih Singkat: 90s→[37be7b]75s[-]
+Dapatkan AK47 dipertingkatkan yang menembak bom tangan semasa menembak
+Grenader AK47
+Buff yang diperoleh akan berkesan selepas memasuki medan perang
+Dapatkan {0} HP maksimum tambahan dan tingkatkan saiz kepala sewajarnya
+The Titan
+Semakin tinggi HP maksimum, semakin tinggi kerosakan senjata dan skill
+Heavyweight
+Dapatkan {0} HP maksimum tambahan
+Extended Life
+Naik taraf skill Oscar kepada Oscar - Phantom Dash
+Super Oscar
+Dapatkan 1 tindanan kesan daripada setiap penyingkiran atau bantuan. Setiap tindanan meningkatkan HP maksimum tambahan sebanyak {0}%.
+Tingkatkan saiz kepala berdasarkan bonus maksimum HP dan dapatkan 1 timbunan kesan daripada setiap penyingkiran atau bantuan. Setiap timbunan meningkatkan bonus maksimum HP sebanyak {0}%.
+Tank Engine
+Binaan Hardy
+Kerosakan
+Bonus DMG
+Tingkatkan kelajuan pergerakan semasa mencangkung sebanyak {0}%
+Crouch Rush
+Dapatkan EP tanpa had dan penukaran EP yang lebih pantas
+Dapatkan Gloo Wall secara berkala
+Gloo Drop
+Dapatkan peningkatan kelajuan pergerakan seketika selepas menerima kerosakan
+Pain Rush
+Gloo Wall tidak akan habis
+Gloo Wall Tanpa Had
+Gloo Wall yang dipasang memberikan bonus penyembuhan yang dipertingkatkan
+Nairi's Power
+Dapatkan {0} Mata Perisai sementara selepas menerima kerosakan
+Panic Shield
+Tingkatkan ketahanan Gloo Wall dengan ketara
+Iron Gloo
+Binaan Umum
+Selepas dikunci pada musuh, bidikan anda tidak akan kehilangan sasaran
+Deadlock Aim
+Dapatkan Gatling khas yang melancarkan bola api ke kawasan sasaran
+Fiery Gatling
+Peluru tidak akan habis
+Peluru Tanpa Had
+Dapatkan Skill Card Kenta yang dipertingkatkan
+Super Kenta
+Mencangkung untuk memasuki mod super fire dengan kadar tembakan meningkat dan sebaran peluru berkurang
+Tembak Mencangkung
+Dapatkan Hook Gun
+Hook Gun
+Dapatkan Kad Skill Steffie yang dipertingkatkan yang meningkatkan pengurangan DMG dengan ketara
+Super Steffie
+Kini dalam mod api super
+Binaan Anchor
+Mencangkung untuk berubah menjadi semak. Menembak akan mengembalikan anda kepada bentuk manusia buat sementara waktu. Selepas berhenti menembak, anda akan berubah kembali menjadi semak.
+Stealthy Wukong
+HP
+Bonus HP
+Unlock pada Lv. {0}
+Tingkatkan kerosakan senjata jarak dekat
+Kla's Pact
+Cipta kawasan Dance Grenade berdekatan. Musuh di dalamnya akan dipaksa untuk menari.
+Dance Pool
+Tingkatkan jarak senjata jarak dekat setiap kali anda mendapat penyingkiran atau knockdown menggunakan senjata tersebut.
+Tepi Berkembang
+Pulihkan {0} HP selepas menyingkirkan musuh
+Jota's Power
+Tingkatkan jarak senjata jarak dekat dengan ketara
+Jangkauan Jauh
+Aim Assist turut digunakan untuk serangan jarak dekat, sama seperti senjata api
+Magnetic Blow
+Naik taraf skill Chrono kepada Chrono - Time Drift
+Super Chrono
+Dapatkan Kad Skill Morse yang dipertingkatkan dengan kelewatan tembakan yang hampir tiada selepas keluar daripada Stealth
+Super Morse
+Benarkan berlari pecut semasa menyerang dengan senjata jarak dekat
+Fleet Strike
+Dapatkan Kad Skill Tatsuya yang dipertingkatkan dengan cooldown yang sangat singkat
+Super Tatsuya
+Binaan Brawler
+Dapatkan {0} Mata Perisai kekal selepas menjaringkan penyingkiran
+Victor's Shield
+BR: Evolution
+Sumber untuk mod BR: Evolution
+Dapatkan Skill Card Orion yang dipertingkatkan dengan EP yang diperoleh daripada knockdown dan kelajuan pergerakan yang lebih pantas semasa Skill aktif.
+Super Orion
+Revive tidak tersedia
+Akan di-Revive tidak lama lagi
+Revive akan tidak tersedia tidak lama lagi
+Tekan untuk memilih dek anda
+Kad Skill
+Bonus Kelajuan
+BR: Bonus Evolution
+Dapatkan VSK94 dipertingkatkan dengan crosshair diperluaskan menjadi kawasan kecil, membolehkan tembakan mengenai semua musuh di dalamnya
+VSK94 Jarak Jauh
+Maks. HP asas dikurangkan sebanyak {0}% dan DMG meningkat sebanyak {1}%
+Glass Cannon
+Dapatkan peningkatan kelajuan pergerakan seketika selepas menyingkirkan musuh
+Predator's Rush
+Dapatkan Skill Card Rin yang dipertingkatkan dengan kerosakan Kunai yang lebih tinggi, penjanaan yang lebih pantas dan jumlah maksimum yang lebih tinggi.
+Super Rin
+Binaan Sniper
+Dapatkan Winchester yang dipertingkatkan yang memberikan kerosakan letupan kepada musuh yang terkena.
+Burst Winchester
+Jammer aktif
+Tidak boleh menyertai: dalam mod Stealth
+Red Bull Reward Crate
+Firefig Alvaro
+Nampaknya letupan tidak dapat menyelesaikan semuanya.
+Firefig Kelly
+Tiada apa yang boleh memperlahankan Kelly!
+Firefig Eksklusif Kelly
+Kelly memenangi pertandingan maraton Bermuda!
+Firefig Kapella
+Siapa yang tidak mahu Kapella mengenyit mata?
+Firefig Moco
+Tiada apa yang dapat bersembunyi daripada Moco.
+Firefig Steffie
+Fikir dua kali sebelum mengganggu Steffie.
+Firefig Wukong
+Di sebalik topeng itu ada penyamaran lain?
+Firefig Eksklusif Wukong
+Monyet legenda ditempa dalam api.
+Bab {0}
+Papan Pendahulu
+Pilih Kesukaran
+Maklumat Tahap
+Kesukaran {0}
+Tag Kesukaran
+Misi
+Sedia
+Bakat
+Pertarungan
+Eksplorasi
+Tahap maksimum telah dicapai
+Tetapkan Semula Semua
+Sahkan untuk menetapkan semula semua bakat? Semua token akan dipulangkan.
+Tetapkan Semula Bakat
+Survival
+Token tidak mencukupi
+Bakat prasyarat belum Unlock
+Unlock
+Naik Taraf
+Tukar Kesukaran
+Kesukaran semasa masih dikunci untuk sesetengah rakan sepasukan
+{0} belum Unlock kesukaran semasa
+Kesukaran tertinggi yang telah Unlock oleh pasukan anda ialah Bab {0}, kesukaran {1}. Tukar kepadanya sekarang?
+Mendarat bersama pasukan. Revive Pasukan tersedia semasa mendarat.
+Terlalu jauh daripada pasukan. Revive Pasukan tidak tersedia semasa mendarat.
+Mendarat bersama pasukan untuk mendapatkan peluang Revive
+Mendarat berhampiran rakan sepasukan
+Revive Pasukan diperoleh
+Butiran penalti:\nMata Guild Wars yang diperoleh akan dikurangkan sebanyak {0}.\n
+Pyro tidak aktif dan akan dialih keluar secara automatik.
+Gandakan Sparks!
+Baguette
+Black Cat Hat
+Beige Cat Hat
+Blue Cat Hat
+Red Cat Hat
+Corn
+Red Elephant Hat
+Blue Elephant Hat
+Green Elephant Hat
+Blue Smiley Goggles
+Pink Heart Goggles
+Yellow Cute Goggles
+Purple Goggles
+Monochrome Pixel Glasses
+Colorful Pixel Glasses
+Pumpkin
+Spooky Rabbit Backpack
+Anda perlu menunggu {0}s sebelum mengedit semula.
+Rawak
+Setiap kali anda log masuk, paparkan Pyro salah seorang rakan yang anda ikuti secara rawak.
+1. Hanya Pyro daripada rakan dengan {0}+ Skor Keakraban boleh dipaparkan. Mereka juga mesti telah membuka kunci Pyro mereka.\n2. Paparan Rawak: Setiap kali anda log masuk, Pyro seorang rakan akan dipaparkan secara rawak. Sehingga {1} rakan akan berada dalam kumpulan pilihan.\n3. Anda juga boleh memilih Pyro daripada rakan yang dipilih.
+Dipilih
+Pilih rakan untuk memaparkan Pyro mereka pada setiap masa.
+Log Masuk
+Tambah Hari Tambahan
+Ganjaran Perlawanan Tambahan
+Log masuk selama {0} hari untuk menghidupkan semula Pyro.\nMelengkapkan perlawanan ranked menambah {1} hari!
+Baru
+Jemputan Pyro Pals
+Kawan
+Skor Keakraban
+Status
+Pyro Pals
+Pembatalan dalam tempoh cooldown. Mohon semula dalam {0} jam.
+Permintaan untuk membentuk Pyro Pals dengan anda
+Permintaan Pyro Pals Diterima
+Senarai Permintaan
+Pyro Pals tersedia untuk rakan dengan Skor Keakraban lebih tinggi daripada {0}
+Hantar permintaan Pyro Pals
+Rakan anda {0} sedang memanggil anda untuk menghidupkan semula Pyro!
+Teman Pyro anda sedang memanggil anda!
+Permintaan Pyro Pals dihantar
+Pyro
+Tunjukkan Pyro
+Jemputan berjaya dihantar kepada rakan yang offline
+Mod Ranked tidak tersedia pada tahap akaun anda sekarang. Tingkatkan tahap untuk membuka kuncinya!
+Batalkan Pyro Pals dengan rakan anda?
+Batalkan Pyro Pals
+Komen
+{0} Pengikut
+{0}v{1}
+Ikut
+Mengikuti
+Lagi
+Creator ini berada di wilayah yang berbeza dan tidak boleh di-Follow
+Kongsi
+Permainan Solo
+Mula
+Permainan Berpasukan
+Flame Grenades, Super Energizers, and FGL-24 will appear in Clock Tower.
+Fiery Clock Tower
+Discounted Strange Weapons at Vending Machines!
+Strange Weapon Discount
+Discounted Storm Weapons at Vending Machines!
+Storm Weapon Discount
+More coin piles will appear on the ground
+Coin Rain
+More coins, gold-tier weapons, and Coin Jars will appear in Sentosa
+Gold Rush
+Most of the vehicles become Horses, giddy-up!
+Wild West
+Discounted new weapons at Vending Machines!
+New Weapon Discount
+More SMGs, shotguns and melee weapons will appear in Peak
+Peak Mania
+Start the match with 500 coins
+Rich Start
+Muncul
+Tangkap penampakan misteri untuk menghilangkannya dan menjatuhkan bekalan event khas
+Penampakan Misteri
+Penampakan misteri baharu dirakam
+Restore {0}% armor durability
+Gain {0} temporary Shield Points
+The Unseen
+The Hidden Side telah muncul
+Reveal Mask dan Strange Weapons tersedia di Store CS
+Kuasa Misteri
+Senjata khas dengan kuasa misteri yang mencetuskan kesan event
+Senjata Misteri
+Tonton Doll
+Masuki Hidden Side
+Ikuti Rakan Sepasukan
+Gunakannya untuk memasuki Bentuk Bertopeng dan Hidden Side, memperoleh kelajuan pergerakan yang lebih baik dan ketinggian lompatan yang lebih tinggi
+Reveal Mask
+Batalkan Transformasi
+Masuki Bentuk Bertopeng
+Seekor kuda yang bergerak antara dunia biasa dan Hidden Side dengan lompatan lebih ringan serta larian lebih pantas
+Shadow Horse
+Selepas disingkirkan, masuki bentuk Doll untuk mengikuti rakan sepasukan yang masih hidup dan memberikan boost rawak
+Sokongan Doll
+Gunakan Reveal Mask untuk memasuki Bentuk Bertopeng dan mengakses Hidden Side
+Reveal Mask
+Bagi setiap pemain yang anda singkirkan, Topeng atau tanda menyeramkan akan muncul di belakang anda.
+Tanda Penyingkiran
+The Unseen
+The Hidden Side telah muncul
+Kawasan di mana anda boleh bergerak bebas selepas memasuki Doll Spectate
+Jarak Doll
+Hidden Side Dibuka
+Masuki Bentuk Bertopeng untuk menerokai Hidden Side dan penampakan aneh
+Hidden Side
+Heal Bubble sedia
+Heal Bubble sedia. FF Coins tambahan disertakan.
+Repair Bubble sedia
+Repair Bubble sedia. FF Coins tambahan disertakan.
+Shield Bubble sedia
+Shield Bubble sedia. FF Coins tambahan disertakan.
+Speed Bubble sedia
+Speed Bubble sedia. FF Coins tambahan disertakan.
+Berhati-hati! Anda hampir keluar dari jarak rakan sepasukan
+Di luar jarak rakan sepasukan. Kembali dalam {0}s.
+Kembali berhampiran rakan sepasukan
+Kekal dalam jarak {0}m daripada rakan sepasukan anda
+Tontonan Biasa
+Hanya seorang pemain yang masih hidup. Tidak boleh menukar pandangan.
+Pasang untuk membina Zipline tersuai
+Kit Zipline
+Pasang untuk membina Zipline tersuai
+Penambat Zipline
+Semua rakan sepasukan memperoleh Mini Turret pada permulaan setiap pusingan
+Firefig
+Menangi perlawanan ini untuk mendapatkan Firefig
+Ganjaran Booyah
+Pengikatan berjaya
+Firefig diperoleh
+Paparkan Firefig
+Ikatan berjaya. Firefig akan dibawa keluar selepas perlawanan.
+Biarkan cahaya bersinar. (Pemain boleh meletakkan hadiah rahsia seperti loadout, Gold atau Baucar di dalam kabin. Hadiah tersedia untuk 10 pemain.)
+Radiant Flame
+TV Scare
+The Twins
+Storm King
+Storm Squad
+Skrin atau jerit? (Pengguna boleh meletakkan hadiah rahsia seperti loadout, Gold atau Baucar di dalam kabin. Hadiah tersedia untuk 10 pemain.)
+Screen Terror
+The Unseen Frame
+Storm Arena Frame
+Sticker Crimson Glitches
+Sticker Hollow Man
+Sticker Red Slicker
+Sticker Cloaked Terror
+Sticker Cosmic Overlord
+Sticker FFWS Champion
+Pusingkan kamera secara automatik untuk paparan optimum semasa menggunakan Vertical Ascender
+Terus menghadap ke arah yang sama selepas menaiki Vertical Ascender
+Auto-Pusing Ascender
+Auto-Pusing diaktifkan secara lalai untuk Pemanjat Menegak. Anda boleh melaraskannya dalam Tetapan.
+Percepat
+Bawah
+Keluar
+Undur
+Atas
+Ninja Kembali
+Diterima dengan menaik taraf Evo AWM ke Tahap maksimum Lv. 7
+Ultimate AWM
+Lengkapkan misi dalam acara web untuk menuntut
+Pengurus Ace
+Jika anda pernah menyertai Nine Tails Strikes atau Epic Ninja Trials, sertai acara Nine Tails Strikes yang kembali untuk menuntut gelaran eksklusif bagi ninja yang kembali!
+Kumpulkan entri dan capai sasaran koleksi dalam Album The Unseen untuk menuntut
+Seen the Unseen
+Muat Turun
+Sedang Dimuat Turun
+Lengkapkan
+Outfit telah dilengkapi
+Cuba Lagi
+Pakaian
+1. Imej muka depan map Craftland kini diseragamkan kepada nisbah aspek 20:9.\n2. Peraturan penamaan untuk sifat tersuai telah ditambah baik. Apabila mencipta atau menamakan semula atribut tersuai, sistem akan menyemak aksara tidak sah dan format pengekodan yang tidak disokong. Nama yang tidak memenuhi keperluan tidak boleh disimpan, dan pemain akan diminta untuk mengubahnya dan cuba lagi. Apabila membuka, menyimpan atau menerbitkan map lama, pemain juga akan diminta untuk membetulkan sifat tersuai yang mengandungi aksara tidak sah.\n3. Menambah sokongan untuk menyesuaikan imej dan teks pada skrin pemuatan map tersuai.\n4. Selepas melengkapkan map, pemain kini boleh melihat maklumat pencipta secara terus pada skrin keputusan, serta mengikuti atau berhenti mengikuti pencipta.\n5. Halaman butiran map Craftland telah dioptimumkan sepenuhnya untuk memberikan paparan maklumat map, permainan dan ciri interaktif yang lebih jelas. Menambah kesukaran matchmaking anggaran untuk map serta menambah baik paparan maklumat seperti populariti, penilaian positif dan jumlah sesi permainan. Pemain juga boleh melihat maklumat pencipta, mengikuti pencipta, berkongsi map dan menyalin Kod Map.\n\nCiri-ciri yang lebih hebat sedang dalam pembangunan, nantikan kemas kini seterusnya!
+Platform
+1111 Lucky Box 1
+1111 Lucky Box 2
+1111 Choice Box 1
+1111 Choice Box 2
+Awesome Box
+Buka untuk menerima AWM Breath of Silence
+AWM Breath of Silence Loot Crate
+Peti Token Cosmic Pulse (AWM)
+Box 281
+Box 282
+Box 283
+Box 284
+Box 285
+Box 286
+Box 287
+Box 288
+Box 289
+Box 290
+Booyah! Box 1
+Booyah! Box 2
+Booyah! Box 3
+Booyah! Box 4
+Booyah! Box 5
+Booyah! Box 6
+Booyah! Box 7
+Booyah! Box 8
+Campus Lucky Box 1
+Campus Lucky Box 2
+Campus Choice Box 1
+Campus Choice Box 2
+Unseen Box
+Horror Box
+Duality Box
+Buka untuk menerima Charge Buster Frenzy Bunny
+Charge Buster Frenzy Bunny Loot Crate
+Gun Choice Box 1
+Gun Choice Box 2
+Gun Choice Box 3
+Gun Choice Box 4
+Gun Choice Box 5
+Gun Choice Box 6
+Gun Choice Box 1
+Gun Choice Box 2
+Gun Choice Box 3
+Gun Choice Box 4
+Gun Choice Box 5
+Gun Choice Box 6
+Gun Royale Box 1
+Gun Royale Box 2
+Gun Royale Box 3
+Halloween Box
+Pemain boleh mendapatkan sama ada 3, 4, 5, 10, 100 atau 1000 token Evo AWM Cosmic Pulse.
+Lion Cereal Box 03
+Lion Cereal Box 04
+Mid-autumn Gift Box
+Peti Token BP S46
+Random Lucky Box 1
+Random Lucky Box 2
+Safe Box
+Samsung A27 Box
+Peti Token BP S47
+Choice Lucky Box 1
+Choice Lucky Box 2
+Storm Box
+Arena Box
+Suitcase
+Buka untuk menerima Trogon Pyro Dino
+Trogon Pyro Dino Loot Crate
+VIP Box 04
+VIP Box 05
+Peti Token BP S48
+Wonderful Accessories Box
+Wonderful Box 1
+Wonderful Box 2
+Wonderful Choice Box 1
+Wonderful Choice Box 2
+Wonderful Choice Box 3
+Wonderful Facepaint Box
+Wonderful Pants Box
+Wonderful Shoes Box
+Wonderful Top Box
+Token Alliance Blue
+Token Alliance Green
+Token Alliance Red
+Token Black God
+Token Big Surprise
+Token Dark Party 1
+Token Dark Party 2
+Token External Forces
+Token Kunai
+Token MP5
+Token Marksman Rifle
+Token Ninja Village 1
+Token Ninja Village 2
+Token Ninja Village 3
+Token Assault Rifle
+Token SMG
+Token Shotgun
+Token Partner Blue
+Token Partner Green
+Token Pistol
+Token Partner Red
+Token Pumpkin
+Token Reborn
+Token Sniper Rifle
+Token Thunder
+Token Witch
+Baucar 1111
+Baucar Black God Noir
+Baucar Black God White
+Baucar Ring Universal
+Baucar Ring Universal
+Baucar Ring Universal
+2026 Free Fire x BLUE LOCK
+Black Mask
+Blue Mask
+Crimson Mask
+Token Khas Nailoong
+Purple Lightning
+Blue Lightning
+Orange Lightning
+Token Cosmic Comet
+Capai [S0] [fs=22][b][803A41]{0}[/b][-][/fs] kali lagi untuk memperoleh
+untuk memperoleh {0}
+Capai [S0] [fs=22][b][803A41]{0}[/b][-][/fs] kali
+Dikeluarkan pada {1}/{0}
+Dikeluarkan pada\n{1}/{0}
+Lengkapkan untuk dipaparkan dalam mod CS dan menggantikan gelaran lalai
+Dipaparkan apabila menjadi MVP dalam setiap pusingan CS
+Lihat dan lengkapkan melalui Maklumat Pemain
+Gelaran MVP
+Gelaran MVP - Rank 2027
+Tempoh Penggunaan boleh ditindan
+Tempoh Penggunaan
+Papan MVP CS
+Papan MVP CS - Rank 2027
+Papan MVP yang boleh dilengkapkan daripada Bilik Kebal. Lengkapkannya untuk dipaparkan apabila memperoleh gelaran MVP dalam setiap pusingan mod CS.
+Pergi ke Rank Goals
+Meteor Drop akan tiba
+Meteor Drop telah mendarat
+Nama pemain yang menipu
+Semua airdrop biasa akan jatuh sebagai meteor!
+Airdrop? Meteor!
+Loot tahap tinggi tersedia di kawasan selepas Meteor Drop mendarat
+Meteor Akan Tiba
+Storm Arena
+Pertarungan Trofi Storm
+Berjuang untuk Trofi Storm!
+Storm Airdrop telah mendarat
+Pasukan Juara FFWS Global Finals 2026
+Bawa sepanduk anda merentasi ribut dan berjuang untuk kejayaan
+Sepanduk Storm
+Dapatkan lebih banyak eliminasi setiap fasa untuk menjadi pasukan terbaik dan memperoleh Storm Airdrop!
+Storm Airdrop
+Senjata Storm akan muncul dalam perlawanan. Cari dan cuba mekanik senjata baharu!
+Senjata Storm
+Pertarungan Trofi Storm bermula!
+Event airdrop akan dijatuhkan berhampiran pasukan terbaik
+Storm Airdrop
+Pasukan terbaik pusingan ini telah dipilih. Storm Airdrop akan tiba.
+Prestasi hebat! Pasukan anda memperoleh Storm Airdrop.
+Tahniah! Pasukan anda MVP dan dapat Storm Airdrop tahap tinggi.
+[DMG Zon: Rendah] Safe Zone sedang mengecil
+[FFBA00][DMG Zon: Sederhana][-] Safe Zone sedang mengecil
+[e01f1f][DMG Zon: Tinggi][-] Safe Zone sedang mengecil
+Kerap bergabung dengan penipu
+Item utiliti yang boleh diaktifkan apabila diperlukan
+Peranti Aktif
+Saya telah menandakan musuh berdekatan!
+Item utiliti pasif yang memberikan kebolehan tempur khas
+Peranti Pasif
+Melepaskan seekor labah-labah gergasi dengan [FFB300]{0}[-] HP. Labah-labah itu akan mencari musuh terdekat secara automatik dalam lingkungan [FFB300]{1}[-]m. Selepas mengunci sasaran, ia akan berpecah menjadi kawanan anak labah-labah untuk mengejar mereka. Apabila menghampiri sasaran, kawanan itu akan menenun jaring berbentuk kipas seluas [FFB300]{2}[-]m di hadapan, lalu memerangkap semua musuh dalam kawasan tersebut. Musuh yang terperangkap akan diperlahankan sebanyak [FFB300]{3}%[-] dan kehilangan [FFB300]{4}[-] HP/s selama [FFB300]{5}[-]s.
+Buruan Labah-labah
+Melepaskan seekor labah-labah gergasi yang mengunci sasaran berdekatan, kemudian berpecah menjadi kawanan anak labah-labah yang menenun jaring untuk memerangkap musuh
+Berubah menjadi labah-labah letupan yang boleh dikawal selama [FFB300]{0}s[-]. Labah-labah dengan [FFB300]{1} HP[-] ini boleh dimusnahkan dan bergerak sehingga [FFB300]{2}m[-] dari Ryden sendiri. Tekan skill sekali lagi untuk kembali ke tubuh Ryden dan mengaktifkan labah-labah tersebut, memerangkap musuh dalam lingkungan pandangannya dalam jarak [FFB300]{3}m[-]. Musuh yang terperangkap diperlahankan sebanyak [FFB300]{4}%[-] dan kehilangan [FFB300]{5} HP[-]/s selama [FFB300]{6}s[-].
+Skitter Trap
+Berubah menjadi labah-labah letupan yang boleh dikawal. Tekan sekali lagi untuk kembali ke tubuh Ryden dan mengaktifkan labah-labah tersebut, memerangkap musuh dalam lingkungan.
+Musuh Berhampiran Ryden
+Memerangkap {0} Sasaran
+Perlahan
+Labah-labah Dimusnahkan
+Perangkap Diletakkan
+Dino Fossil (Topeng)
+Cloaked Terror (Topeng)
+Topeng Burng Hantu
+Topeng Kala Jengking
+Cloaked Terror (Bahagian Bawah)
+Firesaur (Topeng)
+Academy Cutie (Topeng)
+Crimson Glitches (Topeng)
+Scorpio Venom (Topeng)
+Masked Rabbit (Topeng)
+Lunar Valor (Topeng)
+Cosmic Empress (Bahagian Bawah)
+Kittenlover (Bahgian Bawah)
+Magma Phoenix (Bahagian Bawah)
+Firesaur (Bahagian Bawah)
+Academy Cutie (Bahagian Bawah)
+Crimson Glitches (Bahagian Bawah)
+Banana Ninja (Bahagian Bawah)
+Lioness Instinct (Bahagian Bawah)
+Owl Ranger (Bahagian Bawah)
+Scorpio Venom (Bahagian Bawah)
+Masked Rabbit (Bahagian Bawah)
+Phantom Bride (Bahagian Bawah)
+Lunar Valor (Bahagian Bawah)
+Cosmic Empress (Kepala)
+Kittenlover (Kepala)
+Magma Phoenix (Kepala)
+Firesaur (Kepala)
+Academy Cutie (Kepala)
+Banana Ninja (Kepala)
+Lioness Instinct (Kepala)
+Owl Ranger (Kepala)
+Scorpio Venom (Kepala)
+Masked Rabbit (Kepala)
+Phantom Bride (Kepala)
+Lunar Valor (Kepala)
+Cosmic Empress (Cat Muka)
+Lioness Instinct (Cat Muka)
+Phantom Bride (Cat muka)
+Cosmic Empress (Kasut)
+Kittenlover (Kasut)
+Magma Phoenix (Kasut)
+Firesaur (Kasut)
+Academy Cutie (Kasut)
+Crimson Glitches (Kasut)
+Banana Ninja (Kasut)
+Lioness Instinct (Kasut)
+Owl Ranger (Kasut)
+Scorpio Venom (Kasut)
+Masked Rabbit (Kasut)
+Phantom Bride (Kasut)
+Lunar Valor (Kasut)
+Cosmic Empress (Bahagian Atas)
+Kittenlover (Bahgian Atas)
+Magma Phoenix (Bahagian Atas)
+Firesaur (Bahagian Atas)
+Academy Cutie (Bahagian Atas)
+Crimson Glitches (Bahagian Atas)
+Banana Ninja (Bahagian Atas)
+Lioness Instinct (Bahagian Atas)
+Owl Ranger (Bahagian Atas)
+Scorpio Venom (Bahagian Atas)
+Masked Rabbit (Bahagian Atas)
+Phantom Bride (Bahagian Atas)
+Lunar Valor (Bahagian Atas)
+Cloaked Terror (Kepala)
+Storm Arena (Kepala)
+Academy Stars (Cat Muka)
+Smile! (Cat Muka)
+Masked Flames (Cat Muka)
+2026 Free Fire x MAMA
+Cosmic Overlord (Topeng)
+Red Bull (Topeng)
+Kittensitter (Topeng)
+Magma Fusion (Topeng)
+Infernosaur (Topeng)
+Academy Influencer (Topeng)
+Hollow Man (Topeng)
+Red Slicker (Topeng)
+Melon Ninja (Topeng)
+Lion Instinct (Topeng)
+Scorpio Sting (Topeng)
+Masked Fox (Topeng)
+Phantom Desperado (Topeng)
+MAMA (Topeng)
+Solar Valor (Topeng)
+Cosmic Overlord (Bahagian Bawah)
+Red Bull (Bahagian Bawah)
+Kittensitter (Bahagian Bawah)
+Magma Fusion (Bahagian Bawah)
+Infernosaur (Bahagian Bawah)
+Academy Influencer (Bahagian Bawah)
+Hollow Man (Bahagian Bawah)
+Red Slicker (Bahagian Bawah)
+Melon Ninja (Bahagian Bawah)
+Lion Instinct (Bahagian Bawah)
+Owl Sheriff (Bahagian Bawah)
+Scorpio Sting (Bahagian Bawah)
+Masked Fox (Bahagian Bawah)
+Phantom Desperado (Bahagian Bawah)
+MAMA (Bahagian Bawah)
+Solar Valor (Bahagian Bawah)
+Cosmic Overlord (Kepala)
+Red Bull (Kepala)
+Kittensitter (Kepala)
+Infernosaur (Kepala)
+Academy Influencer (Kepala)
+Hollow Man (Kepala)
+Owl Sheriff (Kepala)
+Scorpio Sting (Kepala)
+Masked Fox (Kepala)
+MAMA (Kepala)
+Solar Valor (Kepala)
+Cosmic Overlord (Cat Muka)
+Kittensitter (Cat Muka)
+Solar Valor (Cat Muka)
+Cosmic Overlord (Kasut)
+Red Bull (Kasut)
+Kittensitter (Kasut)
+Magma Fusion (Kasut)
+Infernosaur (Kasut)
+Academy Influencer (Kasut)
+Hollow Man (Kasut)
+Red Slicker (Kasut)
+Melon Ninja (Kasut)
+Lion Instinct (Kasut)
+Owl Sheriff (Kasut)
+Scorpio Sting (Kasut)
+Masked Fox (Kasut)
+Phantom Desperado (Kasut)
+MAMA (Kasut)
+Solar Valor (Kasut)
+Cosmic Overlord (Bahagian Atas)
+Red Bull (Bahagian Atas)
+Kittensitter (Bahagian Atas)
+CS-Ranked S39 Heroic
+CS-Ranked S40 Heroic
+Magma Fusion (Bahagian Atas)
+Infernosaur (Bahagian Atas)
+Academy Influencer (Bahagian Atas)
+Hollow Man (Bahagian Atas)
+Red Slicker (Bahagian Atas)
+Melon Ninja (Bahagian Atas)
+Lion Instinct (Bahagian Atas)
+Owl Sheriff (Bahagian Atas)
+BR-Ranked S54 Heroic
+Scorpio Sting (Bahagian Atas)
+Masked Fox (Bahagian Atas)
+Phantom Desperado (Bahagian Atas)
+MAMA (Bahagian Atas)
+Solar Valor (Bahagian Atas)
+Pek Suara The Unseen
+Pek Suara Storm Arena
+Pek Suara Taunt Pro
+Pek Suara Mirzapur 1
+Pek Suara Mirzapur 2
+Pek Suara Day of the Dead 2026
+Pek Suara The Unseen
+Pek Suara Storm Arena
+Pek Suara Taunt Pro
+Pek Suara Mirzapur 1
+Pek Suara Mirzapur 2
+Pek Suara Day of the Dead 2026
+Shh... dengar!
+Pakai topeng anda!
+Saya mahu bermain... permainan
+Siapa di sana?
+Kekosongan gelap menyelubungi arena!
+Melalui ribut, menuju Booyah!
+Akulah ribut itu!
+Hanya yang terkuat bertahan dalam ribut
+Capai kemuncak anda!
+Keajaiban? Tidak, cuma skill!
+Pergi dari sini, bot!
+Yep, kembali ke lobi kau!
+Semoga berjaya lain kali!
+Kamu memang pandai berkata-kata.
+Kamu akan berasa bangga.
+Hei, fokus pada pelajaran kamu. Jadilah pegawai IAS atau apa-apa sahaja.
+Kami bermula kerana tiada pilihan lain, tetapi sekarang kami menikmatinya.
+Kami menguasai tempat ini
+Itu juga berkesan
+Ia berisiko
+Kamu belajar perlahan-lahan.
+Bunga merah, bunga biru, Munna Bhaiya memang cantik
+Memang hebat tadi, bos!
+Benda ni memang gila! Ia mengubah keseluruhan sistem.
+Ya, maksud saya, kami belum memikirkannya lagi buat masa ini, tetapi kami akan memikirkannya.
+Kau raksasa kecil!
+Menderitalah seperti yang aku alami!
+Di mana skuad saya?
+Mereka menangkap aku!
+Oh, anda sedang membuat magik
+Itu sahaja? Ahhh!
+Selipar Purry
+Cloaked Terror (Kasut)
+Kasut Tembikai
+Juara FFWS 2026 (Bahagian Atas)
+Cloaked Terror (Bahagian Atas)
+Duel Kehormatan
+Hampir berjaya
+Cuba lebih gigih
+Menghancurkan {0}
+{0} mendominasi {1} dalam Duel Kehormatan Lone Wolf.
+Mikrofon perlu diaktifkan
+Tekan untuk membuka laman web pengurusan kejohanan
+Pemohon ini tidak boleh menyertai pasukan kejohanan anda kerana dia tidak mempunyai Diamond yang mencukupi untuk membayar deposit.
+Kejohanan telah dibatalkan. Deposit anda telah dipulangkan melalui mel ini.
+Anda telah berjaya melakukan check-in untuk kejohanan. Deposit anda telah dipulangkan melalui mel ini.
+Pencipta kejohanan telah menambahkan anda ke kejohanan. Sebelum kejohanan bermula, buka butiran kejohanan untuk melihat pendaftaran, check-in dan aturan perlawanan.
+Anda telah dikeluarkan daripada kejohanan oleh penciptanya. Untuk terus menyertai, sila daftar semula atau hubungi pencipta kejohanan untuk pengesahan.
+Kelayakan anda untuk menyertai telah dibatalkan oleh pencipta kejohanan disebabkan tindakan anda sendiri. Deposit anda tidak akan dipulangkan.
+Deposit Kejohanan Dipulangkan
+Deposit Kejohanan Ditolak
+Anda boleh memulakan kejohanan yang anda cipta secara manual melalui laman web pengurusan kejohanan.
+Anda telah berjaya menyertai kejohanan. Deposit anda akan dipulangkan melalui mel selepas pasukan kejohanan telah dikumpulkan.
+Anda telah berjaya menyertai pasukan kejohanan. Deposit Diamond yang diperlukan telah ditolak. Deposit akan dipulangkan melalui mel selepas anda melakukan check-in atau memenuhi syarat pemulangan.
+Pasukan kejohanan telah meluluskan permintaan anda untuk menyertai, tetapi anda tidak mempunyai Diamond yang mencukupi untuk membayar deposit dan tidak boleh menyertai pasukan.
+Anda telah berjaya memohon untuk menyertai pasukan kejohanan. Deposit Diamond yang diperlukan akan ditolak setelah permohonan anda diluluskan.
+Anda telah meninggalkan kejohanan semasa tempoh pendaftaran. Deposit anda telah dipulangkan melalui mel ini.
+Notifikasi Kejohanan
+Kejohanan yang anda cipta telah tamat. Sila lawati laman web pengurusan kejohanan untuk mengagihkan ganjaran.
+Maklumat Elim./Knockdown
+Penapis Comic Book
+Penapis Cyberpunk
+Penapis Sketch
+Penapis Golden Era
+Kumpulan Emoji belum Unlock. Sila dapatkannya di luar perlawanan terlebih dahulu.
+Penapis Pixel
+Penapis RGB Split
+Penampakan misteri ditemui
+Leret skrin untuk mencari penampakan misteri
+Boleh skip dalam {0}s
+Kandungan menakutkan akan datang. Langkau jika anda mahu.
+Potret Berlumuran Merah
+Sosok di Lorong
+Sesungut di Bawah Meja
+Bayang-Bayang Tangga
+Wanita di Skrin
+Tuntut ganjaran berulang untuk mendapatkan perkara berikut:
+Tuntut ganjaran berulang untuk menerima ganjaran rawak daripada perkara berikut:
+Sertai The Unseen dan dapatkan pelbagai ganjaran!
+The Unseen
+Album
+Gameplay
+Tugasan Harian
+Token berbaki: [af2020]{0}[-]
+Revenge G36
+Unseen Claws
+Awaken the Unseen
+Ganjaran Percuma Menanti
+Baru
+Belum Ditemui: Terokai kawasan misteri dalam perlawanan untuk membuka kunci
+Belum ditemui: Terokai kawasan pelik dalam perlawanan untuk unlock
+Kereta Sorong Bayi
+Bola
+Kereta Aneh
+Boneka Rosak
+Kotak Muzik
+Kuda Goyang
+Pintu Bayangan
+Sosok Samar
+Bayangan Gelap
+Cap Tangan Merah
+Pintu Hitam
+Potret Wanita Menangis
+Perabot Terapung
+Cakar Hitam
+Topeng Menangis
+Batu Misteri
+TV Berkelip
+Perabot Terapung
+Topeng Misteri
+TV Terganggu
+Kereta Terapung
+Pintu Hitam Aneh
+Cap Tangan Bergerak
+Poster Mata Bergerak
+Susuk Tinggi Kurus
+Bayang di Kolam
+Penduduk Misteri
+Orang Terapung
+Belum ditemui: Teruskan menyiasat manor untuk unlock
+{0}/{1}
+Tuntut Gelaran
+Kumpul {0} entri Album untuk menuntut ganjaran gelaran ({1}/{2})
+Album Event
+Album Dalam Perlawanan
+Album
+1. Pemain yang tersingkir memasuki Hidden Side dalam bentuk Anak Patung, di mana mereka boleh mengikuti rakan sepasukan yang masih hidup dan menghantar gelembung Boost untuk menyokong mereka. \n2. Rakan sepasukan yang masih hidup juga boleh menggunakan Reveal Mask untuk memasuki bentuk bertopeng, memperoleh kelajuan pergerakan yang lebih pantas dan lompatan yang lebih tinggi. \n3. Terokai Hidden Side untuk menemui penampakan misteri dan berinteraksi dengannya untuk mendapatkan bekalan.
+Battle Royale
+Masuki Hidden Side sebagai Doll!
+Dapatkan Reveal Mask dan Senjata Misteri daripada Airdrop Siber dan Store CS untuk membantu anda memenangi pertempuran!
+Clash Squad
+Reveal Mask dan Senjata Misteri
+Battle Royale
+Clash Squad
+Gameplay
+Tutorial
+1. Selesaikan tugasan harian untuk memperoleh token event.\n2. Gunakan token pada halaman event untuk memerhati manor dan meneruskan siasatan.\n3. Capai milestone untuk menuntut ganjaran milestone. Selepas melengkapkan semua milestone, anda boleh terus menuntut ganjaran berulang.\n4. Pada milestone utama, swipe dalam paparan camcorder untuk mencari penampakan pelik dan mencetuskan urutan yang sepadan.\n5. Unlock entri Album untuk menyemak semula penampakan pelik yang telah ditemui. Capai sasaran progres koleksi untuk menuntut ganjaran Album.\n6. Swipe ke sisi pada halaman event untuk menerokai manor dan mungkin mencetuskan urutan kendiri.
+Peraturan
+Ganjaran Percuma!
+The Unseen
+Hidupkan lampu jika perlu
+Perhati
+Panik
+Sekilas Pandang Strange Manor
+{0}/{1}
+Token berbaki hari ini: [fs=26][af2020]{0}[-][/fs]
+Log masuk antara {0} - {1} untuk mendapatkan hadiah eksklusif!
+Event ganjaran log masuk telah tamat. Jumpa lagi dalam event akan datang!
+Ganjaran Log Masuk
+Ganjaran Log Masuk
+Capai tahap pencapaian untuk mendapatkan ganjaran berikut:
+Leret skrin untuk menerokai manor
+Tekan dan tahan kawasan kosong, kemudian seret ke sisi
+Anda sudah memiliki semua Grand Prizes. Tetap beli?
+Teruskan Pembelian
+Teruskan Spin
+Anda sudah memiliki semua Grand Prizes. Tetap putar?
+Diskaun Tertinggi Diperoleh
+Bundle dibuka secara automatik
+Peluang Respin
+Diskaun Baharu
+Diskaun Sebelum Ini
+SPIN UNTUK [ffe24a]DISKAUN[-]
+SPIN UNTUK DISKAUN
+BELI SEKARANG
+Belanjakan [S0][ffe400]{0}[-] lagi untuk Unlock Grand Prize
+Grand Prizes telah di-unlock
+Diskaun Tertinggi!
+Diskaun Bagus!
+Diskaun Lebih Baik dijamin untuk spin ini!
+Diskaun Lebih Baik dijamin dalam [ffe400]{0}[-] spin!
+SPIN SEMULA
+Diskaun Lebih Baik!
+Semua misi telah selesai
+Kekalkan diskaun sebelumnya!
+Diskaun Sama
+Dapatkan Diskaun Lebih Baik
+1. Apabila anda pertama kali memasuki acara, buat spin untuk mendapatkan diskaun permulaan.\n2. Lengkapkan misi respin untuk mendapatkan peluang respin bagi diskaun.\n3. Anda boleh memperoleh sehingga {0} respin untuk setiap acara.\n4. Apabila anda melakukan respin, diskaun baharu akan dibandingkan dengan diskaun semasa anda, dan diskaun yang lebih baik akan dipilih secara automatik.\n5. Diskaun yang lebih baik dijamin dalam {1} spin.
+DISKAUN SPIN
+Kebarangkalian Diskaun
+1. Pembelian item selain Grand Prize akan meningkatkan kemajuan Unlock Grand Prize.\n2. Setelah kemajuan penuh, Grand Prize akan tersedia untuk dibeli.\n3. Setelah Unlock, SEMUA Grand Prize akan tersedia untuk dibeli.
+PEMBELIAN
+Diskaun Saya
+Kongsi Mystery Shop
+Belanjakan {0}/{1} diamond dalam Mystery Shop
+Prime Lv. {0}
+Diamond yang dibelanjakan dalam acara diskaun terkini
+Main {0}/{1} perlawanan BR/CS-Ranked
+Main selama {0}/{1} min
+Acara diskaun terkini termasuk yang berikut:
+Mystery Shop
+Relay Mart
+Lucky Wheel
+SPIN
+Had: {0}/{1}
+PERGI
+KONGSI
+TIDAK LENGKAP
+DITUNTUT
+HAD MAKSIMUM
+Lengkapkan misi untuk memperoleh respin
+SUPER DISKAUN
+Belanjakan diamond untuk Unlock semua Grand Prize
+Gagal menuntut ganjaran. Sila cuba lagi kemudian.
+Sahkan untuk meninggalkan skuad ini?
+Ganjaran anda yang belum dituntut akan dituntut secara automatik
+Gagal meninggalkan skuad. Sila cuba lagi kemudian.
+Status skuad telah dikemas kini. Sila segar semula dan cuba lagi.
+Kosongkan carian
+Bahagian yang tidak dipilih akan kekal seperti yang sedang dilengkapi
+Tiada outfit yang sepadan ditemui
+Cari nama outfit
+Armor menerima DMG Flame Grenade
+Mencipta kawasan terbakar di atas tanah yang kekal untuk seketika
+Menerima DMG Flame Grenade
+Flame Grenade
+Mengesan musuh dalam jarak tertentu selepas dilemparkan
+Sonar Grenade
+Kedudukan didedahkan oleh Sonar Grenade
+Amaran Kedudukan Safe Zone
+Mainkan Ranked untuk mengurangkan masa yang diperlukan untuk menyala semula
 Harga berdasarkan baki jumlah diamond anda.
 Semakin [57CAFD]kurang[-] yang anda ada, [FFA83A]lebih banyak diskaun yang ditawarkan[-]!
 Harga Pek Diamond
@@ -73615,9 +75828,9 @@ M249 menggunakan Peluru AR. Didatangkan dengan bipod, kapasiti peluru dan kadar 
 M500 Revolver
 M79 ialah pelancar grenade yang menggunakan Peluru M79 dan mampu menghasilkan kerosakan kawasan yang besar.
 Parang
-Meningkatkan kapasiti lelopak peluru apabila dilengkapi dengan senjata
-Peningkatan sederhana dalam kapasiti lelopak peluru dan kelajuan isi semula
-Peningkatan besar dalam kapasiti lelopak peluru dan kelajuan isi semula
+Meningkatkan kapasiti magazin apabila dilengkapi dengan senjata
+Peningkatan sederhana dalam kapasiti magazin dan kelajuan isi semula
+Peningkatan besar dalam kapasiti magazin dan kelajuan isi semula
 MP40 menggunakan peluru SMG, rakan yang boleh dipercayai sejak WWII.
 Peningkatan kecil dalam jarak
 Peningkatan sederhana dalam jarak
@@ -73675,9 +75888,9 @@ M4A1
 M500
 M79
 Parang
-Lelopak Peluru Thp. 1
-Lelopak Peluru Thp. 2
-Lelopak Peluru Thp. 3
+Magazin Thp. 1
+Magazin Thp. 2
+Magazin Thp. 3
 MP40
 MP5
 Muzzle Thp. 1
@@ -73697,7 +75910,7 @@ Peluru SMG
 Peluru Penembak Hendap
 SPAS12
 SVD
-TEC9
+TEC-9
 UMP
 USP
 Rompi Rosak
@@ -74180,7 +76393,7 @@ Cenderahati daripada sarkas, datang dengan tepukan daripada orang ramai.
 Juicy Apple
 Alih Keluar Sekatan
 Untuk membatalkan sekatan anda, top-up diamond diperlukan:
-Survivor yang dihormati, anda telah meminta dan menerima bayaran balik untuk pembelian baru-baru ini, walaupun telah menerima item tersebut. Perkara ini menyebabkan kami tidak mempunyai pilihan lain selain mengalih keluar diamonds atau yang setara daripada akaun anda, mengakibatkan sekatan akaun. Anda boleh menghubungi bahagian sokongan pelanggan kami di https://ffsupport.garena.com/ untuk mendapatkan butiran lanjut.
+Hai Survivor, anda telah memohon dan menerima bayaran balik bagi pembelian yang dibuat baru-baru ini walaupun item tersebut telah diterima. Oleh itu, kami terpaksa menolak diamond atau nilai yang setara daripada akaun anda, yang mengakibatkan sekatan akaun dikenakan. Terima kasih atas pemahaman anda kerana kami terus berusaha mengekalkan persekitaran permainan yang adil dan sihat untuk semua pemain.
 Notis Pelanggaran
 LENGKAPI
 Gagal dilengkapkan untuk semua
@@ -74809,9 +77022,9 @@ Buka untuk menerima satu item daripada set sushi
 Loot Crate Sushi
 Buka untuk menerima item daripada set pakaian pantai (mungkin kekal atau 3 hari)
 Loot Crate Pakaian Pantai
-Bundle ini mengandungi "Rompi Pertempuran (wanita)", "Seluar Pendek Pertempuran (wanita)", "Kasut Pertempuran (wanita)".
+Bundle ini mengandungi "Combat Vest (Wanita)", "Combat Shorts (Wanita)" dan "Combat Shoes (Wanita)".
 Battlefield bundle (wanita)
-Bundle ini mengandungi "Rompi Pertempuran (lelaki)", "Seluar Pertempuran (lelaki)", "Kasut Pertempuran (lelaki)".
+Bundle ini mengandungi "Combat Vest (Lelaki)", "Combat Pants (Lelaki)" dan "Combat Shoes (Lelaki)".
 Battlefield bundle (lelaki)
 Bundle ini mengandungi "Baju Hipster", "Seluar Hipster", "kasut Hipster".
 Hipster Bundle (lelaki)
@@ -75716,7 +77929,7 @@ Steel Winds
 Menonton
 Atribut
 Ketepatan
-Lelopak Peluru
+Magazin
 Kerosakan
 Jarak
 Kelajuan Isi Semula
@@ -76075,7 +78288,7 @@ HP Kenderaan
 Tinggalkan kenderaan
 Brek/Undur
 Ke hadapan
-Lelopak peluru mengembangkan bilangan pusingan dalam setiap klip
+Magazin mengembangkan bilangan pusingan dalam setiap klip
 Foregrip mengurangkan sentakan senjata semasa menembak.
 Muzzle meningkatkan kerosakan anda kepada musuh lebih jauh
 Senjata yang berbeza berfungsi paling baik pada jarak yang berbeza, jadi cuba semua senjata yang ada.
@@ -76088,6 +78301,177 @@ VAULT
 PEMILIHAN WAJAH
 WARNA SKIN
 Khidmat Pelanggan
+Super Emote diperoleh
+Tidak cukup dikumpul untuk Super Emote
+Skrol Api
+Skrol Bumi
+Skrol Air
+Menerima Boost kelajuan pergerakan selepas berayun
+Backpack - Wind Shuriken
+Backpack - Tsunade's Cloak
+Backpack - Ship
+Backpack - Omnitrix
+Sepanduk Ben 10
+Alien X Power
+Avatar Hinata
+Avatar Heatblast
+Avatar Alien X
+Loot Box - Froggy Wallet
+Parang - Diamondhead Machete
+MAG-7 - Ben 10
+Lagu kolaborasi NARUTO SHIPPUDEN
+Blue Bird
+Lagu tema kolaborasi NARUTO SHIPPUDEN
+Tema Utama
+Skyboard - Hoverboard
+Heatblast
+Penukar Penampilan Ben 10
+Alien X
+Jeep - Rustbucket RV
+Bundle Hinata
+Bundle Lucky Girl
+Bundle Gwen Tennyson
+Bundle Ben Tennyson
+Anda telah membuka Super Emote Penyeruan Gamabunta, tetapi nampaknya anda tidak menuntutnya. Jangan risau, kami telah menghantarnya melalui mel. Selamat menikmati!
+Ganjaran Super Emote
+Kolaborasi NARUTO SHIPPUDEN yang pertama memang menggemparkan! Kini, para ninja kembali lagi!
+Selamat Kembali, Ninja
+Tangkap Sharingan: Kawal dan arahkan Nine Tails untuk membedil satu kawasan. Musuh di dalam kawasan tersebut akan menerima kerosakan berterusan.
+Keberanian Hinata
+Pilih 1 daripada 2 hadiah untuk dijadikan Hadiah Utama anda. Hadiah yang satu lagi akan tersedia untuk dibeli.
+Sahkan untuk menuntut pakaian berikut sebagai hadiah utama anda?
+Sahkan
+Di Kedai CS, shuriken akan menggantikan pistol pada pusingan pertama.
+Diperoleh dalam acara asal
+Pass Mini
+Unlock hadiah milestone untuk membeli
+Tahniah! Anda telah mengumpul Super Emote ini!
+Kembalinya Ninja
+Peti Pilihan Sticker NARUTO SHIPPUDEN
+Sharingan: Kawalan
+Acara Nine Tails
+Item Ninjutsu
+Makan
+Sharingan: Kawalan dirampas
+Merampas Sharingan: Kawalan
+Batal
+Sahkan
+Seret untuk memilih lokasi
+Pilih kawasan letupan
+Apabila digunakan, buka Map dan pilih kawasan untuk Nine Tails melepaskan Bom Ekor Binatang.
+Sharingan: Kawalan
+Kawasan ini tidak boleh dipilih
+Sharingan: Kawalan diperoleh
+Tekan mana-mana untuk langkau
+Sharingan: Kawalan telah muncul
+Kawal letupan Nine Tails
+Ninjutsu, Alat Ninja dan Sharingan: Kawalan yang mengawal letupan Nine Tails akan muncul
+Acara Nine Tails
+Akademi Ninja
+Melepaskan Pusingan Tapak Tangan 8 Trigrams
+Pelepasan Putaran Tapak Tangan 8 Trigrams
+Tertolak ke Belakang oleh Putaran Tapak Tangan 8 Trigrams
+Tolakan Tapak Tangan 8 Trigrams
+Musuh tercampak ke belakang
+Meluru ke hadapan dan mencipta perisai chakra yang menghalang kerosakan fizikal serta menolak musuh.
+Putaran Tapak Tangan Lapan Trigram
+Pecut ke depan dan cipta perisai chakra untuk melindungi diri dan menolak musuh ke belakang
+Hidden Leaf Village
+Nine Tails akan menyerang pesawat!
+Pesawat Diserang
+Serangan Nine Tails telah meninggalkan serpihan di atas tanah.
+Serangan Nine Tails
+Nine Tails telah meletupkan gudang senjata!
+Gudang Senjata Musnah
+Kerosakan Diberikan
+Zon Bahaya
+Bom Ekor Binatang sedang jatuh
+Berlindung di dalam rumah!
+Nine Tails sedang menyerang kawasan ini!
+Kedai Ichiraku Ramen
+Buff diterima
+Buaian
+Buaian
+Shadow Clone Jutsu
+Charging Rasengan
+Fist Bump!
+Bingkai NARUTO SHIPPUDEN
+Sticker Naruto
+Sticker Sakura
+Sticker Kakashi
+Sticker Sasuke
+Sticker Jiraiya
+Sticker Rock Lee
+Sticker Hinata
+Sticker Orochimaru
+Sticker Deidara
+Sticker Minato
+Sticker Itachi
+Sticker Tsunade
+2026 Free Fire x NARUTO SHIPPUDEN
+2026 Free Fire x Ben 10
+Hinata
+Ben Tennyson
+Lucky Girl
+Gwen Tennyson
+BEN 10
+Topeng Grey Matter
+Topeng Vilgax
+Baucar Ben 10
+Topeng Operasi Khas ANBU Kakashi
+Hiasan Kepala Hinata
+Topeng Lucky Girl
+Bahagian Bawah Hinata
+Bahagian Bawah Lucky Girl
+Bahagian Bawah Gwen Tennyson
+Tatu Gaara
+Kasut Hinata
+Kasut Lucky Girl
+Kasut Gwen Tennyson
+Bahagian Atas Hinata
+Bahagian Atas Lucky Girl
+Bahagian Atas Gwen Tennyson
+Bahagian Bawah Ben Tennyson
+Kasut Ben Tennyson
+Bahagian Atas Ben Tennyson
+Pek Suara Naruto
+Pek Suara Sasuke
+Pek Suara Sakura
+Pek Suara Kakashi
+Pek Suara Jiraiya
+Pek Suara Hinata
+Pek Suara Naruto
+Pek Suara Sasuke
+Pek Suara Sakura
+Pek Suara Kakashi
+Pek Suara Jiraiya
+Pek Suara Hinata
+Macam mana kau nak jadi Hokage kalau kawan sendiri pun kau tak mampu selamatkan?
+Kalau jatuh, kita jatuh bersama, Sasuke.
+Impian aku adalah untuk menjadi Hokage!
+Sebab kita kawan!
+Rasengan!
+Jutsu Klon Bayangan!
+Aku kalah.
+Ninja yang kalah.
+Lenyap bersama petir!
+Amaterasu!
+Hahahahaha!
+Cha!
+Rasanya akhirnya aku dah berjaya mengejar mereka berdua!
+Kali ini, saya mahu kamu semua melihat saya dari belakang!
+Yo! Selamat pagi, semua! Aku tersesat sedikit di jalan kehidupan hari ini...
+Sesiapa yang tak menghargai kawan-kawannya lebih teruk daripada sampah!
+Aku takkan biarkan sesiapa menjatuhkan kawan-kawanku!
+Kau ingat aku takkan berjaya keluar hidup-hidup.
+Aku takkan sesekali mengalah! Itulah pilihan sebenar yang mesti aku buat!
+Katak di bawah tempurung takkan mampu hidup di lautan luas.
+Sebab... aku memang sangat sukakan Naruto!
+Aku berdiri di sini atas kehendakku sendiri.
+Aku tak pernah mungkir janji... itulah cara ninjaku!
+Token Ben 10
+Token Hidden Leaf
+Token Khas Hidden Leaf
 Jenis Raksasa
 Jenis VFX
 Sasaran serangan

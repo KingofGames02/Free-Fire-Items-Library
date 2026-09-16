@@ -41,6 +41,7 @@ Premium paketini zaten satın aldın. Lütfen satın alma işlemini tekrarlama.
 Hiçbir ödül yok.
 Veli, denetlenen reşit olmayan hesaplar için üst sınıra ulaştı. Başvurun gönderilemez.
 Şu anda bekleme süresinde, bağlanma kaldırma işlemi iptal edilemez. Lütfen daha sonra tekrar deneyin.
+Your unbind information has been updated. Please wait while the page refreshes.
 Bağlanma kaldırma bekleme süresinde. Lütfen daha sonra tekrar dene.
 Misafir hesap, reşit olmayan bir hesabın velisi olmaya uygun değildir.
 Bu oyuncunun beklemede çok fazla bağlama talebi var. Lütfen daha sonra tekrar dene.
@@ -92,6 +93,7 @@ Yapılandırma hatası
 Bu görev yenilenemez
 Yenileme limitine ulaştın
 Alınacak günlük görev ödülü yok. (Yetersiz ilerleme veya zaten alınmış.)
+Satın alma limitine ulaşıldı.
 Booyah Pass ikili paketi gönderilemedi. Gönderici veya alıcı gereken seviyeye ulaşmadı.
 Henüz açılamıyor
 Yanlış istemci parametresi
@@ -433,7 +435,7 @@ Geçersiz öğretici modu
 Geçersiz beğeni yapılandırması
 Ödül zaten alındı. Tekrar alınamaz.
 Ödülün kilidi henüz açılmadı.
-BR_FRESH_ROOKIE_ANSWER_ALREADY_CLAIMED
+Bugünkü soruları zaten cevapladın, yarın tekrar gel!
 Bu oyuncu şu anda arkadaş olarak eklenemez. Lütfen daha sonra tekrar dene.
 Şu anda yeni arkadaş ekleyemezsin. Lütfen daha sonra tekrar dene.
 Dinamik İkili zaten kurulu.
@@ -442,6 +444,7 @@ Bu oyuncuya zaten bir istek gönderildi.
 Kara Liste dolu.
 Kendi kimliğini giremezsin.
 Zaten arkadaş listende.
+Arkadaşlık isteği başarısız. Bu oyuncunun istek listesi dolu. Lütfen daha sonra tekrar dene.
 Engellediğin bir oyuncuya arkadaşlık isteği gönderemezsin. Lütfen önce engellemeyi kaldır.
 İstek gönderildi.
 Kimlik bilgileri geçersiz, lütfen tekrar kontrol et.
@@ -465,6 +468,7 @@ Bu zaten yıldız arkadaşlarından.
 Maksimum sayıda yıldız arkadaşa ulaşıldı.
 Bu oyuncu arkadaş listende değil.
 Koruma sürecinde, şu anda bırakılamıyor.
+Veri hatası. Lütfen tekrar giriş yap.
 Bölge mevcut değil.
 Bölge mevcut değil.
 Zaten birimde.
@@ -561,7 +565,7 @@ Geçersiz görünüm rengi.
 Koleksiyon bilgisi alınırken hata oluştu.
 Fiyatlar uyuşmuyor, lütfen müşteri hizmetlerine bildir.
 Geçersiz yapılandırma ID
-Geçersiz ayrıcalık ID
+Etkinlik sona erdi
 Geçersiz para birimi.
 İndirim kuponunu kullanmak için gerekli koşulları sağlamıyorsun.
 Geçersiz araç görünümü.
@@ -575,6 +579,7 @@ Satın alma limitine ulaşıldı.
 Altın yetersiz.
 Yeterince elmasın yok.
 Yeterince eşya yok, lütfen müşteri hizmetlerine bildir.
+Yeterince Prime elmasın yok.
 Yetersiz fiş
 Süresi dolan görünümler artık kuşanılmıyor.
 Satın alma işlemi yapılamadı.
@@ -786,8 +791,9 @@ Liderlik tablosu ödülü zaten alındı
 Yetersiz Yıldız. Ödül alınamadı.
 Veri alınamadı
 Drop oranı görüntülenemiyor
-Prime level has not reached 7
+Prime seviyesi 7'ye ulaşmadı
 Ağ hatası
+Veri hatası. Lütfen tekrar giriş yap.
 Karakter seviyen çok düşük olduğu için kilidi açamazsın.
 Aktif yetenek zaten kuşanıldı. Birden fazla kuşanılamaz.
 Bu karakter, bu aktif yeteneği kuşanamaz.
@@ -889,8 +895,16 @@ Anormal mesaj uzunluğu
 Mesaj kısıtlanan karakterler içeriyor
 Yetersiz ilerleme
 Önceki isteğin tamamlanması bekleniyor.
+Alma limitine ulaşıldı
+Gerekli tüm eşyalar alınmadı
+Hücum Tahtası sona erdi
 Geçersiz Hücum Tahtası ID
+Geçersiz koleksiyon ödülü IDsi
+Geçersiz çevirme isteği
+Geçersiz çoklu çevirme isteği
+Geçersiz çevirme tipi
 Geçersiz tahta değiştirme isteği
+Yeterince elmasın yok.
 Hücum Tahtası henüz başlamadı
 Geçersiz Hücum Tahtası ödül havuzu
 Yapılandırma bilgisi eksik
@@ -963,6 +977,7 @@ Bu arkadaşı zaten davet ettin
 Geçersiz ödül IDsi
 Geçersiz ödül türü
 Takım bölgeleri eşleşmiyor
+Bu QR kodu artık geçerli değil
 Bu etkinlik şu anda mevcut değil
 Takımda değil
 Özel takımlara katılmak için davet gerekir
@@ -1030,9 +1045,13 @@ Yuva Kilitli
 Eşleştirme başarısız: uygun takım bulunamadı
 Şu anda üyelikle ilgili özelliklere erişim iznin yok
 Önerilen harita bulunamadı
+Satın alma işlemi başarısız oldu, yeterince Üretim Taşların yok.
+Satın alma başarısız oldu. Maks. satın alma limitine ulaşıldı.
 Maks. içerik üreticileri işaretlendi
 İşaretleme limitine ulaşıldı
 Maks. haritalar işaretlendi
+Ürün bilgisi güncellendi (fiyat değişti), lütfen yenile ve tekrar dene.
+Ürün bilgileri güncellendi (ürün çevrimdışı), lütfen yenileyip tekrar dene.
 Hatalı veri: Maksimum etikete ulaşıldı
 Ödül alındı
 Bu içerik üreticisini henüz takip etmiyorsun
@@ -1046,13 +1065,13 @@ Oyuncu zaten eşleştirmede (MM32)
 Takım üyelerinin sayısı gereksinimi karşılamıyor (MM31)
 Takım lideri değilsin (MM30)
 Bu oyuncu bir emülatör kullandığından izlenemiyor
-Hilecinin olduğu bir maçı izlyemezsin
+Bu maç şu anda izlenemiyor
 Arkadaşın maçta değil
 İzleyiciler dolu
 Pyro'ya zaten sahipsin.
 Sen ve diğer oyuncu Dinamik İkili değilsiniz
-Dinamik İkili'nin Pyro'su henüz gerekli seviyeye ulaşmadı
-Dinamik İkili'nin henüz Pyro'su yok.
+Arkadaşının Pyro'su henüz gerekli seviyeye ulaşmadı
+Arkadaşının henüz Pyro'su yok
 Renk ID mevcut değil
 Çevirme kalmadı
 Ödül havuzu hala kilitli
@@ -10387,7 +10406,7 @@ Tamamla
 Sınırlı teklifler: {0}
 Aşağıdaki ödülleri havuzdan kaldırmak istediğine emin misin?
 Kaldırıldı
-Çevirmeden önce, havuzdan beğenmediğin iki ödülü sol aşağıdan seçerek kaldır.
+Kaldırmak için 2 eşya seç. Başlamak için Onayla'ya dokun.
 Alınan ödüller tekrar alınmaz. Her çekişten sonra gereken elmas artar.
 1. Elmas kullanarak yarışmaya katıl. Kazanılan ödüller bir daha kazanılamaz. Her çekişten sonra gereken elmas artar. Şu anki çekiliş ücreti: {0}
 2. Çekmeden önce, istemediğin 2 ödülü kaldırabilirsin [FFB300](büyük ödül hariç)[-], böylece büyük ödüle ulaşma şansın artar.
@@ -11481,7 +11500,7 @@ Yoldaş Görünümü: Siber Paytarz
 Canlı, zengin ve asil. Kelimeler onu anlatmaya yetmez.
 Yoldaş Görünümü: Altın Paytarz
 Yakın zamanda mesaj yok.
-Maç alanına giriş henüz açık değil. Kahramanlar, lütfen biraz bekleyin.
+Savaş alanı henüz açık değil. Kahramanlar, açılış detayları için lütfen resmi kanalları kontrol edin.
 İlgili oyuncu havuzu bulunamadı. Eşleştirme başarısız oldu. (MM9)
 Üzgünüz, abonelik cihazın mağazası tarafından desteklenmiyor.
 Bu hesap üzerindeki yüksek bildiriler sebebiyle hesaba olan erişim geçici olarak engellenmiştir. Bu hesaptaki etkinlikleri ayrıntılı bir şekilde araştıracağız. Hesap engeli kaldırıldığında normal olarak oynamaya devam edebilirsin.\nHerhangi bir sorun varsa, lütfen oyuncu destek ekibi ile iletişime geç.\nEngelin kalkmasına kalan süre:
@@ -19917,7 +19936,7 @@ Büyük Usta rütbesine ulaştığınız için tebrikler!
 Büyük Usta derecesine ulaşmak için [FFBA00]{0}[-] puan biriktir
 Kahraman {0}[S0] Büyük Usta derecesine ulaş.
 EN İYİ
-[FFB300]{0}s[-], saldırıya uğradıktan sonra, [FFB300]{2}s[-] boyunca [FFB300]{1}HP[-]/sn doldurur
+Hasar aldıktan [FFB300]{0} sn[-] sonra, [FFB300]{2} sn[-] boyunca [FFB300]{1} CP[-] yeniler
 Bir rakibi hakladıktan sonra, {0}m içerisindeki rakiplerin haritadaki pozisyonları belirir. Bilgi takım arkadaşları ile paylaşılır.
 Son Saniye
 Hafıza Sisi
@@ -28073,7 +28092,7 @@ LAB, oyuncularımız için görüntülemeyi ve gezinmeyi daha sorunsuz hale geti
 LAB
 İçerik yok
 Sayfalarında kadim sırlar saklı gizemli bir kitap
-Hücum Hiper Kitabı
+Hücum
 Dinozor İllüzyonu (Alt)
 Şakalandın!
 Tamam
@@ -33114,7 +33133,7 @@ Olasılık
 {0} ön siparişini başarıyla verdin. {1} tarihinde oyun içi postana gelecek.\nNot: Lütfen ön sipariş ödülünü aşağıdan almayı unutma.
 Bildirim: Ön sipariş ve Varış
 Sayfalarında galaktik güçlerden gelen hazineler gizli
-Galaksi Hiper Kitabı
+Galaksi
 Booyah Pass'a başarıyla abone olundu
 Bir rakibi başarılıyla vurduğunda ekran titremesi tetiklenir
 İlk gol atan kazanır
@@ -38226,10 +38245,10 @@ Dönüştürülen Jetonlar:
 Almak için onayla
 Evrensel Evo Jetonu Dönüşümü
 Sayfalarında mühürlü güçlere sahip mistik bir kitap.
-Alevli Hiper Kitap
+Cehennem
 Gizli Sayfa {0}
 Sayfalarında mühürlü güçlere sahip mistik bir kitap.
-Büyü Taşı Hiper Kitabı
+Büyü Taşı
 Ok 2
 {0} [bababa]({1}den)[-]
 {0} dk
@@ -43972,7 +43991,7 @@ Jöle Saldırısı
 Çılgın Balıkçı
 Limite ulaşıldı
 Sayfalarında mühürlü güçlere sahip mistik bir kitap.
-Mürekkep Hiper Kitap
+Mürekkep
 Sonraki çevirmede büyük ödül garanti
 Şanslı Çevirme!
 İnanılmaz Şans
@@ -45040,7 +45059,7 @@ Takımlaşma Yasaklandı
 Takımlaşma Yasaklandı. Dereceli Yasaklandı.
 Takımlaşma Yasaklandı. Dereceli Yasaklandı. Derece Sıfırlandı.
 İşlendi
-Yetersiz kanıt
+İzleniyor
 İncelemedi
 Onur Serisi Ödülü
 Ödülleri almak için giriş yap ve belirli sayıda gün boyunca kümülatif olarak 100 Onur Puanını koru.
@@ -45686,7 +45705,7 @@ Kötü Kasap Avlama görevi zaten kabul edildi
 Takip Et
 Kötü Kasap kaçtı. Görev başarısız oldu.
 Uyarı
-DİRİLTİLDİ
+DİRİLT
 Takım arkadaş(lar)ın maçtan çıktı. Diriltilemiyor.
 EÇ Derece Koruma Kartı
 Bir sonraki EÇ Dereceli karşılaşman bir derece düşüşüyle sonuçlanırsa, seni korur.
@@ -46712,7 +46731,7 @@ Doldurma hızı [FFB300]%{0}[-] artar. Yetenek kullanıcısı bir düşmana her 
 Uyanış: Artımlı takviye maksimum seviyeye ulaştığında, hedefe yapılan [FFB300]ilk darbe[-], [FFB300]%{0}[-] HSR uygular.
 Yetenek bozan etkilere karşı gel (örn, yavaşlatma, işaretleme, susturma) ve [FFB300]{2}s[-] boyunca [FFB300]%{1}[-] hareket hızı artışı kazan. Bekleme Süresi: [FFB300]{0}s[-].
 Koşarken, hareket hızı saniyede [FFB300]%{0}[-] artar (maks. [FFB300]%{1}[-]). Her artımlı güçlendirme [FFB300]{2}s[-] sürer.
-Bir rakibi düşürdükten veya aktif bir yetenek kullandıktan sonra, silahın şarjörü [FFB300]{0}%[-] miktarda otomatik olarak dolar.
+Bir rakibi düşürdükten veya aktif bir yetenek kullandıktan sonra, silahın şarjörü [FFB300]{0}%[-] miktarda otomatik olarak yenilenir.
 Gümüş Kaşık
 Bozulmaya karşı dayanıklı
 Doldurma hızını artırır ve vurulan düşmanlarda iyileştirme kesintisine neden olur.
@@ -48301,7 +48320,7 @@ Temel
 Özel
 Şu anda kullanılamıyor. Takipte kal!
 Sayfalarında mühürlü güçlere sahip mistik bir kitap.
-Buz Alevi Hiper Kitap
+Buz Alevi
 Tam Takım Dirilişi
 Konumu Açığa Çıkar
 Herkesi Dirilt
@@ -48437,6 +48456,7 @@ Bitiş Puanı
 Zaman Sınırlı Mod
 Maç
 Yarışma
+Klan Savaşları Duyurusu
 Yeni Rekor!
 Yeni Tur
 Sonraki Tur
@@ -51945,7 +51965,7 @@ Simit
 [FFBA00]Booyah Yok Edişi[-]\nHerhangi bir moddaki Booyah bu yok etme etkisini tetikler.\n[FFBA00]Takım Yok Edişi[-]\nDüşman ekibinin son üyesini ortadan kaldırırken bu yok etme etkisini tetikler.
 Lobide Jiroskop Etkisi
 Sayfalarında mühürlü güçlere sahip mistik bir kitap.
-Paradoks Hiper Kitap
+Paradoks
 Etkinlik Özel Ses Paketi
 Klan Özel Ses PAketi
 JKT48 üyelerinin özel sesleriyle oynamak daha da eğlenceli olacak!
@@ -53277,7 +53297,7 @@ Atlama sırasında yukarı ve aşağı hareket yüksekliğini kontrol eder
 Atlama Tetikleyicisi
 Ödülü almak için voleybol puanı elde et
 Her oyuncu yalnıza bir kez ödül alabilir
-Yetenek Görünümü: Medcezir Ritmi
+Yetenek Görünümü: Karışık Ritim
 Yetenek Görünümü: Rüzgar Ritmi
 Özel Silah Değiştirme Sesi
 Özel Doldurma Sesi
@@ -53869,13 +53889,13 @@ Her eleme, maksimum Kalkan Puanlarını kalıcı olarak [FFB300]{0}[-] artırır
 Ekstrem duruma girer ve anında [FFB300]{1}[-] geçici Kalkan Puanını [FFB300]{0}[-] saniye boyunca elde eder, bu esnada bir düşmanın her yere serilmesi bu beceriyle kazanılan geçici Kalkan Puanlarını [FFB300]{2}[-]'e geri yükler ve durum süresini sıfırlar. Durum sona erdiğinde, bu işlemden kazanılan Kalkan Puanları kaldırılır. Bekleme süresi: [FFB300]{3}sn[-].
 Çakra Kalkanı alındı
 Ateş Topu Tekniği yüzünden etraf ateşlerle çevrili ve her saniye CP kaybediyor
-Bu Ninjutsu, kullanıcının ateş topu üflemesine olanak tanır, önündeki tüm Muhafız Duvarlarını yok eder ve çarpma sonucunda bir patlama meydana getirir, ardından yanma hasarı veren alevler bırakır.
+Yolundaki tüm Muhafız Duvarları yok eden ve çarpma anında patlayarak geride yanma hasarı veren alevler bırakan bir ateş topu püskürt.
 Ateş Topu Tekniği
 Su Ejderi Tekniği yüzünden etraf görüşü engelleyen su topu ile çevrili
-Bu Ninjutsu, kullanıcının suyu bir ejder şekline dönüştürerek üflemesine olanak tanır, önündeki tüm Muhafız Duvarlarını yok eder ve çarpma sonucunda büyük, görüşü engelleyen bir su topu oluşturur.
+Yolundaki tüm Muhafız Duvarları yok eden ve görüşü engelleyen bir su topu püskürt.
 Su Ejderi Tekniği
 Büyük Darbe yüzünden etraf hareket hızını düşüren ve atış oranını azaltan rüzgarlar ile çevrili
-Bu Ninjutsu, kullanıcının hava patlamaları üflemesine olanak tanır, önündeki tüm Muhafız Duvarlarını yok eder ve çarpma sonucunda bir fırtına yaratır, ardından düşmanların hareket hızını ve atış oranını azaltan rüzgarlar oluşturur.
+Hasar veren hava dalgaları püskürterek arkalarında dönen rüzgarlar bırakır, düşmanları yavaşlatır ve atış oranlarını azaltır.
 Büyük Darbe
 Geçilemez bir kuvvet alanı yaratır ve içinde hareket hızını artırır
 Maks. Kalkan Puanı haklamalarla kalıcı olarak artar
@@ -54961,13 +54981,13 @@ Düşmanlara veya araçlara [FFB300]taarruz ve nişancı tüfekleriyle[-] vuruld
 Tutkal Vuruşu
 Çakra Kalkanı alındı
 Rasengan yüzünden düşük hareket hızı ve atış oranı
-Bu Ninjutsu Tekniği, kullanıcının orta mesafede hızla atılmasını sağlar ve vurduğu hedefe orta düzeyde hasar verirken hareket ve atış hızını da azaltır.
+İleri atıl ve isabet alan hedefe hasar vererek hareket hızını ve atış oranını azalt.
 Rasengan
 Chidori yüzünden fırlatılabilirler ve mini harita kullanılamıyor
-Bu Ninjutsu Tekniği, kullanıcının uzun mesafede hızla atılmasını sağlar ve vurduğu hedefe büyük hasar verirken, hedefin fırlatılabilir kullanmasını ve mini haritayı kontrol etmesini engeller.
+İleri atıl, hasar ver ve isabet alan hedefi sekteye uğrat.
 Chidori
 Kiraz Çiçeği Vuruşu yüzünden havaya fırtlatıldı
-Bu Ninjutsu tekniği, kullanıcının kısa mesafede hızla atılmasını sağlar ve vurduğu hedefe az hasar verirken onu havaya fırlatır.
+İleri atıl, isabet alan hedefe hasar ver ve onu havaya savur.
 Kiraz Çiçeği Vuruşu
 Saldırı ve Nişancı Tüfekleri düşmanları yavaşlatır. Fazladan Muhafız Duvar elde edilir.
 Lütfen kurtarma e-postanı ve güvenlik kodunu gir
@@ -54976,7 +54996,7 @@ Arabellek süresi sona erdiğinde, önceki kurtarma e-postan artık geçerli olm
 Arabellek süresi sona erdiğinde, kurtarma e-postan tamamen bağlanacaktır. Daha sonra bunu gelecekte hesap kurtarma için kullanabilirsin.
 Arabellek süresi sona erdiğinde kurtarma e-postan artık geçerli olmayacak ve bu da hesap kaybı riskini artıracaktır.
 Kurtarma e-postası:
-Hedef e-posta zaten bağlı. Lütfen başka bir adres dene.
+Hedef e-posta zaten başka bir hesaba bağlı. Lütfen başka bir tane dene.
 Kurtarma E-Postası
 Hesap bağlama işlemi {0} gün içinde tamamlanacak
 Bağlı platform hesabının e-postasını veya paylaşılan bir e-postayı kullanman önerilmez.
@@ -55142,9 +55162,9 @@ Pochinok
 Riverside
 Sentosa
 Shipyard
-BOOYAH yolu! (Kullanıcı, başlangıç adasına gizli hediyeler (rastgele miktarda ekipman, Altın veya Elmas Otomatı Fişleri) yerleştirebilecek. Hediyeler 10 oyuncu için mevcuttur.)
+BOOYAH yolu! (Kullanıcı, başlangıç adasına gizli hediyeler (rastgele miktarda ekipman, Altın veya Fiş) yerleştirebilecek. Hediyeler 10 oyuncu için mevcuttur.)
 BOOYAH Kupası
-Beğendiğin bir şey mi gördün? (Kullanıcı, başlangıç adasına gizli hediyeler (rastgele miktarda ekipman, Altın veya Elmas Otomatı Fişleri) yerleştirebilecek. Hediyeler 10 oyuncu için mevcuttur.)
+Beğendiğin bir şey mi gördün? (Kullanıcı, başlangıç adasına gizli hediyeler (rastgele miktarda ekipman, Altın veya Fiş) yerleştirebilecek. Hediyeler 10 oyuncu için mevcuttur.)
 Işık Gösterisi
 EÇ S27 Seçkin Kahraman derece ödülü
 BR S42 Seçkin Kahraman derece ödülü
@@ -56059,7 +56079,7 @@ Takım 7'ye Katıl
 Al
 Hepsini Al
 Alındı
-Alındı: [fec21c]{0}[-]/4
+Alındı: [fec21c]{0}[-]/5
 Her {0} ilerleme artışında, aşağıdaki ödülleri al.
 Her {0} ilerleme artışında, aşağıdaki listeden rastgele ödüller al.
 Günlük Görevler
@@ -56082,7 +56102,7 @@ YK Günlük Limit: {0}/{1}
 Gamabunta Çağırma
 {0}'da mevcut
 Koleksiyon İlerlemesi
-Büyük ödülü almak için 5 NARUTO SHIPPUDEN kıyafet paketi'nden [fec21c]4[-] tanesini topla!
+Büyük ödülü almak için 6 NARUTO SHIPPUDEN kıyafet paketi'nden [fec21c]5[-] tanesini topla!
 Çağırmak için {0} ilerlemeye ulaş
 Etkinlik kaynağı indirildi
 "Bölüm 1: Dokuz Kuyruklu'nun Vuruşu" etkinliğini indir ve katıl, ödül olarak ücretsiz Jiraiya Paketi ve etkinlik temalı Savaş Kartı al!
@@ -56101,7 +56121,7 @@ Rezerve Et
 Kıyafet rezerve. Mevcut olduğunda bir bildirim alacaksın.
 Rezerve
 Aşağıdaki ödülleri kazanın:
-Kural:\n1.Günlük Görevler: Ateş Parşömenleri kazanmak için günlük görevleri tamamlayın ve Ninja yolculuğunuza başlayın!\n2.Temel Oynanış: Dokuz Kuyruklu'ya karşı savunma yapmak için Ateş Parşömenlerini kullanın! İlerleme arttıkça ödüller alın ve ninja arkadaşlarınızı çağırın. Ayrıca ücretsiz bir kıyafet paketi de kazanabilirsiniz!\n3. Sınırlı Zamanlı Kıyafet Koleksiyonu: NARUTO SHIPPUDEN kıyafet paketlerinden 4 tanesini toplayarak Gamabunta Süper İfadesini kazanın!\n4. Naruto Savaş Kartı: Bu özel savaş kartını ücretsiz olarak açmak için özel görevleri tamamlayın!
+Kural:\n1. Günlük Görevler: Günlük görevleri tamamlayarak Ateş Parşömenleri kazan ve ninja yolculuğuna başla!\n2. Ana Oyun Modu: Ateş Parşömenlerini kullanarak Dokuz Kuyruklu'ya karşı savaş! İlerlemen arttıkça ödülleri al ve ninja yoldaşlarını çağır. Ayrıca ücretsiz bir kıyafet paketi de kazanabilirsin!\n3. Sınırlı Süreli Kıyafet Koleksiyonu: 5 NARUTO SHIPPUDEN kıyafet setini toplayarak Gamabunta Süper İfadesi'ni kazan!\n4. Naruto Savaş Kartı: Özel görevleri tamamlayarak bu eşsiz savaş kartının kilidini ücretsiz aç!
 Etkinlik Detayları
 Şimdi Mevcut
 Atla
@@ -56233,7 +56253,7 @@ Chrono'nun Mikroçipi
 Hızlı atış oranına sahip ama nispeten düşük hasar verir
 8x dürbünlüdür ve yüksek tek atış hasarı verir
 Kolay kafadan vuruşlar için yüksek tek atış hasarı
-En stabil SMG
+En stabil HMT
 Siper oluşturur
 AoE hasarı verir
 Düşmanı iki vuruşla hakla
@@ -56350,11 +56370,11 @@ Diriltme Bölgesi kapalı
 Kalan: {0}
 Hava Desteği Otomatı geri döndü!
 Hava Desteği Otomatı Geri Döndü
-Dokuz Kuyruklu Bermuda'da ortaya çıktı. Dikkatli ol!
+Dokuz Kuyruklu ortaya çıktı. Dikkatli ol!
 Maçın başlarında, Gizli Yaprak Köyü'nde elenen oyuncular bir kere diriltilebilir.
 Dokuz Kuyruklu'nun Vuruşu
 Şu anda bu eşya kullanılamıyor.
-NARUTO SHIPPUDEN iş birliği
+NARUTO SHIPPUDEN
 Çağır
 Ichiraku Ramen en iyisi! 2 EP/s yenile.
 Mmm, nefis
@@ -56803,7 +56823,7 @@ Kutu boşalmadan önce ödüller mevcut
 Ekstra bilgi ve gizemli eşyaları bulmak için haritadaki Buzlu Makineler ile etkileşime geç!
 Buzlu Makine
 Çağırma başarısız. Anlık konum bulunamıyor.
-Gamatatsu sana bir şeyler getirdi! (Kullanıcı, başlangıç adasına gizli hediyeler (rastgele miktarlarda teçhizat, Altın veya Elmas Otomat Fişleri) yerleştirebilecektir. Hediyeler 10 oyuncu için mevcuttur.)
+Gamatatsu sana bir şeyler getirdi! (Kullanıcı, başlangıç adasına gizli hediyeler - rastgele miktarlarda teçhizat, Altın veya Fiş-  yerleştirebilecektir. Hediyeler 10 oyuncu için mevcuttur.)
 Gamatatsu
 Etkinliğe özel ses paketi
 BR S43 Seçkin Kahraman derece ödülü
@@ -57269,11 +57289,11 @@ Menzil
 Saldırı Hızı
 Vuruş Sayısı
 Hareket Hızı
-Yakın-orta menzil için uygun, SMG cephanesi kullanan bir silah.
+Yakın-orta menzil için uygun, HMT cephanesi kullanan bir silah.
 Cephane gerektirmeyen güçlü bir enerji silahı.
 En iyi yakın mesafede kullanılan bir pompalı tüfek. SG cephanesi kullanır.
 Güçlü bir üçlü atış yapabilen pompalı tüfek.
-SMG cephanesi kullanan, uzun menzil için uygun bir silah. 4x dürbün ve susturucu ile birlikte gelir.
+HMT cephanesi kullanan, uzun menzil için uygun bir silah. 4x dürbün ve susturucu ile birlikte gelir.
 [b]Hasar:[/b] Silahın gücü\n[b]Saldırı Hızı:[/b] Birim zaman başına yapılan saldırı sayısı\n[b]Menzil:[/b] Etkili saldırı mesafesi\n[b]İsabetlilik:[/b] Silahın düşmanı vurma kolaylığı\n[b]Hareket Hızı:[/b] Silah taşırken hareket hızı\n[b]Şarjör:[/b]Bir silahın aynı anda tutabileceği cephane\n[b]Doldurma Hızı:[/b] Şarjörü doldurmak için gereken süre\n[b]Zırh Delme:[/b] Silahın düşman zırhını delme yeteneği
 Animasyon denetleyicisinde {0} durumu mevcut değil
 Fikrine Katıl
@@ -58397,7 +58417,7 @@ Altın Başlangıç
 Başlangıçta herkesin büyük bir para yığını kazanma şansı var.
 (3 Kullanım)
 Yetenek Kartı Bekleme Süresi: {0}sn
-{0} alındı
+{0} al.
 (1 Kullanım)
 (Limit Yok)
 Aynı yeteneği zaten Yetenek Kartı olarak kuşandınız. Bunun yerine yetenek bekleme süresi azalıyor.
@@ -58414,7 +58434,7 @@ Bütün nişancı tüfeklerini satan bir mağaza oluştur
 Bir EÇ mağazası oluştur
 Kimin şarkıları daha iyi: Thiva mı Dimitri mi?
 Sadece AC80 satan bir mağaza oluştur
-Sadece SMG olan bir mağaza oluştur
+Sadece HMT olan bir mağaza oluştur
 Bütün eşyaların olduğu bir mağaza oluştur
 Tüketilebilir malzemeler için bir mağaza istiyorum
 Sadece mermi satan bir mağaza oluştur
@@ -58726,7 +58746,7 @@ Zaten tokum, daha fazla yiyemem
 İftar vakti! Yiyecek tezgahlarını bul ve karnını doyur.
 YEMEK YE
 Sayfalarında mühürlenmiş güçler barındıran mistik bir kitap
-Gece Yarısı Kitabı
+Gece Yarısı
 Kadim eşyalar Tekno Atölyelerde mevcut
 Tekno Kadim Eşya'ya Git
 Üretmek için bir kadim eşya seç
@@ -58779,9 +58799,9 @@ Güvenli Bölgeyi belirlemek için tıkla
 Bu kadim eşya artık kullanılamıyor
 Konum uygun değil. Lütfen başka bir tane seç.
 Gelecek Güvenli Bölge yer değiştirdi!
-Harekete hazır mısın? (Kullanıcı, kabine teçhizat, Altın veya Elmas Otomatı Fişleri gibi gizli hediyeler koyabilir. Hediyeler 10 oyuncu için geçerlidir.)
+Harekete hazır mısın? (Kullanıcı, kabine teçhizat, Altın veya Fiş gibi gizli hediyeler koyabilir. Hediyeler 10 oyuncu için geçerlidir.)
 Gece Yarısı Kavgası
-Benim alanım, benim kurallarım! (Kullanıcı, kabine teçhizat, Altın veya Elmas Otomatı Fişleri gibi gizli hediyeler koyabilir. Hediyeler 10 oyuncu için geçerlidir.)
+Benim alanım, benim kurallarım! (Kullanıcı, kabine teçhizat, Altın veya Fiş gibi gizli hediyeler koyabilir. Hediyeler 10 oyuncu için geçerlidir.)
 Benim Alanım
 Ramazan 2025 Ses Paketi
 Oruç Ses Paketi
@@ -58837,7 +58857,7 @@ Oyuncu saldırı altında! Hemen uyar! Oyuncuya, hasardan kaçınmak için arazi
 Oyuncuya canının azaldığını hatırlat ve yenilemek için bir Sağlık Kiti kullanmasını tavsiye et.
 Oyuncu bir düşmanı yere serdi. Oyuncuyu takdir et.
 Oyuncuyu takdir et! İlk düşmanı elediğini söyle, iyi bir başlangıç!
-Bana iki SMG öner
+Bana iki HMT öner
 Bana MP40'dan bahset
 Bana kısa menzil bir silah öner
 Takım arkadaşlarımla nasıl daha iyi çalışabilirim?
@@ -61764,7 +61784,7 @@ Bir takıma katıldıktan sonra {0} içinde Yükleme Görevini tamamla, yoksa g�
 Takımda başka oyuncular varken takım lideri ayrılamaz
 Başarıyla etkinleştirildi
 Yükleme Görevini tamamladıktan sonra ödüllerini al
-Katılınacak mevcut bir takım yok
+Mevcut takım yok. 5 dakika sonra tekrar dene.
 Takımını {0} üye ile kur
 {0} üye, ödüller için katıl!
 Önce bir takıma katıl veya oluştur
@@ -62624,7 +62644,7 @@ Kızıl Ay
 Kutsal Ağaç Hava Desteği'ni ele geçir ve Kızıl Ay’ı etkinleştir!
 Kutsal Ağaç Hava Desteği
 Kızıl Ay Puanları ve Akatsuki Yadigarları için Kutsal Ağaç Hava Desteğini ele geçir!
-Dikkat et, patlayabilir! (Oyuncu, kabine teçhizat, Altın veya Elmas Otomatı Fişleri gibi gizli hediyeler yerleştirebilir. Hediyeler 10 oyuncu için geçerlidir.)
+Dikkat et, patlayabilir! (Oyuncu, kabine teçhizat, Altın veya Fiş gibi gizli hediyeler yerleştirebilir. Hediyeler 10 oyuncu için geçerlidir.)
 Patlayan Kilden Kuş
 Bırak kalbin parlasın. (Kullanıcı, kabine teçhizat, Altın veya Elmas Otomat Fişleri gibi gizli hediyeler yerleştirebilir. Hediyeler 10 oyuncu için geçerlidir.)
 Işıltılı Kalp
@@ -63704,7 +63724,7 @@ Takım Hazinesi için alınmamış ödülün var!
 Daha önce oluşturduğun takımına geri döneceksin
 Herkese Açık
 (Herkes katılabilir)
-(Yalnızca davetiyeyle katılım)
+(Yalnızca Lider'in davetiyesiyle)
 Yükleme Görevi tamamlandı! Ödülleri almak için bir takıma katıl!
 Ekibini herkese açık yaparak daha fazla oyuncunun katılmasını sağlayabilirsin!
 Süre Sınırı
@@ -64202,7 +64222,7 @@ Güvenli Bölge içinde herhangi bir konuma taktiksel bir cihaz yerleştir
 Bir cihaz seçmek için dokun
 Bir yer seç ve ayarlamak için sürükle
 Onu yerleştirmek için buraya dokun
-Süper Kamp Ateşi, atış oranını % 15 artırır
+Süper Kamp Ateşi, atış oranını % 8 artırır
 Her turda bir Taktiksel Panel kazan. Bunu, haritanın herhangi bir noktasına taktiksel cihazlar yerleştirmek için kullanabilirsin. Ayrıca, cihazları EÇ Mağazası'nda satın alabileceksin.
 Yardımcı Bot kullanıma hazır
 Her turda bir Yardımcı Robot kazanırsın. Bunu, takım arkadaşını uzaktan kaldırmak için kullanabilirsin. Ayrıca, takımın için güçlendirme satın alabileceğin Gizli Pazar EÇ Mağazasında açılır.
@@ -65838,7 +65858,7 @@ Sonuçlar
 Bas Konuş
 Açıkken Bas-Konuş mikrofonuna geç. Konuşmak için mikrofon tuşunu basılı tut, bitirmek için bırak.
 Konuşmak için mikrofon tuşunu basılı tut, bitirmek için bırak.
-Her Zaman Açık
+Mikrofon Modu
 Gizlilik
 Eşleştirme sırasında kuşanılamadı
 Geçilen oyuncular
@@ -66264,8 +66284,8 @@ Tüfek Hasar Azaltma Eklentisi
 Zırh kuşanıldığında, taarruz tüfekleri ve nişancı tüfeklerinden alınan hasarı azaltır
 Pompalı Tüfek Hasar Azaltma Eklentisi
 Zırh kuşanıldığında, pompalı tüfeklerden alınan hasarı azaltır
-SMG Hasar Azaltma Eklentisi
-Zırh kuşanıldığında, SMG'lerden alınan hasarı azaltır
+HMT Hasar Azaltma Eklentisi
+Zırh kuşanıldığında, HMT'lerden alınan hasarı azaltır
 Keskin Nişancı Hasar Azaltma Eklentisi
 Zırh kuşanıldığında, keskin nişancı tüfeklerinden alınan hasarı azaltır
 Toplanma Noktası
@@ -66393,7 +66413,7 @@ Maça M1887 ile başla
 M Zafere Koşuyor
 Hava Desteği Otomatı, uygun fiyatlı silahlar ve Diriltme Kartlarıyla geri dönüyor
 Yukarıdan Otomat
-Yerde yalnızca SMG’ler ve pompalı tüfekler bulunur. Diğer türdeki silahlar Otomatlardan veya Hava Destekleri'nden elde edilebilir.
+Yerde yalnızca HMT'ler ve pompalı tüfekler bulunur. Diğer türdeki silahlar Otomatlardan veya Hava Destekleri'nden elde edilebilir.
 Yalnızca Yakın Menzil
 Solo modunda Diriltme Noktası bekleme süresi 30 saniye ve İkili ile Takım modlarında Diriltme Kartları yarı fiyatına!
 Hemen döneceğim
@@ -66414,7 +66434,7 @@ Tekli Dirilme Puanı
 Tekli Dirilme Şansı
 Sahip olduğun dirilme sayısı. Daha fazla dirilme kazanmak için Diriltme Noktalarını ele geçir!
 Takım Diriltmesi
-Takım Diriltme Koruması Açık
+Takım Dirilişi, takımınla birlikte inerek etkinleştirildi
 Takım Diriltmesi etkinleştirildi!
 Hedef konuma fırlat, ardından hançerin yanına ışınlan.
 Işınlanma Hançeri
@@ -66837,7 +66857,7 @@ Megumi Fushiguro Çıkartması
 Yuji Itadori Çıkartması
 Nobara Kugisaki Çıkartması
 Satoru Gojo Çıkartması
-Hazine benim!\n(Kullanıcı, kabine teçhizat, Altın veya Elmas Otomatı Fişleri gibi gizli hediyeler bırakabilir. Hediyeler 10 oyuncu için geçerlidir.)
+Hazine benim!\n(Kullanıcı, kabine teçhizat, Altın veya Fiş gibi gizli hediyeler bırakabilir. Hediyeler 10 oyuncu için geçerlidir.)
 Hazine Sandığı
 Gizlilik modunda. Uzak düşmanlara zor görünür ve dronlar ya da tarama yetenekleri tarafından tespit edilemez.
 Gizli düşman vuruşu
@@ -67823,7 +67843,7 @@ Gol Vuruşu setinden (M4A1 + M1917) rastgele bir silah görünümü almak için 
 Temel Ayarlar
 Oyuncu Bulut Deposu
 Otomatik kaydetme özelliğinin türünü değiştirmek mevcut çevrimiçi verileri okunamaz hale getirecektir. Emin misin?
-Etkinleştirildiğinde, oyuncu verileri otomatik olarak kaydedilecek ve sonraki maçlar için uygulanacak.
+Etkinleştirildiğinde oyuncu verileri otomatik olarak kaydedilir ve sonraki maçlarda kullanılır. Not: Her özellik en fazla 4 KB veri depolayabilir.
 Oluştur
 Oyun testi kaydı yok
 Lütfen önce Veri Deposu Modülü'nü etkinleştirin.
@@ -68058,7 +68078,7 @@ Jeton[S0], [ffba00][fs=32][b]{0}[/b][/fs][-] çevirme içinde garanti.
 1. Açığa çıkan eşyaları ve jetonları satın almak için Elmasları veya Fişleri kullan.\n2. Her satın alımdan sonra, bir sonraki eşya etkinliğin mevcut ödül havuzundan, büyük ödül de dahil olmak üzere ücretsiz olarak açığa çıkar.\n3. Jetonlar, Takas Mağazasında büyük ödül de dahil olmak üzere belirli ödüllerle takas edilebilir. Bazı ödüller, yetersiz Jetonları telafi etmek için Elmas kullanılmasına izin verir.
 Büyük Ödül, [ffba00][fs=32][b]{0}[/b][/fs][-] çevirmede garanti.
 Çevirme Kutusu
-(Sadece arkadaşlar katılabilir)
+(Sadece takım arkadaşları)
 Tekrar Katıl
 Sadece liderin arkadaşları katılabilir
 Sadece davetle katıl
@@ -68694,7 +68714,7 @@ Rakipleri düzenli olarak tara
 Her 7 saniyede bir Muhafız Duvar kazan
 Bir dirilme şansı kazan
 Sonsuz EP kazan
-Sv. 5 Kask ve Yelek al
+Sürekli otomatik onarım olan Sv. 5 Kask ve Yelek kazan
 Haklama CP'yi tamamen yeniler
 İki Kat CP
 Haklama +100 kalıcı Kalkan Puanı kazandırır.
@@ -68703,7 +68723,7 @@ Aktif yeteneğini devre dışı bırak, ama hasar +%100 ver
 Hasar alındığında hareket hızı +%150
 Sınırsız CP iyileşmesi
 Sonsuz kendi kendini kaldırma
-+% 50 Hasar
++% {0} Hasar
 Hareket Hızı +%50
 Muhafız Duvar CP +9999
 Yarı CP, ama hasar +%50
@@ -68819,7 +68839,7 @@ Dünya Kupası Jetonu 2
 Futbol Yıldızı Jetonu
 Sarı Para Jetonu
 Sayfalarında mühürlü güçlere sahip mistik bir kitap.
-Tutulma Hiper Kitap
+Tutulma
 Mavi Fiş
 Su Altı Gizemi Fişi
 Siber Fiş
@@ -69086,9 +69106,9 @@ Marlin Çıkartması
 Güneş Tutulması Çıkartması
 Futbol Çıkartması
 Kupa Çıkartması
-Kullanıcı kabine teçhizat, Altın veya Elmaslı Otomat Fişi gibi gizli hediyeler yerleştirebilir. Hediyeler 10 oyuncu için geçerlidir.
+Kullanıcı kabine teçhizat, Altın veya Fiş gibi gizli hediyeler yerleştirebilir. Hediyeler 10 oyuncu için geçerlidir.
 Yükselen Yıldız
-Kullanıcı kabine teçhizat, Altın veya Elmaslı Otomat Fişi gibi gizli hediyeler yerleştirebilir. Hediyeler 10 oyuncu için geçerlidir.
+Kullanıcı kabine teçhizat, Altın veya Fiş gibi gizli hediyeler yerleştirebilir. Hediyeler 10 oyuncu için geçerlidir.
 Süperstar
 Hareket hızı [FFB300]%{2}[-] azalarak bir çalıya dönüşür, [FFB300]{1}sn[-] sürer. Kullanıcı hareketsiz kalırsa süre uzar. Wukong saldırdığında dönüşüm iptal olur. Wukong yetenek serbest bırakıldıktan sonra [FFB300]{3}sn[-] içinde bir düşmanı hakladığında bekleme süresi sıfırlanır. Bekleme süresi: [FFB300]{0}sn[-].
 Çalıya dönüşür ve iki ek çalı oluşturur. [FFB300]{0}sn [-] sürer.
@@ -69215,7 +69235,7 @@ Otomatik Kayıt Özelliği
 Diğer
 Yapay Zeka Animasyonu
 Geçerli Özellik Yok
-HMT ve Tüfekler
+Uzun Silahlar
 Metin Şablonu
 Şablon olarak kaydet
 Şablon Uygula
@@ -69811,15 +69831,15 @@ Pompalı Tüfekçi
 Şarjör kapasitesini, hasarı ve saçılma kontrolünü artırır
 Dengeli Şarjör
 Sürekli atış için şarjör kapasitesini ve dengeyi artırır.
-Hasar azaltma oranı
+Kalkan hasarı azaltma
 Koşarken saldırılara izin verir
-Çökmüş bölgenin ortaya çıkmasına kalan mesafe
-Bazı bölgeler yıkılmak üzere.
-Bazı bölgeler çöktü
-Bölge çökmek üzere
-Yıkılmak üzere olan bölgeye girildi
-Bölge çöküyor
-Çökmüş Bölgeyi Terk Et
+Çökme Bölgelerinin ortaya çıkmasına kalan süre
+Çökme Bölgeleri ortaya çıktı
+İçinde Çökecek
+Girildi
+Çökme Bölgesi
+Tesis Yok Edildi
+Çökme Bölgesini Terk Et
 Takım arkadaşları {0} haklama yaptı, onlarla toplan!
 Takım arkadaşlarının {0} diriltmesi var, onlarla toplan!
 Takım arkadaşlarının ortalama puanı {0}, onlarla toplan!
@@ -69913,7 +69933,7 @@ AUG - Alevli Kırık
 AUG görünümünü geliştirmek için kullanılır. Etkinliklerden kazanılır veya direkt Mağazadan alınır.
 Alevli Kırık Jetonu
 Çanta - Canlı Yeşil
-Sırt Çantası - Elma Suyu
+Çanta - Elma Suyu
 Çanta - Kızıl Yelpaze
 Çanta - Canlı Kırmızı
 Çanta - Dipsiz İştah
@@ -69925,7 +69945,7 @@ Sırt Çantası - Elma Suyu
 Çanta - Sonsuzluk Özel
 Çanta - Megacampeonato
 Çanta - Kırık Silüet
-Backpack - 9th Anniversary Special
+Çanta - 9. Yıl Dönümü Özel
 Çanta - lnwTrue
 Çanta - Spica İhtiyaçları
 Çanta - Kuzu Kuzu Çantası
@@ -69942,6 +69962,7 @@ BR-Dereceli S52 Usta Sancağı
 BR-Dereceli S52 Kahraman Sancağı
 BR-Dereceli S53 Usta Sancağı
 BR-Dereceli S53 Kahraman Sancağı
+Yaz Yolculuğu Sancağı
 Yıldız Spica Sancağı
 Kuzu Kankalar Sancağı
 Sopa - EWC 2026
@@ -69968,12 +69989,13 @@ Davul Ritmi
 Kutlama Dansı
 Anka Yükselişi
 Yıl Dönümü Töreni
-Sol Sağ Yalpalama
+Dans Et Dostum Dans Et
 Scuba Dansı
 Lekesiz
 Kuzu Kuzu Örgü
 PARAFAL - 9. Yıl Dönümü
 Son Vuruş - Yükselen Anka
+Kırmızı Kart
 Gurur Yargıcı
 Yumruk - Kırık Alevli Kanat
 G36 - S52 Özel: Kuzu Kuzu
@@ -70014,8 +70036,11 @@ BR-Dereceli S52 Usta Avatarı
 BR-Dereceli S52 Kahraman Avatarı
 BR-Dereceli S53 Usta Avatarı
 BR-Dereceli S53 Kahraman Avatarı
+Kumlar Avatarı
+Denizler Avatarı
 Adalet Avatarı
 Yıldız Spica Avatarı
+Dalgalar Avatarı
 Kuzu Kankalar Avatarı
 At hareket halinde özel efektlere sahip olacak
 At hareket efekti
@@ -70046,10 +70071,13 @@ M500 - Saf Spica
 Pala - Elektro Metamorfoz
 Pala - Boyutsal Kabadayı
 Pala - S53 Özel: Spica
+Pala - SEA Sonbahar 2026
 Pala - Kuzu Kuzu Hav
 MAG-7 - Kızıl Kader
 Lüks Teknesi
 Kırık İniş
+Tenxi iş birliği tema şarkısı
+Cari yang Baru
 AAA iş birliği tema müziği
 Booyahka
 9. Yıl Dönümü tema şarkısı
@@ -70091,6 +70119,7 @@ At - Ay Işığı
 Cip - Canlı Yeşil
 Cip - Kızıl Samuray
 Cip - Boyutsal Sürüklenme
+Cip - SEA Sonbahar 2026
 Canavar Kamyon - Pamuk Sargıları
 Canavar Kamyon - S52 Özel: Kuzu Kuzu
 Motosiklet - Kırık Tüyler
@@ -70110,6 +70139,7 @@ Boyutsal Kabadayı (XM8 + Desert Eagle) Silah Sandığı
 Süper Taze setinden rastgele bir silah görünümü (Şarj Bozan + UPS-2) almak için aç
 Süper Taze (Şarj Bozan + UPS-2) Silah Sandığı
 XM8 - Boyutsal Kabadayı
+Bir süredir oynuyorsun. Belki kısa bir mola vermenin zamanı gelmiştir?
 {0}'ın yeteneği iyileştirme sağlar
 Kassie'nin yeteneği iyileştirme sağlar
 {0}'ın yeteneği Kalkan Puanları sağlar
@@ -70123,6 +70153,7 @@ Kızıl Şarkıcı Paketi
 Çapraz Kot Paketi
 Pembe Ritim Paketi
 Pop Ritmi Paketi
+Sokak Divası Paketi
 Elektro Kelebek Paketi
 Patlayan Kırılma Paketi
 Kavurucu Kırılma Paketi
@@ -70137,6 +70168,7 @@ Kot Takımı Paketi
 Rin Paketi
 Metalik Ritim Paketi
 Cesaret Kaptanı Paketi
+Sokak Tarzı Paketi
 Rey Mysterio Paketi
 Elektro Metamorfoz Paketi
 Serbest Kırılma Paketi
@@ -70179,7 +70211,7 @@ Bu harita onaylanmadı, lütfen Üretim Diyarı Stüdyosu PC'ye git ve haritayı
 Çoğunlukla Olumlu
 Çok Olumlu
 Son Derece Olumlu
-Harita puanları hem beğeniler hem de beğenmemeler temel alınarak belirlenir ve yalnızca beğeniler {0}'ı aştığında gösterilir
+Harita puanları hem beğenilere hem de beğenmemelere göre belirlenir
 Yüksek Maç Başarı Oranı
 Düşük Maç Başarı Oranı
 Orta Maç Başarı Oranı
@@ -70188,19 +70220,22 @@ Tahmini maç başarı oranı, harita popülerliği ve içerik üreticisinin ayar
 Ortadan Katılma: Kullanılabilir
 Oyun Oturumları: {0}
 Oyun Oturumları
-Oyun Oturumları: bir haritanın oynanma sayısı
+Oyun Oturumları: bir haritanın oynanma sayısı. Gerçek zamanlı olarak güncellenmez.
 Bu haritaya mevcut sunucuda erişilemiyor.
 {0} Takım x {1} Oyuncu
 Mükemmel Davranış Değerlendirmesi Rozeti
 Bu takım arkadaşının davranış değerlendirmesi mükemmel. Booyah için birlikte savaşın!
+Uygun takım yok. Daha sonra tekrar dene veya sistem eşleştirmesini dene.
 Bir cevap seç
+Bölge Takibi
+Sürekli Kilitlenme
 Dalga patladıktan sonra duvarları yok eden küçük bir alan oluşturur. Alan, [FFB300]{0} m[-] içindeki en yakın düşmana yapışır ve onunla birlikte hareket eder. [FFB300]{1} sn[-] sürer.
 Yapışkan Ritim
 Hedef alınan düşmana yapışan küçük bir alan oluşturur ve bu alanın içindeki Muhafız Duvarlara zamanla hasar verir.
 Muhafız Duvarlarını [FFB300]{0}m[-] içinde arar ve [FFB300]{1}sn[-] boyunca hedef duvarlara kilitlenir. Aynı anda bu duvarlardan en fazla [FFB300]{2}[-] tanesine hasar veren sonik dalgalar yayar.
 Ayrık Ritim
 Menzildeki birden fazla Muhafız Duvarı'nı otomatik olarak hedef alır ve onlara doğru ayrık dalgalar gönderir. Bu saldırı, duvarları yok eden alanlar oluşturmaz.
-[ffa200][Newbie][-]
+[ffa200][Çaylak][-]
 Harekete Geç Eğitim
 Yetersiz [S0] karşılamak için FF Altını kullanılabilir
 Animasyonu Geç
@@ -70477,13 +70512,13 @@ Takım oluşturulamadı
 RP Kazançları Azaltıldı
 Takımdaki rütbe farkı çok fazla
 Takımdaki Rütbe Farkı Fazla.\nBu maçta Rütbe Puanı verilmeyecek.
-1. [ffba00]{0}[-] oyuncular, [ffba00]{1}[-] altındaki rütbelerdeki oyuncularla takım olamaz.\n2. [ffba00]{2}[-] oyuncular, [ffba00]{3}[-] altındaki rütbelerdeki oyuncularla takım olduğunda, [ffba00]{4}[-] oyuncularının kazandığı Derece Puanları veya Koruma Puanları önemli ölçüde azalır.
+[ffba00]{0}[-] oyuncular, [ffba00]{1}[-] rütbesinin altındaki oyuncularla takım kuramaz
 Takım Rütbe Kısıtlamaları
-When [ffba00]{0}[-] players team up with ranks below [ffba00]{1}[-], [ffba00]{2}[-] players will gain significantly reduced Rank Points or Protection Points.
+[ffba00]{0}[-] rütbesindeki oyuncular, [ffba00]{1}[-] rütbesinin altındaki oyuncularla takım kurduğunda, [ffba00]{2}[-] rütbesindeki oyuncular çok daha az Rütbe Puanı veya Koruma Puanı kazanır.
 Temel
 Orta Seviye
 Gelişmiş
-Eğitim Merkezi
+Kahraman Akademisi
 Nedir ve nasıl kullanılır
 Atışlarını ustaca yönlendirerek bombayı patlat!
 Daha uzağa atmak için Bombabun'u yanına al
@@ -70531,7 +70566,26 @@ Etkinliğe katılarak bedava bir kıyafet paketi ve büyük bir indirim seçip a
 Etkinliğe katılarak bedava bir kıyafet paketi al
 Bu ödüle zaten sahipsin. Büyük ödül değiştirilemez.
 Bölüm 1: Dokuz Kuyruklu'nun Vuruşu'nun geri dönüşüne katılarak ücretsiz bir kıyafet paketi ve özel bir Savaş Kartı kazan!
+Yolu göster, seni takip edeceğim!
+Mevcut durumda tren lideri olamazsın
+Savaşa girildi, tren dağıtıldı
+Takım arkadaşından çok uzakta, eğitim dağıtıldı
+Tren dağıtıldı: yükseklik farkı çok büyük
+Tren lideri özel bir etkileşim tetikledi, tren dağıtıldı
+Tren lideri hareket eden bir platforma girdi, tren dağıtıldı
+Anormal hareket durumu, tren dağıtıldı
+Savaşa giriliyor, mevcut trenden iniliyor
+Yükseklik farkı çok büyük, tren dağıtıldı
+Mevcut durumda takip edilemez
 Takip etme başarısız, katılınamadı
+Mevcut tren dolu, katılınamıyor
+Yükseklik farkı çok büyük, katılınamıyor
+Mevcut konumda takip edilemiyor
+Hedef oyuncu yere serildi, katılamazsın
+Hedef oyuncu takip edilemez
+Katılınamıyor: Hedef çevrimdışı
+Hedefin mevcut konumunda takip edilemiyor
+Mevcut tren dağıtıldı
 Para Kavanozu
 Tüm takımın para miktarını artırmak için kullanılır
 Jeton Silahı
@@ -70568,6 +70622,7 @@ Kutu 277
 Kutu 278
 Kutu 279
 Kutu 280
+Alevli Kırık (AUG) Jeton Sandığı
 Kızıl Sandık
 Kızıl Gece Sandığı
 M1014 - Asi Marşı görünümünü almak için aç
@@ -70589,7 +70644,7 @@ Gizemli Kutu
 Evrensel Çark Fişi Kutusu 10
 Evrensel Çark Fişi Kutusu 11
 BP S45 Jeton Sandığı
-Gold Vault Supply Box
+Altın Kasa Malzeme Kutusu
 BP S43 Jeton Sandığı
 Güreş Kutusu
 9. Yıl Dönümü Kırmızı Kutusu
@@ -70803,20 +70858,48 @@ Kiraz Çiçeği
 Yağmurlu Gün
 Ateş Böceği
 Görsel efekt
+Bej
 Mavi
 Kürk rengi
+Soluk Altın
+Çikolata
 Yeşil
 Turuncu
+Mavi Makaron
+Nane
 Renk kilitli. Çevirmek ve almak için seviye atla.
+Şeftali
 Pembe
+Fıstık Yeşili
 Mor
 Kızıl
+Kiraz Çiçeği
+Dumanlı Gül
+Taro Moru
 Altın
 Pembe Köpekbalığı Şapkası
+Altın Taç
+Sarı & Yeşil Balonlar
+Kırmızı & Mor Balonlar
 Pembe ve Mavi Balon
+Altın & Gümüş Balonlar
+Mavi Ateş Topu
+Kırmızı Ateş Topu
 Mor Ateş Topu
+Gümüş Ateş Topu
+Sarı Gözlük
+Pembe Gözlük
 Beyaz Dalış Gözlüğü
+Siyah Gözlük
+Mavi Kalp Gözlüğü
+Kırmızı Kalp Gözlüğü
+Siyah Kalp Gözlüğü
+Altın Kalp Gözlüğü
 Altın Kanatlar
+Pembe Kaykay
+Siyah Kaykay
+Orange Kaykay
+Mavi Kaykay
 Çevir
 Çevirmek için daha fazla gün girişine ihtiyacın var
 Giriş yapmaya devam et, sürpriz ödülleri kap!
@@ -70857,8 +70940,8 @@ Son Karşılaşma
 Uyanmış Cephanelik
 Bu mağaza yalnızca pompalı tüfek satar
 Pompalı Tüfek Mağazası
-Bu mağaza yalnızca SMG satar
-SMG Mağazası
+Bu mağaza yalnızca HMT satar
+HMT Mağazası
 Satın Alma İadesi
 Artırılmış atış oranı
 Süper Ateş Gücü
@@ -70931,7 +71014,7 @@ Yıl Dönümü Partisi
 10 Evrensel Fiş + 50 Elmas
 5 Evrensel Fiş + 100 Elmas
 Paket + 5 Evrensel Fiş + 100 Elmas
-9. Yıl Dönümü kutlu olsun! (Kullanıcı, kabine teçhizat, Altın veya Elmas Otomatı Fişleri gibi gizli hediyeler koyabilir. Hediyeler 10 oyuncu için geçerlidir.)
+9. Yıl Dönümü kutlu olsun! (Kullanıcı, kabine teçhizat, Altın veya Fiş gibi gizli hediyeler koyabilir. Hediyeler 10 oyuncu için geçerlidir.)
 9. Yıl Dönümü Kupası
 Kızıl Ay Çerçevesi
 BLUE LOCK Üçlü Çerçevesi
@@ -71105,15 +71188,15 @@ Devam Ediyor
 Yıl Dönümü Görevi
 Yıl Dönümü görevleri artık mevcut
 Ödüller
-Yıldönümü Görevi kabul edildi, hadi yapalım!
-Yıldönümü Görevi tamamlandı!
-Yağma kutularında diriltme artık [e01f1f]mevcut değil[-]
+Yıl Dönümü Görevi kabul edildi, hadi yapalım!
+Yıl Dönümü Görevi tamamlandı!
+Yağma kutularında diriltme artık mevcut değil
 Artık takım arkadaşlarını doğrudan yağma kutularından diriltebilirsin!
-Anında Diriltme
-Yağma kutusunda anında diril
+Olduğu Yerde Diriltme
+Direkt yağma kutusunda dirilt
 Bir takım arkadaşı seni diriltiyor
 Görev tamamlandı! [ffba00]Bol miktarda destek[-] bırakıldı ve {0} bölgesi [ffba00]yenilendi[-]!
-Görev bölgeleri [ffba00]destek bırakacak[-], Otomatlar, Diriltme Noktaları ve Jeton Makineleri ise [ffba00]yenilenecek[-].
+Görev bölgeleri [ffba00]destek bırakacak[-], Otomatlar, Diriltme Noktaları ve Para Makineleri ise [ffba00]yenilenecek[-].
 Süper Otomat
 [ffba00]Kılıcı Yeniden Döv[-] görevini üstlen
 [ffba00]{0}[-] bölgesinde, [ffba00]Şövalye Kılıcı'nı[-] ele geçir ve yeniden döv.
@@ -71184,6 +71267,8 @@ Altın Kasa'da ödülleri almak için çevir
 Güreş Fişi
 Kavurucu Kırılma (Maske)
 Boyutsal Dövüşçü (Maske)
+Patron Muz (Maske)
+Şımarık Çilek (Maske)
 Kuzu Kuzu Mee (Maske)
 Canlı Kırmızı (Alt)
 Kızıl Şarkıcı (Alt)
@@ -71191,6 +71276,7 @@ Kızıl Dansçı (Alt)
 Çapraz Kot (Alt)
 Pembe Ritim (Alt)
 Pop Ritmi (Alt)
+Sokak Divası (Alt)
 Elektro Kelebek (Alt)
 Kavurucu Kırılma (Alt)
 Patlayan Kırılma (Alt)
@@ -71204,6 +71290,7 @@ Kızıl Dansçı (Başlık)
 Çapraz Kot (Başlık)
 Pembe Ritim (Başlık)
 Pop Ritmi (Başlık)
+Sokak Divası (Başlık)
 Elektro Kelebek (Başlık)
 Kavurucu Kırılma (Başlık)
 Patlayan Kırılma (Başlık)
@@ -71220,6 +71307,7 @@ Kızıl Dansçı (Ayakkabı)
 Çapraz Kot (Ayakkabı)
 Pembe Ritim (Ayakkabı)
 Pop Ritmi (Ayakkabı)
+Sokak Divası (Ayakkabı)
 Elektro Kelebek (Ayakkabı)
 Kavurucu Kırılma (Ayakkabı)
 Patlayan Kırılma (Ayakkabı)
@@ -71233,6 +71321,7 @@ Kızıl Dansçı (Üst)
 Çapraz Kot (Üst)
 Pembe Ritim (Üst)
 Pop Ritmi (Üst)
+Sokak Divası (Üst)
 Elektro Kelebek (Üst)
 Kavurucu Kırılma (Üst)
 Patlayan Kırılma (Üst)
@@ -71245,6 +71334,7 @@ Bebek Kartal (Başlık)
 Kızıl Kor (Yüz Boyası)
 Kelebek Yüz Boyası
 Kırık Parıltı (Yüz Boyası)
+SEA Sonbahar 2026 (Yüz Boyası)
 Havalı Bakış (Yüz Boyası)
 Canlı Yeşil (Maske)
 Kızıl Savaşçı (Maske)
@@ -71252,6 +71342,7 @@ Kızıl Savaşçı (Maske)
 Rin Maske
 Metalik Ritim (Maske)
 Cesaret Kaptanı (Maske)
+Sokak Tarzı (Maskesi)
 Rey Mysterio (Maske)
 Kor Kırığı (Maske)
 Dalgalı Kırılma (Maske)
@@ -71266,6 +71357,7 @@ Kot Takımı (Alt)
 Rin Alt
 Metalik Ritim (Alt)
 Cesaret Kaptanı (Alt)
+Sokak Tarzı (Alt)
 Rey Mysterio (Alt)
 Elektro Metamorfoz (Alt)
 Kor Kırığı (Alt)
@@ -71281,6 +71373,7 @@ Canlı Yeşil (Başlık)
 Kot Takımı (Başlık)
 Şimşekdoğan MVP (Başlık)
 Metalik Ritim (Başlık)
+Sokak Tarzı (Başlık)
 Elektro Metamorfoz (Başlık)
 Kor Kırığı (Başlık)
 Serbest Kırılma (Başlık)
@@ -71297,6 +71390,7 @@ Kot Takımı (Ayakkabı)
 Rin Ayakkabı
 Metalik Ritim (Ayakkabı)
 Cesaret Kaptanı (Ayakkabı)
+Sokak Tarzı (Ayakkabı)
 Rey Mysterio (Ayakkabı)
 Elektro Metamorfoz (Ayakkabı)
 Kor Kırığı (Ayakkabı)
@@ -71316,6 +71410,7 @@ Kot Takımı (Üst)
 Rin Üst
 Metalik Ritim (Üst)
 Cesaret Kaptanı (Üst)
+Sokak Tarzı (Üst)
 Rey Mysterio (Üst)
 Elektro Metamorfoz (Üst)
 Kor Kırığı (Üst)
@@ -71333,6 +71428,7 @@ Kızıl Haberci ses paketi
 Kızıl Uluma Ses Paketi
 9. Yıl Dönümü Ses Paketi
 Ronaldinho ses paketi
+Herkese merhaba, tekrar geldim. Vay vay vay!
 Tenxi Ses Paketi
 Bağımsızlık Günü Ses Paketi
 LATAM İfade Ses Paketi 1
@@ -71342,6 +71438,7 @@ Kızıl Haberci Ses Paketi
 Kızıl Uluma Ses Paketi
 9. Yıl Dönümü Ses Paketi
 Ronaldinho Ses Paketi
+Sahurrr Ses Paketi
 Tenxi Ses Paketi
 Bağımsızlık Günü Ses Paketi
 LATAM İfade Ses Paketi 1
@@ -71358,6 +71455,17 @@ Hayal kurmamıza izin veriyorlar!
 Şu çılgın kafadan vuruşa bir bak!
 Şu adama bak, sana ters köşe yaptım
 Tahtada bir gezinti daha!
+Herkese merhaba, tekrar geldim. Vay vay vay!
+Vay, bu ne? Cidden, bu ne?
+Tamam, tamam, gidiyorum, gidiyorum. Ama kesinlikle geri döneceğim! Ay, ay, ay!
+Tung tung tung
+Herkese merhaba, adım Tung Tung Sahur
+Sürekli dırdır etme
+[Tenxi] Bana yardım et!
+[Tenxi] Rakipler neden bu kadar kolay?
+[Tenxi] Bize önceden haber verseydin, dostum
+[Tenxi] Hadi, hadi, hadi!
+[Tenxi] Göğsüm ağrıyor
 Bana yardım et!
 Çabalıyor musun ki?
 Vatan için!
@@ -71386,6 +71494,7 @@ Spica Ayakkabı
 Pamuk Ayıcık (Üst)
 Karanlık Arzular Paketi
 Havalı Crop Üst
+2026 EWC Şampiyon Tişörtü
 Süper Taze Paketi
 Bu maçtaki ses kalitesinden memnun kaldın mı?
 Tekrar İzle
@@ -71532,7 +71641,7 @@ Takım arkadaşın haklandıktan sonra, süre dolmadan yağma kutusuna ulaş ve 
 Uyanmış Silahlar yükseltilmiş Cephaneliklerde belirir. Son savaş başladığında, hayatta kalan tüm oyuncular bir Silah Uyandırıcı alır. Gerçek gücünü serbest bırak ve nihai şampiyon olmak için yarış!
 Kutlama Baloncukları
 Yıl Dönümü Görevi
-Anında Diriltme
+Olduğu Yerde Diriltme
 Uyanmış Silahlar
 Atla. Baloncukları topla!
 Heyecan verici görevler bölgelerde bekliyor!
@@ -71559,7 +71668,7 @@ Odaklanmış Terapi hem kendini hem de hedef takım arkadaşını iyileştirir
 Kendisinin ve hedef takım arkadaşının arkasında hasar veren mini Kassie'ler oluşturur.
 Atılmanın etki alanını genişletir
 Daha düşük atılma hızı ama daha uzun süre
-Hedef alınan düşmana yapışan küçük bir halka oluşturur ve içindeki duvarlara zamanla hasar verir.
+Hedef alınan düşmana yapışan küçük bir alan oluşturur ve içindeki duvarlara zamanla hasar verir.
 Yetenek kullanıldıktan sonra kısa bir süre boyunca sürekli küçük sonik dalgalar ortaya çıkar ve önlerindeki Muhafız Duvarları'nı yok eder.
 Yetenek bir düşmana isabet ettiğinde, hedeflenen bölgede bir tarama başlatır ve menzil içindeki düşmanları açığa çıkarır.
 Geliştirilmiş bir dron fırlatarak yüksek hızda süzülmeye başlar ve hareket kabiliyeti artar.
@@ -71570,7 +71679,7 @@ Oscar
 Skyler
 Homer
 Git Kutla
-1. 9. Yıl Dönümü Parti Lobisi'ndeki 9. Yıl Dönümü Heykeli'ni bul ve kutlama yapmak için Jeton harca.\n2. Jetonlar, günlük görevleri tamamlayarak veya maç oynayarak kazanılabilir.\n3. Heykelde yapılan her kutlama, rastgele bir kutlama ödülü kazandırır.\n4. Kutlamalar, süreleri dolana kadar kullanılabilen özel ayrıcalık ödülleri kazandırma şansına sahiptir.\n5. Kutlamalar yaparak dönüm noktası ilerlemesi elde et ve dönüm noktası ödüllerini kazan.\n6. Parti Lobisi'nde keşfedilmeyi bekleyen birçok eğlenceli aktivite seni bekliyor!
+1. 9. Yıl Dönümü Parti Lobisi'ndeki 9. Yıl Dönümü Heykeli'ni bul ve kutlama yapmak için Jeton harca.\n2. Jetonlar, günlük görevleri tamamlayarak kazanılabilir.\n3. Heykelde yapılan her kutlama, rastgele bir kutlama ödülü kazandırır.\n4. Kutlamalar, süreleri dolana kadar kullanılabilen özel ayrıcalık ödülleri kazandırma şansına sahiptir.\n5. Kutlamalar yaparak dönüm noktası ilerlemesi elde et ve dönüm noktası ödüllerini kazan.\n6. Parti Lobisi'nde keşfedilmeyi bekleyen birçok eğlenceli aktivite seni bekliyor!
 Kural
 Etkileş
 Diğer oyunculara sürekli jeton verir
@@ -71599,7 +71708,7 @@ Kol Çözümü
 Bacak Çözümü
 Donuk Flaş
 Dans Bombası
-Yıl Dönümü Fıskiye Havai Fişekleri
+Fıskiye Havai Fişekleri
 Yıl Dönümü Havai Fişekleri
 Katıl
 Başlat
@@ -71608,7 +71717,7 @@ Ayrıl
 Yükleniyor...
 Bedava Ödüller!
 9. Yıl Dönümü
-Büyük Ödül {0} kutlamadan sonra garantili
+Özel Ödül {0} kutlamadan sonra garantili
 Kutla
 Bedava
 Günlük görevler henüz tamamlanmadı!
@@ -71628,7 +71737,7 @@ Bir görevi tamamlamak için uyanmış silahlarla {0} daha fazla hasar ver!
 Görevi tamamlamak için geliştirilmiş yetenekleri {0} kez daha kullan!
 Bir görevi tamamlamak için {0} daha Avantaj Puanı kazan!
 Avantaj Puanlarını {0} kez daha doldurarak bir görevi tamamla!
-Bugün kalan jetonlar: [fs=26][FFE785]{0}[-][/fs]
+Bugün kalan jetonlar: [S0][fs=26][FFE785]{0}[-][/fs]
 BR-Dereceli Günlük Limit:
 EÇ-Dereceli Günlük Limit:
 YK Günlük Limit:
@@ -71707,7 +71816,7 @@ Yeni tahta aynı ödül dizilimine sahip olacak, ancak kalan ödüllerin sayıs�
 BONUS ÖDÜL
 SADECE BENİMKİLERİ GÖSTER
 KAZANAN
-{1} çevirme içinde Garantili Seviye {0}
+[ffba00][fs=32][b]{1}[/b][/fs][-] çevirmede {0}- Seviye ödülü garanti
 S SEVİYE
 A SEVİYE
 B SEVİYE
@@ -71759,6 +71868,2110 @@ Bu alanda bol ganimet var
 Bu alanda bol miktarda ganimet var
 Zengin
 İyi
+Yönetici seni dönüştürdü
+Bu isim desteklenmeyen karakterler içeriyor. Devam etmek için lütfen düzenle.
+Bazı özel özellik adları desteklenmeyen karakterler içeriyor. Lütfen düzenleyip tekrar dene.
+{0} Tasarruf Alındı
+[FFCD30]PREMIUM[-] kilidini açmak için [S0]{0} + [S1]{1} kullanmayı onaylıyor musun?
+[FFCD30]PREMIUM PLUS[-] kilidini açmak için [S0]{0} + [S1]{1} kullanmayı onaylıyor musun?
+Yine de [S0] kullan
+Açmak ve almak için 1 [S0] kazan
+Mevcut Tasarruf
+[S1] biriktirmek için {0}'da [S0] harca,\n[S0] edindikten sonra onları {1}'de kullan
+Herhangi bir [S0] kazanarak [S1] aç\n[S1] yalnızca otomat etkinliklerinde ve booyah pass'lerde [S0]'i ofsetlemek için kullanılabilir.\nHarcanmayan [S1] bu ayın sonunda 0'a sıfırlanacak.
+Herhangi bir [S0] kazan, [S1]'i aç\n[S1] yalnızca Deluxe Menü ve Booyah Pass'lerde [S0]'i ofsetlemek için kullanılabilir.\nHarcanmayan [S1] bu ayın sonunda 0'a sıfırlanacak.
+{0} [S0] henüz alınmadı
+[S0]{0} kilidini şimdi aç ve burada kullan!
+Harcamalar
+Prime Elmas
+Prime {0} seviyesinde açılır
+Açmak için Prime {0}'a ulaş
+[S0]{1} almak için Prime {0}'a yükselt
+Prime Elmas biriktirmeye şimdi başla!
+Yeni dönüm noktasına ulaşıldı!\nDaha fazla [S0] açıldı!
+Bu ayki [S0] harcamalarını gelecek ay tasarrufa dönüştür!\n\n1. Prime Elmas Biriktir\n· [S0] harcayarak ilerleme kaydet, dönüm noktalarına ulaş ve [S1] biriktir. Ne kadar çok harcarsan o kadar çok biriktirirsin!\n· Yalnızca [S0] harcamaları ilerlemeye dahil edilir. [S1] ile ödenen miktarlar dahil edilmez.\n\n2. Prime Elmasların Kilidini Aç ve Kullan\n· Bu ay biriktirdiğin Prime Elmasları gelecek ay kullanabilirsin. Gelecek ayın başında Prime Elmaslar kilitli olur: miktarı görebilirsin ancak henüz kullanamazsın.\n· Biriktirdiğin Prime Elmasların kilidini açmak için gelecek ay herhangi bir miktarda [S0] yükle.\n· Kilidi açıldıktan sonra [S1], Çarkıfelek ve Booyah Pass'te kullanılabilir. 1 [S1] = 1 [S0]. Ödeme yaparken önce [S1] kullanılır.\n\n3. Aylık Sona Erme\n· Biriktirdiğin [S1] gelecek ay içinde kullanılmalıdır. Aksi takdirde bir sonraki ayın 04.00'ünde sıfırlanır.
+Bu ayki [S0] harcamalarını gelecek ay tasarrufa dönüştür!\n\n1. Prime Elmas Biriktir\n· [S0] harcayarak ilerleme kaydet, dönüm noktalarına ulaş ve [S1] biriktir. Ne kadar çok harcarsan o kadar çok biriktirirsin!\n· Yalnızca [S0] harcamaları ilerlemeye dahil edilir. [S1] ile ödenen miktarlar dahil edilmez.\n\n2. Prime Elmasların Kilidini Aç ve Kullan\n· Bu ay biriktirdiğin Prime Elmasları gelecek ay kullanabilirsin. Gelecek ayın başında Prime Elmaslar kilitli olur: miktarı görebilirsin ancak henüz kullanamazsın.\n· Biriktirdiğin Prime Elmasların kilidini açmak için gelecek ay herhangi bir miktarda [S0] yükle.\n· Kilidi açıldıktan sonra [S1], Şans Otomatı'nda, Deluxe Menü'de ve Booyah Pass'te kullanılabilir. 1 [S1] = 1 [S0]. Ödeme yaparken önce [S1] düşülür.\n\n3. Aylık Sona Erme\n· Biriktirdiğin [S1] gelecek ay içinde kullanılmalıdır. Aksi takdirde bir sonraki ayın 04.00'ünde sıfırlanır.
+[S1] biriktirmek için [S0] harca
+Hiç [S0] kullanmadın, bu yüzden Prime Elması ilerlemen değişmedi
+Yalnızca [S0] harcaması kavanozun ilerlemesine sayılır. [S1] ile ofsetlenen elmaslar dahil değildir.
+{0} - alındı
+{0} - alınabilir
+Prime Elmas Kuralları
+{0} Elmas Kavanozu
+Kaydedilen [S1] almak için 1 [S0] kazan
+[S0] öğesinin süresi {0} gün içinde dolacak, kullandığınızdan emin olun!
+{0} Prime Elmasın maksimuma ulaştı! {1} içinde kilitlerini açmayı unutma!
+Yeni dönüm noktasına ulaşıldı! Git [S0]'nü al!
+{0} içinde [S0] harca, [S1] kilidini aç ve {1} içinde kullan
+[S0]{0} kaydedildi!
+Önümüzdeki aydan önce tüm [S0]'larını kullandığından emin ol!
+Şans Otomatı ve Booyah Pass'te [S0], [S1]'den önce kullanılacak!
+[S0], Deluxe Menü ve Booyah Pass'te [S1]'den önce kullanılabilir
+Bitiş Zamanı
+{0} döneminden kullanılmamış [S0]{1} miktarın 0'a sıfırlandı.
+Prime Elması Süre Sonu Duyurusu
+[S0]{0} kaldı. {1} gün içinde sıfırlanacak.
+[S0]{1}, {0} gün içinde sıfırlanacak. Şimdi kullan!
+Son gün! [S0]{0}, 0'a sıfırlanacak!
+Bitmesine {0}
+Prime Elmas
+Şuradan al
+Prime Sistemi
+Yalnızca Şurada Kullanılabilir
+Bir düşmanı yere serdikten sonra, 20 saniye boyunca bonus atış oranı ve hareket hızı kazandırır.
+Fırtına
+Atışlar ekstra hasar verir ve düşmanlardan CP çalar.
+Em
+Temel
+Tersi
+Skorp
+Zırh delici bir HMT, yakın mesafede ağır zırhlı düşmanlara karşı üstündür, yakın mesafeli mücadele için ideal
+FO12
+Yıkıcı yakın mesafe ateş gücüne sahip tam otomatik pompalı tüfek, hızlı delme için ideal
+M200
+İsabetli uzun menzilli haklamalar için üretilmiş güçlü bir keskin nişancı tüfeği
+M7
+Kontrol edilebilir geri tepmesi ve yüksek hasarıyla orta menzilli çatışmalar için ideal bir taarruz tüfeği
+RPK
+Benzersiz geri tepme mekaniğine, yüksek hasara ve tüfek benzeri hareket kabiliyetine sahip, orta ve uzun menzilli çatışmalar için ideal bir hafif makineli tüfek
+Şahin
+Yüksek hasarlı, art arda hızlıca iki mermi ateşleyen bir keskin nişancı tüfeği. Her atıştan sonra güçlü namlu yükselmesi, onu uzun menzilli savaşlar için en uygun hale getirir
+TEC-9
+Yüksek atış hızına sahip, mükemmel yakın menzilli seri atış hasarı olan, esnek bir yedek silah olarak ideal bir tabanca
+Geri tepme
+Alan yıkılıyor
+1 oyuncuyu Ödül Hedefi olarak seç
+Yönetici Avı
+Yönetici'yi tüm oyuncular için Ödül Hedefi yap
+Varsayılan Takviye
+Kafa boyutu x{0}
+Kol boyutu x{0}
+Bacak boyutu x{0}
+Vücut boyutu x{0}
+Yetenek Bekleme Süresi
+CP Doldurma
+Tam Vücut Boyutu
+Kol Boyutu
+Kafa Boyutu
+Bacak Boyutu
+Hareket hızı %{0}
+Zıplama yüksekliği +%{0}
+Yetenek CD -%{0}
+CP +{0}/s
+Maks. CP {0}
+Zıplama yüksekliği %{0}
+Yetenek BS {0}%
+CP doldurma {0}/sn
+Kafa x{0}
+Kol x{0}
+Bacaklar x{0}
+Vücut x{0}
+Yönetici herkese takviye verdi: [ffd888]{0}[-]
+Yönetici tüm eşyaları verdi: [ffd888]{0}[-]
+Yönetici TÜM ödülleri verdi: [ffd888]{0}[-]
+Yönetici TÜMÜ üzerinde Yıldırım Saldırısı çağırdı
+Yönetici, [ffd888]{0}[-] için [ffd888]{1}[-] ödüllü bir av başlattı
+Yönetici kendi için [ffd888]{0}[-] ödüllü bir Av başlattı
+Bu Yönetici'yi daha önce gördüm. Elmas vermeyi çok severler!
+Yönetici nerede? Düello istiyorum!
+Avlanıyorum. Beni koru!
+Ateşkes! Önce Yönetici'yi alalım.
+Derece Puanı cezası yok. Hadi gidelim!
+Bana eşya ver, senin hayranın olayım!
+Süre
+{0} dk
+Yüzde
+Rastgele
+Tümü
+Hedef
+Kendi
+Hedef Oyuncu
+Maçın Tamamı
+Ödüller
+Takviyeler
+Eşyalar
+Yıldırım
+Dönüşüm
+Serbest Kamera
+[ffe400]{1}[-] kişisine {0} ver?
+Oylamayı şimdi başlat? ({0} dk geçerli)
+Yenilmez, görünür duruma geçilsin mi? Daha sonra izleyici moduna geri dönemezsin, ancak Yönetici olarak diğer eylemleri hâlâ gerçekleştirebilirsin.
+Kaydedilen ön ayar silinsin mi?
+Hayatta olan tüm oyunculara {0} verilsin mi?
+Hayatta olan tüm oyunculara {1} dakika boyunca {0} verilsin mi?
+[ffe400]{0}[-] konumuna 1 Yıldırım Saldırısı çağır?
+Hayatta olan tüm oyunculara 1 Yıldırım Saldırısı çağırılsın mı?
+{1} ödülle [ffe400]{0}[-] avla?
+Kendini {0} ödülle avla?
+Ana Hesap
+Ön Ayar
+Döndürücü
+Gelişmiş
+Genel
+Ödül Avı
+Oyla
+Yönetici Ayarları
+Oyuncu Sohbeti
+Hızlı öneriler/kaydedilmiş ön ayarlar
+Rastgele etkinlik oluşturur
+[ffe400]{0}[-] hakla
+Ödüller: {0}
+[ffe400]{0}[-]'i hayatta tut
+Avda Hayatta Kal
+Yönetici Çılgınlığı
+Bir hedef maça katıl
+UID/maç ID ile ara
+Rastgele bir maça katıl
+Maça Başla
+Devam eden bir maça katıl
+Maç bulunamadı
+Hedef oyuncu maçta değil
+Katılınamıyor. Hedef maç Yönetici Çılgınlığı gereksinimlerini karşılamıyor.
+Önerilen
+Kaydet
+Çalıştır
+Düzenle
+Devam ediyor
+Tamamlandı
+Haklandı
+Hayatta kaldı
+Haklandı (arazi)
+Yönetici Çılgınlığı Bonusu
+Bu maçtaki yönetici
+Bir [ffe400]Yönetici Çılgınlığı[-] maçında Ödül Avı'nı tamamladın
+Yönetici Durumu
+Görünmez
+Maç içi varlık yok. Yönetici diğer oyuncuları izleyebilir veya Serbest Kamera'yı kullanabilir.
+Görünür
+Yönetici maçta görünür ve yenilmez, izlenebilir
+Bir iniş noktası seç
+Gir
+Alan
+Bir harita alanı seç
+Etkinlik
+Detaylar
+Hedef
+Düzenle
+Hepsini Tekrar Çevir
+Lütfen önce görünür duruma geç
+Oylama Seçenekleri
+Seçenek 1
+Seçenek 2
+Oylama seçeneğini girin
+{0} farklı bir bölgede ve bu moda katılamaz
+Bu oyuncu farklı bir bölgede ve hediye alamaz
+Diğer oyuncular Toplanma'dan ayrıldı
+[ffe400]Son maçlardan birinde {0} haklama[-]
+[ffe400]{0} son maçta kaldırma[-]
+[ffe400]Son maçlardan birinde {0} diriltme[-]
+Son Vuruş
+Bu kutu tekrar açılamaz
+Bu Firefig'i maçtan çıkarmak için [37e347]{0}[-] süreyle taşı
+Firefig: Nadir bir koleksiyonluk eşya. Maçtan çıkarıp koleksiyonuna eklemek için bir süre taşı.
+Kalan Gizemli Kutu: {0}
+Alındı {0} Firefig
+{0}, [ffba00]{1}[-] Firefig'i elde etti
+Bir takım arkadaşın bir Firefig buldu
+Bu haritayı şu anda oynayamazsın, ancak diğer haritalar mevcut. Daha fazla bilgi için lütfen müşteri hizmetleri ile iletişime geç.
+Bu oda yasaklı bir oyuncu içeriyor, maç başlatılamıyor.
+AK47 - S39 Özel: Baykuş
+Yalıçapkını - Kavun Ninja
+Kozmik Nabız
+AWM - Kozmik Nabız
+AWM görünümünü geliştirmek için kullanılan malzeme. Etkinliklerden edin veya doğrudan Mağazadan satın al.
+Kozmik Nabız Jetonu
+Çanta - Kozmik Pelerin
+Çanta - 2026 FFWS Şampiyonları
+Çanta - Dino Barbekü
+Çanta - Lamba Canavarı
+Çanta - Ay Keki
+Çanta - Kavun Parşömeni
+Çanta - Baykuş Çeliği
+Çanta - Akrep İğnesi
+Çanta - Akrep İpleri
+Çanta - Cesur Bebek
+Kozmik Hükümdar Sancağı
+EÇ-Dereceli S39 Usta Sancağı
+EÇ-Dereceli S39 Kahraman Sancağı
+EÇ-Dereceli S40 Usta Sancağı
+EÇ-Dereceli S40 Kahraman Sancağı
+Magma Füzyonu Sancağı
+Yeni Kenta Sancağı
+Çılgın Meyve Sancağı
+Görev Baykuşları Sancağı
+BR-Dereceli S54 Usta Sancağı
+BR-Dereceli S54 Kahraman Sancağı
+Yıldız Akrepleri Sancağı
+Sopa - S54 Özel: Akrep
+Sopa - Maskeli Tilki
+Sopa - Güneş Kahramanı
+M82B - S54 Özel: Akrep
+Görev Baykuşları
+Yıldız Akrepleri
+Çılgın Meyve
+Kozmik Güçlü Vuruş
+Kozmik Girdap
+Firefig Tanıtım
+Alev Saldırısı!
+Sürünerek çık
+Kırık Çığlık
+Aslan Dansı
+Canavar Barınağı
+Sessiz Sokma
+Kasırga İtişi
+Tuhaf Güç
+Hindi Balonu
+Skorp - Mamba Alevi
+Skorp - Orion
+Son Vuruş - Dino Vuruşu
+Kozmik İnfaz
+Yumruk - Kozmik Komet
+G36 - Gelinin İntikamı
+G36 - Baykuş Şerifi
+Muhafız Duvar - Kozmik Bakış
+Muhafız Duvar - Havai Fişek Duvarı
+Muhafız Duvar - 2026 FFWS Şampiyonu
+Muhafız Duvar - Kemik Canavarı
+Muhafız Duvar - Tehlike Asansörü
+Muhafız Duvar - Tezahürat Yapan Aslan
+Muhafız Duvar - Yaratılış
+Muhafız Duvar - Kavun Dilimi
+Muhafız Duvar - İçindeki Canavar
+Muhafız Duvar - Baykuş Bekçisi
+Muhafız Duvar - Maskeli Butik
+Muhafız Duvar - MAMA
+El Bombası - Bay Palyaço
+El Bombası - Kavun Patlaması
+El Bombası - Baykuş Gücü
+El Bombası - Badminton Baykuşu
+El Bombası - Akrep Şoku
+Kozmik Hükümdar
+Korku Gösterisi
+Kozmik Hükümdar Avatarı
+EÇ-Dereceli S39 Usta Avatarı
+EÇ-Dereceli S39 Kahraman Avatarı
+EÇ-Dereceli S40 Usta Avatarı
+EÇ-Dereceli S40 Kahraman Avatarı
+Magma Füzyonu Avatarı
+Yeni Kenta Avatarı
+Yeni Kenta Balon Kafa
+Çılgın Meyve Avatarı
+Görev Baykuşları Avatarı
+BR-Dereceli S54 Usta Avatarı
+BR-Dereceli S54 Kahraman Avatarı
+Yıldız Akrepleri Avatarı
+Katana - Kozmik Yarık
+Katana - Görülmemiş
+Yağma Kutusu - Kutuda Kedicik
+Yağma Kutusu - Maytap Rulosu
+Yağma Kutusu - Çarpık İkizler
+Yağma Kutusu - Tavşan Aslan Dansı
+Yağma Kutusu - Muz Ninjası
+Yağma Kutusu - Muz Tekniği
+Yağma Kutusu - Baykuş Çadırı
+Yağma Kutusu - Akrep Kaydı
+Yağma Kutusu - Fırtına Arenası
+Yağma Kutusu - MAMA
+Yağma Kutusu - Güneş Kahramanı
+M1014 - Maskeli Tilki
+Trogon - Kedicik Bakıcısı
+M1873 - Akrep İğnesi
+M200 - Mamba Alevi
+M200 - Morse
+M60 - Magma Füzyonu
+M7 - Mamba Alevi
+M7 - Rin
+Parang - Kedicik Bakıcısı
+Pala - Dönen Satır
+Pala - Akrep İğnesi
+Pala - Hindi Bageti
+AC80 - Maskeli Tilki
+Görülmemiş Pençeler
+MP5 - Fırtına Arenası
+Fırtına Arenası tema şarkısı
+Fırtına Arenası
+Katmanlı kürk dokularını ve dağınık ışık efektlerini görüntüler
+P90 - S40 Özel: Ninja
+Tava - S39 Özel: Baykuş
+Tava - Kemik Canavarı
+Tava - Fırtına Arenası
+Paraşüt - Görülmemiş
+Paraşüt - S54 Özel: Akrep
+Yoldaş Görünümü: Canavar Kurt
+RPK - Mamba Alevi
+RPK - Steffie
+Şahin - Mamba Alevi
+Şahin - Skyler
+Tırpan - Oyulmuş Tehdit
+Tırpan - Magma Püskürmesi
+Tırpan - Kavun Ninja
+Gök Tahtası - Oyulmuş Pençeler
+Gök Tahtası - Akademi Çantası
+Gök Tahtası - Tombul Tavşan
+Gök Tahtası - Kavun Ninja Bıçağı
+Gök Tahtası - Baykuş Kanatları
+Gök Tahtası - Akrep Yıldızı
+TEC-9 - Mamba Alevi
+TEC-9 - Dasha
+Hançer - S40 Özel: Ninja
+Hançer - Baykuş Şerifi
+USP-2 - Alevli Dino
+Mini Uzi - Kedicik Bakıcısı
+Yüzen Araba - S39 Özel: Baykuş
+At - Kozmik Muhafız
+At - Baykuş Tırnakları
+Cip - Mirzapur Kralı
+Cip - Baltalı Kaçış
+Cip - Akrep Tekerler
+Canavar Kamyon - Maskeli Kaçış
+Canavar Kamyon - Fırtına Voltajı
+Motosiklet - Turbo Hindi
+Kamyonet - Kavun Motoru
+Tuk Tuk - S40 Özel: Ninja
+Kedicik Bakıcısı setinden rastgele bir silah görünümü (Trogon + Mini Uzi) almak için aç.
+Kedicik Bakıcısı (Trogon + Mini Uzi) Silah Sandığı
+Magma Füzyonu setinden rastgele bir silah görünümü (M60) almak için aç.
+Magma Füzyonu (M60) Silah Sandığı
+Maskeli Tilki (AC80 + M1014) silah setinden rastgele bir silah görünümü almak için aç
+Maskeli Tilki (AC80 + M1014) Silah Sandığı
+Takım arkadaşı AFK: Galibiyet serisi korundu
+Daha Hızlı Kanama
+Yere serildikten sonra çok daha hızlı kan kaybedersin
+Ücretsiz Fırlatılabilir
+Belirli turlarda bedava el bombaları
+Belirli turlarda bedava  Donuk Flaş
+Belirli turlarda bedava Ejder Flaş
+Belirli turlarda bedava Pas Bombası
+Belirli turlarda bedava Alev Bombası
+Belirli turlarda bedava Sonar El Bombası
+Kılıçtan Kılıca
+Mağazadaki tabanca yakın dövüş silahıyla değiştirildi
+Sağlık Kitleri yok
+Sağlık Kitleri yok. Şifa Bölgeleri haritada görünecek.
+Sağlık Kitleri yok
+Tabanca & Keskin Nişancı Tüfeği
+Satılık Yetenekler
+Özel Mağaza
+Özel eşyalar mağazada ortaya çıkacak
+Yetenek Kartları mağazada görünecek
+Mağazada sadece tabancalar ve keskin nişancı tüfekleri
+E-posta ile Giriş Yap
+Daha iyi hesap güvenliği için, giriş e-postan ve kurtarma e-postan birbirinden farklı olmalıdır.
+Emülatör Oyuncu
+Bu kayıt seçeneği geçici olarak devre dışı. Lütfen başka bir metot dene.
+Kozmik İmparatoriçe Paketi
+Kedisever Paketi
+Magma Anka Paketi
+Alev Dinozoru Paketi
+Akademi Tatlısı Paketi
+Kızıl Aksaklıklar Paketi
+Muz Ninjası Paketi
+Dişi Aslan İçgüdüsü Paketi
+Baykuş Korucu Paketi
+Akrep Zehri Paketi
+Maskeli Tavşan Paketi
+Hayalet Gelin Paketi
+Ay Kahramanı Paketi
+Pelerinli Dehşet Paketi
+Kozmik Hükümdar Paketi
+Red Bull Paketi
+Kedicik Bakıcısı Paketi
+Magma Füzyonu Paketi
+Cehennem Dinozoru Paketi
+Akademi Fenomeni Paketi
+Boşluk Adam Paketi
+Kırmızı Yağmurluk Paketi
+Kavun Ninja Paketi
+Aslan İçgüdüsü Paketi
+Baykuş Şerifi Paketi
+Akrep İğnesi Paketi
+Maskeli Tilki Paketi
+Hayalet Kovboy Paketi
+MAMA Paketi
+Güneş Kahramanı Paketi
+{0} indirmesi tamamlandı. Şimdi oyna?
+Beğenebileceğin haritalar bulduk. Oynamadan önce kaynakları indir.
+Daha fazla eğlenceli Üretim Diyarı haritası keşfet!
+Sana önerilen: {0} toplam oyuncu, %{1} olumlu puan.
+Resmi haritalara git? İstediğin zaman Üretim Diyarı'na geri dönebilirsin.
+Şimdilik bu Üretim Diyarı haritasını oynamayı bırak? [u]Resmi haritalara git>>[/u]
+Şimdilik bu Üretim Diyarı haritasını oynamayı durdur?
+Resmi haritalara git
+Tutulma Bağı (Ray)
+Bir haritayı beğenirsen, hiçbir güncellemeyi kaçırmamak için ona abone ol!
+Beğendiğin üreticiyi takip et ve onların oluşturduğu daha fazla haritayı keşfet.
+Eğlenceli haritalarını arkadaşlarınla paylaş ve birlikte oyna!
+Bir haritayı oynadıktan sonra diğer oyuncuların görebilmesi için bir puan veya geri bildirim bırak.
+Üretim Diyarı, oyuncular tarafından oluşturulan haritaları bir araya getirir ve her harita benzersiz bir oynanış deneyimi sunar.
+Üretim Diyarı'nda, diğer oyuncular tarafından oluşturulan haritaları keşfedebilir, oynayabilir ve paylaşabilirsin.
+Üretim Diyarı'nda popüler haritaları ve yaratıcı oynanışa sahip haritaları bulabilirsin.
+Yönetici Yıldırım Saldırısı çağırdı
+[ffe400]Herkes[-] Yıldırım Saldırısından Etkilendi
+Yönetici üzerine Yıldırım Saldırısı çağırdı
+Ödül Avı Başladı
+Takım arkadaşı [ffe400]hayatta kaldı[-]. Takımın {0} paylaşabilir.
+[ffe400]{0}[-] haklandı. Av görevi başarısız.
+Süre doldu! Av görevi başarısız.
+Ödüller kazanmak için hayatta kal
+Ödüller Kazanmak İçin Takım Arkadaşını Koru
+Takım arkadaşlarınla {0} paylaşıldı
+Hayatta kalmak için savaş!
+Ödüller için hedefi hakla
+[ffe400]{0}[-] hakla ve {1} paylaş
+Artık hedef sensin. Takım arkadaşlarınla {0} paylaşmak için hayatta kal!
+Takım arkadaşın [ffe400]{0}[-] hayatta kalsın ki {1} onunla paylaşabilesin
+Av Tamamlandı
+{0} tarafından tamamlandı
+[ffe400]Hayatta kaldın[-]. Takımın {0} paylaşabilir.
+Haklandın. Av görevi başarısız.
+Yönetici Tarafından Verilen Güçlendirmeler
+[ffe400]Herkes[-] güçlendirildi
+Yönetici sana bir güçlendirme verdi
+Yönetici Avı Başladı
+Yönetici haklandı
+Yönetici Eşyaları Dağıttı
+[ffe400]Herkes[-] Eşya Kazandı
+Yönetici Sana Eşya(lar) Verdi
+Yönetici Ödülleri Dağıttı
+[ffe400]Herkes[-] Ödül Kazandı
+Yönetici sana {0} verdi
+Yönetici Tarafından Verilen Dönüşüm
+[ffe400]Herkes[-] Dönüştü
+Yönetici seni dönüştürdü
+Yönetici bir anket başlattı
+Sıradaki ne? Hepsi sana kalmış!
+[ffe400]{0}[-] oylamayı kazandı
+Yönetici Şu Anda Maçta
+{0} Şu An Maçta
+Derece Puanı düşülmeyecek. Bonusun tadını çıkar ve tarzınla savaş!
+Çanta güncellendi. Değişiklikler düzenleme modundan çıktıktan sonra geçerli olacak.
+Tümü
+Kalite
+Boyut
+Alınan Süre
+Büyük Firefig yerleştirilemez
+Efsanevi Firefig'ler hediye edilemez veya takas edilemez
+Firefig koleksiyonuna eklendi
+Değer
+Firefig Kataloğu
+Katalog girdisinin kilidini açmak için bir Firefig'i maçtan çıkar
+Maçtan çıkarılan her Firefig, türüne göre Katalog Değeri kazandırır.
+İlk taşıma verir
+Kataloğu Aç
+Sınırlı süreli destek {0} süresince mevcut
+Sıradan Firefig
+Düzenle
+Düzenlemeler kaydedilmedi. Değişiklikler atılsın mı?
+Göstermek için bir Firefig seç
+Göster
+İfadenin kilidini ücretsiz aç
+Firefig'e git
+İfadede kullan
+İlerle
+Firefig Gösterim İfadesi Açıldı
+Firefig
+İlk Taşıma Değeri
+İlk defa
+Tarih:
+İlk Taşıma Bilgisi
+Konum:
+Takım arkadaşı:
+{0}, {1} içinde alındı
+Bu Firefig'i hediye etmeyi onaylıyor musun?
+Yeterli miktara sahip değilsin. Hediye gönderilemez.
+Bir arkadaş seç
+Hediye gönderildi
+Bölge Kodu
+İlk defa alındığında Katalog Değeri kazandırır.
+{0} Firefig sınırlı süreli destek olarak mevcut
+Sınırlı Süreli Firefig
+Şimdi Düşüyor
+{0} hâlâ kilitli
+Yeni Firefig alındı
+Benzersiz Bölge Kodu: {0} içinde Sayı {1}
+Yerleştirme sınırına ulaşıldı
+Ön İzleme
+Firefig seti görüntülenmiyor
+İlerleme
+Efsanevi
+Mitik
+Firefig Koleksiyonu
+Firefig Kuralları
+Kaydedilemedi
+Büyük
+Firefig sistem testleri sona erdi. Takipte kal!
+Sınırlı Süreli Destekler
+Toplam Değer
+Takası Kabul Et
+Firefig Takas Et
+Firefig'ler onaydan sonra takas edilecek
+Takas başarılı
+Takasın süresi doldu
+Bu Firefig şu anda takas edilemez
+Bir Firefig seç
+Koleksiyonu Ziyaret Et
+Ekibe katılmak için tara
+{0}'in ekibine katıl ve ödüller için birlikte yükle!
+Başarılar
+Henüz Başarı Yok
+Başarı x{0}
+Başarılar Kazanmak İçin Oyna
+≥{0}
+Hala savaştasın! Fırtına Arenası seni fark etmeye başladı. İlerlemeye devam et!
+Fırtına İtibarı {0}'a ulaştığında açılır.
+Gereksinimleri görmek için tüm etkinlik dönüm noktalarını aç
+Hasar
+Herhangi bir turda 2 haklama serisi
+Herhangi bir turda 3 haklama serisi
+Herhangi bir turda 4 haklama serisi
+Herhangi bir turda 5 haklama serisi
+Herhangi bir turda yakın dövüş silahlarıyla art arda 2 veya daha fazla oyuncuyu hakla
+Fırtına Arenası etkinliklerine katıl ve tonlarca ödül kazan!
+Fırtına Arenası
+Bir kulüp seç
+Bir poz seç
+Haklamalar
+İşte buradasın, Fırtına Arenası'nda dalgalar yaratıyorsun! Bakalım ne kadar uzağa gidebileceksin!
+Fırtına İtibarı ödüllerini kazanmak için aktif olarak maç oyna!
+Fırtına İtibarını yükselterek daha yüksek dereceli Oyuncu Kartlarının ve nadir ödüllerin kilidini aç!
+Kafadan Vuruşlar
+Ayağa Kaldırmalar
+1. Etkinlik sırasında performansına göre Fırtına İtibarı kazanmak için BR-Dereceli ve EÇ-Dereceli oyna.\n2. Fırtına İtibarını yükselterek ücretsiz ödüller al ve Savaş Kartı çerçeveni yükselt.\n3. Tüm ilerleme dönüm noktalarının kilidini açtıktan sonra, özel bir Savaş Kartı çerçevesinin kilidini açmak için Fırtına İtibarını daha da yükseltmeye devam et.\n4. Oyuncu Kartını en sevdiğin poz ve kulüp görseliyle düzenle. Etkinlik sırasında, Oyuncu Kartını diğer oyunculara göstermek için Savaş Kartın olarak da ayarlayabilirsin.\n5. Sayfa'da arkadaşlarını beğenerek onlara destek ol.
+Kural
+Bedava Ödüller!
+Fırtına Arenası
+Başarım Etkinliği
+Başarıyla başvuruldu
+Büyük Zaman
+Fırtınaya Gir
+Fırtına İtibarı kazanmak için dereceli maç oyna!
+Kozmik Paketler
+EVO AWM
+Bedava Ödüller Kazan!
+Etkinlikler
+İlk Defa
+Sayfa
+Öne Çıkan Etkinlik
+Madalyalar
+Altın Madalya
+Gümüş Madalya
+Zirve Zamanı
+En İyi Oyunlar
+Prime Zamanı
+Fırtına İtibarı
+İtibar
+Savaş Kartı olarak ayarla
+Şov Zamanı
+İstatistik Detayları
+Fırtına Arenası
+İstatistikler Genel Bakış
+FFWS GF
+Oynanan Maçlar: [ffba00]{0}[-]
+İnanılmaz! Fırtına Arenası'ndaki herkes arasından bu kadar ileri geldin. Şan için son bir hamle!
+Tüm gözler ana sahnede. Fırtına Arenası adını hatırlayacak. BU... PRIME TIME!
+Şuna bak! Işıklar yanıyor, kalabalık izliyor ve onlara bir şov sunma zamanı!
+Geçmiş
+Maçları kazan, sahneyi al ve sahne ışığındaki anının tadını çıkar! Hazır mısın?
+Yıllık Ödüller
+Derece Paketleri kazanmak ve Yıllık Ödülleri yakalamak için dereceli oyna!
+Önceki aylarda kaçırılan Yıllık Ödüller
+Derece Paketleri almak için dereceli oyna
+Yıllık Ödülleri geri kazanmak için Derece Paketlerinin kilidini aç
+Yıllık Ödülleri kaçırdın mı?
+Yıllık Ödül şansı: [FFBA00]{0}[-], [FFBA00]{1}[-] Derece Paketinde Yıllık Ödül garanti
+Sonraki Yıllık Ödül {0} içinde yenilenir
+Alınmadı
+x{0} Aç
+[FFBA00]Diğer Ödüller[-]
+Ödül Ön İzlemesi
+[FFBA00]{0}[-]/{1} alındı
+Alınan Derece Paketi x{0}
+{0}/{1} dk
+Sonrakini almak için [FFBA00]{0}[-] dk daha oyna
+[x0.n][S0][-] için oynama süresine ulaş
+Yenilenmesine [x0.n][S0][-]
+Rastgele 1 al
+Ödüller güncellendi
+1. Geçerli oynama süresini artırmak ve haftada en fazla [FFBA00]{0}[-], toplamda en fazla [FFBA00]{1}[-] Derece Paketi kazanmak için BR-Dereceli/EÇ-Dereceli maçları tamamla. Derece Paketleri hedef derecelere ulaşarak da elde edilebilir.\n2.Derece Paketinin kilidini açarak içindeki ödülleri al; tekrarlanamaz Yıllık Ödül kazanma şansın var (yılda en fazla 12). Her ay rastgele bir Yıllık Ödül düşer ve saklanabilir. Her ayın ilk günü sabah 4:00'te yenilenir.\nBu etkinlik 2026-12-31 23:59:00 tarihinde sona erer.
+Derece Paketi
+Daha hızlı Derece Paketi ilerlemesi
+Haftalık Sayı: {0}/{1}
+Yıllık Ödüller için daha yüksek şans!
+Bahçe Paketi
+Bahçe Paketi, bahçeni kurmak için aletler almak için aç.
+Bu haritada ticari özellikler etkinleştirilmiştir ve silinemez veya yayından kaldırılamaz. Lütfen resmi personelle iletişime geç.
+Hesap Yasaklandı
+Üretici ayrıcalıkları yasaklandı, Üretim Diyarı Stüdyosuna girilemiyor.
+Hesabınızda ticari haritalar bulunmaktadır. Lütfen hesabınızı silmeden önce bunlarla ilgilenin.
+Hesap yasaklandı. Üretici Merkezi kullanılamaz.
+Bu harita kilitli, güncellenemiyor veya çevrimdışı alınamıyor.
+Hâlâ işlenmekte olan aktif yükleme siparişlerin var. Yüklemeye devam etmek istediğinden emin misin?
+Maç sona erdi. Lütfen lobiye git ve yükleme bilgilerini onayla.
+Mevcut haritanın ticari durumu değişti, şu anda satın alınamıyor
+Ürün durumu güncellendi. Lütfen mağazayı yeniden aç.
+[İndirme Merkezi]'ne giderek harita kaynaklarını kontrol edin ve oyunu yeniden başlatın.
+Satın alma miktarı.
+Özel Kamera Titremesini Oynat
+Özel kamera sallanmasını ayarla.
+Eksen Ofseti
+X/Y/Z eksen ofseti.
+Genlik
+Sarsıntı genliği.
+Frekans
+Sallama frekansı.
+Belirme
+Kamera değişimi süresi. Birim: ms.
+Karartma
+Kararma süresi. Birim: ms.
+Süre Ms
+Sarsıntı süresi. Birim: ms.
+Harita Kaynağını İndir
+Mevcut istemcinin belirtilen Üretim Diyarı harita kaynaklarını indirmesini talep et.
+Kaynak indiren Üretim Diyarı haritasının harita kodu.
+Harita Kaynağı İndirildiğini Kontrol Et
+Mevcut istemcideki yerel harita kaynaklarının durumunu kontrol et ve indirme durumunu, ilerlemeyi ve durum kodunu döndür.
+Kaynak durumu kontrolü gerektiren haritanın harita kodu
+İndirme Durumu
+Mevcut istemcinin yerel harita kaynağı indirme durumu.
+İlerleme
+Mevcut istemcinin indirme ilerlemesi, 0 - 100 aralığındadır.
+API çağrısının döndürdüğü durum kodunu kontrol et.
+UI Vuruşunu Kontrol Et
+Varsayılan yerleşik UI'nin, Üretim Diyarı özel UI'nin veya Üretim Diyarı yerleşik UI'nin belirtilen UI birim koordinatlarında mevcut olup olmadığını kontrol et.
+Algılanacak UI birim koordinatları.
+Diziden Büyük Ondalığa
+Dizeyi, en az 15 anlamlı ondalık basamağı koruyarak ve işaretini muhafaza ederek bir Büyük Ondalık olarak ayrıştırır; bilimsel gösterim, virgül ayırıcılar ve K, M, B, T, Qa kısaltılmış son eklerinin parametre kontrolünü destekler; geçersiz giriş için boş döndürür.
+Ayrıştırılacak dizi.
+Bilimsel Gösterime İzin Ver
+Bilimsel gösterime izin verilip verilmeyeceği. İzin verilirse, e ve E üs işaretleri olarak kullanılabilir.
+Sınırlayıcılara İzin Ver
+Virgüllerin sayısal ayırıcı olarak kullanılıp kullanılmayacağı.
+Soneke İzin Ver
+K, M, B, T, Qa gibi kısaltmaların sonek olarak kullanılmasına izin verilip verilmeyeceği.
+Kaydırma Miktarını Ayarla
+Kaydırma görünümü için dikey veya yatay kaydırma miktarını ayarlayın.
+Kaydırma yönü.
+Kaydırma değeri.
+Kaydırma Görünümü Pozisyonunu Sıfırla
+Kaydırma görünümünün pozisyonunu sıfırla.
+Yerel Sahip Olunan İfadeleri Al
+yerel oyuncu hesabının sahip olduğu tüm İfade ID'lerinin listesini al; yalnızca istemci tarafında, yerel Çanta önbelleğinden senkronize olarak okunur.
+Yerel Mevcut Kıyafeti Al
+yerel oyuncu hesabına ait tüm Kıyafet ID listesini al; yalnızca istemci uygulaması, yerel Çanta önbelleğinden senkron olarak okunur.
+Yerel Mevcut Araç Görünümü Al
+Yerel oyuncu hesabına ait tüm Araç Görünümü ID'lerinin listesini al; yalnızca istemci tarafında, yerel Çanta önbelleğinden senkronize olarak okunur.
+Yerel Mevcut Silah Görünümünü Al
+yerel oyuncu hesabına ait tüm Silah Görünümü ID'lerinin listesini al; yalnızca istemci uygulaması, yerel Çanta önbelleğinden senkronize olarak okur.
+Yerel Mevcut Çanta Görünümünü Al
+yerel oyuncu hesabının sahip olduğu tüm Çanta Görünümü ID listesini al; yalnızca istemci uygulaması, yerel Çanta önbelleğinden senkronize olarak okur.
+Sunucudan CSV Hücresini İsmine Göre Oku
+Sunucudaki CSV dosyasında belirtilen satır ve sütun adına karşılık gelen hücrenin içeriğini oku.
+Sunucu CSV dosyasının adı.
+Okunacak satır indeksi.
+Okunacak sütunun adı.
+Sunucudan CSVyi Anahtar Sırasıyla Oku
+Sunucu CSV dosyasında, anahtar sütunundaki değeri anahtara eşit olan ilk satırı bul ve tüm satır içeriğini döndür.
+Anahtar Sütun
+Hedef değeri eşleştirmek için kullanılan sütun indeksi.
+Anahtar
+Eşleştirilecek hedef değer.
+CSV Sütun Adından Intye
+Sunucunun CSV dosyasının sütun adını sütun indeksine dönüştür.
+Sütun indeksine dönüştürülecek olan sütunun adı.
+Kolay Listeyi Yenile
+Tüm Kolay Liste hücresini yenile. Kaydırmayı Sıfırla etkinse, kaydırma konumunu sıfırla; Kaydırmayı Sıfırla devre dışıysa, mevcut kaydırma konumunu korumaya çalış.
+Hedef Kolay Liste.
+Sıfırlama Parşömeni
+Yenilendiğinde kaydırma konumunun sıfırlanıp sıfırlanmayacağı.
+Hücre Al
+Belirtilen Bilgi Dizinine şu anda karşılık gelen görünür Hücreyi al; hedef görünür değilse veya indeks geçersizse boş veya geçersiz döndür.
+Bilgi Dizini
+Veri listesindeki belirli bir veri öğesinin dizini.
+Veri Dizinine Kaydır
+Belirtilen veri konumuna hemen kaydır; ilk veya son Veriye kaydırırken, üste veya alta konumlanabilmelidir.
+Kaydırma pozisyon ofseti.
+Kısıtla
+Kaydırma konumunun geçerli aralığa kısıtlanıp kısıtlanmayacağı.
+Veri Seç
+Belirtilen Bilgi Dizini'ne karşılık gelen Hücreyi seçin. Hedef görünmüyorsa, kaydırma işlemi Eşyaya Kaydır'a göre belirlenir.
+Eşyaya Kaydır
+Hedef görünür olmadığında bu veri öğesine kaydırılıp kaydırılmayacağı.
+Verileri Seçme
+Belirtilen bilgi dizinine karşılık gelen hücrenin seçili durumunu iptal et.
+Seçimi Temizle
+Mevcut Kolay Liste'nin seçili durumunu temizle
+Seçilen Veri Dizinlerini Al
+Mevcut seçili bilgi dizinlerini al. Orijinal adı olan Get Selected Data Indexes'ı koru. Hiçbir şey seçilmezse, -1 içeren bir tam sayı listesi döndür.
+Görünür Veri Menzilini Al
+İlk indeksten son indekse kadar, şu anda görünür olan veri aralığını al.
+Bilgi Görünür mü
+Belirtilen bilgi dizininin mevcut görünür aralık içinde olup olmadığını belirle.
+Maçtaki Gardırobunu Aç
+Maç Gardırobunda Göster
+İstek Başlatma Aşaması Sonuç Durum Kodu
+Maçtaki Gardıropu Kapat
+Maç Kıyafet Odasını Kapat
+Ekstra Dolap Kıyafetini Düzenle
+Ekstra Gardırop Kıyafetini Düzenle
+Kıyafetler
+Kıyafet Listesi
+Sıralama Türü
+Sıralama türü.
+Gardırop Kaynak İndirme Durumunu Kontrol Et
+Belirtilen kıyafet ID listesine karşılık gelen kaynakların indirme durumunu kontrol et.
+Sohbet HUD'unu Göster
+Sohbet HUD'unu Göster
+Ürün Durumunu Kontrol Et
+Ürünün durumunu kontrol et.
+Ürün Durumu
+Ürünün durumu.
+Prefab'dan UI Aracı Oluştur
+Belirtilen özel arayüz ve ana bileşen altında, UI prefab ID'sine dayalı eksiksiz bir kontrol ağacı oluşturun ve oluşturulan kök UIWidget'ı çıktı olarak verin.
+Yaratılan Varlık
+Yeni oluşturulan kök UIWidget varlığını temsil etmek için kodda kullanılan parametre adı, karşılık gelen yerel değişken değeri oluşturulan kök kontrol varlığıdır.
+Prefab ID
+UIWidget kontrol ağacını oluşturmak için kullanılan UI Prefab ID.
+UI
+Yeni kontrol ağacını barındıran özel UI varlığı.
+Üst Widget
+Yeni kök kontrolün bağlanması gereken üst UI Aracı; boşsa, belirtilen özel UI'ın kök düğümüne bağla.
+Animasyonu Duraklat
+Animasyon kumandasının oynatımını vücut bölümüne göre duraklat.
+Animasyona Devam Et
+Vücut bölümüne göre animasyon kumandasının oynatmasına devam et.
+Animasyonu Sıfırla
+İlgili vücut bölümünün animasyonunun oynama ilerlemesini sıfırla.
+Animasyonu Durdur
+Animasyon kumandasının oynatımını vücut bölümüne göre durdur. Genel olarak, bir vücut bölümünde hiçbir animasyon oynatılmadığında, Boşta Animasyonu'nu oynatmaya çalışacaktır.
+Animasyon kumandası ekli Varlık
+Vücut bölümlerinin dizini, BPC dosyasındaki vücut bölümünün indeks numarasıdır.
+Karakter Animasyon Klibini Durdur
+Karakter animasyon klibini durdur.
+Karakter Animasyon Klibini Duraklat
+Karakter animasyon klibini duraklat.
+Karakter Animasyon Klibini Devam Ettir
+Karakter animasyon klibine devam et.
+Karakter Animasyon Klibini Sıfırla
+Karakter animasyon klibini sıfırla.
+Sohbet HUD'ını Gizle
+Sohbet Arayüzünü Gizle
+Toplam hafızayı al
+İstemcinin mevcut ayrılan hafıza kullanımını (birim: MB) al.
+Güncel ayrılan bellek ek yükü (birim: MB).
+Sohbet HUD'unu Göster
+Sohbet HUD'unu Göster
+Açık Maçta Gardırop Kapalı
+Maç İçi Gardırop Kapalı
+Oyuncu Kıyafet Gardırobunu Onayladığında
+Oyuncu gardıropta kıyafet değiştirmeyi onayladığında tetiklenir.
+Oyuncu bir kıyafet girişine tıkladığında
+Bir oyuncu bir kıyafet eşyasına dokunduğunda tetiklenir ve giriş türü ile ilgili kıyafet ID listesini döndürür.
+Gardırop Kaynağı İndirme Sonucu Alındığında
+İndirme tamamlandığında veya başarısız olduğunda tetiklenir ve giriş türünü, kıyafet ID listesini ve indirme sonucunu döndürür.
+Kaynak indirmesi durum kodu.
+Sohbet Mesajı Alındığında
+Sohbet mesajı alma etkinliği.
+Sohbet HUD Açıldığında
+Sohbet HUD açma etkinliği.
+Sohbet HUD Kapatıldığında
+Sohbet HUD kapatma etkinliği.
+İndirme durumu değişen haritanın harita kodu.
+Mevcut haritanın indirme durumu.
+Durum değişikliğine karşılık gelen hata kodu. Durum başarılı veya indiriliyor ise Hata Yok gösterir.
+Geç Görsel Tik'te
+Unity Late Update tarafından yönlendirilen görsel Tik aşaması sırasında çağrılır, kamera takibi ve diğer yalnızca istemci tarafı sunum mantığı için kullanılır.
+Hücre Bağlaması Üzerine
+UI aracı hücresi görünür bilgiyle bağlandığında veya yeniden bağlandığında tetiklenir.
+Veri İçeriği
+Mevcut hücreye bağlı bilgi.
+Hücreye Dokunulduğunda
+Oyuncu geçerli bir hücreye tıkladığında tetiklenir.
+Hücre
+Oyuncunun tıkladığı yeniden kullanılabilir hücre aracı
+Hücre Dizini
+Mevcut yeniden kullanılabilir hücre dizini.
+Hücre Seçiminde
+Hücre durumu seçili olarak değiştiğinde tetiklenir.
+Hücre Seçimi Kaldırıldığında
+Hücre durumu seçilmemişe değiştiğinde tetiklenir.
+Seçim durumu değişmiş olan yeniden kullanılabilir bir ızgara hücresi kontrolü.
+Hücrede Seçimi İptal Et
+Seçili hücreye tekrar tıklandığında tetiklenir, seçim kaldırma davranışını tetikleyerek.
+Seçim kaldırma mantığını tetikleyen yeniden kullanılabilir bir hücre aracı.
+Görünür Veri Menzili Değişikliği Üzerine
+Görünür veri aralığının ilk veya son veri dizini değiştiğinde tetiklenir, değişiklik olmadığında gereksiz gönderimi önlemek için.
+İlk Bilgi Dizini
+Mevcut görünür veri aralığındaki ilk veri listesinin indeksi.
+Son Bilgi Dizini
+Mevcut görünür veri aralığındaki son veri listesinin indeksi.
+Mantık Tikinde
+Bağımsız UGC mantık saati ilerlediğinde çağrılır. Her çağrı, aynı mantıksal çerçeve içindeki Ön Tik ve Son Tik ile bire bir eşleşir.
+Temel Filtre bileşenine sahip varlığı filtrele
+Düşüş Açısal Hız Ölçeği
+Oyuncunun zıplarken veya düşerken dönüş hızı ölçeği, varsayılan değer 1'dir.
+Koşu Açısal Hız Ölçeği
+Oyuncunun ayakta veya koşarken dönüş hızı ölçeği, varsayılan değer 1'dir.
+Çömelme Açısal Hız Ölçeği
+Oyuncunun çömelirken dönüş hızı ölçeği, varsayılan değer 1.
+Sürünme Açısal Hız Ölçeği
+Oyuncunun sürünürken dönüş hızı ölçeği, varsayılan değer 1.
+Devirme Açısal Hız Ölçeği
+Oyuncunun yere serildiğindeki dönüş hızı ölçeği, varsayılan değer 1'dir.
+Kamera Hassasiyeti
+Mevcut istemciye yerel genel kamera hassasiyeti. Yalnızca mevcut tur için geçerlidir; sunucuyla senkronize edilmez.
+Karakter ID
+Oyuncunun maça girerken seçtiği karakterin ID'si.
+Oyuncunun mevcut gerçek hızı
+Sahne UI İlan Panosu
+Bu özellik, UI'nin Sahnede özelliği Doğru olduğunda etkili olur. Bu sahnenin her zaman kameraya dönük olup olmadığını belirtir.
+Dünya Konumunu Takip Et
+Bu özellik Doğru olarak ayarlandıktan sonra, UI'nin ekrandaki konumu, Dünya Konumu özelliğinin değeri 2B düzleme eşlenerek elde edilir. Not: Bu özellik Sahnede ile karşılıklı olarak dışlayıcıdır, ancak her ikisi de Dünya Konumu özelliğini kullanır.
+Eşleştirme İndirme İptali
+Oyun içi Eşleştirme İndirme İptali
+Harita Kaynağı Bulunamadı
+Belirtilen harita kodunun indirilebilir kaynağı yok veya kaynak dizini ayrıştırılamıyor.
+Harita Kaynak Hedefi Mevcut Değil
+Mevcut istemci hazır değil, veya indirme modülü istek alamıyor.
+Harita Kaynağına Erişim Reddedildi
+Bölge, inceleme, beyaz liste, yayınlanma durumu veya erişim izinleri karşılanmıyor.
+Harita Kaynağı Meşgul
+Sistem meşgul, indirme kuyruğu dolu veya indirme modülü geçici olarak devre dışı
+Harita Kaynağı İndirme Başarısız
+İstek başlatıldıktan sonra, indirme, kaydetme veya bırakma aşaması başarısız oldu.
+Harita Kaynak Doğrulaması Başarısız
+İndirme tamamlandıktan sonra yerel dosya eksik, bozuk veya doğrulama başarısız oldu.
+Harita Kaynak Ağı Kısıtlı
+WiFi yok, ağ zayıf, ağ bağlantısı yok veya mevcut indirme politikası otomatik indirmeyi yasaklıyor.
+Gardırop kaynak indirmesi bilinmiyor
+Belirtilen kıyafet kaynağının indirme durumu alınamıyor.
+Gardırop Kaynağı İndirmeye Hazır
+Belirtilen kıyafet kaynağı henüz indirilmedi ve şimdi indirmeye başlanabilir.
+Gardırop Kaynağı İndiriliyor
+Belirtilen kıyafet kaynakları indiriliyor.
+Gardırop Kaynak İndirmesi Bekliyor
+Belirtilen kıyafet kaynağı indirilmeyi bekliyor.
+Gardırop Kaynak İndirmesi Durduruldu
+Belirtilen kıyafet kaynakları için indirme durduruldu.
+Gardırop Kaynak İndirmesi Tamamlandı
+Belirtilen kıyafet kaynakları için indirme tamamlandı.
+Sadece İşleyici
+Yalnızca işleyici sağlanır; etkinleştirildiğinde parçacıkları dinamik olarak ayarlayamaz, ancak daha iyi performans sunar.
+İşlem Sonrası Filtre Türü
+Sadece paylaşılan parlaklık/doygunluk/kontrastı uygula.
+Çizgi roman tarzı.
+Taslak tarzı.
+Piksel tarzı.
+RGB ayrımı stili.
+Sıcak Altın Çağ stili.
+Arızalı Cyberpunk stili.
+Filtre türünü ve genel parlaklık/doygunluk/kontrast parametrelerini içeren filtre özelliklerinin evrensel kısmı.
+Şu anda aktif olan filtre türleri.
+Parlaklık
+Evrensel Parlaklık
+Doygunluk
+Evrensel Doygunluk
+Kontrast
+Evrensel Kontrast
+Çizgi Roman Filtresi parametresi ayarlandı.
+Eşik
+İkilileştirme Eşiği.
+Eşik aralığı.
+Flaş Hızı
+Flaşın hızı.
+Çizgi Yoğunluğu
+Çizgi yoğunluğu.
+Çizgi Boyutu
+Çizgi boyutu.
+Skeç filtresi parametresi ayarlandı.
+Kalem Boyutu
+Kalem boyutu.
+Kalem Düzeltmesi
+Kalemin düzeltilmesi.
+Kalem Rengi
+Kalemin rengi.
+Kâğıt Rengi
+Kâğıdın rengi.
+Köşe Kaybı
+Köşe kaybı.
+Kâğıt Doku
+Kâğıt dokusu. Boşsa, varsayılan dokuyu kullanır.
+Piksel filtresi parametresi ayarlandı.
+Pikselleşme
+Pikselleşme yoğunluğu.
+Renk Ofseti
+Renk ofseti.
+RGB ayrımı parametresi ayarlandı.
+Bölme Ofseti
+RGB ayrımı ofseti.
+Altın Çağ filtre parametresi ayarlandı.
+Yoğunluk
+Altın Çağ filtresi yoğunluğu.
+Sıcaklık
+Sıcaklık yoğunluğu.
+Cyberpunk Filtresi parametresi ayarlandı
+Kenar Yoğunluğu
+Kenar Yoğunluğu
+Kenar Boyutu
+Kenar boyutu
+Kenar Hassasiyeti
+Kenarın hassasiyeti.
+Arızalı Sıklık
+Arızalı tetikleme sıklığı
+Arızalı Süre
+Arızanın süresi.
+Kenar Rengi 1
+Kenar rengi 1 (HDR)
+Kenar Rengi 2
+Kenar renk 2 (HDR)
+Kenar Gürültü Dokusu
+Kenar Gürültü Dokusu. Boşsa, varsayılan dokuyu kullanır.
+Mesafe Kaynak Tipi
+Mesafe Kaynak Tipi, mesafe hesaplaması için referans nesnesini seçmekte kullanılır.
+Oyuncu Kamerası
+Oyuncu kamera mesafesine göre hesapla
+Oyuncu Karakteri
+Oyuncu karakteri mesafesine göre hesapla.
+Özel Varlık
+Belirtilen varlığın mesafesine göre hesapla.
+Mesafe Boşluk Tip
+Mesafe boşluk tipi, mesafe hesaplamalarının 3D dünya uzayını, yatay XZ düzlemini veya ekran alanını kullanıp kullanmayacağını seçmek için kullanılır.
+3D Dünya
+3D dünya alan mesafesini kullan.
+Yatay XZ
+Yatay XZ mesafesini kullan, yükseklik farklarını göz ardı ederek; harita işaretleri için uygundur.
+Ekran Alanı
+Ekran alanı mesafesini kullan; yalnızca Mesafe Kaynağı = Oyuncu Kamerası olduğunda geçerlidir.
+Mesafe Görünürlüğü
+Metin Varlığı, Simge Varlığı ve Özel Arayüz'ün görünürlüğünü, opaklığını, ölçeğini ve ekran boyutu sınırlarını, oyuncunun kamerası, oyuncunun Avatarı veya belirtilen Varlık ile hedef arasındaki mesafeye göre otomatik olarak kontrol eder.
+Mesafe Kaynağı
+Mesafe hesaplaması için referans nesnesini seçin. Oyuncu Kamerası, oyuncunun kamera pozisyonunu kullanır, Oyuncu Karakteri, oyuncunun Avatar konumunu kullanır ve Özel Varlık, özel Kaynak Varlığı konumunu kullanır.
+Özelleştirilmiş Kaynak Varlığı
+Mesafe Kaynağı = Özel Varlık olduğunda mesafeyi hesaplamak için kullanılan referans Varlık.
+Maks. Ekran Boyutu
+Ekran boyutu için üst sınır; x/y ekran oranını belirtir. Önerilen aralık: 0.0 - 1.0.
+Mesafe Boşluğu
+Mesafe hesaplaması için boşluğu seçin. World3D 3B mesafeyi hesaplar, Yatay XZ XZ düzlemi mesafesini hesaplar ve Ekran Alanı yalnızca Mesafe Kaynağı = Oyuncu Kamerası olduğunda geçerlidir.
+Solma Başlangıç Mesafesi
+Solma eğrisi ve ölçek eğrisinin mesafe normalleştirilmiş örneklemesi için başlangıç mesafesi.
+Solma Bitiş Mesafesi
+Solma eğrisi ve ölçek eğrisinin mesafeye göre normalleştirilmiş örneklemesi için bitiş mesafesi.
+Solma Eğrisi
+Normalleştirilmiş mesafe kullanılarak örneklenmiş bir saydamlık eğrisi.
+Gizleme Eşiği
+Opaklık bu eşiğin altına düştüğünde, Varlık gizlenir veya işleme durdurulur; aksi takdirde opaklık, keskinlik ve ölçekleme uygulanır.
+Ölçek Eğrisi
+Normalleştirilmiş mesafe ile örneklenmiş ölçek eğrisi.
+Ekran Boyutu Kelepçesi
+3B arayüzünü ekran alanına dönüştürmek için boyut sınırları belirleyerek, ekran boyutunu Min Ekran Boyutu ve Maks. Ekran Boyutu aracılığıyla kısıtlama.
+Min Ekran Boyutu
+Minimum ekran boyutu, x/y ekran oranını gösterir. Önerilen aralık: 0.0 - 1.0.
+Kaydırma Yönü
+Kaydırma yönü sıralaması.
+Dikey
+Dikey
+Yatay
+Yatay
+Animasyon Klibi ID Listesi
+Animasyon Klibi ID listesi, oyuncunun hesabına ait her İfade için ilgili Animasyon Klibi ID / İfade eşya kimliğini döndürmek için kullanılır.
+Kıyafet ID Listesi
+Kıyafet ID listesi, oyuncunun hesabına ait Kıyafet ID'yi döndürmek için kullanılır.
+Araç Görünümü ID Listesi
+Araç görünümü ID listesi, oyuncunun hesabına ait Araç görünümü ID'sini döndürmek için kullanılır.
+Silah görünümü ID Listesi
+Silah görünümü ID listesi, oyuncu hesabına ait silah görünümü ID'sini döndürmek için kullanılır.
+Çanta Görünümü ID Listesi
+Çanta Görünümü ID listesi, oyuncu hesabına ait Çanta Görünümü ID'sini döndürmek için kullanılır.
+Kaynak ID
+Arayüz Kolay Listesi
+Yüksek performanslı sanallaştırılmış liste bileşeni, yalnızca görünür hücreler oluşturan ve onları yeniden kullanan, bir listede büyük miktarda bilgiyi görüntülemek için uygundur.
+Hücre düzeni yönü (Yatay/Dikey).
+Hücrenin boyutu.
+Bilgi Listesi
+Liste, veri kaynağını gösterir, yalnızca istemci tarafı depolamadır.
+Hücre boşluğu.
+Düzen kısıtlama türü.
+Her satır/sütundaki hücre sayısı.
+Konteynerin dikey ofseti.
+Konteynerin yatay ofseti.
+Hücre Prefab
+Hücre prefabrik varlığı; çalışma zamanında, bu şablona göre hücre örneklerini klonlar.
+Ekstra Önbellek Satır Sayısı
+Görüntü alanı dışında kalan ekstra önbelleğe alınmış hücre satırlarının sayısı.
+Çoklu Seçime İzin Ver
+Aynı anda birden fazla hücre seçimine izin verilip verilmeyeceği.
+Ek Gardırop Kıyafeti Sıralama Türü
+Ekstra Dolap Kıyafetini Düzenle: Ön, Arka, Varsayılan
+Başa ekle
+Başa ekle.
+Ekle
+Sona ekle.
+Varsayılan
+UI Aracı Kolay Hücre
+Kolay Liste Hücresi prefab'ına ekli, bu Hücrenin tıklama etkileşimi düğme kontrolünü belirtmek için kullanılan açık bir adaptasyon bileşeni.
+Tetik Butonu
+Hücredeki tıklamaları alan ve Kolay Liste hücresinin tıklama/seçim/seçimi iptal etme işlevlerini ileten bir düğme kontrolü.
+Ürün Durumu
+Ürün durumu sıralaması
+Bulunamadı
+Ürün bulunamadı
+Çevrimdışı
+Ürün çevrimdışı
+Ön Çevrimiçi
+Ürün henüz çevrimiçi
+Çevrimiçi
+Ürün çevrimiçi
+Görünüm Geçersiz Kılmayı Etkinleştir
+Özel silah görünümü geçersiz kılmayı etkinleştir. Devre dışı bırakıldığında, temel silah veya varsayılan görünüm kullanılır.
+Görünen İsim
+Mağaza, çanta ve haklamanın görünen ismi.
+Birinci Şahıs Modeli
+Birinci şahıs modeli varlığı. Boş veya geçersizse, temel silah birinci şahıs modeline geri dönülür.
+Üçüncü Şahıs Modeli
+Üçüncü şahıs elde tutulan model kaynağı. Boş veya geçersiz olduğunda temel silahın üçüncü şahıs elde tutulan modeline geri dönülür.
+Arka Modeli
+Arka model varlığı. Boş veya geçersizse, temel silah arka modeline geri dönülür.
+Kamyonet Modeli
+Yerdeki alma modeli varlığı. Boş veya geçersiz olduğunda temel silahın yerdeki alma modeline geri dönülür.
+Çanta İkonu
+Çanta ve toplama arayüzleri için silah ikonu varlıkları. Boşsa, temel silah Çantası veya toplama ikonlarına geri dönülür.
+Yuva İkonu
+HUD silah yuvası ve silah değiştirme arayüzü ikon varlıkları. Boşsa, temel silah yuvası ikonuna geri dönülür.
+Haklama İkonu
+Haklama duyurusu için silah ikonu varlığı. Boşsa, temel haklama silah ikonuna geri dönülür.
+Ateş Etme Ses ID
+Ateş etme ses efekti varlığı. Boşsa, temel ateş etme ses efektine geri döner.
+Klip İçi Ses ID
+Şarjör takma ses efekti varlığı. Boşsa, temel silah şarjör takma ses efektine geri döner.
+Klip Çıkışı Ses ID
+Şarjör çıkarma ses efekti varlığı. Boşsa, temel silahın şarjör çıkarma ses efektine geri döner.
+Silah Ses ID'sini Değiştir
+Silah değiştirme ses efekti varlığı. Boşsa, temel silah değiştirme ses efektine geri döner.
+Mermi Yolu Malzemesi
+Mermi yolu varlığı. Yapılandırma geçerli olduğunda varsayılan mermi yolu görsel efektlerini değiştirir.
+Ateş Etme Efekti
+Ateş etme efekti varlıkları. Yapılandırma etkinleştirildiğinde, standart silahların yerleşik ateş görsel efektlerini değiştirir.
+Vuruş Efekti
+Vuruş VFX varlığı. Yapılandırma geçerli olduğunda vuruş parçacık görsel efektlerini değiştirir.
+Oyuncular veya Çarpışma bileşeni eklenmiş Varlık bu etkinliği destekler. Not: İstemcide, yalnızca yerel oyuncu bu etkinliği tetikler, yerel oyuncu dışındaki oyuncular tetiklemez.
+This is an Ultra Airdrop. Capture it to get the powerful Lv. 5 armor! You can also destroy the pillars to capture faster.
+Woo, a random event! In this match, you'll receive Gloo Walls over time!
+Here comes a random event! If you're eliminated, your main weapons will be carried over to the next round!
+Hedef bulundu
+Kahraman Akademisinde herhangi {0} haritayı tamamla
+Düşmana yakınlaşmak için depar at
+[FFBA00]{0}[-]/{1} maç tamamla
+[FFBA00]{0}[-]/{1} Seviyesine Ulaş
+[FFBA00]{0}[-]/{1} gün giriş yap
+Herhangi bir modda [FFBA00]{0}[-]/{1} dakika oyna
+[FFB300]{0}[-] CP'lik bir peluş fırlatır. Peluş [FFB300]{3} sn[-] boyunca kalır, engelleri aşar ve [FFB300]{1} m[-]'ye kadar gider (BR modunda [FFB300]{2} m[-]). Görüş alanındaki en yakın düşmanı [FFB300]{4} m[-] menzil içinde takip eder ve [FFB300]{5} m[-]lik hayali bir alan oluşturur. Bu alan içinde kullanıcı ve düşmanları [FFB300]Muhafız Duvar yerleştiremez[-] ve düşmanlar saniyede [FFB300]{6}[-] CP kaybeder. Peluş yok edildiğinde alan kaybolur, ancak yok eden kişi [FFB300]{7} sn[-] işaretlenir. Peluş hâlâ etkinken, yeteneğe tekrar dokunarak peluşu geri çağır ve bekleme süresini [FFB300]{8} sn[-] azalt.
+Buz Yankısı
+Aktifken, peluş geri çağrılabilir ve azaltılmış bekleme süresinden sonra tekrar fırlatılabilir.
+[FFB300]{0}[-] CP'lik bir peluş fırlatır. Peluş [FFB300]{3} sn[-] boyunca kalır, engelleri aşar ve [FFB300]{1} m[-]'ye kadar uçar (BR modunda [FFB300]{2} m[-]). Görüş alanındaki en yakın düşmanı [FFB300]{4} m[-] menzil içinde takip eder, [FFB300]{5} m[-] hayali bir alan oluşturur ve bir kopya peluş üretir. Bu alan içinde kullanıcı ve düşmanları [FFB300]Muhafız Duvar yerleştiremez[-], düşmanlar ayrıca saniyede [FFB300]{6}[-] CP kaybeder. Peluş yok edildiğinde alan kaybolur, ancak yok eden kişi [FFB300]{7} sn[-] işaretlenir. Kopya peluş orijinal yönde ilerler ve takip edilen düşmana [FFB300]{8}[-] seri atış hasarı verir.
+Buz Kıymığı
+Bir düşman bulduktan sonra, peluş orijinal yönde ilerleyen ve takip edilen hedefe AoE patlama hasarı veren bir kopya oluşturur.
+Bu ön ayar henüz açmadığın yetenekler içeriyor. Önce onları satın al.
+Bu ön ayar, kilidini açmadığınız yetenekler veya teçhizatlar içeriyor
+Fırtına'yı kullanarak düşmanları oyala, ardından doğru anda ışınlanarak onları hazırlıksız yakala. Pasifler, ışınlandıktan sonra bir kalkan ve iyileştirme sağlar.
+Fırtına Pususu
+Duvarların içinden geçebilen, hızla ileri doğru hareket eden ve [FFB300]{0}s[-] süren dönen bir fırtına oluşturur. Fırtınanın isabet ettiği düşmanlara [FFB300]{1}[-] HASAR verir. Fırtına aktifken mevcut konumuna ışınlanmak ve [FFB300]{2}s[-] boyunca [FFB300]%{3}[-] HASAR azaltımı sağlayan bir kalkan elde etmek için yeteneğe tekrar dokun. Kullanıcı ışınlandıktan sonra fırtına kaybolur. Bekleme süresi: [FFB300]{4}s[-].
+Fırtına Baskını
+Duvarların içinden geçen, girdap gibi dönen bir fırtına salar; düşmanlara hasar verir ve onları yavaşlatır. Kullanıcı, fırtınanın bulunduğu konuma ışınlanabilir.
+Düşmanları Tespit Et
+Şifa eşyaları
+Özel Fırlatılabilirler
+Bir düşman yakındayken ayak sesleri duyarsın. Bir düşman yaklaşırken daha güçlü bir uyarı için Ayarlar'dan Adım Sesi Titreşimini de açabilirsin.\nMini harita ayrıca ateş eden yakındaki düşmanları da gösterir, bu yüzden onu gözlemeye devam et.
+Bazen bir cephanelik savunmaya geçer ve yalnızca ele geçirilerek açılabilir.\nEle geçirildiğinde, yakındaki düşmanları taramak için bir İHA aktifleşir.
+Bir BR maçının ortasında, gökyüzünden çok sayıda hava desteği düşecek. Ganimet almak için yaklaş.\nSavunma Hava Desteği özel bir hava desteğidir. Her aşamada ödüller almak için ele geçir.
+Ultra Hava Desteği güçlü zırh verir ancak daha uzun ele geçirme süresine sahiptir ve maç başına yalnızca bir kez düşer.\nEle geçirme hızını artırmak için etrafındaki enerji sütunlarını kırın.
+Mavi normal Diriltme Kartı veya sarı Süper Diriltme Kartı satın alabilirsin.\nSüper Diriltme Kartları daha pahalıdır ancak diriltilen takım arkadaşına diriliş sırasında daha iyi başlangıç donanımı verir.
+Diriltme Noktasını ele geçirmek tüm takım arkadaşlarını diriltecek. Ancak ele geçirme ilerlemen haritada tüm oyunculara gösterilecek.\nDiriltme Noktaları maçın ilerleyen aşamalarında kapanacak.
+Muhafız Duvar'ın ne olduğunu biliyor musun?
+Yerde farklı türlerde Siber Mantarlar bulunabilir; tarama, iyileştirme, hız takviyesi ve Muhafız Duvar takviyesi sağlarlar.\nEtkilerini tetiklemek için onlarla etkileşime gir ya da yok et.
+Siper olarak kullanmak için Muhafız Duvarları konuşlandır.\nMuhafız Duvarlar belirli bir miktarda hasar aldıktan sonra kırılır veya konuşlandırıldıktan belirli bir süre sonra kaybolur.
+Bazı karakter yetenekleri ve eşyalar Muhafız Duvarlara ciddi miktarda hasar verir, örneğin Skyler ve Oscar'ın yetenekleri, M60 ve Pas Bombaları.
+Bazı karakter yetenekleri ve silahlar, Muhafız Duvar arkasındaki düşmanlara hasar verebilir, örneğin İris'in yeteneği, SVD-Y ve M82B.
+Moco ve Shiro gibi karakter yetenekleri düşmanları işaretleyebilir, senin ve takım arkadaşlarının onları bulmasına yardımcı olur.
+Zırhın yelek ve kasktan oluşur. Bunlar ilgili vücut bölümlerine gelen hasarı azaltmaya yardımcı olur. Daha yüksek seviyeli yelek ve kask, daha yüksek hasar azaltması anlamına gelir.\nZırhının durumunu CP çubuğunun yanında kontrol edebilirsin.
+Saldırıya uğradığında zırhın hasar alabilir. Onları tamir etmek için Tamir Kitlerini kullanmayı unutma.\nTamamen kırılmış bir Yelek veya Kask tamir edilemez ve kaybolur.
+CP doldurmak için Sağlık Kitleri kullan. Süper İlaçlar seni daha çok iyileştirir.\nAncak, bir Sağlık Kiti kullanmak zaman alır. Kullanırken hareket etmek işlemi iptal eder.
+Soluk cihazları hareket halinde kullanılabilir ve hem CP hem de EP doldurur.\nBazı özel soluk cihazları benzersiz güçlendirmeler sağlar.
+El bombaları patlama yarıçapı içindeki düşmanlara ağır patlayıcı hasar verir, ancak kendine zarar vermemeye dikkat et.\nEl bombaları atıldıktan birkaç saniye sonra patlar. İyi zamanlama onları daha etkili kılar.
+Sol taraftaki el bombası düğmesine dokunarak pimi önceden çek, böylece fırlatıldıktan sonra daha çabuk patlar.\nZamanlamayı dikkatli yap, yoksa kendine hasar verebilirsin.
+Pas Bombası, menzil içindeki tüm Muhafız Duvarlara hasar veren bir erime bölgesi oluşturur.
+Donuk Flaş, az miktarda kesintisiz hasar veren ve içindeki düşmanları yavaşlatan bir donma bölgesi oluşturur.\nEjder Flaş, menzildeki düşmanlara 3 kez orta derecede hasar verir.
+Mayın yerleştirerek düşmanlara pusu kur ve üzerine basarlarsa yüksek hasar ver.\nDikkatli ol, mayını yerleştiren kişi de mayını tetikleyebilir.
+Kontroller istediğin gibi değil mi? Ayarlar'dan ayarla. Kontroller, grafikler, ses ve hesabın için temel ayarların hepsini burada bulabilirsin.
+Silahların iki türü vardır: ana ve yedek.\nAynı anda iki ana silah kuşanabilirsin. Uzun menzilli silah ve kısa menzilli silah kombinasyonu önerilir.\nYedek silahlar genellikle özel özelliklere sahiptir. Yalnızca bir adet yedek silah kuşanabilirsin.
+Karakter yeteneklerini kuşanmak seni güçlendirir! Savaşta kullanmak üzere dört yetenek kuşanabilirsin, ama sadece biri aktif yetenek olabilir.
+Her silahın özelliklerini daha iyi anlamak için silah sistemindeki detaylı silah bilgilerini görüntüle.
+Düşmanı kafadan vurmak daha fazla hasar verir. Kırmızı hasar sayıları kafadan vuruşu gösterir.\nBazen, yukarı kaydırmadan önce aşağı nişan almak kafadan vuruş yapmayı kolaylaştırır.
+Bazı silahlar Yükseltme Çipleri ile veya onlarla hasar vererek yükseltilebilir.\nHazır olduğunda bir yükseltme düğmesi görünecek.
+Bazı silahların iki atış modu vardır, örneğin G36'nın Saldırı ve Menzil modları ile Trogon'un Pompalı Tüfek ve El Bombası modları.\nİki mod arasında geçiş yapmak için değiştirme düğmesine dokun.
+Şifa Tabancası: Takım arkadaşına ateş ederek onu iyileştir.\nKanca Silahı: Hedef konuma tutunma kancası ateşle ve kendini ona doğru çek. Kanca Silahı genellikle yalnızca Kalahari'de bulunur.\nFGL-24: Çarptığında duvarlardan alevler geçirir ve kapak arkasındaki düşmanlara hasar verir.
+BR modunda, paraları yerden alarak veya Para Makinelerine yaklaşarak para kazanabilirsin. Paralar Otomat Makinelerinden malzeme satın almak, cephanelikleri yükseltmek ve daha fazlası için kullanılabilir.\nPara Makineleri üzerinden elde edilen paralar takım arkadaşlarınla paylaşılır.
+BR modunda Otomat Makineleri haritanın her yerine dağılmıştır. Eşya, silah, Diriltme Kartı ve daha fazlasını parayla satın alabilirsin.\nOtomat Makinelerinin konumları haritada işaretlenmiştir.
+Cephanelik kaliteli ganimetle doludur. Daha iyi silahlar ve teçhizat için onu parayla yükseltebilirsin.\nCephaneliklerin kilidi bir anahtar veya parayla açılabilir.
+Ayak İzleri ve Silah Sesleri
+Silah Detayları
+İşaretleme Yetenekleri
+Silah Tipleri
+Yükseltilebilir Silahlar
+Çift Modlu Silahlar
+Sıradan İkincil Silahlar
+Oto-Diriltme
+El Bombası Pişirme
+Donuk Flaş ve Ejder Flaş
+Age Verification:
+Şu anda bu oyuncuya mesaj gönderemezsin
+Doğum tarihini gir
+Tarih biçimi: YYYY-MM-DD
+Yaş Beyanı
+Sıfırlama henüz mevcut değil. Lütfen daha sonra tekrar dene.
+Bağlı veli e-postası olan hesapların bağlantısı, yaş beyanı sıfırlanmadan önce kaldırılmalıdır
+17 yaş ve altı
+Yaş kısıtlamaları nedeniyle bu oyuncuyla sohbet edemezsin
+Yaş kısıtlamaları nedeniyle bazı oyuncularla sohbet edemezsin.
+Ödeme yapmadan önce bir veli e-postası bağla ve izin al.
+Reşit olmayanlar ödeme yapmadan önce bir veli hesabı bağlamalı ve velilerinin iznini almalıdır.
+Ödeme Kısıtlaması
+Yaş kısıtlamaları nedeniyle yetişkinlerle sohbet edemezsin.
+Yaşın yerel mevzuat gereksinimlerini karşılamadığı için sohbet edemezsin
+18 yaşından küçük oyuncuların hesapları, tam oyun deneyimi için bir ebeveyn veya veli hesabına bağlanmalıdır. Lütfen yaş beyanının doğru olduğunu onayla.
+Lütfen Tekrar Onayla
+Bazı sosyal özellikler, yaşın yerel mevzuat gereksinimlerini karşılamadığı için kısıtlanmıştır. Anlayışın için teşekkür ederiz.
+Bu hesap küçük ödeme kısıtlamalarına tabidir ve şu anda bu kanal üzerinden ödeme yapamaz
+Veli E-postasını Bağla:
+Veli e-postası bağlanamadı. Lütfen daha sonra tekrar dene.
+Veli e-postası başarıyla bağlandı
+Veli E-postası Bağlı
+Velinin e-posta adresini gir
+Bu Veli e-postası, maksimum bağlı küçük hesap sayısına ulaştı. Farklı bir e-posta kullan veya başka bir hesabın bağlantısını kaldır.
+Velinin e-posta adresine bir doğrulama kodu gönderildi. Bağlamayı tamamlamak için kodu gir.
+Lütfen önce oyunda veli e-posta doğrulamasını tamamla
+Veli Merkezi'ne git
+Kalan ödeme limitin yetersiz.\nKalan ödeme limitin {0}.\nHesabın bir veliye bağlıysa, ödeme limitini Veli Merkezi'nde ayarlayabilir.
+Ödeme Limitine Ulaşıldı
+Bu haftaki kalan ödeme limitin bu ödemeyi tamamlamak için yetersiz
+Velin henüz bir ödeme limiti belirlemedi. Ödemeler mevcut değil.
+Oynama süresi limitine ulaşmadan önce {0}m kaldı. Lütfen oyun süreni akıllıca yönet.
+Oynama süresi limitine ulaştın. Bağlı bir muhafızın varsa, muhafızın Muhafız Merkezi'nde oynama süresi limitini ayarlayabilir.
+Oynama Süresi Limitine Ulaşıldı
+Velin {0} gün içinde herhangi bir işlem yapmazsa, e-postanın bağlantısı otomatik olarak kaldırılacaktır.
+Bağlantıyı kaldırma isteğin işleniyor. Lütfen velinin onaylamasını bekle.
+Mevcut veli e-postasının bağlantısını kaldırma isteğinde bulunmak istediğinizden emin misiniz?
+Veli E-postasını Bağlamayı Kaldır
+Yaş doğrulamasını tamamlamadan önce, yalnızca doğrulanmamış oyuncularla sohbet edebilirsin
+Yaş doğrulamasını tamamlamadan önce, herkese açık kanallarda mesaj gönderemez veya sohbet geçmişini görüntüleyemezsin
+Yaş kısıtlamaları nedeniyle ekibindeki bazı oyuncularla sesli sohbet edemezsin
+DIGIMON MACERASI
+BLUE LOCK
+JUJUTSU KAISEN
+NARUTO SHIPPUDEN
+GINTAMA
+BEN 10
+Digimon Macerası İş Birliği Kaynakları
+BLUE LOCK İş Birliği Kaynakları
+Jujutsu Kaisen İş Birliği Kaynakları
+NARUTO SHIPPUDEN İş Birliği Kaynakları
+Gintama İş Birliği Kaynakları
+Ben 10 iş birliği için Kaynaklar
+Atış Oranı: %8→[ed3d0a]%5[-]
+Süre: 15sn→[ed3d0a]13sn[-]\nNişan yardımı tetikleme mesafesi: 4m→[ed3d0a]12m[-]\nGizlilik çıkış gecikmesi: 0,8sn→[37be7b]0,5sn[-]
+Daha Az Bekleme Süresi: 90s→[37be7b]75s[-]
+Atış yaparken el bombası atan gelişmiş bir AK47 kazan
+El Bombacısı AK47
+Alınan güçlendirmeler savaş alanına girdikten sonra etkili olacak
+{0} bonus Maks. CP kazan ve kafa boyutunu buna göre artır
+Titan
+Maks. CP ne kadar yüksekse, silah ve yetenek hasarı o kadar yüksek olur
+Ağır Sıklet
+{0} bonus Maks. CP kazan
+Uzatılmış Yaşam
+Oscar'ın yeteneğini Oscar - Hayalet Atılma'ya yükselt
+Süper Oscar
+Her haklama veya yardımda 1 efekt birikimi kazan. Her birikim bonus maks. CP'yi %{0} artırır.
+Kafa boyutunu bonus Maks. CP'ye göre artır ve her haklama veya yardımda 1 efekt birikimi kazan. Her birikim bonus Maks. CP'yi %{0} artırır.
+Tank Motoru
+Dayanıklılık Dizilimi
+Hasar
+Hasar Bonusu
+Çömelirken hareket hızını %{0} arttırır
+Hızlı Çömelme
+Sınırsız EP ve daha hızlı EP dönüşümü kazan
+Periyodik olarak bir Muhafız Duvar kazan
+Duvar Desteği
+Hasar aldıktan sonra kısa süreli hareket hızı artışı kazan.
+Acı Depar
+Muhafız Duvarlar asla tükenmez
+Sonsuz Duvarlar
+Yerleştirilen Muhafız Duvarlar daha yüksek iyileştirme bonusları sağlar
+Nairi'nin Gücü
+Hasar aldıktan sonra {0} geçici Kalkan Puanı al
+Panik Kalkanı
+Muhafız Duvar dayanıklılığını önemli ölçüde arttırır
+Demir Duvar
+Genel Dizilim
+Düşmana kilitlendikten sonra nişanınız hedefi kaybetmez
+Deadlock Nişan Al
+Hedef alana ateş topu fırlatan özel bir Mitralyöz kazan
+Alevli Mitralyöz
+Mermi asla tükenmez
+Sınırsız Mermi
+Kenta'nın geliştirilmiş Yetenek Kartını al
+Süper Kenta
+Artan atış oranı ve daha az mermi dağılmasıyla süper ateş moduna girmek için çömel
+Çömelerek Ateş
+Kanca Silahı kazan
+Kanca Silahı
+Steffie'nin, hasar azaltmayı önemli ölçüde artıran geliştirilmiş Yetenek Kartını al
+Süper Steffie
+Şu an süper ateş modunda
+Destek Dizilimi
+Çömelerek bir çalıya dönüş. Kısa süreli ateş etmen seni insan formuna geri döndürür. Ateş etmeyi bıraktıktan sonra tekrar bir çalıya dönüşürsün.
+Sinsi Wukong
+CP
+CP Bonus
+{0}. seviyede açılır
+Yakın dövüş silahı hasarını artır
+Kla'nın Bağı
+Yakında bir Dans El Bombası alanı oluştur. İçindeki düşmanlar dans etmeye zorlanır.
+Dans Havuzu
+Yakın dövüş silahı menzilini, onunla her haklama veya nakavt aldığında artırır
+Büyüyen Kenar
+Bir düşmanı hakladıktan sonra {0} CP doldur
+Jota'nın Gücü
+Yakın dövüş silahlarının menzilini önemli ölçüde artır
+Uzun Menzil
+Nişan Yardımı, tıpkı silahlarda olduğu gibi yakın dövüş saldırılarına da uygulanır
+Manyetik Patlama
+Chrono'nun yeteneğini Chrono - Zaman Kayması'na yükselt
+Süper Chrono
+Gizlilikten çıktıktan sonra neredeyse hiç ateş etme gecikmesi olmayan geliştirilmiş Morse Yetenek Kartını kazan
+Süper Morse
+Yakın dövüş silahlarıyla saldırırken depara izin verilir
+Filo Darbesi
+Çok kısa bekleme süresine sahip geliştirilmiş Tatsuya Yetenek Kartını kazan
+Süper Tatsuya
+Yakın Dövüş Dizilimi
+Haklama yaptıktan sonra {0} kalıcı Kalkan Puanı al
+Victor'un Kalkanı
+BR: Evrim
+BR: Evrim modu Kaynakları
+Yere sermelerden EP kazanmanı ve yetenek etkinken daha hızlı hareket etmeni sağlayan geliştirilmiş Orion Yetenek Kartını kazan
+Süper Orion
+Diriltme mevcut değil
+Yakında diriliyor
+Diriltme yakında mevcut olmayacak.
+Destenizi seçmek için dokun
+Yetenek Kartları
+Hız Bonusu
+BR: Evrim Bonusu
+Geliştirilmiş bir VSK94 kazan; nişangahı küçük bir bölgeye genişler ve atışların içindeki tüm düşmanları vurmasını sağlar
+Menzilli VSK94
+Temel maks. CP %{0} azalır ve Hasar %{1} artar
+Cam Top
+Bir düşmanı hakladıktan sonra kısa süreli bir hareket hızı artışı kazan.
+Yırtıcının Deparı
+Daha yüksek Ninja Bıçağı hasarı, daha hızlı Ninja Bıçağı üretimi ve daha yüksek maksimum Ninja Bıçağı sayısı sağlayan geliştirilmiş Rin Yetenek Kartını kazan
+Süper Rin
+Keskin Nişancı Dizilimi
+Vurulan düşmanlara patlayıcı seri hasar veren gelişmiş bir Winchester kazan
+Seri Atış Winchester
+Sinyal Bozucu aktif
+Katılınamıyor: Gizlilik modunda
+Red Bull Ödül Sandığı
+Alvaro Firefig
+Sanırım patlama her şeyi çözemez.
+Kelly Firefig
+Hiçbir şey Kelly'i yavaşlatamaz!
+Özel Kelly Firefig
+Kelly, Bermuda maraton yarışmasını kazandı!
+Kapella Firefig
+Kapella'dan bir göz kırpmayı kim istemez?
+Moco Firefig
+Hiçbir şey Moco'dan gizlenemez.
+Steffie Firefig
+Steffie'ye sataşmadan önce iki kere düşün.
+Wukong Firefig
+Maskenin altında başka bir kılık mı?
+Özel Wukong Firefig
+Efsanevi maymun alevlerde dövüldü.
+Bölüm {0}
+Liderlik Tablosu
+Zorluk Seç
+Seviye Bilgisi
+Zorluk {0}
+Zorluk Etiketi
+Görev
+Hazır
+Yetenek
+Savaş
+Keşif
+Maks. seviyeye ulaşıldı
+Tümünü Sıfırla
+Tüm yetenekleri sıfırlamayı onaylıyor musun? Tüm jetonlar iade edilecek.
+Yeteneği sıfırla
+Hayatta Kalma
+Yetersiz jeton
+Ön koşul yeteneği açılmadı
+Aç
+Yükselt
+Zorluğu değiştir
+Mevcut zorluk bazı takım arkadaşları için hâlâ kilitli
+{0} mevcut zorluğun kilidini henüz açmadı
+Takımının açtığı en yüksek zorluk {0}. Bölüm, {1} zorluk seviyesi. Şimdi buna geç?
+Takımla birlikte iniliyor. İnişte Takım Diriltmesi mevcut.
+Takımdan çok uzakta. İnişte takım diriltmesi mevcut değil.
+Takımınla in ve bir dirilme şansı kazan
+Takım arkadaşları yakınında indi
+Takım Dirilişi alındı
+Ceza detayları:\nKazanılan Klan Savaşları Puanın {0} düşürülecek.\n
+Pyro etkin değil ve otomatik olarak kaldırılacak.
+Kıvılcımları ikiye katla!
+Baget
+Kara Kedi Şapkası
+Bej Kedi Şapkası
+Mavi Kedi Şapkası
+Kırmızı Kedi Şapkası
+Mısır
+Kırmızı Fil Şapkası
+Mavi Fil Şapkası
+Yeşil Fil Şapkası
+Mavi Gülen Yüz Gözlüğü
+Pembe Kalp Gözlüğü
+Sarı Tatlı Gözlük
+Mor Gözlük
+Tek Renk Piksel Gözlüğü
+Renkli Piksel Gözlük
+Bal Kabağı
+Korkunç Tavşan Çantası
+Tekrar düzenlemeden önce {0} sn beklemen gerekiyor.
+Rastgele
+Her giriş yaptığında, arkadaşlarından birinin Pyro'su rastgele gösterilir.
+1. Yalnızca Yakınlık Puanı {0}+ olan arkadaşlarının Pyro'su gösterilebilir. Ayrıca Pyro'larının kilidini açmış olmaları gerekir.\n2. Rastgele Gösterim: Her giriş yaptığında rastgele bir arkadaşının Pyro'su gösterilir. Seçim havuzunda en fazla {1} arkadaş yer alır.\n3. Ayrıca seçtiğin bir arkadaşının Pyro'sunu da gösterebilirsin.
+Seçildi
+Pyro'sunu her zaman göstermek için bir arkadaş seç.
+Giriş Yap
+Ekstra günler ekle
+Ekstra maç ödülleri
+Pyro'yu yeniden alevlendirmek için {0} gün giriş yap.\nDereceli bir maç tamamlamak {1} gün ekler!
+Yeni
+Pyro Dostları Daveti
+Arkadaş
+Yakınlık Puanı
+Durum
+Pyro Dostları
+Bekleme süresi iptal edişi. {0} saat sonra tekrar iste.
+Seninle Pyro Dostları kurma isteği
+Alınan Pyro Dostları İstekleri
+İstek Listesi
+Pyro Dostları, Yakınlık Puanı {0}'dan yüksek olan arkadaşlar için kullanılabilir
+Pyro Dostları isteği gönder
+Arkadaşın {0} seni Pyro'nu yeniden ateşlemeye çağırıyor!
+Pyro'nun dostu seni çağırıyor!
+Pyro Dostları isteği gönderildi
+Pyro
+Pyro'yu göster
+Çevrimdışı arkadaşa davet başarıyla gönderildi
+Dereceli mod mevcut hesap seviyende kullanılamıyor. Kilidini açmak için seviye atla!
+Arkadaşınla Pyro Dostları'nı iptal et?
+Pyro Dostları'nı iptal et
+Yorum
+{0} Takipçi
+{0}v{1}
+Takip Et
+Takip Ediliyor
+Daha Fazla
+Bu üretici farklı bir bölgede ve takip edilemez
+Paylaş
+Solo Oyun
+Başla
+Takım Oyunu
+Flame Grenades, Super Energizers, and FGL-24 will appear in Clock Tower.
+Fiery Clock Tower
+Discounted Strange Weapons at Vending Machines!
+Strange Weapon Discount
+Discounted Storm Weapons at Vending Machines!
+Storm Weapon Discount
+More coin piles will appear on the ground
+Coin Rain
+More coins, gold-tier weapons, and Coin Jars will appear in Sentosa
+Gold Rush
+Most of the vehicles become Horses, giddy-up!
+Wild West
+Discounted new weapons at Vending Machines!
+New Weapon Discount
+More SMGs, shotguns and melee weapons will appear in Peak
+Peak Mania
+Start the match with 500 coins
+Rich Start
+Oluşturuldu
+Tuhaf görüntüleri ele geçir, yok olup özel etkinlik malzemeleri bırakmalarını sağla
+Tuhaf Görüntü
+Yeni tuhaf görüntü yakalandı
+Restore {0}% armor durability
+Gain {0} temporary Shield Points
+Görülmemiş
+Saklı Taraf ortaya çıktı
+İfşa Maskeleri ve Tuhaf Silahlar EÇ Mağazası'nda mevcut
+Tuhaf Güç
+Etkinlik efektlerini tetikleyen tuhaf güce sahip özel bir silah
+Tuhaf Silah
+Bebek Olarak İzle
+Saklı Tarafa Gir
+Takım Arkadaşını Takip Et
+Maskeli forma ve Saklı Tarafa girmek için kullan, daha iyi hareket hızı ve zıplama yüksekliği kazan
+İfşa Maskesi
+Dönüşümü İptal Et
+Maskeli Forma Gir
+Normal dünya ile Saklı Taraf arasında, daha hafif zıplamalar ve daha hızlı koşularla hareket eden bir at
+Gölge At
+Haklandıktan sonra, hayatta kalan takım arkadaşlarını takip etmek ve rastgele güçlendirmeler vermek için Bebek formuna gir
+Bebek Desteği
+İfşa Maskesi kullanarak maskeli forma gir ve Saklı Taraf'a eriş
+İfşa Maskesi
+Hakladığın her oyuncu için arkanda bir maske veya ürkünç işaret belirir
+Haklama İşaretleri
+Görülmemiş
+Saklı Taraf ortaya çıktı
+Oyuncak Bebek İzleme'ye girdikten sonra özgürce hareket edebileceğiniz alan
+Bebek Menzili
+Saklı Taraf Açık
+Saklı Tarafı ve tuhaf görüntüleri keşfetmek için Maskeli forma gir
+Saklı Taraf
+İyileştirme Balonu hazır
+İyileştirme Balonu hazır. Ekstra FF Parası dahil.
+Tamir Balonu hazır
+Tamir Balonu hazır. Ekstra FF Parası dahil.
+Kalkan Baloncuğu hazır
+Kalkan Balonu hazır. Ekstra FF Parası dahil.
+Hız Balonu hazır
+Hız Balonu hazır. Ekstra FF Parası dahil.
+Dikkat! Takım arkadaşının menzilinden çıkmak üzeresin
+Takım arkadaşı menzilinin dışında. Dönüşe {0} sn kaldı.
+Takım arkadaşı civarına döndü
+Takım arkadaşının {0}m mesafesinde kal
+Normal İzle
+Sadece bir oyuncu hayatta. Görünüm değiştirilemiyor.
+Özel Çelik Halat inşa etmek için yerleştir
+Çelik Halat Kiti
+Özel Çelik Halat kurmak için yerleştir
+Çelik Halat Bağlantı Noktası
+Her turun başında tüm takım arkadaşları bir Mini Taret kazanır
+Firefig
+Firefig kazanmak için bu maçı kazan
+Booyah Ödülü
+Başarıyla Bağlandı
+Firefig alındı
+Firefig Göster
+Başarıyla Bağlandı. Firefig maçtan sonra çıkarılacak.
+Işık yükselsin. (Kullanıcı, kabine teçhizat, Altın veya Fişler gibi gizli hediyeler yerleştirebilir. Hediyeler 10 oyuncu için geçerlidir.)
+Parlak Alev
+TV Korkusu
+İkizler
+Fırtına Kralı
+Fırtına Ekibi
+Ekran mı, şaka mı? (Kullanıcı, kabine teçhizat, Altın veya Fişler gibi gizli hediyeler koyabilir. Hediyeler 10 oyuncu için geçerlidir.)
+Ekran Terörü
+Görülmemiş Çerçeve
+Fırtına Arenası Çerçevesi
+Kızıl Aksaklıklar Çıkartması
+Boşluk Adam Çıkartması
+Kırmızı Yağmurluk Çıkartması
+Pelerinli Dehşet Çıkartması
+Kozmik Hükümdar Çıkartması
+FFWS Şampiyon Çıkartması
+Dikey Tırmanıcı kullanırken optimize edilmiş görünüm için kamerayı otomatik döndür
+Dikey Tırmanıcı'ya bindikten sonra aynı yöne bakmaya devam et
+Tırmanıcı Otomatik Dönüşü
+Dikey Tırmanıcılar için Otomatik Dönüş varsayılan olarak etkindir. Bunu Ayarlar'dan değiştirebilirsiniz.
+Hızlan
+Aşağı
+Ayrıl
+Tersi
+Yukarı
+Ninja Geri Dönüyor
+Evo AWM Maks. 7. Seviyeye yükseltilerek elde edildi.
+Nihai AWM
+Almak için web etkinliğindeki görevleri tamamla
+As Yönetici
+Daha önce Dokuz Kuyruklu'nun Vuruşu veya Efsane Ninja Sınavları'na katıldıysan, geri dönen ninjalar için özel unvanı almak üzere tekrar düzenlenen Dokuz Kuyruklu'nun Vuruşu etkinliğine katıl!
+Görülmemiş Albümünde kayıtları topla, koleksiyon hedeflerine ulaş ve ödülleri kap!
+Görülmemiş Görüldü
+İndir
+İndiriliyor
+Kuşan
+Kıyafet kuşanıldı
+Tekrar Dene
+Wardrobe
+1. Üretim Diyarı harita kapak görselleri artık 20:9 en boy oranına standartlaştırıldı.\n2. Özelleştirilmiş özellikler için adlandırma kuralları iyileştirildi. Özelleştirilmiş bir özellik oluştururken veya yeniden adlandırırken, sistem geçersiz karakterleri ve desteklenmeyen kodlama formatlarını kontrol edecektir. Gereksinimleri karşılamayan adlar kaydedilemez ve oyuncular bunları değiştirmeye ve tekrar denemeye yönlendirilecektir. Eski bir haritayı açarken, kaydederken veya yayınlarken, oyuncular ayrıca geçersiz karakterler içeren özelleştirilmiş özellikleri çözmeye yönlendirilecektir.\n3. Özelleştirilmiş harita yükleme ekranında görselleri ve metni özelleştirme desteği eklendi.\n4. Bir haritayı tamamladıktan sonra, oyuncular artık oluşturucunun bilgilerini doğrudan sonuç ekranında görüntüleyebilir, ayrıca oluşturucuyu takip edebilir veya takibi bırakabilir.\n5. Üretim Diyarı harita detayları sayfası, harita bilgileri, oynanış ve etkileşimli özelliklerin daha net bir sunumunu sağlamak için tamamen optimize edildi. Haritanın tahmini eşleştirme zorluğu eklendi ve popülerlik, olumlu derecelendirme ve oynama oturumu sayısı gibi bilgilerin gösterimi iyileştirildi. Oyuncular ayrıca oluşturucu bilgilerini görüntüleyebilir, oluşturucuları takip edebilir, haritaları paylaşabilir ve Harita Kodunu kopyalayabilir.\n\nDaha güçlü özellikler geliştirilme aşamasında, takipte kalın!
+Platform
+1111 Şans Kutusu 1
+1111 Şans Kutusu 2
+1111 Seçim Kutusu 1
+1111 Seçim Kutusu 2
+Harika Kutu
+AWM Sessiz Nefes almak için aç
+AWM Sessiz Nefes Yağma Kutusu
+Kozmik Nabız (AWM) Jeton Sandığı
+Kutu 281
+Kutu 282
+Kutu 283
+Kutu 284
+Kutu 285
+Kutu 286
+Kutu 287
+Kutu 288
+Kutu 289
+Kutu 290
+Booyah! Kutusu 1
+Booyah! Kutusu 2
+Booyah Kutusu 3
+Booyah! Kutusu 4
+Booyah! Kutusu 5
+Booyah! Kutusu 6
+Booyah! Kutusu 7
+Booyah! Kutusu 8
+Kampüs Şans Kutusu 1
+Kampüs Şans Kutusu 2
+Kampüs Seçim Kutusu 1
+Kampüs Seçim Kutusu 2
+Görülmemiş Kutu
+Korku Kutusu
+İkilem Kutusu
+Bir Şarj Bozan Çılgın Tavşan almak için aç
+Şarj Bozan Çılgın Tavşan Yağma Kutusu
+Silah Seçim Kutusu 1
+Silah Seçim Kutusu 2
+Silah Seçim Kutusu 3
+Silah Seçim Kutusu 4
+Silah Seçim Kutusu 5
+Silah Seçim Kutusu 6
+Silah Seçim Kutusu 1
+Silah Seçim Kutusu 2
+Silah Seçim Kutusu 3
+Silah Seçim Kutusu 4
+Silah Seçim Kutusu 5
+Silah Seçim Kutusu 6
+Silah Otomatı Kutusu 1
+Silah Otomatı Kutusu 2
+Silah Otomatı Kutusu 3
+Cadılar Bayramı Kutusu
+Oyuncular 3, 4, 5, 10, 100 veya 1000 Kozmik Nabız AWM Evo jetonu alabilir.
+Lion Gevrek Kutusu 03
+Lion Gevrek Kutusu 04
+Sonbahar Hediye Kutusu
+BP S46 Jeton Sandığı
+Rastgele Şans Kutusu 1
+Rastgele Şans Kutusu 2
+Güvenli Kutu
+Samsung A27 Kutusu
+BP S47 Jeton Sandığı
+Seçim Şans Kutusu 1
+Seçim Şans Kutusu 2
+Fırtına Kutusu
+Arena Kutusu
+Bavul
+Trogon Alevli Dino'yu almak için aç
+Trogon Alevli Dino Yağma Kutusu
+VIP Kutu 04
+VIP Kutu 05
+BP S48 Jeton Sandığı
+Harika Aksesuar Kutusu
+Harika Kutu 1
+Harika Kutu 2
+Harika Seçim Kutusu 1
+Harika Seçim Kutusu 2
+Harika Seçim Kutusu 3
+Harika Yüz Boyası Kutusu
+Harika Pantolon Kutusu
+Harika Ayakkabı Kutusu
+Harika Üst Kutusu
+İttifak Mavi Jeton
+İttifak Yeşil Jeton
+İttifak Kırmızı Jetonu
+Siyah Tanrı Jetonu
+Büyük Sürpriz Jetonu
+Karanlık Parti Jetonu 1
+Karanlık Parti Jetonu 2
+Dış Kuvvetler Jetonu
+Ninja Bıçağı Jetonu
+MP5 Jetonu
+Nişancı Tüfeği Jetonu
+Ninja Köyü Jetonu 1
+Ninja Köyü Jetonu 2
+Ninja Köyü Jetonu 3
+Taarruz Tüfeği Jetonu
+HMT Jetonu
+Pompalı Tüfek Jetonu
+Partner Mavi Jeton
+Partner Yeşil Jeton
+Pistol Jetonu
+Partner Kırmızı Jeton
+Balkabağı Jetonu
+Yeniden Doğuş Jetonu
+Keskin Nişancı Tüfeği Jetonu
+Şimşek Jetonu
+Cadı Jetonu
+1111 Fişi
+Siyah Tanrı Koyu Fiş
+Siyah Tanrı Açık Fiş
+Evrensel Çark Fişi
+Evrensel Çark Fişi
+Evrensel Çark Fişi
+2026 Free Fire x BLUE LOCK
+Siyah Maske
+Mavi Maske
+Kızıl Maske
+Özel Nailoong Jetonu
+Mor Yıldırım
+Mavi Yıldırım
+Turuncu Yıldırım
+Kozmik Komet Jetonu
+[S0] hedefine [fs=22][b][803A41]{0}[/b][-][/fs] kez daha ulaşarak al
+{0} almak için
+[S0] hedefine [fs=22][b][803A41]{0}[/b][-][/fs] kez ulaş
+{1}/{0} içinde yayınlanacak
+\n{1}/{0} içinde yayınlanacak
+EÇ modunda görüntülemek ve varsayılan unvanı değiştirmek için kuşan
+Her EÇ turunda MVP olunduğunda göster
+Oyuncu Bilgisi üzerinden gör ve kuşan
+MVP Unvanı
+MVP Unvanı - Derece 2027
+Kullanım süresi yığılabilir
+Kullanım dönemi
+EÇ MVP Panosu
+EÇ MVP Tablosu - Derece 2027
+Kasadan kuşanılabilen bir MVP Panosu. EÇ modunun her turunda MVP unvanını elde ettiğinde göstermek için kuşan.
+Derece Hedeflerine Git
+Meteor Desteği geliyor
+Meteor Desteği indi
+Hile yapan oyuncunun adı
+Tüm normal hava destekleri meteor olarak çakılacak!
+Hava destekleri? Meteorlar!
+Meteor Desteği indikten sonra bölgede yüksek seviye ganimet mevcut
+Meteor geliyor
+Fırtına Arenası
+Fırtına Kupası Karşılaşması
+Fırtına Kupası için savaş!
+Fırtına Hava Desteği indi
+FFWS Küresel Finalleri 2026 Şampiyon Takım
+Sancağını fırtınanın içinde taşı ve şan için savaş
+Fırtına Sancağı
+Her aşamada daha fazla haklama yap, üst düzey bir takım ol ve Fırtına Hava Desteği kazan!
+Fırtına Hava Desteği
+Fırtına Silahları maç içinde düşecek. Onları bul ve yeni silah mekaniklerini dene!
+Fırtına Silahları
+Fırtına Kupası savaşı başlıyor!
+Etkinlik malzeme destekleri en iyi takımların yakınına düşecek
+Fırtına Hava Desteği
+Bu turun en iyi takımları seçildi. Fırtına Hava Destekleri geliyor.
+Harika performans! Takımın bir Fırtına Hava Desteği kazandı.
+Tebrikler! Takımın MVP takımı ve üst seviye Fırtına Hava Desteği kazandı.
+[Bölge Hasarı: Düşük] Güvenli Bölge küçülüyor
+[FFBA00][Bölge Hasarı: Orta][-] Güvenli Bölge küçülüyor
+[e01f1f][Bölge Hasarı: Yüksek][-] Güvenli Bölge küçülüyor
+Sıkça hileciyle takımlaşma
+Talep üzerine etkinleştirilebilen bir işlevsel eşya
+Aktif Cihaz
+Yakındaki bir düşmanı işaretledim!
+Özel savaş yetenekleri sağlayan pasif bir işlevsel eşya
+Pasif Cihaz
+[FFB300]{0}[-] CP'ye sahip dev bir örümcek salar. Örümcek, [FFB300]{1}[-]m mesafe içindeki en yakın düşmanı otomatik olarak arar. Bir hedefe kilitlendikten sonra, onları kovalamak için örümcek yavrularından oluşan bir sürüye ayrılır. Hedefe yakın olduğunda, sürü önde [FFB300]{2}[-]m yelpaze şeklinde bir ağ örer ve menzildeki tüm düşmanları tuzağa düşürür. Yakalanan düşmanlar [FFB300]%{3}[-] yavaşlar ve [FFB300]{5}[-]s boyunca saniyede [FFB300]{4}[-] CP kaybeder.
+Örümcek Avı
+Yakındaki bir hedefe kilitlenen ve örümcek yavrularından oluşan bir sürüye ayrılarak düşmanları tuzağa düşürmek için ağ ören dev bir örümcek serbest bırakır
+[FFB300]{0}s[-] boyunca kontrol edilebilir bir patlayıcı örümceğe dönüşür. [FFB300]{1}[-] CP'ye sahip örümcek yok edilebilir ve Ryden'in kendisinden en fazla [FFB300]{2}m[-] uzağa hareket edebilir. Yeteneğe tekrar dokunarak Ryden'in bedenine dön ve örümceği aktifleştir, görüş hattı içindeki [FFB300]{3}m[-] mesafedeki düşmanları tuzağa düşür. Yakalanan düşmanlar [FFB300]%{4}[-] yavaşlatılır ve [FFB300]{6}s[-] boyunca [FFB300]{5} CP[-]/s kaybeder.
+Böcek Tuzağı
+Kontrol edilebilen bir patlayıcı örümceğe dönüşür. Ryden'ın bedenine dönmek ve örümceği etkinleştirerek menzildeki düşmanları tuzağa düşürmek için tekrar dokun.
+Pyden Yakınında Düşman
+{0} Hedef Yakalandı
+Yavaş
+Örümcek Yok Edildi
+Tuzak Kuruldu
+Dinozor Fosili (Maske)
+Pelerinli Dehşet (Maske)
+Baykuş Maskesi
+Akrep Maskesi
+Pelerinli Dehşet (Alt)
+Alev Dinozoru (Maske)
+Akademi Tatlısı (Maske)
+Kızıl Aksaklıklar (Maske)
+Akrep Zehri (Maske)
+Maskeli Tavşan (Maske)
+Ay Kahramanı (Maske)
+Kozmik İmparatoriçe (Alt)
+Kedisever (Alt)
+Magma Anka (Alt)
+Alev Dinozoru (Alt)
+Akademi Tatlısı (Alt)
+Kızıl Aksaklıklar (Alt)
+Muz Ninjası (Alt)
+Dişi Aslan İçgüdüsü (Alt)
+Baykuş Korucu (Alt)
+Akrep Zehri (Alt)
+Maskeli Tavşan (Alt)
+Hayalet Gelin (Alt)
+Ay Kahramanı (Alt)
+Kozmik İmparatoriçe (Başlık)
+Kedisever (Başlık)
+Magma Anka (Başlık)
+Alev Dinozoru (Başlık)
+Akademi Tatlısı (Başlık)
+Muz Ninjası (Başlık)
+Dişi Aslan İçgüdüsü (Başlık)
+Baykuş Korucu (Başlık)
+Akrep Zehri (Başlık)
+Maskeli Tavşan (Başlık)
+Hayalet Gelin (Başlık)
+Ay Kahramanı (Başlık)
+Kozmik İmparatoriçe (Yüz Boyası)
+Dişi Aslan İçgüdüsü (Yüz Boyası)
+Hayalet Gelin (Yüz Boyası)
+Kozmik İmparatoriçe (Ayakkabı)
+Kedisever (Ayakkabı)
+Magma Anka (Ayakkabı)
+Alev Dinozoru (Ayakkabı)
+Akademi Tatlısı (Ayakkabı)
+Kızıl Aksaklıklar (Ayakkabı)
+Muz Ninjası (Ayakkabı)
+Dişi Aslan İçgüdüsü (Ayakkabı)
+Baykuş Korucu (Ayakkabı)
+Akrep Zehri (Ayakkabı)
+Maskeli Tavşan (Ayakkabı)
+Hayalet Gelin (Ayakkabı)
+Ay Kahramanı (Ayakkabı)
+Kozmik İmparatoriçe (Üst)
+Kedisever (Üst)
+Magma Anka (Üst)
+Alev Dinozoru (Üst)
+Akademi Tatlısı (Üst)
+Kızıl Aksaklıklar (Üst)
+Muz Ninjası (Üst)
+Dişi Aslan İçgüdüsü (Üst)
+Baykuş Korucu (Üst)
+Akrep Zehri (Üst)
+Maskeli Tavşan (Üst)
+Hayalet Gelin (Üst)
+Ay Kahramanı (Üst)
+Pelerinli Dehşet (Başlık)
+Fırtına Arenası (Başlık)
+Akademi Yıldızları (Yüz Boyası)
+Gülümse! (Yüz Boyası)
+Maskeli Alevler (Yüz Boyası)
+2026 Free Fire x MAMA
+Kozmik Hükümdar (Maske)
+Red Bull (Maske)
+Kedicik Bakıcısı (Maske)
+Magma Füzyonu (Maske)
+Cehennem Dinozoru (Maske)
+Akademi Fenomeni (Maske)
+Boşluk Adam (Maske)
+Kırmızı Yağmurluk (Maske)
+Kavun Ninja (Maske)
+Aslan İçgüdüsü (Maske)
+Akrep İğnesi (Maske)
+Maskeli Tilki (Maske)
+Hayalet Kovboy (Maske)
+MAMA (Maske)
+Güneş Kahramanı (Maske)
+Kozmik Hükümdar (Alt)
+Red Bull (Alt)
+Kedicik Bakıcısı (Alt)
+Magma Füzyonu (Alt)
+Cehennem Dinozoru (Alt)
+Akademi Fenomeni (Alt)
+Boşluk Adam (Alt)
+Kırmızı Yağmurluk (Alt)
+Kavun Ninja (Alt)
+Aslan İçgüdüsü (Alt)
+Baykuş Şerifi (Alt)
+Akrep İğnesi (Alt)
+Maskeli Tilki (Alt)
+Hayalet Kovboy (Alt)
+MAMA (Alt)
+Güneş Kahramanı (Alt)
+Kozmik Hükümdar (Başlık)
+Red Bull (Başlık)
+Kedicik Bakıcısı (Başlık)
+Cehennem Dinozoru (Başlık)
+Akademi Fenomeni (Başlık)
+Boşluk Adam (Başlık)
+Baykuş Şerifi (Başlık)
+Akrep İğnesi (Başlık)
+Maskeli Tilki (Başlık)
+MAMA (Başlık)
+Güneş Kahramanı (Başlık)
+Kozmik Hükümdar (Yüz Boyası)
+Kedicik Bakıcısı (Yüz Boyası)
+Güneş Kahramanı (Yüz Boyası)
+Kozmik Hükümdar (Ayakkabı)
+Red Bull (Ayakkabı)
+Kedicik Bakıcısı (Ayakkabı)
+Magma Füzyonu (Ayakkabı)
+Cehennem Dinozoru (Ayakkabı)
+Akademi Fenomeni (Ayakkabı)
+Boşluk Adam (Ayakkabı)
+Kırmızı Yağmurluk (Ayakkabı)
+Kavun Ninja (Ayakkabı)
+Aslan İçgüdüsü (Ayakkabı)
+Baykuş Şerifi (Ayakkabı)
+Akrep İğnesi (Ayakkabı)
+Maskeli Tilki (Ayakkabı)
+Hayalet Kovboy (Ayakkabı)
+MAMA (Ayakkabı)
+Güneş Kahramanı (Ayakkabı)
+Kozmik Hükümdar (Üst)
+Red Bull (Üst)
+Kedicik Bakıcısı (Üst)
+EÇ-Dereceli S39 Kahraman
+EÇ-Dereceli S40 Kahraman
+Magma Füzyonu (Üst)
+Cehennem Dinozoru (Üst)
+Akademi Fenomeni (Üst)
+Boşluk Adam (Üst)
+Kırmızı Yağmurluk (Üst)
+Kavun Ninja (Üst)
+Aslan İçgüdüsü (Üst)
+Baykuş Şerifi (Üst)
+BR-Dereceli S54 Kahraman
+Akrep İğnesi (Üst)
+Maskeli Tilki (Üst)
+Hayalet Kovboy (Üst)
+MAMA (Üst)
+Güneş Kahramanı (Üst)
+Görülmemiş Ses Paketi
+Fırtına Arenası Ses Paketi
+Pro Kışkırtmalar Ses Paketi
+Mirzapur Ses Paketi 1
+Mirzapur Ses Paketi 2
+Ölülerin Günü 2026 Ses Paketi
+Görülmemiş Ses Paketi
+Fırtına Arenası Ses Paketi
+Pro Kışkırtmalar Ses Paketi
+Mirzapur Ses Paketi 1
+Mirzapur Ses Paketi 2
+Ölülerin Günü 2026 Ses Paketi
+Şşş... dinle!
+Maskeni tak!
+Bir oyun... oynamak istiyorum
+Kim o?
+Karanlık boşluk arenaya çöküyor!
+Fırtına'nın içinden, Booyah'a!
+BEN fırtınayım!
+Sadece en güçlüler fırtınada hayatta kalır
+Prime'ına ulaş!
+Mucize? Hayır, sadece yetenek!
+Defol git, bot!
+Evet, lobiye geri dönüyorsun!
+Bir dahaki sefere!
+Oldukça tatlı dilli birisin
+Gururlu hissedeceksin
+Hey, derslerine odaklan. Bir IAS memuru falan ol.
+Seçeneğimiz olmadığı için başladık, ama şimdi eğleniyoruz
+Buraları biz yönetiriz
+O da olur
+Riskli
+Yavaş, yavaş öğreniyorsun
+Kırmızı çiçek, mavi çiçek, Munna Bhaiya güzel
+Bu harikaydı, patron
+Bu şey vahşi! Tüm sistemi sarsıyor.
+Evet, yani, hemen düşünmedik ama düşüneceğiz.
+Seni küçük canavar!
+Benim gibi acı çek!
+Ekibim nerede?
+Beni yakaladılar!
+Oh, büyü yapıyorsun
+Hepsi bu mu? Ahhh!
+Mırmır Terlikler
+Pelerinli Dehşet (Ayakkabı)
+Kavun Ayakkabılar
+2026 FFWS Şampiyonu (Üst)
+Pelerinli Dehşet (Üst)
+Onur Düellosu
+Neredeyse
+Daha çok çalış
+{0} ezildi
+{0}, Yalnız Kurt'un Onur Düellosu'nda {1}'i ezdi geçti.
+Mikrofonun etkinleştirilmesi gerekiyor
+Turnuva yönetim web sitesini açmak için dokun
+Bu aday, yatırımı ödemek için yeterli Elması olmadığından turnuva takımına katılamaz.
+Turnuva iptal edildi. Yatırımın bu posta aracılığıyla iade edildi.
+Turnuvaya başarıyla giriş yaptın. Yatırımın bu posta aracılığıyla iade edildi.
+Turnuva oluşturucusu seni turnuvaya ekledi. Turnuva başlamadan önce, kayıt, giriş ve maç düzenlemelerini görüntülemek için turnuva detaylarını aç.
+Turnuvayı oluşturan tarafından çıkarıldın. Katılmaya devam etmek için lütfen tekrar kaydol veya onay için turnuva oluşturanıyla iletişime geç.
+Kendi eylemlerin nedeniyle turnuva oluşturucusu tarafından katılım uygunluğun iptal edildi. Yatırımın iade edilmeyecek.
+Turnuva Yatırımı İade Edildi
+Turnuva Yatırımı Düşüldü
+Oluşturduğunuz turnuvayı turnuva yönetim web sitesinden manuel olarak başlatabilirsiniz.
+Turnuvaya başarıyla katıldın. Turnuva takımları gruplandırıldıktan sonra yatırımın posta yoluyla iade edilecek.
+Turnuva takımına başarıyla katıldın. Gerekli Elmas yatırımı düşüldü. Yatırım, giriş yaptıktan veya iade gereksinimlerini karşıladıktan sonra posta ile iade edilecek.
+Turnuva takımı katılma isteğini onayladı, ancak yatırımı ödemek için yeterli Elmasın yok ve takıma katılamazsın.
+Turnuva takımına katılmak için başarıyla başvurdun. Gerekli Elmas yatırımı, başvurun onaylandığında düşülecektir.
+Kayıt döneminde turnuvadan ayrıldın. Yatırımın bu posta aracılığıyla iade edildi.
+Turnuva Bildirimi
+Oluşturduğunuz turnuva sona erdi. Ödülleri dağıtmak için lütfen turnuva yönetim web sitesini ziyaret edin.
+Haklama/Nakavt Bilgisi
+Çizgi Roman Filtresi
+Cyberpunk Filtresi
+Skeç Filtresi
+Altın Çağ Filtresi
+Emoji grubunun kilidi henüz açılmadı. Lütfen önce maç dışında alın.
+Piksel Filtresi
+RGB Ayrımı Filtresi
+Tuhaf görüntü bulundu
+Tuhaf görüntüler bulmak için ekranı kaydır
+{0} sn sonra geçilebilir
+İleride korkutucu içerikler var. İstersen atlayabilirsin.
+Kırmızı Lekeli Portre
+Koridor Figürü
+Masa Altındaki Dokunaçlar
+Merdiven Gölgesi
+Ekrandaki Kadın
+Aşağıdakileri almak için tekrarlanabilir ödülleri talep et:
+Aşağıdakilerden rastgele bir ödül almak için tekrarlanabilir ödülleri talep et:
+Görülmemiş etkinliğine katıl ve tonlarca ödül al!
+Görülmemiş
+Albüm
+Oyun Modu
+Günlük Görevler
+Kalan jetonlar: [af2020]{0}[-]
+İntikam G36
+Görülmemiş Pençeler
+Görülmemiş'i Uyandır
+Bedava Ödüller Seni Bekliyor
+Yeni
+Keşfedilmemiş: Kilidini açmak için maç içinde tuhaf alanları keşfet
+Keşfedilmemiş: Açmak için maç içinde tuhaf alanları keşfet
+Bebek Arabası
+Top
+Tuhaf Araba
+Kırık Kukla
+Müzik Kutusu
+Sallanan At
+Gölge Kapısı
+Solmuş Figür
+Karanlık Gölge
+Kırmızı El İzi
+Siyah Kapı
+Ağlayan Kadın Resmi
+Yüzen Mobilya
+Siyah Pençe
+Ağlayan Maske
+Gizemli Taş
+Arızalı TV
+Yüzen Mobilya
+Tuhaf Maske
+Arızalı TV
+Yüzen Araba
+Tuhaf Siyah Kapı
+Hareketli El İzleri
+Hareketli Göz Posteri
+Uzun İnce Figür
+Havuzdaki Gölge
+Gizemli Sakin
+Süzülen Şahıs
+Keşfedilmedi: Açmak için malikaneyi araştırmaya devam et
+{0}/{1}
+Unvanı Al
+Unvan ödülünü almak için {0} Albüm girdisi topla ({1}/{2})
+Etkinlik Albümü
+Maç İçi Albüm
+Albüm
+1. Haklanan oyuncular Bebek formunda Saklı Taraf'a girer ve burada hayatta kalan takım arkadaşlarını takip edip onları desteklemek için güçlendirme balonları gönderebilirler. \n2. Hayatta kalan takım arkadaşları da İfşa Maskesini kullanarak maskeli forma girebilir, daha hızlı hareket hızı ve daha yüksek zıplama elde edebilirler.\n3.Saklı Taraf'ı keşfedin, tuhaf görüntüler ortaya çıkarın ve malzemeler için onlarla etkileşime geçin.
+Battle Royale
+Oyuncak Bebek olarak Saklı Taraf'a gir!
+Savaşı kazanmana yardımcı olacak İfşa Maskelerini ve Tuhaf Silahları Siber Hava Desteklerinden ve EÇ Mağazasından al!
+Ekip Çarpışması
+İfşa Maskeleri ve Tuhaf Silahlar
+Battle Royale
+Ekip Çarpışması
+Oyun Modu
+Eğitim
+1. Günlük görevleri tamamlayarak etkinlik jetonları kazan.\n2. Etkinlik sayfasında jetonları kullanarak malikane gözlemle ve soruşturmayı ilerlet.\n3. Dönüm noktalarına ulaşarak dönüm noktası ödüllerini al. Tüm dönüm noktalarını tamamladıktan sonra tekrarlanabilir ödüller almaya devam edebilirsin.\n4. Önemli dönüm noktalarında, tuhaf görüntüler bulmak ve ilgili diziyi tetiklemek için kamera görünümünde kaydır.\n5. Keşfedilen tuhaf görüntüleri incelemek için Albüm kayıtlarının kilidini aç. Albüm ödüllerini almak için koleksiyon ilerlemesi hedeflerine ulaş.\n6. Malikane keşfetmek ve bağımsız dizileri tetiklemek için etkinlik sayfasında yana kaydır.
+Kural
+Bedava Ödüller!
+Görülmemiş
+Gerekirse ışıkları aç.
+Gözlemle
+Panik
+Tuhaf Malikaneye Bir Bakış
+{0}/{1}
+Bugün kalan jetonlar: [fs=26][af2020]{0}[-][/fs]
+{0} - {1} arasında giriş yaparak özel ödüller kazan!
+Giriş ödülü etkinliği sona erdi. Gelecekteki etkinliklerimizde görüşmek üzere!
+Giriş Ödülü
+Giriş Ödülü
+Aşağıdaki ödülleri kazanmak için dönüm noktasına ulaş:
+Malikaneyi keşfetmek için ekranı kaydır.
+Boş bir alana basılı tut ve yanlara sürükle
+Tüm Büyük Ödüllere zaten sahipsin. Yine de satın al?
+Satın Almaya Devam Et
+Çevirmeye Devam Et
+Tüm Büyük Ödüllere zaten sahipsin. Yine de çevir?
+En yüksek indirim alındı
+Paket otomatik açıldı
+Yeniden Çevirme Şansları
+Yeni indirim
+Önceki indirim
+[ffe24a]İNDİRİM[-] İÇİN ÇEVİR
+İNDİRİM İÇİN ÇEVİR
+ŞİMDİ ALIŞVERİŞ YAP
+Büyük Ödülü açmak için [S0][ffe400]{0}[-] daha harca
+Büyük Ödüllerin kilidi açıldı
+En Yüksek İndirim!
+Güzel İndirim!
+Bu çevirmede daha iyi indirim garantili!
+[ffe400]{0}[-] çevirme içinde daha yüksek bir indirim garantili!
+TEKRAR ÇEVİR
+Daha iyi indirim!
+Tüm görevler tamamlandı
+Önceki indirimi koru!
+Aynı İndirim
+Daha iyi indirim al
+1. Etkinliğe ilk girdiğinde, başlangıç indirimi için çevir.\n2. İndirimler için yeniden çevirme şansı kazanmak üzere yeniden çevirme görevlerini tamamla.\n3. Her etkinlik için en fazla {0} yeniden çevirme kazanabilirsin.\n4. Yeniden çevirdiğinde, yeni indirim mevcut indirimle karşılaştırılır ve daha iyi olan indirim otomatik olarak seçilir.\n5. {1} çevirme içinde daha iyi bir indirim garanti.
+İNDİRİMLİ ÇEVİRME
+İndirim Olasılığı
+1. Büyük Ödüller dışındaki eşyaları satın almak, Büyük Ödül açma ilerlemesini artırır.\n2. İlerleme dolduğunda, Büyük Ödüller satın almaya açılacaktır.\n3. Açıldığında, TÜM Büyük Ödüller satın alınabilir olacaktır.
+SATIN ALINIYOR
+İndirimim
+Mistik Mağaza'yı paylaş
+Mistik Mağaza'da {0}/{1} elmas harcandı
+Prime Svy.{0}
+Son indirim etkinliklerinde harcanan elmaslar
+{0}/{1} BR/EÇ Dereceli maç oyna
+{0}/{1} dakika oyna
+Son indirim etkinlikleri şunları içerir:
+Mistik Mağaza
+Aktarım Marketi
+Çarkıfelek
+ÇEVİR
+Limit: {0}/{1}
+İLERLE
+PAYLAŞ
+TAMAMLANMAMIŞ
+ALINDI
+LİMİTE ULAŞILDI
+Yeniden çevirmeler kazanmak için görevleri tamamla
+SÜPER İNDİRİM
+Tüm Büyük Ödüllerin kilidini açmak için elmas harca
+Ödüller alınamadı. Lütfen daha sonra tekrar dene.
+Bu ekipten ayrılmayı onaylıyor musun?
+Alınmamış ödüllerin otomatik olarak alınacak.
+Ekipten ayrılma başarısız oldu. Lütfen daha sonra tekrar dene.
+Ekip durumu güncellendi. Lütfen yenile ve tekrar dene.
+Aramayı temizle
+Seçilmemiş parçalar şu anki kuşanılmış halinde kalacak
+Eşleşen kıyafet bulunamadı
+Kıyafet ismi ara
+Zırh Alev El Bombası Hasarı alıyor
+Yerde bir süreliğine yanan bir alan oluşturur
+Alev El Bombası Hasarı Alıyor
+Alev El Bombası
+Fırlatıldıktan sonra menzil içindeki düşmanları tespit eder
+Sonar El Bombası
+Pozisyon Sonar El Bombası ile tespit edildi.
+Güvenli Bölge Yakınlık Uyarısı
+Yeniden ateşleme süresini azaltmak için Dereceli oyna
 Kalan elmas miktarın üzerinden hesaplanan tutar.
 Ne kadar [57CAFD]az[-] elmasın varsa, [FFA83A]o kadar büyük indirimler kazanırsın.[-]
 Elmas Paketi Ücreti
@@ -73697,7 +75910,7 @@ HMT Cephanesi
 Dürbünlü Tüfek Cephanesi
 SPAS12
 SVD
-TEC9
+TEC-9
 UMP
 USP
 Hasarlı Yelek
@@ -74180,7 +76393,7 @@ Sirkten kalan bir hatıra, kalabalığın alkışıyla gelir.
 Sulu Elma
 Kısıtlamayı Kaldır
 Kısıtlamanı kaldırmak için şu kadar elmas yüklemen gerek:
-Değerli oyuncumuz, kısa bir süre önce satın almış olduğun eşyalar hesabına geçmiş olmasına rağmen ödeme iadesi talep ettin ve iadeni gerçekleştirdik. Bu sebeple hesabından elmasları veya elmaslara eşdeğer öğeleri kaldırmak zorunda kaldık ve bu durum, hesabının kısıtlanmasına sebep oldu. Daha fazla bilgi için https://ffdestek.zendesk.com/ adresi üzerinden oyuncu destek ekibimize ulaşabilirsin.
+Değerli oyuncumuz, kısa bir süre önce satın almış olduğun eşyalar hesabına geçmiş olmasına rağmen ödeme iadesi talep ettin ve iadeni gerçekleştirdik. Bu sebeple hesabından elmasları veya elmaslara eşdeğer öğeleri kaldırmak zorunda kaldık ve bu durum, hesabının kısıtlanmasına sebep oldu. Tüm oyuncular için adil ve sağlıklı bir oyun ortamını korumaya yönelik çalışmalarımızı sürdürürken gösterdiğin anlayış için teşekkür ederiz.
 İhlal Bildirimi
 Kuşan
 Hepsi kuşanılamadı
@@ -76088,6 +78301,177 @@ KASA
 YÜZ SEÇİMİ
 TEN RENGİ
 Oyuncu Destek
+Süper İfade Alındı
+Süper İfade için yeterli miktarda toplanmadı
+Ateş Parşömeni
+Toprak Parşömeni
+Su Parşömeni
+Salıncağı kullandıktan sonra hareket hızı artışı kazandı
+Çanta - Rüzgar Ninja Yıldızı
+Çanta - Tsunade'nin Pelerini
+Çanta - Gemi
+Çanta - Omnitrix
+Ben 10 Sancağı
+Alien X Gücü
+Hinata Avatarı
+Ateş Topu Avatarı
+Alien X Avatarı
+Yağma Kutusu - Kurbağa Cüzdan
+Pala - Elmas Kafa Satır
+MAG-7 - Ben 10
+NARUTO SHIPPUDEN iş birliği müziği
+Blue Bird
+NARUTO SHIPPUDEN iş birliği tema şarkısı
+Ana Tema
+Gök Tahtası - Hava Kaykayı
+Ateş Topu
+Ben 10 Görünüm Değiştirici
+Alien X
+Cip - Hurda RV
+Hinata Paketi
+Şanslı Kız Paketi
+Gwen Tennyson Paketi
+Ben Tennyson Paketi
+Gamabunta Çağırma Süper İfadesi'nin kilidini açtın, ancak görünüşe göre almayı unuttun. Merak etme, sana oyun içi posta yoluyla gönderdik. İyi eğlenceler!
+Süper İfade Ödülü
+İlk NARUTO SHIPPUDEN iş birliği büyük ses getirmişti! Şimdi ninjalar geri döndü!
+Tekrar Hoşgeldin, Ninja
+Sharingan'ı Ele Geçir: Dokuz Kuyruklu'yu kontrol ederek belirli bir alana saldırmasını sağla. Alanın içindeki düşmanlar sürekli hasar alır.
+Hinata'nın Cesareti
+2 ödülden 1’ini Büyük Ödülün olarak seç. Diğer ödül satın alınabilir olacak.
+Aşağıdaki kıyafeti büyük ödülün olarak almak istediğini onaylıyor musun?
+Onayla
+EÇ Mağazası'nda ilk turda tabancaların yerini ninja yıldızları alacak.
+Orijinal etkinlikte alındı
+Mini Pass
+Satın almak için dönüm noktası ödülünün kilidini aç
+Tebrikler! Bu Süper İfadeyi aldın!
+Ninja Geri Dönüyor
+NARUTO SHIPPUDEN Çıkartma Seçim Sandığı
+Sharingan: Kontrol
+Dokuz Kuyruklu Etkinliği
+Ninjutsu Eşyaları
+Ye
+Sharingan: Kontrol yakalandı
+Sharingan: Kontrol yakalanıyor
+İptal
+Onayla
+Bir alan seçmek için sürükle
+Bir patlama bölgesi seç
+Kullanınca haritayı aç ve Dokuz Kuyruklu'nun Kuyruklu Canavar Bombası'nı bırakacağı bölgeyi seç.
+Sharingan: Kontrol
+Bu alanı seçemezsin
+Sharingan: Kontrol alındı
+Atlamak için herhangi bir yere dokun
+Sharingan: Kontrol belirdi
+Dokuz Kuyrukl'nun saldırısını kontrol et
+Ninjutsu, ninja araçları ve Dokuz Kuyruklu'nun patlamasını yöneten Sharingan: Kontrol belirecek
+Dokuz Kuyruklu Etkinliği
+Ninja Akademisi
+8 Trigram Dönüşünü kullanır
+8 Trigram Dönüşünü kullanıyor
+8 Trigram Dönüşü tarafından geri savruldu
+8 Trigram Dönüşü Geri Savurması
+Düşman geri savruldu
+İleri atılır ve fiziksel hasarı engelleyen ve düşmanları geri savuran bir çakra kalkanı oluşturur
+8 Trigram Dönüşü
+Kendini korumak ve düşmanları geri savurmak için ileri atılır ve bir çakra kalkanı oluşturur
+Gizli Yaprak Köyü
+Dokuz Kuyruklu uçağa saldıracak!
+Vurulmuş Uçak
+Dokuz Kuyruklu’nun Vuruşu etrafa enkaz saçtı.
+Dokuz Kuyruklu'nun Vuruşu
+Dokuz Kuyruklu cephanelikleri havaya uçurdu!
+Patlamış Cephanelikler
+Hasar verildi
+Tehlike Bölgesi
+Kuyruklu Canavar Bombası düşüyor
+Evlere girip siper al!
+Dokuz Kuyruklu bu alana saldırıyor!
+Ichiraku Ramen Dükkanı
+Takviye alındı
+Sallan
+Salıncak
+Gölge Klon Tekniği
+Rasengan Şarjı
+Yumruk Tokuşturma!
+NARUTO SHIPPUDEN Çerçevesi
+Naruto Çıkartması
+Sakura Çıkartması
+Kakashi Çıkartması
+Sasuke Çıkartması
+Jiraiya Çıkartması
+Rock Lee Çıkartması
+Hinata Çıkartması
+Orochimaru Çıkartması
+Deidara Çıkartması
+Minato Çıkartması
+Itachi Çıkartması
+Tsunade Çıkartması
+2026 Free Fire x NARUTO SHIPPUDEN
+2026 Free Fire x Ben 10
+Hinata
+Ben Tennyson
+Şanslı Kız
+Gwen Tennyson
+BEN 10
+Gri Madde Maskesi
+Vilgax Maskesi
+Ben 10 Fişi
+Kakashi'nin ANBU Maskesi
+Hinata Başlık
+Şanslı Kız Maskesi
+Hinata Alt
+Şanslı Kız Alt
+Gwen Tennyson Alt
+Gaara'nın Dövmesi
+Hinata Ayakkabı
+Şanslı Kız Ayakkabı
+Gwen Tennyson Ayakkabı
+Hinata Üst
+Şanslı Kız Üst
+Gwen Tennyson Üst
+Ben Tennyson Alt
+Ben Tennyson Ayakkabı
+Ben Tennyson Üst
+Naruto Ses Paketi
+Sasuke Ses Paketi
+Sakura Ses Paketi
+Kakashi Ses Paketi
+Jiraiya Ses Paketi
+Hinata Ses Paketi
+Naruto Ses Paketi
+Sasuke Ses Paketi
+Sakura Ses Paketi
+Kakashi Ses Paketi
+Jiraiya Ses Paketi
+Hinata Ses Paketi
+Daha arkadaşını bile kurtaramıyorsan nasıl Hokage olacaksın?
+Sonumuz birlikte olacak, Sasuke.
+Hayalim Hokage olmak!
+Çünkü biz arkadaşız!
+Rasengan!
+Gölge Klonu Tekniği!
+Kaybettim.
+Kaybeden ninja.
+Yıldırımla birlikte kaybol!
+Amaterasu!
+Hahahahaha!
+Ha!
+Sanırım sonunda o ikisine yetiştim!
+Bu sefer hepiniz beni arkamdan izleyeceksiniz!
+Selam! Günaydın millet! Bugün hayat yolunda biraz kayboldum...
+Arkadaşlarına değer vermeyenler çöpten farksızdır!
+Arkadaşlarımı kimseye yedirmem!
+Geri dönemeyeceğime bahse gir.
+Asla pes etmeyeceğim! Vermem gereken asıl karar bu!
+Kuyudaki kurbağa engin denizde hayatta kalamaz.
+Çünkü... Naruto’dan gerçekten çok hoşlanıyorum!
+Burada kendi isteğimle duruyorum.
+Sözümden asla dönmem... bu benim ninja yolum!
+Ben 10 Jetonu
+Gizli Yaprak Jetonu
+Gizli Yaprak Özel Jetonu
 Canavar Türü
 VFX Türü
 Saldırı Hedefi

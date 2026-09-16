@@ -41,6 +41,7 @@ Kamu sudah membeli Premium. Mohon tidak mengulang transaksi.
 Tidak ada hadiah tersedia
 Guardian sudah mencapai limit untuk menjadi pengawas. Permintaanmu tidak dapat dikirim.
 Sedang dalam cooldown, unbind tidak dapat dibatalkan, silakan coba lagi nanti
+Your unbind information has been updated. Please wait while the page refreshes.
 Unbind sedang cooldown. Silakan coba lagi nanti.
 Akun guest tidak memenuhi syarat untuk menjadi wali bagi akun anak di bawah umur.
 Pemain ini memiliki terlalu banyak permintaan bind yang masih tertunda. Silakan coba lagi nanti.
@@ -92,6 +93,7 @@ Error konfigurasi
 Misi tidak bisa di-refresh
 Kamu telah mencapai batas refresh
 Tidak ada hadiah daily mission untuk di-klaim. (Progres belum cukup atau sudah di-klaim.)
+Batas pembelian tercapai
 Gagal mengirim duo Booyah Pass. Pengirim atau penerima belum mencapai level yang dibutuhkan.
 Belum bisa dibuka
 Parameter klien salah
@@ -433,7 +435,7 @@ Mode tutorial tidak valid
 Konfigurasi Like tidak valid
 Hadiah telah diklaim. Tidak dapat mengklaim lagi
 Hadiah belum terbuka
-BR_FRESH_ROOKIE_ANSWER_ALREADY_CLAIMED
+Kamu sudah menjawab pertanyaan hari ini, kembali lagi besok!
 Pemain ini tidak dapat ditambahkan sebagai teman saat ini. Silakan coba lagi nanti.
 Anda tidak dapat menambahkan teman baru sekarang. Silakan coba lagi nanti.
 Dynamic Duo sudah terbentuk
@@ -442,6 +444,7 @@ Permintaan sudah dikirim ke pemain ini
 Blacklist penuh
 Tidak bisa memasukkan ID kamu sendiri
 Sudah di dalam daftar teman
+Permintaan pertemanan gagal. Permintaan pertemanan pemain penuh. Mohon coba kembali nanti.
 Tidak bisa mengirim permintaan berteman ke pemain yang kamu block. Mohon unblock mereka.
 Request dikirim
 ID tidak valid, silahkan coba lagi
@@ -465,6 +468,7 @@ Teman ini sudah menjadi Star Friend
 List Star Friend sudah penuh
 Pemain ini belum berada di list teman.
 Dalam masa perlindungan sekarang, tidak dapat Resolve
+Data error. Silakan login kembali.
 Region tidak tersedia
 Region tidak tersedia
 Sudah bergabung dengan Unit
@@ -561,7 +565,7 @@ Warna skin tidak valid
 Error mengambil info collection
 Harga tidak cocok, silahkan hubungi customer service.
 Config ID invalid
-Benefit ID invalid
+Event telah berakhir
 Tipe kurensi tidak valid
 Tidak memenuhi ketentuan untuk menggunakan kupon diskon.
 Vehicle skin tidak valid
@@ -575,6 +579,7 @@ Batas pembelian tercapai
 Gold tidak cukup
 Diamond tidak cukup
 Item error. Mohon cek kembali item di Vault atau kontak customer service
+Diamond  Prime tidak cukup
 Voucher tidak cukup
 Lepaskan weapon skin yang sudah expired
 Transaksi pembelian gagal
@@ -786,8 +791,9 @@ Hadiah sudah diklaim
 Bintang tidak mencukupi. Tidak dapat mengklaim hadiah.
 Gagal mendapatkan data
 Tidak dapat melihat drop rate
-Prime level has not reached 7
+Level prime belum mencapai 7
 Error jaringan
+Data error. Silakan login kembali.
 Gagal membuka File ini karena Level Character terlalu rendah
 Skill Aktif sudah di equip. Tidak dapat equip lebih dari satu
 Karakter ini tidak dapat menggunakan skill aktif ini.
@@ -889,8 +895,16 @@ Panjang pesan abnormal
 Pesan berisikan teks dilarang
 Progres tidak cukup
 Operasi Permintaan Gacha Bersama harus menunggu permintaan sebelumnya selesai
+Batas klaim tercapai
+Tidak semua item yang diperlukan telah didapatkan
+Rush Board telah berakhir
 ID Rush Board tidak valid
+ID hadiah koleksi tidak valid.
+Permintaan spin tidak valid
+Permintaan multi-spin tidak valid
+Tipe spin tidak valid
 Permintaan tidak valid untuk mengubah board
+Diamond tidak cukup
 Rush Board Belum dimulai
 Daftar Hadiah Rush Board tidak valid
 Info konfig tidak ditemukan
@@ -963,6 +977,7 @@ Sudah mengundang teman ini
 ID hadiah invalid
 Tipe hadiah invalid
 Region squad tidak sama
+QR code ini tidak lagi valid
 Event sedang tidak tersedia
 Tidak di squad
 Undangan dibutuhkan untuk bergabung squad privat
@@ -1030,9 +1045,13 @@ Slot terkunci
 Matchmaking gagal: tidak ditemukan team yang cocok
 Sekarang tidak memiliki izin untuk mengakses fitur terkait membership
 Tidak ada rekomendasi map
+Gagal membeli, CraftGems tidak cukup.
+Gagal membeli. Batas pembelian maks tercapai.
 Maks. Kreator di pin
 Limit pin tercapai
 Maks. Map di pin
+Info produk telah di-update (harga telah berubah), silakan refresh dan coba lagi.
+Info produk telah di-update (produk offline), silahkan refresh dan coba kembali.
 Data tidak benar: Jumlah maksimum tag tercapai
 Hadiah diklaim
 Belum mengikuti kreator ini
@@ -1046,13 +1065,13 @@ Pemain sudah berada di matchmaking (MM32)
 Jumlah anggota tim tidak memenuhi persyaratan (MM31)
 Kamu bukan pemimpin tim (MM30)
 Tidak bisa menonton pemain ini karena dia menggunakan emulator
-Tidak bisa menonton saat ada cheater
+Match ini tidak dapat ditonton sekarang
 Teman kamu sedang tidak dalam match
 Penonton penuh
 Kamu sudah punya Pyro
 Kamu dan pemain lainnya bukan Dynamic Duo
-Level Pyro Dynamic Duo kamu belum memenuhi syarat
-Dynamic Duo kamu belum memiliki Pyro
+Pyro temanmu belum mencapai level yang diperlukan.
+Teman kamu belum memiliki Pyro
 Warna ID tidak tersedia
 Tidak ada spin tersisa
 Daftar hadiah masih dikunci
@@ -10387,7 +10406,7 @@ Hitungan Spin
 Penawaran terbatas: {0}
 Konfirmasikan untuk menghapus hadiah di bawah ini?
 Dihapus
-Sebelum spin, periksa 2 hadiah yang tidak kamu sukai untuk menghapusnya dari list hadiah.
+Pilih 2 item untuk dihapus. Tekan konfirmasi untuk memulai.
 Hadiah yang sudah didapat tidak akan diulang. Diamond yang dibutuhkan akan meningkat setiap kali spin.
 1. Untuk berpartisipasi dalam spin dengan menggunakan diamond. Tidak akan mendapatkan hadiah duplikat. Setiap spin berikutnya akan membutuhkan lebih banyak diamond. Biaya yang dibutuhkan saat ini: {0}
 2. Sebelum spin, pemain dapat menghapus 2 hadiah yang tidak diinginkan [FFBA00](kecuali hadiah utama)[-], sehingga meningkatkan tingkat kemenangan hadiah utama
@@ -11481,7 +11500,7 @@ Pet Skin: Cyber Waggor
 Nafsu, kaya, tahta. Kata-kata tidak cukup untuk menggambarkannya
 Pet Skin: Gold Waggor
 Tidak ada pesan baru
-Pintu masuk ke area match belum buka. Mohon tunggu dulu, Survivors.
+Battlefield belum dibuka. Survivor, silakan periksa channel official untuk mengetahui detailnya.
 Kumpulan pemain yang sesuai tidak ditemukan. Matchmaking gagal. (MM9)
 Maaf, berlangganan tidak didukung oleh store perangkatmu
 Sistem telah mendeteksi aktivitas abnormal di akun kamu. Akun tidak dapat digunakan sementara. Hanya download Free Fire dari channel resmi. Kamu dapat bermain secara normal lagi setelah periode laranan berakhir. \nPeriode Larangan berakhir dalam:
@@ -19917,7 +19936,7 @@ Selamat telah mencapai rank Grandmaster!
 Kumpulkan [FFBA00]{0}[-] poin untuk mencapai rank Grandmaster
 Raih Master {0}[S0] untuk mendapatkan rank Grandmaster
 TOP
-[FFB300]{0}dtk[-] setelah diserang, pulihkan [FFB300]{1}HP[-]/dtk selama [FFB300]{2}dtk[-]
+[FFB300]{0}s[-] setelah terkena damage, memulihkan [FFB300]{1}HP[-]/s dalam[FFB300]{2}s[-]
 Setelah mengalahkan musuh, posisi musuh lain pada jarak {0}m dari titik eliminasi akan diperlihatkan. Info akan terbagi dengan teman satu team.
 Buzzer Beater
 Memory Mist
@@ -28073,7 +28092,7 @@ LAB menggabungkan pakaian Legendaris, Hyperbook, dll. untuk membuat tampilan dan
 LAB
 Tidak ada konten
 Buku mistik dengan kekuatan tersegel di halamannya
-Rampage Hyperbook
+Rampage
 Dinosaur Illusion (Bottom)
 Kamu baru saja dikerjai!
 Pass
@@ -33114,7 +33133,7 @@ Kedatangan Pre-order
 Kamu telah sukses pre-order {0} yang akan datang di {1} melalui in-game mail.\nP.S. Klaim hadiah pre-order kamu di bawah.
 Berita: Pre-order dan Kedatangan
 Harta dengan kekuatan galaktik tersembunyi di antara halamannya
-Galaxy Hyperbook
+Galaxy
 Berhasil berlangganan Booyah Pass
 Trigger getaran layar saat kamu berhasil mengenai musuh
 Yang pertama mencetak gol menang
@@ -38226,10 +38245,10 @@ Token Dikonversi:
 Konfirmasi untuk dapat
 Konversi Evo Token Universal
 Buku dengan kekuatan tersembunyi di dalamnya.
-Inferno Combat
+Inferno
 Halaman Rahasia {0}
 Buku dengan kekuatan tersembunyi di dalamnya.
-Runestone Hyperbook
+Runestone
 Arrow 2
 {0} [bababa](dari{1})[-]
 {0} menit
@@ -43972,7 +43991,7 @@ Jelly Assault
 Fishing Frenzy
 Batas tercapai
 Buku dengan kekuatan tersembunyi di dalamnya.
-Ink Hyperbook
+Ink
 Hadiah utama dipastikan di spin selanjutnya
 Beruntung Spin Selanjutnya!
 Sangat Beruntung
@@ -45040,7 +45059,7 @@ Tidak bisa team-up
 Tidak bisa team-up. Tidak bisa bermain Ranked.
 Tidak bisa team-up. Tidak bisa bermain Ranked. Rank di-reset.
 Diproses
-Bukti tidak mencukupi
+Dalam Pengawasan
 Dalam Pengecekan
 Hadiah Honor Streak
 Log in dan pertahankan Honor Score 100 kamu untuk beberapa hari untuk mendapatkan hadiah beruntun.
@@ -45686,7 +45705,7 @@ Sudah menerima Misi Evil Butcher Hunting
 Ikuti
 Evil Butcher berhasil kabur. Misi gagal!
 Peringatan
-REVIVED
+REVIVE
 Teman tim telah meninggalkan match. Tidak bisa revive.
 Kartu Perlindungan CS Rank
 Melindungi turun rank jika hasil match CS-Ranked selanjutnya menghasilkan rank kamu untuk turun.
@@ -46712,7 +46731,7 @@ Kecepatan reload meningkat sebesar [FFB300]{0}%[-]. Setiap musuh yang dikenai ol
 Awakening: Saat peningkatan mencapai maksimum, [FFB300]serangan pertama[-] pada target memberikan [FFB300]{0}%[-] DMG.
 Menjadi kebal dari efek mengganggu (marking, memperlambat, pelumpuhan skill, dll) dan mendapatkan [FFB300]{1}%[-] peningkatan kecepatan gerak selama [FFB300]{2}dtk[-]. Cooldown: [FFB300]{0}dtk[-].
 Saat berlari, kecepatan gerak meningkat sebesar [FFB300]{0}%[-] per detik (maks. [FFB300]{1}%[-].) Setiap peningkatan berlangsung selama [FFB300]{2}dtk[-].
-Setelah menjatuhkan musuh atau menggunakan skill aktif, [FFB300]{0}%[-] dari magazine senjata akan reload secara automatis.
+Setelah melakukan knockdown pada musuh atau menggunakan skill aktif, [FFB300]{0}%[-] peluru dalam magazine senjata akan terisi kembali secara otomatis.
 Silver Spoon
 Imun dari gangguan
 Meningkatkan kecepatan reload dan memberikan pengurangan healing pada musuh
@@ -48301,7 +48320,7 @@ Dasar
 Khusus
 Belum tersedia. Mohon tunggu!
 Buku dengan kekuatan tersembunyi di dalamnya.
-Frostfire Hyperbook
+Frostfire
 Full Team Revival
 Tunjukkan Lokasi
 Hidupkan Semua Teman
@@ -48437,6 +48456,7 @@ Skor Batas
 Mode Terbatas
 Match
 Kompetisi
+Berita Guild Wars
 Rekor Baru!
 Ronde Baru
 Ronde Selanjutnya
@@ -51945,7 +51965,7 @@ Piramida Segitiga
 [FFBA00]Booyah Wipeout[-]\nTrigger efek eliminasi ini saat Booyah di mode manapun.\n[FFBA00]Team Wipeout[-]\nTrigger efek eliminasi ini saat mengeliminasi anggota terakhir dari tim musuh.
 Efek Giroskop di Lobi
 Buku dengan kekuatan tersembunyi di dalamnya.
-Paradox Hyperbook
+Paradox
 Voice Pack Eksklusif Event
 Guild Exclusive Voice Pack
 Main makin semangat dengan suara spesial member JKT48!
@@ -53869,13 +53889,13 @@ Setiap eliminasi meningkatkan maks Shield Point sebesar [FFB300]{0}[-] secara pe
 Memasuki mode Xtreme dan dapatkan [FFB300]{1}[-] Shield Point sementara selama [FFB300]{0}[-]dtk, dimana setiap knockdown musuh akan memulihkan Shield Point sementara kembali ke [FFB300]{2}[-] dan mengulang durasi mode. Saat berakhir, semua Shield Point yang didapatkan akan hilang. Cooldown: [FFB300]{3}dtk[-].
 Mendapatkan Perisai Chakra
 Terkena api dan mendapatkan damage per detik karena Katon: Gokakyu no Jutsu
-Ninjutsu yang membuat pengguna bisa meniup bola api, menghancurkan Gloo Wall dan membuat ledakan setelah benturan, meninggalkan api yang memberikan damage membakar.
+Menghembuskan bola api yang menghancurkan Gloo Wall di jalurnya dan meledak saat mengenai sasaran, meninggalkan kobaran api yang memberikan efek burn damage.
 Katon: Gokakyu no Jutsu
 Terkena bola air yang menutup penglihatan karena Suiton: Suiryudan no Jutsu
-Ninjutsu yang membuat pengguna bisa meniup air menjadi bentuk naga, menghancurkan Gloo Wall dan membuat bola air yang menutup penglihatan terjadi benturan.
+Mengembuskan bola air yang menghancurkan Gloo Wall di jalurnya dan menghalangi pandangan.
 Suiton: Suiryudan no Jutsu
 Terkena angin, kecepatan gerak dan rate of fire menurun karena Futon: Daitoppa
-Ninjutsu yang membuat pengguna bisa meniup angin, menghancurkan Gloo Wall dan membuat topan angin setelah benturan, meninggalkan angin yang mengurang kecepatan gerak dan rate of fire musuh.
+Hembuskan ledakan udara yang memberikan damage dan meninggalkan pusaran angin yang memperlambat musuh serta mengurangi rate of fire mereka.
 Futon: Daitoppa
 Membuat force field yang memblokir damage dan meningkatkan kecepatan gerak saat di dalam
 Shield Point meningkat permanen setiap eliminasi
@@ -54541,7 +54561,7 @@ Eternal Essence (Top)
 Loy Lotus (Top)
 Gloo Artist (Top)
 Top of Class (Top)
-Hampir pendapatkan perlindungan bintang
+Hampir mendapatkan perlindungan bintang
 Destructible Riverside
 Gloo Clash
 Map tidak lolos review. Mohon edit map terlebih dahulu.
@@ -54961,13 +54981,13 @@ Saat mengenai musuh atau kendaraan dengan [ffb300]assault dan marksman rifle[-],
 Gloo Strike
 Mendapatkan Perisai Chakra
 Kecepatan gerak dan rate of fire menurun karena Rasengan
-Ninjutsu yang membuat pengguna bisa menyerang cepat dalam jarak menengah dan memberikan damage menengah ke musuh, memperlambat kecepatan gerak dan rate of fire.
+Dash kedepan dan memberikan damage ke target yang terkena, serta mengurangi kecepatan gerak dan rate of fire mereka.
 Rasengan
 Tidak bisa menggunakan throwable atau minimap karena Chidori
-Ninjutsu yang membuat pengguna bisa menyerang cepat dalam jarak jauh dan memberikan damage besar ke musuh, membuat mereka tidak bisa menggunakan throwable atau membuka minimap.
+Dash kedepan, Memberikan damage, dan mengganggu target serangan.
 Chidori
 Terpental karena Okasho
-Ninjutsu yang membuat pengguna bisa menyerang cepat dalam jarak dekat dan memberikan damage kecil ke musuh, membuat mereka terpental ke udara.
+Maju kedepan, berika damage ke target serangan, dan knockback musuh.
 Okasho
 Assault dan Marksman Rifle bisa memperlambat musuh. Bisa mendapatkan ekstra Gloo Wall.
 Mohon masukkan email pemulihan dan kode keamanan
@@ -54976,7 +54996,7 @@ Setelah periode tunggu selesai, email pemulihan kamu tidak lagi valid. Selama pe
 Setelah periode tunggu selesai, email pemulihan kamu akan terikat. Kamu bisa menggunakannya untuk pemulihan akun.
 Setelah periode tunggu selesai, email pemulihan tidak lagi valid dan kemungkinan akun hilang meningkat.
 Email pemulihan:
-Email target sudah terikat. Mohon coba email lain.
+Email tersebut sudah terhubung dengan akun lain. Silakan coba gunakan email lain.
 Email Pemulihan
 Bind akun berhasil dalam {0} hari
 Menggunakan email di platform terikat atau email yang dibagikan tidak direkomendasikan
@@ -56059,7 +56079,7 @@ Ikut Tim 7
 Klaim
 Klaim Semua
 Sudah Klaim
-Dimiliki: [fec21c]{0}[-]/4
+Dikumpulkan: [fec21c]{0}[-]/5
 Untuk setiap peningkatan {0} di progres, dapatkan hadiah berikut
 Untuk setiap {0} progres, dapatkan hadiah random dari daftar item berikut
 Misi Harian
@@ -56082,7 +56102,7 @@ Batas Harian LW: {0}/{1}
 Kuchiyose no Jutsu: Gamabunta
 Tersedia dalam {0}
 Progres Koleksi
-Kumpulkan [fec21c]4[-] dari 5 bundle NARUTO SHIPPUDEN untuk mendapatkan hadiah utama!
+Kumpulkan [fec21c]5[-] dari 6 bundle NARUTO SHIPPUDEN untuk membuka hadiah utama!
 Capai progres {0} untuk memanggil
 Sumber daya event sudah di-download
 Download dan ikut event "Bab 1: Serangan Ekor Sembilan" dan dapatkan bundle Jiraiya gratis dan Battle Card bertema sebagai hadiah!
@@ -56101,7 +56121,7 @@ Reservasi
 Bundle disimpan. Kamu akan dinotifikasi jika tersedia.
 Sudah Simpan
 Menangkan hadiah berikut:
-Peraturan:\n1. Misi Harian: Selesaikan misi harian untuk mendapatkan Gulungan Api dan mulai perjalanan ninja-mu!\n2. Gameplay Utama: Gunakan Gulungan Api untuk bertahan dari Ekor Sembilan! Klaim hadiah dan panggil teman ninja kamu seiringnya progres meningkat. Kamu juga bisa mendapatkan hadiah bundle gratis!\n3. Koleksi Bundle Terbatas: Kumpulkan 4 dari 5 bundle NARUTO SHIPPUDEN untuk memenangkan Super Emote Gamabunta!\n4. Naruto Battle Card: Selesaikan misi spesial untuk mendapatkan battle card unik ini secara gratis!
+Rule:\n1. Tugas Harian: Selesaikan tugas harian untuk mendapatkan Fire Scrolls dan memulai perjalanan ninja!\n2. Gameplay Utama: Gunakan Fire Scrolls untuk melindungi diri dari Ekor Sembilan! Klaim hadiah dan panggil rekan ninja seiring bertambahnya progres. Anda juga bisa mendapatkan bundle kostum gratis!\n3. Koleksi Kostum limited edition: Kumpulkan 5 bundle kostum NARUTO SHIPPUDEN untuk mendapatkan Super Emote Gamabunta!\n4. Naruto Battle Card: Selesaikan tugas khusus untuk membuka battle card unik ini secara gratis!
 Detil Event
 Tersedia
 Skip
@@ -56350,11 +56370,11 @@ Revival Zone tutup
 Sisa: {0}
 Airdrop Vending Machine kembali! Beli item rare dengan harga diskon!
 Airdrop Vending Machine Kembali
-Ekor Sembilan telah muncul di Bermuda. Hati-hati!
+Ekor Sembilan telah muncul. Hati-hati!
 Di awal match, pemain yang tereliminasi di Desa Konoha bisa hidup kembali satu kali
 Serangan Ekor Sembilan
 Tidak bisa menggunakan item saat ini
-Kolaborasi NARUTO SHIPPUDEN
+NARUTO SHIPPUDEN
 Panggil
 Ichiraku Ramen terbaik! Pulihkan 2 EP/dtk.
 Yum Yum
@@ -56803,7 +56823,7 @@ Hadiah selalu tersedia sebelum box kosong
 Interaksi dengan Frosty Machine di map untuk menemukan info baru dan item misterius!
 Frosty Machine
 Gagal summon. Lokasi sekarang tidak memungkinkan.
-Gamatatsu memiliki sesuatu untuk kamu! (Pemain akan bisa menaruh hadiah spesial - loadout, Gold atau Luck Royale Voucher dengan jumlah random - di spawn island. Hadiah tersedia untuk 10 pemain.)
+Gamatatsu punya sesuatu untukmu! Pengguna dapat menempatkan hadiah rahasia berupa jumlah acak Loadout, Gold, atau Voucher di pulau spawn. Hadiah tersedia untuk 10 pemain.)
 Gamatatsu
 Voice pack eksklusif event
 Hadiah rank Elite Heroic BR S43
@@ -56972,7 +56992,7 @@ Silencer
 Kurangi Heal
 Reload
 Tembus Gloo
-Hancur Gloo
+Wall Break
 Pelan
 Granat
 Fist
@@ -58397,7 +58417,7 @@ Golden Start
 Ada kemungkinan semua pemain mendapatkan banyak koin di awal match
 (3x Pakai)
 Cooldown Skill Card: {0}dtk
-{0} didapatkan
+Dapatkan {0}.
 (1x Pakai)
 (Tak Terbatas)
 Kamu sudah menggunakan skill yang sama dengan Skill Card. Cooldown skill dipercepat.
@@ -58726,7 +58746,7 @@ Sudah penuh dan tidak bisa makan lagi
 Waktu buka puasa! Temukan beberapa booth makanan dan isi perut kamu!
 MAKAN
 Buku dengan kekuatan tersembunyi di dalamnya.
-Midnight Hyperbook
+Midnight
 Artefak tersedia di Tech Workshop
 Pergi ke Tech Artifact
 Pilih artefak untuk dibangun
@@ -61764,7 +61784,7 @@ Squad Pribadi
 Ketua squad tidak bisa keluar jika masih ada pemain lain di squad
 Berhasil mengaktifkan
 Klaim hadiah setelah menyelesaikan Misi Top-Up
-Tidak ada squad untuk bergabung
+Tidak ada squad tersedia. Coba lagi dalam 5 menit.
 Buat squad kamu dengan {0} member
 {0} anggota, gabung untuk hadiah!
 Buat atau gabung squad dahulu
@@ -62624,7 +62644,7 @@ Bulan Merah
 Dapatkan Airdrop Pohon Chakra dan aktivasikan Bulan Merah
 Airdrop Pohon Chakra
 Dapatkan Airdrop Pohon Chakra untuk Poin Bulan Merah dan Peninggalan Akatsuki!
-Hati-hati, dia bisa meledak! (Pemain akan bisa menaruh hadiah spesial - loadout, Gold atau Luck Royale Voucher dengan jumlah random - di spawn island. Hadiah tersedia untuk 10 pemain.)
+Hati-hati, bisa meledak! (Pengguna dapat menaruh hadiah rahasia berupa Loadout, Gold, atau Voucher di dalam kabin. Hadiah tersedia untuk 10 pemain.)
 Burung Tanah Liat
 Biarkan hatimu menyala. (Pemain akan bisa menaruh hadiah spesial - loadout, Gold atau Luck Royale Voucher dengan jumlah random - di spawn island. Hadiah tersedia untuk 10 pemain.)
 Glowing Heart
@@ -63704,7 +63724,7 @@ Kamu punya hadiah Squad Treasure yang belum diambil!
 Kamu akan kembali ke tim yang sebelumnya kamu buat
 Public
 (Siapa saja dapat bergabung)
-(Hanya dapat bergabung melalui undangan)
+(Hanya melalui undangan Leader)
 Misi Top-up selesai! Join squad untuk klaim hadiahnya!
 Kamu dapat membuat squad-mu menjadi public agar lebih banyak pemain yang bisa bergabung.
 Batas waktu
@@ -64202,7 +64222,7 @@ Deploy tactical gadget dimanapun dalam Safe Zone
 Ketuk untuk pilih gadget
 Pilih spot dan drag untuk menyesuaikan.
 Ketuk disini untuk deploy
-Super Bonfire meningkatkan 15% Rate of fire
+Super Bonfire meningkatkan 8% Rate of fire
 Mendapatkan Tactical Panel setiap ronde. Gunakan untuk deploy tactical gadget di lokasi mana pun pada map. Gadget  juga tersedia di Toko CS.
 Helper Bot siap digunakan
 Mendapatkan Helper Bot setiap Ronde. Gunakan untuk membantu teman yang knock dari jauh. Secret Bazaar juga terbuka di CS dan dapat dibeli untuk tim mu.
@@ -65838,7 +65858,7 @@ Stats
 Tekan untuk Berbicara
 Saat diaktifkan, mikrofon akan beralih ke mode Push-to-Talk. Tahan tombol mic untuk berbicara, lalu lepaskan untuk mengakhiri.
 Tahan tombol mic untuk berbicara dan lepaskan untuk mengakhiri
-Selalu aktif
+Mode Mic
 Privasi
 Gagal dipakai saat matchmaking
 Pemain dilampaui
@@ -66414,7 +66434,7 @@ Solo Revival Point
 Kesempatan Solo Revival
 Jumlah revival yang kamu miliki. Rebut Revival Point untuk mendapatkan revival tambahan!
 Tim Revive
-Perlindungan Tim Revival aktif
+Team Revival diaktifkan dengan mendarat bersama timmu
 Revival Tim diaktifkan!
 Lempar ke lokasi target, lalu teleport ke dagger.
 Blink Dagger
@@ -67823,7 +67843,7 @@ Goal Kick (M4A1 + M1917) Weapon Loot Crate
 Pengaturan Dasar
 Penyimpanan Cloud Pemain
 Mengubah tipe properti autosave akan membuat data online yang sudah ada tidak dapat dibaca. Apakah kamu yakin?
-Jika diaktifkan, data pemain akan secara otomatis disimpan dan diterapkan untuk match selanjutnya.
+Jika diaktifkan, data pemain akan otomatis disimpan dan diterapkan pada pertandingan berikutnya. Catatan: setiap properti hanya dapat menyimpan hingga 4 KB data.
 Buat
 Tidak ada data playtest yang tersedia
 Harap aktifkan Data Storage Module terlebih dahulu.
@@ -68058,7 +68078,7 @@ Flip Tower
 1. Gunakan Diamond atau Voucher untuk membeli item dan token yang telah terungkap.\n2. Setelah setiap pembelian, item berikutnya akan terungkap tanpa biaya dari kumpulan hadiah event yang tersedia, termasuk grand prize.\n3. Token dapat ditukarkan di Exchange Store untuk mendapatkan hadiah tertentu, termasuk grand prize. Beberapa hadiah memungkinkan penggunaan Diamond untuk menutupi kekurangan Token.
 Garansi Hadiah Utama dalam[ffba00][fs=32][b]{0}[/b][/fs][-] flip
 Flip Booth
-(Hanya teman yang dapat bergabung)
+(Hanya teman Squad)
 Gabung Lagi
 Hanya teman pemimpin yang bisa bergabung
 Bergabung hanya melalui undangan
@@ -68694,7 +68714,7 @@ Scan musuh berkala
 Dapat Gloo Wal setiap 7d
 Dapat satu kesempatan revive
 Dapat EP Terus Menerus
-Dapat Lv. 5 Helm dan Vest
+Dapat Lv. 5 Helm dan Vest dengan perbaikan otomatis secara terus-menerus.
 Eliminasi memulihkan HP sepenuhnya
 Double HP
 Eliminasi memberi +100 permanen Shield Point
@@ -68703,7 +68723,7 @@ Dapat Monster Truck dengan +40% kecepatan kendaraan.
 Movement speed +150% saat terkena damage
 Pemulihan HP terus menerus
 Bisa bangkit sendiri tanpa batas.
-Damage +50%
+Damage +{0}%
 Movement speed +50%
 Gloo Wall HP +9999
 HP setengah, Tapi damage +50%
@@ -68819,7 +68839,7 @@ Token Piala Dunia 2
 Football Star Token
 Yellow Coin Token
 Buku mistik dengan kekuatan tersegel di dalam halamannya.
-Eclipse Hyperbook
+Eclipse
 Blue Voucher
 Voucher Misteri Bawah Laut
 Cyber Voucher
@@ -69086,9 +69106,9 @@ Stiker Marlin
 Solar Eclipse Sticker
 Football Sticker
 Trophy Sticker
-Pengguna dapat menaruh hadiah rahasia seperti loadout, Gold, atau Voucher Diamond Royale di dalam kabin. Hadiah tersedia untuk 10 pemain.
+Pengguna dapat menaruh hadiah rahasia seperti Loadout, Gold, atau Voucher di dalam kabin. Hadiah tersedia untuk 10 pemain.
 Rising Star
-Pengguna dapat menaruh hadiah rahasia seperti loadout, Gold, atau Voucher Diamond Royale di dalam kabin. Hadiah tersedia untuk hingga 10 pemain.
+Pengguna dapat menaruh hadiah rahasia berupa Loadout, Gold, atau Voucher di dalam kabin. Hadiah tersedia untuk 10 pemain.
 Superstar
 Transformasi menjadi bush dengan pengurangan kecepatan gerak sebesar [FFB300]{2}%[-], berlangsung selama [FFB300]{1}d[-]. Durasi akan diperpanjang jika pengguna tetap diam. Transformasi berakhir saat Wukong menyerang. Cooldown akan di-reset jika Wukong menjatuhkan musuh dalam waktu [FFB300]{3}d[-] setelah skill dilepaskan. Cooldown: [FFB300]{0}d[-].
 Berubah menjadi semak dan menciptakan dua semak tambahan. Berlangsung selama [FFB300]{0}s[-].
@@ -69215,7 +69235,7 @@ Fitur Autosave
 Lainnya
 Animasi AI
 Tidak Ada Properti yang valid
-SMG & Rifle
+Senjata Jarak Jauh
 Template Script
 Simpan sebagai template
 Terapkan Template
@@ -69709,7 +69729,7 @@ Saat item ini terpasang, First Edition Badge akan ditampilkan di halaman profilm
 Saat kamu bergabung ke dalam tim dengan item ini terpasang, First Edition Badge milikmu akan ditampilkan kepada rekan tim.
 Saat item ini terpasang, First Edition Badge akan ditampilkan di papan peringkat.
 Punggung
-Teamn Pyro
+Pyro Pals
 Pyro Dynamic Duo kamu segera tiba!
 Pilih kepribadian
 Login Streak
@@ -69721,7 +69741,7 @@ Muka
 Vault Pyro
 Tampilan halaman profil
 Widget kustom halaman profil
-Teman Pyro
+Pyro Pals
 Buka vault Pyro
 Buka tampilan login beruntun di halaman profile
 Buka widget yang bisa disesuaikan pada halaman profile
@@ -69811,14 +69831,14 @@ Shotgunner
 Meningkatkan kapasitas magazine, damage, dan kontrol penyebaran
 Stabilitas Mag
 Meningkatkan kapasitas magazine dan  stabilitas untuk tembakan berkelanjutan
-Tingkat pengurangan DMG
+Pengurangan DMG shield
 Dapat menyerang sambil berlari
-Jarak kemunculan Region Runtuh
-Beberapa Region akan segera Collapse
-Sebagian Region telah collapse
-Wilayah akan segera runtuh
-Memasuki area yang akan runtuh.
-Region sedang runtuh
+Zona Runtuh terungkap dalam
+Zona Runtuh terungkap
+Runtuh dalam
+Masuk
+Zona Runtuh
+Fasilitas Hancur
 Tinggalkan area runtuh
 Rekan tim mencetak {0} eliminasi, bergabunglah dengan mereka!
 Rekan tim memiliki total {0} revive, bergabunglah dengan mereka!
@@ -69942,6 +69962,7 @@ BR-Ranked S52 Master Banner
 BR-Ranked S52 Heroic Banner
 BR-Ranked S53 Master Banner
 BR-Ranked S53 Heroic Banner
+Summer Voyage Banner
 Stellar Spica Banner
 Baaast Friends Banner
 Bat - EWC 2026
@@ -69968,12 +69989,13 @@ Drum Jam
 Celebration Dance
 Phoenix Flourish
 Anniversary Parade
-Left Right Sway
+Dance Brother Dance
 Scuba Dance
 Spotless
 Baa Baa Knit
 PARAFAL - 9th Anniversary
 Final Shot - Rising Phoenix
+Kartu Merah
 Pride Judgment
 Fist - Fracture Firewing
 G36 - S52 Exclusive: Baa Baa
@@ -70014,8 +70036,11 @@ BR-Ranked S52 Master Avatar
 BR-Ranked S52 Heroic Avatar
 BR-Ranked S53 Master Avatar
 BR-Ranked S53 Heroic Avatar
+Sands Avatar
+Seas Avatar
 Justice Avatar
 Stellar Spica Avatar
+Waves Avatar
 Baaast Friends Avatar
 Kuda akan memiliki efek spesial saat bergerak
 Efek gerakan kuda
@@ -70046,10 +70071,13 @@ M500 - Pristine Spica
 Parang - Electro Morphosis
 Parang - Dimensional Bruiser
 Parang - S53 Exclusive: Spica
+Parang - SEA Fall 2026
 Parang - Baa Baa Woof
 MAG-7 - Scarlet Destiny
 Boat of Luxury
 Fractured Descent
+Tenxi collab theme song
+Cari yang Baru
 Lagu tema Kolaborasi AAA
 Booyahka
 Lagu tema 9th Anniversary
@@ -70091,6 +70119,7 @@ Horse - Moonshine
 Jeep - Crisp Green
 Jeep - Scarlet Samurai
 Jeep - Dimensional Drift
+Jeep - SEA Fall 2026
 Monster Truck - Cotton Wraps
 Monster Truck - S52 Exclusive: Baa Baa
 Motorbike - Fractured Feathers
@@ -70110,6 +70139,7 @@ Dimensional Bruiser (XM8 + Desert Eagle) Weapon Loot Crate
 Buka untuk mendapatkan skin senjata random (Charge Buster + USP-2) dari set Super Fresh
 Super Fresh (Charge Buster + USP-2) Weapon Loot Crate
 XM8 - Dimensional Bruiser
+Kamu sudah bermain lumayan lama. Istirahat sebentar yuk?
 Skill {0} memberikan Healing
 Skill Kassie memberikan healing
 Skill {0} memberikan Shield Point
@@ -70123,6 +70153,7 @@ Scarlet Chanter Bundle
 Denim Crosscut Bundle
 Rosy Groove Bundle
 Pop Groove Bundle
+Street Diva Bundle
 Electro Butterfly Bundle
 Fracture Streetburst Bundle
 Scorching Fracture Bundle
@@ -70137,6 +70168,7 @@ Thunderborn MVP Bundle
 Rin Bundle
 Metallic Groove Bundle
 Captain of Courage Bundle
+Street Swagger Bundle
 Rey Mysterio Bundle
 Electro Morphosis Bundle
 Fracture Freestyle Bundle
@@ -70179,7 +70211,7 @@ Map ini tidak disetujui, silakan buka Craftland Studio PC dan update map.
 Sebagian Besar Positif
 Sangat Positif
 Sangat Positif
-Penilaian peta didasarkan pada like dan dislike dan hanya ditampilkan ketika like melebihi {0}
+Rating map didasarkan pada jumlah suka dan tidak suka.
 Tingkat Berhasil Match Tinggi
 Tingkat Keberhasilan Match Rendah
 Tingkat Berhasil Pertengahan Pertandingan
@@ -70188,12 +70220,15 @@ Estimasi tingkat keberhasilan match berdasarkan popularitas map dan pengaturan k
 Midjoin: Diaktifkan
 Sesi Bermain: {0}
 Sesi Bermain
-Sesi Bermain: jumlah dimainkan sebuah peta
+Sesi Bermain: jumlah kali sebuah map telah dimainkan. Tidak diperbarui secara real time.
 Map ini tidak dapat diakses di server saat ini.
 {0} tim x {1} pemain
 Badge Nilai Perilaku Sangat Baik
 Rekan tim ini memiliki nilai perilaku yang sangat baik. Bertarung untuk Booyah bersama!
+Tidak ada tim yang cocok. Coba lagi nanti atau coba matchmaking sistem.
 Pilih jawaban
+Area Track
+Lock-On Berkelanjutan
 Membuat area kecil penghancur dinding setelah gelombang meledak. Area tersebut menempel dan bergerak bersama musuh terdekat dalam jarak [FFB300]{0}m[-]. Bertahan selama [FFB300]{1}dtk[-].
 Sticky Rhythm
 Menciptakan area kecil yang menempel pada musuh target, memberikan damage seiring waktu ke tembok di dalamnya
@@ -70477,13 +70512,13 @@ Gagal membuat tim
 Perolehan RP Berkurang
 Rank Gap dalam Tim terlalu jauh
 Rank Gap dalam tim terlalu jauh.\nTidak ada Rank Point yang akan didapatkan untuk match ini.
-1. [ffba00]{0}[-] pemain tidak dapat membentuk tim dengan peringkat di bawah [ffba00]{1}[-].\n2. Ketika [ffba00]{2}[-] pemain membentuk tim dengan peringkat di bawah [ffba00]{3}[-], [ffba00]{4}[-] pemain akan mendapatkan Rank Points atau Protection Points yang berkurang secara signifikan.
+[ffba00]{0}[-] pemain tidak dapat membentuk tim dengan rank di bawah [ffba00]{1}[-]
 Pembatasan Rank Tim
-When [ffba00]{0}[-] players team up with ranks below [ffba00]{1}[-], [ffba00]{2}[-] players will gain significantly reduced Rank Points or Protection Points.
+Saat [ffba00]{0}[-] Pemain team up dengan rank di bawah [ffba00]{1}[-], [ffba00]{2}[-] Pemain akan mendapatkan Poin Rank atau Poin Perlindungan yang sangat berkurang.
 Basic
 Intermediate
 Advanced
-Pusat Latihan
+Akademi Survivor
 Apa itu dan cara menggunakannya
 Arahkan lemparanmu dengan tepat agar menjadi Boom!
 Bawa Beaston untuk melempar lebih jauh
@@ -70531,7 +70566,26 @@ Ikuti event untuk memilih dan mengklaim bundle gratis serta diskon besar
 Partisipasi di event untuk klaom bundle gratis
 Kamu sudah memiliki hadiah ini. Tidak dapat mengganti hadiah utama.
 Ikuti kembalinya Chapter 1: Nine Tails Strikes untuk memenangkan bundle kostum gratis dan Spesial Battle Card!
+Tunjukkan jalannya, aku akan ikuti!
+Tidak bisa menjadi pemimpin train dalam fase terkini
+Memasuki pertarungan, train dibubarkan
+Terlalu jauh dari teman setim, train dibubarkan
+Train dibubarkan: perbedaan tinggi terlalu besar
+Pemimpin Train memicu interaksi spesial, Train dibubarkan
+Pemimpin train memasuki platform gerak, train dibubarkan
+Status gerakan abnormal, train dibubarkan
+Memasuki pertarungan, meninggalkan kereta saat ini
+Selisih tinggi terlalu besar, train dibubarkan
+Tidak bisa mengikuti di fase terkini
 Gaga mengikuti, Tidak dapat bergabung
+Kereta saat ini penuh, tidak bisa bergabung
+Selisih tinggi terlalu besar, tidak dapat bergabung
+Tidak bisa mengikuti di posisi saat ini
+Target pemain jatuh, tidak dapat bergabung
+Tidak diizinkan untuk mengikuti target pemain
+Tidak dapat bergabung: target sedang offline
+Tidak dapat mengikuti target di posisi mereka saat ini
+Kereta saat ini dibubarkan
 Coin Jar
 Untuk meningkatkan koin bagi seluruh tim
 Coin Gun
@@ -70568,6 +70622,7 @@ Box 277
 Box 278
 Box 279
 Box 280
+Blazing Fracture (AUG) Token Crate
 Scarlet Crate
 Scarlet Night Crate
 Buka untuk menerima M1014 Defier's Anthem
@@ -70803,20 +70858,48 @@ Bunga Sakura
 Hari Hujan
 Kunang-kunang
 Visual efek
+Beige
 Biru
 Warna bulu
+Gold Pucat
+Chocolate
 Cyan
 Orange
+Macaron biru
+Mint
 Warna dikunci. Naik level untuk spin dan mendapatkan.
+Peach
 Pink
+Hijau Pistachio
 Ungu
 Crimson
+Bunga Sakura
+Smoky Rose
+Taro Ungu
 Golden
 Pink Shark Hat
+Golden Crown
+Kuning & Green Balon
+Balon Merah & Ungu
 Pink & blue balloon
+Balon Golden & Silver
+Blue Fireball
+Red Fireball
 Purple Fireball
+Silver Fireball
+Yellow Goggle
+Pink Goggle
 White Diving Goggles
+Black Goggle
+Blue Heart Glasses
+Red Heart Glasses
+Black Heart Glasses
+Golden Heart Glasses
 Sayap Emas
+Pink Skateboard
+Black Skateboard
+Orange Skateboard
+Blue Skateboard
 Spin
 Kamu butuh lebih banyak login untuk spin
 Tetap login untuk klaim hadiah kejutan
@@ -71107,10 +71190,10 @@ Misi Anniversary tersedia sekarang
 Hadiah
 Misi Anniversary diterima, ayo lakukan!
 Misi Anniversary selesai!
-Revive di loot box sekarang [e01f1f]tidak tersedia[-]
+Revive di loot box sekarang tidak tersedia
 Kamu dapat revive rekan tim langsung dari loot box mereka!
-Instant Revive
-Instant Revive di Loot Box
+On-the-spot Revival
+Langsung revive di loot box
 Rekan tim merevive kamu
 Misi selesai! [ffba00]Persediaan melimpah[-] telah dijatuhkan, dan area {0} telah [ffba00]di-refresh[-]!
 Lokasi Quest [ffba00]menjatuhkan supply[-]; Mesin Vending, Revival Points, dan Coin Machine [ffba00]diperbarui[-].
@@ -71119,7 +71202,7 @@ Ambil misi [ffba00]Reforge the Sword[-]
 di [ffba00]{0}[-] area, ambil dan reforge [ffba00]Knight Sword[-]
 Reforge the Sword
 Factory telah ganti dengan Lokasi 9th Anniversary. Kunjungi dan Rayakan!
-Lokasi Party
+Anniv Stadium
 Party Venue
 Daftar Ban
 Perkataan kasar
@@ -71161,7 +71244,7 @@ Menciptakan force field yang tidak tembus pandang dan memblokir [FFB300]{0} DMG[
 Time Veil
 Focused Therapy memulihkan HP diri sendiri dan rekan tim yang menjadi target
 Saat diaktifkan secara manual maupun otomatis, Focused Therapy memulihkan [FFB300]{0} HP[-] pengguna sekaligus menyembuhkan rekan tim.
-Mutual Fokus
+Mutual Focus
 Menciptakan mini Kassie di belakang diri sendiri dan rekan tim target. Setiap mini Kassie memberikan [FFB300]{0} DMG[-] saat orang yang berada di depannya mendaratkan tembakan. Cooldown: [FFB300]{1}s[-].
 Echoed Bond
 Saat terikat dengan rekan tim, menciptakan mini Kassie di belakang diri sendiri dan teman untuk memberikan damage ekstra.
@@ -71184,6 +71267,8 @@ Gunakan untuk spin hadiah di Gold Vault
 Wrestling Voucher
 Scorching Fracture (Mask)
 Petarung Dimensi (Mask)
+Boss Banana (Mask)
+Sassy Strawberry (Mask)
 Baa Baa Sheep (Mask)
 Crisp Red (Bottom)
 Scarlet Chanter (Bottom)
@@ -71191,6 +71276,7 @@ Scarlet Dancer (Bottom)
 Denim Crosscut (Bottom)
 Rosy Groove (Bottom)
 Pop Groove (Bottom)
+Street Diva (Bottom)
 Electro Butterfly (Bottom)
 Scorching Fracture (Bottom)
 Fracture Streetburst (Bottom)
@@ -71204,6 +71290,7 @@ Scarlet Dancer (Head)
 Denim Crosscut (Head)
 Rosy Groove (Head)
 Pop Groove (Head)
+Street Diva (Head)
 Electro Butterfly (Head)
 Scorching Fracture (Head)
 Fracture Streetburst (Head)
@@ -71220,6 +71307,7 @@ Scarlet Dancer (Shoes)
 Denim Crosscut (Shoes)
 Rosy Groove (Shoes)
 Pop Groove (Shoes)
+Street Diva (Shoes)
 Electro Butterfly (Shoes)
 Scorching Fracture (Shoes)
 Fracture Streetburst (Shoes)
@@ -71233,6 +71321,7 @@ Scarlet Dancer (Top)
 Denim Crosscut (Top)
 Rosy Groove (Top)
 Pop Groove (Top)
+Street Diva (Top)
 Electro Butterfly (Top)
 Scorching Fracture (Top)
 Fracture Streetburst (Top)
@@ -71245,6 +71334,7 @@ Baby Eagle (Head)
 Scarlet Cinder (Facepaint)
 Butterfly Facepaint
 Fractured Glow (Facepaint)
+SEA Fall 2026 (Facepaint)
 Groovy Gaze (Facepaint)
 Crisp Green (Mask)
 Scarlet Warrior (Mask)
@@ -71252,6 +71342,7 @@ Thunderborn MVP (Mask)
 Rin Mask
 Metallic Groove (Mask)
 Captain of Courage (Mask)
+Street Swagger (Mask)
 Rey Mysterio (Mask)
 Ember Fracture (Mask)
 Flowing Fracture (Mask)
@@ -71266,6 +71357,7 @@ Thunderborn MVP (Bottom)
 Rin Bottom
 Metallic Groove (Bottom)
 Kapten Keberanian (Bottom)
+Street Swagger (Bottom)
 Rey Mysterio (Bottom)
 Electro Morphosis (Bottom)
 Ember Fracture (Bottom)
@@ -71281,6 +71373,7 @@ Crisp Green (Head)
 Denim Flipset (Head)
 Thunderborn MVP (Head)
 Metallic Groove (Head)
+Street Swagger (Head)
 Electro Morphosis (Head)
 Ember Fracture (Head)
 Fracture Freestyle (Head)
@@ -71297,6 +71390,7 @@ Thunderborn MVP (Shoes)
 Rin Shoes
 Metallic Groove (Sepatu)
 Captain of Courage (Shoes)
+Street Swagger (Shoes)
 Rey Mysterio (Shoes)
 Electro Morphosis (Shoes)
 Ember Fracture (Shoes)
@@ -71316,6 +71410,7 @@ Thunderborn MVP (Top)
 Rin Top
 Metallic Groove (Top)
 Captain of Courage (Top)
+Street Swagger (Top)
 Rey Mysterio (Top)
 Electro Morphosis (Top)
 Ember Fracture (Top)
@@ -71333,6 +71428,7 @@ The Scarlet Whisperer voice pack
 The Scarlet Howler voice pack
 9th Anniversary Voice Pack
 The Ronaldinho voice pack
+Halo semuanya, aku kembali lagi. Wow wow wow!
 The Tenxi voice pack
 Voice pack Hari Kemerdekaan
 The LATAM Meme voice pack 1
@@ -71342,6 +71438,7 @@ Scarlet Whisperer Voice Pack
 Scarlet Howler Voice Pack
 9th Anniversary Voice Pack
 Ronaldinho Voice Pack
+Sahurrr Voice Pack
 Tenxi Voice Pack
 Hari Kemerdekaan Voice Pack
 LATAM Meme Voice Pack 1
@@ -71358,6 +71455,17 @@ Mereka membiarkan kita bermimpi!
 Lihat headshot keren ini!
 Lihatlah orang ini, aku baru saja mengecohmu
 Petualangan lain di board!
+Halo semuanya, aku kembali lagi. Wow wow wow!
+Wah, apa ini? Serius, apa ini?
+Ya, ya, aku pergi, aku pergi. Tapi aku pasti akan kembali! Ay, ay, ay!
+Tung tung tung
+Halo semuanya, nama saya Tung Tung Sahur
+Jangan yapping terus
+[Tenxi] Tolong aku
+[Tenxi] Kok musuhnya gampang?
+[Tenxi] Kasih aba-aba dulu bang
+[Tenxi] Maju maju maju!
+[Tenxi] Sakit dadaku
 Tolong aku!
 Apa kamu sudah berusaha?
 Untuk tanah air!
@@ -71386,6 +71494,7 @@ Spica Shoes
 Cotton Teddy (Top)
 Dark Desires Bundle
 Groovy Crop Top
+2026 EWC Champions T-shirt
 Super Fresh Bundle
 Apakah kamu puas dengan kualitas suara pada match ini?
 Tonton Replay
@@ -71532,7 +71641,7 @@ Setelah rekan tim di eliminasi, pergi untuk revive ke loot box mereka dalam bata
 Senjata Awakening muncul di upgrade Arsenal. Saat pertarungan terakhir dimulai, semua pemain yang masih bertahan akan menerima Weapon Awakener. Lepaskan kekuatan sejati Anda dan bersainglah untuk menjadi pemenang!
 Gelembung Perayaan
 Misi Anniversary
-Instant Revive
+On-the-spot Revival
 Senjata Awakened
 Mampir saja. Ambil gelembungnya!
 Misi seru menanti di dalam zona!
@@ -71570,7 +71679,7 @@ Oscar
 Skyler
 Homer
 Ayo Rayakan
-1. Temukan Patung 9th Anniversary di Party  Lobby 9th Anniversary dan habiskan Token untuk merayakan.\n2. Token bisa didapatkan dengan menyelesaikan Misi Harian atau bermain Match.\n3. Setiap perayaan di patung memberikan hadiah perayaan acak.\n4. Perayaan memiliki kesempatan untuk memberikan Hadiah Benefit spesial yang bisa digunakan sampai kedaluwarsa.\n5. Raih PROGRESS Milestone melalui perayaan untuk mendapatkan Hadiah Milestone.\n6. Banyak aktivitas seru menunggu untuk ditemukan di Party Lobby!
+1. Temukan Patung 9th Anniversary di Party Lobby 9th Anniversary dan gunakan token untuk merayakan.\n2. Token dapat diperoleh dengan menyelesaikan tugas harian.\n3. Setiap perayaan di patung memberikan hadiah acak.\n4. Perayaan berpeluang memberikan hadiah hak istimewa khusus yang dapat digunakan hingga kedaluwarsa.\n5. Capai progres milestone melalui perayaan untuk mendapatkan hadiah milestone.\n6. Banyak aktivitas seru menanti untuk ditemukan di Party Lobby!
 Aturan
 Berinteraksi
 Terus-menerus memberikan koin kepada pemain lain
@@ -71599,7 +71708,7 @@ Arm Solution
 Leg Solution
 Flash Freeze
 Dance Grenade
-Kembang Api Air Mancur Anniv.
+Kembang Api Air Mancur
 Kembang Api Anniversary
 Bergabung
 Luncurkan
@@ -71608,7 +71717,7 @@ Loading Event 9th Anniversary
 Loading...
 Hadiah Gratis!
 9th Anniversary
-Garansi Hadiah Utama setelah {0} perayaan
+Garansi Hadiah Spesial setelah {0} perayaan
 Rayakan
 Gratis
 Tugas Harian belum selesai!
@@ -71628,7 +71737,7 @@ Berikan {0} DMG pakai senjata Awakened untuk menyelesaikan tugas!
 Pakai peningkatan Skill{0} kali lagi untuk menyelesaikan tugas!
 Dapatkan {0} Poin Perk lainnya untuk menyelesaikan tugas!
 Maksimalkan Poin Perk {0} kali lagi untuk menyelesaikan tugas!
-Token tersisa hari ini:  [fs=26][FFE785]{0}[-][/fs]
+Token tersisa hari ini: [S0][fs=26][FFE785]{0}[-][/fs]
 Batas Harian BR Rank:
 Batas Harian CS Rank:
 Batas Harian LW:
@@ -71707,7 +71816,7 @@ TAMPILKAN HADIAH
 HADIAH BONUS
 TAMPILKAN HANYA MILIKKU
 PEMENANG
-Garansi Tier {0} dalam{1} spin
+Garansi hadiah {0}-Tier dalam [ffba00][fs=32][b]{1}[/b][/fs][-] spin(s)
 S TIER
 A TIER
 B TIER
@@ -71738,7 +71847,7 @@ Semua hadiah habis. Pindah ke board baru dengan hadiah!
 Hadiah Bonus Rush Board
 hI Survivor, \n\nBerikut adalah hadiah bonus yang kamu lewatkan dari event Rush Board: {0}.\nTerima kasih telah berpartisipasi dalam event ini!
 Board NO. {0}
-KIRI
+SISA
 Hanya sedikit Hadiah Utama tersisa, coba board lain.
 Board ini cukup bagus
 Semua Hadiah Utama sudah habis, ganti ke board baru.
@@ -71759,6 +71868,2110 @@ Area ini memiliki loot melimpah
 Area ini memiliki banyak loot.
 Kaya
 Bagus
+Admin men-transformasi kamu
+Nama ini mengandung karakter yang tidak didukung. Silakan edit untuk melanjutkan.
+Beberapa nama properti kustom mengandung karakter yang tidak didukung. Silakan edit dan coba lagi.
+{0} Simpanan Diterima
+Konfirmasi untuk pakai [S0]{0} + [S1]{1} untuk membuka [FFCD30]PREMIUM[-]?
+Konfirmasi untuk pakai [S0]{0} + [S1]{1} untuk membuka [FFCD30]PREMIUM PLUS[-]?
+Tetap gunakan [S0]
+Dapatkan 1 [S0] untuk membuka dan mengklaimnya.
+Saving Saat ini
+Gunakan [S0] di {0} untuk menyimpan [S1],\ngunakan di {1} setelah mendapatkan [S0]
+Dapatkan [S0] apa pun untuk membuka [S1]\n[S1] hanya dapat digunakan untuk menggantikan [S0] di event royale dan booyah pass.\n[S1] yang tidak terpakai akan direset ke 0 di akhir bulan ini.
+Dapatkan [S0] apa pun untuk membuka [S1]\n[S1] hanya dapat digunakan untuk meng-offset [S0] di Deluxe Menu dan Booyah Pass.\n[S1] yang tidak terpakai akan direset ke 0 di akhir bulan ini.
+{0} [S0] belum diklaim
+Buka [S0]{0} sekarang dan gunakan di sini!
+Pengeluaran
+Prime Diamond
+Terbuka pada Prime {0}
+Capai Prime {0} untuk membuka
+Upgrade ke Prime {0} untuk klaim [S0]{1}
+Mulai simpan Prime Diamonds sekarang!
+Milestone baru tercapai!\nLebih banyak [S0] terbuka!
+Ubah pengeluaran [S0] bulan ini menjadi tabungan bulan depan!\n\n1. Tabung Prime Diamond\n· Belanjakan [S0] untuk mengumpulkan progres dan mencapai milestone demi menabung [S1]. Semakin banyak kamu belanja, semakin banyak yang bisa kamu tabung!\n· Hanya pengeluaran [S0] yang dihitung dalam progres. Jumlah yang dibayar menggunakan [S1] tidak akan dihitung.\n\n2. Buka & Gunakan Prime Diamond\n· Prime Diamond yang ditabung bulan ini dapat digunakan bulan depan. Pada awal bulan depan, Prime Diamond akan terkunci: kamu dapat melihatnya, tetapi belum dapat menggunakannya.\n· Top up sejumlah [S0] berapa pun pada bulan depan untuk membuka Prime Diamond yang telah kamu tabung.\n· Setelah dibuka, [S1] dapat digunakan di Luck Royale dan Booyah Pass. 1 [S1] = 1 [S0]. [S1] akan digunakan terlebih dahulu saat melakukan pembayaran.\n\n3. Kedaluwarsa Bulanan\n· [S1] yang telah kamu tabung harus digunakan pada bulan berikutnya, atau jumlahnya akan direset menjadi 0 pada pukul 04:00 di bulan setelahnya.
+Ubah pengeluaran [S0] bulan ini menjadi tabungan bulan depan!\n\n1. Tabung Prime Diamond\n· Belanjakan [S0] untuk mengumpulkan progres dan mencapai milestone untuk menabung [S1]. Semakin banyak kamu belanja, semakin banyak menabung!\n· Hanya pengeluaran [S0] yang dihitung sebagai progres. Jumlah yang dibayar menggunakan [S1] tidak akan dihitung.\n\n2. Buka & Gunakan Prime Diamond\n· Prime Diamond yang ditabung bulan ini dapat digunakan bulan depan. Pada awal bulan depan, Prime Diamond akan terkunci: kamu dapat melihatnya, tetapi belum dapat menggunakannya.\n· Top up sejumlah [S0] berapa pun pada bulan depan untuk membuka Prime Diamond yang telah kamu tabung.\n· Setelah dibuka, [S1] dapat digunakan di Luck Royale, Deluxe Menu, dan Booyah Pass. 1 [S1] = 1 [S0]. [S1] akan digunakan terlebih dahulu saat melakukan pembayaran.\n\n3. Kedaluwarsa Bulanan\n· [S1] yang telah kamu tabung harus digunakan pada bulan berikutnya. Jika tidak, jumlahnya akan direset menjadi 0 pada pukul 04:00 di bulan setelahnya.
+Gunakan [S0] untuk menyimpan [S1]
+Kamu tidak menggunakan [S0] apa pun, jadi progres Prime Diamond-mu tidak berubah.
+Hanya pengeluaran [S0] yang dihitung dalam progres jar. Diamond yang di-offset oleh [S1] tidak termasuk.
+{0} - diklaim
+{0} - dapat diklaim
+Peraturan Prime Diamond
+{0} Toples Diamond
+Dapatkan 1 [S0] untuk mengklaim [S1] yang tersimpan.
+[S0] akan kedaluwarsa dalam {0} hari, pastikan untuk menggunakannya!
+Prime Diamonds-mu sebanyak {0} sudah mencapai batas maksimum! Pastikan untuk membukanya di {1}!
+Milestone baru tercapai! Ayo klaim [S0] milikmu!
+Gunakan [S0] di {0}, buka dan gunakan [S1] di {1}
+[S0]{0} tersimpan!
+Pastikan untuk menggunakan semua [S0] kamu sebelum bulan depan!
+Di Luck Royale dan Booyah Pass, [S0] akan digunakan terlebih dahulu sebelum [S1]!
+[S0] dapat digunakan terlebih dahulu sebelum [S1] di Deluxe Menu dan Booyah Pass.
+Waktu Kedaluwarsa
+[S0]{1} yang tidak terpakai dari {0} telah direset ke 0.
+Notifikasi Kedaluwarsa Prime Diamond
+Tersisa [S0]{0}. Direset dalam {1} hari.
+[S0]{1} akan direset dalam {0} hari! Gunakan sekarang!
+Hari terakhir! [S0]{0} akan direset ke 0!
+Kedaluwarsa dalam {0}
+Prime Diamond
+Dapatkan dari:
+Prime System
+Hanya Dapat Digunakan di
+Knock down musuh untuk mendapatkan bonus Fire Rate dan Kecepatan Gerak selama 20 dtk
+Storm
+Tembakan memberikan damage ekstra dan menyerap HP dari musuh
+Menyerap
+Regular
+Balik
+Skorp
+SMG tembus armor yang unggul melawan musuh berarmor tebal di jarak dekat, cocok untuk pertarungan jarak dekat
+FO12
+Shotgun fully automatic dengan kekuatan tembakan jarak dekat yang menghancurkan, ideal untuk breaching cepat
+M200
+Sniper rifle kuat yang dirancang untuk eliminasi jarak jauh yang presisi
+M7
+Assault rifle dengan recoil yang mudah dikendalikan dan damage yang tinggi, ideal untuk pertempuran jarak menengah.
+RPK
+Light machine gun dengan mekanisme recoil yang unik, damage tinggi, dan mobilitas layaknya rifle, ideal untuk pertempuran jarak menengah hingga jauh.
+Hawk
+Sniper rifle berdamage tinggi yang menembakkan dua ronde secara beruntun. Muzzle climb yang kuat setelah setiap tembakan membuatnya paling cocok untuk pertempuran jarak jauh
+TEC-9
+Pistol dengan fire rate tinggi dengan damage burst jarak dekat yang sangat baik, ideal sebagai senjata kedua yang fleksibel
+Recoil
+Area Collapse
+Pilih 1 pemain sebagai Target Bounty
+Perburuan Admin
+Jadikan Admin sebagai Target Bounty untuk semua pemain
+Buff Default
+Ukuran kepala x{0}
+Ukuran lengan x{0}
+Ukuran kaki x{0}
+Ukuran badan x{0}
+Cooldown Skill
+Pemulihan HP
+Ukuran Full-Body
+Ukuran Lengan
+Ukuran Kepala
+Ukuran Kaki
+Kecepatan gerak {0}%
+Tinggi lompatan +{0}%
+Skill CD -{0}%
+HP +{0}/s
+Maks. HP {0}
+Tinggi lompatan {0}%
+Skill CD {0}%
+Pemulihan HP {0}/d
+Kepala x{0}
+Lengan x{0}
+Kaki x{0}
+Badan x{0}
+Admin memberikan buff ke SEMUA: [ffd888]{0}[-]
+Admin memberikan SEMUA item: [ffd888]{0}[-]
+Admin memberikan SELURUH hadiah: [ffd888]{0}[-]
+Admin memanggil Lightning Strike ke SEMUA pemain.
+Admin memulai Hunt untuk [ffd888]{0}[-] dengan hadiah [ffd888]{1}[-]
+Admin memulai Hunt untuk dirinya sendiri dengan hadiah [ffd888]{0}[-]
+Aku pernah melihat Admin ini sebelumnya. Mereka suka memberikan Diamond!
+Di mana Admin? Aku ingin duel!
+Aku diburu. Lindungi aku!
+Gencatan senjata! Kita ambil Admin dulu.
+Tidak ada hukuman Rank Point. Ayo!
+Beri aku items dan aku akan jadi fan-mu!
+Durasi
+{0} menit
+Persentase
+Random
+All
+Target
+Diri sendiri
+Pemain Target
+Seluruh Match
+Hadiah
+Buff
+Item
+Lightning
+Transformasi
+Freecam
+Berikan {0} ke [ffe400]{1}[-]?
+Mulai voting sekarang? (Efektif untuk {0} menit)
+Ubah ke status invincible yang terlihat? Kamu tidak dapat kembali ke mode spectator setelahnya, tetapi masih dapat melakukan aksi lain sebagai Admin.
+Konfirmasi hapus preset yang disimpan?
+Beri {0} ke semua pemain hidup?
+Berikan {0} ke semua pemain yang hidup selama {1} menit?
+Panggil 1 Lightning Strike ke [ffe400]{0}[-]?
+Panggil 1 Lightning Strike ke semua pemain hidup?
+Berburu [ffe400]{0}[-] dengan bounty {1}?
+Berburu sendiri dengan bounty {0}?
+Utama
+Preset
+Spinner
+Advanced
+Umum
+Perburuan Hadiah
+Vote
+Pengaturan Admin
+Chat Pemain
+Rekomendasi cepat/preset tersimpan
+Menghasilkan event acak
+Eliminasi [ffe400]{0}[-]
+Hadiah: {0}
+Lindungi [ffe400]{0}[-]
+Bertahan dari Perburuan
+Admin Mayhem
+Bergabung ke target match
+Cari dengan UID/match ID
+Bergabung ke match random
+Match Sekarang
+Ikut pertandingan yang sedang berlangsung
+Match tidak ditemukan
+Target pemain tidak dalam match
+Tidak dapat bergabung. Match target tidak memenuhi persyaratan untuk Admin Mayhem.
+Rekomendasi
+Simpan
+Eksekusi
+Edit
+Sedang berjalan
+Selesai
+Tereliminasi
+Bertahan
+Tereliminasi (medan)
+Bonus Admin Mayhem
+Admin di match ini
+Kamu menyelesaikan Bounty Hunt di match [ffe400]Admin Mayhem[-]
+Status Admin
+Invisible
+Tidak ada entitas dalam match. Admin dapat spectate pemain lain atau menggunakan Freecam.
+Visible
+Admin visible dan invincible saat match, dan dapat di-spectate
+Pilih titik pendaratan
+Masuk dengan
+Area
+Pilih area map
+Event
+Detail
+Target
+Edit
+Putar Ulang All
+Silakan ubah ke status terlihat terlebih dahulu
+Opsi Voting
+Opsi 1
+Opsi 2
+Masukkan opsi voting
+{0} berada di region yang berbeda dan tidak dapat bergabung dengan mode ini
+Pemain ini berada di region berbeda dan tidak dapat menerima hadiah
+Pemain lain telah meninggalkan Assemble
+[ffe400]{0} eliminasi di match terbaru[-]
+[ffe400]{0} membangunkan di match terakhir[-]
+[ffe400]{0} revive dalam match terbaru[-]
+Final Shot
+Box ini tidak bisa dibuka lagi
+Bawa Firefig ini selama [37e347]{0}[-] untuk mengeluarkannya dari pertandingan
+Firefig: Collectible rare. Bawa sebentar untuk mengeluarkannya dari match dan menambahkannya ke collection kamu.
+Mystery Box Tersisa: {0}
+Ambil {0} Firefig
+{0} mendapatkan [ffba00]{1}[-] Firefig
+Rekan tim menemukan Firefig
+Kamu tidak dapat memainkan map ini sekarang, tetapi map lain tersedia. Silakan hubungi Customer Service untuk info lebih lanjut.
+Room ini berisi pemain yang di-ban, gagal memulai match.
+AK47 - S39 Exclusive: Owl
+Kingfisher - Melon Ninja
+Cosmic Pulse
+AWM - Cosmic Pulse
+Material yang digunakan untuk evolve skin AWM. Dapatkan dari event atau beli langsung dari store.
+Cosmic Pulse Token
+Backpack - Cosmic Cloak
+Tas - 2026 FFWS Champions
+Backpack - Dino Barbecue
+Backpack - Lamp Monster
+Backpack - Moon Cake
+Backpack - Melon Scroll
+Backpack - Owl Steel
+Backpack - Scorpio Sting
+Backpack - Scorpio Strings
+Backpack - Valor Dolly
+Cosmic Overlord Banner
+CS-Ranked S39 Master Banner
+CS-Ranked S39 Heroic Banner
+CS-Ranked S40 Master Banner
+CS-Ranked S40 Heroic Banner
+Magma Fusion Banner
+Banner Kenta Baru
+Fruit Frenzy Banner
+Duty Hoots Banner
+BR-Ranked S54 Master Banner
+BR-Ranked S54 Heroic Banner
+Stellar Scorpions Banner
+Bat - S54 Exclusive: Scorpio
+Bat - Masked Fox
+Bat - Solar Valor
+M82B - S54 Exclusive: Scorpio
+Duty Hoots
+Stellar Scorpions
+Fruit Frenzy
+Cosmic Powershot
+Cosmic Vortex
+Firefig Showcase
+Serangan Api!
+Merangkak Keluar
+Tangisan Patah
+Tarian Lion
+Beast Pound
+Silent Sting
+Dorongan Tornado
+Kekuatan Aneh
+Turkey Balon
+Skorp - Mamba Gnow
+Skorp - Orion
+Final Shot - Dino Shot
+Cosmic Execution
+Fist - Cosmic Comet
+G36 - Bride's Revenge
+G36 - Owl Sheriff
+Gloo Wall - Cosmic Gaze
+Gloo Wall - Firework Wall
+Gloo Wall - Juara FFWS 2026
+Gloo Wall - Flameborn
+Gloo Wall - Danger Elevator
+Gloo Wall - Cheering Lion
+Gloo Wall - The Creation
+Gloo Wall - Melon Slice
+Gloo Wall - Beast Within
+Gloo Wall - Owl's Watch
+Gloo Wall - Masked Boutique
+Gloo Wall - MAMA
+Granat - Mr. Clown
+Grenade - Melon Blast
+Grenade - Owl Power
+Grenade - Badminton Owlie
+Grenade - Scorpio Shock
+Penguasa Kosmik
+Pertunjukan Horror
+Cosmic Overlord Avatar
+CS-Ranked S39 Master Avatar
+CS-Ranked S39 Heroic Avatar
+CS-Ranked S40 Master Avatar
+CS-Ranked S40 Heroic Avatar
+Magma Fusion Avatar
+Avatar Kenta Baru
+Bobblehead Kenta Baru
+Fruit Frenzy Avatar
+Duty Hoots Avatar
+BR-Ranked S54 Master Avatar
+BR-Ranked S54 Heroic Avatar
+Stellar Scorpions Avatar
+Katana - Cosmic Tear
+Katana - The Unseen
+Loot Box - Kitten in Box
+Loot Box - Firecracker Roll
+Loot Box - Twisted Twins
+Loot Box - Rabbit Lion Dance
+Loot Box - Pisang Ninja
+Loot Box - Banana Jutsu
+Loot Box - Tenda Owl
+Loot Box - Scorpio Record
+Loot Box - Storm Arena
+Loot Box - MAMA
+Loot Box - Solar Valor
+M1014 - Masked Fox
+Trogon - Kittensitter
+M1873 - Scorpio Sting
+M200 - Mambas Gnaw
+M200 - Morse
+M60 - Magma Fusion
+M7- Mamba Gnaw
+M7 - Rin
+Parang - Kittensitter
+Parang - Spinning Machete
+Parang - Scorpio Sting
+Parang - Turkey Drumstick
+AC80 - Masked Fox
+Unseen Claws
+MP5 - Storm Arena
+Storm Arena theme song
+Storm Δrena
+Menampilkan tekstur bulu berlapis dan efek pencahayaan difusi
+P90 - S40 Exclusive: Ninja
+Pan - S39 Exclusive: Owl
+Pan - Flameborn
+Pan - Storm Arena
+Parachute - The Unseen
+Parasut - S54 Exclusive: Scorpio
+Skin Pet: Beasty Fang
+RPK - Mamba Gnaw
+RPK - Steffie
+Hawk - Mamba Gnow
+Hawk - Skyler
+Scythe - Carved Menace
+Scythe - Magma Plume
+Scythe - Melon Ninja
+Skyboard - Cakar Terukir
+Skyboard - Academy Notecase
+Chubby Rabbit Skyboard
+Skyboard - Melon Kunai
+Skyboard - Owl Wings
+Skyboard - Scorpio Star
+TEC-9 - Mamba Gnaw
+TEC-9 - Dasha
+Dagger - S40 Exclusive: Ninja
+Dagger - Owl Sheriff
+USP-2 - Flame Dino
+Mini Uzi - Kittensitter
+Amphibian - S39 Exclusive: Owl
+Horse - Cosmic Guardian
+Horse - Owl Hoofs
+Jeep - King of Mirzapur
+Jeep - Axed Escape
+Jeep - Scorpio Wheels
+Monster Truck - Masked Getaway
+Monster Truck - Storm Voltage
+Motorbike - Turkey Turbo
+Pickup Truck - Melon Engine
+Tuk Tuk - S40 Exclusive: Ninja
+Buka untuk mendapatkan random gun skin (Trogon + Mini Uzi) dari set Kittensitter
+Kittensitter (Trogon + Mini Uzi) Weapon Loot Crate
+Buka untuk mendapatkan gun skin random (M60) dari set Magma Fusion
+Magma Fusion (M60) Weapon Loot Crate
+Buka untuk mendapatkan random gun skin (AC80 + M1014) dari set Masked Fox
+Masked Fox (AC80 + M1014) Weapon Loot Crate
+Teman setim AFK: Win Streak dipertahankan
+Bleeding Lebih Cepat
+Bleeding jauh lebih cepat setelah diknock down
+Throwable Gratis
+Grenades gratis di ronde tertentu
+Free Flash Freeze di ronde tertentu
+Free Dragon Freeze di ronde tertentu
+Gloo Melter gratis di ronde tertentu
+Flame Grenade gratis di ronde tertentu
+Sonar Grenade gratis di ronde tertentu
+Pisau ke Pisau
+Pistol di store digantikan oleh senjata melee
+Tidak ada Med Kit
+Tidak ada Med Kit. Zona pemulihan akan muncul di peta.
+Tidak ada Med Kit
+Pistol & Sniper
+Skill untuk Dijual
+Toko Spesial
+Item Spesial akan muncul di toko
+Skill Card akan muncul di Store
+Hanya pistols dan sniper rifles di toko
+Log in dengan email
+Untuk keamanan akun yang lebih baik, email login dan email pemulihan kamu sebaiknya berbeda satu sama lain.
+Pemain Emulator
+Opsi registrasi ini tidak tersedia untuk sementara. Silakan coba metode lain.
+Cosmic Empress Bundle
+Kittenlover Bundle
+Magma Phoenix Bundle
+Firesaur Bundle
+Academy Cutie Bundle
+Crimson Glitches Bundle
+Banana Ninja Bundle
+Lioness Instinct Bundle
+Owl Ranger Bundle
+Scorpio Venom Bundle
+Masked Rabbit Bundle
+Phantom Bride Bundle
+Lunar Valor Bundle
+Cloaked Terror Bundle
+Cosmic Overlord Bundle
+Red Bull Bundle
+Kittensitter Bundle
+Magma Fusion Bundle
+Infernosaur Bundle
+Academy Influencer Bundle
+Hollow Man Bundle
+Red Slicker Bundle
+Melon Ninja Bundle
+Lion Instinct Bundle
+Owl Sheriff Bundle
+Scorpio Sting Bundle
+Masked Fox Bundle
+Phantom Desperado Bundle
+MAMA Bundle
+Solar Valor Bundle
+{0} download selesai. Main sekarang?
+Kami menemukan map yang mungkin kamu suka. Download resources sebelum bermain.
+Temukan lebih banyak map Craftland yang seru!
+Rekomendasi untukmu: {0} total pemain, {1}% rating positif.
+Pergi ke map resmi? Kamu bisa kembali ke Craftland kapan saja.
+Berhenti memainkan map Craftland ini untuk sementara? [u]Ke map official>>[/u]
+Berhenti memainkan map Craftland ini untuk sekarang?
+Pergi ke map official
+Bond of Eclipse (Ray)
+Jika kamu menyukai sebuah map, berlanggananlah agar tidak ketinggalan update!
+Ikuti kreator yang kamu suka dan temukan lebih banyak map buatan mereka.
+Share map menarik dengan temanmu dan bermain bersama!
+Beri rating atau feedback setelah memainkan map untuk dilihat pemain lain.
+Craftland menghadirkan kumpulan map yang dibuat oleh pemain, dan setiap map menawarkan pengalaman gameplay yang unik.
+Di Craftland, kamu dapat menemukan, memainkan, dan membagikan map yang dibuat oleh pemain lain.
+Di Craftland, kamu bisa menemukan map populer, dan juga map dengan gameplay kreatif.
+Admin Memanggil Lightning Strike
+[ffe400]Semua orang[-] Terpengaruh oleh Serangan Petir
+Admin Memanggil Serangan Petir Padamu
+Bounty Dimulai
+Rekan tim [ffe400]bertahan[-]. Tim kamu bisa membagikan{0}.
+[ffe400]{0}[-] tereliminasi. Misi perburuan gagal.
+Waktu habis! Misi perburuan gagal.
+Survive untuk Mendapatkan Hadiah
+Lindungi Teman setim untuk Mendapatkan Hadiah
+Share {0} ke Rekan tim
+Bertarung untuk bertahan!
+Eliminasi target untuk hadiah
+Eliminasi [ffe400]{0}[-] untuk membagikan{1}
+Kamu adalah target sekarang. Tetap hidup untuk membagikan {0} dengan rekan tim kamu!
+Jaga Rekan tim [ffe400]{0}[-] tetap hidup untuk membagikan{1} dengan mereka
+Perburuan Selesai
+Diselesaikan oleh {0}
+Kamu [ffe400]bertahan[-]. Team kamu bisa membagikan{0}.
+Kamu tereliminasi. Misi perburuan gagal.
+Buff Diberikan Admin
+[ffe400]Semua Orang[-] Mendapat Buff
+Admin Memberimu Buff
+Perburuan Admin Dimulai
+Admin Tereliminasi
+Admin Memberikan Item
+[ffe400]Semua orang[-] Mendapatkan Item
+Admin Memberikanmu Item
+Admin Memberikan Hadiah
+[ffe400]Semua orang[-] Mendapat Hadiah
+Admin Memberi Kamu {0}
+Admin Memberikan Transformasi
+[ffe400]Semua orang[-] Berubah
+Admin Mengubah Kamu
+Admin Memulai Poll
+Apa selanjutnya? Semua terserah kamu!
+[ffe400]{0}[-] memenangkan vote
+Admin Sekarang dalam Match
+{0} Sedang dalam Match
+Tidak ada Rank Point yang akan dikurangi. Nikmati bonusnya dan bertempur dengan gaya!
+Backpack diperbarui. Perubahan akan berlaku setelah kamu keluar dari mode edit.
+Semua
+Kualitas
+Ukuran
+Waktu Diperoleh
+Firefig Besar tidak dapat ditempatkan.
+Legendary Firefigs tidak bisa diberikan atau ditukar
+Firefig ditambahkan ke koleksimu
+Value
+Katalog Firefig
+Lakukan Firefig untuk membuka entri Katalog-nya.
+Setiap Firefig yang dikeluarkan dari sebuah match memberikan Nilai Katalog berdasarkan tipenya
+Carry-Out Pertama memberikan
+Buka Kunci Katalog
+Drop waktu terbatas tersedia selama {0}
+Firefig Umum
+Edit
+Editan belum disimpan. Buang perubahan?
+Pilih Firefig untuk Ditampilkan
+Tampilan
+Buka emote secara gratis
+Pergi ke Firefig
+Gunakan di Emote
+Pergi
+Firefig Display Emote dibuka
+Firefig
+Carry-Out Value Pertama
+Pertama kali
+Tanggal:
+Info Carry-Out Pertama
+Lokasi:
+Rekan tim:
+{0} didapatkan di {1}
+Konfirmasi untuk memberikan Firefig ini?
+Tidak cukup dimiliki. Tidak bisa memberi hadiah.
+Pilih teman
+Hadiah terkirim
+Kode Region
+Mendapatkannya untuk pertama kali memberikan Catalog Value
+{0} Firefigs tersedia sebagai drop waktu terbatas
+Waktu Terbatas Firefig
+Sedang Drop
+{0} masih dikunci
+Firefig baru diperoleh
+Kode Region Unik: Nomor {1} di {0}
+Batas penempatan telah tercapai.
+Preview
+Tidak ada set Firefig untuk ditampilkan
+Progres
+Legendary
+Mythic
+Firefig Collection
+Peraturan Firefig
+Gagal menyimpan
+Besar
+Pengujian sistem Firefig telah berakhir. Mohon ditunggu!
+Drop Waktu Terbatas
+Nilai Total
+Terima Trade
+Trade Firefig
+Firefigs akan ditukar setelah konfirmasi
+Trade berhasil
+Trade Kedaluwarsa
+Firefig ini tidak bisa ditukar sekarang
+Pilih Firefig
+Kunjungi Collection
+Scan untuk gabung tim
+Bergabung dengan tim {0} dan top up untuk hadiah bersama!
+Pencapaian
+Belum Ada Pencapaian
+Pencapaian x{0}
+Play to Earn Pencapaian
+≥{0}
+Kau masih dalam pertarungan! Storm Arena mulai memperhatikan. Terus maju!
+Terbuka saat Storm Reputation mencapai {0}
+Buka semua milestone event untuk melihat persyaratan
+DMG
+Streak 2 eliminasi di ronde mana pun
+3 eliminasi streak di ronde mana pun
+Streak 4 eliminasi di ronde mana pun
+Streak 5 eliminasi di ronde mana pun
+Eliminasi 2 atau lebih pemain secara beruntun dengan senjata melee di ronde apapun
+Ikuti event Storm Arena dan dapatkan berbagai hadiah!
+Storm Arena
+Pilih klub
+Pilih pose
+Elims
+Kau di sana, membuat gejolak di Storm Arena! Ayo lihat seberapa jauh kau bisa melangkah!
+Main match secara aktif untuk mendapatkan hadiah Storm Reputation!
+Tingkatkan Storm Reputation-mu untuk membuka Player Cards tier yang lebih tinggi dan hadiah langka!
+Headshots
+Bantuan
+1. Mainkan BR-Rank dan CS-Rank selama event untuk mendapatkan Storm Reputation berdasarkan performamu.\n2. Tingkatkan Storm Reputation untuk mengklaim hadiah gratis dan meningkatkan frame Battle Card.\n3. Setelah membuka semua milestone progres, terus tingkatkan Storm Reputation untuk membuka frame Battle Card spesial.\n4. Edit Player Card dengan pose dan gambar klub favoritmu. Selama event, kamu juga dapat mengatur Player Card sebagai Battle Card untuk memamerkannya kepada pemain lain.\n5. Dukung teman-temanmu dengan memberikan Like kepada mereka di Feed.
+Peraturan
+Hadiah Gratis!
+Storm Arena
+Achievement Event
+Berhasil mendaftar
+Big Time
+Masuki Badai
+Mainkan Rank match untuk mendapatkan Storm Reputation!
+Cosmic Bundles
+EVO AWM
+Menangkan Hadiah Gratis!
+Event
+Pertama Kali
+Berita
+Highlight Event
+Medal
+Gold Medal
+Silver Medal
+Peak Time
+Top Play
+Prime Time
+Reputasi Storm
+Reputasi
+Atur sebagai Battle Card
+Show Time
+Detail Stats
+Arena Badai
+Ikhtisar Stats
+FFWS GF
+Match Dimainkan:  [ffba00]{0}[-]
+Luar biasa! Dari semua orang di Storm Arena, kamu sudah sampai sejauh ini. Satu dorongan terakhir menuju glory!
+Semua mata tertuju ke panggung utama. Storm Arena akan mengingat namamu. INI... ADALAH PRIME TIME!
+Lihat itu! Lampu menyala, kerumunan menonton, dan saatnya memberi mereka pertunjukan!
+History
+Menangkan pertandingan, ambil panggung, dan nikmati momenmu di spotlight! Apakah kamu siap?
+Hadiah Tahunan
+Main rank untuk mendapatkan Rank Pack dan mengejar Hadiah Tahunan!
+Hadiah Tahunan yang terlewat di bulan-bulan sebelumnya
+Mainkan ranked untuk mendapatkan Rank Pack
+Buka Rank Pack untuk memenangkan kembali Hadiah Tahunan
+Melewatkan Hadiah Tahunan?
+Peluang untuk Hadiah Tahunan: [FFBA00]{0}[-], Hadiah Tahunan dijamin didapat dalam [FFBA00]{1}[-] Rank Pack
+Hadiah Tahunan berikutnya di-refresh dalam {0}
+Belum diperoleh
+Terbuka x{0}
+[FFBA00]Hadiah Lainnya[-]
+Preview Hadiah
+Diperoleh [FFBA00]{0}[-]/{1}
+Mendapatkan Rank Pack x{0}
+{0}/{1} menit
+Main [FFBA00]{0}[-] menit lagi untuk mendapatkan yang selanjutnya
+Capai waktu permainan untuk [x0.n][S0][-]
+Refresh [x0.n][S0][-] dalam
+Dapatkan 1 secara random
+Hadiah diupdate
+1. Selesaikan pertandingan BR-Ranked/CS-Ranked untuk menambah waktu bermain yang valid dan dapatkan hingga [FFBA00]{0}[-] Rank Pack setiap minggu, maksimal [FFBA00]{1}[-] secara total. Rank Pack juga bisa didapatkan dengan mencapai rank target.\n2.Buka Rank Pack untuk menerima hadiah di dalamnya, dengan peluang memenangkan Annual Prize yang tidak berulang (maksimal 12 per tahun). Satu Annual Prize akan didrop secara acak setiap bulan dan bisa disimpan. Diperbarui pada pukul 4:00 AM di hari pertama setiap bulan.\nEvent ini berakhir pada 2026-12-31 23:59:00.
+Paket Rank
+Progress Rank Pack lebih cepat
+Jumlah Mingguan: {0}/{1}
+Peluang lebih tinggi untuk Hadiah Tahunan!
+Garden Pack
+Garden Pack, buka untuk mendapatkan tool untuk membangun tamanmu.
+Map ini memiliki fitur komersial yang diaktifkan dan tidak dapat dihapus atau diambil offline. Silakan hubungi staf resmi.
+Akun Banned
+Benefit Creator dibanned, tidak bisa masuk Craftland Studio.
+Anda memiliki map komersial di akun Anda. Mohon urus terlebih dahulu sebelum menghapus akun Anda.
+Akun dibanned. Tidak dapat menggunakan Creator Center.
+Map ini locked, tidak dapat diupdate atau dijadikan offline.
+Anda masih memiliki pesanan top-up aktif yang sedang diproses. Apakah Anda yakin ingin melanjutkan top-up?
+Match telah selesai. Mohon pergi ke lobby dan konfirmasi info top-up.
+Status komersial map sekarang telah berubah, tidak dapat dibeli saat ini.
+Status produk telah diperbarui. Silakan buka ulang toko.
+Silakan buka [Download Center] untuk memeriksa resources map, dan restart the game.
+Jumlah pembelian.
+Mainkan Getaran Kamera Custom
+Atur guncangan kamera .
+Offset Sumbu
+Offset sumbu X/Y/Z.
+Amplitudo
+Amplitudo getaran.
+Frekuensi
+Frekuensi getaran.
+Muncul Perlahan
+Waktu fade in. Unit: ms.
+Memudar
+Waktu fade out. Unit: ms.
+Durasi Ms
+Durasi guncangan. Unit: ms.
+Download Map Resource
+Minta klien saat ini untuk download Craftland map resources yang ditentukan.
+Kode map dari map Craftland yang unduhan sumber daya.
+eriksa Status Unduhan Resource Map
+Periksa status sumber daya map lokal pada klien saat ini dan kembalikan status download, progress, dan cek status code.
+Map code dari map yang membutuhkan pengecekan status sumber daya
+Download Status
+Status download sumber daya map lokal dari klien saat ini.
+Progress
+Progres unduhan klien saat ini, berkisar dari 0 - 100.
+Periksa kode status yang dikembalikan oleh panggilan API.
+Periksa UI Hit
+Periksa apakah UI bawaan default, UI kustom Craftland, atau UI bawaan Craftland ada pada koordinat unit UI yang ditentukan.
+Koordinat unit UI yang akan dideteksi.
+String To Big Float
+Uraikan string menjadi Float besar, mempertahankan setidaknya 15 angka desimal signifikan dan mempertahankan tandanya; mendukung kontrol parameter notasi ilmiah, pemisah koma, dan akhiran singkatan K, M, B, T, Qa; mengembalikan nil untuk masukan tidak valid.
+String yang akan diurai.
+Izinkan Scientific Notation
+Apakah akan mengizinkan notasi ilmiah. Jika diizinkan, e dan E dapat digunakan sebagai penanda eksponen.
+Izinkan Pemisah
+Apakah akan mengizinkan koma sebagai pemisah numerik.
+Izinkan Suffix
+Apakah memperbolehkan singkatan seperti K, M, B, T, Qa sebagai akhiran.
+Atur Jumlah Scroll
+Atur jumlah scroll vertikal atau horizontal untuk scroll view.
+Arah scroll.
+Scroll value.
+Reset Posisi Scroll View
+Reset posisi tampilan scroll.
+Ambil Emote Lokal yang Sudah Dimiliki
+dapatkan daftar semua ID Emote yang dimiliki akun pemain lokal; hanya di sisi client, dibaca secara sinkron dari cache Backpack lokal.
+Dapatkan Pakaian Lokal yang Sudah Dimiliki
+dapatkan daftar semua ID Outfit yang dimiliki oleh akun pemain lokal; implementasi khusus client, dibaca secara sinkron dari cache Backpack lokal.
+Dapatkan Skin Kendaraan Lokal yang Dimiliki
+Dapatkan daftar semua ID Skin Kendaraan yang dimiliki oleh akun pemain lokal; hanya di sisi Client, dibaca secara sinkron dari cache Backpack lokal.
+Dapatkan Skin Senjata Lokal yang Sudah di miliki
+dapatkan daftar semua ID Skin Senjata yang dimiliki oleh akun pemain lokal; implementasi khusus client, membaca secara sinkron dari cache Backpack lokal.
+Dapatkan Skin Backpack Lokal yang Dimiliki
+dapatkan daftar semua ID BackpackSkin yang dimiliki oleh akun pemain lokal; implementasi khusus client, dibaca secara sinkron dari cache Backpack lokal.
+Baca Cell CSV Melalui Nama Dari Server
+Baca konten cell yang berkorelasi dengan baris dan nama kolom yang ditentukan di dalam file CSV pada server.
+Nama file CSV server.
+Indeks baris untuk dibaca.
+Nama kolom untuk dibaca.
+Baca Row CSV melalui Key dari Server
+Di dalam file CSV pada server, temukan baris pertama di mana nilai kolom kunci sama dengan kunci, dan kembalikan seluruh konten baris.
+Key Column
+Indeks kolom yang digunakan untuk mencocokkan nilai target.
+Key
+Nilai target yang akan dicocokkan.
+Nama Kolom CSV Untuk Int
+Konversi nama kolom file CSV server menjadi indeks kolom.
+Nama kolom untuk dikonversi menjadi indeks kolom.
+Refresh Easy Daftar
+Refresh seluruh cell Easy List. Saat Reset Scroll bernilai true, reset posisi scroll; saat Reset Scroll bernilai false, coba pertahankan posisi scroll saat ini.
+Daftar Easy List.
+Reset Scroll
+Apakah akan mereset posisi scroll saat refresh.
+Dapatkan Cell
+Dapatkan Cell yang terlihat yang saat ini sesuai dengan Data Index yang ditentukan; kembalikan kosong atau tidak valid jika target tidak terlihat atau index tidak valid.
+Data Index
+Indeks item data tertentu dalam daftar data.
+Scroll Ke Data Index
+Segera scroll ke posisi data yang ditentukan; saat scroll ke Data pertama atau terakhir, harus dapat memposisikan ke atas atau bawah.
+Scroll posisi offset.
+Batasi
+Menentukan apakah posisi scroll akan dibatasi pada rentang yang valid.
+Pilih Data
+Pilih Cell yang sesuai dengan index data yang ditentukan. Jika target tidak terlihat, apakah akan di-scroll ke sana ditentukan oleh scroll To Item.
+Scroll ke Item
+Apakah scroll ke item data ini ketika target tidak terlihat.
+Batalkan Pilihan Data
+Batalkan status terpilih dari cell yang sesuai dengan index data yang ditentukan.
+Hapus Pilihan
+Hapus status terpilih dari Easy List saat ini
+Dapatkan Index Data Terpilih
+Dapatkan index data yang saat ini dipilih. Pertahankan nama aslinya, Get Selected Data Indexes. Jika tidak ada yang dipilih, kembalikan daftar bilangan bulat yang berisi -1.
+Dapatkan Range Data Terlihat
+Dapatkan rentang data yang sedang terlihat, dari firstIndex hingga lastIndex.
+Data Terlihat
+Tentukan apakah indeks data yang ditentukan berada dalam jarak yang terlihat saat ini.
+Buka Wardrobe In-Match
+Tampilkan Wardrobe saat Match
+Permintaan Pengajuan Phase Hasil Status Kode
+Tutup Wardrobe In-Match
+Tutup Wardrobe saat Match
+Ubah Pakaian Wardrobe Tambahan
+Ubah Outfit Wardrobe Tambahan
+Outfits
+Daftar Outfit
+Tipe Urut
+Tipe pengurutan.
+Periksa Status Unduhan Resource Wardrobe
+Periksa status unduhan resource yang terkait dengan daftar ID outfit yang ditentukan.
+Tampilkan Chat HUD
+Tampilkan Chat HUD
+Periksa Status Produk
+Periksa status produk.
+Status Produk
+Status produk.
+Buat UI Widget Dari Prefab
+Di bawah UI kustom dan komponen parent yang ditentukan, buat control tree lengkap berdasarkan ID prefab UI, dan keluarkan UIWidget root yang dibuat.
+Entitas yang Dibuat
+Nama parameter di kode yang digunakan untuk merepresentasikan entitas UIWidget root yang baru dibuat, yang nilai variabel lokalnya adalah entitas kontrol root yang dibuat.
+ID Prefab
+ID Prefab UI digunakan untuk membuat UIWidget control tree.
+UI
+Entitas UI khusus yang menampung control tree baru.
+Parent Widget
+UI Widget parent tempat kontrol root baru dipasang; jika kosong, pasangkan ke node root dari UI kustom yang ditentukan.
+Pause Animasi
+Pause playback kontroler animasi berdasarkan bagian tubuh.
+Lanjutkan Animasi
+Lanjutkan playback kontroler animasi berdasarkan bagian tubuh.
+Reset Animasi
+Reset progress main animasi bagian tubuh yang sesuai.
+Hentikan Animasi
+Hentikan playback kontroler animasi berdasarkan bagian tubuh. Secara umum, ketika tidak ada animasi yang diputar di bagian tubuh, ia akan mencoba memutar Animasi Idle.
+Entitas dengan kontroler animasi terpasang
+Index bagian badan, yang merupakan nomor index bagian badan dalam file BPC.
+Hentikan Klip Animasi Karakter
+Stop klip animasi karakter.
+Pause Klip Animasi Karakter
+Pause klip animasi karakter.
+Lanjutkan Klip Animasi Karakter
+Lanjutkan klip animasi karakter.
+Reset Klip Animasi Karakter
+Reset klip animasi karakter.
+Sembunyikan Chat HUD
+Sembunyikan Chat HUD
+Dapatkan total memori
+dapatkan penggunaan memori yang dialokasikan klien saat ini (unit: MB).
+Overhead memori yang dialokasikan saat ini (unit: MB).
+Tampilkan Chat HUD
+Tampilkan Chat HUD
+Saat Wardrobe Dalam Match Ditutup
+Aktif In-Match Wardrobe Ditutup
+Saat Pemain Confirm Outfit Wardrobe
+Trigger ketika pemain mengonfirmasi untuk mengganti outfit di wardrobe.
+Saat pemain mengklik entri outfit
+Terpicu ketika pemain tap outfit item, dan mengembalikan tipe entri serta daftar ID outfit yang sesuai.
+Saat Menerima Hasil Download Resource Wardrobe
+Triggers saat download selesai atau gagal, dan mengembalikan tipe entri, daftar ID outfit , dan hasil download.
+Kode status download resource
+Saat Menerima Pesan Chat
+Event menerima pesan chat.
+Saat Chat HUD Dibuka
+Event pembukaan HUD chat.
+Saat Chat Hud Ditutup
+Event penutupan HUD chat.
+Map code dari map yang status downloadnya berubah.
+Status download map sekarang.
+Kode error yang sesuai dengan perubahan status. Jika status berhasil atau downloading, akan menampilkan Tidak ada error.
+Saat Tick Visual Akhir
+Dipanggil selama fase visual Tick yang didorong oleh Unity Late Update, digunakan untuk kamera mengikuti dan logika presentasi sisi klien murni lainnya.
+Saat Cell Bind
+Triggers saat sel widget UI mengikat atau mengikat ulang dengan data yang terlihat.
+Konten Data
+Data yang terikat pada cell saat ini.
+Pada Cell Ditekan
+Dipicu saat pemain mengklik cell yang valid.
+Cell
+Widget sel yang dapat digunakan kembali yang diklik pemain
+Cell Index
+Indeks sel yang dapat digunakan kembali saat ini.
+Saat Cell Dipilih
+Trigger saat status cell berubah menjadi terpilih.
+Saat Cell Tidak Dipilih
+Trigger saat status cell berubah menjadi tidak terpilih.
+Kontrol grid-cell yang dapat digunakan kembali yang status seleksinya telah berubah.
+Pada Cell Batalkan Pilih
+Trigger ketika sel yang dipilih diklik lagi, memicu perilaku pembatalan pilihan.
+Widget sel yang dapat digunakan kembali yang memicu semantik pembatalan pilihan.
+Saat Perubahan Data Range Terlihat
+Trigger saat data index pertama atau terakhir dari rentang data yang terlihat berubah, untuk menghindari pengiriman redundan saat tidak ada perubahan.
+Indeks Data Pertama
+Indeks daftar data pertama dalam rentang data yang sedang terlihat.
+Index Data Terakhir
+Indeks daftar data terakhir dalam rentang data yang sedang terlihat.
+On Logic Tick
+Dipanggil setiap kali jam logika UGC independen bergerak maju. Setiap pemanggilan memiliki hubungan satu per satu dengan Pre Tick dan Post Tick dalam frame logika yang sama.
+Filter entity dengan komponen Filter Dasar
+Skala Kecepatan Sudut Jatuh
+Skala kecepatan belok pemain saat melompat atau jatuh, nilai default adalah 1.
+Skala Kecepatan Sudut Lari
+Skala kecepatan memutar pemain saat berdiri atau berlari, nilai default adalah 1.
+Skala Kecepatan Sudut Jongkok
+Skala kecepatan memutar pemain saat jongkok, nilai default adalah 1.
+Skala Kecepatan Sudut Tiarap
+Skala kecepatan memutar pemain saat tiarap, nilai default adalah 1.
+Skala Kecepatan Sudut Knock Down
+Skala kecepatan belok pemain saat dirobohkan, nilai default adalah 1.
+Sensitivitas Kamera
+Sensitivitas kamera umum lokal klien saat ini. Hanya berlaku untuk ronde saat ini; tidak disinkronkan dengan server.
+ID Karakter
+ID dari character yang dipilih pemain saat memasuki match.
+Kecepatan aktual terkini pemain
+UI Skenario Adalah Billboard
+Properti ini berlaku saat properti In Scene UI adalah Benar. Ini menunjukkan apakah skenario ini selalu menghadap kamera.
+Ikuti Posisi Global
+Setelah properti ini diatur menjadi True, posisi UI di layar diturunkan dengan memetakan nilai properti Posisi Global ke bidang 2D. Catatan: Properti ini saling eksklusif dengan Dalam scene, tetapi keduanya menggunakan properti Posisi Global.
+Matchmaking Download dibatalkan
+In-game Matchmaking Batalkan Download
+Map Resource Tidak Ditemukan
+mapCode yang ditentukan tidak memiliki sumber daya yang dapat di-download, atau index sumber daya tidak dapat diparse.
+Target  Map Resource Tidak Tersedia
+Klien saat ini belum siap, atau modul download tidak dapat menerima permintaan.
+Akses Map Resource Ditolak
+Region, review, whitelist, status rilis, atau izin akses tidak terpenuhi.
+Map Resource Sibuk
+Sistem sedang sibuk, antrian download penuh, atau modul download tidak tersedia untuk sementara
+Download Map Resource  Gagal
+Setelah permintaan dimulai, tahap download, simpan, atau transfer gagal.
+Verifikasi Map Resource Gagal
+Setelah download selesai, file lokal hilang, rusak, atau verifikasi gagal.
+Map Resource Network Dibatasi
+Tidak ada WiFi, jaringan lemah, tidak ada jaringan, atau auto-download dilarang oleh kebijakan download yang ada.
+Wardrobe Resource download Tidak diketahui
+Tidak dapat mendapatkan status download dari resource pakaian yang ditentukan.
+Wardrobe Resource Siap untuk di-Download
+Sumber daya pakaian yang ditentukan belum didownload dan dapat mulai download sekarang.
+Sedang download Wardrobe Resource
+Mengunduh sumber daya pakaian yang ditentukan.
+Download Wardrobe Resource Pending
+Sumber daya pakaian yang ditentukan menunggu untuk diunduh.
+Download Wardrobe Resource di-pause
+Download dijeda untuk resources pakaian yang ditentukan.
+Download Wardrobe Resource Selesai
+Download selesai untuk sumber daya pakaian yang ditentukan.
+Hanya Renderer
+Hanya renderer yang disediakan; setelah diaktifkan, tidak dapat mengatur partikel secara dinamis, tetapi menawarkan performa yang lebih baik.
+Tipe Filter Pasca-Proses
+Terapkan hanya kecerahan/saturasi/kontras yang dibagikan.
+Comic book style.
+Sketch style.
+Pixel style.
+RGB split style.
+Warm Golen Era style.
+Cyberpunk glitch style.
+Bagian universal dari properti filter yang membawa tipe filter dan parameter kecerahan/saturasi/kontras global.
+Tipe filter yang sedang aktif.
+Brightness
+Kecerahan Universal
+Saturasi
+Saturasi Universal
+Kontras
+Kontras Universal
+Set parameter filter buku komik.
+Ambang Batas
+Batasan Binarisasi.
+Rentang batasan.
+Kecepatan Flash
+Kecepatan flash.
+Intensitas Line
+Intensitas garis tersebut.
+Ukuran Line
+Ukuran dari line.
+Set parameter filter Sketch.
+Ukuran Pencil
+Ukuran dari pensil.
+Pencil Correction
+Koreksi dari pensil.
+Pencil Color
+Warna pensil.
+Paper Color
+Warna kertas.
+Corner Lose
+Corner loss.
+Texture Kertas
+Tekstur kertas. Jika kosong, gunakan tekstur bawaan.
+Parameter filter pixel diatur.
+Pixelisation
+Intensity of the pixelization.
+Offset Color
+Color offset.
+Set parameter RGB split.
+Offset Split
+Offset RGB split.
+Golden Era filter parameter set.
+Intensitas
+Intensitas filter Golden Era.
+Warmth
+Warmth intensity.
+Set parameter filter Cyberpunk
+Edge Intensity
+Intensitas Edge
+Edge Size
+Ukuran dari edge.
+Edge Sensitivity
+Sensitivitas edge.
+Interval Glitch
+Interval trigger glitch.
+Durasi Glitch
+Durasi glitch.
+Edge Color 1
+Edge color 1 (HDR)
+Edge Color 2
+Edge color 2 (HDR)
+Tekstur Edge Noise
+Edge noise texture. Jika kosong, gunakan tekstur default.
+Tipe Sumber Jarak
+Tipe sumber Jarak, digunakan untuk memilih obyek referensi untuk perhitungan jarak.
+Kamera Pemain
+Hitung berdasarkan jarak kamera pemain
+Karakter Pemain
+Hitung berdasarkan jarak karakter pemain.
+Entitas Kustom
+Dihitung berdasarkan jarak dari entitas yang ditentukan.
+Jarak Space Type
+Tipe ruang jarak, digunakan untuk memilih apakah perhitungan jarak menggunakan world space 3D, bidang horizontal XZ, atau screen space.
+3D World
+Gunakan jarak dalam world space 3D.
+Horizontal XZ
+Gunakan jarak XZ horizontal, mengabaikan perbedaan tinggi; cocok untuk penanda map.
+Screen Space
+Gunakan jarak ruang layar; hanya berlaku saat Sumber jarak = Kamera Pemain.
+Distance Visibility
+Mengontrol otomatis visibility, kegelapan, skala, dan batas ukuran layar dari Entitas Teks, Entitas Ikon, dan UI Kustom berdasarkan jarak antara kamera pemain, Avatar pemain, atau Entitas yang ditentukan dan target.
+Distance Source
+Pilih objek referensi untuk perhitungan jarak. Player Camera menggunakan posisi kamera pemain, Player Character menggunakan posisi Avatar pemain, dan Custom Entity menggunakan posisi Source Entity kustom.
+Custom Source Entity
+Entitas referensi yang digunakan untuk menghitung jarak ketika sumber jarak = Entitas Kustom.
+Ukuran Layar Maks
+Batas atas untuk ukuran layar; x/y menunjukkan rasio layar. Rentang yang disarankan: 0.0 - 1.0.
+Jarak Space
+Pilih space untuk perhitungan jarak. World3D menghitung jarak 3D, Horizontal XZ menghitung jarak bidang XZ, dan Screen Space hanya berlaku saat Sumber jarak = Player Camera.
+Jarak Fade Start
+Jarak awal untuk pengambilan sampel ternormalisasi jarak dari kurva fade dan kurva skala.
+Jarak Fade End
+Jarak akhir untuk pengambilan sampel ternormalisasi jarak pada kurva fade dan kurva skala.
+Fade Curve
+Kurva transparansi yang disample menggunakan jarak yang dinormalisasi.
+Hide Threshold
+Ketika kegelapan berada di bawah batasan ini, sembunyikan Entity atau hentikan rendering; jika tidak, terapkan kegelapan, ketajaman, dan skala.
+Skala Kurva
+Kurva skala disample berdasarkan jarak yang dinormalisasi.
+Ukuran Layar Clamp
+Apakah akan menetapkan batas ukuran untuk mengonversi UI 3D ke ruang layar, membatasi ukuran layar melalui min Screen Size dan max Screen Size.
+Ukuran Layar Min
+Ukuran layar minimum, x/y menunjukkan rasio layar. Rentang yang disarankan: 0.0 - 1.0.
+Arah Scroll
+Enum arah scroll.
+Vertikal
+Vertikal
+Horizontal
+Horizontal
+Daftar ID Klip Animasi
+Daftar ID Klip Animasi, digunakan untuk mengembalikan ID Klip Animasi / ID item Emote yang sesuai untuk setiap Emote yang dimiliki akun pemain.
+Daftar ID Outfit
+Daftar ID outfit, digunakan untuk mengembalikan ID pakaian yang dimiliki oleh akun pemain.
+Daftar ID Skin Kendaraan
+Daftar ID skin kendaraan, digunakan untuk mengembalikan ID skin kendaraan yang dimiliki oleh akun pemain.
+Daftar ID Skin Senjata
+Daftar ID Skin Senjata digunakan untuk mengembalikan ID Skin Senjata yang dimiliki oleh akun pemain.
+Daftar ID Skin Backpack
+Daftar ID Skin Backpack, digunakan untuk mengembalikan ID Skin Backpack yang dimiliki oleh akun pemain.
+Resource ID
+Daftar HUD Mudah
+Komponen daftar virtualisasi performa tinggi yang hanya membuat sel yang terlihat dan menggunakannya kembali, cocok untuk menampilkan data dalam jumlah besar di dalam daftar.
+Arah tata letak Cell (Horizontal/Vertikal).
+Ukuran cell.
+Daftar Data
+Daftar menampilkan sumber data, hanya penyimpanan sisi klien.
+Jarak antar-cell.
+Tipe pembatasan layout.
+Jumlah cell di setiap baris/kolom.
+Offset vertikal dari kontainer.
+Offset horizontal dari kontainer.
+Cell Prefab
+Aset prefab Cell; saat runtime, kloning instansi cell sesuai dengan template ini.
+Extra Cache Line Count
+Jumlah baris sel tambahan yang di-cache di luar viewport.
+Izinkan Beberapa Pilihan
+Apakah mengizinkan memilih beberapa sel secara bersamaan.
+Tambahan  Tipe Sort Pakaian Wardrobe
+Ubah Outfit Wardrobe Tambahan: Depan, belakang, Default
+Tambah di Awal
+Tambahkan di depan.
+Menambahkan
+Tambahkan ke akhir.
+Default
+UI Widget Easy Cell
+Komponen adaptasi eksplisit yang dilampirkan ke prefab Easy List Cell, digunakan untuk menentukan tombol kontrol interaksi klik dari Cell ini.
+Tombol Pemicu
+Sebuah tombol kontrol di Cell yang menerima klik dan meneruskan semantik klik/pilih/batalkan pilihan cell Easy List.
+Status Produk
+Status produk enum
+Tidak Ditemukan
+Produk tidak ditemukan
+Offline
+Produk sedang offline
+Pre Online
+Produk belum online.
+Online
+Produk sedang online.
+Aktifkan Penimpaan Penampilan
+Aktifkan penimpaan penampilan senjata kustom. Saat dinonaktifkan, senjata dasar atau penampilan default akan digunakan.
+Nama Tampilan
+Nama tampilan toko, tas, dan eliminasi.
+First Person Model
+Aset First-person model. Jika kosong atau tidak valid, kembali ke First-person model senjata dasar.
+Third Person Model
+Sumber daya model handheld orang ketiga. Beralih ke model handheld orang ketiga senjata dasar saat kosong atau tidak valid.
+Model Belakang
+Aset model belakang. Jika kosong atau tidak valid, kembali ke model belakang senjata dasar.
+Model Pickup
+Aset model pickup di tanah. Beralih ke model pickup di tanah senjata dasar saat kosong atau invalid.
+Icon Tas
+Aset ikon senjata untuk antarmuka Backpack dan terkait pickup. Jika kosong, kembali ke ikon Backpack atau pickup senjata dasar.
+Slot Icon
+Aset icon untuk slot senjata HUD dan interface ganti senjata. Jika kosong, kembali ke icon slot senjata dasar.
+Ikon Eliminasi
+Aset ikon senjata untuk pengumuman eliminasi. Jika kosong, kembali ke ikon senjata eliminasi dasar.
+ID Audio Firing
+Aset efek suara tembakan. Jika kosong, kembali ke efek suara tembakan dasar.
+ID Audio Klip Masuk
+Aset SFX penyisipan magazine. Saat kosong, kembali ke SFX penyisipan magazine senjata dasar.
+ID Audio Clip Out
+Aset efek suara pelepasan Magazine. Saat kosong, kembali ke efek suara pelepasan Magazine senjata dasar.
+Ganti ID Audio Senjata
+Aset efek suara ganti senjata. Jika kosong, kembali ke efek suara ganti senjata dasar.
+Bullet Trail Material
+Aset jejak peluru. Menggantikan visual efek jejak peluru default saat konfigurasi valid.
+Efek Firing
+Aset efek firing. Saat konfigurasi diaktifkan, ganti visual efek firing native dari senjata standar.
+Efek Hit
+Aset VFX Hit. Menggantikan efek visual partikel hit ketika konfigurasi valid.
+Pemain atau Entity dengan komponen Collider mendukung event ini. Catatan: Di client, hanya pemain lokal yang trigger event ini, pemain selain pemain lokal tidak akan mentrigger event.
+This is an Ultra Airdrop. Capture it to get the powerful Lv. 5 armor! You can also destroy the pillars to capture faster.
+Woo, a random event! In this match, you'll receive Gloo Walls over time!
+Here comes a random event! If you're eliminated, your main weapons will be carried over to the next round!
+Target ditemukan
+Selesaikan {0} map apapun di Akademi Survivor
+Dash untuk mendekati musuh
+Selesaikan [FFBA00]{0}[-]/{1} match
+Capai Lv. [FFBA00]{0}[-]/{1}
+Login untuk [FFBA00]{0}[-]/{1} hari
+Mainkan mode apa pun selama [FFBA00]{0}[-]/{1} menit
+Melempar boneka [FFB300]{0}-HP[-] yang bertahan selama [FFB300]{3}s[-], tidak bisa terhalang, dan dapat dilempar hingga [FFB300]{1}m[-] ([FFB300]{2}m[-] di BR). Boneka akan menarget musuh terdekat yang terlihat dalam jarak [FFB300]{4}m[-] dan menciptakan [FFB300]{5}m[-] dreamy space. Di dalam area tersebut, pengguna dan musuh [FFB300]tidak dapat menggunakan Gloo Wall[-], dan musuh kehilangan [FFB300]{6} HP[-]/s. Dreamy Space akan hilang jika boneka dihancurkan, tetapi penghancur boneka akan ditandai selama [FFB300]{7}s[-]. Saat boneka masih aktif, ketuk skill lagi untuk menariknya kembali dan mengurangi cooldown sebesar [FFB300]{8}s[-].
+Cryo Echo
+Saat aktif, boneka dapat ditarik kembali dan dilempar lagi setelah cooldown yang lebih singkat.
+Melempar boneka [FFB300]{0}-HP[-] yang bertahan selama [FFB300]{3}s[-], tidak bisa terhalang, dan dapat dilempar hingga [FFB300]{1}m[-] ([FFB300]{2}m[-] di BR). Boneka akan menarget musuh terdekat yang terlihat dalam jarak [FFB300]{4}m[-], menciptakan [FFB300]{5}m[-] dreamy space, dan menghasilkan duplikat boneka. Di dalam area tersebut, pengguna dan musuh [FFB300]tidak dapat menggunakan Gloo Wall[-], dan musuh kehilangan [FFB300]{6} HP[-]/s. Dreamy Space akan hilang jika boneka dihancurkan, tetapi penghancur boneka akan ditandai selama [FFB300]{7}s[-]. Duplikat boneka bergerak ke arah awal dan memberikan [FFB300]{8}[-] burst damage ke musuh yang ditarget.
+Cryo Splinter
+Setelah menemukan musuh, boneka menghasilkan duplikat yang bergerak ke arah asli dan memberikan DMG AoE burst ke target.
+Preset ini mencakup skill yang belum terbuka. Beli dulu.
+Preset ini mencakup Skill atau Loadout yang belum terbuka
+Gunakan tempest untuk mengalihkan perhatian musuh, lalu teleport pada saat yang tepat untuk mengejutkan mereka. Skill pasif memberikan perisai dan healing setelah teleportasi.
+Tempest Ambush
+Melepaskan badai berputar yang dapat melewati dinding, bergerak maju dengan cepat, dan berlangsung selama [FFB300]{0}s[-], memberikan [FFB300]{1}[-] DMG kepada musuh yang terkena. Saat badai aktif, ketuk skill sekali lagi untuk berpindah ke lokasinya saat ini dan mendapatkan shield selama [FFB300]{2}s[-] dengan pengurangan DMG sebesar [FFB300]{3}%[-]. Badai akan menghilang setelah pengguna berpindah. Cooldown: [FFB300]{4}s[-].
+Tempest Raid
+Melepaskan badai berputar yang dapat menembus dinding untuk memberikan damage dan memperlambat musuh. Pengguna dapat berpindah ke lokasi badai tersebut.
+Temukan Musuh
+Item Healing
+Spesial Throwables
+Ketika musuh berada di dekat, kamu akan mendengar langkah kaki. Kamu juga bisa mengaktifkan Getaran Langkah Kaki di Pengaturan untuk peringatan yang lebih kuat ketika musuh mendekat.\nMinimap juga menampilkan musuh di sekitar yang sedang menembak, jadi perhatikan terus.
+Terkadang sebuah arsenal akan menjadi defensif dan hanya bisa dibuka dengan cara mengambil alih.\nSetelah berhasil diambil alih, UAV akan aktif untuk memindai musuh di sekitarnya.
+Di tengah pertandingan BR, banyak Airdrop akan jatuh dari langit. Mendekatlah untuk mendapatkan Loot.\nDefense Airdrop adalah Airdrop spesial. Buka untuk mendapatkan hadiah di setiap tahap.
+Ultra Airdrop memberikan armor yang kuat tetapi memiliki waktu ambil alih yang lebih lama dan hanya turun sekali per match.\nHancurkan pilar energi di sekitarnya untuk meningkatkan kecepatan ambil alih.
+Anda dapat membeli Revival Card biasa berwarna biru atau Super Revival Card berwarna kuning.\nSuper Revival Card lebih mahal tetapi memberikan rekan tim yang di-revive perlengkapan awal yang lebih baik saat dihidupkan kembali.
+Menggunakan Revival Point akan revive semua rekan timmu. Tapi progressmu akan ditampilkan di map untuk semua pemain.\nRevival Point akan ditutup nanti dalam match.
+Kamu tahu apa itu Gloo Wall?
+Berbagai jenis Cyber Mushroom dapat ditemukan di tanah untuk memberikan pemindai, healing, speed boost, dan peningkatan Gloo Wall.\nBerinteraksi atau hancurkan mereka untuk memicu efeknya.
+Deploy Gloo Wall untuk digunakan sebagai cover.\nGloo Wall akan hancur setelah menerima damage dalam jumlah tertentu, atau menghilang dalam waktu tertentu setelah dipakai.
+Beberapa skill karakter dan item memberikan damage yang signifikan ke Gloo Walls, seperti skill Skyler dan Oscar, M60, dan Gloo Melter.
+Beberapa skill karakter dan senjata dapat memberikan damage ke musuh di belakang Gloo Wall, seperti skill Iris, SVD-Y, dan M82B.
+Skill karakter seperti milik Moco dan Shiro dapat menandai musuh dan membantu kamu serta rekan tim menemukan mereka.
+Armor Anda termasuk vest dan helm. Keduanya membantu mengurangi damage pada bagian tubuh yang bersangkutan. Vest dan helm dengan level lebih tinggi berarti pengurangan damage yang lebih tinggi.\nAnda dapat memeriksa status armor Anda di sebelah HP bar.
+Saat diserang, armor kamu mungkin rusak. Jangan lupa gunakan Repair Kit untuk memperbaikinya.\nVest atau Helmet yang benar-benar hancur tidak bisa diperbaiki dan akan hilang.
+Gunakan Med Kit untuk memulihkan HP-mu. Super Med memulihkanmu lebih banyak.\nNamun, menggunakan Med Kit membutuhkan waktu. Bergerak saat menggunakannya akan membatalkan aksi tersebut.
+Inhaler bisa digunakan saat bergerak dan memulihkan HP dan EP kamu.\nBeberapa inhaler khusus memberikan buff unik.
+Grenades memberikan damage ledakan yang besar kepada musuh dalam radius ledakan, tapi berhati-hatilah jangan sampai melukai dirimu sendiri.\nGrenades meledak beberapa detik setelah dilempar. Timing yang tepat membuatnya lebih efektif.
+Ketuk tombol grenade di sebelah kiri untuk menarik pin lebih awal, agar grenade meledak lebih cepat setelah dilempar.\nPastikan untuk mengatur waktu dengan hati-hati, atau kamu bisa mencelakai dirimu sendiri.
+Gloo Melter menciptakan zona melt yang merusak semua Gloo Walls dalam jangkauan.
+Flash Freeze menciptakan zona beku yang memberikan sedikit damage berkelanjutan dan memperlambat musuh di dalamnya.\nDragon Freeze memberikan damage sedang kepada musuh dalam jangkauan sebanyak 3 kali.
+Deploy landmine untuk menyergap musuh dan berikan damage tinggi jika mereka menginjaknya.\nHati-hati, pengguna juga bisa memicu landmine.
+Kontrol tidak terasa pas? Atur di Pengaturan. Pengaturan dasar untuk kontrol, graphics, suara, dan akunmu bisa semua ditemukan di sini.
+Senjata memiliki dua tipe: utama dan kedua.\nKamu bisa membawa dua senjata utama secara bersamaan. Kombinasi senjata jarak jauh dan senjata jarak dekat direkomendasikan.\nSenjata kedua biasanya memiliki fitur spesial. Kamu hanya bisa membawa satu senjata kedua pilihanmu.
+Memakai skill karakter membuat kamu lebih kuat! Kamu bisa memakai empat skill untuk bertarung, tetapi hanya satu skill aktif.
+Lihat informasi senjata secara detail di sistem senjata untuk lebih memahami fitur setiap senjata.
+Menembak musuh di kepala memberikan damage lebih besar. Angka damage merah menunjukkan headshot.\nTerkadang, membidik rendah sebelum swipe ke atas membuat lebih mudah mendapatkan headshot.
+Beberapa senjata bisa di-upgrade dengan Upgrade Chip atau dengan memberikan damage menggunakan senjata tersebut.\nTombol upgrade akan muncul saat sudah siap.
+Beberapa senjata memiliki dua mode menembak, seperti mode Assault dan Ranged milik G36, dan mode Shotgun dan Granat milik Trogon.\nKetuk tombol switch untuk bertukar antara kedua mode.
+Heal Pistol: Tembak teman setimmu untuk meng-heal mereka.\nHook Gun: Tembakkan grappling hook ke posisi target dan tarik dirimu ke arahnya. Hook Gun biasanya hanya tersedia di Kalahari.\nFGL-24: Menembakkan api menembus dinding saat menghantam dan memberikan damage kepada musuh di balik cover.
+Di mode BR, kamu bisa mendapatkan koin dengan mengambilnya atau mendekati Coin Machine. Koin dapat digunakan untuk membeli supply di Vending Machine, meningkatkan arsenal, dan lainnya.\nKoin yang didapatkan melalui Coin Machine akan dibagikan ke teman tim.
+Di mode BR, Vending Machine tersebar di seluruh map. Kamu bisa membeli item, senjata, Revival Card, dan lainnya dengan koin.\nLokasi Vending Machine ditandai di map.
+Arsenal berisikan loot berkualitas. Kamu bisa meng-upgrade-nya dengan koin untuk mendapatkan senjata dan perlengkapan yang lebih baik.\nArsenal bisa dibuka dengan kunci atau koin.
+Langkah kaki dan tembakan
+Detail Senjata
+Skill Menandai
+Tipe Senjata
+Senjata yang dapat di-upgrade
+Senjata Dual-Mode
+Senjata Kedua Common
+Auto-Revival
+Memasak Grenade
+Flash Freeze dan Dragon Freeze
+Age Verification:
+Kamu tidak dapat mengirim pesan ke pemain ini saat ini
+Masukkan tanggal lahir kamu
+Format tanggal: YYYY-MM-DD
+Deklarasi Umur
+Reset belum tersedia. Mohon coba kembali nanti.
+Akun dengan email guardian yang terikat harus di-unbound sebelum deklarasi usia dapat direset
+17 atau lebih muda
+Kamu tidak dapat chat dengan pemain ini karena batasan usia
+Kamu tidak dapat chat dengan beberapa pemain karena pembatasan usia
+Bind email guardian dan dapatkan izin sebelum melakukan pembayaran
+Anak di bawah umur harus menghubungkan akun guardian dan mendapatkan izin guardian mereka sebelum melakukan pembayaran
+Pembatasan Pembayaran
+Kamu tidak dapat chat dengan orang dewasa karena pembatasan umur
+Kamu tidak dapat chat karena umurmu tidak memenuhi persyaratan peraturan lokal
+Akun untuk pemain di bawah 18 tahun harus dihubungkan dengan akun orang tua atau guardian untuk pengalaman bermain penuh. Mohon konfirmasi bahwa deklarasi usiamu sudah benar.
+Mohon Konfirmasi Lagi
+Beberapa fitur sosial dibatasi karena umurmu tidak memenuhi persyaratan peraturan lokal. Terima kasih atas pengertianmu.
+Akun ini tunduk pada pembatasan pembayaran ringan dan tidak dapat melakukan pembayaran melalui channel ini saat ini
+Bind Guardian Email:
+Gagal untuk bind email guardian. Mohon coba kembali nanti.
+Email Guardian berhasil di bind
+Guardian Email Bound
+Masukkan alamat email guardian kamu
+Email guardian ini telah mencapai jumlah maksimum akun minor yang terikat. Gunakan email lain atau unbind akun lain.
+Kode verifikasi telah dikirim ke email guardian kamu. Masukkan kode untuk menyelesaikan binding.
+Silakan selesaikan verifikasi email guardian di dalam game terlebih dahulu
+Pergi ke Guardian Center
+Sisa limit pembayaranmu tidak mencukupi.\nSisa limit pembayaranmu adalah {0}.\nJika akunmu terikat dengan guardian, mereka dapat menyesuaikan limit pembayaranmu di Guardian Center.
+Batas Pembayaran Tercapai
+Sisa limit pembayaran minggu ini tidak mencukupi untuk menyelesaikan pembayaran ini
+Guardian kamu belum menetapkan limit pembayaran. Pembayaran tidak tersedia.
+Kamu memiliki {0}m tersisa sebelum mencapai batas waktu bermainmu. Mohon kelola waktu bermainmu dengan bijak.
+Kamu telah mencapai batas waktu bermainmu. Jika kamu memiliki guardian yang terhubung, mereka dapat menyesuaikan batas waktu bermainmu di Guardian Center.
+Limit Playtime Tercapai
+Jika guardian Anda tidak melakukan tindakan apa pun dalam {0} hari, email akan otomatis di-unbound
+Permintaan unbind kamu sedang diproses. Harap tunggu guardian kamu untuk konfirmasi.
+Apakah Anda yakin ingin meminta untuk unbind email guardian saat ini?
+Unbind Guardian Email
+Sebelum menyelesaikan verifikasi usia, kamu hanya dapat chat dengan pemain yang belum diverifikasi
+Sebelum menyelesaikan verifikasi usia, kamu tidak dapat mengirim pesan di channel publik atau melihat riwayat chat
+Kamu tidak dapat melakukan voice chat dengan beberapa pemain di squad-mu karena batasan usia
+DIGIMON ADVENTURE
+BLUE LOCK
+JUJUTSU KAISEN
+NARUTO SHIPPUDEN
+GINTAMA
+BEN 10
+Resources untuk kolaborasi Digimon Adventure
+Resources untuk kolaborasi BLUE LOCK
+Resources untuk kolaborasi Jujutsu Kaisen
+Resources untuk kolaborasi NARUTO SHIPPUDEN
+Resources untuk kolaborasi GINTAMA
+Resources untuk kolaborasi Ben 10
+Rate of fire: 8%→[ed3d0a]5%[-]
+Durasi: 15s→[ed3d0a]13s[-]\nJarak trigger aim assist: 4m→[ed3d0a]12m[-]\ndelay keluar Stealth: 0.8s→[37be7b]0.5s[-]
+Cooldown Lebih Singkat: 90d→[37be7b]75d[-]
+Dapatkan AK47 yang ditingkatkan yang menembakkan granat saat menembak
+Grenader AK47
+Buff yang didapatkan akan berlaku setelah memasuki medan perang
+Dapatkan {0} bonus maks. HP dan perbesar ukuran kepala sesuai dengan itu
+Sang Titan
+Semakin tinggi Max. HP, semakin tinggi damage Weapon dan Skill
+Kelas Berat
+Dapatkan {0} bonus Max. HP
+Umur Diperpanjang
+Tingkatkan skill Oscar menjadi Oscar - Phantom Dash.
+Super Oscar
+Dapatkan 1 stack efek dari setiap eliminasi atau assist. Setiap stack meningkatkan bonus maks. HP sebesar {0}%.
+Tingkatkan ukuran kepala berdasarkan bonus maks. HP dan dapatkan 1 stack efek dari setiap eliminasi atau assist. Setiap stack meningkatkan bonus maks. HP sebesar {0}%.
+Mesin Tank
+Hardy Build
+Damage
+DMG Bonus
+Meningkatkan kecepatan gerak saat jongkok sebesar {0}%
+Jongkok Rush
+Dapatkan unlimited EP dan konversi EP lebih cepat
+Dapat Gloo Wall secara berkala
+Gloo Drop
+Mendapatkan burst singkat kecepatan gerak setelah terkena damage
+Pain Rush
+Gloo Walls tidak akan habis
+Infinite Walls
+Gloo Wall yang dipasang memberikan bonus pemulihan yang lebih besar.
+Kekuatan Nairi
+Dapat {0} Shield Point sementara setelah terkena damage
+Panic Shield
+Meningkatkan daya tahan Gloo Wall secara signifikan
+Iron Gloo
+General Build
+Setelah terkunci pada musuh, bidikanmu tidak akan kehilangan target
+Deadlock Aim
+Dapatkan Gatling khusus yang meluncurkan fireball ke area target
+Fiery Gatling
+Ammo tanpa batas
+Unlimited Ammo
+Dapatkan Skill Card Kenta yang ditingkatkan
+Super Kenta
+Jongkok untuk masuk ke mode super fire dengan fire rate meningkat dan sebaran peluru lebih rendah
+Tembakan Jongkok
+Dapatkan Hook Gun
+Hook Gun
+Dapatkan Skill Card Steffie yang ditingkatkan, yang secara signifikan meningkatkan pengurangan DMG.
+Super Steffie
+Sekarang dalam mode super fire
+Anchor Build
+Jongkok untuk berubah menjadi semak. Menembak mengembalikanmu ke wujud manusia. Setelah berhenti menembak, kamu berubah kembali menjadi semak.
+Stealthy Wukong
+HP
+Bonus HP
+Terbuka pada Lv. {0}
+Meningkatkan damage senjata melee
+Kla's Pact
+Menciptakan field Dance Grenade di dekatnya. Musuh di dalamnya dipaksa untuk menari.
+Dance Pool
+Meningkatkan range senjata melee setiap kali kamu melakukan eliminasi atau knockdown dengannya
+Growing Edge
+Pulihkan {0} HP setelah mengeliminasi musuh
+Kekuatan Jota
+Meningkatkan range senjata melee secara signifikan
+Jangkauan Jauh
+Aim assist juga berlaku untuk serangan melee, sama seperti untuk senjata
+Magnetic Blow
+Tingkatkan skill Chrono menjadi Chrono - Time Drift.
+Super Chrono
+Dapatkan Skill Card Morse yang ditingkatkan, dengan jeda tembakan yang hampir tidak ada setelah keluar dari Stealth.
+Super Morse
+Sprint diperbolehkan saat menyerang dengan senjata melee
+Serangan Armada
+Dapatkan Skill Card Tatsuya yang ditingkatkan, dengan cooldown yang sangat singkat.
+Super Tatsuya
+Brawler Build
+Dapat {0} Shield Point permanen setelah melakukan eliminasi
+Perisai Pemenang
+BR: Evolution
+Resource untuk mode BR: Evolution mode
+Dapatkan Skill Card Orion yang telah ditingkatkan dengan tambahan EP dari knockdown serta kecepatan gerakan yang lebih tinggi selama skill aktif.
+Super Orion
+Revival tidak tersedia
+Segera hidup kembali
+Revival akan segera dinonaktifkan.
+Tekan untuk pilih deck-mu
+Skill Card
+Bonus Kecepatan
+BR: Evolution Bonus
+Dapatkan VSK94 yang ditingkatkan dengan crosshair yang diperluas menjadi zona kecil, memungkinkan tembakan mengenai semua musuh di dalamnya
+Ranged VSK94
+Maks. HP dasar berkurang {0}% dan DMG meningkat {1}%.
+Glass Cannon
+Mendapatkan burst singkat kecepatan gerak setelah mengeliminasi musuh
+Predator's Rush
+Dapatkan Skill Card Rin yang telah ditingkatkan dengan damage Kunai lebih tinggi, pembangkitan lebih cepat, dan jumlah maksimum yang lebih banyak.
+Super Rin
+Sniper Build
+Dapatkan enchanced Winchester  yang memberikan damage ledakan beruntun ke musuh yang terkena
+Burst Winchester
+Jammer berlaku
+Tidak dapat bergabung: dalam Stealth mode
+Red Bull Reward Crate
+Alvaro Firefig
+Sepertinya ledakan tidak bisa menyelesaikan segalanya.
+Kelly Firefig
+Tidak ada yang bisa memperlambat Kelly!
+Eksklusif Kelly Firefig
+Kelly memenangkan kontes maraton Bermuda!
+Kapella Firefig
+Siapa yang tidak ingin dapat kedipan mata dari Kapella?
+Moco Firefig
+Tidak ada yang tersembunyi dari Moco.
+Steffie Firefig
+Pikir dua kali sebelum kau mengganggu Steffie.
+Wukong Firefig
+Di balik topeng ada penyamaran lain?
+Eksklusif Wukong Firefig
+Monyet legendaris itu ditempa dengan api.
+Bab {0}
+Leaderboard
+Pilih Tingkat Kesusahan
+Info Level
+TIngkat kesusahan {0}
+Tag Tingkat Kesusahan
+Misi
+Ready
+Talent
+Battle
+Exploration
+Maks. Level Tercapai
+Reset Semua
+Konfirmasi untuk mereset semua talent? Semua token akan dikembalikan.
+Reset talent
+Survival
+Token tidak cukup
+Talent persyaratan belum terbuka
+Buka
+Upgrade
+Ganti tingkat kesulitan
+Tingkat kesulitan saat ini masih terkunci untuk beberapa rekan tim
+{0} belum membuka tingkat kesulitan saat ini
+Kesulitan tertinggi yang telah dibuka tim kamu adalah Chapter {0}, kesulitan {1}. Berpindah ke sana sekarang?
+Mendarat bersama tim. Team Revival tersedia saat mendarat.
+Terlalu jauh dari tim. Team Revival tidak tersedia saat mendarat.
+Mendarat dengan tim kamu untuk mendapatkan kesempatan revive
+Mendarat dekat rekan tim
+Team Revival didapatkan
+Detail penalti:\nGuild Wars Score yang diperoleh akan dikurangi sebesar {0}.\n
+Pyro tidak aktif dan akan dihapus secara otomatis.
+Spark dua kali lipat!
+Baguette
+Black Cat Hat
+Beige Cat Hat
+Blue Cat Hat
+Red Cat Hat
+Corn
+Red Elephant Hat
+Topi Gajah Biru
+Topi Gajah Hijau
+Biru Smiley Goggles
+Pink Heart Goggles
+Yellow Cute Goggles
+Purple  Goggles
+Monochrome Pixel Glasses
+Kacamata Pixel Warna-warni
+Pumpkin
+Spooky Rabbit Backpack
+Anda perlu menunggu {0}s sebelum mengedit lagi.
+Random
+Setiap kali login, tampilkan Pyro milik salah satu teman yang Anda ikuti secara random.
+1. Hanya Pyro dari teman dengan Skor Intimasi {0}+ yang dapat ditampilkan. Mereka juga harus sudah membuka Pyro.\n2. Tampilan Random: Setiap kali kamu login, Pyro dari salah satu teman akan ditampilkan secara random. Maksimal {1} teman akan masuk dalam daftar pilihan.\n3. Kamu juga dapat memilih Pyro dari teman yang dipilih.
+Dipilih
+Pilih teman untuk selalu menampilkan Pyro mereka.
+Login
+Tambahkan hari tambahan
+Hadiah match ekstra
+Login selama {0} hari untuk menyalakan kembali Pyro.\nMenyelesaikan ranked match menambah {1} hari!
+Baru
+Undangan Pyro Pals
+Teman
+Skor Intimacy
+Status
+Pyro Pals
+Pembatalan sedang dalam cooldown. Ajukan kembali dalam {0} jam.
+Ingin membentuk Pyro Pals denganmu
+Menerima Permintaan Pyro Pals
+List permintaan
+Pyro Pals tersedia untuk teman dengan Skor Intimacy lebih tinggi dari {0}
+Kirim permintaan Pyro Pals
+Temanmu {0} memanggilmu untuk menyalakan kembali Pyro-mu!
+Pyro Pals sedang memanggilmu!
+Request Pyro Pals dikirim
+Pyro
+Tampilkan Pyro
+Undangan berhasil dikirim ke teman offline
+Mode Ranked tidak tersedia di level akun kamu saat ini. Naikkan level untuk membukanya!
+Batalkan Pyro Pals dengan temanmu?
+Batalkan Pyro Pals
+Komentar
+{0} Follower
+{0}v{1}
+Ikuti
+Mengikuti
+Lainnya
+Kreator ini berada di region berbeda dan tidak dapat diikuti
+Share
+Main Solo
+Mulai
+Bermain Tim
+Flame Grenades, Super Energizers, and FGL-24 will appear in Clock Tower.
+Fiery Clock Tower
+Discounted Strange Weapons at Vending Machines!
+Strange Weapon Discount
+Discounted Storm Weapons at Vending Machines!
+Storm Weapon Discount
+More coin piles will appear on the ground
+Coin Rain
+More coins, gold-tier weapons, and Coin Jars will appear in Sentosa
+Gold Rush
+Most of the vehicles become Horses, giddy-up!
+Wild West
+Discounted new weapons at Vending Machines!
+New Weapon Discount
+More SMGs, shotguns and melee weapons will appear in Peak
+Peak Mania
+Start the match with 500 coins
+Rich Start
+Muncul
+Tangkap penampakan aneh untuk membuatnya menghilang dan menjatuhkan supplies event spesial
+Penampakan Aneh
+Penampakan aneh baru tertangkap
+Restore {0}% armor durability
+Gain {0} temporary Shield Points
+Jejak Mistis
+Sisi Tersembunyi telah muncul
+Reveal Masks dan Strange Weapons tersedia di Toko CS
+Kekuatan Aneh
+Senjata spesial dengan kekuatan aneh yang trigger efek event
+Senjata Aneh
+Spectate Boneka
+Masuk Sisi Tersembunyi
+Ikuti Teman Setim
+Gunakan untuk masuk ke masked form dan Sisi Tersembunyi, mendapatkan kecepatan gerak dan tinggi lompatan yang lebih baik
+Reveal Mask
+Batalkan Transformasi
+Masuk Masked Form
+Kuda yang bergerak antara dunia normal dan Sisi Tersembunyi dengan lompatan yang lebih ringan dan lari yang lebih cepat
+Kuda Bayangan
+Setelah tereliminasi, masuk ke bentuk Boneka untuk mengikuti rekan tim yang bertahan dan memberikan random buff
+Support Boneka
+Gunakan Reveal Mask untuk memasuki Masked form dan mengakses Sisi Tersembunyi
+Reveal Mask
+Setiap kali kamu mengeliminasi pemain, sebuah topeng atau tanda misterius akan muncul di belakangmu.
+Tanda Eliminasi
+Jejak Mistis
+Sisi Tersembunyi telah muncul
+Area tempat kamu dapat bergerak bebas setelah memasuki Spectate Boneka
+Jarak Boneka
+Sisi Tersembunyi Terbuka
+Masuk ke masked form untuk menjelajahi Sisi Tersembunyi dan penampakan aneh
+Sisi Tersembunyi
+Heal Bubble Siap
+Heal Bubble siap. Bonus FF Coin tersedia.
+Bubble Perbaikan siap
+Perbaiki Bubble siap. Termasuk Extra FF Coin.
+Shield Bubble siap
+Shield Bubble siap. Termasuk FF Coin ekstra.
+Speed Bubble siap
+Heal Bubble siap. Bonus FF Coin tersedia.
+Hati-hati! Kamu akan meninggalkan jangkauan teman tim
+Di luar jangkauan teman tim. Kembali dalam {0}s.
+Kembali dekat teman setim
+Tetap dalam jarak {0}m dari teman setimmu
+Normal Spectate
+Hanya satu pemain yang masih hidup. Tidak dapat beralih tampilan.
+Deploy untuk membangun Zipline Custom
+Zipline Kit
+Deploy untuk membangun Zipline kustom
+Anchor Zipline
+Semua teman mendapatkan Mini Turret di awal setiap ronde
+Firefig
+Menangkan match ini untuk mendapatkan Firefig
+Hadiah Booyah
+Binding Berhasil
+Firefig diperoleh
+Tampilkan Firefig
+Binding Berhasil. Firefig akan dikeluarkan setelah match.
+Let the light rise. (Pemain bisa menaruh hadiah spesial - loadout, Gold atau Voucher dengan jumlah random - di spawn island. Hadiah tersedia untuk 10 pemain.)
+Radiant Flame
+TV Scare
+The Twins
+Storm King
+Storm Squad
+Screen or scream? (Pengguna dapat menaruh hadiah rahasia seperti loadout, Gold, atau Voucher di dalam kabin. Hadiah tersedia untuk 10 pemain.)
+Screen Terror
+The Unseen Frame
+Storm Arena Frame
+Crimson Glitches Sticker
+Hollow Man Sticker
+Red Slicker Sticker
+Cloaked Terror Sticker
+Cosmic Overlord Sticker
+FFWS Champion Sticker
+Otomatis memutar kamera untuk tampilan yang dioptimalkan saat menggunakan Ascender vertikal
+Tetap menghadap arah yang sama setelah menaiki Ascender vertikal
+Ascender Auto-Turn
+Auto-Turn secara default diaktifkan untuk Ascender vertikal. Kamu dapat menyesuaikannya di Pengaturan.
+Akselerasi
+Bawah
+Lepaskan
+Kembali
+Atas
+Ninja Returns
+Didapat setelah meningkatkan Evo AWM ke maks. Lv. 7
+Ultimate AWM
+Selesaikan misi di web event untuk mengklaim
+Ace Manager
+Jika kamu sebelumnya telah mengikuti Serangan Ekor Sembilan atau Ujian Shinobi, ikuti event Kembalinya Serangan Ekor Sembilan untuk mendapatkan Title Eksklusif!
+Kumpulkan entri dan capai target koleksi di Album Jejak Mistis untuk mendapatkan
+Melihat Jejak Mistis
+Download
+Downloading
+Pakai
+Outfit digunakan
+Coba lagi
+Wardrobe
+1.Gambar sampul map Craftland kini distandarkan ke rasio aspek 20:9.\n2. Menyempurnakan aturan penamaan untuk properti kustom. Saat membuat atau mengganti nama atribut kustom, sistem akan memeriksa karakter yang tidak valid dan format encoding yang tidak didukung. Nama yang tidak memenuhi persyaratan tidak dapat disimpan, dan pemain akan diminta untuk mengubahnya dan mencoba lagi. Saat membuka, menyimpan, atau memublikasikan map lama, pemain juga akan diminta untuk memperbaiki properti kustom yang mengandung karakter tidak valid.\n3. Menambahkan dukungan untuk mengustomisasi gambar dan teks pada layar loading map kustom.\n4. Setelah menyelesaikan sebuah map, pemain kini dapat langsung melihat informasi kreator di layar hasil, serta mengikuti atau berhenti mengikuti kreator.\n5. Mengoptimalkan sepenuhnya halaman detail map Craftland untuk memberikan tampilan informasi map, gameplay, dan fitur interaktif yang lebih jelas. Menambahkan estimasi tingkat kesulitan matchmaking map serta menyempurnakan tampilan informasi seperti popularitas, rating positif, dan jumlah sesi bermain. Pemain juga dapat melihat informasi kreator, mengikuti kreator, membagikan map, dan menyalin Map Code.\n\nFitur yang lebih canggih sedang dalam pengembangan, nantikan terus kabar selanjutnya!
+Platform
+1111 Lucky Box 1
+1111 Lucky Box 2
+1111 Choice Box 1
+1111 Choice Box 2
+Awesome Box
+Buka untuk mendapatkan AWM Breath of Silence
+AWM Breath of Silence Loot Crate
+Cosmic Pulse (AWM) Token Crate
+Box 281
+Box 282
+Box 283
+Box 284
+Box 285
+Box 286
+Box 287
+Box 288
+Box 289
+Box 290
+Booyah! Box 1
+Booyah! Box 2
+Booyah! Box 3
+Booyah! Box 4
+Booyah! Box 5
+Booyah! Box 6
+Booyah! Box 7
+Booyah! Box 8
+Campus Lucky Box 1
+Campus Lucky Box 2
+Campus Choice Box 1
+Campus Choice Box 2
+Box Jejak Mistis
+Horror Box
+Duality Box
+Buka untuk mendapatkan Charge Buster Frenzy Bunny
+Charge Buster Frenzy Bunny Loot Crate
+Gun Choice Box 1
+Gun Choice Box 2
+Gun Choice Box 3
+Gun Choice Box 4
+Gun Choice Box 5
+Gun Choice Box 6
+Gun Choice Box 1
+Gun Choice Box 2
+Gun Choice Box 3
+Gun Choice Box 4
+Gun Choice Box 5
+Gun Choice Box 6
+Gun Royale Box 1
+Gun Royale Box 2
+Gun Royale Box 3
+Halloween Box
+Pemain dapat mendapatkan 3, 4, 5, 10, 100, atau 1000 Cosmic Pulse AWM Evo token.
+Lion Cereal Box 03
+Lion Cereal Box 04
+Mid-autumn Gift Box
+BP S46 Token Crate
+Random Lucky Box 1
+Random Lucky Box 2
+Safe Box
+Box Samsung A27
+BP S47 Token Crate
+Choice Lucky Box 1
+Choice Lucky Box 2
+Storm Box
+Arena Box
+Koper
+Buka untuk menerima Trogon Pyro Dino
+Trogon Pyro Dino Loot Crate
+VIP Box 04
+VIP Box 05
+BP S48 Token Crate
+Wonderful Accessories Box
+Wonderful Box 1
+Wonderful Box 2
+Wonderful Choice Box 1
+Wonderful Choice Box 2
+Wonderful Choice Box 3
+Wonderful Facepaint Box
+Wonderful Pants Box
+Wonderful Shoes Box
+Wonderful Top Box
+Alliance Blue Token
+Alliance Green Token
+Alliance Red Token
+Black God Token
+Big Surprise Token
+Dark Party Token 1
+Dark Party Token 2
+External Forces Token
+Kunai Token
+MP5 Token
+Marksman Rifle Token
+Ninja Village Token 1
+Ninja Village Token 2
+Ninja Village Token 3
+Assault Rifle Token
+SMG Token
+Shotgun Token
+Partner Blue Token
+Partner Green Token
+Pistol Token
+Partner Red Token
+Pumpkin Token
+Reborn Token
+Sniper Rifle Token
+Thunder Token
+Witch Token
+1111 Voucher
+Black God Noir Voucher
+Black God White Voucher
+Universal Ring Voucher
+Universal Ring Voucher
+Universal Ring Voucher
+2026 Free Fire x BLUE LOCK
+Black Mask
+Blue Mask
+Crimson Mask
+Special Nailoong Token
+Purple Lightning
+Blue Lightning
+Orange Lightning
+Cosmic Comet Token
+Capai [S0] [fs=22][b][803A41]{0}[/b][-][/fs] beberapa kali lagi untuk mendapatkan
+untuk mendapatkan {0}
+Capai [S0] [fs=22][b][803A41]{0}[/b][-][/fs] kali
+Rilis pada {1}/{0}
+Rilis pada\n{1}/{0}
+Pakai untuk ditampilkan di mode CS dan ganti title default
+Tampilkan saat meraih MVP di setiap ronde CS
+Lihat dan pakai melalui Info Pemain
+MVP Title
+MVP Title - Rank 2027
+Periode penggunaan dapat di-stack
+Periode penggunaan
+CS MVP Board
+CS MVP Board - Rank 2027
+MVP Board yang dapat dipasang dari Vault. Pasang untuk menampilkan saat meraih title MVP di setiap ronde mode CS.
+Ke Rank Goal
+Meteor Drop datang
+Meteor Drop telah mendarat
+Nama cheater
+Semua airdrop reguler akan jatuh seperti meteor!
+Airdrop? Meteor!
+Loot tier tinggi tersedia di area setelah Meteor Drop mendarat
+Meteor Datang
+Storm Arena
+Storm Trophy Showdown
+Bertarung untuk Storm Trophy!
+Storm Airdrop telah mendarat
+Tim Champion FFWS Global Finals 2026
+Bawa bannermu melewati badai dan bertarung untuk kejayaan
+Storm Banner
+Dapatkan lebih banyak eliminasi setiap phase untuk menjadi tim teratas dan dapatkan Storm Airdrop!
+Storm Airdrop
+Storm Weapons akan dijatuhkan dalam match. Temukan dan coba mekanik senjata baru!
+Senjata Badai
+Pertempuran Storm Trophy dimulai!
+Airdrop Event akan jatuh di dekat team teratas
+Storm Airdrop
+Tim teratas ronde ini telah dipilih. Airdrop Storm akan datang.
+Performa bagus! Tim kamu mendapatkan Storm Airdrop.
+Selamat! Tim-mu MVP dan meraih Top-tier Storm Airdrop.
+[Zona DMG: Rendah] Safe Zone mengecil
+[FFBA00][DMG Zona: Sedang][-] Zona Aman mengecil
+[e01f1f][DMG Zona: Tinggi][-] Safe Zone mengecil
+Sering team-up dengan cheater
+Item utilitas yang dapat diaktifkan sesuai permintaan
+Perangkat Aktif
+Aku menandai musuh di dekat sini!
+Item utility pasif yang memberikan ability kombat spesial
+Perangkat Pasif
+Mengeluarkan laba-laba raksasa dengan [FFB300]{0}[-] HP. Laba-laba secara otomatis mencari musuh terdekat dalam jarak [FFB300]{1}[-]m. Setelah mengunci target, laba-laba akan terbelah menjadi kawanan kecil untuk mengejarnya. Saat mendekati target, kawanan tersebut akan membuat jaring berbentuk kipas [FFB300]{2}[-]m di depan, menjebak semua musuh dalam jangkauan. Musuh yang terjebak diperlambat sebesar [FFB300]{3}%[-] dan kehilangan [FFB300]{4}[-] HP/s selama [FFB300]{5}[-]s.
+Spider Hunt
+Mengeluarkan laba-laba raksasa yang mengunci target terdekat dan terbagi menjadi kawanan laba-laba kecil, membuat jaring untuk menangkap musuh
+Berubah menjadi laba-laba eksplosif yang bisa dikendalikan selama [FFB300]{0}dtk[-]. Laba-laba dengan [FFB300]{1}[-] HP bisa dihancurkan dan bergerak hingga [FFB300]{2}m[-] dari Ryden. Tekan skill lagi untuk kembali ke tubuh Ryden dan mengaktifkan laba-laba, menangkap musuh dalam jarak [FFB300]{3}m[-] di garis pandangnya. Musuh yang tertangkap diperlambat sebesar [FFB300]{4}%[-] dan kehilangan [FFB300]{5} HP[-]/dtk selama [FFB300]{6}dtk[-].
+Skitter Trap
+Berubah menjadi laba-laba eksplosif yang bisa dikendalikan. Tekan lagi untuk kembali ke tubuh Ryden dan mengaktifkan laba-laba, menangkap musuh dalam jangkauan.
+Musuh Dekat Ryden
+{0} Target Terjebak
+Slow
+Spider Dihancurkan
+Jebakan Dipasang
+Dino Fossil (Mask)
+Cloaked Terror (Mask)
+Owl Mask
+Scorpion Mask
+Cloaked Terror (Bottom)
+Firesaur (Mask)
+Academy Cutie (Mask)
+Crimson Glitches (Mask)
+Scorpio Venom (Mask)
+Masked Rabbit (Mask)
+Lunar Valor (Mask)
+Cosmic Empress (Bottom)
+Kittenlover (Bottom)
+Magma Phoenix (Bottom)
+Firesaur (Bottom)
+Academy Cutie (Bottom)
+Crimson Glitches (Bottom)
+Banana Ninja (Bottom)
+Lioness Instinct (Bottom)
+Owl Ranger (Bottom)
+Scorpio Venom (Bottom)
+Masked Rabbit (Bottom)
+Phantom Bride (Bottom)
+Lunar Valor (Bottom)
+Cosmic Empress (Head)
+Kittenlover (Head)
+Magma Phoenix (Head)
+Firesaur (Head)
+Academy Cutie (Head)
+Banana Ninja (Head)
+Lioness Instinct (Head)
+Owl Ranger (Head)
+Scorpio Venom (Head)
+Masked Rabbit (Head)
+Phantom Bride (Head)
+Lunar Valor (Head)
+Cosmic Empress (Facepaint)
+Lioness Instinct (Facepaint)
+Phantom Bride (Facepaint)
+Cosmic Empress (Shoes)
+Kittenlover (Shoes)
+Magma Phoenix (Shoes)
+Firesaur (Shoes)
+Academy Cutie (Shoes)
+Crimson Glitches (Shoes)
+Banana Ninja (Shoes)
+Lioness Instinct (Shoes)
+Owl Ranger (Shoes)
+Scorpio Venom (Shoes)
+Masked Rabbit (Shoes)
+Phantom Bride (Shoes)
+Lunar Valor (Shoes)
+Cosmic Empress (Top)
+Kittenlover (Top)
+Magma Phoenix (Top)
+Firesaur (Top)
+Academy Cutie (Top)
+Crimson Glitches (Top)
+Pisang Ninja (Top)
+Lioness Instinct (Top)
+Owl Ranger (Top)
+Scorpio Venom (Top)
+Masked Rabbit (Top)
+Phantom Bride (Top)
+Lunar Valor (Top)
+Cloaked Terror (Head)
+Storm Arena (Head)
+Academy Stars (Facepaint)
+Smile! (Facepaint)
+Masked Flames (Facepaint)
+2026 Free Fire x MAMA
+Cosmic Overlord (Mask)
+Red Bull (Mask)
+Kittensitter (Mask)
+Magma Fusion (Mask)
+Infernosaur (Mask)
+Academy Influencer (Mask)
+Hollow Man (Mask)
+Red Slicker (Mask)
+Melon Ninja (Mask)
+Lion Insting (Mask)
+Scorpio Sting (Mask)
+Masked Fox (Mask)
+Phantom Desperado (Mask)
+MAMA (Mask)
+Solar Valor (Mask)
+Cosmic Overlord (Bottom)
+Red Bull (Bottom)
+Kittensitter (Bottom)
+Magma Fusion (Bottom)
+Infernosaur (Bottom)
+Academy Influencer (Bottom)
+Hollow Man (Bottom)
+Red Slicker (Bottom)
+Melon Ninja (Bottom)
+Lion Instinct (Bottom)
+Owl Sheriff (Bottom)
+Scorpio Sting (Bottom)
+Masked Fox (Bottom)
+Phantom Desperado (Bottom)
+MAMA (Bottom)
+Solar Valor (Bottom)
+Cosmic Overlord (Head)
+Red Bull (Head)
+Kittensitter (Head)
+Infernosaur (Head)
+Academy Influencer (Head)
+Hollow Man (Head)
+Owl Sheriff (Head)
+Scorpio Sting (Head)
+Masked Fox (Head)
+MAMA (Head)
+Solar Valor (Head)
+Cosmic Overlord (Facepaint)
+Kittensitter (Facepaint)
+Solar Valor (Facepaint)
+Cosmic Overlord (Shoes)
+Red Bull (Shoes)
+Kittensitter (Shoes)
+Magma Fusion (Shoes)
+Infernosaur (Shoes)
+Academy Influencer (Shoes)
+Hollow Man (Shoes)
+Red Slicker (Shoes)
+Melon Ninja (Shoes)
+Lion Instinct (Shoes)
+Owl Sheriff (Sepatu)
+Scorpio Sting (Shoes)
+Masked Fox (Shoes)
+Phantom Desperado (Shoes)
+MAMA (Shoes)
+Solar Valor (Shoes)
+Cosmic Overlord (Top)
+Red Bull (Top)
+Kittensitter (Top)
+CS-Ranked S39 Heroic
+CS-Ranked S40 Heroic
+Magma Fusion (Top)
+Infernosaur (Top)
+Academy Influencer (Top)
+Hollow Man (Top)
+Red Slicker (Top)
+Melon Ninja (Top)
+Lion Instinct (Top)
+Owl Sheriff (Top)
+BR-Ranked S54 Heroic
+Scorpio Sting (Top)
+Masked Fox (Top)
+Phantom Desperado (Top)
+MAMA (Top)
+Solar Valor (Top)
+Jejak Mistis voice pack
+Storm Arena voice pack
+Pro Taunts voice pack
+Mirzapur Voice Pack 1
+Mirzapur Voice Pack 2
+Day of the Dead 2026 voice pack
+Jejak Mistis Voice Pack
+Storm Arena Voice Pack
+Pro Taunts Voice Pack
+Mirzapur Voice Pack 1
+Mirzapur Voice Pack 2
+Day of the Dead 2026 Voice Pack
+Shh... dengar!
+Pasang topengmu!
+Aku ingin bermain... sebuah game
+Siapa di sana?
+Kekosongan gelap menimpa the arena!
+Melewati badai, menuju Booyah!
+AKULAH badai!
+Hanya yang terkuat yang bertahan dari badai
+Capai prime-mu!
+Keajaiban? Bukan, cuma skill!
+Pergi dari sini, bot!
+Yep, kembali ke lobby kamu!
+Semoga lebih beruntung lain kali!
+Kamu cukup pandai berkata-kata
+Kamu akan merasa bangga
+Hei, fokuslah belajar. Jadilah IAS officer atau semacamnya.
+Kami mulai karena tidak punya pilihan, tapi sekarang kami menikmatinya
+Kami yang pegang tempat ini.
+Itu juga bisa
+Berisiko
+Kamu belajar pelan, pelan
+Red flower, blue flower, Munna Bhaiya is beautiful
+Keren sekali, boss
+Yang satu ini gila! Benar-benar mengubah seluruh sistem.
+Ya, maksudku, kami belum kepikiran soal itu, tapi nanti akan kami pikirkan.
+Kau monster kecil!
+Rasakan penderitaanku!
+Di mana timku?
+Mereka menangkapku!
+Oh, kau sedang melakukan sihir
+Cuma itu saja? Ahhh!
+Purry Slippers
+Cloaked Terror (Shoes)
+Melon Shoes
+2026 FFWS Champion (Top)
+Cloaked Terror (Top)
+Duel of Honor
+Sedikit lagi
+Coba lebih giat
+Menghancurkan {0}
+{0} mendominasi {1} dalam Lone Wolf Duel of Honor.
+Microphone perlu diaktifkan
+Tekan untuk membuka situs web manajemen turnamen
+Pendaftar ini tidak dapat bergabung dengan tim turnamenmu karena mereka tidak punya cukup Diamond untuk membayar deposit.
+Turnamen telah dibatalkan. Deposit Anda telah dikembalikan melalui pesan ini.
+Anda telah berhasil check in untuk tournament. Deposit Anda telah dikembalikan melalui pesan ini.
+Pembuat turnamen telah menambahkanmu ke turnamen. Sebelum turnamen dimulai, buka detail turnamen untuk melihat registrasi, check-in, dan susunan match.
+Kamu telah dikeluarkan dari turnamen oleh pembuatnya. Untuk terus berpartisipasi, silakan daftar lagi atau hubungi pembuat turnamen untuk konfirmasi.
+Kelayakanmu untuk mengikuti telah dicabut oleh pembuat turnamen karena tindakanmu sendiri. Depositmu tidak akan direfund.
+Deposit Turnamen Direfund
+Deposit Turnamen Dikurangi
+Kamu dapat memulai turnamen yang kamu buat secara manual dari website manajemen turnamen
+Kamu telah berhasil bergabung dalam turnamen. Deposit kamu akan dikembalikan melalui mail setelah tim turnamen dikelompokkan.
+Kamu telah berhasil bergabung dengan tim turnamen. Deposit Diamond yang diperlukan telah dipotong. Deposit akan dikembalikan melalui pesan setelah kamu check in atau memenuhi persyaratan refund.
+Tim turnamen telah menyetujui request masuk kamu, tapi kamu tidak punya cukup Diamond untuk membayar deposit dan tidak bisa bergabung dengan tim.
+Kamu telah berhasil mendaftar untuk bergabung dengan tim turnamen. Deposit Diamond yang diperlukan akan dipotong setelah application kamu disetujui.
+Anda meninggalkan turnamen selama periode pendaftaran. Deposit Anda telah dikembalikan melalui pesan ini.
+Pemberitahuan Tournament
+Turnamen yang kamu buat sudah berakhir. Silakan kunjungi website manajemen turnamen untuk membagikan hadiah.
+Elim./Knockdown Info
+Comic Book Filter
+Cyberpunk Filter
+Sketch Filter
+Golden Era Filter
+Grup Emoji belum terbuka. Silakan dapatkan di luar match terlebih dahulu.
+Pixel Filter
+RGB Split Filter
+Penampakan aneh ditemukan
+Geser layar untuk menemukan penampakan aneh
+Dapat dilewati dalam {0}d
+Konten menyeramkan akan muncul. Lewati jika tidak ingin melihatnya.
+Potret Bernoda Merah
+Figur Lorong
+Tentakel Di Bawah Meja
+Bayangan Tangga
+Wanita di Layar
+Klaim hadiah berulang untuk mendapatkan item berikut:
+Klaim hadiah berulang untuk menerima hadiah acak dari berikut:
+Ikuti event Jejak Mistis dan dapatkan banyak hadiah!
+Jejak Mistis
+Album
+Gameplay
+Misi Harian
+Token tersisa: [af2020]{0}[-]
+Revenge G36
+Cakar Mistis
+Bangkitkan Jejak Mistis
+Hadiah Gratis Menunggumu
+Baru
+Belum ditemukan: Eksplorasi area aneh Idi Match untuk membuka
+Belum ditemukan: Eksplorasi area aneh di Match untuk membuka
+Stroller
+Bola
+Mobil Aneh
+Boneka Rusak
+Kotak Musik
+Kuda Goyang
+Gerbang Bayangan
+Sosok Samar
+Dark Shadow
+Jejak Tangan Merah
+Pintu Hitam
+Potret Wanita Menangis
+Furnitur Melayang
+Black Claw
+Crying Mask
+Batu Misterius
+TV Glitch
+Furniture Melayang
+Topeng Aneh
+TV Glitch
+Mobil Mengapung
+Pintu Hitam Aneh
+Jejak Tangan Bergerak
+Poster Mata Bergerak
+Sosok Tinggi Kurus
+Bayangan di kolam
+Penduduk Misterius
+Orang Mengambang
+Belum ditemukan: Lanjutkan menyelidiki manor untuk membuka
+{0}/{1}
+Klaim Title
+Kumpulkan {0} entri Album untuk klaim hadiah title ({1}/{2})
+Album Event
+Album di Match
+Album
+1. Pemain yang tereliminasi akan memasuki sisi tersembunyi dalam bentuk Boneka, di mana mereka dapat mengikuti rekan satu tim yang masih bertahan dan mengirimkan gelembung buff untuk membantu mereka. \n2. Rekan satu tim yang masih bertahan juga dapat menggunakan Reveal Mask untuk memasuki bentuk bertopeng, sehingga mendapatkan kecepatan gerak yang lebih tinggi dan lompatan yang lebih tinggi. \n3. Jelajahi sisi tersembunyi untuk menemukan penampakan aneh dan berinteraksi dengannya untuk mendapatkan persediaan.
+Battle Royale
+Masuk ke Sisi Tersembunyi sebagai Boneka!
+Dapatkan Reveal Mask dan Strange Weapon dari Cyber Airdrop dan CS Store untuk membantumu memenangkan pertempuran!
+Clash Squad
+Reveal Masks dan Strange Weapons
+Battle Royale
+Clash Squad
+Gameplay
+Tutorial
+1. Selesaikan tugas harian untuk mendapatkan token event.\n2. Gunakan token di halaman event untuk mengamati manor dan melanjutkan investigasi.\n3. Capai milestone untuk mengklaim hadiah milestone. Setelah menyelesaikan semua milestone, kamu dapat terus mengklaim hadiah berulang.\n4. Di milestone utama, geser di tampilan camcorder untuk menemukan penampakan aneh dan trigger  urutan yang sesuai.\n5. Buka entri Album untuk meninjau penampakan aneh yang ditemukan. Capai target progres koleksi untuk klaim hadiah Album.\n6. Geser menyamping di halaman event untuk menjelajahi manor dan kemungkinan trigger rangkaian adegan
+Peraturan
+Hadiah Gratis!
+Jejak Mistis
+Nyalakan lampu jika diperlukan
+Amati
+Panik
+Sekilas tentang Manor Aneh
+{0}/{1}
+Token tersisa hari ini: [fs=26][af2020]{0}[-][/fs]
+Log in antara {0} - {1} untuk mendapatkan hadiah eksklusif!
+Hadiah event login telah berakhir. Sampai jumpa di event selanjutnya!
+Hadiah Login
+Hadiah Login
+Capai milestone untuk mendapatkan hadiah berikut:
+Swipe layar untuk mengeksplorasi manor
+Tahan area kosong dan geser ke samping
+Kamu sudah memiliki semua Hadiah Utama. Tetap beli?
+Lanjutkan Pembelian
+Lanjut Spin
+Kamu sudah memiliki semua Hadiah Utama. Tetap Spin??
+Diskon tertinggi diperoleh
+Bundle otomatis dibuka
+Kesempatan Respin
+Diskon baru
+Diskon sebelumnya
+SPIN UNTUK [ffe24a]DISKON[-]
+SPIN UNTUK DISKON
+BELI SEKARANG
+Gunakan [S0][ffe400]{0}[-] lagi untuk membuka Hadiah Utama
+Hadiah Utama telah terbuka
+Diskon Tertinggi!
+Diskon Bagus!
+Diskon lebih baik dijamin di spin ini!
+Diskon yang lebih besar dijamin dalam [ffe400]{0}[-] spin!
+RE-SPIN
+Diskon lebih besar!
+Semua misi telah selesai
+Pertahankan diskon sebelumnya!
+Diskon Sama
+Dapatkan diskon yang lebih baik
+1. Saat pertama kali masuk event, lakukan spin untuk mendapatkan diskon awal.\n2. Selesaikan misi respin untuk mendapatkan kesempatan respin diskon.\n3. Kamu bisa mendapatkan hingga {0} respin untuk setiap event.\n4. Saat kamu respin, diskon baru akan dibandingkan dengan diskon saat ini, dan diskon yang lebih baik akan dipilih secara otomatis.\n5. Diskon yang lebih baik dijamin dalam {1} spin.
+SPIN DISKON
+Diskon Probability
+1. Membeli item selain Hadiah Teratas akan menambah progress pembukaan Hadiah Teratas.\n2. Setelah progress penuh, Hadiah Teratas akan terbuka untuk dibeli.\n3. Setelah terbuka, SEMUA Hadiah Teratas akan tersedia untuk dibeli.
+BELI
+Diskon Saya
+Share Mystery Shop
+Gunakan {0}/{1} diamond di Mystery Shop
+Prime Lv{0}
+Diamond yang dihabiskan dalam event diskon terbaru
+Mainkan {0}/{1} match BR/CS-Ranked
+Bermain selama {0}/{1} menit
+Acara diskon terbaru meliputi hal berikut:
+Mystery Shop Exclusive
+Relay Mart
+Lucky Wheel
+SPIN
+Terbatas: {0}/{1}
+GO
+SHARE
+BELUM SELESAI
+SUDAH KLAIM
+LIMIT TERCAPAI
+Selesaikan misi untuk mendapatkan respin
+SUPER DISKON
+Gunakan diamond untuk membuka semua Hadiah Utama
+Gagal klaim hadiah. Silakan coba kembali nanti.
+Yakin untuk meninggalkan Squad ini?
+Hadiah yang belum diklaim akan diklaim secara otomatis
+Gagal meninggalkan Squad. Mohon coba kembali nanti.
+Status squad telah di-update. Silakan refresh dan coba kembali.
+Hapus pencarian
+Bagian yang tidak dipilih akan tetap menggunakan yang sedang dipakai.
+Tidak ada outfit yang cocok ditemukan
+Cari nama outfit
+Armor menerima DMG Flame Grenade
+Membuat area terbakar di tanah yang bertahan selama beberapa saat
+Menerima DMG Flame Grenade
+Flame Grenade
+Mendeteksi musuh dalam jangkauan setelah dilempar
+Sonar Grenade
+Posisi yang diungkap oleh Sonar Grenade
+Peringatan Jarak Safe Zone
+Main Rank untuk mengurangi waktu yang perlukan untuk reignite
 Harga berdasarkan jumlah Diamod yang tersisa.
 Semakin [57CAFD]sedikit[-] yang kamu punya, semakin [FFA83A]besar diskonnya[-]!
 Harga Diamond Pack
@@ -73697,7 +75910,7 @@ SMG Ammo
 Sniper Ammo
 SPAS12
 SVD
-TEC9
+TEC-9
 UMP
 USP
 Vest rusak
@@ -74180,7 +76393,7 @@ Suvenir dari circus, datang dengan tepuk tangan penonton.
 Juicy Apple
 Angkat Pemblokiran
 Sebelum bisa bermain kembali, dibutuhkan diamond top-up sebesar:
-Dear Survivor, kamu telah mengajukan dan menerima refund untuk pembelian baru - baru ini, meskipun telah menerima item. Hal ini membuat kami terpaksa menindaklanjuti akun kamu dengan mengurangi diamond, hingga menyebabkan akun terkena blokir. Kamu dapat menghubungi Customer Service kami untuk informasi lebih lanjut https://help.garena.co.id/
+Hi Survivor, Kamu telah mengajukan dan menerima refund untuk pembelian baru-baru ini, meskipun item telah diterima. Hal ini membuat kami tidak punya pilihan selain menghapus Diamond atau yang setara nilainya dari akunmu, yang berakibat pada pembatasan akun. Kami menghargai pengertian kamu saat kami terus berupaya menjaga lingkungan permainan yang adil untuk semua pemain.
 Notifikasi Pelanggaran
 Memakai
 Gagal equip semua
@@ -76088,6 +78301,177 @@ VAULT
 AVATAR
 WARNA KULIT
 Customer Service
+Mendapatkan Super Emote
+Jumlah yang dikumpul tidak mencukupi untuk Super Emote
+Fire Scroll
+Earth Scroll
+Water Scroll
+Mendapatkan buff kecepatan gerak setelah mengayun
+Backpack - Wind Shuriken
+Backpack - Tsunade's Cloak
+Backpack - Ship
+Backpack - Omnitrix
+Ben 10 Banner
+Alien X Power
+Hinata Avatar
+Heatblast Avatar
+Alien X Avatar
+Loot Box - Froggy Wallet
+Parang - Diamondhead Machete
+MAG-7 - Ben 10
+NARUTO SHIPPUDEN collaboration music
+Blue Bird
+NARUTO SHIPPUDEN collaboration theme song
+Main Theme
+Skyboard - Hoverboard
+Heatblast
+Ben 10 Look Changer
+Alien X
+Jeep - Rustbucket RV
+Hinata Bundle
+Lucky Girl Bundle
+Gwen Tennyson Bundle
+Ben Tennyson Bundle
+Kamu telah mendapatkan Super Emote Gamabunta, namun kamu belum klaim. Jangan khawatir, kami telah memberikannya melalui mail, Ayo Pamer ke temanmu!
+Hadiah Super Emote
+Kolaborasi NARUTO SHIPPUDEN pertama sangat seru! Kini, para ninja telah kembali!
+Selamat Datang Kembali, Ninja
+Capture Sharingan: Kendalikan dan perintahkan Ekor Sembilan untuk menghancurkan area. Musuh di dalamnya akan menerima damage berkelanjutan.
+Keberanian Hinata
+Pilih 1 dari 2 hadiah untuk dijadikan Hadiah Utama. Hadiah lainnya akan tersedia untuk dibeli.
+Konfirmasi untuk memilih outfit berikut sebagai hadiah utama?
+Konfirmasi
+Di Toko CS, shurikens  akan menggantikan pistol di ronde pertama.
+Didapatkan di Event Original
+Mini Pass
+Buka Hadiah milestone untuk membeli
+Selamat! Kamu telah mendapatkan Super Emote ini!
+Ninja Return
+NARUTO SHIPPUDEN Sticker Choice Crate
+Sharingan: Control
+Event Ekor Sembilan
+Item Ninjutsu
+Makan
+Sharingan: Control captured
+Capturing Sharingan: Control
+Batal
+Konfirmasi
+Geser untuk memilih spot
+Pilih area ledakan
+Saat digunakan, buka peta dan pilih area agar Ekor Sembilan melepaskan  Tailed Beast Bomb
+Sharingan: Control
+Tidak dapat memilih area ini
+Sharingan: Control obtained
+Tekan dimanapun untuk skip
+Sharingan: Control has appeared
+Kendalikan Ledakan Ekor Sembilan
+Ninjutsu,Ninja tools, dan Sharingan: Kontrol yang mengendalikan ledakan Ekor Sembilan akan muncul
+Event Ekor Sembilan
+Ninja Academy
+Melepaskan 8 Trigrams Palm Rotation
+Melepaskan 8 Trigrams Palm Rotation
+Knockback oleh 8 Trigrams Palm Rotation
+8 Trigrams Palm Rotation Knockback
+Konckback Musuh
+Dash kedepan dan membuat chakra shield yang memblokir physical damage dan knocks back musuh
+8 Trigrams Palm Rotation
+Membuat chakra shield untuk melindungi dirimu dan knock back musuh
+Hidden Leaf Village
+Ekor Sembilan akan menyerang pesawat!
+Pesawat Diserang
+Serangan Ekor Sembilan telah meninggalkan puing-puing di tanah.
+Serangan Ekor Sembilan
+Serangan Ekor Sembilan telah menghancurkan arsenal!
+Blasted Arsenal
+Damage diberikan
+Danger Zone
+Tailed Beast Bomb jatuh
+Berlindung dirumah!
+Ekor Sembilan sedang mengamuk di area ini!
+Ichiraku Ramen Shop
+Buff diterima
+Mengayun
+Mengayun
+Shadow Clone Jutsu
+Charging Rasengan
+Fist Bump!
+Frame NARUTO SHIPPUDEN
+Naruto Sticker
+Sakura Sticker
+Kakashi Sticker
+Sasuke Sticker
+Jiraiya Sticker
+Rock Lee Sticker
+Hinata Sticker
+Orochimaru Sticker
+Deidara Sticker
+Minato Sticker
+Itachi Sticker
+Tsunade Sticker
+2026 Free Fire x NARUTO SHIPPUDEN
+2026 Free Fire x Ben 10
+Hinata
+Ben Tennyson
+Lucky Girl
+Gwen Tennyson
+BEN 10
+Grey Matter Mask
+Vilgax Mask
+Ben 10 Voucher
+Kakashi's ANBU Black Ops Mask
+Hinata Headwear
+Lucky Girl Mask
+Hinata Bottom
+Lucky Girl Bottom
+Gwen Tennyson Bottom
+Gaara's Tattoo
+Hinata Shoes
+Lucky Girl Shoes
+Gwen Tennyson Shoes
+Hinata Top
+Lucky Girl Top
+Gwen Tennyson Top
+Ben Tennyson Bottom
+Ben Tennyson Shoes
+Ben Tennyson Top
+Naruto Voice Pack
+Sasuke Voice Pack
+Sakura Voice Pack
+Kakashi Voice Pack
+Jiraiya Voice Pack
+Hinata Voice Pack
+Naruto Voice Pack
+Sasuke Voice Pack
+Sakura Voice Pack
+Kakashi Voice Pack
+Jiraiya Voice Pack
+Hinata Voice Pack
+Bagaimana bisa kamu jadi Hokage jika tidak bisa menyelamatkan temanmu?
+Kita jatuh bersama, Sasuke.
+Impianku menjadi Hokage!
+Karena kita teman!
+Rasengan!
+Shadow Clone Jutsu!
+Aku kalah.
+Ninja Loser.
+Menghilang bersama guntur!
+Amaterasu!
+Hahahahahaha!
+Cha!
+Kurasa aku akhirnya menyusul mereka berdua!
+Kali ini, aku ingin kalian semua memperhatikan ku dari belakang!
+Yo! Pagi, semuanya! Aku sedikit tersesat di jalan hidup hari ini...
+Siapa pun yang tidak menghargai teman-temannya tidak lebih baik dari sampah!
+Aku tak akan membiarkan siapa pun menghabisi teman-temanku!
+Taruhan, menurutmu aku gagal.
+Aku tidak akan pernah menyerah! Itulah pilihan sejati yang harus kuambil!
+Katak di dalam sumur tidak akan bertahan di lautan luas.
+Karena... Aku sangat suka Naruto!
+Aku berdiri di sini atas kemauan sendiri.
+Aku tidak pernah mengingkari janjiku... itulah jalan ninjaku!
+Ben 10 Token
+Hidden Leaf Token
+Hidden Leaf Special Token
 Jenis Monster
 Jenis VFX
 Target Serangan

@@ -1,4 +1,4 @@
-Región no válida
+Región no válida. Ponte en contacto con Soporte al jugador.
 Límite diario de "Me Gusta" alcanzado
 Incluye contenido sensible
 No puedes usar caracteres especiales.
@@ -6,7 +6,7 @@ La descripción contiene palabras inadecuadas. Revísala y vuelve a enviarlo.
 El nombre contiene palabras inadecuadas. Revísalo y vuelve a enviarlo.
 Nombre ya existente
 Solicitud fallida. Por favor, cambia la cuenta de la plataforma e inténtalo de nuevo. (2)
-Versión no compatible, es necesario reinstalar.
+Versión de cliente no compatible, es necesario reinstalar.
 Insignia no válida. Inicia sesión de nuevo para verla.
 No se pudo equipar
 No tienes el objeto equipado o ya expiró
@@ -28,7 +28,7 @@ No tienes suficientes puntos de actividad
 La misión ya comenzó
 Número de ID vacío
 Región no válida para el evento
-No se pudo obtener, intenta nuevamente
+Error al obtener. Intenta de nuevo más tarde.
 ID de evento no válida
 ID de Llave no válida
 ID de recompensa no válida
@@ -41,6 +41,7 @@ Ya compraste Premium. No repitas tu compra.
 No hay recompensas disponibles
 El tutor alcanzó el máximo de cuentas de menores que puede supervisar. No podemos enviar tu solicitud.
 Actualmente en enfriamiento, la desvinculación no puede ser cancelada, inténtalo de nuevo más tarde
+Información de desvinculación actualizada. Espera mientras la página se recarga.
 La desvinculación está en enfriamiento. Inténtalo de nuevo más tarde.
 Una cuenta de invitado no puede ser tutor de la cuenta de un menor.
 Este jugador tiene demasiadas solicitudes de vinculación pendientes. Inténtalo de nuevo más tarde.
@@ -92,6 +93,7 @@ Error de config.
 Esta misión no puede actualizarse
 Has alcanzado el límite de actualización
 No hay recompensas de misiones diarias para obtener. (Progreso insuficiente o ya fueron obtenidas)
+Límite de compra alcanzado
 No se pudo enviar el dúo del Pase Booyah. El emisor o receptor no ha alcanzado el nivel requerido.
 Todavía no se puede abrir
 Parámetro de cliente incorrecto
@@ -433,7 +435,7 @@ Modo tutorial no válido
 Configuración de "Me Gusta" no válida
 Recompensa ya obtenida. No es posible obtener de nuevo.
 La recompensa todavía no está desbloqueada
-BR_FRESH_ROOKIE_ANSWER_ALREADY_CLAIMED
+Ya respondiste las preguntas de hoy, ¡regresa mañana!
 No puedes añadir a este amigo ahora mismo. Intenta de nuevo más tarde.
 No puedes agregar amigos ahora mismo. Intenta más tarde.
 El Dúo Dinámico ya está formado
@@ -442,6 +444,7 @@ Solicitud ya enviada a este jugador
 Lista de bloqueados llena
 No puedes poner tu propio ID
 Ya en la lista de amigos
+Error en la solicitud de amistad. La lista de solicitudes de este jugador está llena. Intenta de nuevo más tarde.
 No se puede enviar una solicitud de amistad a un jugador al que has bloqueado. Por favor, desbloquéalo primero.
 Solicitud enviada
 ID no válido, intente nuevamente
@@ -465,6 +468,7 @@ Este jugador ya es un amigo destacado.
 Máximo número de amigos destacados alcanzado.
 Este jugador no está en tu lista de amigos.
 En período de protección ahora, no es posible resolver
+Error de información. Vuelve a iniciar sesión.
 Región No Disponible
 Región no disponible
 Miembro de una Legión
@@ -561,7 +565,7 @@ Aspecto de color no válido.
 Error al recuperar información
 Error en precio, por favor contacte a soporte
 ID de configuración no válido
-ID de privilegio no válido
+Evento finalizado
 Moneda no válida
 No cumples con los requisitos para usar el cupón de descuento.
 Aspecto de vehículo no válido.
@@ -575,6 +579,7 @@ Límite de compra alcanzado
 Oro insuficiente
 Diamantes insuficientes
 Error en el objeto actual. Encuentra el objeto en tu inventario o comunícate con Soporte al Jugador.
+No tienes suficientes Diamantes Prime
 Tickets insuficientes
 Se han desequipado los aspectos expirados
 Compra fallida
@@ -786,8 +791,9 @@ Recompensa ya obtenida
 Estrellas insuficientes. No es posible obtener la recompensa.
 Error al adquirir datos
 No es posible ver el % de caída
-Prime level has not reached 7
+No has alcanzado el nivel 7 de Prime
 Error de red
+Error de información. Vuelve a iniciar sesión.
 No se puede desbloquear porque el nivel de personaje es demasiado bajo
 Habilidad activa ya equipada. No es posible equipar más de una
 El personaje no puede equiparse esta habilidad activa
@@ -889,8 +895,16 @@ Longitud de mensaje inusual
 El mensaje contiene caracteres prohibidos.
 Sin progreso suficiente
 Esperando que la solicitud anterior se complete
+Límite de obtención alcanzado
+No se han obtenido todos los objetos requeridos
+Cacería de premiosn terminó
 ID de Cacería de premios inválido
+ID de recompensa dela  colección no válido
+Solicitud de giro no válida
+Solicitud de giros no válida
+Tipo de giro no válido
 Solicitud inválida para cambiar el grupo
+No tienes suficientes diamantes
 La Cacería de premios aún no ha comenzado
 Grupo de premios de Cacería de premios inválida
 Falta información de configuración
@@ -963,6 +977,7 @@ Ya invitaste a este amigo
 ID de recompensa inválido
 Tipo recompensa inválido
 Las regiones de la escuadra no coinciden
+Este código QR ya no es válido
 El evento no está disponible por ahora
 No está en la escuadra
 Se requiere una invitación para unirse a escuadras privadas
@@ -1030,9 +1045,13 @@ Espacio bloqueado
 Emparejamiento Fallido: No se encontraron equipos adecuados
 No tienes permiso para acceder a funciones relacionadas con la membresía
 No se encontraron mapas recomendados
+Compra fallida, Gemas de creación insuficientes.
+Error al comprar. Límite máx. de compra alcanzado.
 Máx. creadores fijados
 Límite de fijados alcanzado
 Máx. mapas fijados
+Información del producto actualizada (el precio cambió), actualiza e inténtalo de nuevo.
+Información del producto actualizada (producto sin conexión), actualiza e inténtalo de nuevo.
 Datos incorrectos: Se alcanzó la cantidad máxima de etiquetas
 Recompensa obtenida
 Aún no sigues a este creador
@@ -1046,13 +1065,13 @@ El jugador ya está emparejando (MM32)
 El número de miembros del equipo no cumple con el requisito (MM31)
 No eres el líder del equipo (MM30)
 No se puede espectar a este jugador porque está utilizando un emulador.
-No puedes espectar una partida en donde haya alguien que hace trampa.
+No puedes espectar esta partida en este momento.
 Tu amigo no está en ninguna partida
 Se alcanzó el límite de espectadores
 Ya tienes una Flamma
 Tú y el otro jugador no son un Dúo Dinámico
-La Flamma de tu Dúo Dinámico aún no ha alcanzado el nivel necesario
-Tu Dúo Dinámico aún no tiene una Flamma
+La Flamma de tu amigo aún no ha alcanzado el nivel necesario
+Tu amigo aún no tiene una Flamma
 El ID del color no existe
 No te quedan giros
 El grupo de premio aún está bloqueado
@@ -10387,7 +10406,7 @@ Total de giros
 Oferta de límite de compras: {0}
 ¿Confirmas que deseas eliminar estos premios de la bolsa?
 Eliminado
-Antes de girar, toca el botón de la izquierda para eliminar 2 premios que no quieras.
+Toca 2 objetos para eliminarlos. Confirma para continuar
 Los premios ya obtenidos no se repetirán. Los diamantes requeridos aumentarán con cada giro.
 1. Participa usando diamantes. Los premios ya obtenidos no se repetirán. Cada giro posterior requerirá más diamantes. Diamantes por giro: {0}
 2. Antes de girar, el jugador puede eliminar 2 premios no deseados [FFBA00](excepto el premio mayor)[-], aumentando así la probabilidad de ganar el gran premio.
@@ -11481,7 +11500,7 @@ Aspecto de Mascota: Wagger Eléctrico
 Exuberante, rico, adinerado. Las palabras no alcanzan para describirlo.
 Aspecto de Mascota: Wagger Bling Bling
 No hay mensajes recientes
-La entrada a la zona de combate aún no está abierta. Sobrevivientes, por favor esperen un momento.
+El campo de batalla aún no está disponible. Sobrevivientes, revisen los canales oficiales para más detalles.
 Grupo de jugadores correspondiente no encontrado. Emparejamiento fallido. (MM9)
 Lo sentimos, la suscripción no es compatible con la tienda de tu dispositivo
 El sistema ha detectado actividades anormales en tu cuenta. La cuenta ha sido suspendida temporalmente. Descarga Free Fire solo de los canales oficiales. Puedes volver a jugar normalmente una vez que se levante la suspensión de la cuenta.\nLa suspensión termina en:
@@ -15596,7 +15615,7 @@ Privado
 Público
 Privacidad
 Más alto
-Información del Jugador
+Información del jugador
 Firma
 Amo Free Fire
 Estilo Social
@@ -15690,7 +15709,7 @@ Objetos no disponibles para compra
 No disponible
 Aditamentos Battle Royale
 La velocidad al manejar aumenta [FFB300]{0}%[-]. Mientras el personaje está en el vehículo, es más difícil apuntarle y el daño recibido disminuye en [FFB300]{1}%[-].
-Crea un campo de fuerza impenetrable que bloquea [FFB300]{0} de daño[-]. No permite atacar a enemigos fuera del campo desde dentro. Duración de todos los efectos [FFB300]{1}s[-]. Enfriamiento [FFB300]{2}s[-].
+Crea un campo de fuerza impenetrable que bloquea [FFB300]{0} de DAÑO[-]. No permite atacar a enemigos fuera del campo desde dentro. Duración de todos los efectos [FFB300]{1}s[-]. Enfriamiento [FFB300]{2}s[-].
 El daño aumenta con la distancia, hasta [FFB300]{0}%[-]. El daño a los enemigos marcados aumenta un [FFB300]{1}%[-].
 Renacimiento: Reduce el [FFB300]{1}%[-] de daño frontal por cada [FFB300]{0}%[-] de PV perdidos.
 Habilidad Renacida: Activada después de [FFB300]{0}s[-] de correr, los primeros [FFB300]{2}[-] disparos al objetivo infligen [FFB300]{1}%[-] de daño. Duración [FFB300]{3}s[-].
@@ -19917,7 +19936,7 @@ Mantén tu clasificación DE en el top {0} hasta el final de esta temporada y ga
 Acumula [FFBA00]{0}[-] puntos para alcanzar el rango de Gran Maestro
 Alcanza el rango Maestro {0}[S0] para llegar al rango Gran Maestro
 TOP
-[FFB300]{0}s[-] después de haber sido atacado, recupera [FFB300]{1}PV[-]/s durante [FFB300]{2}s[-].
+[FFB300]{0}s[-] después de recibir daño, recupera [FFB300]{1}PV[-]/s durante [FFB300]{2}s[-].
 Después de eliminar a un enemigo, se revelarán las posiciones de otros enemigos a {0}m del lugar de eliminación. La información se compartirá con los compañeros de equipo.
 Tiro Ganador
 Memoria Fotográfica
@@ -21915,7 +21934,7 @@ Sr. Wagger
 Disparo a la cabeza anormal
 Disparo a través de barrera
 Movimiento Anormal
-Caminé a través de barreras
+Caminó a través de barreras
 Mensaje ya reportado
 Caja de Suministros
 Batería
@@ -27479,7 +27498,7 @@ Tú has sido de gran ayuda. Aquí hay un regalo para ti. Continuemos la batalla.
 ¿Cómo era antes? Ha pasado tanto tiempo. Llegará el momento oportuno en que se los contaré todo.
 Trato de no pensar en ello, pero es difícil no preguntarse cuándo terminará todo este conflicto.
 Fuerte Revolución
-Libro Revolución
+Revolución2022
 Revolución: Unidos
 Fuerte Revolución
 Pergamino: Dominio de los Elementos
@@ -28073,7 +28092,7 @@ La pestaña ESPECIAL combina aspectos legendarios, el hiperlibro, etc. para hace
 ESPECIAL
 Sin contenido
 Un libro místico con poderes ancestrales contenidos en sus páginas.
-Hiperlibro Revolución
+Revolución
 Dino Ilusión (Inferior)
 ¡Te acaban de hacer una broma!
 Perfecto
@@ -33114,7 +33133,7 @@ Entrega del Pedido
 Has pedido con éxito {0}, llegará el {1} a través de tu correo del juego.\nP.D. Obtén tu recompensa preordenada aquí.
 Aviso: Ha llegado tu pedido
 Tesoros con poder galáctico sellados en sus páginas
-Hiperlibro Galaxia
+Galaxia
 Suscrito exitosamente al Pase Booyah
 Se activa una vibración de pantalla cuando golpeas con éxito a un enemigo
 El primero en marcar un gol gana
@@ -38226,10 +38245,10 @@ Tokens convertidos:
 Confirmar para obtener
 Conversión de Tokens Evo Universales
 Un libro místico con poderes ancestrales contenidos en sus páginas.
-Hiperlibro del Infierno
+Infierno
 Página secreta {0}
 Un libro místico con poderes ancestrales contenidos en sus páginas.
-Hiperlibro de Runas
+Runas
 Flecha 2
 {0} [bababa](de {1})[-]
 {0} min
@@ -43972,7 +43991,7 @@ Dulce Asalto
 Pesca Frenética
 Límite alcanzado
 Un libro místico con poderes ancestrales contenidos en sus páginas.
-Hiperlibro de Filo
+Filo
 Premio mayor garantizado en tu siguiente giro
 ¡Suerte en el próximo giro!
 Suerte increíble
@@ -45040,7 +45059,7 @@ Función de formar equipos suspendida
 Función de formar equipos suspendida. Clasificación suspendida.
 Función de formar equipos suspendida. Clasificación suspendida. Rango restablecido.
 Procesado
-Evidencia no suficiente
+En observación
 Bajo revisión
 Recompensa Racha de Honor
 Inicia sesión y mantén una Puntuación de Honor acumulada de 100 durante un determinado número de días para obtener las recompensas correspondientes.
@@ -45686,7 +45705,7 @@ Ya has aceptado la Misión de Caza del Carnicero Malvado
 Seguir
 El Carnicero Malvado ha escapado. Misión fallida.
 Advertencia
-REVIVISTE
+REVIVIR
 El(los) compañero(s) de equipo ha(n) abandonado la partida. No es posible revivir.
 Tarjeta de Protección de Rango DE
 Te protege de perder tu rango si tu siguiente partida en DE-Clasificatoria te hace bajar de rango.
@@ -46712,7 +46731,7 @@ La velocidad de recarga aumenta en [FFB300]{0}%[-]. Cada vez que el usuario de l
 Renacido: Cuando el potenciador de aumento está al máximo, el [FFB300]primer impacto[-] al objetivo infligirá[FFB300]{0}%[-] de daño.
 Hazte inmune a efectos disruptivos (ej. alentamientos, marcado, silencio de habilidades) y obten un [FFB300]{1}%[-] potenciador de velocidad de movimiento por [FFB300]{2}s[-].Enfriamiento:[FFB300]{0}s[-].
 Al correr, la velocidad de movimiento aumenta por [FFB300]{0}%[-] por segundo(max. [FFB300]{1}%[-]). Cada potenciador de incremento dura por [FFB300]{2}s[-].
-Tras derribar a un enemigo o usar una habilidad activa, [FFB300]{0}%[-] del cargador del arma se recargará automáticamente
+Tras derribar a un enemigo o usar una habilidad activa, recuperarás [FFB300]{0}%[-] del cargador del arma automáticamente
 Cuchara de Plata
 Inmune a disrupciones
 Aumenta la velocidad de recarga y causa una deducción de curación a los enemigos golpeados.
@@ -48301,7 +48320,7 @@ Básico
 Personalizado
 No está disponible. ¡No dejes de comprobarlo!
 Un libro místico con poderes ancestrales contenidos en sus páginas.
-Hiperlibro Fuego Glacial
+Fuego Glacial
 Resurrección de todo el equipo
 Exponer Ubicación
 Revivir a Todos los Aliados
@@ -48437,6 +48456,7 @@ Puntuación mínima
 Modo de tiempo limitado
 Partida
 Competencia
+Mensaje de Guerra de Clanes
 ¡Nuevo récord!
 Nueva ronda
 Siguiente Ronda
@@ -50935,7 +50955,7 @@ Abre para recibir un aspecto de arma aleatorio de la colección Mordida venenosa
 Caja de Armas Mordida venenosa (USP + USP-2)
 Abre para recibir un aspecto de arma aleatorio (VSS) de la colección de armas Precisión callejera
 Caja de Armas Precisión callejera (VSS)
-Abre para recibir un aspecto de arma aleatorio (AWM) de la colección de armas Suspiro mortal
+Abre para recibir un aspecto de arma aleatorio de AWM - Suspiro mortal
 Caja de Armas Suspiro mortal (AWM)
 Abre para recibir un aspecto de arma aleatorio (M60 + M24) de la colección de armas Fuego fatuo
 Caja de Armas Fuego Fatuo (M60 + M24)
@@ -51945,7 +51965,7 @@ Pirámide triangular
 [FFBA00]Aniquilación Booyah[-]\nActiva este efecto de eliminación cuando hagas Booyah en cualquier modo.\n[FFBA00]Equipo Exterminado[-]\nActiva este efecto de eliminación cuando elimines al último miembro de un equipo enemigo.
 Efecto del giroscopio en el lobby
 Un libro místico con poderes ancestrales contenidos en sus páginas.
-Hiperlibro Luz y Sombra
+Luz y Sombra
 Paquete de voz exclusivo del evento
 Paquete de voz exclusivo del clan
 ¡Jugar será aún más divertido con las voces especiales de los miembros de JKT48!
@@ -53015,7 +53035,7 @@ El mejor compañero del equipo derrotado puede activar la protección de estrell
 Se activó la protección de estrellas por jugar bien.
 Ten una estrella adicional por una gran partida.
 Elimina o ayuda a jugadores {0} vez(es)
-¡Es hora de celebrar! (El usuario podrá colocar regalos secretos, como cantidades aleatorias de tickets de Oro o Diamante Royale, en la Isla de inicio. Los regalos estarán disponibles para 10 jugadores).
+¡Es hora de celebrar! (El usuario podrá colocar regalos secretos, como cantidades aleatorias de aditamentos, oro o tickets en la Isla de Aparición. Los regalos estarán disponibles para 10 jugadores).
 7 Aniversario
 Clásico
 Multiselección
@@ -53869,13 +53889,13 @@ Cada eliminación aumenta los Puntos de escudo máximos permanentemente en [FFB3
 Entra en el estado Extremo y obtén instantáneamente [FFB300]{1}[-] Puntos de escudo temporales durante [FFB300]{0}[-]s, durante los cuales cada derribo de enemigos añadirá [FFB300]{2}[-] Puntos de escudo temporales y restablecerá la duración del estado. Una vez finalizado este estado, se eliminarán todos los Puntos de escudo obtenidos durante este proceso. Enfriamiento: [FFB300]{3} s[-].
 Recibiste Escudo de Chakra
 Estás en llamas y pierdes PV por s debido al Jutsu Bola de Fuego
-Un Ninjutsu que permite al usuario lanzar una bola de fuego que destruye las paredes gloo que encuentre a su paso y provoca una explosión tras el impacto, dejando tras de sí llamas que infligen daño por quemadura.
+Lanza una bola de fuego que destruye las Paredes Gloo que encuentre a su paso y explota tras el impacto, dejando tras de sí llamas que infligen daño por quemadura.
 Jutsu Bola de Fuego
 Quedaste sumergido en agua debido a la bola de agua que bloquea la visión gracias al Suiton: Dragón de agua
-Un Ninjutsu que permite al usuario lanzar y darle forma al agua en forma de dragón, destruyendo las paredes gloo que haya a su paso y generando una gran bola de agua que bloquea la visión tras impactar.
+Lanza una bola de agua que destruye las Paredes Gloo que haya a su paso y bloquea la visión.
 Jutsu Dragón de Agua
 Quedaste atrapado en torbellinos que reducen tu velocidad de movimiento y velocidad de disparo debido al Jutsu Gran Ruptura
-Un Ninjutsu que permite al usuario lanzar ráfagas de viento, destruyendo las paredes gloo que encuentre a su paso y generando una tormenta de viento al impactar, dejando tras de sí remolinos de viento que reducen la velocidad de movimiento y la velocidad de disparo de los enemigos.
+Lanza ráfagas de aire destructivas que dejan a su paso remolinos, que ralentizan a los enemigos y reducen su velocidad de fuego.
 Gran Ruptura
 Crea un campo de fuerza impenetrable y aumenta la velocidad de movimiento mientras estés dentro de él
 Los Puntos de escudo máx. aumentan permanentemente con las eliminaciones.
@@ -54961,13 +54981,13 @@ Al disparar a enemigos o vehículos con [FFB300]rifles de asalto y tirador[-], r
 Golpe gloo
 Recibiste Escudo de Chakra
 Se redujo la velocidad de movimiento y la velocidad de disparo debido al Rasengan
-Un Ninjutsu que permite al usuario lanzarse hacia delante a una distancia media e infligir daño moderado al objetivo alcanzado, reduciendo su velocidad de movimiento y velocidad de disparo.
+Embiste hacia delante e inflige daño al objetivo alcanzado, reduciendo su velocidad de movimiento y velocidad de disparo.
 Rasengan
 No se pueden utilizar los lanzables ni el minimapa debido al Chidori.
-Ninjutsu que permite al usuario lanzarse hacia delante a gran distancia e infligir daño considerable al objetivo alcanzado, impidiéndole utilizar lanzables y ver el minimapa.
+Corre hacia delante, inflige daño e interrumpe al objetivo alcanzado.
 Chidori
 Saliste disparado debido al Golpe del cerezo
-Un Ninjutsu que permite al usuario lanzarse hacia delante una corta distancia e infligir poco daño al objetivo alcanzado para después lanzarlo por los aires.
+Embiste hacia delante, inflige daño al objetivo alcanzado y lánzalo por los aires.
 Golpe del cerezo
 Los rifles de asalto y de tirador pueden ralentizar a los enemigos. Se pueden obtener Paredes Goo adicionales.
 Escribe tu correo de recuperación y el código de seguridad
@@ -54976,7 +54996,7 @@ Cuando acabe el periodo de carga, tu correo electrónico de recuperación dejar�
 Una vez finalizado el periodo de carga, tu correo de recuperación quedará totalmente vinculado. Entonces podrás utilizarlo para recuperar la cuenta en el futuro.
 Cuando acabe el periodo de carga, tu correo electrónico de recuperación dejará de ser válido, lo que aumentará el riesgo de pérdida de la cuenta.
 Correo de recuperación:
-Este correo ya está vinculado. Por favor, prueba con otro.
+Este correo ya está vinculado. a otra cuenta. Por favor, prueba con otro.
 Correo de recuperación
 La vinculación de la cuenta se completará en {0} día(s)
 No se recomienda utilizar el correo electrónico que tengas vinculado a la plataforma o un correo electrónico compartido.
@@ -55091,7 +55111,7 @@ El usuario
 Valor
 Vector
 Script de bloque
-Colapsar
+Colapso
 Ajustes básicos
 Ajustes del juego
 Punto final de la zona segura
@@ -55142,9 +55162,9 @@ Pochinok
 Riverside
 Sentosa
 Shipyard
-¡Haz BOOYAH a tu manera! (El usuario podrá colocar regalos secretos, como cantidades aleatorias de aditamentos, o tickets de oro o diamante royale en la Isla de Aparición. Los regalos estarán disponibles para 10 jugadores).
+¡Haz BOOYAH a tu manera! (El usuario podrá colocar regalos secretos, como cantidades aleatorias de aditamentos, oro o tickets en la Isla de Aparición. Los regalos estarán disponibles para 10 jugadores).
 Trofeo BOOYAH
-¿Ves algo que te guste? (El usuario podrá colocar regalos secretos con cantidades aleatorias de aditamentos, o tickets de oro o diamante royale en la Isla de Aparición. Los regalos estarán disponibles para 10 jugadores).
+¿Ves algo que te guste? (El usuario podrá colocar regalos secretos, como cantidades aleatorias de aditamentos, oro o tickets en la Isla de Aparición. Los regalos estarán disponibles para 10 jugadores).
 Espectáculo de luces
 Recompensa de rango de Heroico Élite T27 en DE
 Recompensa de rango de Heroico Élite T24 en BR
@@ -56059,7 +56079,7 @@ Unirse al Equipo 7
 Obtener
 Obtener todo
 Obtenido
-En colección: [fec21c]{0}[-]/4
+En colección: [fec21c]{0}[-]/5
 Cada vez que aumentes en {0} tu progreso, recibirás las siguientes recompensas
 Cada vez que aumentes en {0} tu progreso, recibirás recompensas aleatorias de la siguiente lista
 Tareas diarias
@@ -56082,7 +56102,7 @@ Límite diario en LS: {0}/{1}
 Invocación de Gamabunta
 Disponible en {0}
 Progreso
-Consigue [fec21c]4[-] de los 5 conjuntos de NARUTO SHIPPUDEN para desbloquear el Premio Mayor.
+Consigue [fec21c]4[-] de los 6 conjuntos de NARUTO SHIPPUDEN para desbloquear el Premio Mayor.
 Sube tu progreso a {0} para invocar
 Recursos del evento descargados
 Descarga y participa en el evento "Capítulo 1: Ataque del Nueve Colas" y consigue como recompensa el conjunto de Jiraiya gratis y una Biografía de Batalla temática del evento.
@@ -56101,7 +56121,7 @@ Reservar
 Atuendo reservado. Recibirás una notificación cuando esté disponible.
 Reservado
 Gana las siguientes recompensas:
-Reglas:\n1. Tareas diarias: Completa tareas diarias para conseguir Pergaminos del Fuego y comienza tu camino ninja!\n2. Modo de juego principal: Usa Pergaminos del Fuego para defenderte del Nueve Colas. Reclama recompensas e invoca a tus compañeros ninja a medida que progreses. ¡También podrás ganar un conjunto gratis!\n3. Colección de atuendos por tiempo limitado: ¡Colecciona 4 de los 5 conjuntos de NARUTO SHIPPUDEN para ganar el superemote de Gamabunta!\n4. Biografía de Batalla de Naruto: Completa tareas especiales para desbloquear gratis esta Biografía de Batalla única.
+Reglas:\n1. Tareas diarias: Completa tareas diarias para conseguir Pergaminos del Fuego y comienza tu camino ninja!\n2. Modo de juego principal: Usa Pergaminos del Fuego para defenderte del Nueve Colas. Reclama recompensas e invoca a tus compañeros ninja a medida que progreses. ¡También podrás ganar un conjunto gratis!\n3. Colección de atuendos por tiempo limitado: ¡Colecciona 5 conjuntos de NARUTO SHIPPUDEN para ganar el superemote de Gamabunta!\n4. Biografía de Batalla de Naruto: Completa tareas especiales para desbloquear gratis esta Biografía de Batalla única.
 Detalles del evento
 Ya disponible
 Saltar
@@ -56350,11 +56370,11 @@ Zona de Resurrección cerrada
 Restante: {0}
 ¡La Máquina Expendedora Airdrop volvió! Compra objetos al mejor descuento.
 La Máquina Expendedora Airdrop volvió
-El Nueve Colas apareció en Bermuda. ¡Ten cuidado!
+El Nueve Colas apareció. ¡Ten cuidado!
 Al inicio, los eliminados en la Aldea Oculta Entre las Hojas pueden ser revividos una vez
 Ataque del Nueve Colas
 No puedes usar este objeto en este momento
-Colaboración con NARUTO SHIPPUDEN
+NARUTO SHIPPUDEN
 Invocar
 ¡El ramen de Ichiraku es el mejor! Restaura 2 PE por s.
 ¡Rico, rico!
@@ -56803,7 +56823,7 @@ En enfriamiento. No disponible por ahora.
 ¡Interactúa con las Máquinas Congeladas del mapa y obtén información útil y objetos misteriosos!
 Máquina Congelada
 Invocación fallida. Ubicación actual no disponible.
-¡Gamatatsu tiene algo para ti! (El usuario podrá colocar regalos secretos, como aditamentos, oro o Tickets de Diamante Royale, en la Isla de Aparición. Solo se pueden dar regalos hasta a 10 jugadores).
+¡Gamatatsu tiene algo para ti! (El usuario puede colocar regalos secretos, como equipamiento, oro o tickets en la cabina. Hay regalos disponibles para 10 jugadores).
 Gamatatsu
 Paquete de voz exclusivo del evento
 Recompensa de rango Heroico Élite en BR T43
@@ -56853,7 +56873,7 @@ Dominators, ¿están listos?
 No puedo hacerlo
 Solos somos débiles
 ¡Déjalo ir!
-Contiene el secreto más profundo del cosmos (el usuario podrá colocar regalos secretos, como aditamentos, oro o Tickets de Diamante Royale, en la Isla de Aparición. Solo se pueden dar regalos hasta a 10 jugadores).
+Contiene el secreto más profundo del cosmos (el usuario podrá colocar regalos secretos, como aditamentos, oro o ticktes, en la Isla de Aparición. Solo se pueden dar regalos hasta a 10 jugadores).
 Cristal Áureo
 Procesamiento de audio fallido
 Procesando audio
@@ -58397,7 +58417,7 @@ Inicio de oro
 Existe la posibilidad de que todos consigan un montón de monedas al principio.
 (3 Usos)
 Enfriamiento de la Tarjeta de Habilidad: {0} s
-{0} obtenido
+Obtén {0}.
 (1 Uso)
 (Sin límite)
 Ya equipaste la misma habilidad que la Tarjeta de Habilidad. En su lugar, el enfriamiento de la habilidad se redujo.
@@ -58726,7 +58746,7 @@ Ya estás lleno y no puedes comer más
 ¡Llegó la hora del Iftar! Encuentra los puestos de comida y ve a comer algo.
 COMER
 Un libro místico con poderes ancestrales contenidos en sus páginas.
-Hiperlibro Medianoche
+Medianoche
 Artefactos disponibles en el Tecnotaller
 Ve al Tecnoartefacto
 Selecciona un artefacto para construirlo
@@ -58779,9 +58799,9 @@ Toca para establecer la Zona Segura
 Ya no es posible usar el Artefacto
 Ubicación no elegible. Por favor selecciona otra.
 ¡La siguiente Zona Segura cambió de lugar!
-¿Listo para la acción? (El usuario puede colocar regalos secretos, como equipamiento, oro o tickets Royale en la cabina. Hay regalos disponibles para 10 jugadores)
+¿Listo para la acción? (El usuario puede colocar regalos secretos, como equipamiento, oro o tickets en la cabina. Hay regalos disponibles para 10 jugadores)
 Caos Nocturno
-Una zona… ¡Y mis reglas! (El usuario puede poner regalos secretos como aditamentos, oro o tickets de Diamante Royale en la cabina del avión. Solo habrán regalos disponibles para 10 jugadores).
+Una zona… ¡Y mis reglas! (El usuario puede colocar regalos secretos, como equipamiento, oro o tickets en la cabina. Hay regalos disponibles para 10 jugadores).
 La Zona
 Paquete de voz Ramadán 2025
 Paquete de voz Ayuno
@@ -60806,7 +60826,7 @@ Sigue sujetando Paredes Gloo después del Lanzamiento inteligente
 Cambio automático a armas
 Cambia automáticamente a las armas después del Lanzamiento inteligente
 Bandana de la EWC 2025
-¡Prueba el infinito! (El usuario puede colocar regalos secretos, como equipamiento, oro o tickets Royale en la cabina. Hay regalos disponibles para 10 jugadores)
+¡Prueba el infinito! (El usuario puede colocar regalos secretos, como equipamiento, oro o tickets en la cabina. Hay regalos disponibles para 10 jugadores)
 Carrito Infinito
 Repartidor verde (máscara)
 Casco de Repartidor naranja (máscara)
@@ -61764,7 +61784,7 @@ Escuadra privada
 El líder no puede salir si aún hay más miembros en la escuadra
 Activado con éxito
 Reclama las recompensas tras completar la misión de recarga
-Sin escuadra disponible para unirse
+No hay escuadras disponibles. Intenta en 5 min.
 Crea tu escuadra con {0} miembro(s)
 {0} miembro(s), ¡únete para obtener recompensas!
 Únete o crea una escuadra primero
@@ -62624,9 +62644,9 @@ Luna Roja
 Captura el Airdrop del Árbol Divino y activa la Luna Roja
 Airdrop del Árbol Divino
 ¡Captura el Airdrop del Árbol Divino por Puntos Luna Roja y los Recuerdos de Akatsuki!
-¡Cuidado, va a explotar! (El usuario puede colocar regalos secretos, como equipamiento, oro o tickets Royale en la cabina. Hay regalos disponibles para 10 jugadores)
+¡Cuidado, va a explotar! (El usuario puede colocar regalos secretos, como equipamiento, oro o tickets en la cabina. Hay regalos disponibles para 10 jugadores)
 Ave de arcilla explosiva
-Deja que tu corazón brille con fuerza. (El usuario puede colocar regalos secretos, como equipamiento, oro o tickets Royale en la cabina. Hay regalos disponibles para 10 jugadores)
+Deja que tu corazón brille con fuerza. (El usuario puede colocar regalos secretos, como equipamiento, oro o tickets en la cabina. Hay regalos disponibles para 10 jugadores)
 Corazón ardiente
 3 Cajas Conquistadora de la Muerte
 Biografía de Batalla - Dulces Sueños
@@ -63455,7 +63475,7 @@ Lluvia de púas
 Rugido de motor
 Gatillos gemelos
 ¡Manos arriba!
-Seis Siete
+Six Seven
 Vuelo prismático
 Pétalos rojos
 Tiro celeste
@@ -63704,7 +63724,7 @@ Recompensa del Tesoro de la escuadra
 Regresarás a tu equipo creado previamente
 Pública
 (Cualquiera puede unirse)
-(Solo puedes unirte por invitación)
+(Solo el líder puede invitar)
 ¡Misión de recarga completada! ¡Únete a una escuadra para reclamar recompensas!
 ¡Más personas pueden unirse si tu escuadra es pública!
 Tiempo límite
@@ -64202,7 +64222,7 @@ Despliega un dispositivo táctico en cualquier ubicación dentro de la Zona Segu
 Toca para elegir un dispositivo
 Elige un lugar y arrastra para ajustar
 Toca aquí para desplegar
-La Superfogata aumenta la velocidad de disparo un 15%
+La Superfogata aumenta la velocidad de disparo un 8%
 Obtén un Panel táctico en cada ronda. Úsalo para desplegar dispositivos tácticos en cualquier lugar del mapa. Los dispositivos también se pueden comprar en la tienda DE.
 Bot ayudante disponible para usarse
 Recibe un Bot ayudante por ronda y úsalo para ayudar a un compañero derribado a la distancia. El Bazar secreto también se desbloqueará en la tienda en DE para que puedas comprar mejoras para tu equipo.
@@ -64669,9 +64689,9 @@ Liderado por el capitán Joena, ahora tricampeón, BRU superó un comienzo lento
 No tienes suficientes monedas para mejorar el arsenal
 El equipo no cuenta con la llave del Arsenal. No se puede mejorar.
 Mejora en progreso. Intenta más tarde para abrir el Arsenal.
-¡Feliz año nuevo! (El usuario puede colocar regalos secretos, como equipamiento, oro o tickets Royale en la cabina. Hay regalos disponibles para 10 jugadores)
+¡Feliz año nuevo! (El usuario puede colocar regalos secretos, como equipamiento, oro o tickets en la cabina. Hay regalos disponibles para 10 jugadores)
 Feliz 2026
-¿En qué estará soñando Yeti? (El usuario puede colocar regalos secretos, como equipamiento, oro o tickets Royale en la cabina. Hay regalos disponibles para 10 jugadores)
+¿En qué estará soñando Yeti? (El usuario puede colocar regalos secretos, como equipamiento, oro o tickets en la cabina. Hay regalos disponibles para 10 jugadores)
 Yeti dormilón
 Despliega un UAV-Lite especial que mejora las Paredes Gloo dentro de su radio de acción
 UAV-Lite Gloo destruido
@@ -65337,7 +65357,7 @@ La Tarjeta de Resurrección vuelve a su precio original
 Un potenciador de habilidad que puede usarse para mejorar una habilidad específica
 El alcance del aura aumenta a [FFB300]{0} m[-], y los compañeros dentro de ella reciben un aumento de velocidad de [FFB300]{1}%[-].
 Mientras la habilidad está en uso, restaura [FFB300]{0} PV por s[-].
-Marca a los enemigos que son revelados durante el primer intervalo de detección por [FFB300]{0}s[-] y comparte esta información con los compañeros de equipo
+Marca a los enemigos que son revelados durante el primer intervalo de detección por [FFB300]{0}s[-] y comparte esta información con los compañeros de equipo.
 Cuando un enemigo es revelado, recibe una marca acumulable (hasta un máx. de [FFB300]{0}[-]). Atacar enemigos marcados activará sus marcas, infligiendo [FFB300]{1} DAÑO[-] adicional por acumulación.
 Remix de velocidad
 Remix de vida
@@ -65838,7 +65858,7 @@ Estadísticas
 Tocar para hablar
 Cuando esté activado, cambia al micrófono de Tocar para hablar. Mantén presionado el botón del micrófono para hablar y suéltalo para terminar.
 Mantén presionado el botón del micrófono para hablar y suéltalo cuando termines
-Siempre activado
+Micrófono
 Privacidad
 No se puede equipar durante el emparejamiento
 Jugadores superados
@@ -66414,7 +66434,7 @@ Resurrección individual
 Oportunidad de resurrección individual
 Número de resurrecciones que tienes. ¡Captura los Puntos de resurrección para obtener resurrecciones!
 Resurrección de equipo
-Protección de resurrección de equipo activada
+Resurrección de equipo activada al aterrizar con tu equipo
 ¡Resurrección de equipo activada!
 Lánzala al punto objetivo y teletranspórtate a la daga.
 Daga de teletransporte
@@ -66817,7 +66837,7 @@ Invadieron el arsenal y se expuso la ubicación del equipo.
 Invadieron el arsenal y no se puede desbloquear.
 Invadieron el arsenal y no se puede mejorar.
 Mejorar y desbloquear
-¡Domina el ritmo salvaje! (El usuario puede colocar regalos secretos, como equipamiento, oro o tickets Royale en la cabina. Hay regalos disponibles para 10 jugadores)
+¡Domina el ritmo salvaje! (El usuario puede colocar regalos secretos, como equipamiento, oro o tickets en la cabina. Hay regalos disponibles para 10 jugadores)
 Miniván del ritmo
 Con Alok
 Tesoro descubierto
@@ -66825,7 +66845,7 @@ Escuadra del tesoro
 Fushiguro
 Itadori
 Kugisaki
-¡Admira el poder del Perro demonio: Cabal! (El usuario puede colocar regalos secretos, como equipamiento, oro o tickets Royale en la cabina. Hay regalos disponibles para 10 jugadores)
+¡Admira el poder del Perro demonio: Cabal! (El usuario puede colocar regalos secretos, como equipamiento, oro o tickets en la cabina. Hay regalos disponibles para 10 jugadores)
 Perro demonio: Cabal
 Marco de Festival del Ritmo
 Marco de Secretos del Oasis
@@ -66837,7 +66857,7 @@ Sticker de Megumi Fushiguro
 Sticker de Yuji Itadori
 Sticker de Nobara Kugisaki
 Sticker de Gojo Satoru
-¡El tesoro es mío! (El usuario puede colocar regalos secretos, como equipamiento, oro o tickets Royale en la cabina. Hay regalos disponibles para 10 jugadores)
+¡El tesoro es mío! (El usuario puede colocar regalos secretos, como equipamiento, oro o tickets en la cabina. Hay regalos disponibles para 10 jugadores)
 Cofre del tesoro
 En modo Sigilo. Difícil de ser visto por enemigos lejanos y no puede ser detectado por drones o habilidades de escaneo.
 Enemigo en Sigilo alcanzado
@@ -67823,7 +67843,7 @@ Caja de Armas de M4A1 + M1917 - Saque de meta
 Ajustes básicos
 Almacenamiento en la nube del jugador
 Cambiar las propiedades de autoguardado hará que la información en línea sea ilegible. ¿Confirmar?
-Si está activada, la información del jugador se guardará automáticamente y se aplicará en partidas posteriores.
+Si está activada, la información del jugador se guardará automáticamente y se aplicará en partidas posteriores. Nota: cada propiedad solo almacena hasta 4 KB de datos.
 Crear
 No hay ninguna prueba de juego guardada
 Primero activa el Módulo de almacenamiento de datos.
@@ -68058,7 +68078,7 @@ Torre de intentos
 1. Usa Diamantes o tickets para comprar los objetos y tokens revelados.\n2. Después de cada compra, se revela el siguiente objeto de los premios disponibles del evento sin costo, incluido el Premio Mayor.\n3. Los tokens se pueden canjear en la Tienda de Canje por recompensas específicas, incluido el Premio Mayor. Algunas recompensas permiten usar Diamantes si te faltan tokens.
 Se garantiza un Premio mayor en [ffba00][fs=32][b]{0}[/b][/fs][-] intento(s).
 Estación de intentos
-(Solo tus amigos pueden unirse)
+(Solo amigos de la escuadra)
 Volver a unirse
 Solo los amigos del líder pueden unirse
 Acceso solo con invitación
@@ -68694,7 +68714,7 @@ Escanea enemigos cada cierto tiempo
 Obtén una Pared Gloo cada 7s
 Gana una oportunidad de resurrección
 Gana PE infinitos
-Obtén un Casco y Chaleco nvl. 5
+Obtén un Casco y Chaleco nvl. con reparación automática continua
 Al eliminar, se recuperan todos los PV
 PV dobles
 Al eliminar, se otorgan +100 Puntos de Escudo permanentes
@@ -68703,7 +68723,7 @@ Obtén un Camión Monstruo 40% más rápido
 Al recibir daño, velocidad de movimiento +150%
 Recuperación infinita de PV
 Autoayudas infinitas
-Daño +50%
+Daño +{0}%
 Velocidad de movimiento +50%
 PV de las Paredes Gloo +9999
 Mitad de vida, pero haces +50% de daño
@@ -68819,7 +68839,7 @@ Token de Fútbol 2
 Token de Estrella de fútbol
 Token Moneda amarilla
 Un libro místico con poderes ancestrales contenidos en sus páginas.
-Hiperlibro Eclipse
+Eclipse
 Ticket Azul
 Ticket de Ecos del océano
 Ticket Digital
@@ -69007,9 +69027,9 @@ No estás en la misma versión que tu compañero, actualiza tus recursos
 Actualizar recurso
 Equipo en el lobby
 El arsenal sigue bloqueado
-¡Los misterios del océano te esperan! (El usuario puede colocar regalos secretos, como equipamiento, oro o tickets Royale en la cabina. Hay regalos disponibles para 10 jugadores)
+¡Los misterios del océano te esperan! (El usuario puede colocar regalos secretos, como equipamiento, oro o tickets en la cabina. Hay regalos disponibles para 10 jugadores)
 Tortuga marina
-¡Haz el gol del gane! (El usuario puede colocar regalos secretos, como equipamiento, oro o tickets Royale en la cabina. Hay regalos disponibles para 10 jugadores)
+¡Haz el gol del gane! (El usuario puede colocar regalos secretos, como equipamiento, oro o tickets en la cabina. Hay regalos disponibles para 10 jugadores)
 Saque inicial del partido
 Excursión marina
 Buena pesca
@@ -69086,9 +69106,9 @@ Sticker de Marlin
 Sticker de Eclipse solar
 Sticker de Fútbol
 Sticker de Trofeo
-El usuario puede colocar regalos secretos, como equipamiento, oro o tickets Royale en la cabina. Hay regalos disponibles para 10 jugadores.
+El usuario puede colocar regalos secretos, como equipamiento, oro o tickets en la cabina. Hay regalos disponibles para 10 jugadores.
 Futura estrella
-El usuario puede colocar regalos secretos, como equipamiento, oro o tickets Royale en la cabina. Hay regalos disponibles para 10 jugadores.
+El usuario puede colocar regalos secretos, como equipamiento, oro o tickets en la cabina. Hay regalos disponibles para 10 jugadores
 Superestrella
 Se transforma en un arbusto con una reducción del [FFB300]{2}%[-] en la velocidad de movimiento por [FFB300]{1}s[-]. La duración se extiende si el jugador no se mueve. La transformación termina cuando Wukong ataca. El enfriamiento se reinicia cuando Wukong derriba a un enemigo en los [FFB300]{3} s[-] siguientes después de usar su habilidad. Enfriamiento: [FFB300]{0}s[-].
 Se transforma en un arbusto y crea dos arbustos adicionales. Dura [FFB300]{0}s[-].
@@ -69215,7 +69235,7 @@ Función de autoguardado
 Otros
 Animación de IA
 Propiedad no válida
-Subfusiles y Rifles
+Armas largas
 Plantilla de script
 Guardar como plantilla
 Aplicar plantilla
@@ -69709,7 +69729,7 @@ Si tienes este objeto equipado, tu Insignia de Primera Edición aparecerá en tu
 Cuando te unas a un equipo con este objeto equipado, los demás jugadores verán tu Insignia de Primera Edición
 Si tienes este objeto equipado, tu Insignia de Primera Edición aparecerá en la Clasificación
 Espalda
-Dúo Flamma
+Flamma Gemela
 ¡La Flamma de tu Dúo Dinámico está en camino!
 Escoge una personalidad
 Racha de inicio de sesión
@@ -69721,7 +69741,7 @@ Rostro
 Inventario de Flamma
 Mostrar perfil
 Widget personalizable
-Dúo Flamma
+Flamma Gemela
 Desbloquear Inventario de Flamma
 Desbloquea la racha de inicio de sesión en el perfil
 Desbloquea el widget personalizable en el perfil
@@ -69774,7 +69794,7 @@ Lanza un dron mejorado que planea con una velocidad aumentada de [FFB300]{0}%[-]
 UAV de choque
 Dron mejorado
 Escanea una vez a los enemigos dentro del alcance y los revela en el minimapa.
-Lanza un dron mejorado con mejora de velocidad temporal
+Viaja en un dron mejorado con mejora de velocidad temporal
 Alcance efectivo de disparo a la cabeza[S0], Velocidad al cambiar de arma[S0]
 Daño[S0], Alcance[S0], Penetración de armadura[S0]
 Puedes atacar mientras corres[S0]
@@ -69811,19 +69831,19 @@ Escopetero
 Aumenta la capacidad del cargador, el daño y el control de la dispersión
 Cargador estable
 Aumenta la capacidad del cargador y la estabilidad para disparos continuos
-Velocidad de reducción de DAÑO
+Reducción de DAÑO del escudo
 Puedes atacar mientras corres
-Hasta la aparición de la zona de colapso
-Algunas regiones están a punto de colapsar.
-Parte de la región ha colapsado.
-La región está por colapsar.
-Has entrado en la región a punto de colapsar.
-La región está colapsando
-Salir de la zona de derrumbe
-Tus compañeros lograron {0} eliminación(es), ¡reúnete con ellos!
-Tus compañeros revivieron a {0} personas, ¡reúnete con ellos!
-La calificación promedio de tus compañeros es {0}, ¡reúnete con ellos!
-¡Subieron de rango! ¡Reúnete con ellos!!
+Zonas de colapso reveladas
+Zonas de colapso reveladas
+Colapso
+Dentro
+Zona de colapso
+Instalación destruida
+Sal de la Zona de colapso
+Tus compañeros lograron {0} eliminación(es). ¡Haz Reescuadra con ellos!
+Tus compañeros revivieron a {0} personas. ¡Haz Reescuadra con ellos!
+La calificación promedio de tus compañeros es {0}. ¡Haz Reescuadra con ellos!
+¡Subieron de rango! ¡Reúnete con ellos!
 Nuevo amigo
 [FFB300]{0}[-] no está en ningún equipo. ¡Invítalo!
 El equipo de [FFB300]{0}[-] actualmente tiene {1}/{2} miembros, ¡únete a ellos!
@@ -69859,7 +69879,7 @@ fue aplastado por ti {0} vez(ces) esta semana
 Victorias de amigos esta semana
 Resumen divertido
 Mostrar victorias
-Partida(s): [FFB300]{0}[-]
+Partidas: [FFB300]{0}[-]
 Probabilidad de victoria: [FFB300]{0}[-]
 Información de probabilidad de victoria: Muestra solo las partidas y la probabilidad de victoria de esta semana. Se actualiza cada lunes a las 00:00.
 [Probabilidad de victoria]
@@ -69930,7 +69950,7 @@ Mochila - lnwTrue
 Mochila - Protocolo astral
 Mochila - Lana para llevar
 Fondo Agridulce
-Fondo Juramento carmesí
+Fondo Luna Escarlata
 Fondo de Creador estrella
 Fondo de Creador pro
 Fondo de Maestro en DE-Clasificatoria T38
@@ -69942,6 +69962,7 @@ Fondo de Maestro en BR-Clasificatoria T52
 Fondo de Heroico en BR-Clasificatoria T52
 Fondo de Maestro en BR-Clasificatoria T53
 Fondo de Heroico en BR-Clasificatoria T53
+Fondo Travesía veraniega
 Fondo de Gala astral
 Fondo de Lana y colmillos
 Bate - EWC 2026
@@ -69968,12 +69989,13 @@ Solo de batería
 Pasos de celebración
 El renacer del Fénix
 Desfile de Aniversario
-Izquierda y derecha, izquierda y derecha
+Baila, amigo, baila
 Michi baile
 Impecable
 Tejido rebelde
 PARAFAL - 9 Aniversario
 Disparo final - El vuelo del Fénix
+Tarjeta roja
 Juicio supremo
 Puño - Furia inmortal
 G36 - Exclusiva de la T52: Lana y colmillos
@@ -69998,10 +70020,10 @@ Granada - Furia sellada
 Granada - 9 Aniversario
 Granada - Elegancia astral
 Granada - Lobo interior
-Chispa carmesí
+Chispa escarlata
 Jefe final
 Ícono Agridulce
-Ícono Juramento carmesí
+Ícono Luna Escarlata
 Ícono de Creador estrella
 Ícono de Creador pro
 Ícono de Maestro en DE-Clasificatoria T38
@@ -70014,8 +70036,11 @@ Jefe final
 Ícono de Heroico en BR-Clasificatoria T52
 Ícono de Maestro en BR-Clasificatoria T53
 Ícono de Heroico en BR-Clasificatoria T53
+Ícono Arenas
+Ícono de Océanos
 Ícono de la Justicia
 Ícono de Gala astral
+Ícono de Olas
 Ícono de Lana y colmillos
 El caballo tendrá efectos especiales al moverse
 Efecto de movimiento del caballo
@@ -70046,10 +70071,13 @@ M500 - Precisión astral
 Machete - Aleteo electrónico
 Machete - Corte interdimensional
 Machete - Exclusivo de la T53: Firmamento
+Machete - SEA 2026 de otoño
 Machete - Colmillo lanudo
 MAG-7 - Sangreluna
 Barca de riquezas
 Lluvia de fragmentos
+Canción temática de la colaboración con Tenxi
+Cari yang Baru
 Canción temática de la colaboración con la AAA
 ¡Booyahka!
 Canción temática del 9 Aniversario
@@ -70068,7 +70096,7 @@ Paracaídas - 9 Aniversario
 Paracaídas - Ropa de cama
 Paracaídas - Exclusivo de la T53: Firmamento
 Aspecto de Mascota: Zasil con estilo
-Aspecto de Mascota: Colmillo Carmesí
+Aspecto de Mascota: Colmillo Escarlata
 Pin del 9 Aniversario
 Arma Escudo - Veneno letal
 Hoz - Mazapandazo
@@ -70076,12 +70104,12 @@ Hoz - Furia de acero
 Hoz - Vanguardia inmortal
 Hoz - Exclusiva de la T52: Lana y colmillos
 Tabla - Cucharada de manzana
-Tabla - Amuleto carmesí
+Tabla - Amuleto escarlata
 Tabla - Vuelo del firmamento
 Tabla - Parasol astral
 Tabla - Impulso lanudo
 Cuchillo - Acidez letal
-Cuchillo - Sed carmesí
+Cuchillo - Sed escarlata
 USP-2  - Menta intensa
 Mini Uzi - Exclusiva de la T53: Firmamento
 Úsalo para darle al vehículo un impulso de velocidad
@@ -70091,6 +70119,7 @@ Caballo - Corcel de acero
 Jeep - Acidez verde
 Jeep - Demonio de acero
 Jeep - Fuga dimensional
+Jeep - SEA 2026 de otoño
 Camión monstruo - Apapacho 4x4
 Camión monstruo - Exclusivo de la T52: Lana y colmillos
 Moto - Estela de cristal
@@ -70110,6 +70139,7 @@ Caja de Armas de XM8 + Desert Eagle - Impacto interdimensional
 Abre para recibir un aspecto de arma aleatorio de Charge Buster + USP-2 - Menta intensa
 Caja de Armas de Charge Buster + USP-2 - Menta intensa
 XM8 - Impacto interdimensional
+Llevas un buen rato jugando. ¿Necesitas una pausa?
 La habilidad de {0} proporciona curación
 La habilidad de Kassie sirve para curar
 La habilidad de {0} proporciona Puntos de Escudo
@@ -70118,11 +70148,12 @@ Instala Facebook o actualiza la versión de tu sistema antes de intentar de nuev
 La versión del sistema operativo del dispositivo es demasiado antigua. Actualiza y vuelve a intentar.
 Conjunto Garra de algodón
 Conjunto Dulzura roja
-Conjunto Melodía carmesí
+Conjunto Melodía escarlata
 Conjunto Flor de acero
 Conjunto Dobladillo de autor
 Conjunto Sintonía pastel
 Conjunto Encore cromático
+Conjunto Diva con actitud
 Conjunto Euforia alada
 Conjunto Estilo insignia
 Conjunto Alas del renacer
@@ -70137,6 +70168,7 @@ Conjunto Raijin MVP
 Conjunto de Rin
 Conjunto Resonancia metálica
 Conjunto Guardián de acero
+Conjunto Estilo con actitud
 Conjunto de Rey Mysterio
 Conjunto Vuelo electrónico
 Conjunto Corte insignia
@@ -70179,7 +70211,7 @@ Este mapa no está aprobado, dirígete al Estudio de Crea Tu Mapa PC y actualiza
 Mayormente positivo
 Muy positivo
 Extremadamente positivo
-Las calificaciones del mapa se basan tanto en los Me gusta como en los No me gusta y se muestran solo cuando los Me gusta son más de {0}
+Las calificaciones del mapa se basan en los Me gusta y en los No me gusta
 Alta tasa de éxito de partida
 Baja tasa de éxito en partida
 Tasa de éxito en partida
@@ -70188,19 +70220,22 @@ La tasa de éxito estimada de la partida se basa en la popularidad del mapa y lo
 Unirse a mitad de partida: Activado
 Sesiones de juego: {0}
 Sesiones de juego
-Sesiones de juego: la cantidad de veces que se ha jugado un mapa
+Sesiones de juego: la cantidad de veces que se ha jugado un mapa. No se actualiza en tiempo real.
 Este mapa no está disponible en el servidor actual.
 {0} equipo(s) x {1} jugador(es)
 Medalla de excelente comportamiento
 Este compañero tiene una excelente puntuación de comportamiento. ¡Consigan ese Booyah!
+No hay equipos adecuados. Intenta de nuevo más tarde o prueba el emparejamiento del sistema.
 Elige una respuesta
+Rastreo de área
+Fijación sostenida
 Crea un área pequeña que rompe paredes después de que la onda explote. El área se adhiere y se mueve con el enemigo más cercano dentro de [FFB300]{0}m[-]. Dura [FFB300]{1}s[-].
 Ritmo pegajoso
 Crea un área pequeña que se adhiere al enemigo objetivo, infligiendo daño con el tiempo a las paredes que queden dentro.
 Busca Paredes Gloo en un rango de [FFB300]{0}m[-] y se fija en las paredes objetivo durante [FFB300]{1}s[-]. Libera ondas sónicas que infligen daño a un máximo de [FFB300]{2}[-] paredes al mismo tiempo.
 Ritmo dividido
-Fija automáticamente como objetivo múltiples Paredes Gloo en rango y libera ondas divididas hacia ellas, sin crear áreas que las destruyan.
-[ffa200][Newbie][-]
+Apunta automáticamente a múltiples Paredes Gloo en rango y libera ondas divididas hacia ellas, sin crear áreas que las destruyan.
+[ffa200][Novato][-]
 Tutorial de Bóveda Mágica (Aumentada)
 Las Monedas FF se pueden usar si no tienes [S0]
 Saltar animación
@@ -70214,16 +70249,16 @@ Popularidad semanal
 Alcanza la meta para obtener las siguientes recompensas:
 Por cada {0} de progreso adicional, recibe recompensas aleatorias de la siguiente lista
 Tareas diarias
-¡Participa en el evento Juramento carmesí y obtén muchísimos premios!!
-Juramento carmesí
+¡Participa en el evento de Luna Escarlata y obtén muchísimos premios!
+Luna Escarlata
 1. Durante el evento, completa tareas diarias para ganar Tokens. Gasta Tokens para revelar el pergamino, descubrir contenido oculto y avanzar en el evento.\n2. Alcanza hitos específicos para desbloquear elementos visuales y reclamar recompensas por hitos.\n3. Una vez reclamadas todas las recompensas por hitos, los Tokens se pueden seguir usando para obtener recompensas repetibles adicionales.
 Reglas
 Conjunto de Acero
 MAG-7 - Sangreluna
-El Juramento carmesí regresa
+La Luna Escarlata regresa
 ¡Gana recompensas gratis!
 Revelar
-Juramento carmesí
+Luna Escarlata
 [131313]Inicia sesión entre el[-] [f48a00]{0} al {1}[-] [131313]para ganar recompensas exclusivas![-]
 El evento de recompensas por iniciar sesión ha finalizado. ¡Nos vemos en próximos eventos!
 Recompensa por inicio de sesión
@@ -70339,8 +70374,8 @@ La posición de la palanca de movimiento será [ffba00]fija[-], ideal para jugad
 Limitar movimiento a la rueda
 Permitir movimiento fuera de la rueda
 Ajustes de la rueda izquierda
-Dinámicos
-Fijos
+Dinámica
+Fija
 Bronce
 La seguridad es primero
 Equípate
@@ -70477,13 +70512,13 @@ Imposible formar equipo
 Ganancias de PR reducidas
 La diferencia entre los rangos del equipo es demasiado grande.
 La diferencia entre los rangos del equipo es demasiado grande.\nNo se otorgarán Puntos de rango en esta partida.
-1. Los jugadores [ffba00]{0}[-] no pueden formar equipo con rangos inferiores a [ffba00]{1}[-].\n2. Cuando los jugadores [ffba00]{2}[-] formen equipo con rangos inferiores a [ffba00]{3}[-], los jugadores [ffba00]{4}[-] obtendrán una reducción significativa en los Puntos de Rango o Puntos de Protección.
+Los jugadores de [ffba00]{0}[-] no pueden formar equipo con rangos inferiores a [ffba00]{1}[-]
 Restricciones de rango del equipo
-When [ffba00]{0}[-] players team up with ranks below [ffba00]{1}[-], [ffba00]{2}[-] players will gain significantly reduced Rank Points or Protection Points.
+Cuando los jugadores de [ffba00]{0}[-] formen equipo con jugadores de rangos por debajo de [ffba00]{1}[-], los jugadores de [ffba00]{2}[-] obtendrán significativamente menos Puntos de Rango o Puntos de Protección.
 Lo esencial
 Intermedio
 Avanzado
-Centro de entrenamiento
+Academia de Sobrevivientes
 Qué es y cómo usar
 ¡Encadena las explosiones de tus granadas!
 Lleva a Bestión contigo para poder lanzar más lejos
@@ -70531,7 +70566,26 @@ Participa en el evento para elegir y reclamar un conjunto gratis y un gran descu
 Participa en el evento para reclamar un conjunto gratis
 Ya tienes este premio. No puedes cambiar el premio mayor.
 Participa en el regreso del Capítulo 1: Ataque del Nueve Colas para ganar un conjunto gratis y una Biografía de Batalla especial.
-Error al seguir, no puedes unirte
+Guíame, ¡yo te sigo!
+No puedes ser el líder del tren en el estado actual
+Tren disuelto: Entrando al combate
+Tren disuelto: Demasiado lejos del compañero
+Tren disuelto: Diferencia de altura muy grande
+Tren disuelto: El líder del tren activó una interacción especial
+Tren disuelto: El líder se subió a una plataforma móvil
+Tren disuelto: Movimiento anormal
+Entrando al combate, dejando tren actual
+Tren disuelto: diferencia de altura muy grande
+No puedes seguir en el estado actual
+No puedes unirte al tren en este momento
+No puedes unirte: Tren completo
+No puedes unirte: Diferencia de altura demasiado grande
+No puedes seguir desde la posición actual
+No puedes unirte: Objetivo derribado
+El líder no permite que lo sigan
+No es posible unirse: Líder desconectado
+No se puede seguir al líder en su posición actual
+Tren actual disuelto
 Ahorrito
 Úsalo para aumentar las monedas de todo tu equipo
 Lanzamonedas
@@ -70568,6 +70622,7 @@ Caja 277
 Caja 278
 Caja 279
 Caja 280
+Caja de Tokens de Fuego inmortal (AUG)
 Caja Escarlata
 Caja de la Noche escarlata
 Abre para recibir la M1014 - Rebelión del rock
@@ -70589,7 +70644,7 @@ Caja Misteriosa
 Caja de Tickets de la Ruleta Universal 10
 Caja de Tickets de la Ruleta Universal 11
 Caja de Tokens PB T45
-Gold Vault Supply Box
+Caja de suministros de la Bóveda de oro
 Caja de Tokens PB T43
 Caja de Lucha
 Caja roja 9 Aniversario
@@ -70620,7 +70675,7 @@ Token naranja de Aniv.
 Token rojo de Aniv.
 Token Noche escarlata
 Token Anillo
-Token Carmesí
+Token Escarlata
 Token Estrella
 Plano universal
 Token Vagón
@@ -70687,7 +70742,7 @@ Juega {0} mapa(s) más para desbloquear la función de Seguir creador
 El límite de borradores y publicaciones aumenta con el Nivel de creador.\nActual (nvl. {0}): {1} espacio(s) de borrador, {2} espacio(s) de publicación\n[606060]Siguiente nivel (nvl. {3}): {4} espacio(s) de borrador, {5} espacio(s) de publicación[-]
 Privilegio exclusivo
 Seguir
-50
+Máx. creadores seguidos, ¿gestionar ahora?
 Seguido con éxito
 Siguiendo
 Creadores seguidos
@@ -70730,7 +70785,7 @@ Emote de acompañamiento
 Selección completa
 Puedes usar emotes en movimiento mientras acompañas a otro jugador
 Establecer como animación de acompañamiento en partida
-No puedes usar otros emotes en la selección actual
+No puedes usar otros emotes en el grupo actual
 Dueño del Ala Delta multijugador
 8x
 4x
@@ -70751,18 +70806,18 @@ Leyenda
 [S0]{0} fue eliminado
 [S0]{0} capturó el Airdrop Ultra
 [S0]{0} interactuó con un objeto especial del evento
-[S0]{0} eliminó a [ffba00]{2}[-] enemigo(s) en {1}
+[S0] {0} eliminó a [ffba00]{2}[-] enemigo(s) en {1}
 [S0]{0} eliminó a [ffba00]{1}[-] enemigo(s)
-[S0]{0} revivió a {1} con una Tarjeta de resurrección
-[S0]{0} revivió a {1} con una Tarjeta de Superresurrección
-[S0]{0} revivió a {1} con Desafío en solitario
+[S0] {0} revivió a {1} con una Tarjeta de resurrección
+[S0] {0} revivió a {1} con una Tarjeta de Superresurrección
+[S0] {0} revivió a {1} con Desafío en solitario
 [S0]{0} revivió a [S1] con el Airdrop Ultra
 [S0]{0} fue revivido
-[S0]{0} revivió a {1} en un Punto de resurrección
-[S0]{0} revivió a {1} en un Punto de resurrección mejorado
+[S0] {0} revivió a {1} en un Punto de resurrección
+[S0] {0} revivió a {1} en un Punto de resurrección mejorado
 [S0]{0} activó la Resurrección individual
 [S0]{0} activó la Resurrección de equipo
-[S0]{0} eliminó una escuadra
+[S0] {0} eliminó una escuadra
 Airdrop de defensa
 Se abrió el arsenal
 Airdrop Ultra
@@ -70803,20 +70858,48 @@ Flores de cerezo
 Día lluvioso
 Luciérnagas
 Efecto visual
+Beige
 Azul
 Color de Flamma
+Oro pálido
+Chocolate
 Turquesa
 Naranja
+Azul pastel
+Menta
 Color bloqueado. Sube de nivel para obtenerlo.
+Durazno
 Rosa
+Verde pistacho
 Morado
 Carmesí
+Flor de cerezo
+Rosa cenizo
+Púrpura taro
 Dorado
 Gorro de tiburón rosa
-Globo rosa y azul
+Corona de oro
+Globo amarillo y verde
+Globos rojo y púrpura
+Globos rosa y azul
+Globos dorado y plateado
+Bola de fuego azul
+Bola de fuego roja
 Bola de fuego morada
+Bola de fuego plateada
+Visor amarillo
+Visor rosa
 Visores blancos
+Visor negro
+Lentes azules de corazón
+Lentes rojos de corazón
+Lentes negros de corazón
+Lentes dorados de corazón
 Alas doradas
+Tabla rosa
+Tabla negra
+Tabla naranja
+Tabla azul
 Girar
 Necesitas iniciar sesión más días para girar
 No dejes de iniciar sesión para obtener recompensas sorpresa
@@ -70917,9 +71000,9 @@ Airdrop especial: Zona protectora
 Airdrop especial: Zona sanadora
 Airdrop especial: Zona sin paredes
 Airdrop especial: Súpercobertura
-¡Auuuuuuuuuuh! (El usuario puede colocar regalos secretos, como equipamiento, oro o tickets Royale en la cabina. Hay regalos disponibles para 10 jugadores)
-Llamado carmesí
-A la luz de la luna carmesí
+¡Auuuuuuuuuuh! (El usuario puede colocar regalos secretos, como equipamiento, oro o tickets en la cabina. Hay regalos disponibles para 10 jugadores)
+Llamado escarlata
+A la luz de la luna escarlata
 Estilo de Rin
 Estilo de Isagi
 Estilo de Nagi
@@ -70931,15 +71014,15 @@ Inquebrantable
 10 Tickets universales + 50 Diamantes
 5 Tickets universales + 100 Diamantes
 Conjunto + 5 Tickets universales + 100 Diamantes
-¡Feliz 9 aniversario! (El usuario puede colocar regalos secretos, como equipamiento, oro o tickets Royale en la cabina. Hay regalos disponibles para 10 jugadores)
+¡Feliz 9 aniversario! (El usuario puede colocar regalos secretos, como equipamiento, oro o tickets en la cabina. Hay regalos disponibles para 10 jugadores)
 Trofeo del 9 Aniversario
-Marco de Juramento carmesí
+Marco de Luna Escarlata
 Marco de trío de BLUE LOCK
 Marco de BLUE LOCK
 Marco Siente el ritmo
 Marco del 9 Aniversario
 Marco de Alas de cristal
-Sticker de Juramento carmesí
+Sticker de Luna Escarlata
 Sticker de Isagi
 Sticker de Nagi
 Sticker de Rin
@@ -71047,7 +71130,7 @@ Reiniciar
 ¿Restablecer la Tarea {0}? ¡Tu progreso se perderá!
 ¿Estás atorado? ¡Intenta reiniciar!
 Bloqueado
-Tutorial del nivel
+Nivel tutorial
 ¡Tarea completada!
 Mapa de nivel principiante
 Escuela de Creadores
@@ -71107,10 +71190,10 @@ Las misiones de Aniversario ya están disponibles
 Recompensas
 ¡Misión de Aniversario aceptada! ¡Hagámoslo!
 ¡Misión de Aniversario completada!
-En este momento [e01f1f]no puedes[-] revivir en Cajas de botín
+En este momento no puedes revivir en Cajas de botín
 ¡Ahora puedes revivir a tus compañeros de equipo directamente desde sus Cajas de botín!
-Resurrección instantánea
-Reaparecer inmediatamente en Caja de botín
+Revivir en Caja de Botín
+Revivir directamente en Caja de botín
 Un compañero te está reviviendo
 ¡Misión completada! ¡Aparecieron [ffba00]muchos suministros[-] y la zona {0} ha sido [ffba00]actualizada[-]!
 Los puntos de misión [ffba00]darán objetos[-]. Las Máquinas expendedoras y de monedas, y los Puntos de resurrección se [ffba00]actualizarán[-].
@@ -71133,17 +71216,17 @@ Otro equipo ya aceptó está misión
 La misión no puede aceptarse de nuevo
 La misión ya no está disponible
 Fiebre de batalla
-Entra en la Zona carmesí y elimina manadas de lobos para ganar recompensas en la partida
-Juramento carmesí
-El Juramento carmesí comienza
-La Zona carmesí apareció
+Entra en la Zona escarlata y elimina manadas de lobos para ganar recompensas en la partida
+Luna Escarlata
+La Luna Escarlata comienza
+La Zona escarlata apareció
 Elimina la manada de lobos para ganar recompensas
 Misión completada
 Mejora de equipo recibida
 Misión fallida
 Manada de lobos no eliminada
 Cuando los PV estén por debajo de {0}, recupera {1} PV/s y {2} PE/s
-El Juramento carmesí ha comenzado
+La Luna Escarlata ha comenzado
 ¡Ríndete! Yo te revivo.
 Dinoculares activados, ¡mira el minimapa!
 ¡No puedo usar mi habilidad!
@@ -71184,13 +71267,16 @@ Ticket de Bóveda de oro
 Ticket de Lucha
 Alas del renacer (máscara)
 Amenaza interdimensional (máscara)
+Banantifaz (máscara)
+Fresucón (máscara)
 Bee-llísima (máscara)
 Dulzura roja (inferior)
 Flor de acero (inferior)
-Melodía carmesí (inferior)
+Melodía escarlata (inferior)
 Dobladillo de autor (inferior)
 Sintonía pastel (inferior)
 Encore cromático (inferior)
+Diva con actitud (inferior)
 Euforia alada (inferior)
 Alas del renacer (inferior)
 Estilo insignia  (inferior)
@@ -71200,10 +71286,11 @@ Etiqueta del firmamento (inferior)
 Bee-llísima (inferior)
 Dulzura roja (máscara)
 Flor de acero (cabeza)
-Melodía carmesí (cabeza)
+Melodía escarlata (cabeza)
 Dobladillo de autor (cabeza)
 Sintonía pastel (cabeza)
 Encore cromático (cabeza)
+Diva con actitud (cabeza)
 Euforia alada (cabeza)
 Alas del renacer (cabeza)
 Estilo insignia (cabeza)
@@ -71216,10 +71303,11 @@ Flor de acero (maquillaje)
 Sintonía pastel (maquillaje)
 Dulzura roja (zapatos)
 Flor de acero (zapatos)
-Melodía carmesí (zapatos)
+Melodía escarlata (zapatos)
 Dobladillo de autor (zapatos)
 Sintonía pastel (zapatos)
 Encore cromático (zapatos)
+Diva con actitud (zapatos)
 Euforia alada (zapatos)
 Alas del renacer (zapatos)
 Estilo insignia (zapatos)
@@ -71229,10 +71317,11 @@ Etiqueta del firmamento (zapatos)
 Bee-llísima (zapatos)
 Dulzura roja (superior)
 Flor de acero (superior)
-Melodía carmesí (superior)
+Melodía escarlata (superior)
 Dobladillo de autor (superior)
 Sintonía pastel (superior)
 Encore cromático (superior)
+Diva con actitud (superior)
 Euforia alada (superior)
 Alas del renacer (superior)
 Estilo insignia  (superior)
@@ -71245,6 +71334,7 @@ Nido de libertad (cabeza)
 Marca del juramento (maquillaje)
 Maquillaje de Mariposas
 Cicatriz de cristal (maquillaje)
+SEA 2026 de otoño (maquillaje)
 Mirada con estilo (maquillaje)
 Acidez verde (máscara)
 Demonio de acero (máscara)
@@ -71252,6 +71342,7 @@ Raijin MVP (máscara)
 Rin (máscara)
 Resonancia metálica (máscara)
 Guardián de acero (máscara)
+Estilo con actitud (máscara)
 Rey Mysterio (máscara)
 Centinela inmortal (máscara)
 Juramento ardiente (máscara)
@@ -71266,6 +71357,7 @@ Raijin MVP (inferior)
 Rin (inferior)
 Resonancia metálica (inferior)
 Guardián de acero (inferior)
+Estilo con actitud (inferior)
 Rey Mysterio (inferior)
 Vuelo electrónico (inferior)
 Centinela inmortal (inferior)
@@ -71281,6 +71373,7 @@ Acidez verde (cabeza)
 Alta puntada (cabeza)
 Raijin MVP (cabeza)
 Resonancia metálica (cabeza)
+Estilo con actitud (cabeza)
 Vuelo electrónico (cabeza)
 Centinela inmortal (cabeza)
 Corte insignia (cabeza)
@@ -71297,6 +71390,7 @@ Raijin MVP (zapatos)
 Rin (zapatos)
 Resonancia metálica (zapatos)
 Guardián de acero (zapatos)
+Estilo con actitud (zapatos)
 Rey Mysterio (zapatos)
 Vuelo electrónico (zapatos)
 Centinela inmortal (zapatos)
@@ -71316,6 +71410,7 @@ Raijin MVP (superior)
 Rin (superior)
 Resonancia metálica (superior)
 Guardián de acero (superior)
+Estilo con actitud (superior)
 Rey Mysterio (superior)
 Vuelo electrónico (superior)
 Centinela inmortal (superior)
@@ -71333,6 +71428,7 @@ Paquete de voz de la Voz escarlata
 Paquete de voz del Rugido escarlata
 Paquete de voz del 9 Aniversario
 Paquete de voz de Ronaldinho
+¡Hola a todos, he vuelto otra vez! ¡Wow, wow, wow!
 El paquete de voz de Tenxi
 Paquete de voz del Día de la Independencia
 Paquete de voz de Memes de LATAM 1
@@ -71342,6 +71438,7 @@ Paquete de voz - Voz escarlata
 Paquete de voz - Rugido escarlata
 Paquete de voz del 9 Aniversario
 Paquete de voz de Ronaldinho
+Paquete de voz de Sahurrr
 Paquete de voz de Tenxi
 Paquete de voz del Día de la Independencia
 Paquete de voz de Memes de LATAM 1
@@ -71358,6 +71455,17 @@ Nunca perderé el camino si estoy contigo.
 ¡Mira este cabezazo de locos!
 ¡Mírate, te hice la gambeta!
 ¡Otra actuación para la historia!
+¡Hola a todos, he vuelto otra vez! ¡Wow, wow, wow!
+Vaya, ¿qué es esto? En serio, ¿qué es esto?
+Sí, sí, ya me voy, ya me voy. ¡Pero definitivamente volveré! ¡Ay, ay, ay!
+Tung tung tung
+Hola a todos, mi nombre es Tung Tung Sahur.
+Solo sabes hablar.
+[Tenxi] ¡Ayúdame!
+[Tenxi] ¿Por qué el enemigo es tan débil?
+[Tenxi] Siempre avisa, amigo.
+[Tenxi] ¡Vamos, vamos!
+[Tenxi] Me duele el pecho.
 ¡Ayúdame!
 Ni siquiera lo estás intentando.
 ¡Por la patria!
@@ -71381,12 +71489,13 @@ Maldita sea, loco.
 Me choca ser tan mala.
 Garra de algodón (zapatos)
 Focantuflas
-Frescoberto (zapatos)
+Pastini Dientini (zapatos)
 Zapatos deportivos de Gala
 Garra de algodón (superior)
 Conjunto Esencia oscura
 Camiseta musical (superior)
-Conjunto de Frescoberto
+Playera de Campeones de la EWC 2026
+Conjunto de Pastini Dientini
 ¿Estás satisfecho(a) con la calidad de la voz en esta partida?
 Ver repetición
 Destacado de partida guardado
@@ -71520,7 +71629,7 @@ Límite de jugadores alcanzado
 Modo de juego
 Tareas diarias
 Inicio de sesión diario
-Te esperan recompensas gratis
+Te esperan recompensas
 Equipaste {0}
 {0} (objeto especial) a punto de caducar
 s
@@ -71532,7 +71641,7 @@ Si tu compañero es eliminado, llega a su Caja de botín dentro del límite de t
 Las Armas renacidas aparecen en los Arsenales mejorados. Cuando comienza la batalla final, todos los supervivientes reciben un Módulo de Renacer. ¡Descubre tu verdadero poder y compite para convertirte en el campeón definitivo!
 Burbujas de Aniversario
 Misión de Aniversario
-Resurrección instantánea
+Revivir en Caja de Botín
 Armas renacidas
 ¡Cae con estilo y recolecta las burbujas!
 ¡En las zonas encontrarás emocionantes misiones!
@@ -71559,10 +71668,10 @@ Electrocuración cura tanto a ti como al compañero seleccionado.
 Crea miniclones de Kassie que infligen daño detrás de ti y del compañero seleccionado.
 Expande la zona de impacto de la embestida
 Tu carrera es más lenta pero dura más tiempo
-Crea un pequeño aro que se fija al enemigo e inflige daño continuo a las Paredes que queden dentro.
-Después de usar la habilidad, pequeñas ondas de sonido aparecen de forma continua durante un tiempo, destruyendo las Paredes Gloo que están delante.
-Despliega un UAV de escaneo en el lugar del impacto cuando la habilidad alcanza a un enemigo y expone a los enemigos en rango.
-Lanza un dron mejorado que se desliza a gran velocidad gracias a su mayor movilidad.
+Crea un área pequeña que se adhiere al enemigo objetivo, infligiendo daño con el tiempo a las paredes que queden dentro.
+Después de usar la habilidad, pequeñas ondas de sonido aparecerán de forma continua durante un tiempo, destruyendo las Paredes Gloo que estén delante.
+Escanea el área designada cuando la habilidad alcanza a un enemigo y expone a los enemigos en rango.
+Lanza un dron mejorado que se desliza a gran velocidad con mayor movilidad.
 Chrono
 Wukong
 Kassie
@@ -71570,7 +71679,7 @@ Oscar
 Skyler
 Homero
 Ir a celebración
-1. Encuentra la Estatua del 9 Aniversario en el lobby de fiesta del 9 Aniversario y gasta tokens para celebrar.\n2. Consigue tokens al completar tareas diarias o jugar partidas.\n3. Cada que celebres en la estatua, recibirás una recompensa de aleatoria.\n4. Cada celebración tiene una probabilidad de darte un privilegio especial como recompensa, que podrás usar hasta que caduque.\n5. Alcanza las metas para ganar recompensas.\n6. ¡Podrás descubrir muchas actividades divertidas en el lobby de fiesta!
+1. Encuentra la Estatua del 9 Aniversario en el lobby de fiesta del 9 Aniversario y gasta tokens para celebrar.\n2. Consigue tokens al completar tareas diarias.\n3. Cada que celebres en la estatua, recibirás una recompensa de aleatoria.\n4. Cada celebración tiene una probabilidad de darte un privilegio especial como recompensa, que podrás usar hasta que caduque.\n5. Alcanza las metas para ganar recompensas.\n6. ¡Podrás descubrir muchas actividades divertidas en el lobby de fiesta!
 Reglas
 Interactuar
 Da monedas a otros jugadores constantemente
@@ -71599,7 +71708,7 @@ Elixir para brazos
 Elixir para piernas
 Destello de Hielo
 Granada de baile
-Fuegos artificiales de la Fuente de aniversario
+Fuente de Fuegos artificiales
 Fuegos artificiales de Aniversario
 Unirse
 Lanzar
@@ -71608,7 +71717,7 @@ Cargando evento del 9 Aniversario
 Cargando...
 ¡Recompensas gratis!
 9 Aniversario
-Premio mayor garantizado después de celebrar {0} vez(ces)
+Recompensa especial garantizada después de celebrar {0} vez(ces)
 Celebrar
 Gratis
 ¡Aún no has completado las tareas diarias!
@@ -71620,7 +71729,7 @@ Gratis
 ¡Revive a tus compañeros {0} vez(ces) más en sus Cajas de botín para completar una tarea!
 ¡Completa {0} misión(es) de Aniversario más para completar una tarea!
 ¡Consigue {0} Fragmento(s) de Aniversario más para completar una tarea!
-¡Captura la Espada del caballero {0} segundo(s) más para completar una tarea!
+¡Captura la Espada del caballero {0} segundo(s) más para completar la misión!
 ¡Mejora {0} tipo(s) de arma más para completar una tarea!
 ¡Usa las plataformas de salto {0} vez(ces) más para recolectar monedas y completar una tarea!
 ¡Elimina {0} enemigo(s) más usando Armas renacidas para completar una tarea!
@@ -71628,7 +71737,7 @@ Gratis
 ¡Usa habilidades mejoradas {0} vez(ces) más para completar una tarea!
 ¡Obtén {0} Punto(s) de refuerzo más y completa una tarea!
 ¡Lleva al máximo tus Puntos de refuerzo {0} vez(ces) más para completar una tarea!
-Tokens restantes hoy: [fs=26][FFE785]{0}[-][/fs]
+Tokens restantes hoy: [S0][fs=26][FFE785]{0}[-][/fs]
 BR-Clasificatoria (límite diario):
 DE-Clasificatoria (límite diario):
 LB (límite diario):
@@ -71694,7 +71803,7 @@ Usar
 No se puede usar este objeto en esta área
 {0} usado(s)
 Demasiados jugadores están usando este objeto, ¡inténtalo de nuevo más tarde!
-Ver grupo de premios
+Ver premios
 9 ANIVERSARIO
 Ya no se puede comprar el Evo Pase
 CAMBIAR GRUPO
@@ -71707,7 +71816,7 @@ MOSTRAR PREMIOS
 RECOMPENSA ADICIONAL
 VER SOLO LOS MÍOS
 GANASTE
-Nivel {0} garantizado en {1} giro(s)
+Nivel {0} garantizado en [ffba00][fs=32][b]{1}[/b][/fs][-] giro(s)
 NIVEL S
 NIVEL A
 NIVEL B
@@ -71729,7 +71838,7 @@ Las 7 Cajas de botín fueron obtenidas
 CAMBIANDO GRUPO
 Aviso de giro
 Reembolso:
-[00000000] [-]
+NIVEL
 ¡{0} ganó un premio nivel {1}!
 Cacería de premios
 ¡Obténlo ahora!
@@ -71738,7 +71847,7 @@ No queda ningún premio. ¡Te moveremos a otro grupo!
 Bonus de Cacería de premios
 Querido sobreviviente,\n\nAquí tienes el bonus que te perdiste del evento Cacería de premios: {0}.\n¡Gracias por participar!
 Grupo {0}
-IZQUIERDA
+RESTANTES
 Quedan pocos premios, ¿por qué no cambias de grupo?
 ¡Este grupo es bueno!
 No quedan Premios mayores, cambiándote a un nuevo grupo.
@@ -71759,6 +71868,2110 @@ Esta área tiene muchos objetos
 Esta área tiene bastantes objetos
 Excelente
 Buena
+El admin te transformó
+Este nombre contiene caracteres no admitidos. Edítalo para continuar.
+Algunos nombres de propiedades personalizadas contienen caracteres no admitidos. Edítalos e inténtalo de nuevo.
+{0} de ahorro recibido
+¿Confirmas que quieres usar [S0]{0} + [S1]{1} para desbloquear el pase [FFCD30]PREMIUM[-]?
+¿Confirmas que quieres usar [S0]{0} + [S1]{1} para desbloquear el pase [FFCD30]PREMIUM PLUS[-]?
+Usar [S0] de todos modos
+Consigue 1 [S0] para desbloquear y obtener
+Ahorro actual
+Gasta [S0] en {0} para ahorrar [S1],\núsalos en {1} después de obtener [S0]
+Consigue cualquier cantidad de [S0] para desbloquear [S1]\n[S1] solo se puede usar para canjear [S0] en Eventos Royale y Pases Booyah.\nLos [S1] no utilizados se restablecerán a 0 al final del mes.
+Consigue cualquier cantidad de [S0] para desbloquear [S1]\nLos [S1] solo se puedes usar para compensar [S0] en el Menú Deluxe y los Pases Booyah.\nEl [S1] no utilizado se restablecerá a 0 al final de este mes.
+{0} [S0] aún no obtenido(s)
+¡Desbloquea [S0]{0} y úsalos aquí!
+Gastados
+Diamantes Prime
+Se desbloquea en Prime {0}
+Alcanza Prime {0} para desbloquear
+Llega a Prime {0} para reclamar {1}[S0]
+¡Ahorra Diamantes Prime ya!
+¡Meta alcanzada!\n¡Se desbloquearon más [S0]!
+Convierte el gasto de [S0] de este mes en ahorro para el próximo mes.\n\n1. Guarda Diamantes Prime\n· Gasta [S0] para progresar y alcanzar metas para ahorrar [S1]. ¡Cuanto más gastes, más ahorras!\n· Solo los [S0] cuentan para el progreso. Las cantidades pagadas con [S1] no cuentan.\n\n2. Desbloquea y usa Diamantes Prime\n· Los Diamantes Prime guardados este mes se pueden usar el próximo mes. Al inicio del próximo mes, los Diamantes Prime se bloquean: puedes verlos, pero aún no puedes usarlos.\n· Recarga cualquier cantidad de [S0] el próximo mes para desbloquear los Diamantes Prime que ahorraste.\n· Una vez desbloqueados, los [S1] se pueden usar en Luck Royale y el Pase Booyah. 1 [S1] = 1 [S0]. Los [S1] se deducirán primero al pagar.\n\n3. Expiración mensual\n· Los [S1] que ahorraste deben gastarse el próximo mes, o se restablecerán a 0 a las 4:00 a. m. del mes siguiente.
+Convierte el gasto de [S0] de este mes en ahorro para el próximo mes.\n\n1. Guarda Diamantes Prime\n· Gasta [S0] para progresar y alcanzar metas para ahorrar [S1]. ¡Cuanto más gastes, más ahorras!\n· Solo los [S0] cuentan para el progreso. Las cantidades pagadas con [S1] no cuentan.\n\n2. Desbloquea y usa Diamantes Prime\n· Los Diamantes Prime guardados este mes se pueden usar el próximo mes. Al inicio del próximo mes, los Diamantes Prime se bloquean: puedes verlos, pero aún no puedes usarlos.\n· Recarga cualquier cantidad de [S0] el próximo mes para desbloquear los Diamantes Prime que ahorraste.\n· Una vez desbloqueados, los [S1] se pueden usar en Luck Royale, el Menú deluxe y el Pase Booyah. 1 [S1] = 1 [S0]. Los [S1] se deducirán primero al pagar.\n\n3. Expiración mensual\n· Los [S1] que ahorraste deben gastarse el próximo mes, o se restablecerán a 0 a las 4:00 a. m. del mes siguiente.
+Gasta [S0] para ahorrar [S1]
+No usaste ningún [S0], tu progreso de Diamantes Prime no cambió
+Solo los [S0] cuentan para la alcancía. Los diamantes canjeados por [S1] no serán válidos.
+Reclamados: {0}
+Puedes reclamar: {0}
+Reglas de los Diamantes Prime
+Alcancía de Diamantes: {0}
+Consigue 1 [S0] para reclamar los [S1] ahorrados
+Tus [S0] expirarán en {0} día(s), ¡no olvides usarlos!
+¡Alcanzaste el máximo de Diamantes Prime {0}! ¡Desbloquéalos en {1}!
+¡Meta alcanzada! ¡Ve a reclamar tus [S0]!
+Gasta [S0] en {0}, desbloquea y usa [S1] en {1}
+¡[S0]{0} ahorrados!
+¡No olvides usar todos tus [S0] antes del próximo mes!
+En Luck Royale y el Pase Booyah, ¡se utilizará [S0] antes que [S1]!
+[S0] se puede usar para compensar [S1] en el Menú deluxe y los Pases Booyah
+Fecha de expiración
+Tus [S0]{1} sin usar de {0} se han restablecido a 0.
+Notificación de expiración de Diamantes Prime
+Restan [S0]{0}. Reinicia en {1} d.
+[S0]{1} se reinicia en {0} d. ¡Corre!
+¡Último día! ¡[S0]{0} quedarán en 0!
+Expira en {0}
+Diamante Prime
+Obtenido de:
+Sistema Prime
+Solo se puede usar en
+Derriba a un enemigo para obtener velocidad de disparo y velocidad de movimiento adicionales durante 20 s
+Relámpago
+Los disparos infligen daño adicional y absorben PV de los enemigos
+Absorber
+Normal
+Regresar
+Skorp
+Un subfusil perforador de armaduras que destaca contra enemigos fuertemente blindados a corta distancia, ideal para el combate a corta distancia.
+FO12
+Una escopeta totalmente automática con una potencia de disparo devastadora a corta distancia, ideal para ataques rápidas
+M200
+Un poderoso rifle de francotirador diseñado para eliminaciones precisas a largo alcance
+M7
+Un rifle de asalto con retroceso manejable y daño sólido, ideal para el combate a media distancia.
+RPK
+Una ametralladora ligera con un mecanismo de retroceso único, alto daño y movilidad similar a la de un rifle, ideal para el combate a media y larga distancia
+Hawk
+Un rifle de francotirador muy potente que dispara dos balas sucesivas. El fuerte retroceso tras cada disparo hace que sea ideal para el combate a larga distancia.
+TEC-9
+Una pistola con mucha velocidad de disparo y excelente daño en ráfaga a corto alcance, ideal como arma secundaria flexible
+Retroceso
+Zona colapsando
+Selecciona a 1 jugador como Objetivo de la caza
+Caza del admin
+Haz que el Admin sea el objetivo de todos los jugadores
+Potenciador predeterminado
+Tamaño de cabeza x{0}
+Tamaño de brazo x{0}
+Tamaño de pierna x{0}
+Tamaño del cuerpo x{0}
+Enfriamiento de habilidad
+Recuperación de PV
+Tamaño de cuerpo
+Tamaño de brazo
+Tamaño de cabeza
+Tamaño de pierna
+Velocidad de movimiento {0}%
+Altura de salto +{0}%
+Enfriamiento de habilidad -{0}%
+PV +{0}/s
+PV máximos {0}
+Altura de salto {0}%
+Enfriamiento de habilidad {0}%
+Recuperación de PV {0}/s
+Cabeza x{0}
+Brazos x{0}
+Piernas x{0}
+Cuerpo x{0}
+El admin le dio a TODOS un potenciador: [ffd888]{0}[-]
+El administrador otorgó TODOS los objetos: [ffd888]{0}[-]
+El admin otorgó TODAS las recompensas: [ffd888]{0}[-]
+El admin hizo que a TODOS les caiga un rayo
+El administrador comenzó una Caza de [ffd888]{0}[-] con una recompensa de [ffd888]{1}[-]
+El admin inició una Caza en contra de sí mismo con una recompensa de [ffd888]{0}[-]
+Conozco a este admin. ¡Le encanta dar diamantes!
+¿Dónde está el admin? ¡Mi cuerpo pide sangre!
+Me están cazando. ¡Protégeme!
+¡Tregua! Vamos por el admin primero.
+No hay penalización de Puntos de rango. ¡Vamos!
+¡Dame objetos y seré tu fan!
+Duración
+{0} min
+Porcentaje
+Aleatorio
+Todos
+Objetivo
+Tú mismo
+Jugador objetivo
+Toda la partida
+Recompensas
+Potenciadores
+Objetos
+Rayo
+Transformar
+Cámara 360°
+¿Dar {0} a [ffe400]{1}[-]?
+¿Iniciar votación ahora? (Duración: {0} min)
+¿Cambiar a estado invencible y visible? No podrás volver al modo espectador después, pero podrás seguir realizando otras acciones como Admin.
+¿Quieres eliminar el preset guardado?
+¿Dar {0} a todos los jugadores con vida?
+¿Otorgar {0} a todos los jugadores vivos por {1} min(s)?
+¿Solicitar 1 Golpe de rayo contra [ffe400]{0}[-]?
+¿Solicitar 1 Golpe de rayo contra todos los jugadores con vida?
+¿Cazar a [ffe400]{0}[-] con una recompensa de {1}?
+¿Cazarte a ti mismo con una recompensa de {0}?
+Principal
+Preset
+Girador
+Avanzado
+General
+Caza por recompensas
+Votar
+Ajustes de administrador
+Chat de jugador
+Recomendaciones rápidas/presets guardados
+Genera un evento aleatorio
+Elimina a [ffe400]{0}[-]
+Recompensas: {0}
+Mantén con vida a [ffe400]{0}[-]
+Sobrevive la cacería
+Partida intervenida
+Únete a una partida específico
+Buscar por ID/ID de partida
+Únete a una partida aleatoria
+Emparejar ahora
+Únete a una partida en curso
+No se encontró partida
+El jugador objetivo no está en partida
+No puedes unirte. La partida objetivo no cumple los requisitos de Partida intervenida.
+Recomendado
+Guardar
+Usar
+Editar
+En progreso
+Completado
+Eliminado
+Sobreviviste
+Eliminado (terreno)
+Bonificación de Partida intervenida
+Admin en partida
+Completaste la Caza por recompensas en una [ffe400]Partida intervenida[-]
+Estado del administrador
+Invisible
+No hay entidad en la partida. El administrador puede espectar a otros jugadores o usar la Cámara 360°.
+Visible
+El administrador es visible e invencible en la partida y puede ser espectado
+Elige un lugar de aterrizaje
+Entra antes del
+Área
+Selecciona un área del mapa
+Evento
+Detalles
+Objetivo
+Editar
+Volver a girar
+Vuélvete visible primero
+Opciones de votación
+Opción 1
+Opción 2
+Ingresa la opción de votación
+{0} está en una región diferente y no puede unirse a este modo
+Este jugador está en otra región y no puede recibir regalos
+Otros jugadores han abandonado la Reescuadra
+[ffe400]{0} eliminación(es) en una partida reciente[-]
+[ffe400]{0} ayuda(s) en una partida reciente[-]
+[ffe400]{0} resurreción(es) en una partida reciente[-]
+Último disparo
+Esta caja no se puede volver a abrir
+Lleva esta FFigurita por [37e347]{0}[-] para sacarla de la partida
+FFigurita: Un coleccionable raro. Llévala un tiempo para sacarla de la partida y añadirla a tu colección.
+Cajas misteriosas restantes: {0}
+Recogiste FFigurita: {0}
+{0} obtuvo la FFigurita: [ffba00]{1}[-]
+Un compañero encontró una FFigurita
+No puedes jugar este mapa en este momento, pero hay otros mapas disponibles. Contacta a Soporte al jugador para más detalles.
+Esta sala contiene a un jugador suspendido, no se puede iniciar la partida.
+AK47- Exclusiva de la T39: Búho
+Kingfisher - Sandía ninja
+Abismo cósmico
+AWM - Abismo cósmico
+Material usado para evolucionar el aspecto de la AWM. Consíguelo en eventos o cómpralo directamente en la Tienda.
+Token Abismo cósmico
+Mochila - Capa cósmica
+Mochila - Campeón de la FFWS 2026
+Mochila - Fuego jurásico
+Mochila - El monstruo de la lámpara
+Mochila - Pastel de luna
+Mochila - Pergamino de sandía
+Mochila - Búho de acero
+Mochila - Picadura de escorpión
+Mochila - Escorpión eléctrico
+Mochila - Misterio de felpa
+Fondo Soberano cósmico
+Fondo de Maestro en DE-Clasificatoria T39
+Fondo de Heroico en DE-Clasificatoria T39
+Fondo de Maestro en DE-Clasificatoria T40
+Fondo de Heroico en DE-Clasificatoria T40
+Fondo Magma abismal
+Nuevo fondo de Kenta
+Fondo Frenesí frutal
+Fondo Se Busca: Búho
+Fondo de Maestro en BR-Clasificatoria T54
+Fondo de Heroico en BR-Clasificatoria T54
+Fondo Veneno cósmico
+Bate - Exclusivo de la T54: Escorpión
+Bate - Espíritu de zorro
+Bate - Misterio solar
+M82B - Exclusivo de la T54: Escorpión
+Se Busca: Búho
+Veneno cósmico
+Frenesí frutal
+Dominio cósmico
+Vórtice cósmico
+Exhibición de FFiguritas
+¡Ataque de flama!
+¡Aquí estoy!
+Llanto quebrado
+Baile del león
+Fiereza felina
+Picadura silenciosa
+Fuerza del tornado
+¿Por qué me duele el cuello?
+Me lleva el pavo
+Skorp - Veneno letal
+Skorp - Orión
+Último disparo - Extinción
+Ejecución cósmica
+Puños - Cometa cósmico
+G36 - La venganza de la novia
+G36 - Alguacil nocturno
+Pared Gloo - Mirada cósmica
+Pared Gloo - Pared Boom
+Pared Gloo - Campeón de la FFWS 2026
+Pared Gloo - Hijo del huevo
+Pared Gloo - No uses el elevador
+Pared Gloo - Danza del león
+Pared Gloo - Clásicos
+Pared Gloo - Rebanada de sandía
+Pared Gloo - Naturaleza felina
+Pared Gloo - Centinela emplumado
+Pared Gloo - Tienda de los espíritus
+Pared Gloo - MAMA
+Granada - Payazón
+Granada - Explosión de sandía
+Granada - Marca del búho
+Granada - Buhito de bádminton
+Granada - Picadura de Escorpión
+Gobernante cósmico
+Show de miedo
+Ícono Soberano cósmico
+Ícono de Maestro en DE-Clasificatoria T39
+Ícono de Heroico en DE-Clasificatoria T39
+Ícono de Maestro en DE-Clasificatoria T40
+Ícono de Heroico en DE-Clasificatoria T40
+Ícono Magma abismal
+Nuevo ícono de Kenta
+Nuevo Kenta chibi
+Ícono Frenesí frutal
+Ícono Se Busca: Búho
+Ícono de Maestro en BR-Clasificatoria T54
+Ícono de Heroico en BR-Clasificatoria T54
+Ícono Veneno cósmico
+Katana - Lágrima cósmica
+Katana - Transmisión Final
+Caja de Botín - Caja de pelos
+Caja de Botín - Rollo de petardos
+Caja de Botín - Maldición doble
+Caja de Botín - Esponjosa sorpresa
+Caja de Botín - Bananinja
+Caja de Botín - Bananinja
+Caja de Botín - Descanso del búho
+Caja de Botín - Música venenosa
+Caja de Botín - Coliseo de Trueno
+Caja de Botín - MAMA
+Caja de botín - Misterio solar
+M1014 - Espíritu de zorro
+Trogón - GATillo
+M1873 - Picadura de escorpión
+M200 - Veneno letal
+M200 - Morse
+M60 - Magma abismal
+M7 - Veneno letal
+M7 - Rin
+Machete - Miau-tífero
+Machete - El triturador
+Machete - Picadura de escorpión
+Machete - Pata de pavo
+AC80 - Espíritu de zorro
+Transmisión letal
+MP5 - Coliseo de Trueno
+Canción temática del Coliseo de Trueno
+Coliseo de Trueno
+Muestra texturas de pelo en capas e iluminación difuminada
+P90 - Exclusiva de la T40: Ninja
+Sartén - Exclusivo de la T39: Búho
+Sartén - Dinocarnitas
+Sartén - Coliseo de Trueno
+Paracaídas - Transmisión Final
+Paracaídas - Exclusivo de la T54: Escorpión
+Aspecto de Mascota: Colmillo Bestia
+RPK - Veneno letal
+RPK - Steffie
+Hawk - Veneno letal
+Hawk - Skyler
+Hoz - Aleación cortante
+Hoz - Pluma de magma
+Hoz - Sandía ninja
+Tabla - Garras veloces
+Tabla - Vuelo autorizado
+Tabla - Suabe vuelo
+Tabla - Kunai de sandía
+Tabla - Alas de búho
+Tabla - Picadura de estrellas
+TEC-9 - Veneno letal
+TEC-9 - Dasha
+Cuchillo - Exclusivo T40: Ninja
+Cuchillo - Alguacil nocturno
+USP-2 - Fuego fresco
+Mini Uzi - GATillo
+Auto anfibio - Exclusivo de la T39: Búho
+Caballo - Guardián cósmico
+Caballo - Pluma veloz
+Jeep - Rey de Mirzapur
+Jeep - ¡Por poco!
+Jeep - Modelo Escorpión
+Camión monstruo - Espíritu libre
+Camión monstruo - Velocidad del trueno
+Motocicleta - Pavo a domicilio
+Camioneta pickup - Motor de sandía
+Tuk tuk - Exclusivo de la T40: Ninja
+Abre para recibir un aspecto de arma aleatorio de Trogón + Mini Uzi - GATillo
+Caja de Armas de Trogón + Mini Uzi - GATillo
+Abre para recibir un aspecto de arma aleatorio de M60 - Magma abismal
+Caja de Armas de M60 - Magma abismal
+Abre para recibir un aspecto de arma aleatorio de AC80 + M1014 - Zorro enmascarado
+Caja de Armas de AC80 + M1014 - Espíritu de zorro
+Compañero AFK: Conservas tu racha de victorias
+Herida abierta
+Te desangras mucho más rápido al ser derribado
+Lluvia de lanzables
+Granadas gratis en ciertas rondas
+Destello de Hielo gratis en ciertas rondas
+Congelación Dracónica gratis en ciertas rondas
+Granada Gloo gratis en ciertas rondas
+Incendiaria gratis en ciertas rondas
+Granada localizadora gratis en ciertas rondas
+Filo a filo
+La pistola de la tienda se sustituye por arma cuerpo a cuerpo
+Sin curitas
+No hay botiquines. Aparecerán zonas curativas en el mapa.
+No hay botiquines
+Pistola y Francotirador
+Habilidades en venta
+Tienda sorpresa
+Aparecerán objetos especiales en la tienda
+Aparecerán tarjetas de habilidad en la tienda
+Solo hay pistolas y rifles de francotirador en la tienda
+Iniciar sesión con correo
+Para mayor seguridad de la cuenta, tu correo de inicio de sesión y tu correo de recuperación deben ser diferentes.
+Jugador con emulador
+Esta opción de registro no está disponible por el momento. Prueba con otro método.
+Conjunto Emperatriz Cósmica
+Conjunto Miaumiga
+Conjunto Fénix de magma
+Conjunto DINOmita
+Conjunto Chica de academia
+Conjunto Aparición carmesí
+Conjunto Bananinja
+Conjunto Intuición felina
+Conjunto Ala de justicia
+Conjunto Veneno de escorpión
+Conjunto Espíritu de conejo
+Conjunto Novia fantasma
+Conjunto Misterio lunar
+Conjunto Terror de las sombras
+Conjunto Soberano cósmico
+Conjunto Red Bull
+Conjunto MiMichila
+Conjunto Magma abismal
+Conjunto REXclusivo
+Conjunto Ícono escolar
+Conjunto El hombre del sobrero
+Conjunto Abrigo de sangre
+Conjunto Sandía ninja
+Conjunto Instinto felino
+Conjunto Alguacil nocturno
+Conjunto Escorpión tóxico
+Conjunto Espíritu de zorro
+Conjunto Forajido fantasma
+Conjunto MAMA
+Conjunto Misterio solar
+{0} terminó de descargarse. ¿Jugar?
+Encontramos mapas que podrían gustarte. Descarga los recursos antes de jugar.
+¡Descubre más mapas divertidos de Crea Tu Mapa!
+Recomendado para ti: {0} de jugadores totales, {1}% de calificación positiva.
+¿Ir a los modos oficiales? Puedes volver a Crea Tu Mapa cuando quieras.
+¿Dejar de jugar este mapa de Crea Tu Mapa por ahora? [u]Ir a modos oficiales>>[/u]
+¿Dejar de jugar este mapa de Crea Tu Mapa por ahora?
+Ir a modos oficiales
+Conjunción solar (Ray)
+Si te gusta un mapa, ¡suscríbete a él para no perderte ninguna actualización!
+Sigue a tu creador favorito y descubre más de sus mapas.
+¡Comparte tus mapas favoritos con tus amigos y jueguen juntos!
+Deja una calificación o comentario después de jugar un mapa para que otros jugadores lo vean.
+Crea Tu Mapa reúne mapas creados por otros jugadores, y cada mapa ofrece una experiencia única.
+En Crea Tu Mapa, puedes descubrir, jugar y compartir mapas creados por otros jugadores.
+En Crea Tu Mapa, puedes encontrar mapas populares y mapas con mecánicas muy creativas.
+El administrador hizo que caiga un rayo
+[ffe400]A todos[-] les cae un rayo
+El admin hizo que te caiga un rayo
+Comienza la Caza por recompensas
+Tu compañero [ffe400]sobrevivió[-]. Tu equipo comparte {0}.
+[ffe400]{0}[-] fue eliminado. Misión fallida.
+¡Se acabó el tiempo! Misión fallida.
+Sobrevive para ganar recompensas
+Protege a tu compañero de equipo para ganar recompensas
+Compartió {0} con compañeros
+¡Pelea para sobrevivir!
+Elimina al objetivo por recompensas
+Elimina a [ffe400]{0}[-] para compartir {1}
+Ahora tú eres el objetivo. ¡Mantente con vida para compartir {0} con tus compañeros!
+Mantén a tu compañero [ffe400]{0}[-] vivo para compartir {1}
+Misión completada
+Completado por {0}
+[ffe400]Sobreviviste[-]. Tu equipo comparte {0}.
+Fuiste eliminado. Misión fallida.
+El admin dio potenciadores
+[ffe400]Todos[-] recibieron potenciadores
+El admin te dio un potenciador
+Comenzó la Caza del admin
+Admin eliminado
+El admin dio objetos
+[ffe400]Todos[-] obtuvieron objetos
+El administrador te dio objeto(s)
+El admin repartió recompensas
+[ffe400]Todos[-] obtuvieron recompensas
+El admin te dio {0}
+El admin dio transformación
+[ffe400]Todos[-] fueron transformados
+El admin te transformó
+El admin ha iniciado una encuesta
+¿Qué sigue? ¡Todo depende de ti!
+[ffe400]{0}[-] ganó la votación
+Admin en partida
+{0} en partida
+No se deducirán Puntos de rango. ¡Disfruta la bonificación y lucha con estilo!
+Mochila actualizada. Los cambios surtirán efecto después de salir del modo de edición.
+Todos
+Calidad
+Tamaño
+Fecha de obtención
+No se puede colocar FFigurita grande
+Las FFiguritas legendarias no se pueden regalar ni intercambiar
+FFigurita añadida a tu colección
+Valor
+Catálogo de FFiguritas
+Saca una FFigurita para desbloquear su entrada en el Catálogo
+Cada FFigurita sacada de una partida otorga Valor de catálogo según su tipo
+El primer objeto sacado de una partida otorga
+Desbloquear catálogo
+Objeto por tiempo limitado disponible durante {0}
+FFigurita común
+Editar
+Los cambios no se han guardado. ¿Descartar?
+Elegir una FFigurita para mostrar
+Mostrar
+Desbloquear emote gratis
+Ir a FFiguritas
+Usar en emote
+Ir
+Emote de exhibición de FFiguritas desbloqueado
+FFigurita
+Valor de primera vez
+Primera vez
+Fecha:
+Información de primer objeto sacado
+Ubicación:
+Compañero de equipo:
+{0} obtenido en {1}
+¿Confirmas que quieres regalar esta FFigurita?
+No tienes suficientes. No se puede regalar.
+Selecciona a un amigo
+Regalo enviado
+Código de región
+Obtenerlo por primera vez otorga Valor de catálogo
+{0} FFiguritas disponibles como recompensas por tiempo limitado
+FFigurita de tiempo limitado
+Dejando ahora
+{0} sigue bloqueada
+Nueva FFigurita obtenida
+Código de región único: Número {1} en {0}
+Límite de colocación alcanzado
+Vista previa
+No hay paquete de FFiguritas para mostrar
+Progreso
+Legendario
+Mítico
+Colección de FFiguritas
+Reglas de FFiguritas
+Error al guardar
+Grande
+La prueba del sistema de FFiguritas ha terminado. ¡Sigue al tanto!
+Objetos por tiempo limitado
+Valor total
+Aceptar intercambio
+Intercambio de FFiguritas
+Las FFiguritas se intercambiarán después de confirmar
+Intercambio exitoso
+Intercambio expirado
+Esta FFigurita no se puede intercambiar en este momento
+Selecciona una FFigurita
+Visitar colección
+Escanea para unirte a la escuadra
+¡Únete a la escuadra de {0} y recarguen para obtener recompensas!
+Logros
+Aún no hay logros
+Logro(s) x{0}
+Jugar para obtener logros
+≥{0}
+¡Sigues en la pelea! El Coliseo del Trueno empieza a fijarse en ti. ¡Sigue adelante!
+Se desbloquea cuando la Reputación de Trueno sea {0}
+Desbloquea todas las metas del evento para ver los requisitos
+DAÑO
+Racha de 2 eliminaciones en cualquier ronda
+Racha de 3 eliminaciones en cualquier ronda
+Racha de 4 eliminaciones en cualquier ronda
+Racha de 5 eliminaciones en cualquier ronda
+Elimina a 2 o más jugadores consecutivamente con armas cuerpo a cuerpo en cualquier ronda
+¡Participa en el evento del Coliseo de trueno y obtén muchísimos premios!
+Coliseo de Trueno
+Selecciona un club
+Selecciona una pose
+Elim.
+¡Mírate, eres la sensación del Coliseo del Trueno! ¡Veamos hasta dónde puedes llegar!
+¡Juega partidas activamente para ganar recompensas por tu Reputación de Trueno!
+¡Aumenta tu Reputación de Trueno para desbloquear Tarjetas de jugador de nivel superior y recompensas raras!
+Headshots
+Ayudas
+1. Juega BR-Clasificatoria y DE-Clasificatoria durante el evento para ganar Reputación de Tormenta según tu desempeño.\n2. Aumenta tu Reputación de Trueno para reclamar recompensas gratis y mejorar el marco de tu Biografía de Batalla.\n3. Después de desbloquear todos los hitos de progreso, sigue aumentando tu Reputación de Trueno para desbloquear un marco especial de Biografía de Batalla.\n4. Edita tu Tarjeta de Jugador con tu pose e imagen de club favoritas. Durante el evento, también puedes configurar tu Tarjeta de Jugador como tu Biografía de Batalla para presumirla ante otros jugadores.\n5. Anima a tus amigos dándoles like en el Perfil.
+Reglas
+¡Recompensas gratis!
+Coliseo de Trueno
+Evento de logro
+Solicitud exitosa
+A lo grande
+Sobrevive el trueno
+¡Juega partidas clasificatorias para ganar Reputación de Trueno!
+Soberanos cósmicos
+EVO - AWM
+¡Gana recompensas gratis!
+Eventos
+Debut
+Novedades
+Evento destacado
+Medallas
+Medalla de Oro
+Medalla de Plata
+Recta final
+Mejores jugadas
+Hora estelar
+Reputación de Trueno
+Reputación
+Establecer como Biografía de Batalla
+Hora del show
+Detalles de estadísticas
+Coliseo de Trueno
+Resumen de estadísticas
+FFWS: Finales
+Partidas jugadas: [ffba00]{0}[-]
+¡Increíble! De todos los que compiten en el Coliseo del Trueno, tú has llegado hasta aquí. ¡Un último esfuerzo para alcanzar la gloria!
+Todas las miradas están en el escenario principal. El Coliseo del trueno recordará tu nombre. ¡ESTE… ES TU GRAN MOMENTO!
+¡Mira eso! Las luces están encendidas, el público te observa y es hora de darles un buen espectáculo.
+Historial
+¡Gana partidas, domina el escenario y disfruta tu momento! ¿Estás listo?
+Premios anuales
+¡Juega en clasificatoria para ganar Paquetes de rango y recuperar los Premios anuales!
+Premios anuales perdidos en meses anteriores
+Juega en clasificatoria para obtener Paquetes de rango
+Desbloquea los Paquetes de rango para recuperar los Premios anuales
+¿Te perdiste los Premios anuales?
+Posibilidades de Premio anual: [FFBA00]{0}[-], Premio anual garantizado en [FFBA00]{1}[-] Paquete(s) de rango
+El próximo Premio anual se renueva en {0}
+No obtenido
+Desbloquear x{0}
+[FFBA00]Otros premios[-]
+Resumen de premios
+Obtenido: [FFBA00]{0}[-]/{1}
+Paquete de rango obtenido x{0}
+{0}/{1} min
+Juega [FFBA00]{0}[-] min más para obtener el siguiente
+Alcanza el tiempo de juego para [x0.n][S0][-]
+Actualizar [x0.n][S0][-] en
+Obtén 1 al azar
+Premios actualizados
+1. Completa partidas de BR-Clasificatoria/DE-Clasificatoria para aumentar el tiempo de juego válido y consigue hasta [FFBA00]{0}[-] Paquetes de rango por semana, hasta [FFBA00]{1}[-] en total. Los Paquetes de rango también se pueden obtener al alcanzar los rangos objetivo.\n2.Desbloquea el Paquete de rango para recibir las recompensas que contiene, con la posibilidad de ganar un Premio anual no repetible (hasta 12 por año). Un Premio anual llegará aleatoriamente cada mes y se puede almacenar. Se actualiza a las 4:00 a. m. del primer día de cada mes.\nEste evento termina el 2026-12-31 23:59:00.
+Paquete de rango
+Avanza más en el Paquete de rango
+Conteo semanal: {0}/{1}
+¡Mayor probabilidad de Premios anuales!
+Paquete de Huerto Mutante
+Paquete de jardín, ábrelo para obtener herramientas y construir tu jardín.
+Este mapa tiene funciones comerciales habilitadas y no se puede eliminar ni poner fuera de línea. Comunícate con el equipo oficial.
+Cuenta suspendida
+Privilegios de creador suspendidos, no se puede ingresar al Estudio de Crea Tu Mapa.
+Tienes mapas comerciales en tu cuenta. Ocúpate de ellos antes de eliminar tu cuenta.
+Cuenta suspendida. No se puede usar el Centro de Creador.
+Este mapa está bloqueado. No se puede actualizar ni sacar de línea.
+Todavía tienes pedidos de recarga activos en proceso. ¿Estás seguro de que quieres seguir recargando?
+La partida terminó. Ve al lobby y confirma la información de la recarga.
+El estado comercial del mapa actual ha cambiado, no puedes hacer compras en este momento.
+Estado del producto actualizado. Vuelve a abrir la tienda.
+Ve al Centro de Descargas para revisar los recursos del mapa y reinicia el juego.
+Cantidad de compra.
+Reproducir sacudida de cámara personalizada
+Configurar sacudida de cámara personalizada.
+Compensación de eje
+Compensación de eje X/Y/Z.
+Amplitud
+Amplitud de sacudida.
+Frecuencia
+Frecuencia de vibración.
+Fundido de entrada
+Tiempo de fundido de entrada. Unidad: ms.
+Fundido de salida
+Tiempo de fundido de salida. Unidad: ms.
+Duración ms
+Duración de la sacudida. Unidad: ms.
+Descargar recurso de mapa
+Solicita al cliente actual descargar los recursos de mapa especificados de Crea Tu Mapa.
+El código de mapa del mapa de Crea Tu Mapa con descarga de recursos.
+Comprobar descarga de recurso del mapa
+Comprueba el estado de los recursos del mapa local en el cliente actual y devuelve el estado de descarga, el progreso y el código de estado de la comprobación.
+El código del mapa que requiere una revisión del estado del recurso
+Estado de descarga
+El estado de descarga de recursos de mapa local del cliente actual.
+Progreso
+El progreso de descarga del cliente actual, varía de 0 a 100.
+Verifica el código de estado devuelto por la llamada a la API.
+Verificar toque en IU
+Verifica si existe una IU integrada predeterminada, una IU personalizada de Crea Tu Mapa o una IU integrada de Crea Tu Mapa en las coordenadas de unidad de IU especificadas.
+Coordenadas de unidad de la IU a detectar.
+Cadena a flotante grande
+Analiza la cadena en un flotante grande, conservando al menos 15 dígitos decimales significativos y preservando el signo; admite el control de parámetros de la notación científica, los separadores de coma y los sufijos abreviados K, M, B, T, Qa; devuelve nil para entradas no válidas.
+Cadena a analizar.
+Permitir notación científica
+Si se permite la notación científica. Si se permite, e y E se pueden usar como marcadores de exponente.
+Permitir separadores
+Si se permiten comas como separadores numéricos.
+Permitir sufijo
+Si se permiten abreviaturas como K, M, B, T, Qa como sufijo.
+Establecer cantidad de desplazamiento
+Establece la cantidad de desplazamiento vertical u horizontal para la vista de desplazamiento.
+La dirección de desplazamiento.
+El valor de desplazamiento.
+Reiniciar posición de desplazamiento
+Reinicia la posición de la vista de desplazamiento.
+Obtener emotes propios
+Obtiene la lista de todos los ID de Emote que posee la cuenta del jugador local; solo del lado del cliente, se lee de forma sincrónica desde la caché local de la Mochila.
+Obtener atuendo propio
+Obtiene la lista de todos los ID de atuendo que posee la cuenta del jugador local; implementación exclusiva de cliente, se lee de forma sincrónica desde la caché local de Mochila.
+Obtener aspecto propio de vehículo
+Obtiene la lista de todos los ID de aspecto de vehículo que posee la cuenta del jugador local; solo del lado del cliente, se lee de forma sincrónica desde la caché local de Mochila.
+Obtener aspecto propio de arma
+Obtiene la lista de todos los ID de aspecto de arma que posee la cuenta del jugador local; implementación exclusiva de cliente, se lee de forma sincrónica desde la caché local de Mochila.
+Obtener aspecto propio de mochila
+Obtiene la lista de todos los ID de aspecto de mochila que posee la cuenta del jugador local; implementación exclusiva de cliente, se lee de forma sincrónica desde la caché local de Mochila.
+Leer celda CSV del servidor por nombre
+Lee el contenido de la celda correspondiente a la fila y el nombre de columna especificados en el archivo CSV del servidor.
+El nombre del archivo CSV del servidor.
+El índice de la fila a leer
+El nombre de la columna a leer
+Leer fila de CSV del servidor por clave
+En el archivo CSV del servidor, busca la primera fila donde el valor de la columna clave sea igual a la clave y devuelve todo el contenido de la fila.
+Columna clave
+El índice de columna utilizado para coincidir con el valor objetivo.
+Clave
+El valor objetivo que debe coincidir.
+Nombre de columna CSV a Int
+Convierte el nombre de columna del archivo CSV del servidor en índice de columna.
+El nombre de la columna a convertir en índice de columna.
+Actualizar lista fácil
+Actualiza toda la celda de la Lista fácil. Cuando Reiniciar desplazamiento es verdadero, reinicia la posición de desplazamiento; cuando Reiniciar desplazamiento es falso, intenta mantener la posición de desplazamiento actual.
+La Lista fácil del objetivo
+Reiniciar desplazamiento
+Si se reinicia la posición de desplazamiento al actualizar.
+Obtener celda
+Obtén la celda visible que actualmente corresponde al índice de datos especificado; devuelve vacío o inválido si el objetivo no es visible o el índice es inválido.
+Índice de datos
+El índice de un objeto de datos específico en la lista de datos.
+Desplazar al índice de datos
+Desplazarse inmediatamente a la posición de datos especificada; al desplazarse al primer o último dato, debe poder posicionarse en la parte superior o inferior.
+Compensación de posición de desplazamiento.
+Restringir
+Si se restringe la posición de desplazamiento al rango válido.
+Seleccionar datos
+Selecciona la celda correspondiente al índice de datos especificado. Si el objetivo no es visible, el parámetro Desplazarse al elemento determina si se desplaza hasta él.
+Desplazarse al elemento
+Si se debe desplazar a este elemento de datos cuando el objetivo no sea visible.
+Desmarcar datos
+Cancela el estado seleccionado de la celda correspondiente al índice de datos especificado.
+Deseleccionar todo
+Borra el estado de selección de la Lista fácil actual
+Obtener índices de datos seleccionados
+Obtén los índices de datos seleccionados actualmente. Conserva el nombre original, Get Selected Data Indexes. Si no hay nada seleccionado, devuelve una lista de enteros que contenga -1.
+Obtener rango de datos visibles
+Obtén el rango de datos visibles actual, de firstIndex hasta lastIndex.
+Los datos están visibles
+Determina si el índice de datos especificado se encuentra dentro del rango visible actual.
+Abrir armario en la partida
+Muestra el armario durante la partida
+Código de estado de resultado de la etapa de inicio de solicitud
+Cerrar armario en la partida
+Cierra el armario durante la partida
+Modificar atuendo adicional del armario
+Modifica el atuendo adicional del armario
+Atuendos
+Lista de atuendos
+Tipo de orden
+El tipo de orden.
+Revisar estado de descarga del armario
+Revisa el estado de descarga de los recursos correspondientes a la lista de ID de atuendo especificada.
+Mostrar HUD de chat
+Mostrar el HUD del chat
+Verificar estado del producto
+Verifica el estado del producto.
+Estado del producto
+El estado del producto.
+Crear widget de IU a partir de un Prefab
+Bajo la IU personalizada y el componente principal especificados, crea un árbol de control completo basado en el ID de prefab de la IU y devuelve el UIWidget raíz creado.
+Entidad creada
+El nombre del parámetro en el código utilizado para representar la entidad UIWidget raíz recién creada, cuyo valor de variable local correspondiente es la entidad de control raíz creada.
+ID del Prefab
+El ID de Prefab de UI utilizado para crear el árbol de control de UIWidget.
+IU
+Entidad de IU personalizada que aloja el nuevo árbol de control.
+Widget padre
+El widget de IU padre al que debe montarse el nuevo control raíz; si está vacío, adjúntalo al nodo raíz de la IU personalizada especificada.
+Pausar animación
+Pausa la reproducción del controlador de la animación por parte del cuerpo.
+Reanudar animación
+Continúa la reproducción del controlador de la animación por parte del cuerpo.
+Reiniciar animación
+Reiniciar el progreso de reproducción de la animación de la parte del cuerpo correspondiente.
+Detener animación
+Detén la reproducción del controlador de la animación por parte del cuerpo. En general, cuando no se reproduce ninguna animación en una parte del cuerpo, intentará reproducir la animación inactiva.
+Entidad con un controlador de animación adjunto
+Índice de partes del cuerpo, que es el número de índice de la parte del cuerpo en el archivo BPC.
+Detener clip de animación de personaje
+Detén el clip de animación de personaje.
+Pausar clip de animación de personaje
+Pausar el clip de animación de personaje.
+Reanudar clip de animación de personaje
+Reanudar clip de animación de personaje.
+Reiniciar clip de animación de personaje
+Reiniciar el clip de animación de personaje.
+Ocultar HUD del chat
+Ocultar HUD del chat
+Obtener memoria total
+Obtener el uso de memoria asignado actualmente al cliente (unidad: MB).
+Sobrecarga actual de memoria asignada (unidad: MB).
+Mostrar HUD del chat
+Mostrar el HUD del chat
+Armario cerrado en partida
+Se activa cuando el armario se cierra durante la partida
+Al confirmar el atuendo del armario
+Se activa cuando el jugador confirma el cambio de atuendo en el armario.
+Al hacer clic en un elemento del armario
+Se activa cuando el jugador toca un elemento del armario y devuelve el tipo de entrada y la lista de ID de atuendo correspondiente..
+Al recibir resultado de descarga del armario
+Se activa cuando la descarga se completa o falla, y devuelve el tipo de entrada, la lista de ID de atuendos y el resultado de la descarga.
+El código de estado de descarga de recursos.
+Al recibir mensaje de chat
+Evento de recepción de mensaje de chat.
+Al abrir el HUD del chat
+Evento de apertura del HUD de chat.
+Al cerrar el HUD del chat
+El evento de cierre del HUD del chat.
+El código de mapa del mapa con estado de descarga modificado.
+El estado de descarga del mapa actual.
+El código de error correspondiente al cambio de estado. Si el estado es exitoso o descargando, se mostrará Sin errores.
+Al Tick visual tardío
+Se llama durante la fase de Tick visual controlada por Late Update de Unity, y se usa para el seguimiento de la cámara y otra lógica de presentación puramente del lado del cliente.
+Al enlazar celda
+Se activa cuando la celda del widget de IU se enlaza o se vuelve a enlazar con datos visibles.
+Contenido de datos
+Los datos enlazados a la celda actual.
+Al tocar celda
+Se activa cuando el jugador hace clic en una celda válida.
+Celda
+El widget de celda reutilizable en el que el jugador hizo clic
+Índice de celda
+El índice de celda reutilizable actual.
+Al seleccionar celda
+Se activa cuando el estado de la celda cambia a seleccionado.
+Al desmarcar celda
+Se activa cuando el estado de la celda cambia a no seleccionado.
+Un control de celda de cuadrícula reutilizable cuyo estado de selección ha cambiado.
+Al cancelar selección en celda
+Se activa cuando se hace clic nuevamente en la celda seleccionada, activando el comportamiento de deselección.
+Un widget de celda reutilizable que activa la semántica de deselección.
+Al cambio de rango de datos visibles
+Se activa cuando cambia el primer o último índice de datos del rango de datos visibles, para evitar envíos redundantes cuando no hay cambios.
+Primer índice de datos
+El índice de la primera lista de datos dentro del rango actual de datos visibles.
+Último índice de datos
+El índice de la última lista de datos dentro del rango actual de datos visibles.
+Al Tick lógico
+Se invoca cada vez que el reloj lógico independiente de UGC avanza. Cada llamada corresponde uno a uno con Pre Tick y Post Tick dentro del mismo marco lógico.
+Filtrar entidad con componente Filtro base
+Escala de velocidad angular de caída
+Escala de velocidad de giro del jugador al saltar o caer, el valor por defecto es 1.
+Escala de velocidad angular al correr
+Escala de velocidad de giro del jugador al estar de pie o corriendo, el valor por defecto es 1.
+Escala de velocidad angular al agacharse
+Escala de velocidad de giro del jugador al agacharse, el valor por defecto es 1.
+Escala de velocidad angular al estar boca abajo
+Escala de velocidad de giro del jugador mientras está boca abajo, el valor por defecto es 1.
+Escala de velocidad angular de derribo
+Escala de velocidad de giro del jugador al quedar derribado, el valor por defecto es 1.
+Sensibilidad de cámara
+Sensibilidad general actual de la cámara local del cliente. Solo es efectiva para la ronda actual; no está sincronizada con el servidor.
+ID del personaje
+El ID del personaje que el jugador eligió al entrar a la partida.
+La velocidad actual real del jugador
+La IU de la escena es tipo Billboard
+Esta propiedad surte efecto cuando la propiedad En escena de la IU es True. Indica si esta escena siempre está de cara a la cámara.
+Seguir posición del mundo
+Después de que esta propiedad se establezca como Verdadero, la posición en pantalla de la IU se obtiene al mapear el valor de la propiedad Posición del mundo en el plano 2D. Nota: Esta propiedad es mutuamente excluyente con En escena, pero ambas usan la propiedad Posición del mundo.
+Cancelar descarga de emparejamiento
+Cancelar descarga de emparejamiento en el juego
+Recurso del mapa no encontrado
+El mapCode especificado no tiene recursos descargables o no se puede analizar el índice de recursos.
+Objetivo del recurso del mapa no disponible
+El cliente actual no está listo o el módulo de descarga no puede recibir solicitudes.
+Acceso denegado al recurso del mapa
+No se cumplen la región, la revisión, la lista blanca, el estado de lanzamiento o los permisos de acceso.
+Recurso del mapa ocupado
+El sistema está ocupado, la cola de descarga está llena o el módulo de descarga no está disponible temporalmente
+Descarga de recursos del mapa fallida
+Después de iniciar la solicitud, la etapa de descarga, guardado o transferencia falló.
+Error al verificar los recursos del mapa
+Tras completar la descarga, el archivo local no se encuentra, está dañado o la verificación falló.
+Red de recursos del mapa restringida
+Sin wifi, red débil, sin red o descarga automática prohibida por la política de descargas vigente.
+Descarga de recursos del armario desconocida
+No se puede obtener el estado de descarga del recurso de atuendo especificado.
+Recursos del armario listos para descargar
+El recurso del atuendo especificado aún no se ha descargado y puedes iniciar la descarga ahora.
+Descargando recursos del armario
+Descargando los recursos de atuendo especificados.
+Descarga de recursos del armario pendiente
+El recurso del atuendo especificado está pendiente de descarga.
+Descarga de recursos del armario pausada
+Descarga pausada de los recursos de atuendo especificados.
+Descarga de recursos del armario completada
+Descarga completa de los recursos de atuendo especificados.
+Solo renderizado
+Solo se proporciona el renderizador; una vez activado, no puede configurar partículas dinámicamente, pero ofrece un mejor rendimiento.
+Tipo de filtro de posprocesamiento
+Aplica solo el brillo/saturación/contraste compartidos.
+Estilo Cómic.
+Estilo Dibujo.
+Estilo Pixel.
+Estilo Bordes de color.
+Estilo Vintage cálido.
+Estilo glitch cyberpunk.
+Parte universal de las propiedades del filtro que incluye el tipo de filtro y los parámetros de brillo/saturación/contraste globales.
+Los tipos de filtro activos actualmente.
+Brillo
+Brillo universal
+Saturación
+Saturación universal
+Contraste
+Contraste universal
+Parámetro de filtro cómic establecido.
+Umbral
+Umbral de binarización.
+Rango de umbral.
+Velocidad de flash
+La velocidad del flash.
+Intensidad de línea
+La intensidad de la línea.
+Tamaño de línea
+El tamaño de la línea.
+Parámetro de filtro Boceto establecido.
+Tamaño del lápiz
+El tamaño del lápiz.
+Corrección del lápiz
+La corrección del lápiz.
+Color del lápiz
+Color del lápiz.
+Color del papel
+Color del papel.
+Pérdida de esquina
+Pérdida de esquina.
+Textura de papel
+Textura de papel. Si está en blanco, usa la textura predeterminada.
+Parámetro de filtro Píxel establecido.
+Pixelación
+Intensidad de la pixelación.
+Desfase de color
+Desfase de color.
+Parámetro de filtro Bordes de color establecido.
+Desfase de división
+Desfase de bordes de color.
+Parámetro de filtro Vintage establecido.
+Intensidad
+Intensidad del filtro Vintage
+Calor
+Intensidad del calor.
+Conjunto de parámetros de filtro Cyberpunk
+Intensidad del borde
+Intensidad del borde
+Tamaño del borde
+El tamaño del borde.
+Sensibilidad del borde
+La sensibilidad del borde.
+Intervalo del glitch
+El intervalo de activación del glitch.
+Duración del glitch
+La duración del glitch.
+Color del borde 1
+Color del borde 1 (HDR)
+Color del borde 2
+Color del borde 2 (HDR)
+Textura de ruido de borde
+Textura de ruido de borde. Si está vacía, usa la textura predeterminada.
+Tipo de origen de distancia
+Tipo de origen de distancia, se usa para seleccionar el objeto de referencia para el cálculo de distancia.
+Cámara del jugador
+Calcula según la distancia de la cámara del jugador
+Personaje del jugador
+Calcula según la distancia del personaje del jugador.
+Entidad personalizada
+Calcula según la distancia de la entidad especificada.
+Tipo de espacio de distancia
+Tipo de espacio de distancia, se utiliza para seleccionar si los cálculos de distancia utilizan el espacio del mundo 3D, el plano horizontal XZ o el espacio de la pantalla.
+Mundo 3D
+Usa la distancia del espacio de mundo 3D.
+Horizontal XZ
+Usa la distancia horizontal XZ, ignorando las diferencias de altura; adecuado para marcadores del mapa.
+Espacio de pantalla
+Usa la distancia del espacio de pantalla; solo es válido cuando el origen de distancia = Cámara del jugador.
+Visibilidad de distancia
+Controla automáticamente la visibilidad, opacidad, escala y límites de tamaño en pantalla de la Entidad de texto, la Entidad de ícono y la IU personalizada según la distancia entre la cámara del jugador, el Avatar del jugador o la Entidad especificada y el objetivo.
+Origen de distancia
+Selecciona el objeto de referencia para el cálculo de distancia. La cámara del jugador usa la posición de la cámara del jugador, el personaje del jugador usa la posición del avatar del jugador, y la entidad personalizada usa la posición de la entidad de origen personalizada.
+Entidad de origen personalizada
+La entidad de referencia utilizada para calcular la distancia cuando el origen de distancia = Entidad personalizada.
+Tamaño máximo de pantalla
+Límite superior del tamaño de pantalla; x/y indica la proporción de la pantalla. Rango recomendado: 0.0 - 1.0.
+Espacio de distancia
+Selecciona el espacio para el cálculo de distancia. World3D calcula la distancia 3D, Horizontal XZ calcula la distancia del plano XZ, y Screen Space solo es válido cuando el origen de distancia = cámara del jugador.
+Distancia de inicio de fundido
+La distancia de inicio para el muestreo normalizado por distancia de la curva de fundido y la curva de escala.
+Distancia de fin de fundido
+La distancia final para el muestreo normalizado por distancia de la curva de fundido y la curva de escala.
+Curva de fundido
+Una curva de transparencia muestreada usando distancia normalizada.
+Umbral de ocultación
+Cuando la opacidad esté por debajo de este umbral, oculta la Entidad o detén el renderizado; de lo contrario, aplica la opacidad, la nitidez y la escala.
+Curva de escala
+Curva de escala muestreada por distancia normalizada.
+Límite de tamaño de pantalla
+Si se deben establecer límites de tamaño para convertir la IU 3D al espacio de pantalla, restringiendo el tamaño de pantalla mediante Tamaño mínimo de pantalla y Tamaño máximo de pantalla.
+Tamaño mínimo de pantalla
+Tamaño mínimo de pantalla, x/y indica la proporción de pantalla. Rango recomendado: 0.0 - 1.0.
+Dirección de desplazamiento
+Dirección de desplazamiento enum.
+Vertical
+Vertical
+Horizontal
+Horizontal
+Lista de ID de clip de animación
+Lista de ID del clip de animación, utilizada para devolver el ID del clip de animación / ID del objeto de Emote correspondiente para cada Emote que posee la cuenta del jugador.
+Lista de ID de atuendo
+Lista de ID de atuendo, utilizada para devolver el ID de atuendo que posee la cuenta del jugador.
+Lista de ID de aspecto de vehículo
+Lista de ID de aspecto de vehículo, utilizada para devolver el ID de aspecto de vehículo que posee la cuenta del jugador.
+Lista de ID de aspecto de arma
+Lista de ID de aspecto de arma, utilizada para devolver el ID de aspecto de arma que posee la cuenta del jugador.
+Lista de ID de aspecto de mochila
+Lista de ID de aspecto de mochila, utilizada para devolver el ID de aspecto de mochila que posee la cuenta del jugador.
+ID del recurso
+Lista HUD fácil
+Componente de lista virtualizada de alto rendimiento que crea solo las celdas visibles y las reutiliza, adecuado para mostrar grandes cantidades de datos en una lista.
+Dirección de diseño de celda (Horizontal/Vertical).
+El tamaño de la celda.
+Lista de datos
+Lista muestra el origen de los datos, solo almacenamiento del lado del cliente.
+El espaciado de la celda.
+Tipo de restricción de diseño.
+El número de celdas en cada fila/columna.
+Desplazamiento vertical del contenedor.
+Desplazamiento horizontal del contenedor.
+Prefab de celda
+Activo Prefab de celda; en tiempo de ejecución, clona instancias de celda según esta plantilla.
+Conteo de líneas de caché adicionales
+El número de filas de celdas en caché adicionales fuera de la ventana de visualización.
+Permitir selecciones múltiples
+Si se permite seleccionar varias celdas al mismo tiempo.
+Tipo de orden adicional del armario
+Modificar atuendo adicional del Armario: Frontal, trasera, Predeterminado
+Anteponer
+Anteponer al inicio.
+Agregar
+Agregar al final.
+Por defecto
+Widget de celda fácil de IU
+Un componente de adaptación explícito adjunto al prefab de Easy List Cell, utilizado para especificar el control de botón de interacción de clic de esta celda.
+Botón de activación
+Un control de botón en la celda que recibe clics y reenvía la semántica de clic/seleccionar/cancelar selección de celda de Easy List.
+Estado del producto
+Estado del producto enum
+No encontrado
+Producto no encontrado
+Sin conexión
+El producto no está en línea
+Preconexión
+El producto aún está en línea
+En línea
+El producto está en línea
+Activar anulación de apariencia
+Activa la anulación de apariencia personalizada del arma. Cuando está desactivada, se usará el arma base o la apariencia predeterminada.
+Nombre para mostrar
+Mostrar nombre de la tienda, mochila y eliminación.
+Modelo en primera persona
+Recurso del modelo en primera persona. Si está vacío o no es válido, se recurre al modelo en primera persona del arma base.
+Modelo en tercera persona
+Recurso del modelo de objeto en mano en tercera persona. Si está vacío o no es válido, se recurre al modelo de objeto en mano en tercera persona del arma base.
+Modelo de espalda
+Recurso del modelo trasero. Si está vacío o no es válido, se recurre al modelo trasero base del arma.
+Modelo de recogida
+Recurso del modelo de recogida en el suelo. Si está vacío o no es válido, se recurre al modelo de recogida en el suelo del arma base.
+Ícono de mochila
+Recursos de íconos de arma para las interfaces de Mochila y de recogida. Si están vacíos, se recurre a los íconos básicos de arma de Mochila o de recogida.
+Ícono de espacio
+Recursos de íconos del espacio de arma del HUD y de la interfaz de cambio de armas. Si está vacío, se recurre al ícono básico del espacio de arma.
+Ícono de eliminación
+El recurso del ícono de arma para el anuncio de eliminación. Si está vacío, vuelve al ícono de arma de eliminación básico.
+ID de audio de disparo
+Recurso de efecto de sonido de disparo. Si está vacío, se revierte al efecto de sonido de disparo básico.
+ID de audio de entrada del clip
+Recurso de efecto de sonido al insertar el cargador. Si está vacío, se revierte al efecto de sonido de inserción del cargador del arma base.
+ID de audio de salida del clip
+Recurso de efecto de sonido al quitar el cargador. Si está vacío, se revierte al efecto de sonido de quitar el cargador del arma base.
+Cambiar el ID de audio del arma
+Recurso de efecto de sonido al cambiar de arma. Si está vacío, se revierte al efecto de sonido básico de cambio de arma.
+Material de la estela de bala
+Recurso de estela de bala. Reemplaza los efectos visuales predeterminados de la estela de bala cuando la configuración es válida.
+Efecto de disparo
+Recursos de efecto de disparo. Cuando se activa la configuración, reemplazan los efectos visuales de disparo nativos de las armas estándar.
+Efecto de golpe
+Recurso de efecto de golpe. Sustituye los efectos visuales de partículas de golpe cuando la configuración es válida.
+Los jugadores o la entidad con un componente Colisionador admiten este evento. Nota: En el cliente, solo el jugador local activa este evento, los jugadores que no sean el jugador local no lo activarán.
+Este es un Airdrop Ultra. Captúralo para obtener la mejora armadura de nivel 5. Y si destruyes los pilares, ¡lo capturarás más rápido!
+¡Wuuh! Es un evento aleatorio. Recibirás Paredes Gloo durante toda la partida.
+Mira, es el evento aleatorio de la partida. Si te eliminan, recuperarás tus armas en la siguiente ronda.
+Objetivo encontrado
+Completa {0} mapa(s) en la Academia de Sobrevivientes
+Usa tu embestida para acercarte al enemigo
+Completa [FFBA00]{0}[-]/{1} partida(s)
+Alcanza el nvl. [FFBA00]{0}[-]/{1}
+Inicia sesión durante [FFBA00]{0}[-]/{1} día(s)
+Juega cualquier modo durante [FFBA00]{0}[-]/{1} min
+Lanza un peluche con [FFB300]{0} PV[-] que dura [FFB300]{3}s[-], ignora obstáculos y puede viajar hasta [FFB300]{1}m[-] ([FFB300]{2}m[-] en BR). Rastrea al enemigo visible más cercano dentro de un rango de [FFB300]{4}m[-] y crea un espacio de sueños de [FFB300]{5}m[-]. Dentro del espacio, el usuario y los enemigos [FFB300]no pueden colocar Paredes Gloo[-], y los enemigos pierden [FFB300]{6} PV[-]/s. El espacio desaparece cuando el peluche es destruido, pero quien lo destruya queda marcado por [FFB300]{7}s[-]. Cuando el peluche aún esté activo, toca la habilidad de nuevo para recuperarlo y reducir el enfriamiento en [FFB300]{8}s[-].
+Eco criogénico
+Cuando está activo, el peluche se puede recuperar y lanzar de nuevo tras un enfriamiento reducido.
+Lanza un peluche con [FFB300]{0} PV[-] que dura [FFB300]{3}s[-], ignora obstáculos y viaja hasta [FFB300]{1}m[-] ([FFB300]{2}m[-] en BR). Rastrea al enemigo visible más cercano dentro de un rango de [FFB300]{4}m[-], crea un Espacio de sueños de [FFB300]{5}m[-] y genera un peluche duplicado. Dentro del espacio, el usuario y los enemigos [FFB300]no pueden colocar Paredes Gloo[-], y los enemigos pierden [FFB300]{6} PV[-]/s. El espacio desaparece cuando el peluche es destruido, pero quien lo destruya quedará marcado por [FFB300]{7}s[-]. El peluche duplicado viaja en la dirección original e inflige [FFB300]{8}[-] de daño en ráfaga al enemigo rastreado.
+Esquirla criogénica
+Después de encontrar a un enemigo, el peluche genera un duplicado que viaja en la dirección original e inflige daño de área explosivo al objetivo rastreado.
+Este preset incluye habilidades que aún no has desbloqueado. Cómpralas primero.
+Este preset incluye habilidades o aditamentos que no has desbloqueado.
+Usa la tempestad para distraer a los enemigos y teletranspórtate en el momento perfecto para sorprenderlos. Las pasivas otorgan un escudo y curación después de teletransportarse.
+Emboscada tempestuosa
+Libera una tempestad en forma de remolino que atraviesa paredes y avanza rápidamente. Dura [FFB300]{0}s[-], infligiendo [FFB300]{1}[-] de DAÑO a los enemigos alcanzados. Mientras la tempestad esté activa, toca la habilidad de nuevo para teletransportarte a su ubicación actual y obtener un escudo durante [FFB300]{2}s[-] con [FFB300]{3}%[-]] de reducción de DAÑO. La tempestad desaparece después de que el usuario se teletransporta. Enfriamiento: [FFB300]{4}s[-].
+Furia del trueno
+Libera una tempestad en forma de remolino que atraviesa paredes para infligir daño y ralentizar a los enemigos. El usuario puede teletransportarse a la ubicación de la tempestad.
+Localizar enemigos
+Objetos curativos
+Lanzables especiales
+Cuando un enemigo esté cerca, escucharás pasos. También puedes activar la vibración de pasos en Ajustes para una alerta más fuerte cuando un enemigo se acerque.\nEl minimapa también muestra a los enemigos cercanos que están disparando, así que mantente atento a él.
+A veces, un Arsenal se volverá de defensa y solo podrá desbloquearse capturándolo.\nUna vez capturado, se activará un UAV para escanear a los enemigos cercanos.
+En medio de una partida de BR, caerán muchos Airdrops del cielo. Acércate para recibir objetos.\nEl Airdrop de defensa es un Airdrop especial. Captúralo para obtener recompensas en cada etapa.
+El Airdrop Ultra te da armadura poderosa, pero tiene un tiempo de captura más largo y solo cae una vez por partida.\nDestruye los pilares de energía a su alrededor para aumentar la velocidad de captura.
+Puedes comprar la Tarjeta de Resurrección normal azul o la Tarjeta de Superresurrección amarilla.\nLas Tarjetas de Superresurrección son más caras, pero otorgan a tu compañero de equipo un mejor equipo al resucitar.
+Capturar un Punto de Resurrección revivirá a todos tus compañeros de equipo. Pero todos los jugadores podrán ver tu progreso en el minimapa.\nLos Puntos de Resurrección en las partes finales de la partida.
+¿Sabes qué es una Pared Gloo?
+Se pueden encontrar diferentes tipos de hongos cibernéticos en el suelo que te proporcionarán escáner, curación, impulso de velocidad y mejora de Pared Gloo.\nInteractúa con ellos o destrúyelos para activar sus efectos.
+Despliega Paredes Gloo para usarlas como cobertura.\nLas Paredes Gloo se romperán después de recibir una cierta cantidad de daño, o desaparecerán un tiempo después de ser desplegadas.
+Algunas habilidades de personajes y objetos causan un daño significativo a las Paredes Gloo, como las habilidades de Skyler y Oscar, la M60 y las Granadas Gloo.
+Algunas habilidades de personaje y armas pueden infligir daño a los enemigos detrás de Paredes Gloo, como la habilidad de Iris, la SVD-Y y la M82B.
+Las habilidades de personaje como las de Moco y Shiro pueden marcar enemigos y ayudarte a ti y a tus compañeros de equipo a localizarlos.
+Tu armadura incluye chaleco y casco. Ayudan a reducir el daño a las partes del cuerpo correspondientes. Un chaleco y casco de mayor nivel significan mayor reducción de daño.\nPuedes revisar el estado de tu armadura junto a tu barra de PV.
+Cuando te ataquen, tu armadura podría dañarse. No olvides usar kits de reparación para arreglarla.\nUn chaleco o casco completamente roto no se puede reparar y desaparecerá.
+Usa botiquines para restaurar tus PV. Los superbotiquines te curan más.\nSin embargo, usar un botiquín lleva tiempo. Moverte mientras usas uno cancelará la acción.
+Los inhaladores pueden usarse mientras corres y recuperan tanto tus PV como tus PE.\nAlgunos inhaladores especiales proporcionan mejoras únicas.
+Las granadas infligen gran daño explosivo a los enemigos dentro del radio de la explosión, pero ten cuidado de no lastimarte.\nLas granadas explotan unos segundos después de ser lanzadas. Elegir bien el momento las hace más efectivas.
+Toca el botón de granada de la izquierda para activarla desde antes, y así explotará más rápido tras ser lanzada.\nAsegúrate de calcular bien, o podrías hacerte daño.
+La Granada Gloo crea una zona de fusión que daña todas las Paredes Gloo dentro del rango.
+Destello de Hielo crea una zona de congelación que inflige una pequeña cantidad de daño continuo y ralentiza a los enemigos en su interior.\nCongelación Dracónica inflige daño moderado a los enemigos en rango 3 veces.
+Despliega una mina terrestre para emboscar enemigos e infligir mucho daño si la pisan.\nTen cuidado, quien la coloca también puede activar la mina terrestre.
+¿Los controles no se sienten bien? Cámbialos en Ajustes. Los ajustes básicos de Controles, Gráficos, Sonido y Cuenta se encuentran aquí.
+Las armas tienen dos tipos: principal y secundaria.\nPuedes equipar dos armas principales. Se recomienda una combinación de arma de largo alcance y arma de corto alcance.\nLas armas secundarias suelen tener características especiales. Solo puedes equipar un arma secundaria.
+¡Equipar habilidades te hace más fuerte! Puedes equipar cuatro habilidades para el campo de batalla, pero solo una puede ser una Habilidad activa.
+Consulta la información detallada del arma en el sistema de armas para comprender mejor las características de cada arma.
+Disparar a un enemigo en la cabeza inflige más daño. Los números rojos indican un disparo a la cabeza.\nA veces, apuntar hacia abajo antes de deslizar hacia arriba hace más fácil los disparos a la cabeza.
+Algunas armas se pueden mejorar con Chips de mejora o al infligir daño con ellas.\nAparecerá un botón de mejora cuando estén listas.
+Algunas armas tienen dos modos de disparo, como los modos de Asalto y de Rango de la G36, y los modos de Escopeta y de Granada de la Trogón.\nToca el botón de cambio para alternar entre los dos modos.
+Pistola Curativa: Dispara a tu compañero para curarlo.\nPistola de Gancho: Dispara un gancho a una posición y acércate a ella. La Pistola de Gancho suele estar disponible solo en Kalahari.\nFGL-24: Lanza llamas a través de las paredes al impactar y daña a los enemigos detrás de coberturas.
+En BR, puedes obtener monedas recogiéndolas o acercándote a las Máquinas de monedas. Las monedas se pueden usar para comprar suministros en las Máquinas Expendedoras, mejorar arsenales y más.\nLas monedas obtenidas a través de las Máquinas de monedas se compartirán con tus compañeros de equipo.
+En BR, las Máquinas Expendedoras están dispersas por el mapa. Puedes comprar objetos, armas, Tarjetas de Resurrección y más con monedas.\nLas ubicaciones de las Máquinas Expendedoras están marcadas en el mapa.
+El Arsenal está lleno de buenos objetos. Puedes mejorarlo con monedas para obtener armas y equipo aún mejores.\nLos arsenales se pueden desbloquear con una llave o monedas.
+Pasos y disparos
+Detalles del arma
+Habilidades para marcar
+Tipos de armas
+Armas mejorables
+Armas con modo dual
+Armas secundarias comunes
+Resurrección automática
+Cocinar una granada
+Destello de hielo y Congelación dracónica
+Verificación de edad:
+No puedes enviar mensajes a este jugador ahora
+Escribe tu fecha de nacimiento
+Formato de fecha: AAAA-MM-DD
+Declaración de edad
+El reinicio aún no está disponible. Por favor, intenta de nuevo más tarde.
+Las cuentas con un correo de tutor vinculado deben desvincularse antes de que la declaración de edad pueda reiniciarse.
+17 años o menos
+No puedes chatear con este jugador debido a restricciones de edad.
+No puedes chatear con algunos jugadores debido a restricciones de edad.
+Vincula un correo de tutor y obtén permiso antes de realizar un pago.
+Los menores deben vincular una cuenta de tutor y obtener el permiso de su tutor antes de realizar pagos.
+Restricción de pago
+No puedes chatear con adultos debido a las restricciones de edad.
+No puedes chatear porque tu edad no cumple con los requisitos normativos locales.
+Las cuentas de jugadores menores de 18 años deben estar vinculadas a la cuenta de un padre o tutor para disfrutar de la experiencia de juego completa. Confirma que tu declaración de edad es correcta.
+Por favor, confirma de nuevo
+Algunas funciones sociales están restringidas porque tu edad no cumple con los requisitos normativos locales. Gracias por tu comprensión.
+Esta cuenta tiene restricciones de pago para menores de edad y no puede realizar pagos por este medio en este momento.
+Vincular correo del tutor:
+Error al vincular el correo del tutor. Inténtalo de nuevo más tarde.
+Correo electrónico del tutor vinculado con éxito
+Correo electrónico del tutor vinculado
+Ingresa el correo electrónico de tu tutor
+Este correo electrónico de tutor ha alcanzado el número máximo de cuentas de menores vinculadas. Usa un correo electrónico diferente o desvincula otra cuenta.
+Se ha enviado un código de verificación al correo electrónico de tu tutor. Ingresa el código para completar la vinculación.
+Primero, completa la verificación del correo del tutor en el juego.
+Ir al Centro del Tutor
+No te alcanza para esta compra.\nTe queda {0} disponible para gastar.\nSi tienes un tutor vinculado a tu cuenta, puede cambiar tu límite de pago desde el Centro del Tutor.
+Límite de pago alcanzado
+El límite de pago restante de esta semana es insuficiente para completar este pago
+Tu tutor aún no ha establecido un límite de pago. Los pagos no están disponibles.
+Te quedan {0} minutos antes de llegar a tu límite de tiempo de juego. Organiza bien tu tiempo.
+Llegaste a tu límite de tiempo de juego. Si tienes un tutor vinculado a tu cuenta, puede cambiar tu límite de tiempo de juego desde el Centro del Tutor.
+Límite de tiempo de juego alcanzado
+Si tu tutor no realiza ninguna acción en {0} días, el correo electrónico se desvinculará automáticamente
+Tu solicitud de desvinculación está siendo procesada. Por favor, espera a que tu tutor lo confirme.
+¿Estás seguro de que quieres solicitar la desvinculación del correo del tutor actual?
+Desvincular correo del tutor
+Antes de completar la verificación de edad, solo puedes chatear con jugadores no verificados
+Antes de completar la verificación de edad, no puedes enviar mensajes en canales públicos ni ver el historial del chat
+No puedes chatear por voz con algunos jugadores de tu escuadra debido a las restricciones de edad.
+DIGIMON ADVENTURE
+BLUE LOCK
+JUJUTSU KAISEN
+NARUTO SHIPPUDEN
+Gintama
+BEN 10
+Recursos para la colaboración de Digimon Adventure
+Recursos para la colaboración de BLUE LOCK
+Recursos para la colaboración de Jujutsu Kaisen
+Recursos para la colaboración de NARUTO SHIPPUDEN
+Recursos para la colaboración de GINTAMA
+Recursos para la colaboración de Ben 10
+Velocidad de disparo: 8%→[ed3d0a]5%[-]
+Duración: 15s→[ed3d0a]13s[-]\nDistancia para activar la asistencia de puntería: 4m→[ed3d0a]12m[-]\nRetraso de salida del modo Sigilo: 0.8s→[37be7b]0.5s[-]
+Menor enfriamiento: 90s→[37be7b]75s[-]
+Obtén una AK47 mejorada que lanza granadas al disparar
+AK47 granadera
+Los potenciadores obtenidos se activarán al entrar al campo de batalla
+Gana {0} PV máx. adicionales y el tamaño de tu cabeza aumenta proporcionalmente
+Cabezotas
+Cuanto mayor sean los PV máximos, mayor será el daño de tu arma y habilidad
+Peso pesado
+Obtén un bono de {0} PV
+Más vida
+Obtén una tarjeta de habilidad mejorada de Oscar - Embestida fantasma
+Oscar tuneado
+Gana 1 acumulación del efecto por cada eliminación o asistencia. Cada acumulación aumenta el PV máx. en {0}%.
+Aumenta el tamaño de la cabeza según los PV máx. adicionales y gana 1 acumulación del efecto por cada eliminación o asistencia. Cada acumulación aumenta los PV máx. {0}%.
+Tanque
+Preset resistente
+Daño
+Bonificación de DAÑO
+Aumenta {0}% la velocidad de movimiento al agacharte
+Corre como pato
+Gana PE ilimitados y conversión rápida de PE
+Obtienes una Pared Gloo periódicamente
+Gloos Infinitas
+Obtén un breve aumento de velocidad de movimiento al recibir daño
+¡Auch! Corre
+Tus Paredes Gloo nunca se agotan
+Paredes infinitas
+Al colocarlas, las Paredes Gloo darán mejoras de curación.
+Fuerza de Nairi
+Gana {0} Puntos de Escudo temporales después de recibir daño
+Escudo de pánico
+Aumenta bastante la durabilidad de las Paredes Gloo
+Gloo de Acero
+Preset general
+Una vez fija en el enemigo, tu mira no perderá el objetivo
+Mirada letal
+Obtén una ametralladora especial que lanza bolas de fuego al área objetivo
+Ametralladora ígnea
+Las municiones nunca se agotan
+Munición infinita
+Obtén una tarjeta de habilidad mejorada de Kenta
+Kenta tuneado
+Agáchate para entrar en el modo Superdisparos, con más velocidad de disparo y menor dispersión de balas
+Desde abajo
+Obtén una Pistola de Gancho
+Pistola de Gancho
+Obtén una tarjeta de habilidad mejorada de Steffie que reduce mucho el DAÑO
+Steffie tuneada
+Ahora en modo superdisparo
+Preset fijo
+Agáchate para transformarte en un arbusto. Disparar te devuelve brevemente a tu forma humana. Después de dejar de disparar, te transformas de nuevo en arbusto.
+Wukong remasterizado
+PV
+Bonificación de PV
+Se desbloquea en el nvl. {0}
+Aumenta el daño de las armas cuerpo a cuerpo
+Espíritu de Kla
+Crea un área de baile cerca. Los enemigos dentro tendrán que bailar.
+Bailando sin cesar
+Aumenta el alcance de tu arma cuerpo a cuerpo cada vez que elimines o derribes a alguien con ella.
+Recién afilada
+Recupera {0} PV después de eliminar a un enemigo
+Fuerza de Jota
+Aumenta significativamente el alcance de las armas cuerpo a cuerpo
+Largo alcance
+La asistencia de puntería también aplica a los ataques cuerpo a cuerpo, como las armas de fuego
+Sin fallar
+Obtén una tarjeta de habilidad mejorada de Chrono - Tiempo a la deriva
+Chrono tuneado
+Obtén una tarjeta de habilidad mejorada de Morse con menos retraso para disparar
+Morse tuneado
+Puedes correr mientras atacas con armas cuerpo a cuerpo
+Golpe al aire
+Obtén una tarjeta de habilidad mejorada de Tatsuya con menos enfriamiento
+Tatsuya tuneado
+Preset de luchador
+Gana {0} Puntos de Escudo permanentes tras hacer una eliminación
+Escudo de la victoria
+BR: Evolución
+Recursos para el modo BR: Evolución
+Obtén una tarjeta de habilidad mejorada de Orión; gana PE al derribar enemigos y mayor velocidad de movimiento mientras la habilidad esté activa.
+Orión tuneado
+Resurrección no disponible
+Revivirás pronto
+La resurrección dejará de estar disponible pronto
+Toca para seleccionar tu mazo
+Tarjetas de habilidad
+Bonificación de velocidad
+BR: Bonus de Evolución
+Consigue una versión mejorada de la VSK94 con la mira ampliada, lo que permite que los disparos alcancen a todos los enemigos que se encuentren dentro
+VSK94 imparable
+Los PV base se reducen un {0}% y el DAÑO aumenta un {1}%
+Daño máximo
+Obtén un breve aumento de velocidad de movimiento al eliminar a un enemigo
+Velocidad de cazador
+Obtén una tarjeta de habilidad mejorada de Rin con kunai que se generan más rápido, hacen más daño, y su límite es mayor.
+Rin tuneada
+Preset de francotirador
+Obtén una Winchester mejorada que inflige daño de ráfaga explosiva a los enemigos que alcanza.
+Winchexterminio
+Bloqueador en uso
+No puedes unirte: Modo Sigilo
+Caja de recompensas Red Bull
+FFigurita de Alvaro
+Supongo que las explosiones no resuelven todo.
+FFigurita de Kelly
+¡Nada puede detener a Kelly!
+FFigurita exlusiva de Kelly
+¡Kelly ganó el maratón de Bermuda!
+FFigurita de Kapella
+¿Quién no quiere que Kapella le guiñe el ojo?
+FFigurita de Moco
+Nada se le escapa nada a Moco.
+FFigurita de Steffie
+Piénsalo dos veces antes de meterte con Steffie.
+FFigurita de Wukong
+¿Bajo la máscara hay otro disfraz?
+FFigurita exlusiva de Wukong
+Este legendario mono se forjó en el fuego.
+Capítulo {0}
+Clasificación
+Selecciona la dificultad
+Información de nivel
+DIficultad {0}
+Etiqueta de dificultad
+Misión
+Listo
+Talento
+Pelea
+Exploración
+Nivel máx. alcanzado
+Reiniciar todo
+¿Confirmas restablecer todos los talentos? Todos los tokens serán reembolsados.
+Reiniciar talentos
+Sobrevivencia
+Tokens insuficientes
+Talento necesitado no desbloqueado
+Desbloquear
+Mejorar
+Cambiar dificultad
+La dificultad actual sigue bloqueada para algunos compañeros
+{0} aún no ha desbloqueado la dificultad actual
+La dificultad más alta desbloqueada por tu equipo es Capítulo {0}, dificultad {1}. ¿Cambiar?
+Aterrizando con el equipo. Resurrección de equipo disponible al aterrizar.
+Demasiado lejos del equipo. Resurrección de equipo no disponible al aterrizar.
+Aterriza con tu equipo para ganar una oportunidad de revivir.
+Aterrizó cerca de compañeros
+Resurrección de equipo obtenida
+Detalles de la penalización:\nSe reducirán {0} puntos de la puntuación de Guerra de Clanes.\n
+Flamma inactiva, se eliminará automáticamente.
+¡El doble de Flamma!
+Baguette
+Sombrero de gato negro
+Sombrero de gato beige
+Sombrero de gato azul
+Sombrero de gato rojo
+Maíz
+Sombrero de elefante rojo
+Sombrero de elefante azul
+Sombrero de elefante verde
+Visor azul con sonrisas
+Visores de corazón rosas
+Visores amarillos cute
+Visores púrpura
+Lentes pixeleados monocromáticos
+Lentes pixeleados de colores
+Calabaza
+Mochila de conejo spooky
+Debes esperar {0}s para volver a editar.
+Aleatorio
+Cada vez que inicias sesión, se muestra aleatoriamente la Flamma de uno de tus amigos.
+1. Solo se puede mostrar la Flamma de un amigo con {0}+ de puntuación de amistad. También debe tener su Flamma desbloqueada.\n2. Visualización aleatoria: Cada vez que inicias sesión, se muestra aleatoriamente la Flamma de un amigo. Hasta {1} amigos estarán en el grupo de selección.\n3. También puedes elegir la Flamma de un amigo seleccionado.
+Seleccionado
+Elige a un amigo para ver siempre su Flamma.
+Entrar
+Más días
+Recompensas extra de partida
+Inicia sesión durante {0} día(s) para reactivar a Flamma.\n¡Completar una partida clasificatoria añade {1} día(s)!
+Nuevo
+Invitación a Flamma Gemela
+Amigo
+Puntos de amistad
+Estado
+Flamma Gemela
+Cancelación en enfriamiento. Solicita de nuevo en {0} hora(s).
+Solicitud para ser tu Flamma Gemela
+Solicitudes de Flammas Gemelas recibidas
+Lista de solicitudes
+Flamma Gemela disponible para amigos con una puntuación de amistad superior a {0}
+Enviar solicitud de Flamma Gemela
+¡Tu amigo {0} dice que reavives a tu Flamma!
+¡Tu Flamma Gemela te llama!
+Solicitud de Flamma Gemela enviada
+Flamma
+Mostrar Flamma
+Invitación enviada con éxito a un amigo fuera de línea
+El modo Clasificatoria no está disponible en el nivel actual de tu cuenta. ¡Sube de nivel para desbloquearlo!
+¿Cancelar Flamma Gemela con tu amigo?
+Cancelar Flamma Gemela
+Comentar
+{0} Seguidor(es)
+{0}vs{1}
+Seguir
+Siguiendo
+Más
+Este creador está en una región diferente. Imposible seguir
+Compartir
+En solitario
+Iniciar
+Juego en equipo
+Incendiarias, Superenergizantes y FGL-24 aparecerán en Clock Tower.
+Clock Tower Ardiente
+¡Armas anómalas con descuento en las Máquinas Expendedoras!
+Descuento de arma anómala
+¡Rebajas en Armas de trueno en las Máquinas Expendedoras!
+Descuento en armas de trueno
+Más montones de monedas aparecerán en el suelo
+Coin Rain
+Más monedas, armas de oro y Alcancías de Monedas aparecerán en Sentosa
+Fiebre del Oro
+La mayoría de los vehículos se convierten en caballos, ¡a festejar!
+Viejo Oeste
+¡Nuevas armas con descuento en las Máquinas Expendedoras!
+Nuevo descuento de arma
+Más subfusiles, escopetas y armas cuerpo a cuerpo aparecerán en Peak
+Manía Peak
+Inicia la partida con 500 monedas
+Inicio rico
+Apareció
+Captura Anomalías para hacerlas desaparecer y que dejen suministros especiales del evento
+Anomalías
+Nueva Anomalía capturada
+Restaurar {0} durabilidad de la armadura
+Gana {0} Puntos de Escudo temporales
+Transmisión Final
+El Otro Canal ha aparecido
+Las Máscaras reveladoras y Armas anómalas estarán disponibles en la Tienda DE
+Interferencia de día
+Un arma especial con un poder misterioso que activa efectos del evento
+Arma anómala
+Espectar como muñeca
+Entra al Otro Canal
+Seguir compañero
+Úsala para ser un Enmascarado y entrar al Otro Canal, obteniendo mayor velocidad de movimiento y altura de salto.
+Máscara reveladora
+Cancelar transformación
+Usa la Máscara
+Un caballo que se mueve entre el mundo real y el Otro Canal, con saltos más ligeros y carreras más rápidas.
+Caballo del Otro Canal
+Tras ser eliminado, transfórmate en Muñeca y sigue a tus compañeros que sigan vivos y les darás beneficios aleatorios.
+Soporte de muñeca
+Usa la Máscara reveladora para ser un Enmascarado y entrar al Otro Canal
+Máscara reveladora
+Cada que elimines a un jugador, aparecerá una máscara o marca de interferencia detrás de ti.
+Rastro de eliminaciones
+Transmisión Final
+El Otro Canal ha aparecido
+El área donde puedes moverte libremente después de comenzar a espectar como Muñeca
+Rango de la Muñeca
+El Otro Canal está abierto
+Usa la Máscara para explorar el Otro Canal y descubrir Anomalías.
+El Otro Canal
+Burbuja de curación lista
+Burbuja de curación lista. Monedas FF adicionales incluidas.
+Burbuja de reparación lista
+Burbuja de reparación lista. Monedas FF adicionales incluidas.
+Burbuja de escudo lista
+Burbuja de escudo lista. Monedas FF adicionales incluidas.
+Burbuja de velocidad lista
+Burbuja de velocidad lista. Monedas FF adicionales incluidas.
+¡Cuidado! Estás a punto de salir del rango de tu compañero
+Fuera del rango de compañero. Regresarás en {0}s.
+Regresaste al rango de tu compañero
+Permanece a {0}m de tu compañero
+Espectar normal
+Solo queda un jugador con vida. No puedes espectar a nadie más.
+Despliega para construir una tirolesa personalizada
+Kit de tirolesa
+Despliega para construir una tirolesa personalizada
+Anclaje para tirolesa
+Todos los aliados obtienen una Minitorreta al inicio de cada ronda
+FFigurita
+Gana esta partida para obtener una FFigurita
+Recompensa por Booyah
+Vinculación exitosa
+FFigurita obtenida
+Mostrar FFigurita
+Vinculación exitosa. La FFigurita estará disponible después de la partida.
+Deja que la luz se eleve. (El usuario puede colocar regalos secretos, como equipamiento, oro o tickets en la cabina. Hay regalos disponibles para 10 jugadores.)
+Flama radiante
+Jump scare de TV
+Las gemelas
+Rey del Trueno
+Escuadra de Trueno
+¿Pantalla o grito? (El usuario puede colocar regalos secretos, como equipamiento, oro o tickets en la cabina. Hay regalos disponibles para 10 jugadores)
+Terror en la pantalla
+Marco Transmisión Final
+Marco Coliseo de Trueno
+Sticker Aparición carmesí
+Sticker El hombre del sobrero
+Sticker de Abrigo de sangre
+Sticker de Terror de las sombras
+Sticker Soberano cósmico
+Sticker Campeón de la FFWS
+Girar automáticamente la cámara para optimizar la vista al usar el Ascensor vertical
+Mantener la misma dirección después de subir a un Ascensor vertical
+Giro automático del ascensor
+El giro automático está activado de forma predeterminada para los Ascensores verticales. Puedes ajustarlo en Ajustes.
+Acelerar
+Bajar
+Salir
+Invertir
+Subir
+El regreso del ninja
+Se recibe al mejorar la AWM Evo al nvl. 7
+AWM definitiva
+Completa misiones en el evento web para obtener
+Jefazo
+Si participaste anteriormente en el Ataque del Nueve Colas o en las Pruebas Ninja, únete al evento del Ataque del Nueve Colas que está de regreso para reclamar el título exclusivo de Ninja veterano.
+Junta entradas y alcanza las metas de colección en el álbum Transmisión Final para reclamar tu recompensa
+Ve la Transmisión Final
+Descargar
+Descargando
+Equipar
+Atuendo equipado
+Intentar de nuevo
+Armario
+1. Las imágenes de portada de los mapas de Crea Tu Mapa ahora se estandarizan a una relación de aspecto de 20:9.\n2. Se mejoraron las reglas de nomenclatura para las propiedades personalizadas. Al crear o renombrar un atributo personalizado, el sistema comprobará si hay caracteres no válidos y formatos de codificación no admitidos. Los nombres que no cumplan con los requisitos no se podrán guardar, y se le pedirá a los jugadores que los modifiquen e intenten de nuevo. Al abrir, guardar o publicar un mapa antiguo, también se le pedirá a los jugadores que resuelvan cualquier propiedad personalizada que contenga caracteres no válidos.\n3. Se añadió soporte para personalizar imágenes y texto en la pantalla de carga del mapa personalizado.\n4. Después de completar un mapa, los jugadores ahora pueden ver la información del creador directamente en la pantalla de resultados, así como seguir o dejar de seguir al creador.\n5. Se optimizó por completo la página de detalles del mapa de Crea Tu Mapa para ofrecer una presentación más clara de la información del mapa, el juego y las funciones interactivas. Se añadió la dificultad estimada de emparejamiento del mapa y se mejoró la visualización de información como la popularidad, la calificación positiva y el número de partidas jugadas. Los jugadores también pueden ver la información del creador, seguir a los creadores, compartir mapas y copiar el Código de Mapa.\n\nEstamos desarrollando funciones aún más increíbles, ¡mantente al tanto!
+Plataforma
+Caja de suerte 1111 - 1
+Caja de suerte 1111 - 2
+Caja de elección 1111 - 1
+Caja de elección 1111 - 2
+Caja Increíble
+Abre para recibir AWM - Suspiro mortal
+Caja de Armas de AWM - Suspiro mortal
+Caja de Tokens: AWM - Abismo cósmico
+Caja 281
+Caja 282
+Caja 283
+Caja 284
+Caja 285
+Caja 286
+Caja 287
+Caja 288
+Caja 289
+Caja 290
+Caja ¡Booyah! 1
+Caja ¡Booyah! 2
+Caja ¡Booyah! 3
+Caja ¡Booyah! 4
+Caja ¡Booyah! 5
+Caja ¡Booyah! 6
+Caja ¡Booyah! 7
+Caja ¡Booyah! 8
+Caja de suerte del Campus 1
+Caja de suerte del Campus 2
+Caja de elección del Campus 1
+Caja de elección del Campus 2
+Caja de Transmisión
+Caja de Terror
+Caja Dual
+Abre para recibir Charge Buster - Conejito Frenético
+Caja de Armas de Charge Buster - Conejito Frenético
+Caja de elección de Arma 1
+Caja de elección de Arma 2
+Caja de elección de Arma 3
+Caja de elección de Arma 4
+Caja de elección de Arma 5
+Caja de elección de Arma 6
+Caja de elección de Arma 1
+Caja de elección de Arma 2
+Caja de elección de Arma 3
+Caja de elección de Arma 4
+Caja de elección de Arma 5
+Caja de elección de Arma 6
+Caja de Arma Royale 1
+Caja de Arma Royale 2
+Caja de Arma Royale 3
+Caja de Halloween
+Los jugadores pueden obtener 3, 4, 5, 10, 100 o 1000 tokens de la AWM Evo - Abismo cósmico.
+Lion Cereal Box 03
+Lion Cereal Box 04
+Caja de regalo de Mediados de otoño
+Caja de Tokens PB T46
+Caja de Suerte aleatoria 1
+Caja de Suerte aleatoria 2
+Caja Fuerte
+Caja Samsung A27
+Caja de Tokens PB T47
+Caja de la suerte de Elección 1
+Caja de la suerte de Elección 2
+Caja del Trueno
+Caja del Coliseo
+Maleta
+Abre para recibir Trogón - Fuego jurásico
+Caja de Armas de Trogón - Fuego jurásico
+Caja VIP 4
+Caja VIP 5
+Caja de Tokens PB T48
+Caja de Accesorios de Maravillas
+Caja de Maravillas 1
+Caja de Maravillas 2
+Caja de elección de Maravillas 1
+Caja de elección de Maravillas 2
+Caja de elección de Maravillas 3
+Caja de Maquillaje de Maravillas
+Caja de pantalones de Maravillas
+Caja de Zapatos de Maravillas
+Caja de partes superiores de Maravillas
+Token Alianza azul
+Token Alianza verde
+Token Alianza roja
+Ticket Deidad Oscura - Claro
+Token Gran sorpresa
+Token Celebración oscura 1
+Token Celebración oscura 2
+Token Fuerzas externas
+Token Kunai
+Token de MP5
+Token de Rifle de tirador
+Token Aldea Ninja 1
+Token Aldea Ninja 2
+Token Aldea Ninja 3
+Token Rifle de asalto
+Token de Subfusil
+Token de Escopeta
+Token Compañero azul
+Token Compañero verde
+Token de Pistola
+Token Compañero rojo
+Token Calabaza
+Token Renacido
+Token Rifle de francotirador
+Token Trueno
+Token Bruja
+Ticket 1111
+Ticket Deidad Oscura - Noir
+Token Deidad Oscura
+Ticket de la Ruleta Universal
+Ticket de la Ruleta Universal
+Ticket de la Ruleta Universal
+2026 Free Fire x BLUE LOCK
+Máscara negra
+Máscara azul
+Máscara escarlata
+Token especial Nailoong
+Luz púrpura
+Luz azul
+Luz naranja
+Token Cometa cósmico
+Llega a [S0] [fs=22][b][803A41]{0}[/b][-][/fs] veces más para obtener
+para obtener {0}
+Llega a[S0] [fs=22][b][803A41]{0}[/b][-][/fs] vez(ces)
+Se publica el {1}/{0}
+Se publica el\n{1}/{0}
+Equipa para mostrar en DE y reemplazar el título predeterminado
+Se muestra al conseguir el MVP de cada ronda en DE
+Ver y equipar desde Información del jugador
+Título de MVP
+Título de MVP - Clasificatoria 2027
+Periodo de uso acumulable
+Periodo de uso
+MVP en DE
+MVP en DE-Clasificatoria 2027
+Un título de MVP que se puede equipar desde el Inventario. Equípalo para mostrarlo al obtener el título de MVP en cada ronda del modo Duelo de Escuadras.
+Ir a Metas de rango
+¡Se acerca un meteorito!
+El meteorito ha impactado
+Nombre del tramposo
+¡Los Airdrops de siempre caerán como Meteoritos!
+¿Airdrops? ¡Meteoritos!
+Habrá objetos de alto nivel en la zona tras el impacto del meteorito
+Meteorito en camino
+Coliseo de Trueno
+Desafío por el Trofeo del Trueno
+¡Lucha por el Trofeo del Trueno!
+El Airdrop Trueno ha caído
+Equipo campeón de las Finales globales de la FFWS 2026
+Alza tu estandarte a pesar de la tormenta y lucha por la gloria
+Estandarte de Trueno
+¡Consigue más eliminaciones en cada etapa para ser de los mejores equipos y obtener un Airdrop Trueno!
+Airdrop Trueno
+Las Armas de trueno aparecerán en la partida. ¡Encuéntralas y pruébalas!
+Armas de trueno
+¡La batalla por el Trofeo del Trueno comienza!
+Los Airdrops del evento caerán cerca de los mejores equipos
+Airdrop Trueno
+Los mejores equipos de esta ronda han sido seleccionados. Airdrops Trueno en camino.
+¡Qué gran actuación! Tu equipo obtuvo un Airdrop Trueno.
+¡Felicidades! Tu equipo es MVP y obtuvo un Airdrop Trueno de alto nivel.
+[Daño de zona: Bajo] La zona segura se está reduciendo
+[FFBA00][Daño de zona: Medio][-] La zona segura se está reduciendo
+[e01f1f][Daño de zona: Alto][-] La zona segura se está reduciendo
+Se alía con frecuencia con un tramposo
+Un objeto de utilidad que puede activarse a demanda
+Dispositivo activo
+¡Marqué a un enemigo cerca!
+Un objeto de utilidad pasivo que proporciona habilidades de combate especiales
+Dispositivo pasivo
+Libera una araña gigante con [FFB300]{0}[-] PV. La araña busca automáticamente al enemigo más cercano en un radio de [FFB300]{1}[-]m. Tras fijar un objetivo, se divide en un enjambre de arañitas para perseguirlo. Al acercarse al objetivo, el enjambre teje una telaraña en forma de abanico de [FFB300]{2}[-]m por delante, atrapando a todos los enemigos en su alcance. Los enemigos atrapados ven su velocidad reducida en [FFB300]{3}%[-] y pierden [FFB300]{4}[-] PV/s durante [FFB300]{5}[-]s.
+Trampa arácnida
+Libera una araña gigante que se fija en un objetivo cercano y se divide en un enjambre de arañitas, tejiendo una telaraña para atrapar a los enemigos
+Se transforma en una araña explosiva controlable durante [FFB300]{0}s[-]. La araña con [FFB300]{1}[-] PV puede ser destruida y moverse hasta [FFB300]{2}m[-] del propio Ryden. Toca la habilidad de nuevo para volver al cuerpo de Ryden y activa la araña, atrapando a los enemigos que se encuentren en [FFB300]{3}m[-] en su línea de visión. Los enemigos atrapados se ralentizan en [FFB300]{4}%[-] y pierden [FFB300]{5} PV[-]/s durante [FFB300]{6}s[-].
+Trampa escurridiza
+Se transforma en una araña explosiva controlable. Toca de nuevo para volver al cuerpo de Ryden y activar la araña, atrapando a los enemigos a su alcance.
+Enemigo cerca de Ryden
+{0} objetivo(s) atrapado(s)
+Lento
+Araña destruida
+Trampa desplegada
+SAURprendente (máscara)
+Terror de las sombras (máscara)
+Máscara de Búho
+Máscara de Escorpión
+Terror de las sombras (inferior)
+DINOmita (máscara)
+Chica de academia (máscara)
+Aparición carmesí (máscara)
+Veneno de escorpión (máscara)
+Espíritu de conejo (máscara)
+Misterio lunar (máscara)
+Emperatriz cósmica (inferior)
+Miaumiga (inferior)
+Fénix de magma (inferior)
+DINOmita (inferior)
+Chica de academia (inferior)
+Aparición carmesí (inferior)
+Bananinja (inferior)
+Intuición felina (inferior)
+Ala de justicia (inferior)
+Veneno de escorpión (Inferior)
+Espíritu de conejo (inferior)
+Novia fantasma (inferior)
+Misterio lunar (inferior)
+Emperatriz cósmica (cabeza)
+Miaumiga (cabeza)
+Fénix de magma (cabeza)
+DINOmita (cabeza)
+Chica de academia (cabeza)
+Bananinja (cabeza)
+Intuición felina (cabeza)
+Ala de justicia (cabeza)
+Veneno de escorpión (cabeza)
+Espíritu de conejo (cabeza)
+Novia fantasma (cabeza)
+Misterio lunar (cabeza)
+Emperatriz cósmica (maquillaje)
+Intuición felina (maquillaje)
+Novia fantasma (maquillaje)
+Emperatriz cósmica (zapatos)
+Miaumiga (zapatos)
+Fénix de magma (zapatos)
+DINOmita (zapatos)
+Chica de academia (zapatos)
+Aparición carmesí (zapatos)
+Bananinja (zapatos)
+Intuición felina (zapatos)
+Ala de justicia (zapatos)
+Veneno de escorpión (zapatos)
+Espíritu de conejo (zapatos)
+Novia fantasma (zapatos)
+Misterio lunar (zapatos)
+Emperatriz cósmica (superior)
+Miaumiga (superior)
+Fénix de magma (superior)
+DINOmita (superior)
+Chica de academia (superior)
+Aparición carmesí (superior)
+Bananinja (superior)
+Intuición felina (superior)
+Ala de justicia (superior)
+Veneno de escorpión (superior)
+Espíritu de conejo (superior)
+Novia fantasma (superior)
+Misterio lunar (superior)
+Terror de las sombras (cabeza)
+Coliseo de Trueno (cabeza)
+Estrellitas (maquillaje)
+Jajas (maquillaje)
+Fuego interior (maquillaje)
+Free Fire x MAMA 2026
+Soberano cósmico (máscara)
+Red Bull (máscara)
+MiMichila (máscara)
+Magma abismal (máscara)
+REXclusivo (máscara)
+Ícono escolar (máscara)
+El hombre del sobrero (máscara)
+Abrigo de sangre (máscara)
+Sandía ninja (máscara)
+Instinto felino (máscara)
+Escorpión tóxico (máscara)
+Espíritu de zorro (máscara)
+Forajido fantasma (máscara)
+MAMA (máscara)
+Misterio solar (máscara)
+Soberano cósmico (inferior)
+Red Bull (inferior)
+MiMichila (inferior)
+Magma abismal (inferior)
+REXclusivo (inferior)
+Ícono escolar (inferior)
+El hombre del sobrero (inferior)
+Abrigo de sangre (inferior)
+Sandía ninja (inferior)
+Instinto felino (inferior)
+Alguacil nocturno (inferior)
+Escorpión tóxico (inferior)
+Espíritu de zorro (inferior)
+Forajido fantasma (Inferior)
+MAMA (inferior)
+Misterio solar (inferior)
+Soberano cósmico (cabeza)
+Red Bull (cabeza)
+MiMichila (cabeza)
+REXclusivo (cabeza)
+Ícono escolar (cabeza)
+El hombre del sobrero (cabeza)
+Alguacil nocturno (cabeza)
+Escorpión tóxico (cabeza)
+Espíritu de zorro (cabeza)
+MAMA (cabeza)
+Misterio solar (cabeza)
+Soberano cósmico (maquillaje)
+MiMichila (maquillaje)
+Misterio solar (maquillaje)
+Soberano cósmico (zapatos)
+Red Bull (zapatos)
+MiMichila (zapatos)
+Magma abismal (zapatos)
+REXclusivo (zapatos)
+Ícono escolar (zapatos)
+El hombre del sobrero (zaaptos)
+Abrigo de sangre (zapatos)
+Sandía ninja (zapatos)
+Instinto felino (zapatos)
+Alguacil nocturno (zapatos)
+Escorpión tóxico (zapatos)
+Espíritu de zorro (zapatos)
+Forajido fantasma (zapatos)
+MAMA (zapatos)
+Misterio solar (zapatos)
+Soberano cósmico (superior)
+Red Bull (superior)
+MiMichila (superior)
+Heroico en DE-Clasificatoria de la T39
+Heroico en DE-Clasificatoria de la T40
+Magma abismal (superior)
+REXclusivo (superior)
+Ícono escolar (superior)
+El hombre del sobrero (superior)
+Abrigo de sangre (superior)
+Sandía ninja (superior)
+Instinto felino (superior)
+Alguacil nocturno (superior)
+Heroico en BR-Clasificatoria de la T54
+Escorpión tóxico (superior)
+Espíritu de zorro (superior)
+Forajido fantasma (superior)
+MAMA (superior)
+Misterio solar (superior)
+Paquete de voz Transmisión Final
+Paquete de voz de Coliseo de Trueno
+Paquete de voz de Burlas Pro
+Paquete de voz de Mirzapur 1
+Paquete de voz de Mirzapur 2
+Paquete de voz de Día de Muertos 2026
+Paquete de voz Transmisión Final
+Paquete de voz de Coliseo de Tormenta
+Paquete de voz de Burlas Pro
+Paquete de voz de Mirzapur 1
+Paquete de voz de Mirzapur 2
+Paquete de voz de Día de Muertos 2026
+Shh... ¿Qué fue eso?
+¡Mejor ponte la máscara!
+Podríamos jugar... un juego.
+¿Quién está ahí?
+El vacío oscuro cae en el coliseo.
+Tormenta es mi nombre, Booyah mi apellido.
+Yo seré tu Tor...mento.
+Solo los mejores sobreviven a la tormenta.
+¡Estoy en mi prime!
+¿Un milagro? No, ¡es habilidad!
+¡Fuera de aquí, bot!
+¡Sí, vas pa'l lobby!
+¡Suerte la próxima vez!
+Tienes mucha labia.
+Te sentirás orgulloso.
+Oye, concéntrate en tus estudios. Tienes que llegar a ser funcionario público o algo.
+Empezamos porque no teníamos de otra, pero ahora ya nos gustó.
+Aquí mandamos nosotros.
+Eso también sirve.
+Es arriesgado.
+Estás aprendiendo... aunque un poco lento.
+Flor roja, flor azul... Munna Bhaiya es hermoso.
+Eso estuvo increíble, jefe.
+¡Esta cosa es una locura! Revoluciona todo el sistema.
+Sí, o sea, todavía no lo hemos pensado, pero lo haremos.
+¡Hijo del diablo!
+¡Sufre como yo sufrí!
+¿Dónde está mi escuadra?
+¡Me bajaron!
+Oh, estás haciendo magia.
+¿Eso era todo? ¡Ahhh!
+Purrtuflas
+Terror de las sombras (zapatos)
+Zapatos de Sandía
+Campeón de la FFWS 2026 (superior)
+Terror de las sombras (superior)
+Duelo de honor
+¡Muy cerca!
+¿Es todo lo que tienes?
+Aplastó a {0}
+{0} dominó a {1} en el Duelo de honor de Lobo Solitario.
+Es necesario activar el micrófono
+Toca para abrir el sitio web y administrar el torneo
+Este jugador no puede unirse a tu equipo del torneo porque no tiene suficientes diamantes para el depósito.
+El torneo ha sido cancelado. Te devolvemos tu depósito a través de este correo.
+Te has registrado con éxito en el torneo. Te devolvemos tu depósito a través de este correo.
+El creador del torneo te ha añadido. Antes de que comience el torneo, abre los detalles del torneo para ver la inscripción, el registro y los detalles de los partidos.
+Has sido eliminado del torneo por su creador. Para seguir participando, regístrate de nuevo o comunícate con el creador del torneo para confirmar.
+El organizador del torneo ha revocado tu derecho a participar debido a tus propias acciones. No se reembolsará tu depósito.
+Depósito de torneo reembolsado
+Depósito de torneo deducido
+Puedes iniciar manualmente el torneo que creaste desde el sitio web para administrar tus torneo
+Te uniste al torneo con éxito. Tu depósito se devolverá por correo después de que se agrupen los equipos del torneo.
+Te has unido al equipo del torneo con éxito. Se dedujo el depósito de Diamantes requerido. El depósito se devolverá por correo después de que realices el registro o cumplas con los requisitos de reembolso.
+El equipo del torneo ha aprobado tu solicitud para unirte, pero no tienes suficientes diamantes para pagar el depósito y no puedes unirte al equipo.
+Has solicitado unirte a este equipo del torneo con éxito. El depósito de Diamantes requerido se descontará una vez que se apruebe tu solicitud.
+Abandonaste el torneo durante el periodo de registro. Te devolvemos tu depósito a través de este correo.
+Notificación de torneo
+El torneo que creaste ha finalizado. Visita el sitio web de organización del torneo para distribuir las recompensas.
+Información de Elim./Derribo
+Filtro Cómic
+Filtro Cyberpunk
+Filtro Dibujo
+Filtro Vintage
+Emoji grupal no desbloqueado. Obténlo fuera de la partida primero.
+Filtro Píxeles
+Filtro Bordes de color
+Anomalía descubierta
+Desliza la pantalla para encontrar Anomalías
+Puedes omitir en {0}s
+A continuación hay contenido que puede resultar aterrador. ¿Omitir?
+Un retrato manchado de rojo
+La figura del pasillo
+Los tentáculos debajo de la mesa
+Una sombra en la escalera
+La mujer en la pantalla
+Reclama recompensas repetibles para obtener lo siguiente:
+Reclama recompensas repetibles para recibir una de las siguientes recompensas aleatorias:
+¡Participa en el evento Transmisión Final y consigue muchísimas recompensas!
+Transmisión Final
+Álbum
+Modo de juego
+Tareas diarias
+Tokens restantes: [af2020]{0}[-]
+G36 - La venganza de la novia
+Transmisión letal
+Descubre la Transmisión
+Te esperan recompensas
+Nuevo
+Sin descubrir: Explora Zonas anómalas en la partida para desbloquear
+No descubierto: Explora Zonas anómalas en partida para desbloquear
+Carriola
+Pelota
+¿Un auto?
+Marioneta vieja
+Cajita musical
+Caballito misterioso
+Sombra en la puerta
+Figura borrosa
+Sombra oscura
+Mano roja
+Puerta oscura
+Retrato de mujer
+Muebles flotando
+Garra oscura
+Máscara triste
+Piedra misteriosa
+Televisión sin señal
+Muebles flotantes
+Máscara extraña
+Televisión sin señal
+Carro levitando
+Misteriosa puerta negra
+Huellas de manos
+Póster de un ojo
+Figura alargada
+Sombra en la piscina
+Residente misterioso
+Persona levitando
+No descubierto: Continúa investigando la mansión para desbloquear
+{0}/{1}
+Obtener título
+Recolecta {0} entrada(s) del álbum para reclamar el título ({1}/{2})
+Álbum del evento
+Álbum de partida
+Álbum
+1. Los jugadores eliminados entran al Otro Canal en forma de Muñeca, donde pueden seguir a los compañeros de equipo sobrevivientes y enviar burbujas de mejora para apoyarlos.\n2. Los compañeros de equipo sobrevivientes también pueden usar la Máscara reveladora para ser un Enmascarado, lo que les otorga mayor velocidad de movimiento y saltos más altos.\n3. Explora el Otro Canal para descubrir Anomalías e interactuar con ellas para obtener suministros.
+Battle Royale
+¡Entra al Otro Canal como Muñeca!
+¡Puedes obtener Máscaras reveladoras y Armas anómalas en los Airdrops Cibernéticos y en la Tienda DE para ganar la batalla!
+Duelo de Escuadras
+Máscaras  y Armas anómalas
+Battle Royale
+Duelo de Escuadras
+Modo de juego
+Tutorial
+1. Completa las tareas diarias para obtener tokens del evento.\n2. Usa los tokens en la página del evento para observar la mansión y avanzar en la investigación.\n3. Cumple los objetivos para reclamar sus recompensas. Cuando completes todos los objetivos, podrás seguir obteniendo recompensas repetibles.\n4. En los objetivos principales, desliza la vista de la videocámara para encontrar Anomalías y activar la secuencia correspondiente.\n5. Desbloquea entradas del Álbum para consultar las Anomalías que hayas descubierto. Alcanza los objetivos de progreso de la colección para reclamar recompensas del Álbum.\n6. Desliza lateralmente por la página del evento para explorar la mansión y activar posibles secuencias independientes.
+Reglas
+¡Recompensas gratis!
+Transmisión Final
+Enciende la luz si lo necesitas
+Observar
+Pánico
+Un vistazo a la Mansión
+{0}/{1}
+Tokens restantes hoy: [fs=26][af2020]{0}[-][/fs]
+¡Inicia sesión del {0} al {1} para conseguir objetos exclusivos!
+El evento de recompensas por iniciar sesión ha finalizado. ¡Nos vemos en próximos eventos!
+Recompensas de inicio de sesión
+Recompensas de inicio de sesión
+Alcanza la meta para conseguir las siguientes recompensas:
+Desliza la pantalla para explorar la mansión
+Mantén presionado un área vacía y arrastra hacia los lados
+Ya tienes todos los Premios Mayores. ¿Comprar de todos modos?
+Continuar comprando
+Continuar girando
+Ya tienes todos los Premios Mayores. ¿Girar de todas maneras?
+Descuento más alto obtenido
+Conjunto abierto automáticamente
+Oportunidades de volver a girar
+Nuevo descuento
+Descuento anterior
+GIRA POR UN [ffe24a]DESCUENTO[-]
+GIRA POR UN DESCUENTO
+COMPRAR AHORA
+Gasta [S0][ffe400]{0}[-] más para desbloquear el Premio Mayor
+Premios Mayores desbloqueados
+¡El descuento más alto!
+¡Un buen descuento!
+¡El descuento más alto garantizado!
+¡Se garantiza un mejor descuento en [ffe400]{0}[-] giro(s)!
+VOLVER A GIRAR
+¡Un descuento mejor!
+Todas las misiones fueron completadas
+¡Te quedas el otro descuento!
+Mismo descuento
+Obtén un descuento mejor
+1. Cuando entres al evento por primera vez, gira para obtener un descuento inicial.\n2. Completa las misiones para obtener oportunidades de volver a girar por descuentos.\n3. Puedes ganar hasta {0} giros más en cada evento.\n4. Cuando vuelvas a girar, el nuevo descuento se comparará con tu descuento actual y se seleccionará automáticamente el mejor descuento.\n5. Se garantiza un mejor descuento en {1} giros.
+GIRO CON DESCUENTO
+Probabilidad de descuento
+1. Comprar objetos que no sean Premios Mayores aumentará el progreso para desbloquear el Premio Mayor.\n2. Cuando la barra esté completa, los Premios Mayores se desbloquearán para que puedas comprarlos.\n3. Una vez desbloqueados, TODOS los Premios Mayores estarán disponibles para comprar.
+COMPRAR
+Mi descuento
+Comparte la Tienda Misteriosa
+Gasta {0}/{1} diamantes en la Tienda Misteriosa
+Prime nvl. {0}
+Gasta diamantes en eventos de descuento recientes
+Juega {0}/{1} partidas en BR/DE-Clasificatoria
+Juega {0}/{1} min
+Eventos de descuento recientes:
+Tienda Misteriosa
+Tienda Más X Más
+Ruleta de la Suerte
+GIRAR
+Límite: {0}/{1}
+IR
+COMPARTIR
+INCOMPLETO
+OBTENIDO
+LÍMITE ALCANZADO
+Completa misiones para obtener más giros
+SÚPERDESCUENTO
+Gasta diamantes para desbloquear todos los Premios Mayores
+No se pudieron reclamar las recompensas. Intenta de nuevo más tarde.
+¿Dejar esta escuadra?
+Tus recompensas no reclamadas se obtendrán automáticamente
+Error al salir de la escuadra. Intenta de nuevo más tarde.
+El estado de la escuadra se actualizó. Intenta de nuevo.
+Borrar búsqueda
+Las partes no seleccionadas se mantendrán como equipadas actualmente
+No se encontraron aspectos que coincidan
+Buscar nombre del aspecto
+Armadura recibiendo DAÑO de Incendiaria
+Crea un área ardiente en el suelo que dura un tiempo
+Recibiendo DAÑO de Incendiaria
+Incendiaria
+Detecta enemigos dentro del rango después de ser lanzada
+Granada localizadora
+Posición revelada por Granada localizadora
+Alerta: Zona segura cerca
+Juega en Clasificatoria para reducir el tiempo necesario de reactivación
 Precio calculado en base en tus diamantes restantes.
 ¡Mientras [57CAFD]lmenos[-] tengas, [FFA83A]mayor será el descuento[-]!
 Precio del Paquete de Diamantes
@@ -72674,7 +74887,7 @@ Relájate, no tiene un cuchillo oculto
 Cuello de Tortuga Negro
 Te hace ver bien y es muy resistente al aire acondicionado. [FFB300](Oculta el Chaleco)[-]
 Estudiante apostador (Superior)
-Uniforme de una colegio donde no se permite apostar
+Uniforme de un colegio en el que se tolera y se fomenta apostar.
 Destructor (Superior)
 Gánster (Superior)
 Esta chamarra ya ha sido lavada mucho debido a la cantidad de sangre que le ha caído. [FFB300](Oculta chaleco)[-]
@@ -73697,7 +75910,7 @@ Munición de subfusil
 Balas Rifle
 SPAS12
 SVD
-TEC9
+TEC-9
 UMP
 USP
 Chaleco dañado
@@ -73760,7 +75973,7 @@ Comunícate con tus compañeros de equipo a través del chat de voz para tener m
 Es crítico evitar zonas abiertas, especialmente cuando la zona segura es pequeña.
 Estar agachado o boca abajo reduce la probabilidad de que tus enemigo te disparen
 ¡Bono diario de 50 monedas si sobrevives lo suficiente!
-¡Bono diario de 50 exp si completas la primera partida del día!
+Hay un bono diario de 50 EXP cuando completas la primera partida del día.
 ¿Por qué no quedarse a ver cómo los demás disfrutan el juego?
 Aprovecha todo tu entorno para camuflarte y tomar una buena posición en los campos de batalla.
 Si no estás en una buena posición de ataque, juega defensivo para sobrevivir.
@@ -74180,7 +76393,7 @@ Souvenir del circo, viene con aplausos del público.
 Manzana Jugosa
 Remover Restricción
 Para levantar tu restricción, es necesario que cargues diamantes:
-¡Hola sobreviviente! Tu cuenta ha sido suspendida temporalmente. Recientemente, has solicitado y recibido un reembolso por una compra, a pesar de recibir correctamente tu orden. Por tal motivo y sin más opciones hemos retirado los diamantes correspondientes de tu cuenta. Revisa tu correo dentro del juego para obtener más información o contacta a Soporte al Jugador. Te invitamos a visitar el siguiente enlace: \nhttps://ffsoporte.garena.com/hc/es-419
+¡Hola, sobreviviente! Solicitaste y recibiste recientemente un reembolso por una compra, a pesar de haber recibido los artículos. Esto no nos dejó otra opción que retirar los diamantes o su equivalente de tu cuenta, lo que resultó en una restricción en tu cuenta. Agradecemos tu comprensión mientras seguimos esforzándonos por mantener un entorno de juego justo y saludable para todos los jugadores.
 Aviso de Infracción
 Equipar
 Fallo en equipar todo
@@ -76088,6 +78301,177 @@ INVENTARIO
 Rostro
 Color de la Piel
 Soporte al Jugador
+Superemote obtenido
+Aún no tienes suficiente para el Superemote
+Pergamino de Fuego
+Pergamino de la Tierra
+Pergamino del Agua
+Recibe una mejora de velocidad después de usar el columpio
+Mochila - Shuriken de Viento Endemoniado
+Mochila - Bata de Tsunade
+Mochila - Ship
+Mochila - Omnitrix
+Fondo de Ben 10
+Poder del Alien X
+Ícono de Hinata
+Ícono de Fuego
+Ícono de Alien X
+Caja de Botín - Monedero de rana
+Machete de Diamante
+MAG-7 - Ben 10
+La música de la colaboración con NARUTO SHIPPUDEN
+Blue Bird
+Canción temática de la colaboración con NARUTO SHIPPUDEN
+Tema principal
+Tabla - Tabla voladora
+Fuego
+Cambio de apariencia Ben 10
+Alien X
+Jeep - Camper
+Conjunto Hinata
+Conjunto La Chica de la Suerte
+Conjunto Ben Tennyson
+Conjunto Ben Tennyson
+Has desbloqueado el superemote Invocación de Gamabunta, pero parece que no lo reclamaste. ¡No te preocupes, lo hemos enviado a tu buzón! ¡Disfrútalo!
+Recompensa de Superemote
+¡La primera colaboración con NARUTO SHIPPUDEN les encantó! ¡Los ninjas regresaron!
+Regresa a la batalla, Ninja
+Captura el Sharingan: Controla y ordénale al Nueve Colas que ataque un área. Los enemigos que se encuentren dentro recibirán daño continuo.
+La fuerza de Hinata
+Elige 1 de los 2 premios para que sea tu Premio Mayor. El otro premio estará disponible para comprar.
+¿Confirmas reclamar el siguiente atuendo como tu Premio Mayor?
+Confirmar
+En Tienda DE, los shurikens sustituirán a las pistolas en la primera ronda.
+Obtenido en el primer evento
+Pase de legado
+Desbloquea el premio de la etapa para comprar
+¡Felicidades! ¡Desbloqueaste este superemote!
+Ninja veterano
+Caja de selección de stickers de NARUTO SHIPPUDEN
+Poder del Sharingan
+Ataque del Nueve Colas
+Artes Ninja
+Comer
+Poder del Sharingan capturado
+Capturando Poder del Sharingan
+Cancelar
+Confirmar
+Arrastra para elegir un área
+Elige una zona para atacar
+Cuando lo uses, abre el mapa y escoge una zona para que el Nueve Colas libere Bola Bestia con Cola.
+Poder del Sharingan
+No puedes seleccionar esta zona
+Poder del Sharingan obtenido
+Toca en cualquier lugar para omitir
+El Poder del Sharingan apareció
+Controla la explosión del Nueve Colas
+Aparecerán ninjutsu, herramientas ninja y el Poder del Sharingan, que controla la explosión del Nueve Colas.
+Ataque del Nueve Colas
+Academia Ninja
+Libera Rotación de Palmas de 8 Trigramas
+Liberando Rotación de Palmas de 8 Trigramas
+Rechazado por Rotación de Palmas de 8 Trigramas
+Retroceso por Rotación de Palmas de 8 Trigramas
+Enemigo rechazado
+Embiste hacia delante y crea un escudo de Chakra que bloquea el daño físico y hace retroceder a los enemigos.
+Rotación de Palmas de 8 Trigramas
+Embiste hacia delante y crea un escudo de chakra para protegerte y hacer retroceder a los enemigos
+Aldea Oculta Entre las Hojas
+¡El Nueve Colas va a atacar el avión!
+Avión atacado
+El ataque del Nueve Colas dejó escombros en el suelo.
+Ataque del Nueve Colas
+¡El ataque del Nueve Colas dejó abiertos los Arsenales!
+Arsenales abiertos
+Daño infligido
+Zona de peligro
+Bola Bestia con Cola está cayendo
+¡Entra en una casa para cubrirte!
+¡El Nueve Colas está atacando esta zona!
+Ramen Ichiraku
+Mejora recibida
+Usar
+Columpio
+Técnica de Clones de Sombra
+Cargando Rasengan
+¡Choque de puños!
+Marco de NARUTO SHIPPUDEN
+Sticker de Naruto
+Sticker de Sakura
+Sticker de Kakashi
+Sticker de Sasuke
+Sticker de Jiraiya
+Sticker de Rock Lee
+Sticker de Hinata
+Sticker de Orochimaru
+Sticker de Deidara
+Sticker de Minato
+Sticker de Itachi
+Sticker de Tsunade
+2026 Free Fire x NARUTO SHIPPUDEN
+2026 Free Fire x Ben 10
+Hinata
+Ben Tennyson
+La Chica de la Suerte
+Gwen Tennyson
+BEN 10
+Máscara de Materia Gris
+Máscara de Vilgax
+Ticket Ben 10
+Máscara de Kakashi de los Cazadores Especiales ANBU
+Hinata (cabeza)
+La Chica de la Suerte (máscara)
+Hinata (inferior)
+La Chica de la Suerte (inferior)
+Gwen Tennyson (inferior)
+Tatuaje de Gaara
+Hinata (zapatos)
+La Chica de la Suerte (zapatos)
+Gwen Tennyson (zapatos)
+Hinata (superior)
+La Chica de la Suerte (superior)
+Gwen Tennyson (superior)
+Ben Tennyson (inferior)
+Ben Tennyson (zapatos)
+Ben Tennyson (superior)
+Paquete de voz de Naruto
+Paquete de voz de Sasuke
+Paquete de voz de Sakura
+Paquete de voz de Kakashi
+Paquete de voz de Jiraiya
+Paquete de voz de Hinata
+Paquete de voz de Naruto
+Paquete de voz de Sasuke
+Paquete de voz de Sakura
+Paquete de voz de Kakashi
+Paquete de voz de Jiraiya
+Paquete de voz de Hinata
+Pero yo no soy digno de ser Hokage si no puedo salvar a mi amigo.
+Moriremos juntos, Sasuke.
+¡Y mi sueño es convertirme en Hokage!
+¡Porque eres mi amigo!
+¡Rasengan!
+¡Técnica de Clones de Sombra!
+Yo he perdido.
+Ninja inútil.
+Desaparece con el trueno.
+¡Amaterasu!
+¡Ja, ja, ja, ja, ja!
+¡Cha!
+¡Parece que por fin estoy a la par de estos dos!
+Esta vez, ¡serán ustedes los que verán mi espalda!
+¡Hola! Buenos días a todos. Temo que me perdí en el sendero de la vida.
+¡Los que se atreven a abandonar a un amigo son peores que escoria!
+¡No dejaré que maten a mis compañeros!
+Tú apuéstame todo a que yo muero.
+¡Jamás rendirse! Esa era la verdadera elección que debía tomar.
+La rana en el fondo del pozo va a la deriva hacia el gran océano.
+Porque... ¡Naruto me gusta mucho!
+Estoy aquí porque así lo decidí.
+Porque siempre cumplo mi palabra... Porque ese es mi camino ninja.
+Token Ben 10
+Token de la Aldea de la Hoja
+Token especial de la Aldea de la Hoja
 Tipo de Monstruo
 Tipo de Efecto Visual (VFX)
 Tipo de Objetivo de Ataque

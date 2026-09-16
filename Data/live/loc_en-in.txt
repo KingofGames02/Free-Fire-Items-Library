@@ -7,7 +7,7 @@ The name contains improper words. Please revise and resubmit it.
 Nickname already exists
 Request failed. Please change the platform account and try again. (2)
 Client version mismatch, please reinstall.
-Badge invalid, please log in again to view.
+Badge invalid. Please log in again to view.
 Failed to equip
 The equipped item is not owned or has expired
 Invalid code format
@@ -40,7 +40,8 @@ You already have Elite Pass!
 You have already purchased the Premium. Please do not repeat your purchase.
 No rewards available
 The guardian has reached their limit for supervised minor accounts. Your application cannot be sent.
-Currently in cooldown, unbinding cannot be cancelled, please try again later
+Currently in cooldown, unbinding cannot be canceled. Please try again later.
+Your unbind information has been updated. Please wait while the page refreshes.
 Unbind is on cooldown. Please try again later.
 A guest account is not eligible to be a guardian for a minor's account.
 This player has too many pending bind requests. Please try again later.
@@ -92,6 +93,7 @@ Config. error
 This mission cannot be refreshed
 You have reached the refresh limit
 No daily mission rewards to claim. (Either insufficient progress or already claimed.)
+Purchase limit reached
 Failed to send the duo Booyah Pass. The sender or receiver has not reached the required level.
 Unable to open yet
 Incorrect client parameter
@@ -370,7 +372,7 @@ Unable to start the event
 Invalid price
 Invalid item
 Prize pool does not meet the required item quantity
-Data error, please log in again (01).
+Data error. Please log in again (01).
 Max purchase limit (8 purchases) reached
 No valid prize pool items found
 No purchasable items
@@ -379,28 +381,28 @@ No valid event configuration found
 Insufficient items in prize pool
 Event closed
 Rewards already claimed
-Data error, please check the config file (05).
-Data error, please check the config file (06).
+Data error. Please check the config file (05).
+Data error. Please check the config file (06).
 Event not started yet
-Data error, please log in again (09).
+Data error. Please log in again (09).
 Not enough diamonds
-Data error, please log in again (08).
-Data error, please check the config file (08).
+Data error. Please log in again (08).
+Data error. Please check the config file (08).
 Rewards not unlocked yet. Please log in again.
-Data error, please check the config file (07).
+Data error. Please check the config file (07).
 Event closed
-Data error, please log in again (03).
-Data error, please log in again (05).
-Data error, please check the config file (04).
-Data error, please check the config file (02).
-Data error, please log in again (06).
-Data error, please log in again (04).
+Data error. Please log in again (03).
+Data error. Please log in again (05).
+Data error. Please check the config file (04).
+Data error. Please check the config file (02).
+Data error. Please log in again (06).
+Data error. Please log in again (04).
 Max rewards exchanged
-Data error, please check the config file (03).
+Data error. Please check the config file (03).
 Event not started yet
-Data error, please log in again (07).
+Data error. Please log in again (07).
 Not enough diamonds
-Data error, please log in again (02).
+Data error. Please log in again (02).
 Data error, please check the config file (01).
 Failed to generate
 Cannot use this item to generate design
@@ -433,7 +435,7 @@ Invalid tutorial mode
 Invalid thumbs up config
 Reward already claimed. Unable to claim again
 Reward not yet unlocked
-BR_FRESH_ROOKIE_ANSWER_ALREADY_CLAIMED
+You've already answered today's questions, come back tomorrow!
 This player cannot be added as a friend right now. Please try again later.
 You cannot add new friends right now. Please try again later.
 Dynamic Duo is already formed
@@ -442,6 +444,7 @@ Request already sent to this player
 Blacklist is full
 Cannot enter your own ID
 Already in your friend list
+Friend request failed. This player's request list is full. Please try again later.
 Cannot send a friend request to a player who you have blocked. Please unblock them first.
 Request sent
 ID invalid, please check again
@@ -465,6 +468,7 @@ This is already a Star Friend.
 Maximum number of Star Friends reached.
 This player is not on your friend list.
 In protection period now, unable to resolve
+Data error. Please log in again.
 Region Not Available
 Region not available
 Already in Unit
@@ -561,7 +565,7 @@ Invalid skin color
 Error fetching collection info
 Price mismatch, please inform customer service.
 Invalid config ID
-Invalid privilege ID
+Event has ended
 Invalid currency type
 Do not meet the requirement to use the discount coupon.
 Invalid vehicle skin
@@ -575,6 +579,7 @@ Purchase limit reached
 Insufficient gold
 Insufficient diamonds
 Error in current item. Please double-check item in Vault or contact customer service
+Insufficient Prime Diamonds
 Insufficient vouchers
 Unequipped expired weapon skins
 Purchase transaction failed
@@ -788,6 +793,7 @@ Failed to acquire data
 Unable to view drop rate
 Prime level has not reached 7
 Network error
+Data error. Please log in again.
 Unable to unlock because character level is too low.
 Active Skill already equipped. Unable to equip more than one
 This character cannot equip this active skill
@@ -889,8 +895,16 @@ Abnormal message length
 Message contains prohibited characters
 Not enough progress
 Waiting for the previous request to complete
+Claim limit reached
+Not all required items have been collected
+Rush Board has ended
 Invalid Rush Board ID
+Invalid collection reward ID
+Invalid spin request
+Invalid multi-spin request
+Invalid spin type
 Invalid request to change board
+Insufficient Diamonds
 Rush Board not started yet
 Invalid Rush Board prize pool
 Missing config. info.
@@ -963,6 +977,7 @@ Already invited this friend
 Invalid reward ID
 Invalid reward type
 Squad regions do not match
+This QR code is no longer valid
 The event is currently not available
 Not in the squad
 Invitation is required to join private squads
@@ -1030,9 +1045,13 @@ Slot is locked
 Matchmaking failed: no suitable teams found
 Currently no permission to access membership-related features
 No recommended maps found
+Failed to purchase, not enough CraftGems.
+Failed to purchase. Max. purchase limit reached.
 Max. creators pinned
 Pin limit reached
 Max. maps pinned
+Product info updated (price has changed), please refresh and try again.
+Product info updated (product offline), please refresh and try again.
 Incorrect data: Maximum tag amount reached
 Reward claimed
 Not following this creator yet
@@ -1046,13 +1065,13 @@ Player is already matchmaking (MM32)
 The number of team members does not meet requirement (MM31)
 You are not the team leader (MM30)
 Cannot spectate this player because they are using an emulator
-Cannot spectate a match where a cheater is present
+This match cannot be spectated right now
 Your friend is not in any match
 Spectators full
 You already have Pyro
 You and the other player are not Dynamic Duos
-Your Dynamic Duo's Pyro has not reached the required level yet
-Your Dynamic Duo doesn't have Pyro yet
+Your friend's Pyro has not reached the required level yet
+Your friend doesn't have Pyro yet
 Color ID does not exist
 No spins left
 Prize pool still locked
@@ -6639,7 +6658,7 @@ Clandestine Badge
 T.R.A.P Badge
 SELECT YOUR AGE
 Answering falsely could result in account removal or other consequences.
-Age verification only. Responses are not saved. If you are a minor, you confirm that you have guardian approval.
+Age verification only. If you are a minor, you confirm that you have guardian approval.
 Two-step age verification
 Go to Top-up events now
 Top-up
@@ -10387,7 +10406,7 @@ Draw count
 Limit offers: {0}
 Confirm to remove the prizes below from the pool?
 Removed
-Before spinning, tap on bottom left area of prize icons to remove 2 prizes you dislike.
+Choose 2 items to remove.Tap confirm to start.
 Prizes already obtained will not be repeated. Diamonds required will increase with each draw.
 1. Participate in the draw by using diamonds. Prizes already obtained will not be repeated. Each subsequent draw will require more diamonds. Current draw diamond cost: {0}
 2. Before drawing, player can remove 2 undesired prizes [FFBA00](except grand prize)[-], therefore increasing win rate of grand prize.
@@ -11481,7 +11500,7 @@ Pet Skin: Cyber Waggor
 Lush, wealthy, noble. Words aren't enough to describe him
 Pet Skin: Gold Waggor
 No recent messages
-The entrance to the match area is not open yet. Survivors, please hold on for a moment.
+Battlefield is not open yet. Survivors, please check official channels for opening details.
 Corresponding player pool not found. Matchmaking failed. (MM9)
 Sorry, subscription is not supported by your device store
 System has detected abnormal activities in your account. Account has been temporarily suspended. Only download the game from official channels. You may play normally again once account suspension is lifted. \nFor any questions, please contact customer support. \nSuspension ending in:
@@ -28073,7 +28092,7 @@ LAB combines Legendary outfits, Hyperbook, etc. to make viewing and navigating s
 LAB
 No content
 A mystic book with sealed powers in its pages
-Rampage Hyperbook
+Rampage
 Dinosaur Illusion (Bottom)
 You just got pranked!
 Pass
@@ -33114,7 +33133,7 @@ Pre-order Arrival
 You have successfully pre-ordered {0}, which will arrive on {1} through your in-game mail.\nP.S. Please claim your pre-order reward below.
 Notice: Pre-order and Arrival
 Treasures with galactic power sealed in its pages
-Galaxy Hyperbook
+Galaxy
 Successfully subscribed to the Booyah Pass.
 Triggers a screen vibration when you successfully hit an enemy
 The first to score a goal wins
@@ -38226,10 +38245,10 @@ Converted Tokens:
 Confirm to get
 Universal Evo Token Conversion
 A mystic book with sealed powers in its pages.
-Inferno Hyperbook
+Inferno
 Secret Page {0}
 A mystic book with sealed powers in its pages.
-Runestone Hyperbook
+Runestone
 Arrow 2
 {0} [bababa](of {1})[-]
 {0} min
@@ -43972,7 +43991,7 @@ Jelly Assault
 Fishing Frenzy
 Limit reached
 A mystic book with sealed powers in its pages.
-Ink Hyperbook
+Ink
 Grand prize guaranteed in your next spin
 Lucky Next Spin!
 Incredible Luck
@@ -45040,7 +45059,7 @@ Teaming Banned
 Teaming Banned. Ranking Banned.
 Teaming Banned. Ranking Banned. Rank Reset.
 Processed
-Insufficient evidence
+Under Monitoring
 Under Review
 Honor Streak Reward
 Log in and maintain an Honor Score of 100 cumulatively for a certain number of days to claim corresponding rewards.
@@ -45686,7 +45705,7 @@ Already accepted the Evil Butcher Hunting Mission
 Follow
 Evil Butcher escaped. Mission failed!
 Warning
-REVIVED
+REVIVE
 Teammate(s) has left the match. Unable to revive.
 CS Rank Protection Card
 Protects you from the rank drop if your next CS-Ranked match results in a rank drop.
@@ -46712,7 +46731,7 @@ Reload speed increases by [FFB300]{0}%[-]. Every time the skill user hits an ene
 Awakening: When the incremental boost is at its maximum, the [FFB300]first hit[-] on the target inflicts [FFB300]{0}%[-] DMG.
 Become immune from disruptive effects (e.g. slowdown, marking, skill-silencing) and have a [FFB300]{1}%[-] movement speed boost for [FFB300]{2}s[-]. Cooldown: [FFB300]{0}s[-].
 When sprinting, movement speed increases by [FFB300]{0}%[-] per second (max. [FFB300]{1}%[-]). Each incremental boost lasts for [FFB300]{2}s[-].
-After knocking down an enemy or using an active skill, [FFB300]{0}%[-] of the gun's magazine reloads automatically.
+After knocking down an enemy or using an active skill, [FFB300]{0}%[-] of the gun's magazine recovers automatically.
 Silver Spoon
 Disruption immunized
 Increases reload speed and causes healing deduction to enemies hit
@@ -48437,6 +48456,7 @@ Cutoff Score
 Time-limited Mode
 Match
 Competition
+Guild Wars Notice
 New Record!
 New Round
 Next Round
@@ -49508,7 +49528,7 @@ All weapons in the [ffba00]airdrops[-] will be [ffba00]Groza-X[-]
 All airdrops are [ffba00]Defense Airdrops[-]
 All weapons in the [ffba00]airdrops[-] will be [ffba00]Charge Buster[-]
 All weapons in the [ffba00]airdrops[-] will be [ffba00]SVD-Y[-]
-Destructive [ffba00]Storms[-] may appear in the map. Watch out and take cover in houses!
+Destructive [ffba00]Storms[-] may appear on the map. Watch out and take cover in houses!
 Skill cooldown is reduced by [ffba00]20%[-]
 Deal damage to obtain more [ffba00]Gloo Maker EXP[-]
 The airspeed is increased by [ffba00]30%[-]
@@ -53015,7 +53035,7 @@ Close Race
 Star protection for good play
 Extra star for excellent play
 Eliminate or assist players {0} time(s)
-Time to celebrate! (User will be able to place secret presents - random amounts of loadout, Gold, or Diamond Royale Vouchers - on the spawn island. Presents available for 10 players.)
+Time to celebrate! (User will be able to place secret presents - random amounts of loadout, Gold, or Vouchers - on the spawn island. Presents available for 10 players.)
 7th Anniversary
 Classic
 Multi-Select
@@ -53869,13 +53889,13 @@ Every elimination increases max. Shield Points permanently by [FFB300]{0}[-]. Ma
 Enters the Xtreme state and instantly obtains [FFB300]{1}[-] temporary Shield Points for [FFB300]{0}[-]s, during which each knockdown of an enemy restores the temporary Shield Points gained through this skill back to [FFB300]{2}[-] and resets the state duration. Once the state ends, the Shield Points earned from this process will be removed. Cooldown: [FFB300]{3}s[-].
 Chakra Shield received
 Engulfed by flames and lose HP per second due to Fireball Jutsu
-A Ninjutsu that allows the user to exhale a fire ball, destroying any Gloo Walls in the way and causing an explosion upon impact, leaving behind flames to inflict burn damage.
+Exhale a fire ball, destroying any Gloo Walls in the way and exploding upon impact, leaving behind flames to inflict burn damage.
 Fireball Jutsu
 Engulfed by the view-blocking waterball due to Water Dragon Jutsu
-A Ninjutsu that allows the user to exhale and mould water into the shape of a dragon, destroying any Gloo Walls in the way and generating a large view-blocking waterball upon impact.
+Exhale a water ball that destroys any Gloo Walls in the way and blocks view.
 Water Dragon Jutsu
 Engulfed by swirling winds with movement speed and rate of fire reduced due to Great Breach
-A Ninjutsu that allows the user to exhale air blasts, destroying any Gloo Walls in the way and generating a windstorm upon impact, leaving behind swirling winds to reduce enemies' movement speed and rate of fire.
+Exhale damaging air blasts that leave behind swirling winds, slowing enemies and reducing their rate of fire.
 Great Breach
 Creates an impenetrable force field and increases movement speed while inside it
 Max. Shield Points increase permanently with eliminations
@@ -54961,13 +54981,13 @@ When hitting enemies or vehicles with [FFB300]assault and marksman rifles[-], re
 Gloo Strike
 Chakra Shield received
 Reduced movement speed and rate of fire due to Rasengan
-A Ninjutsu that allows the user to dash forward for a medium distance and deal moderate damage to the target hit, reducing their movement speed and rate of fire.
+Dash forward and deal damage to the target hit, reducing their movement speed and rate of fire.
 Rasengan
 Unable to use throwables or the minimap due to Chidori
-A Ninjutsu that allows the user to dash forward for a long distance and deal significant damage to the target hit, preventing them from using throwables and checking the minimap.
+Dash forward, deal damage, and disrupt target hit.
 Chidori
 Knocked airborne due to Cherry Blossom Clash
-A Ninjutsu that allows the user to dash forward for a short distance and deal minor damage to the target hit, knocking them airborne.
+Dash forward, deal damage to the target hit, and knock them airborne.
 Cherry Blossom Clash
 Assault and Marksman Rifles can decelerate enemies. Extra Gloo Walls can be obtained.
 Please enter your recovery email and security code
@@ -54976,7 +54996,7 @@ Once the buffer period ends, your previous recovery email will no longer be vali
 Once the buffer period ends, your recovery email will be fully bound. You can then use it for account recovery in the future.
 Once the buffer period ends, your recovery email will no longer be valid, which will increase the risk of account loss.
 Recovery email:
-The target email is already bound. Please try another one.
+The target email is already bound to another account. Please try another one.
 Recovery Email
 Account binding will be complete in {0} day(s)
 Using your bound platform account email or a shared email is not recommended.
@@ -55142,9 +55162,9 @@ Pochinok
 Riverside
 Sentosa
 Shipyard
-BOOYAH your way! (User will be able to place secret presents - random amounts of loadout, Gold, or Diamond Royale Vouchers - on the spawn island. Presents available for 10 players.)
+BOOYAH your way! (User will be able to place secret presents - random amounts of loadout, Gold, or Vouchers - on the spawn island. Presents available for 10 players.)
 BOOYAH Trophy
-See something you like? (User will be able to place secret presents - random amounts of loadout, Gold, or Diamond Royale Vouchers - on the spawn island. Presents available for 10 players.)
+See something you like? (User will be able to place secret presents - random amounts of loadout, Gold, or Vouchers - on the spawn island. Presents available for 10 players.)
 Light Display
 CS S27 Elite Heroic rank reward
 BR S42 Elite Heroic rank reward
@@ -56059,7 +56079,7 @@ Join Team 7
 Claim
 Claim All
 Claimed
-Collected: [fec21c]{0}[-]/4
+Collected: [fec21c]{0}[-]/5
 For every increase of {0} progress, receive the following rewards
 For every increase of {0} progress, receive random rewards from the following list
 Daily Tasks
@@ -56082,7 +56102,7 @@ LW Daily Limit: {0}/{1}
 Gamabunta Summoning
 Available on {0}
 Collection Progress
-Collect [fec21c]4[-] out of 5 NARUTO SHIPPUDEN outfit bundles to unlock the grand prize!
+Collect [fec21c]5[-] out of 6 NARUTO SHIPPUDEN outfit bundles to unlock the grand prize!
 Reach {0} progress to summon
 Event resource downloaded
 Download and participate in the "Chapter 1: Nine Tails Strikes" event and get a free Jiraiya Bundle and event-themed Battle Card as rewards!
@@ -56101,7 +56121,7 @@ Reserve
 Outfit reserved. You'll be notified when it is available.
 Reserved
 Win the following rewards:
-Rule:\n1. Daily Tasks: Complete daily tasks to earn Fire Scrolls and start your ninja journey!\n2. Main Gameplay: Use Fire Scrolls to defend from the Nine Tails! Claim rewards and summon ninja companions as progress increases. You can also win a free outfit bundle!\n3. Limited-time Outfit Collection: Collect 4 out of 5 NARUTO SHIPPUDEN outfit bundles to win the Gamabunta Super Emote!\n4. Naruto Battle Card: Complete special tasks to unlock this unique battle card for free!
+Rule:\n1. Daily Tasks: Complete daily tasks to earn Fire Scrolls and start your ninja journey!\n2. Main Gameplay: Use Fire Scrolls to defend from the Nine Tails! Claim rewards and summon ninja companions as progress increases. You can also win a free outfit bundle!\n3. Limited-time Outfit Collection: Collect 5 NARUTO SHIPPUDEN outfit bundles to win the Gamabunta Super Emote!\n4. Naruto Battle Card: Complete special tasks to unlock this unique battle card for free!
 Event Details
 Now Available
 Skip
@@ -56350,11 +56370,11 @@ Revival Zone closed
 Remaining: {0}
 Airdrop Vending Machine is back! Shop quality items at a discount!
 Airdrop Vending Machine Returns
-The Nine Tails has appeared in Bermuda. Be careful!
+The Nine Tails has appeared. Be careful!
 Early in the match, players eliminated in the Hidden Leaf Village can be revived once
 Nine Tails Strikes
 Unable to use this item at the moment
-NARUTO SHIPPUDEN collaboration
+NARUTO SHIPPUDEN
 Summon
 Ichiraku Ramen is the best! Restore 2 EP/s.
 Yum Yum
@@ -56803,7 +56823,7 @@ Rewards are available before the box empties out
 Interact with the Frosty Machines on the map to uncover extra info and mysterious items!
 Frosty Machine
 Summon failed. Current location unavailable.
-Gamatatsu's got something for you! (User will be able to place secret presents - random amounts of loadout, Gold, or Diamond Royale Vouchers - on the spawn island. Presents available for 10 players.)
+Gamatatsu's got something for you! (User will be able to place secret presents - random amounts of loadout, Gold, or Vouchers - on the spawn island. Presents available for 10 players.)
 Gamatatsu
 Event-exclusive voice pack
 BR S43 Elite Heroic rank reward
@@ -56853,7 +56873,7 @@ Oh my!
 I can't do it
 Three strong, one weak
 Let it go!
-Embedded with the deepest secret of the cosmos (User will be able to place secret presents - random amounts of loadout, Gold, or Diamond Royale Vouchers - on the spawn island. Presents available for 10 players.)
+Embedded with the deepest secret of the cosmos (User will be able to place secret presents - random amounts of loadout, Gold, or Vouchers - on the spawn island. Presents available for 10 players.)
 Aurora Crystal
 Audio processing failed
 Processing audio
@@ -58397,7 +58417,7 @@ Golden Start
 There is a chance that everyone gets a great stash of coins at the start.
 (3 Uses)
 Skill Card Cooldown: {0}s
-{0} obtained
+Obtain {0}.
 (1 Use)
 (No Limit)
 You've already equipped the same skill as the Skill Card. Skill cooldown is reduced instead.
@@ -58779,9 +58799,9 @@ Tap to set the Safe Zone
 The artifact can no longer be used
 Location not eligible. Please select another one.
 A future Safe Zone has been relocated!
-Ready for some action? (User can put secret presents such as loadout, Gold, or Diamond Royale Vouchers in the cabin. Presents available for 10 players.)
+Ready for some action? (User can put secret presents such as loadout, Gold, or Vouchers in the cabin. Presents available for 10 players.)
 Midnight Havoc
-My zone, my rules! (User can put secret presents such as loadout, Gold, or Diamond Royale Vouchers in the cabin. Presents available for 10 players.)
+My zone, my rules! (User can put secret presents such as loadout, Gold, or Vouchers in the cabin. Presents available for 10 players.)
 My Zone
 Ramadan 2025 Voice Pack
 Fasting Voice Pack
@@ -60806,7 +60826,7 @@ Keep holding Gloo Walls after Smart Throw
 Auto-switch back to weapons
 Auto-switch back to weapons after Smart Throw
 EWC 2025 Bandana
-Have a taste of the infinity! (User can put secret presents such as loadout, Gold, or Diamond Royale Vouchers in the cabin. Presents available for 10 players.)
+Have a taste of the infinity! (User can put secret presents such as loadout, Gold, or Vouchers in the cabin. Presents available for 10 players.)
 Infinity Cart
 Green Delivery (Mask)
 Orange Delivery Helmet (Mask)
@@ -61764,7 +61784,7 @@ Private Squad
 Squad leader cannot leave if there are other players in the squad
 Successfully activated
 Claim rewards after completing the Top-up Mission
-No available squad to join
+No squads available. Try again in 5 minutes.
 Create your squad with {0} member(s)
 {0} member(s), join for rewards!
 Join or create a squad first
@@ -62624,9 +62644,9 @@ Red Moon
 Capture Divine Tree Airdrop and activate the Red Moon
 Divine Tree Airdrop
 Capture Divine Tree Airdrop for Red Moon Points and Akatsuki Keepsakes!
-Watch out, it might explode! (User can put secret presents such as loadout, Gold, or Diamond Royale Vouchers in the cabin. Presents available for 10 players.)
+Watch out, it might explode! (User can put secret presents such as loadout, Gold, or Vouchers in the cabin. Presents available for 10 players.)
 Detonating Clay Bird
-Let your heart shine bright. (User can put secret presents such as loadout, Gold, or Diamond Royale Vouchers in the cabin. Presents available for 10 players.)
+Let your heart shine bright. (User can put secret presents such as loadout, Gold, or Vouchers in the cabin. Presents available for 10 players.)
 Ice & Fire
 3 Master of Life Loot Crates
 Battle Card - Dreamspace
@@ -63704,7 +63724,7 @@ You have unclaimed reward for Squad Treasure!
 You will return to your previously created team
 Public
 (Anyone can join)
-(Join by invitation only)
+(Leader's invite only)
 Top-up Mission completed! Join a squad to claim rewards!
 You can make your squad public to let more players join!
 Time Limit
@@ -64202,7 +64222,7 @@ Deploy a tactical gadget at any location inside the Safe Zone
 Tap to choose a gadget
 Pick a spot and drag to adjust it
 Tap here to deploy it
-Super Bonfire increases the rate of fire by 15%
+Super Bonfire increases the rate of fire by 8%
 Gain a Tactical Panel each round. Use it to deploy tactical gadgets at any location on the map. The gadgets are also available for purchase in CS store.
 Helper Bot available for use
 Gain a Helper Bot each round. Use it to help up your teammate from a distance. Secret Bazaar will also unlock at CS store for you to purchase buffs for your team.
@@ -64669,9 +64689,9 @@ Upgrade successful!
 Not enough coins to upgrade the arsenal
 Team does not own an Arsenal Key. Cannot upgrade.
 Upgrade in progress. Try again later to unlock the arsenal.
-Happy new year!  (User can put secret presents such as loadout, Gold, or Diamond Royale Vouchers in the cabin. Presents available for 10 players.)
+Happy new year!  (User can put secret presents such as loadout, Gold, or Vouchers in the cabin. Presents available for 10 players.)
 Happy 2026
-What's Yeti dreaming about?  (User can put secret presents such as loadout, Gold, or Diamond Royale Vouchers in the cabin. Presents available for 10 players.)
+What's Yeti dreaming about?  (User can put secret presents such as loadout, Gold, or Vouchers in the cabin. Presents available for 10 players.)
 Snoozing Yeti
 Deploy a special UAV-Lite that enhances the Gloo Walls within its range
 Gloo UAV-Lite destroyed
@@ -65838,7 +65858,7 @@ Stats
 Push to Talk
 When on, switch to the Push-to-Talk microphone. Hold the mic button to speak, and release to end.
 Hold the mic button to speak and release to end
-Always On
+Mic Mode
 Privacy
 Failed to equip during matchmaking
 Players surpassed
@@ -66414,7 +66434,7 @@ Solo Revival Point
 Solo Revival Chance
 Number of revivals you have. Capture Revival Points to get more revivals!
 Team Revival
-Team Revival Protection On
+Team Revival activated by landing with your team
 Team Revival activated!
 Throw it at the target location, then teleport to the dagger.
 Blink Dagger
@@ -66422,7 +66442,7 @@ Throw it at the target location, then teleport to the dagger.
 Blink Dagger
 Reveal the weapons in an airdrop from a distance
 Reveal weapons in airdrops.
-Capture Defensive Airdrops faster
+Capture Defense Airdrops faster
 Capture Defense Airdrops faster.
 Get an Airdrop Aid with 2 random upgraded airdrop weapons
 Get an Airdrop Aid!
@@ -66817,7 +66837,7 @@ The arsenal has been broken into. Team location exposed.
 The arsenal has been broken into and cannot be unlocked
 The arsenal has been broken into and cannot be upgraded
 Upgrade & Unlock
-Tame the wild beats!  (User can put secret presents such as loadout, Gold, or Diamond Royale Vouchers in the cabin. Presents available for 10 players.)
+Tame the wild beats!  (User can put secret presents such as loadout, Gold, or Vouchers in the cabin. Presents available for 10 players.)
 Music Van
 With Alok
 Treasure Discovered
@@ -66825,7 +66845,7 @@ Treasure Squad
 Fushiguro Theme
 Itadori Theme
 Kugisaki Theme
-Witness the power of Divine Dog: Totality! (User can put secret presents such as loadout, Gold, or Diamond Royale Vouchers in the cabin. Presents available for 10 players.)
+Witness the power of Divine Dog: Totality! (User can put secret presents such as loadout, Gold, or Vouchers in the cabin. Presents available for 10 players.)
 Divine Dog: Totality
 Holi frame
 Lost Treasure frame
@@ -66837,7 +66857,7 @@ Megumi Fushiguro Sticker
 Yuji Itadori Sticker
 Nobara Kugisaki Sticker
 Satoru Gojo Sticker
-The treasure is mine!  (User can put secret presents such as loadout, Gold, or Diamond Royale Vouchers in the cabin. Presents available for 10 players.)
+The treasure is mine!  (User can put secret presents such as loadout, Gold, or Vouchers in the cabin. Presents available for 10 players.)
 Treasure Chest
 In Stealth mode. Hard to be seen by faraway enemies and cannot be detected by drones or scanning skills.
 Stealthed enemy hit
@@ -67823,7 +67843,7 @@ Goal Kick (M4A1 + M1917) Weapon Loot Crate
 Basic Settings
 Player Cloud Storage
 Changing the type of the autosave property will make existing online data unreadable. Are you sure?
-If enabled, player data will be automatically stored and applied for later matches.
+If enabled, player data will be automatically stored and applied for later matches. Note: each property only stores up to 4 KB data.
 Create
 No playtest save available
 Please enable Data Storage Module first.
@@ -68058,7 +68078,7 @@ Flip Tower
 1. Use Diamonds or Vouchers to purchase revealed items and tokens.\n2. After each purchase, the next item is revealed at no cost from the event's available prize pool, including the grand prize. \n3. Tokens can be redeemed in the Exchange Store for specific rewards, including the grand prize. Some rewards allow Diamonds to make up for the insufficient Tokens.
 Guaranteed Grand Prize within [ffba00][fs=32][b]{0}[/b][/fs][-] flip(s).
 Flip Booth
-(Only friends can join)
+(Squad's friends only)
 Join Again
 Only leader's friends can join
 Join by invitation only
@@ -68694,7 +68714,7 @@ Scan enemies periodically
 Gain a Gloo Wall every 7s
 Gain one revival chance
 Gain infinite EP
-Gain Lv. 5 Helmet and Vest
+Gain a Lv. 5 Helmet and Vest with continuous auto-repair
 Elimination fully restores HP
 Double HP
 Elimination gives +100 permanent Shield Points
@@ -68703,7 +68723,7 @@ Gain a Monster Truck with +40% vehicle speed
 Movement speed +150% when taking damage
 Infinite HP recovery
 Infinite self help-up
-Damage +50%
+Damage +{0}%
 Movement speed +50%
 Gloo Wall HP +9999
 Half HP, but damage +50%
@@ -69007,9 +69027,9 @@ Not on the same version as your teammate, please update resources
 Update Resource
 Team In Lobby
 Arsenal still locked
-Ocean's mystery awaits! (User can put secret presents such as loadout, Gold, or Diamond Royale Vouchers in the cabin. Presents available for 10 players.)
+Ocean's mystery awaits! (User can put secret presents such as loadout, Gold, or Vouchers in the cabin. Presents available for 10 players.)
 Sea Turtle
-Shoot for the goal! (User can put secret presents such as loadout, Gold, or Diamond Royale Vouchers in the cabin. Presents available for 10 players.)
+Shoot for the goal! (User can put secret presents such as loadout, Gold, or Vouchers in the cabin. Presents available for 10 players.)
 Kickoff Football
 Undersea Tour
 Big Catch
@@ -69086,9 +69106,9 @@ Marlin Sticker
 Solar Eclipse Sticker
 Football Sticker
 Trophy Sticker
-User can put secret presents such as loadout, Gold, or Diamond Royale Vouchers in the cabin. Presents available for 10 players.
+User can put secret presents such as loadout, Gold, or Vouchers in the cabin. Presents available for 10 players.
 Rising Star
-User can put secret presents such as loadout, Gold, or Diamond Royale Vouchers in the cabin. Presents available for 10 players.
+User can put secret presents such as loadout, Gold, or Vouchers in the cabin. Presents available for 10 players.
 Superstar
 Transforms into a bush with [FFB300]{2}%[-] reduction in movement speed, lasting for [FFB300]{1}s[-]. The duration is extended if the user stays still. Transformation ends when Wukong attacks. CD resets when Wukong takes down an enemy within [FFB300]{3}s[-] after skill release. Cooldown: [FFB300]{0}s[-].
 Transforms into a bush and creates two extra bushes. Lasts [FFB300]{0}s[-].
@@ -69215,7 +69235,7 @@ Autosave Feature
 Others
 AI Animation
 No Valid Property
-SMG & Rifles
+Long Guns
 Script Template
 Save as template
 Apply Template
@@ -69709,7 +69729,7 @@ When you have this item equipped, your First Edition Badge will show up on your 
 When you join a team with this item equipped, your First Edition Badge will be shown to your teammates
 When you have this item equipped, your First Edition Badge will show up on the leaderboard
 Back
-Pyro Buddies
+Pyro Pals
 Your Dynamic Duo's Pyro is on the way!
 Choose a personality
 Login Streak
@@ -69721,7 +69741,7 @@ Face
 Pyro's Vault
 Profile page display
 Profile page customizable widget
-Pyro Buddies
+Pyro Pals
 Unlock Pyro's Vault
 Unlock login streak display on profile page
 Unlock the customizable widget on profile page
@@ -69811,18 +69831,18 @@ Shotgunner
 Increases magazine capacity, damage, and spread control
 Stable Mag
 Increases magazine capacity and stability for sustained fire
-DMG reduction rate
+Shield DMG reduction
 Allows for attacks while sprinting
-Distance to Collapse Zone
-Some areas are about to collapse
-Some areas have collapsed
-Area will collapse soon
-Entered a Collapse Zone
-Area collapsing
+Collapse Zones revealed in
+Collapse Zones revealed
+Collapse in
+Entered
+Collapse Zone
+Facility Destroyed
 Leave the Collapse Zone
-Teammates scored {0} eliminations, assemble with them!
-Teammates had {0} total revives, assemble with them!
-Teammates' average rating is {0}, assemble with them!
+Teammates scored {0} eliminations. Assemble with them!
+Teammates had {0} total revives. Assemble with them!
+Teammates' average rating is {0}. Assemble with them!
 Ranked up! Assemble with them!
 New Friend
 [FFB300]{0}[-] is not in any team. Invite them now!
@@ -69855,7 +69875,7 @@ completely outplayed {1} in {0}!
 crushed the opposing team in {0}!
 edged out {1} in {0}!
 clinched a narrow victory in {0}!
-is crushed by you {0} times this week!
+is crushed by you {0} time(s) this week!
 Friend's Wins This Week
 Fun Recap
 Show Win Rate
@@ -69942,6 +69962,7 @@ BR-Ranked S52 Master Banner
 BR-Ranked S52 Heroic Banner
 BR-Ranked S53 Master Banner
 BR-Ranked S53 Heroic Banner
+Summer Voyage Banner
 Stellar Spica Banner
 Baaast Friends Banner
 Bat - EWC 2026
@@ -69968,12 +69989,13 @@ Drum Jam
 Celebration Dance
 Phoenix Flourish
 Anniversary Parade
-Left Right Sway
+Dance Brother Dance
 Scuba Dance
 Spotless
 Baa Baa Knit
 PARAFAL - 9th Anniversary
 Final Shot - Rising Phoenix
+Red Card
 Pride Judgment
 Fist - Fracture Firewing
 G36 - S52 Exclusive: Baa Baa
@@ -70014,8 +70036,11 @@ BR-Ranked S52 Master Avatar
 BR-Ranked S52 Heroic Avatar
 BR-Ranked S53 Master Avatar
 BR-Ranked S53 Heroic Avatar
+Sands Avatar
+Seas Avatar
 Justice Avatar
 Stellar Spica Avatar
+Waves Avatar
 Baaast Friends Avatar
 The horse will have special effects while moving
 Horse movement effect
@@ -70046,10 +70071,13 @@ M500 - Pristine Spica
 Parang - Electro Morphosis
 Parang - Dimensional Bruiser
 Parang - S53 Exclusive: Spica
+Parang - SEA Fall 2026
 Parang - Baa Baa Woof
 MAG-7 - Scarlet Destiny
 Boat of Luxury
 Fractured Descent
+Tenxi collab theme song
+Cari yang Baru
 AAA collab theme song
 Booyahka
 9th Anniversary theme song
@@ -70091,6 +70119,7 @@ Horse - Moonshine
 Jeep - Crisp Green
 Jeep - Scarlet Samurai
 Jeep - Dimensional Drift
+Jeep - SEA Fall 2026
 Monster Truck - Cotton Wraps
 Monster Truck - S52 Exclusive: Baa Baa
 Motorbike - Fractured Feathers
@@ -70110,6 +70139,7 @@ Dimensional Bruiser (XM8 + Desert Eagle) Weapon Loot Crate
 Open to receive a random gun skin (Charge Buster + USP-2) from the Super Fresh set
 Super Fresh (Charge Buster + USP-2) Weapon Loot Crate
 XM8 - Dimensional Bruiser
+You've been playing for a while. Maybe take a short break?
 {0}'s skill provides healing
 Kassie's skill provides healing
 {0}'s skill provides Shield Points
@@ -70123,6 +70153,7 @@ Scarlet Chanter Bundle
 Denim Crosscut Bundle
 Rosy Groove Bundle
 Pop Groove Bundle
+Street Diva Bundle
 Electro Butterfly Bundle
 Fracture Streetburst Bundle
 Scorching Fracture Bundle
@@ -70137,6 +70168,7 @@ Thunderborn MVP Bundle
 Rin Bundle
 Metallic Groove Bundle
 Captain of Courage Bundle
+Street Swagger Bundle
 Rey Mysterio Bundle
 Electro Morphosis Bundle
 Fracture Freestyle Bundle
@@ -70179,7 +70211,7 @@ This map is not approved, please go to Craftland Studio PC and update the map.
 Mostly Positive
 Very Positive
 Extremely Positive
-Map ratings are based on both likes and dislikes and are shown only when likes exceed {0}
+Map ratings are based on both likes and dislikes
 High Match Success Rate
 Low Match Success Rate
 Mid Match Success Rate
@@ -70188,12 +70220,15 @@ The estimated match success rate is based on map popularity and creator's settin
 Midjoin: Enabled
 Play Sessions: {0}
 Play Sessions
-Play Sessions: the number of times a map has been played
+Play Sessions: the number of times a map has been played. Not updated in real time.
 This map can't be accessed on the current server.
 {0} team(s) x {1} player(s)
 Excellent Behavior Rating Badge
 This teammate has excellent behavior rating. Fight for Booyah together!
+No suitable teams available. Try again later or try system matchmaking.
 Choose an answer
+Area Track
+Sustained Lock-On
 Creates a small, wall-destroying area after the wave explodes. The area sticks to and moves with the closest enemy within [FFB300]{0}m[-]. Lasts [FFB300]{1}s[-].
 Sticky Rhythm
 Creates a small area that sticks to the target enemy, dealing damage over time to walls inside it
@@ -70246,7 +70281,7 @@ Preview Version banned. Please edit in Craftland Studio PC.
 Set CCT Forward
 Set the direction the Character Controller is facing.
 Forward
-Remove Remains
+Remove Residual Items
 Remove remains of a specified type
 Type
 The type of remains to be removed
@@ -70267,7 +70302,7 @@ Set the material override of a specific material slot for a specific part within
 The target material to be used as a replacement
 Reset Appearance Material
 Clear the material override of a specific material slot for a specific part within a specific appearance group of the target Appearance entity and restore the default material (takes effect on the client only).
-Reset all materials in the appearance group
+Reset Appearance Material Group
 Clear all material overrides under a specific appearance group of the target Appearance entity and restore the default materials (takes effect on the client only).
 Action successful or not
 Get Appearance Material
@@ -70290,27 +70325,27 @@ The HUD for pulling the pin of grenades
 Ignore Inactive
 When sorting, active child nodes come first, followed by inactive child nodes
 The current value of the switch button
-Apply Animation
+Is Apply Animation
 Apply frame animation or not
 Atlas ID
 The ID of the animation atlas
 Frame Rate
 Animation frame rate
 Animation will play on loop or not
-Shadow Transparency
+Shadow Alpha
 The transparency of the shadow
-Outline
+Is Apply Outline
 Apply outline or not
 Outline Color
 The color of the outline
-Outline Transparency
+Outline Alpha
 The transparency of the outline
 Outline Offset
 The offset of the outline
-Area Disable
+Area Closed
 Disable this feature in this area
 The ID used to describe atlas assets
-Remain Item Type
+Residual Items Type
 Types of remain objects that can be removed
 All
 All items that will remain after round resets
@@ -70483,7 +70518,7 @@ When [ffba00]{0}[-] players team up with ranks below [ffba00]{1}[-], [ffba00]{2}
 Basics
 Intermediate
 Advanced
-Training Center
+Survivor Academy
 What it is and how to use it
 Thread your throws to bring the boom!
 Bring Beaston with you to throw farther
@@ -70522,7 +70557,7 @@ Lower dash speed but extended duration
 Shows the locations of in-range enemies. If they are still moving after a while, exposes their locations again.
 Expanded Range
 Sustained Dash
-Collision detected, failed to join
+Cannot follow from the current position
 Allow other players to follow you in-match
 Don't Allow
 Friends Only
@@ -70531,7 +70566,26 @@ Participate in the event to choose and claim a free outfit bundle, and a big dis
 Participate in the event to claim a free outfit bundle
 You already own this prize. Cannot switch grand prize.
 Join the return of Chapter 1: Nine Tails Strikes to win a free outfit bundle and a special Battle Card!
-Failed to follow, cannot join
+Lead the way, I'll follow!
+Cannot lead train in current state
+Train disbanded: entering combat
+Train disbanded: too far from teammate
+Train disbanded: height difference too large
+Train disbanded: train leader triggered a special interaction
+Train disbanded: train leader entered a moving platform
+Train disbanded: abnormal movement
+Entering combat, leaving the current train
+Train disbanded: height difference too large
+Cannot follow in current state
+Cannot join the train now
+Cannot join: train is full
+Cannot join: height difference too large
+Cannot follow from current position
+Cannot join: target is downed
+Target does not allow following
+Cannot join: target is offline
+Cannot follow target at their current position
+Current train disbanded
 Coin Jar
 Use to increase coins for the whole team
 Coin Gun
@@ -70568,6 +70622,7 @@ Box 277
 Box 278
 Box 279
 Box 280
+Blazing Fracture (AUG) Token Crate
 Scarlet Crate
 Scarlet Night Crate
 Open to receive a M1014 Defier's Anthem
@@ -70745,7 +70800,7 @@ Display Team Member Movement
 Want to improve? Tap to check out the match review!
 Match review available
 Legend
-[S0] {0} unlocked a Defense Airdrop
+[S0] {0} captured a Defense Airdrop
 [S0] {0} unlocked an arsenal
 BOOYAH
 [S0] {0} was eliminated
@@ -70762,7 +70817,7 @@ BOOYAH
 [S0] {0} revived {1} at an Advanced Revival Point
 [S0] {0} triggered Solo Revival
 [S0] {0} triggered Team Revival
-[S0] {0} wiped out a squad
+[S0] {0} wiped out a team
 Defense Airdrop
 Arsenal unlocked
 Ultra Airdrop
@@ -70803,20 +70858,48 @@ Cherry Blossom
 Rainy Day
 Firefly
 Visual Effect
+Beige
 Blue
 Fur color
+Pale Gold
+Chocolate
 Cyan
 Orange
+Macaron Blue
+Mint
 Color locked. Level up to spin and obtain.
+Peach
 Pink
+Pistachio Green
 Purple
 Crimson
+Cherry Blossom
+Smoky Rose
+Taro Purple
 Golden
 Pink Shark Hat
+Golden Crown
+Yellow & Green Balloons
+Red & Purple Balloons
 Pink & Blue Balloon
+Golden & Silver Balloons
+Blue Fireball
+Red Fireball
 Purple Fireball
+Silver Fireball
+Yellow Goggle
+Pink Goggle
 White Diving Goggles
+Black Goggle
+Blue Heart Glasses
+Red Heart Glasses
+Black Heart Glasses
+Golden Heart Glasses
 Golden Wings
+Pink Skateboard
+Black Skateboard
+Orange Skateboard
+Blue Skateboard
 Spin
 You need more login days to spin
 Keep logging in to claim surprise rewards
@@ -70917,7 +71000,7 @@ Special Airdrop: Shield Zone
 Special Airdrop: Heal Zone
 Special Airdrop: Anti-Wall Zone
 Special Airdrop: Super Cover
-Awooooo! (User can put secret presents such as loadout, Gold, or Diamond Royale Vouchers in the cabin. Presents available for 10 players.)
+Awooooo! (User can put secret presents such as loadout, Gold, or Vouchers in the cabin. Presents available for 10 players.)
 Scarlet Calling
 Under the Scarlet Moon
 Rin Theme
@@ -70931,7 +71014,7 @@ Anniversary Party
 10 Universal Vouchers + 50 Diamonds
 5 Universal Vouchers + 100 Diamonds
 Bundle + 5 Universal Vouchers + 100 Gems
-Happy 9th anniversary! (User can put secret presents such as loadout, Gold, or Diamond Royale Vouchers in the cabin. Presents available for 10 players.)
+Happy 9th anniversary! (User can put secret presents such as loadout, Gold, or Vouchers in the cabin. Presents available for 10 players.)
 9th Anniversary Trophy
 Scarlet Moon Frame
 BLUE LOCK Trio Frame
@@ -71107,10 +71190,10 @@ Anniversary quests are now available
 Rewards
 Anniversary Quest accepted, let's do it!
 Anniversary Quest completed!
-Reviving at loot boxes is now [e01f1f]unavailable[-]
+Reviving at loot boxes is now unavailable
 You can now revive teammates directly from their loot boxes!
-Instant Revival
-Revive instantly at the loot box
+On-the-spot Revival
+Revive directly at the loot box
 A teammate is reviving you
 Quest complete! [ffba00]Abundant supplies[-] have dropped, and the {0} area has been [ffba00]refreshed[-]!
 Quest sites will [ffba00]drop supplies[-], while Vending Machines, Revival Points, and Coin Machines will [ffba00]refresh[-].
@@ -71184,6 +71267,8 @@ Use to spin for rewards in Gold Vault
 Wrestling Voucher
 Scorching Fracture (Mask)
 Dimensional Brawler (Mask)
+Boss Banana (Mask)
+Sassy Strawberry (Mask)
 Baa Baa Sheep (Mask)
 Crisp Red (Bottom)
 Scarlet Chanter (Bottom)
@@ -71191,6 +71276,7 @@ Scarlet Dancer (Bottom)
 Denim Crosscut (Bottom)
 Rosy Groove (Bottom)
 Pop Groove (Bottom)
+Street Diva (Bottom)
 Electro Butterfly (Bottom)
 Scorching Fracture (Bottom)
 Fracture Streetburst (Bottom)
@@ -71204,6 +71290,7 @@ Scarlet Dancer (Head)
 Denim Crosscut (Head)
 Rosy Groove (Head)
 Pop Groove (Head)
+Street Diva (Head)
 Electro Butterfly (Head)
 Scorching Fracture (Head)
 Fracture Streetburst (Head)
@@ -71220,6 +71307,7 @@ Scarlet Dancer (Shoes)
 Denim Crosscut (Shoes)
 Rosy Groove (Shoes)
 Pop Groove (Shoes)
+Street Diva (Shoes)
 Electro Butterfly (Shoes)
 Scorching Fracture (Shoes)
 Fracture Streetburst (Shoes)
@@ -71233,6 +71321,7 @@ Scarlet Dancer (Top)
 Denim Crosscut (Top)
 Rosy Groove (Top)
 Pop Groove (Top)
+Street Diva (Top)
 Electro Butterfly (Top)
 Scorching Fracture (Top)
 Fracture Streetburst (Top)
@@ -71245,6 +71334,7 @@ Baby Eagle (Head)
 Scarlet Cinder (Facepaint)
 Butterfly Facepaint
 Fractured Glow (Facepaint)
+SEA Fall 2026 (Facepaint)
 Groovy Gaze (Facepaint)
 Crisp Green (Mask)
 Scarlet Warrior (Mask)
@@ -71252,6 +71342,7 @@ Thunderborn MVP (Mask)
 Rin Mask
 Metallic Groove (Mask)
 Captain of Courage (Mask)
+Street Swagger (Mask)
 Rey Mysterio (Mask)
 Ember Fracture (Mask)
 Flowing Fracture (Mask)
@@ -71266,6 +71357,7 @@ Thunderborn MVP (Bottom)
 Rin Bottom
 Metallic Groove (Bottom)
 Captain of Courage (Bottom)
+Street Swagger (Bottom)
 Rey Mysterio (Bottom)
 Electro Morphosis (Bottom)
 Ember Fracture (Bottom)
@@ -71281,6 +71373,7 @@ Crisp Green (Head)
 Denim Flipset (Head)
 Thunderborn MVP (Head)
 Metallic Groove (Head)
+Street Swagger (Head)
 Electro Morphosis (Head)
 Ember Fracture (Head)
 Fracture Freestyle (Head)
@@ -71297,6 +71390,7 @@ Thunderborn MVP (Shoes)
 Rin Shoes
 Metallic Groove (Shoes)
 Captain of Courage (Shoes)
+Street Swagger (Shoes)
 Rey Mysterio (Shoes)
 Electro Morphosis (Shoes)
 Ember Fracture (Shoes)
@@ -71316,6 +71410,7 @@ Thunderborn MVP (Top)
 Rin Top
 Metallic Groove (Top)
 Captain of Courage (Top)
+Street Swagger (Top)
 Rey Mysterio (Top)
 Electro Morphosis (Top)
 Ember Fracture (Top)
@@ -71333,6 +71428,7 @@ The Scarlet Whisperer voice pack
 The Scarlet Howler voice pack
 The 9th Anniversary voice pack
 The Ronaldinho voice pack
+Hello everyone, main phir wapas aaya hoon, wow wow wow!
 The Tenxi voice pack
 The Independence Day voice pack
 The LATAM Meme voice pack 1
@@ -71342,6 +71438,7 @@ Scarlet Whisperer Voice Pack
 Scarlet Howler Voice Pack
 9th Anniversary Voice Pack
 Ronaldinho Voice Pack
+Sahurrr Voice Pack
 Tenxi Voice Pack
 Independence Day Voice Pack
 LATAM Meme Voice Pack 1
@@ -71358,6 +71455,17 @@ They are letting us dream!
 Check out this crazy headshot!
 Look at this guy, I just juked you
 Another outing on the board!
+Hello everyone, main phir wapas aaya hoon, wow wow wow!
+Oh my God, ye kya hai baba? Ye kya hai re?
+Haan haan, jaata hoon jaata hoon, lekin main wapas zaroor aaunga, ae ae ae
+Tung tung tung
+Hello everyone, mera naam hai Tung Tung Sahur
+Zyada pakar-pakar-pakar mat karo
+[Tenxi] Help me!
+[Tenxi] Why is the enemy so easy?
+[Tenxi] Give us a heads-up first, buddy
+[Tenxi] Go go go!
+[Tenxi] My chest hurts
 Help me!
 Are you even trying?
 For the homeland!
@@ -71386,6 +71494,7 @@ Spica Shoes
 Cotton Teddy (Top)
 Dark Desires Bundle
 Groovy Crop Top
+2026 EWC Champions T-shirt
 Super Fresh Bundle
 Are you satisfied with the voice quality of this match?
 Watch Replay
@@ -71532,7 +71641,7 @@ After your teammate is eliminated, reach their loot box within the time limit an
 Awakened Weapons appear in upgraded Arsenals. When the final battle begins, all surviving players receive a Weapon Awakener. Unleash your true power and compete to become the ultimate champion!
 Celebration Bubbles
 Anniversary Quest
-Instant Revival
+On-the-spot Revival
 Awakened Weapons
 Drop in. Grab the bubbles!
 Exciting quests await in the zones!
@@ -71570,7 +71679,7 @@ Oscar
 Skyler
 Homer
 Go Celebrate
-1. Find the 9th Anniversary Statue in the 9th Anniversary Party Lobby and spend tokens to celebrate.\n2. Tokens can be earned by completing daily tasks or playing matches.\n3. Each celebration at the statue grants a random celebration reward.\n4. Celebrations have a chance to grant special privilege rewards that can be used until they expire\n5. Reach milestone progress through celebrations to earn milestone rewards\n6. Plenty of fun activities are waiting to be discovered in the Party Lobby!
+1. Find the 9th Anniversary Statue in the 9th Anniversary Party Lobby and spend tokens to celebrate.\n2. Tokens can be earned by completing daily tasks.\n3. Each celebration at the statue grants a random celebration reward.\n4. Celebrations have a chance to grant special privilege rewards that can be used until they expire\n5. Reach milestone progress through celebrations to earn milestone rewards\n6. Plenty of fun activities are waiting to be discovered in the Party Lobby!
 Rule
 Interact
 Continuously grants coins to other players
@@ -71608,7 +71717,7 @@ Loading 9th Anniversary Event
 Loading...
 Free Rewards!
 9th Anniversary
-Grand Prize guaranteed after {0} celebrations
+Special Reward guaranteed after {0} celebration(s)
 Celebrate
 Free
 Daily tasks are not completed yet!
@@ -71628,7 +71737,7 @@ Deal {0} more DMG using awakened weapons to complete a task!
 Use enhanced skills {0} more times to complete a task!
 Get {0} more Perk Points to complete a task!
 Max out Perk Points {0} more times to complete a task!
-Tokens remaining today: [fs=26][FFE785]{0}[-][/fs]
+Tokens remaining today: [S0][fs=26][FFE785]{0}[-][/fs]
 BR-Ranked Daily Limit:
 CS-Ranked Daily Limit:
 LW Daily Limit:
@@ -71707,7 +71816,7 @@ SHOW PRIZES
 BONUS REWARD
 SHOW ONLY MINE
 WINNER
-Guaranteed Tier {0} within {1} spin(s)
+Guaranteed {0}-Tier prize in [ffba00][fs=32][b]{1}[/b][/fs][-] spin(s)
 S TIER
 A TIER
 B TIER
@@ -71759,6 +71868,2110 @@ This area has abundant loot
 This area has plenty of loot
 Rich
 Good
+Admin Transformed You
+This name contains unsupported characters. Please edit it to continue.
+Some custom property names contain unsupported characters. Please edit them and try again.
+{0} Savings Received
+Confirm to use [S0]{0} + [S1]{1} to unlock [FFCD30]PREMIUM[-]?
+Confirm to use [S0]{0} + [S1]{1} to unlock [FFCD30]PREMIUM PLUS[-]?
+Use [S0] anyway
+Gain 1 [S0] to unlock and claim
+Current Savings
+Spend [S0] in {0} to save [S1],\nuse them in {1} after obtaining [S0]
+Gain any [S0] to unlock [S1]\n[S1] can only be used to offset [S0] in Royale events and Booyah Passes.\nUnspent [S1] will reset to 0 at the end of this month.
+Gain any [S0] to unlock [S1]\n[S1] can only be used to offset [S0] in Deluxe Menu and Booyah Passes.\nUnspent [S1] will reset to 0 at the end of this month.
+{0} [S0] not claimed yet
+Unlock [S0]{0} now and use here!
+Spending
+Prime Diamond
+Unlock at Prime {0}
+Reach Prime {0} to unlock
+Upgrade to Prime {0} to claim [S0]{1}
+Start saving Prime Diamonds now!
+New milestone reached!\nMore [S0] are unlocked!
+Turn this month's [S0] spending into next month's saving!\n\n1. Save Prime Diamonds\n· Spend [S0] to build progress and reach milestones to save [S1]. The more you spend, the more you save!\n· Only [S0] spending counts toward progress. Amounts paid with [S1] do not count.\n\n2. Unlock & Use Prime Diamonds\n· Prime Diamonds saved this month can be used next month. At the start of next month, Prime Diamonds are locked: you can view it, but cannot use it yet.\n· Top up any amount of [S0] next month to unlock the Prime Diamonds you saved.\n· Once unlocked, [S1] can be used in Luck Royale and Booyah Pass. 1 [S1] = 1 [S0]. [S1] will be deducted first when paying.\n\n3. Monthly Expiration\n· The [S1] you saved has to be spent in the next month, or they will be reset to 0 at 4:00 am in the month after that.
+Turn this month's [S0] spending into next month's saving!\n\n1. Save Prime Diamonds\n· Spend [S0] to build progress and reach milestones to save [S1]. The more you spend, the more you save!\n· Only [S0] spending counts toward progress. Amounts paid with [S1] do not count.\n\n2. Unlock & Use Prime Diamonds\n· Prime Diamonds saved this month can be used next month. At the start of next month, Prime Diamonds are locked: you can view it, but cannot use it yet.\n· Top up any amount of [S0] next month to unlock the Prime Diamonds you saved.\n· Once unlocked, [S1] can be used in Luck Royale, Deluxe Menu, and Booyah Pass. 1 [S1] = 1 [S0]. [S1] will be deducted first when paying.\n\n3. Monthly Expiration\n· The [S1] you saved has to be spent in the next month, or they will be reset to 0 at 4:00 am in the month after that.
+Spend [S0] to save [S1]
+You didn't use any [S0], so your Prime Diamond progress is unchanged
+Only [S0] spending counts toward the jar's progress. Diamonds offset by [S1] are not included.
+{0} - claimed
+{0} - claimable
+Prime Diamond Rules
+{0} Diamond Jar
+Get 1 [S0] to claim saved [S1]
+[S0] will expire in {0} day(s), make sure to use them!
+Your {0} Prime Diamonds are maxed out! Make sure to unlock them in {1}!
+New milestone reached! Go claim your [S0]!
+Spend [S0] in {0}, unlock and use [S1] in {1}
+[S0]{0} saved!
+Make sure to use all your [S0] before next month!
+In Luck Royale and Booyah Pass, [S0] will be used before [S1]!
+[S0] can be used before [S1] in Deluxe Menu and Booyah Pass
+Expiration Time
+Your unused [S0]{1} from {0} have been reset to 0.
+Prime Diamond Expiration Notice
+[S0]{0} left. Resets in {1} day(s).
+[S0]{1} reset in {0} days! Use now!
+Last day! [S0]{0} will reset to 0!
+Expire in {0}
+Prime Diamond
+Obtain from
+Prime System
+Usable Only In
+Knock down an enemy to gain bonus fire rate and movement speed for 20s
+Storm
+Shots deal extra damage and absorb HP from enemies
+Absorb
+Regular
+Reverse
+Skorp
+An armor-piercing SMG that excels against heavily armored enemies at close range, ideal for close-range combat
+FO12
+A fully automatic shotgun with devastating close-range firepower, ideal for fast breaching
+M200
+A powerful sniper rifle built for precise long-range eliminations
+M7
+An assault rifle with manageable recoil and solid damage, ideal for mid-range combat
+RPK
+A light machine gun with a unique recoil mechanic, high damage, and rifle-like mobility, ideal for mid-to-long-range combat
+Hawk
+A high-damage sniper rifle that fires two rounds in quick succession. Strong muzzle climb after each shot makes it best suited for long-range combat.
+TEC-9
+A high-fire-rate pistol with excellent close-range burst damage, ideal as a flexible secondary weapon
+Recoil
+Area collapsing
+Select 1 player as the Bounty Target
+Admin Hunt
+Make Admin the Bounty Target for all players
+Default Buff
+Head size x{0}
+Arm size x{0}
+Leg size x{0}
+Body size x{0}
+Skill Cooldown
+HP Recovery
+Full-Body Size
+Arm Size
+Head Size
+Leg Size
+Move speed {0}%
+Jump height +{0}%
+Skill CD -{0}%
+HP +{0}/s
+Max. HP {0}
+Jump height {0}%
+Skill CD {0}%
+HP recovery {0}/s
+Head x{0}
+Arms x{0}
+Legs x{0}
+Body x{0}
+Admin granted ALL a buff: [ffd888]{0}[-]
+Admin granted ALL items: [ffd888]{0}[-]
+Admin granted ALL rewards: [ffd888]{0}[-]
+Admin called in Lightning Strike on ALL
+Admin started a Hunt for [ffd888]{0}[-] with a reward of [ffd888]{1}[-]
+Admin started a Hunt for themself with a reward of [ffd888]{0}[-]
+I've seen this Admin before. They love giving Diamonds!
+Where's Admin? I want a duel!
+I'm hunted. Protect me!
+Truce! Let's get Admin first.
+No Rank Points punishment. Let's go!
+Grant me items and I'll be your fan!
+Duration
+{0} mins
+Percentage
+Random
+All
+Target
+Self
+Target Player
+Entire Match
+Rewards
+Buffs
+Items
+Lightning
+Transform
+Freecam
+Give {0} to [ffe400]{1}[-]?
+Start voting now? (Effective for {0} mins)
+Change to the invincible, visible status? You cannot return to the spectator mode afterwards, but can still perform other actions as Admin.
+Confirm to delete the saved preset?
+Give {0} to all players alive?
+Grant {0} to all players alive for {1} min(s)?
+Call in 1 Lightning Strike to [ffe400]{0}[-]?
+Call in 1 Lightning Strike to all players alive?
+Hunt [ffe400]{0}[-] with a bounty of {1}?
+Hunt yourself with a bounty of {0}?
+Main
+Preset
+Spinner
+Advanced
+General
+Bounty Hunt
+Vote
+Admin Settings
+Player Chat
+Quick recommendations/saved presets
+Generates a random event
+Eliminate [ffe400]{0}[-]
+Rewards: {0}
+Keep [ffe400]{0}[-] alive
+Survive the Hunt
+Admin Mayhem
+Join a target match
+Search by UID/match ID
+Join a random match
+Match Now
+Join an ongoing match
+No match found
+Target player not in match
+Cannot join. The target match does not meet the requirements for Admin Mayhem.
+Recommended
+Save
+Execute
+Edit
+In progress
+Completed
+Eliminated
+Survived
+Eliminated (terrain)
+Admin Mayhem Bonus
+Admin in this match
+You completed the Bounty Hunt in an [ffe400]Admin Mayhem[-] match
+Admin Status
+Invisible
+No in-match entity. Admin can spectate other players or use Freecam.
+Visible
+Admin is visible and invincible in match, and can be spectated
+Choose a landing spot
+Enter by
+Area
+Select a map area
+Event
+Details
+Target
+Edit
+Respin All
+Please change to visible status first
+Voting Options
+Option 1
+Option 2
+Enter the voting option
+{0} is in a different region and cannot join this mode
+This player is in a different region and cannot receive gifts
+Other players have left Assemble
+[ffe400]{0} elimination(s) in a recent match[-]
+[ffe400]{0} help-up(s) in a recent match[-]
+[ffe400]{0} revive(s) in a recent match[-]
+Final Shot
+This box cannot be opened again
+Carry this Firefig for [37e347]{0}[-] to take it out of the match
+Firefig: A rare collectible. Carry it for a while to take it out of the match and add it to your collection.
+Mystery Boxes Left: {0}
+Picked up {0} Firefig
+{0} obtained the [ffba00]{1}[-] Firefig
+A teammate found a Firefig
+You cannot play this map at the moment, but other maps are available. Please contact customer service for more info.
+This room contains a banned player, fails to start match.
+AK47 - S39 Exclusive: Owl
+Kingfisher - Melon Ninja
+Cosmic Pulse
+AWM - Cosmic Pulse
+Material used to evolve the AWM skin. Obtain from events or buy directly from Store.
+Cosmic Pulse Token
+Backpack - Cosmic Cloak
+Backpack - 2026 FFWS Champions
+Backpack - Dino Barbecue
+Backpack - Lamp Monster
+Backpack - Moon Cake
+Backpack - Melon Scroll
+Backpack - Owl Steel
+Backpack - Scorpio Sting
+Backpack - Scorpio Strings
+Backpack - Valor Dolly
+Cosmic Overlord Banner
+CS-Ranked S39 Master Banner
+CS-Ranked S39 Heroic Banner
+CS-Ranked S40 Master Banner
+CS-Ranked S40 Heroic Banner
+Magma Fusion Banner
+New Kenta Banner
+Fruit Frenzy Banner
+Duty Hoots Banner
+BR-Ranked S54 Master Banner
+BR-Ranked S54 Heroic Banner
+Stellar Scorpions Banner
+Bat - S54 Exclusive: Scorpio
+Bat - Masked Fox
+Bat - Solar Valor
+M82B - S54 Exclusive: Scorpio
+Duty Hoots
+Stellar Scorpions
+Fruit Frenzy
+Cosmic Powershot
+Cosmic Vortex
+Firefig Showcase
+Flame Attack!
+Crawl Out
+Broken Cry
+Lion Dancing
+Beast Pound
+Silent Sting
+Tornado Push
+Strange Power
+Turkey Balloon
+Skorp - Mamba Gnow
+Skorp - Orion
+Final Shot - Dino Shot
+Cosmic Execution
+Fist - Cosmic Comet
+G36 - Bride's Revenge
+G36 - Owl Sheriff
+Gloo Wall - Cosmic Gaze
+Gloo Wall - Firework Wall
+Gloo Wall - 2026 FFWS Champion
+Gloo Wall - Flameborn
+Gloo Wall - Danger Elevator
+Gloo Wall - Cheering Lion
+Gloo Wall - The Creation
+Gloo Wall - Melon Slice
+Gloo Wall - Beast Within
+Gloo Wall - Owl's Watch
+Gloo Wall - Masked Boutique
+Gloo Wall - MAMA
+Grenade - Mr. Clown
+Grenade - Melon Blast
+Grenade - Owl Power
+Grenade - Badminton Owlie
+Grenade - Scorpio Shock
+Cosmic Ruler
+Horror Show
+Cosmic Overlord Avatar
+CS-Ranked S39 Master Avatar
+CS-Ranked S39 Heroic Avatar
+CS-Ranked S40 Master Avatar
+CS-Ranked S40 Heroic Avatar
+Magma Fusion Avatar
+New Kenta Avatar
+New Kenta Bobblehead
+Fruit Frenzy Avatar
+Duty Hoots Avatar
+BR-Ranked S54 Master Avatar
+BR-Ranked S54 Heroic Avatar
+Stellar Scorpions Avatar
+Katana - Cosmic Tear
+Katana - The Unseen
+Loot Box - Kitten in Box
+Loot Box - Firecracker Roll
+Loot Box - Twisted Twins
+Loot Box - Rabbit Lion Dance
+Loot Box - Banana Ninja
+Loot Box - Banana Jutsu
+Loot Box - Owl Tent
+Loot Box - Scorpio Record
+Loot Box - Storm Arena
+Loot Box - MAMA
+Loot Box - Solar Valor
+M1014 - Masked Fox
+Trogon - Kittensitter
+M1873 - Scorpio Sting
+M200 - Mambas Gnaw
+M200 - Morse
+M60 - Magma Fusion
+M7 - Mamba Gnaw
+M7 - Rin
+Parang - Kittensitter
+Parang - Spinning Machete
+Parang - Scorpio Sting
+Parang - Turkey Drumstick
+AC80 - Masked Fox
+Unseen Claws
+MP5 - Storm Arena
+Storm Arena theme song
+Storm Δrena
+Displays layered fur textures and diffuse lighting effects
+P90 - S40 Exclusive: Ninja
+Pan - S39 Exclusive: Owl
+Pan - Flameborn
+Pan - Storm Arena
+Parachute - The Unseen
+Parachute - S54 Exclusive: Scorpio
+Pet Skin: Beasty Fang
+RPK - Mamba Gnaw
+RPK - Steffie
+Hawk - Mamba Gnow
+Hawk - Skyler
+Scythe - Carved Menace
+Scythe - Magma Plume
+Scythe - Melon Ninja
+Skyboard - Carved Claws
+Skyboard - Academy Notecase
+Skyboard - Chubby Rabbit
+Skyboard - Melon Kunai
+Skyboard - Owl Wings
+Skyboard - Scorpio Star
+TEC-9 - Mamba Gnaw
+TEC-9 - Dasha
+Dagger - S40 Exclusive: Ninja
+Dagger - Owl Sheriff
+USP-2 - Flame Dino
+Mini Uzi - Kittensitter
+Amphibian - S39 Exclusive: Owl
+Horse - Cosmic Guardian
+Horse - Owl Hoofs
+Jeep - King of Mirzapur
+Jeep - Axed Escape
+Jeep - Scorpio Wheels
+Monster Truck - Masked Getaway
+Monster Truck - Storm Voltage
+Motorbike - Turkey Turbo
+Pickup Truck - Melon Engine
+Tuk Tuk - S40 Exclusive: Ninja
+Open to receive a random gun skin (Trogon + Mini Uzi) from the Kittensitter set
+Kittensitter (Trogon + Mini Uzi) Weapon Loot Crate
+Open to receive a random gun skin (M60) from the Magma Fusion set
+Magma Fusion (M60) Weapon Loot Crate
+Open to receive a random gun skin (AC80 + M1014) from the Masked Fox set
+Masked Fox (AC80 + M1014) Weapon Loot Crate
+Teammate AFK: Win streak preserved
+Faster Bleeding
+Bleed out much faster after being knocked down
+Free Throwable
+Free Grenades in certain rounds
+Free Flash Freeze in certain rounds
+Free Dragon Freeze in certain rounds
+Free Gloo Melter in certain rounds
+Free Flame Grenade in certain rounds
+Free Sonar Grenade in certain rounds
+Blade to Blade
+Pistol in the store is replaced by melee weapon
+No Med Kits
+No Med Kits. Heal zones will appear on the map.
+No Med Kits
+Pistol & Sniper
+Skills for Sale
+Special Store
+Special items will appear in the store
+Skill Cards will appear in the store
+Only pistols and sniper rifles in the store
+Log in with email
+For better account security, your login email and recovery email should be different from each other.
+Emulator Player
+This registration option is temporarily unavailable. Please try another method.
+Cosmic Empress Bundle
+Kittenlover Bundle
+Magma Phoenix Bundle
+Firesaur Bundle
+Academy Cutie Bundle
+Crimson Glitches Bundle
+Banana Ninja Bundle
+Lioness Instinct Bundle
+Owl Ranger Bundle
+Scorpio Venom Bundle
+Masked Rabbit Bundle
+Phantom Bride Bundle
+Lunar Valor Bundle
+Cloaked Terror Bundle
+Cosmic Overlord Bundle
+Red Bull Bundle
+Kittensitter Bundle
+Magma Fusion Bundle
+Infernosaur Bundle
+Academy Influencer Bundle
+Hollow Man Bundle
+Red Slicker Bundle
+Melon Ninja Bundle
+Lion Instinct Bundle
+Owl Sheriff Bundle
+Scorpio Sting Bundle
+Masked Fox Bundle
+Phantom Desperado Bundle
+MAMA Bundle
+Solar Valor Bundle
+{0} has finished downloading. Play now?
+We found maps you might like. Download resources before playing.
+Discover more fun Craftland maps!
+Recommended to you: {0} total players, {1}% positive rating.
+Go to official maps? You can return to Craftland anytime.
+Stop playing this Craftland map for now? [u]Go to official maps>>[/u]
+Stop playing this Craftland map for now?
+Go to official maps
+Bond of Eclipse (Ray)
+If you like a map, subscribe to it so you won't miss any updates!
+Follow the creator you like and discover more maps created by them.
+Share fun maps with your friends and play together!
+Leave a rating or feedback after playing a map for other players to see.
+Craftland brings together maps created by players, and each map offers unique gameplay experience.
+In Craftland, you can discover, play and share maps created by other players.
+In Craftland, you can find popular maps, and also maps with creative gameplay.
+Admin Called In Lightning Strike
+[ffe400]Everyone[-] Affected by Lightning Strike
+Admin Called In Lightning Strike on You
+Bounty Hunt Started
+Teammate [ffe400]survived[-]. Your team can share {0}.
+[ffe400]{0}[-] was eliminated. Hunt mission failed.
+Time's up! Hunt mission failed.
+Survive to Earn Rewards
+Protect Teammate to Earn Rewards
+Shared {0} with Teammates
+Fight to survive!
+Eliminate the target for rewards
+Eliminate [ffe400]{0}[-] to share {1}
+You are the target now. Stay alive to share {0} with your teammates!
+Keep your teammate [ffe400]{0}[-] alive to share {1} with them
+Hunt Completed
+Completed by {0}
+You [ffe400]survived[-]. Your team can share {0}.
+You were eliminated. Hunt mission failed.
+Admin Granted Buffs
+[ffe400]Everyone[-] Buffed
+Admin Granted You a Buff
+Admin Hunt Started
+Admin Eliminated
+Admin Gave Out Items
+[ffe400]Everyone[-] Gained Items
+Admin Gave You Item(s)
+Admin Gave Out Rewards
+[ffe400]Everyone[-] Gained Rewards
+Admin Gave You {0}
+Admin Granted Transformation
+[ffe400]Everyone[-] Transformed
+Admin Transformed You
+Admin Started a Poll
+What's next? All up to you!
+[ffe400]{0}[-] won the vote
+Admin Now in Match
+{0} Now in Match
+No Rank Points will be deducted. Enjoy the bonus and battle in style!
+Backpack updated. Changes will apply after exiting edit mode.
+All
+Quality
+Size
+Time Obtained
+Large Firefig cannot be placed
+Legendary Firefigs cannot be gifted or traded
+Firefig added to your collection
+Value
+Firefig Catalog
+Carry out a Firefig to unlock its Catalog entry
+Each Firefig brought out of a match grants Catalog Value based on its type
+First Carry-Out gives
+Unlock Catalog
+Limited-time drop available during {0}
+Common Firefig
+Edit
+The edits has not been saved. Discard changes?
+Choose a Firefig to Display
+Display
+Unlock emote for free
+Go to Firefig
+Use in Emote
+Go
+Firefig Display Emote Unlocked
+Firefig
+First Carry-Out Value
+First-time
+Date:
+First Carry-Out Info
+Location:
+Teammate:
+{0} obtained in {1}
+Confirm to give this Firefig away?
+Not enough owned. Cannot gift.
+Select a friend
+Gift sent
+Region Code
+Getting it for the first time grants Catalog Value
+{0} Firefigs available as limited-time drops
+Limited-Time Firefig
+Now Dropping
+{0} is still locked
+New Firefig obtained
+Unique Region Code: Number {1} in {0}
+Placement limit reached
+Preview
+No Firefig Set Displayed
+Progress
+Legendary
+Mythic
+Firefig Collection
+Firefig Rules
+Failed to save
+Large
+Firefig system testing has ended. Stay tuned!
+Limited-Time Drops
+Total Value
+Accept Trade
+Firefig Trade
+Firefigs will be exchanged after confirmation
+Trade successful
+Trade expired
+This Firefig cannot be traded right now
+Select a Firefig
+Visit Collection
+Scan to join squad
+Join {0}'s squad and top up for rewards together!
+Accomplishments
+No Accomplishments Yet
+Accomplishment x{0}
+Play to Earn Accomplishments
+≥{0}
+You're still in the fight! Storm Arena is starting to notice. Keep pushing forward!
+Unlocks when Storm Reputation reaches {0}
+Unlock all event milestones to view the requirements
+DMG
+2-elimination streak in any round
+3-elimination streak in any round
+4-elimination streak in any round
+5-elimination streak in any round
+Eliminate 2 or more players in a row with melee weapons in any round
+Participate in the Storm Arena events and get tons of prizes!
+Storm Arena
+Select a club
+Select a pose
+Elims
+There you are, making waves in Storm Arena! Let's see how far you can go!
+Play matches actively to earn Storm Reputation rewards!
+Raise your Storm Reputation to unlock higher-tier Player Cards and rare rewards!
+Headshots
+Help-ups
+1. Play BR-Ranked and CS-Ranked during the event to earn Storm Reputation based on your performance.\n2. Raise your Storm Reputation to claim free rewards and upgrade your Battle Card frame.\n3. After unlocking all progress milestones, keep pushing your Storm Reputation higher to unlock a special Battle Card frame.\n4. Edit your Player Card with your favorite pose and club image. During the event, you can also set your Player Card as your Battle Card to show it off to other players.\n5. Cheer for your friends by liking them in Feed.
+Rule
+Free Rewards!
+Storm Arena
+Achievement Event
+Applied successfully
+Big Time
+Enter the Storm
+Play ranked matches to earn Storm Reputation!
+Cosmic Bundles
+EVO AWM
+Win Free Rewards!
+Events
+First Time
+Feed
+Highlight Event
+Medals
+Gold Medal
+Silver Medal
+Peak Time
+Top Plays
+Prime Time
+Storm Reputation
+Reputation
+Set as Battle Card
+Show Time
+Stats Details
+Storm Arena
+Stats Overview
+FFWS GF
+Matches Played: [ffba00]{0}[-]
+Incredible! Out of everyone in Storm Arena, you've made it this far. One final push to glory!
+All eyes are on the main stage. Storm Arena will remember your name. THIS... IS PRIME TIME!
+Look at that! The lights are on, the crowd is watching, and it's time to give them a show!
+History
+Win matches, take the stage, and enjoy your moment in the spotlight! Are you ready?
+Annual Prizes
+Play ranked to earn Rank Packs and catch up on Annual Prizes!
+Missed Annual Prizes in previous months
+Play ranked to obtain Rank Packs
+Unlock Rank Packs to win back Annual Prizes
+Missed the Annual Prizes?
+Chance(s) for Annual Prize: [FFBA00]{0}[-], guaranteed Annual Prize in [FFBA00]{1}[-] Rank Pack(s)
+Next Annual Prize refreshes in {0}
+Not obtained
+Unlock x{0}
+[FFBA00]Other Prizes[-]
+Prize Preview
+Obtained [FFBA00]{0}[-]/{1}
+Gained Rank Pack x{0}
+{0}/{1} mins
+Play [FFBA00]{0}[-] more min(s) to get the next one
+Reach playtime for [x0.n][S0][-]
+Refresh [x0.n][S0][-] in
+Get 1 randomly
+Prizes updated
+1. Complete BR-Ranked/CS-Ranked matches to increase valid playtime and gain up to [FFBA00]{0}[-] Rank Packs weekly, up to [FFBA00]{1}[-] in total. Rank Packs can also be obtained by reaching the target ranks.\n2.Unlock the Rank Pack to receive rewards inside, with a chance of winning an unrepeatable Annual Prize (up to 12 per year). One Annual Prize will drop randomly each month and can be stored. Refreshes at 4:00 AM on the first day of each month.\nThis event ends at 2026-12-31 23:59:00.
+Rank Pack
+Faster Rank Pack progress
+Weekly Count: {0}/{1}
+Higher chance for Annual Prizes!
+Garden Pack
+Garden Pack, open to obtain tools to build your garden.
+This map has commercial features enabled and cannot be deleted or taken offline. Please contact official staff.
+Account Banned
+Creator privileges banned, cannot enter Craftland Studio.
+You have commercial maps under your account. Please deal with them first before deleting your account.
+Account banned. Cannot use Creator Center.
+This map is locked. You cannot update it or take it offline.
+You still have active top-up orders being processed. Are you sure you want to continue topping up?
+The match has ended. Please go to the lobby and confirm the top-up info.
+The commercial status of the current map has changed, cannot purchase now.
+Product status updated. Please re-open the store.
+Please go to [Download Center] to check the map resources, and restart the game.
+Purchase quantity.
+Play Custom Camera Shake
+Set custom camera shake.
+Axis Offset
+X/Y/Z axis offset.
+Amplitude
+Shake amplitude.
+Frequency
+Shake frequency.
+Fade In
+Fade in time. Unit: ms.
+Fade Out
+Fade out time. Unit: ms.
+Duration Ms
+Shake duration. Unit: ms.
+Download Map Resource
+Request the current client to download the specified Craftland map resources.
+The map code of the Craftland map that resource download.
+Check Map Resource Downloaded
+Check the status of the local map resources on the current client and return the download status, progress, and check status code.
+The map code of the map that requires a resource status check
+Download Status
+The local map resource download status of the current client.
+Progress
+The download progress of the current client, ranges from 0 - 100.
+Check the status code returned by the API call.
+Check UI Hit
+Check whether default built-in UI, Craftland custom UI, or Craftland built-in UI exists at the specified UI unit coordinates.
+UI unit coordinates to be detected.
+String To Big Float
+Parse the string into a Big Float, retaining at least 15 significant decimal digits and preserving the sign; supports parameter control of scientific notation, comma separators, and the K, M, B, T, Qa abbreviated suffixes; returns nil for invalid input.
+String to be parsed.
+Allow Scientific Notation
+Whether to allow scientific notation. If allowed, e and E can be used as exponent markers.
+Allow Separators
+Whether to allow commas as numeric separators.
+Allow Suffix
+Whether allow abbreviations such as K, M, B, T, Qa as suffix.
+Set Scroll Amount
+Set the vertical or horizontal scroll amount for the scroll view.
+The direction of scroll.
+The scroll value.
+Reset Scroll View Position
+Reset the position of the scroll view.
+Get Local Owned Emotes
+obtain the list of all Emote IDs owned by the local player account; client-side only, read synchronously from the local Backpack cache.
+Get Local Owned Outfit
+Obtain the list of all Outfit IDs owned by the local player account; client-only implementation, synchronously read from the local Backpack cache.
+Get Local Owned Vehicle Skin
+Obtain the list of all Vehicle Skin IDs owned by the local player account; client-side only, read synchronously from the local Backpack cache.
+Get Local Owned Weapon Skin
+Obtain the list of all WeaponSkin IDs owned by the local player account; client-only implementation, synchronously reads from the local Backpack cache.
+Get Local Owned Backpack Skin
+Obtain the list of all BackpackSkin IDs owned by the local player account; client-only implementation, synchronously read from the local Backpack cache.
+Read CSV Cell By Name From Server
+Read the content of the cell corresponding to the specified row and column name in the CSV file on the server.
+The name of the server CSV file.
+The row index to be read.
+The column name to be read.
+Read CSV Row By Key From Server
+In the CSV file on the server, find the first row where the value of column key column equals key, and return the entire row content.
+Key Column
+The column index used to match the target value.
+Key
+The target value to be matched.
+CSV Column Name To Int
+Convert the column name of the server's CSV file to column index.
+The name of the column to convert to a column index.
+Refresh Easy List
+Refresh the entire Easy List cell. When Reset Scroll is true, reset the scroll position; when Reset Scroll is false, try to keep the current scroll position.
+The target Easy List.
+Reset Scroll
+Whether to reset the scroll position on refresh.
+Get Cell
+Obtain the visible Cell that currently corresponds to the specified Data Index; return empty or invalid if the target is not visible or the index is invalid.
+Data Index
+The index of a specific data item in the data list.
+Scroll To Data Index
+Immediately scroll to the specified data position; when scrolling to the first or last Data, it must be able to position to the top or bottom.
+Scroll positioning offset.
+Restrict
+Whether to restrict the scroll position to the valid range.
+Select Data
+Select the Cell corresponding to the specified data index. if the target is not visible, whether to scroll to it is determined by scroll To Item.
+Scroll To Item
+Whether to scroll to this data item when the target is not visible.
+Unselect Data
+Cancel the selected state of the cell corresponding to the specified data index.
+Clear Selection
+Clear the selected status of the current Easy List
+Get Selected Data Indexes
+Get the currently selected data indices. Keep the original name, Get Selected Data Indexes. If nothing is selected, return an integer list containing -1.
+Get Visible Data Range
+Obtain the currently visible data range, from firstIndex to lastIndex.
+Is Data Visible
+Determine whether the specified data index is within the currently visible range.
+Open In Match Wardrobe
+Show In Match Wardrobe
+Request Initiation Phase Result Status Code
+Close In Match Wardrobe
+Close In Match Wardrobe
+Modify Additional Wardrobe Outfit
+Modify Additional Wardrobe Outfit
+Outfits
+Outfit List
+Sort Type
+The sort type.
+Check Wardrobe Resource Download Status
+Check the download status of resources corresponding to the specified list of outfit IDs.
+Show Chat Hud
+Show the Chat HUD
+Check Product Status
+Check the status of the product.
+Product Status
+The status of the product.
+Create UI Widget From Prefab
+Under the specified custom UI and parent component, create a complete control tree based on the UI prefab ID, and output the created root UIWidget.
+Created Entity
+The parameter name in the code used to represent the newly created root UIWidget entity, whose corresponding local variable value is the created root control entity.
+Prefab ID
+The UI Prefab ID used to create the UIWidget control tree.
+UI
+Custom UI entity that hosts the new control tree.
+Parent Widget
+The parent UI Widget to which the new root control should be mounted; if empty, attach it to the root node of the specified custom UI.
+Pause Animation
+Pause the playback of the animation controller by body part.
+Resume Animation
+Continue the playback of the animation controller by body part.
+Reset Animation
+Reset play progress of the corresponding body part's animation.
+Stop Animation
+Stop the animation controller's playback by body part. In general, when no animation is playing on a body part, it will attempt to play the Idle animation.
+Entity with an animation controller attached
+Index of body parts, which is the body part's index number in the BPC file.
+Stop Character Animation Clip
+Stop the character animation clip.
+Pause Character Animation Clip
+Pause the character animation clip.
+Resume Character Animation Clip
+Resume character animation clip.
+Reset Character Animation Clip
+Reset the character animation clip.
+Hide Chat Hud
+Hide Chat HUD
+Obtain total memory
+obtain client's currently allocated memory usage (unit: MB).
+Current allocated memory overhead (unit: MB).
+Show Chat Hud
+Show the Chat HUD
+On In Match Wardrobe Closed
+On In Match Wardrobe Closed
+On Player Confirm Outfit Wardrobe
+Triggers when the player confirms to change outfit in the wardrobe.
+When the player clicks an outfit entry
+Triggers when player taps on an outfit item, and returns entry type and the corresponding outfit ID list.
+On Receive Wardrobe Resource Download Result
+Triggers when download is completed or failed, and returns entry type, outfit ID list and download result.
+The resource download status code.
+On Received Chat Message
+Receiving chat message event.
+On Chat Hud Open
+Chat HUD open event.
+On Chat Hud Close
+The chat HUD close event.
+The map code of the map with changed download status.
+The download status of the current map.
+The error code corresponding to status change. If the status is successful or downloading, it will show No Error.
+On Late Visual Tick
+Called during the Unity Late Update-driven visual Tick phase, used for camera follow and other pure client-side presentation logic.
+On Cell Bind
+Triggers when UI widget cell binds or rebinds with visible data.
+Data Content
+The data bound to the current cell.
+On Cell Tap
+Triggers when player clicks on a valid cell.
+Cell
+The reusable cell widget that player clicked on
+Cell Index
+The current reusable cell index.
+On Cell Select
+Triggers when the cell status changes to selected.
+On Cell Unselect
+Triggers when the cell status changes to unselected.
+A reusable grid-cell control whose selection state has changed.
+On Cell Cancel Select
+Triggered when the selected cell is clicked again, triggering the deselection behavior.
+A reusable cell widget that triggers deselection semantics.
+On Visible Data Range Changed
+Triggered when the first or last data index of the visible data range changes, to avoid redundant dispatch when there is no change.
+First Data Index
+The index of the first data list within the current visible data range.
+Last Data Index
+The index of the last data list within the current visible data range.
+On Logic Tick
+Called whenever the independent UGC logic clock advances. Each call corresponds one-to-one with Pre Tick and Post Tick within the same logical frame.
+Filter entity with Base Filter component
+Falling Angular Speed Scale
+Player's turning speed scale while jumping or falling, default value is 1.
+Run Angular Speed Scale
+Player's turning speed scale while standing or running, default value is 1.
+Crouch Angular Speed Scale
+Player's turning speed scale while crouching, default value is 1.
+Prone Angular Speed Scale
+Player's turning speed scale while prone, default value is 1.
+Knock Down Angular Speed Scale
+Player's turning speed scale while knocked down, default value is 1.
+Camera Sensitivity
+Current client-local general camera sensitivity. Effective for the current round only; not synchronized with the server.
+Character ID
+The ID of the character that the player chose when entering the match.
+The current actual velocity of the player
+Scene UI Is Billboard
+This property takes effect when the UI's In Scene property is True. It indicates whether this scene always faces the camera.
+Follow World Position
+After this property is set to True, the UI's on-screen position is derived by mapping the value of the World Position property onto the 2D plane. Note: This property is mutually exclusive with In Scene, but both use the World Position property.
+Matchmaking Download Cancel
+Ingame Matchmaking Download Cancel
+Map Resource Not Found
+The specified mapCode has no downloadable resources, or the resource index cannot be parsed.
+Map Resource Target Unavailable
+The current client is not ready, or the download module cannot receive requests.
+Map Resource Access Denied
+Region, review, whitelist, release status, or access permissions are not met.
+Map Resource Busy
+The system is busy, download queue is full, or the download module is temporarily unavailable
+Map Resource Download Failed
+After the request was initiated, the download, save, or transfer stage failed.
+Map Resource Verify Failed
+After the download is complete, the local file is missing, corrupted, or verification failed.
+Map Resource Network Restricted
+No WiFi, weak network, no network, or auto-download prohibited by the existing download policy.
+Wardrobe Resource Download Unknown
+Cannot obtain the download status of the specified outfit resource.
+Wardrobe Resource Ready For Download
+The specified outfit resource has not downloaded yet and can start download now.
+Wardrobe Resource Downloading
+Downloading specified outfit resources.
+Wardrobe Resource Download Pending
+The specified outfit resource is waiting to be downloaded.
+Wardrobe Resource Download Paused
+Download paused for specified outfit resources.
+Wardrobe Resource Download Finished
+Download complete for specified outfit resources.
+Renderer Only
+Only the renderer is provided; once enabled, it cannot dynamically set particles, but it offers better performance.
+Post-Processing Filter Type
+Apply only shared brightness/saturation/contrast.
+Comic book style.
+Sketch style.
+Pixel style.
+RGB split style.
+Warm Golden Era style.
+Cyberpunk glitch style.
+Universal part of filter properties carrying filter type and global brightness/saturation/contrast parameters.
+The currently active filter types.
+Brightness
+Universal Brightness
+Saturation
+Universal Saturation
+Contrast
+Universal Contrast
+Comic book filter parameter set.
+Threshold
+Binarization Threshold.
+Threshold range.
+Flash Speed
+The speed of the flash.
+Line Intensity
+The intensity of the line.
+Line Size
+The size of the line.
+Sketch filter parameter set.
+Pencil Size
+The size of the pencil.
+Pencil Correction
+The correction of the pencil.
+Pencil Color
+Color of the pencil.
+Paper Color
+Color of the paper.
+Corner Lose
+Corner loss.
+Paper Texture
+Paper texture. If blank, uses the default texture.
+Pixel filter parameter set.
+Pixelisation
+Intensity of the pixelization.
+Color Offset
+Color offset.
+RGB split parameter set.
+Split Offset
+RGB split offset.
+Golden Era filter parameter set.
+Intensity
+Golden Era filter intensity.
+Warmth
+Warmth intensity.
+Cyberpunk filter parameter set
+Edge Intensity
+Edge intensity
+Edge Size
+The size of the edge.
+Edge Sensitivity
+The sensitivity of the edge.
+Glitch Interval
+The interval of glitch trigger.
+Glitch Duration
+The duration of the glitch.
+Edge Color 1
+Edge color 1 (HDR)
+Edge Color 2
+Edge color 2 (HDR)
+Edge Noise Texture
+Edge noise texture. If empty, uses the default texture.
+Distance Source Type
+Distance source type, used to select the reference object for distance calculation.
+Player Camera
+Calculate based on player camera distance
+Player Character
+Calculate based on player character distance.
+Custom Entity
+Calculate based on the distance of the specified entity.
+Distance Space Type
+Distance space type, used to select whether distance calculations use 3D world space, the horizontal XZ plane, or screen space.
+3D World
+Use 3D world space distance.
+Horizontal XZ
+Use horizontal XZ distance, ignoring height differences; suitable for map markers.
+Screen Space
+Use screen-space distance; only valid when distance Source = Player Camera.
+Distance Visibility
+Automatically control the visibility, opacity, scale, and screen size limits of Text Entity, Icon Entity, and Custom UI based on the distance between the player's camera, the player's Avatar, or the specified Entity and the target.
+Distance Source
+Select the reference object for distance calculation. Player Camera uses the player's camera position, Player Character uses the player's Avatar position, and Custom Entity uses the custom Source Entity position.
+Custom Source Entity
+The reference Entity used to calculate distance when distance Source = Custom Entity.
+Max Screen Size
+Upper limit for screen size; x/y indicates the screen ratio. Recommended range: 0.0 - 1.0.
+Distance Space
+Select the space for distance calculation. World3D calculates 3D distance, Horizontal XZ calculates XZ-plane distance, and Screen Space is valid only when distance Source = Player Camera.
+Fade Start Distance
+The starting distance for distance-normalized sampling of fade curve and scale curve.
+Fade End Distance
+The end distance for distance-normalized sampling of fade curve and scale curve.
+Fade Curve
+A transparency curve sampled using normalized distance.
+Hide Threshold
+When opacity is below this threshold, hide the Entity or stop rendering; otherwise, apply opacity, sharpness, and scaling.
+Scale Curve
+Scaling curve sampled by normalized distance.
+Screen Size Clamp
+Whether to set size limits for converting 3D UI to screen space, restricting screen size via min Screen Size and max Screen Size.
+Min Screen Size
+Minimum screen size, x/y indicates the screen ratio. Recommended range: 0.0 - 1.0.
+Scroll Direction
+Scroll direction enum.
+Vertical
+Vertical
+Horizontal
+Horizontal
+Animation Clip ID List
+Animation Clip ID list, used to return the corresponding Animation Clip ID / Emote item id for each Emote owned by the player's account.
+Outfit ID List
+Outfit ID list, used to return the Outfit IDs owned by the player's account.
+Vehicle Skin ID List
+Vehicle Skin ID list, used to return the Vehicle Skin IDs owned by the player's account.
+Weapon Skin ID List
+WeaponSkinID list used to return the WeaponSkin IDs owned by the player account.
+Backpack Skin ID List
+Backpack Skin ID list, used to return the Backpack Skin IDs owned by the player account.
+Resource ID
+Hud Easy List
+High-performance virtualized list component that creates only visible cells and reuses them, suitable for displaying large amounts of data in a list.
+Cell layout direction (Horizontal/Vertical).
+The size of the cell.
+Data List
+List displays the data source, client-side storage only.
+The spacing of the cell.
+Layout constraint type.
+The number of cells in every row/column.
+Vertical offset of the container.
+Horizontal offset of the container.
+Cell Prefab
+Cell prefab asset; at runtime, clone cell instances according to this template.
+Extra Cache Line Count
+The number of extra cached cell rows outside the viewport.
+Allow Multiple Selections
+Whether to allow selecting multiple cells at the same time.
+Additional  WardrobeOutfit Sort Type
+Modify Additional Wardrobe Outfit: Front, back, Default
+Prepend
+Prepend to the front.
+Append
+Append to the end.
+Default
+UI Widget Easy Cell
+An explicit adaptation component attached to the Easy List Cell prefab, used to specify the click-interaction button control of this Cell.
+Trigger Button
+A button control in Cell that receives clicks and forwards the Easy List cell click/select/cancel select semantics.
+Product Status
+Product status enum
+Not Found
+Product not found
+Offline
+The product is offline
+Pre Online
+The product is online yet
+Online
+The product is online
+Enable Appearance Override
+Enable custom weapon appearance override. When disabled, the base weapon or the default appearance will be used.
+Display Name
+Display name of store, backpack, and elimination.
+First Person Model
+First-person model asset. If empty or invalid, fall back to the base weapon first-person model.
+Third Person Model
+Third-person handheld model resource. Falls back to the base weapon's third-person handheld model when empty or invalid.
+Back Model
+Back model asset. If empty or invalid, fall back to the base weapon back model.
+Pickup Model
+Ground pickup model asset. Falls back to the base weapon ground pickup model when empty or invalid.
+Backpack Icon
+Weapon icon assets for the Backpack and pickup-related interfaces. If empty, fall back to the basic weapon Backpack or pickup icons.
+Slot Icon
+HUD weapon slot and weapon-switching interface icon assets. If empty, fall back to the basic weapon slot icon.
+Elimination Icon
+The weapon icon asset for elimination announcement. If empty, revert to basic elimination weapon icon.
+Firing Audio ID
+Firing sound effect asset. If empty, revert to the basic firing sound effect.
+Clip In Audio ID
+Magazine-insertion SFX asset. When empty, falls back to the base weapon magazine-insertion SFX.
+Clip Out Audio ID
+Magazine removal sound effect asset. When empty, falls back to the base weapon's magazine removal sound effect.
+Change Weapon Audio ID
+Gun switch sound effect asset. If empty, revert to the basic weapon switch sound effect.
+Bullet Trail Material
+Bullet trail asset. Replaces the default bullet trail visual effects when the configuration is valid.
+Firing Effect
+Firing effect assets. When the configuration is enabled, replace the native firing visual effects of standard weapons.
+Hit Effect
+Hit VFX asset. Replaces the hit particle visual effects when the configuration is valid.
+Players or Entity with a Collider component support this event. Note: On the client, only the local player triggers this event, players other than the local player will not trigger.
+This is an Ultra Airdrop. Capture it to get the powerful Lv. 5 armor! You can also destroy the pillars to capture faster.
+Woo, a random event! In this match, you'll receive Gloo Walls over time!
+Here comes a random event! If you're eliminated, your main weapons will be carried over to the next round!
+Target found
+Complete any {0} map(s) in Survivor Academy
+Dash to get close to the enemy
+Complete [FFBA00]{0}[-]/{1} matches
+Reach Lv. [FFBA00]{0}[-]/{1}
+Log in for [FFBA00]{0}[-]/{1} days
+Play any mode for [FFBA00]{0}[-]/{1} mins
+Throws a [FFB300]{0}-HP[-] plushie that lasts for [FFB300]{3}s[-], ignores obstacles, and travels up to [FFB300]{1}m[-] ([FFB300]{2}m[-] in BR). It tracks the nearest visible enemy within [FFB300]{4}m[-] and creates a [FFB300]{5}m[-] dreamy space. Inside the space, the user and enemies [FFB300]cannot place Gloo Walls[-], and enemies lose [FFB300]{6} HP[-]/s. The space disappears once the plushie is destroyed, but the destroyer is marked for [FFB300]{7}s[-]. When the plushie is still in effect, tap the skill again to recall it and reduce the cooldown by [FFB300]{8}s[-].
+Cryo Echo
+When in effect, the plushie can be recalled and thrown again after a reduced cooldown.
+Throws a [FFB300]{0}-HP[-] plushie that lasts for [FFB300]{3}s[-], ignores obstacles, and travels up to [FFB300]{1}m[-] ([FFB300]{2}m[-] in BR). It tracks the nearest visible enemy within [FFB300]{4}m[-], creates a [FFB300]{5}m[-] dreamy space, and generates a duplicate plushie. Inside the space, the user and enemies [FFB300]cannot place Gloo Walls[-], and enemies lose [FFB300]{6} HP[-]/s. The space disappears once the plushie is destroyed, but the destroyer is marked for [FFB300]{7}s[-]. The duplicate plushie travels in the original direction and deals [FFB300]{8}[-] burst damage to the tracked enemy.
+Cryo Splinter
+After finding an enemy, the plushie generates a duplicate that travels in the original direction and deals AoE burst damage to the tracked target.
+This preset includes skills you haven't unlocked. Purchase them first.
+This preset includes skills or loadouts you haven't unlocked
+Use the tempest to distract enemies, then teleport at the right moment to catch them off guard. The passives grant a shield and healing after teleporting.
+Tempest Ambush
+Unleashes a fast-moving, swirling tempest that passes through Gloo Walls and lasts [FFB300]{0}s[-], dealing [FFB300]{1}[-] DMG to enemies hit. While the tempest is active, tap the skill again to teleport to its current location and obtain a shield for [FFB300]{2}s[-] with [FFB300]{3}%[-] of DMG reduction. The tempest disappears after the user teleports. Cooldown: [FFB300]{4}s[-].
+Tempest Raid
+Unleashes a swirling tempest that passes through Gloo Walls, dealing damage to and slowing enemies. The user can teleport to where the tempest is.
+Locate Enemies
+Healing Items
+Special Throwables
+When an enemy is near, you will hear footsteps. You can also turn on Footstep Vibration in Settings for a stronger alert when an enemy approaches.\nThe minimap also shows nearby enemies who are firing, so keep an eye on it.
+Sometimes an arsenal will become defensive and can only be unlocked by capturing it.\nOnce it's captured, a UAV will activate to scan nearby enemies.
+In the middle of a BR match, lots of airdrops will fall from the sky. Get close to receive loot.\nDefense Airdrop is a special airdrop. Capture it to get rewards at each stage.
+Ultra Airdrop gives powerful armor but has a longer capture time and only drops once per match.\nBreak the energy pillars around it to boost the capture speed.
+You can purchase the blue regular Revival Card or the yellow Super Revival Card.\nSuper Revival Cards are more expensive but give your revived teammate better starting gear upon revival.
+Capturing the Revival Point will revive all your teammates. But your capture progress will be shown on the map for all players.\nRevival Points will be closed later in the match.
+Do you know what a Gloo Wall is?
+Different types of Cyber Mushrooms can be found on the ground to provide scan, healing, speed boost, and Gloo Wall enhancement.\nInteract or destroy them to trigger their effects.
+Deploy Gloo Walls to use them as cover.\nGloo Walls will break after taking a certain amount of damage, or disappear a certain amount of time after deployment.
+Some character skills and items deal a significant amount of damage to Gloo Walls, such as Skyler's and Oscar's skills, M60, and Gloo Melters.
+Some character skills and weapons can deal damage to enemies behind Gloo Walls, such as Iris's skill, SVD-Y, and M82B.
+Character skills such as Moco's and Shiro's can mark enemies and help you and your teammates locate them.
+Your armor includes vest and helmet. They help reduce the damage to corresponding body parts. Higher-level vest and helmet mean higher damage reduction.\nYou can check the status of your armor next to your HP bar.
+When you're attacked, your armor might be damaged. Don't forget to use Repair Kits to fix them.\nA completely broken Vest or Helmet cannot be repaired and will disappear.
+Use Med Kits to restore your HP. Super Meds heal you more.\nHowever, using a Med Kit takes time. Moving while using one will cancel the action.
+Inhalers can be used on the move and recover both your HP and EP.\nSome special inhalers provide unique buffs.
+Grenades deal heavy explosive damage to enemies within the blast radius, but be careful not to hurt yourself.\nGrenades explode a few seconds after being thrown. Good timing makes them more effective.
+Tap the grenade button on the left to pull the pin in advance, so it explodes sooner after being thrown.\nMake sure to time it carefully, or you may damage yourself.
+Gloo Melter creates a melting zone that damages all Gloo Walls within the range.
+Flash Freeze creates a freeze zone that deals a small amount of continuous damage and slows enemies inside.\nDragon Freeze deals moderate damage to enemies in range 3 times.
+Deploy a landmine to ambush enemies and deal high damage if they step on it.\nBe careful, the deployer can also trigger the landmine.
+Controls don't feel right? Adjust them in Settings. Basic settings for controls, graphics, sound, and your account can all be found here.
+Weapons have two types: main and secondary.\nYou can equip two main weapons at the same time. A combination of long-range weapon and short-range weapon is recommended.\nSecondary weapons usually have special features. You may only equip one secondary weapon of your choice.
+Equipping character skills makes you stronger! You can equip four skills for battle, but only one can be an active skill.
+View detailed weapon information in the weapon system to better understand each weapon's features.
+Shooting an enemy in the head deals more damage. Red damage numbers indicate a headshot.\nSometimes, aiming low before swiping up makes it easier to land a headshot.
+Some weapons can be upgraded with Upgrade Chips or by dealing damage with them.\nAn upgrade button will appear once ready.
+Some weapons have two firing modes, such as G36's Assault and Ranged modes, and Trogon's Shotgun and Grenade modes.\nTap the switch button to swap between the two modes.
+Heal Pistol: Shoot at your teammate to heal them.\nHook Gun: Fire a grappling hook at the target position and pull yourself toward it. The Hook Gun is usually only available in Kalahari.\nFGL-24: Shoots flames through walls upon impact and deals damage to enemies behind cover.
+In BR mode, you can earn coins by picking them up or getting close to Coin Machines. Coins can be used to purchase supplies at Vending Machines, upgrade arsenals, and more.\nCoins obtained through Coin Machines will be shared with teammates.
+In BR mode, Vending Machines are scattered across the map. You can purchase items, weapons, Revival Cards, and more with coins.\nVending Machines' locations are marked on the map.
+Arsenal is filled with quality loot. You can upgrade it with coins for even better weapons and gear.\nArsenals can be unlocked with a key or coins.
+Footsteps and Gunshots
+Weapon Details
+Marking Skills
+Weapon Types
+Upgradable Weapons
+Dual-Mode Weapons
+Common Secondary Weapons
+Auto-Revival
+Grenade Cooking
+Flash Freeze and Dragon Freeze
+Age Verification:
+You cannot send messages to this player at the moment
+Enter your date of birth
+Date format: YYYY-MM-DD
+Age Declaration
+The reset is not available yet. Please try again later.
+Accounts with a bound guardian email must be unbound before the age declaration can be reset
+17 or younger
+You cannot chat with this player due to age restrictions
+You cannot chat with some players due to age restrictions
+Bind a guardian email and obtain permission before making a payment
+Minors must bind a guardian account and obtain their guardian's permission before making payments
+Payment Restriction
+You cannot chat with adults due to age restrictions
+You cannot chat because your age does not meet local regulatory requirements
+Accounts for players under 18 must be bound to a parent or guardian account for the full gaming experience. Please confirm that your age declaration is correct.
+Please Confirm Again
+Some social features are restricted because your age does not meet local regulatory requirements. Thank you for your understanding.
+This account is subject to minor payment restrictions and cannot make payments through this channel at the moment
+Bind Guardian Email:
+Failed to bind guardian email. Please try again later.
+Guardian email bound successfully
+Guardian Email Bound
+Enter your guardian's email address
+This guardian email has reached the maximum number of bound minor accounts. Use a different email or unbind another account.
+A verification code has been sent to your guardian's email. Enter the code to complete binding.
+Please complete guardian email verification in-game first
+Go to Guardian Center
+Your remaining payment limit is insufficient.\nYour remaining payment limit is {0}.\nIf your account is bound to a guardian, they can adjust your payment limit in the Guardian Center.
+Payment Limit Reached
+Your remaining payment limit for this week is insufficient to complete this payment
+Your guardian has not set a payment limit yet. Payments are unavailable.
+You have {0}m left before reaching your playtime limit. Please manage your game time wisely.
+You have reached your playtime limit. If you have a bound guardian, they can adjust your playtime limit in the Guardian Center.
+Playtime Limit Reached
+If your guardian takes no action within {0}d, the email will be unbound automatically
+Your unbind request is being processed. Please wait for your guardian to confirm.
+Are you sure you want to request to unbind the current guardian email?
+Unbind Guardian Email
+Before completing age verification, you can only chat with unverified players
+Before completing age verification, you cannot send messages in public channels or view chat history
+You cannot voice chat with some players in your squad due to age restrictions
+DIGIMON ADVENTURE
+BLUE LOCK
+JUJUTSU KAISEN
+NARUTO SHIPPUDEN
+GINTAMA
+BEN 10
+Resources for Digimon Adventure collaboration
+Resources for BLUE LOCK collaboration
+Resources for Jujutsu Kaisen collaboration
+Resources for NARUTO SHIPPUDEN collaboration
+Resources for GINTAMA collaboration
+Resources for Ben 10 collaboration
+Rate of fire: 8%→[ed3d0a]5%[-]
+Duration: 15s→[ed3d0a]13s[-]\nAim assist triggering distance: 4m→[ed3d0a]12m[-]\nStealth exiting delay: 0.8s→[37be7b]0.5s[-]
+Shorter Cooldown: 90s→[37be7b]75s[-]
+Gain an enhanced AK47 that fires grenades while shooting
+Grenader AK47
+Buffs gained will be effective after entering the battlefield
+Gain {0} bonus max. HP and increase head size accordingly
+The Titan
+Higher the max. HP, higher the weapon and skill damage
+Heavyweight
+Gain {0} bonus max. HP
+Extended Life
+Upgrade Oscar's skill to Oscar - Phantom Dash
+Super Oscar
+Gain 1 effect stack from each elimination or assist. Each stack increases bonus max. HP by {0}%.
+Increase head size based on bonus max. HP and gain 1 effect stack from each elimination or assist. Each stack increases bonus max. HP by {0}%.
+Tank Engine
+Hardy Build
+Damage
+DMG Bonus
+Increase move speed while crouching by {0}%
+Crouch Rush
+Gain unlimited EP and faster EP conversion
+Gain a Gloo Wall periodically
+Gloo Drop
+Gain a short burst of move speed after taking damage
+Pain Rush
+Gloo Walls never run out
+Infinite Walls
+Gloo Walls placed provide enhanced healing bonuses
+Nairi's Power
+Gain {0} temporary Shield Points after taking damage
+Panic Shield
+Significantly increase Gloo Wall durability
+Iron Gloo
+General Build
+Once locked onto an enemy, your aim will not lose the target
+Deadlock Aim
+Gain a special Gatling that launches fireballs at the target area
+Fiery Gatling
+Ammo never runs out
+Unlimited Ammo
+Gain an enhanced Skill Card of Kenta
+Super Kenta
+Crouch to enter a super fire mode with increased fire rate and lower bullet spread
+Crouch Fire
+Gain a Hook Gun
+Hook Gun
+Gain an enhanced Skill Card of Steffie that significantly increases DMG reduction
+Super Steffie
+Now in super fire mode
+Anchor Build
+Crouch to transform into a bush. Firing briefly returns you to human form. After you stop firing, you transform back into a bush.
+Stealthy Wukong
+HP
+HP Bonus
+Unlocks at Lv. {0}
+Increase melee weapon damage
+Kla's Pact
+Create a Dance Grenade field nearby. Enemies inside are forced to dance.
+Dance Pool
+Increase melee weapon range each time you score an elimination or knockdown with it
+Growing Edge
+Recover {0} HP after eliminating an enemy
+Jota's Power
+Significantly increase the range of melee weapons
+Long Reach
+Aim Assist applies to melee attacks as well, just like for guns
+Magnetic Blow
+Upgrade Chrono's skill to Chrono - Time Drift
+Super Chrono
+Gain an enhanced Skill Card of Morse with almost no firing delay after exiting Stealth
+Super Morse
+Sprint is allowed while attacking with melee weapons
+Fleet Strike
+Gain an enhanced Skill Card of Tatsuya with a very short cooldown
+Super Tatsuya
+Brawler Build
+Gain {0} permanent Shield Points after scoring an elimination
+Victor's Shield
+BR: Evolution
+Resources for BR: Evolution mode
+Gain an enhanced Skill Card of Orion with EP gained from knockdowns and faster movement speed while the skill is in effect
+Super Orion
+Revival unavailable
+Reviving soon
+Revival will be unavailable soon
+Tap to select your deck
+Skill Cards
+Speed Bonus
+BR: Evolution Bonus
+Gain an enhanced VSK94 with the crosshair expanded into a small zone, allowing shots to hit all enemies inside
+Ranged VSK94
+Base max. HP lowered by {0}% and DMG up by {1}%
+Glass Cannon
+Gain a short burst of move speed after eliminating an enemy
+Predator's Rush
+Gain an enhanced Skill Card of Rin with higher Kunai damage, faster generation, and a higher max. count
+Super Rin
+Sniper Build
+Gain an enhanced Winchester that deals explosive burst damage to enemies hit
+Burst Winchester
+Jammer in effect
+Cannot join: in Stealth mode
+Red Bull Reward Crate
+Alvaro Firefig
+Guess explosion can't solve everything.
+Kelly Firefig
+Nothing can slow Kelly down!
+Exclusive Kelly Firefig
+Kelly wins the Bermuda marathon contest!
+Kapella Firefig
+Who wouldn't want a wink from Kapella?
+Moco Firefig
+Nothing hides from Moco.
+Steffie Firefig
+Think twice before you mess with Steffie.
+Wukong Firefig
+Under the mask is another disguise?
+Exclusive Wukong Firefig
+The legendary monkey is forged in flames.
+Chapter {0}
+Leaderboard
+Select Difficulty
+Level Info
+DIfficulty {0}
+Difficulty Tag
+Mission
+Ready
+Talent
+Battle
+Exploration
+Max. level reached
+Reset All
+Confirm to reset all talents? All tokens will be refunded.
+Reset talent
+Survival
+Not enough tokens
+Prerequisite talent not unlocked
+Unlock
+Upgrade
+Switch difficulty
+Current difficulty is still locked for some teammates
+{0} has not unlocked the current difficulty yet
+Your team's highest unlocked difficulty is Chapter {0}, difficulty {1}. Switch to it now?
+Landing with team. Team Revival available on landing.
+Too far from team. Team Revival unavailable on landing.
+Land with your team to gain a revival chance
+Landed near teammates
+Team Revival obtained
+Penalty details:\nGuild Wars Score earned will be reduced by {0}.\n
+Pyro inactive and will be removed automatically.
+Double the sparks!
+Baguette
+Black Cat Hat
+Beige Cat Hat
+Blue Cat Hat
+Red Cat Hat
+Corn
+Red Elephant Hat
+Blue Elephant Hat
+Green Elephant Hat
+Blue Smiley Goggles
+Pink Heart Goggles
+Yellow Cute Goggles
+Purple Goggles
+Monochrome Pixel Glasses
+Colorful Pixel Glasses
+Pumpkin
+Spooky Rabbit Backpack
+You need to wait {0}s before editing again.
+Random
+Each time you log in, randomly display one of your following friends' Pyro.
+1. Only Pyro from friend with {0}+ Intimacy Score can be displayed. They must also have their Pyro unlocked.\n2. Random Display: Each time you log in, randomly show a friend's Pyro. Up to {1} friends will be in the selection pool.\n3. You can also choose a selected friend's Pyro.
+Selected
+Choose a friend to display their Pyro at all times.
+Login
+Add extra days
+Extra match rewards
+Log in for {0} days to reignite Pyro.\nCompleting a ranked match adds {1} days!
+New
+Pyro Pals Invitation
+Friend
+Intimacy Score
+Status
+Pyro Pals
+Canceling in cooldown. Request again in {0} hour(s).
+Request to form Pyro Pals with you
+Received Pyro Pals Requests
+Request List
+Pyro Pals available for friends with an Intimacy Score higher than {0}
+Send Pyro Pals request
+Your friend {0} is calling for you to reignite your Pyro!
+Your Pyro's pal is calling for you!
+Pyro Pals request sent
+Pyro
+Show Pyro
+Invitation successfully sent to offline friend
+Ranked mode is not available at your current account level. Level up to unlock it!
+Cancel Pyro Pals with your friend?
+Cancel Pyro Pals
+Comment
+{0} Follower(s)
+{0}v{1}
+Follow
+Following
+More
+This creator is in a different region and cannot be followed
+Share
+Solo Play
+Start
+Team Play
+Flame Grenades, Super Energizers, and FGL-24 will appear in Clock Tower.
+Fiery Clock Tower
+Discounted Strange Weapons at Vending Machines!
+Strange Weapon Discount
+Discounted Storm Weapons at Vending Machines!
+Storm Weapon Discount
+More coin piles will appear on the ground
+Coin Rain
+More coins, gold-tier weapons, and Coin Jars will appear in Sentosa
+Gold Rush
+Most of the vehicles become Horses, giddy-up!
+Wild West
+Discounted new weapons at Vending Machines!
+New Weapon Discount
+More SMGs, shotguns and melee weapons will appear in Peak
+Peak Mania
+Start the match with 500 coins
+Rich Start
+Spawned
+Capture strange sightings to make them disappear and drop special event supplies
+Strange Sighting
+New strange sighting captured
+Restore {0}% armor durability
+Gain {0} temporary Shield Points
+The Unseen
+The Hidden Side has emerged
+Reveal Masks and Strange Weapons are available in the CS Store
+Strange Power
+A special weapon with strange power that triggers event effects
+Strange Weapon
+Doll Spectate
+Enter Hidden Side
+Follow Teammate
+Use it to enter masked form and the Hidden Side, gaining better movement speed and jump height
+Reveal Mask
+Cancel Transformation
+Enter Masked Form
+A horse that moves between the normal world and the Hidden Side with lighter jumps and faster runs
+Shadow Horse
+After being eliminated, enter Doll form to follow surviving teammates and grant random buffs
+Doll Support
+Use the Reveal Mask to enter masked form and access the Hidden Side
+Reveal Mask
+For each player you eliminate, a mask or eerie mark appears behind you
+Elimination Marks
+The Unseen
+The Hidden Side has emerged
+The area where you can move freely after entering Doll Spectate
+Doll Range
+Hidden Side Is Open
+Enter masked form to explore the Hidden Side and strange sightings
+Hidden Side
+Heal Bubble ready
+Heal Bubble ready. Extra FF Coins included.
+Repair Bubble ready
+Repair Bubble ready. Extra FF Coins included.
+Shield Bubble ready
+Shield Bubble ready. Extra FF Coins included.
+Speed Bubble ready
+Speed Bubble ready. Extra FF Coins included.
+Careful! You are about to leave teammate range
+Out of teammate range. Returning in {0}s.
+Returned near teammate
+Stay within {0}m of your teammate
+Normal Spectate
+Only one player is alive. Cannot switch view.
+Deploy to build a custom Zipline
+Zipline Kit
+Deploy to build a custom Zipline
+Zipline Anchor
+All allies obtain a Mini Turret at the start of each round
+Firefig
+Win this match to earn a Firefig
+Booyah Reward
+Binding successful
+Firefig obtained
+Display Firefig
+Binding successful. The Firefig will be brought out after the match.
+Let the light rise. (User can put secret presents such as loadout, Gold, or Vouchers in the cabin. Presents available for 10 players.)
+Radiant Flame
+TV Scare
+The Twins
+Storm King
+Storm Squad
+Screen or scream? (User can put secret presents such as loadout, Gold, or Vouchers in the cabin. Presents available for 10 players.)
+Screen Terror
+The Unseen Frame
+Storm Arena Frame
+Crimson Glitches Sticker
+Hollow Man Sticker
+Red Slicker Sticker
+Cloaked Terror Sticker
+Cosmic Overlord Sticker
+FFWS Champion Sticker
+Automatically turn the camera for optimized view when using the Vertical Ascender
+Keep facing the same direction after boarding a Vertical Ascender
+Ascender Auto-Turn
+Auto-Turn is enabled by default for Vertical Ascenders. You can adjust it in Settings.
+Accelerate
+Down
+Leave
+Reverse
+Up
+Ninja Returns
+Received by upgrading the Evo AWM to the max. Lv. 7
+Ultimate AWM
+Complete missions in the web event to claim
+Ace Manager
+If you previously joined Nine Tails Strikes or Epic Ninja Trials, join the returning Nine Tails Strikes event to claim the exclusive title for returning ninjas!
+Collect entries and reach collection goals in The Unseen Album to claim
+Seen the Unseen
+Download
+Downloading
+Equip
+Outfit equipped
+Retry
+Wardrobe
+1. Craftland map cover images are now standardized to a 20:9 aspect ratio.\n2. Improved the naming rules for custom properties. When creating or renaming a custom attribute, the system will check for invalid characters and unsupported encoding formats. Names that do not meet the requirements cannot be saved, and players will be prompted to modify them and try again. When opening, saving, or publishing an old map, players will also be prompted to resolve any custom properties containing invalid characters.\n3. Added support for customizing images and text on the custom map loading screen.\n4. After completing a map, players can now view the creator's information directly on the results screen, as well as follow or unfollow the creator.\n5. Fully optimized the Craftland map details page to provide a clearer presentation of map information, gameplay, and interactive features. Added the map's estimated matchmaking difficulty and improved the display of information such as popularity, positive rating, and number of play sessions. Players can also view creator information, follow creators, share maps, and copy the Map Code.\n\nMore powerful features are in development, stay tuned!
+Platform
+1111 Lucky Box 1
+1111 Lucky Box 2
+1111 Choice Box 1
+1111 Choice Box 2
+Awesome Box
+Open to receive a AWM Breath of Silence
+AWM Breath of Silence Loot Crate
+Cosmic Pulse (AWM) Token Crate
+Box 281
+Box 282
+Box 283
+Box 284
+Box 285
+Box 286
+Box 287
+Box 288
+Box 289
+Box 290
+Booyah! Box 1
+Booyah! Box 2
+Booyah! Box 3
+Booyah! Box 4
+Booyah! Box 5
+Booyah! Box 6
+Booyah! Box 7
+Booyah! Box 8
+Campus Lucky Box 1
+Campus Lucky Box 2
+Campus Choice Box 1
+Campus Choice Box 2
+Unseen Box
+Horror Box
+Duality Box
+Open to receive a Charge Buster Frenzy Bunny
+Charge Buster Frenzy Bunny Loot Crate
+Gun Choice Box 1
+Gun Choice Box 2
+Gun Choice Box 3
+Gun Choice Box 4
+Gun Choice Box 5
+Gun Choice Box 6
+Gun Choice Box 1
+Gun Choice Box 2
+Gun Choice Box 3
+Gun Choice Box 4
+Gun Choice Box 5
+Gun Choice Box 6
+Gun Royale Box 1
+Gun Royale Box 2
+Gun Royale Box 3
+Halloween Box
+Players can obtain either 3, 4, 5, 10, 100, or 1000 Cosmic Pulse AWM Evo tokens.
+Lion Cereal Box 03
+Lion Cereal Box 04
+Mid-autumn Gift Box
+BP S46 Token Crate
+Random Lucky Box 1
+Random Lucky Box 2
+Safe Box
+Samsung A27 Box
+BP S47 Token Crate
+Choice Lucky Box 1
+Choice Lucky Box 2
+Storm Box
+Arena Box
+Suitcase
+Open to receive a Trogon Pyro Dino
+Trogon Pyro Dino Loot Crate
+VIP Box 04
+VIP Box 05
+BP S48 Token Crate
+Wonderful Accessories Box
+Wonderful Box 1
+Wonderful Box 2
+Wonderful Choice Box 1
+Wonderful Choice Box 2
+Wonderful Choice Box 3
+Wonderful Facepaint Box
+Wonderful Pants Box
+Wonderful Shoes Box
+Wonderful Top Box
+Alliance Blue Token
+Alliance Green Token
+Alliance Red Token
+Black God Token
+Big Surprise Token
+Dark Party Token 1
+Dark Party Token 2
+External Forces Token
+Kunai Token
+MP5 Token
+Marksman Rifle Token
+Ninja Village Token 1
+Ninja Village Token 2
+Ninja Village Token 3
+Assault Rifle Token
+SMG Token
+Shotgun Token
+Partner Blue Token
+Partner Green Token
+Pistol Token
+Partner Red Token
+Pumpkin Token
+Reborn Token
+Sniper Rifle Token
+Thunder Token
+Witch Token
+1111 Voucher
+Black God Noir Voucher
+Black God White Voucher
+Universal Ring Voucher
+Universal Ring Voucher
+Universal Ring Voucher
+2026 Free Fire x BLUE LOCK
+Black Mask
+Blue Mask
+Crimson Mask
+Special Nailoong Token
+Purple Lightning
+Blue Lightning
+Orange Lightning
+Cosmic Comet Token
+Reach [S0] [fs=22][b][803A41]{0}[/b][-][/fs] more time(s) to obtain
+to obtain {0}
+Reach [S0] [fs=22][b][803A41]{0}[/b][-][/fs] time(s)
+Release in {1}/{0}
+Release in\n{1}/{0}
+Equip to display in CS mode and replace the default title
+Display when achieving the MVP in each CS round
+View and equip via Player Info
+MVP Title
+MVP Title - Rank 2027
+Usage period stackable
+Usage period
+CS MVP Board
+CS MVP Board - Rank 2027
+An MVP Board that can be equipped from Vault. Equip to display when achieving the MVP title in each round of the CS mode.
+Go to Rank Goals
+Meteor Drop incoming
+Meteor Drop has landed
+Cheating player name
+All regular airdrops will crash down as meteors!
+Airdrops? Meteors!
+High-tier loot available in the area after the Meteor Drop lands
+Meteor Incoming
+Storm Arena
+Storm Trophy Showdown
+Fight for the Storm Trophy!
+Storm Airdrop has landed
+FFWS Global Finals 2026 Champion Team
+Carry your banner through the storm and fight for glory
+Storm Banner
+Get more eliminations each phase to become a top team and earn a Storm Airdrop!
+Storm Airdrop
+Storm Weapons will drop in-match. Find them and try the new weapon mechanics!
+Storm Weapons
+The Storm Trophy battle begins!
+Event airdrops will drop near the top teams
+Storm Airdrop
+This round's top teams have been selected. Storm Airdrops incoming.
+Great performance! Your team earned a Storm Airdrop.
+Congrats! Your team is the MVP team and earned a high-tier Storm Airdrop.
+[Zone DMG: Low] Safe Zone shrinking
+[FFBA00][Zone DMG: Medium][-] Safe Zone shrinking
+[e01f1f][Zone DMG: High][-] Safe Zone shrinking
+Frequent team-up with cheater
+A utility item that can be activated on demand
+Active Device
+I marked an enemy nearby!
+A passive utility item that provides special combat abilities
+Passive Device
+Releases a giant spider with [FFB300]{0}[-] HP. The spider automatically searches for the nearest enemy within [FFB300]{1}[-]m. After locking onto a target, it splits into a swarm of spiderlings to chase them. When close to the target, the swarm weaves a [FFB300]{2}[-]m fan-shaped web ahead, trapping all enemies within range. Enemies caught are slowed by [FFB300]{3}%[-] and lose [FFB300]{4}[-] HP/s for [FFB300]{5}[-]s.
+Spider Hunt
+Releases a giant spider that locks onto a nearby target and splits into a swarm of spiderlings, weaving a web to trap enemies
+Transforms into a controllable explosive spider for [FFB300]{0}s[-]. The [FFB300]{1}[-]-HP spider can be destroyed and move up to [FFB300]{2}m[-] from Ryden himself. Tap the skill again to return to Ryden's body and activate the spider, trapping enemies within [FFB300]{3}m[-] in its line of sight. Enemies caught are slowed by [FFB300]{4}%[-] and lose [FFB300]{5} HP[-]/s for [FFB300]{6}s[-].
+Skitter Trap
+Transforms into a controllable explosive spider. Tap again to return to Ryden's body and activate the spider, trapping enemies within range.
+Enemy Near Ryden
+Trapped {0} Target(s)
+Slow
+Spider Destroyed
+Trap Deployed
+Dino Fossil (Mask)
+Cloaked Terror (Mask)
+Owl Mask
+Scorpion Mask
+Cloaked Terror (Bottom)
+Firesaur (Mask)
+Academy Cutie (Mask)
+Crimson Glitches (Mask)
+Scorpio Venom (Mask)
+Masked Rabbit (Mask)
+Lunar Valor (Mask)
+Cosmic Empress (Bottom)
+Kittenlover (Bottom)
+Magma Phoenix (Bottom)
+Firesaur (Bottom)
+Academy Cutie (Bottom)
+Crimson Glitches (Bottom)
+Banana Ninja (Bottom)
+Lioness Instinct (Bottom)
+Owl Ranger (Bottom)
+Scorpio Venom (Bottom)
+Masked Rabbit (Bottom)
+Phantom Bride (Bottom)
+Lunar Valor (Bottom)
+Cosmic Empress (Head)
+Kittenlover (Head)
+Magma Phoenix (Head)
+Firesaur (Head)
+Academy Cutie (Head)
+Banana Ninja (Head)
+Lioness Instinct (Head)
+Owl Ranger (Head)
+Scorpio Venom (Head)
+Masked Rabbit (Head)
+Phantom Bride (Head)
+Lunar Valor (Head)
+Cosmic Empress (Facepaint)
+Lioness Instinct (Facepaint)
+Phantom Bride (Facepaint)
+Cosmic Empress (Shoes)
+Kittenlover (Shoes)
+Magma Phoenix (Shoes)
+Firesaur (Shoes)
+Academy Cutie (Shoes)
+Crimson Glitches (Shoes)
+Banana Ninja (Shoes)
+Lioness Instinct (Shoes)
+Owl Ranger (Shoes)
+Scorpio Venom (Shoes)
+Masked Rabbit (Shoes)
+Phantom Bride (Shoes)
+Lunar Valor (Shoes)
+Cosmic Empress (Top)
+Kittenlover (Top)
+Magma Phoenix (Top)
+Firesaur (Top)
+Academy Cutie (Top)
+Crimson Glitches (Top)
+Banana Ninja (Top)
+Lioness Instinct (Top)
+Owl Ranger (Top)
+Scorpio Venom (Top)
+Masked Rabbit (Top)
+Phantom Bride (Top)
+Lunar Valor (Top)
+Cloaked Terror (Head)
+Storm Arena (Head)
+Academy Stars (Facepaint)
+Smile! (Facepaint)
+Masked Flames (Facepaint)
+2026 Free Fire x MAMA
+Cosmic Overlord (Mask)
+Red Bull (Mask)
+Kittensitter (Mask)
+Magma Fusion (Mask)
+Infernosaur (Mask)
+Academy Influencer (Mask)
+Hollow Man (Mask)
+Red Slicker (Mask)
+Melon Ninja (Mask)
+Lion Instinct (Mask)
+Scorpio Sting (Mask)
+Masked Fox (Mask)
+Phantom Desperado (Mask)
+MAMA (Mask)
+Solar Valor (Mask)
+Cosmic Overlord (Bottom)
+Red Bull (Bottom)
+Kittensitter (Bottom)
+Magma Fusion (Bottom)
+Infernosaur (Bottom)
+Academy Influencer (Bottom)
+Hollow Man (Bottom)
+Red Slicker (Bottom)
+Melon Ninja (Bottom)
+Lion Instinct (Bottom)
+Owl Sheriff (Bottom)
+Scorpio Sting (Bottom)
+Masked Fox (Bottom)
+Phantom Desperado (Bottom)
+MAMA (Bottom)
+Solar Valor (Bottom)
+Cosmic Overlord (Head)
+Red Bull (Head)
+Kittensitter (Head)
+Infernosaur (Head)
+Academy Influencer (Head)
+Hollow Man (Head)
+Owl Sheriff (Head)
+Scorpio Sting (Head)
+Masked Fox (Head)
+MAMA (Head)
+Solar Valor (Head)
+Cosmic Overlord (Facepaint)
+Kittensitter (Facepaint)
+Solar Valor (Facepaint)
+Cosmic Overlord (Shoes)
+Red Bull (Shoes)
+Kittensitter (Shoes)
+Magma Fusion (Shoes)
+Infernosaur (Shoes)
+Academy Influencer (Shoes)
+Hollow Man (Shoes)
+Red Slicker (Shoes)
+Melon Ninja (Shoes)
+Lion Instinct (Shoes)
+Owl Sheriff (Shoes)
+Scorpio Sting (Shoes)
+Masked Fox (Shoes)
+Phantom Desperado (Shoes)
+MAMA (Shoes)
+Solar Valor (Shoes)
+Cosmic Overlord (Top)
+Red Bull (Top)
+Kittensitter (Top)
+CS-Ranked S39 Heroic
+CS-Ranked S40 Heroic
+Magma Fusion (Top)
+Infernosaur (Top)
+Academy Influencer (Top)
+Hollow Man (Top)
+Red Slicker (Top)
+Melon Ninja (Top)
+Lion Instinct (Top)
+Owl Sheriff (Top)
+BR-Ranked S54 Heroic
+Scorpio Sting (Top)
+Masked Fox (Top)
+Phantom Desperado (Top)
+MAMA (Top)
+Solar Valor (Top)
+The Unseen voice pack
+Storm Arena voice pack
+Pro Taunts voice pack
+Mirzapur Voice Pack 1
+Mirzapur Voice Pack 2
+Day of the Dead 2026 voice pack
+The Unseen Voice Pack
+Storm Arena Voice Pack
+Pro Taunts Voice Pack
+Mirzapur Voice Pack 1
+Mirzapur Voice Pack 2
+Day of the Dead 2026 Voice Pack
+Shh... listen!
+Put your mask on!
+I want to play... a game
+Who's there?
+Dark void falls upon the arena!
+Through the storm, to Booyah!
+I AM the storm!
+Only the strongest survive the storm
+Reach your prime!
+Miracle? Nope, just skill!
+Get outta here, bot!
+Yep, back to the lobby you go!
+Better luck next time!
+You're quite a smooth talker
+You will feel proud
+Hey, focus on your studies. Become an IAS officer or something.
+We started because we had no choice, but now we're enjoying it
+We run this place
+That works too
+It's risky
+You're learning slowly, slowly
+Red flower, blue flower, Munna Bhaiya is beautiful
+That was awesome, boss
+This thing is wild! It shakes up the whole system.
+Yeah, I mean, we haven't thought about it immediately, but we'll think about it.
+You little monster!
+Suffer like I did!
+Where's my squad?
+They got me!
+Oh, you are doing magic
+Is that all? Ahhh!
+Purry Slippers
+Cloaked Terror (Shoes)
+Melon Shoes
+2026 FFWS Champion (Top)
+Cloaked Terror (Top)
+Duel of Honor
+So close
+Try harder
+Crushed {0}
+{0} dominated {1} in Lone Wolf's Duel of Honor.
+Microphone needs to be enabled
+Tap to open the tournament management website
+This applicant cannot join your tournament team because they do not have enough Diamonds to pay the deposit.
+The tournament has been canceled. Your deposit has been returned through this mail.
+You have successfully checked in for the tournament. Your deposit has been returned through this mail.
+The tournament creator has added you to the tournament. Before the tournament begins, open the tournament details to view registration, check-in, and match arrangements.
+You have been removed from the tournament by its creator. To continue participating, please register again or contact the tournament creator for confirmation.
+Your eligibility to participate has been revoked by the tournament creator due to your own actions. Your deposit will not be refunded.
+Tournament Deposit Refunded
+Tournament Deposit Deducted
+You can manually start the tournament you created from the tournament management website
+You have successfully joined the tournament. Your deposit will be returned by mail after the tournament teams have been grouped.
+You have successfully joined the tournament team. The required Diamond deposit has been deducted. The deposit will be returned by mail after you check in or meet the refund requirements.
+The tournament team has approved your request to join, but you do not have enough Diamonds to pay the deposit and cannot join the team.
+You have successfully applied to join the tournament team. The required Diamond deposit will be deducted once your application is approved.
+You left the tournament during the registration period. Your deposit has been returned through this mail.
+Tournament Notification
+The tournament you created has ended. Please visit the tournament management website to distribute the rewards.
+Elim./Knockdown Info
+Comic Book Filter
+Cyberpunk Filter
+Sketch Filter
+Golden Era Filter
+Emoji group not unlocked yet. Please obtain it outside the match first.
+Pixel Filter
+RGB Split Filter
+Strange sighting found
+Swipe the screen to find strange sightings
+Can skip in {0}s
+Scary content ahead. Skip if preferred.
+Red-Stained Portrait
+Hallway Figure
+Tentacles Under Table
+Stairway Shadow
+Woman on Screen
+Claim repeatable rewards to get the following:
+Claim repeatable rewards to receive a random reward from the following:
+Participate in The Unseen and get tons of rewards!
+The Unseen
+Album
+Gameplay
+Daily Tasks
+Tokens remaining: [af2020]{0}[-]
+Revenge G36
+Unseen Claws
+Awaken the Unseen
+Free Rewards Await
+New
+Undiscovered: Explore strange areas in-match to unlock
+Undiscovered: Explore strange areas in-match to unlock
+Stroller
+Ball
+Strange Car
+Broken Puppet
+Music Box
+Rocking Horse
+Shadow Gate
+Faded Figure
+Dark Shadow
+Red Handprint
+Black Door
+Crying Woman Portrait
+Floating Furniture
+Black Claw
+Crying Mask
+Mysterious Stone
+Glitching TV
+Floating Furniture
+Strange Mask
+Glitching TV
+Floating Car
+Strange Black Door
+Moving Handprints
+Moving-Eye Poster
+Tall Thin Figure
+Shadow in the Pool
+Mysterious Resident
+Floating Person
+Undiscovered: Continue investigating the manor to unlock
+{0}/{1}
+Claim Title
+Collect {0} Album entries to claim the title reward ({1}/{2})
+Event Album
+In-Match Album
+Album
+1. Eliminated players enter the Hidden Side in Doll form, where they can follow surviving teammates and send buff bubbles to support them. \n2. Surviving teammates can also use the Reveal Mask to enter masked form, gaining faster movement speed and higher jumps. \n3. Explore the Hidden Side to discover strange sightings and interact with them for supplies.
+Battle Royale
+Enter the Hidden Side as a Doll!
+Get Reveal Masks and Strange Weapons from Cyber Airdrops and the CS Store to help you win the battle!
+Clash Squad
+Reveal Masks and Strange Weapons
+Battle Royale
+Clash Squad
+Gameplay
+Tutorial
+1. Complete daily tasks to earn event tokens.\n2. Use tokens on the event page to observe the manor and progress the investigation.\n3. Reach milestones to claim milestone rewards. After completing all milestones, you can continue claiming repeatable rewards.\n4. At major milestones, swipe in the camcorder view to find strange sightings and trigger the corresponding sequence.\n5. Unlock Album entries to review discovered strange sightings. Reach collection progress goals to claim Album rewards.\n6. Swipe sideways on the event page to explore the manor and possibly trigger standalone sequences.
+Rule
+Free Rewards!
+The Unseen
+Turn on the lights if needed
+Observe
+Panic
+A Glimpse of the Strange Manor
+{0}/{1}
+Tokens remaining today: [fs=26][af2020]{0}[-][/fs]
+Log in between {0} - {1} to earn exclusive goodies!
+The login reward event has ended. See you in our future events!
+Login Reward
+Login Reward
+Reach the milestone to get the following rewards:
+Swipe the screen to explore the manor
+Hold an empty area and drag sideways
+You already own all Grand Prizes. Purchase anyway?
+Continue Purchase
+Continue Spin
+You already own all Grand Prizes. Spin anyway?
+Highest discount obtained
+Bundle automatically opened
+Respin Chances
+New discount
+Previous discount
+SPIN FOR [ffe24a]DISCOUNT[-]
+SPIN FOR DISCOUNT
+SHOP NOW
+Spend [S0][ffe400]{0}[-] more to unlock the Grand Prize
+Grand Prizes have been unlocked
+Highest Discount!
+Nice Discount!
+Better discount guaranteed this spin!
+A better discount is guaranteed within [ffe400]{0}[-] spin(s)!
+RESPIN
+Better discount!
+All missions are completed
+Keep previous discount!
+Same Discount
+Get a better discount
+1. When you first enter the event, spin for a starting discount.\n2. Complete respin missions to get respin chances for discounts.\n3. You can earn up to {0} respins for each event.\n4. When you respin, the new discount will be compared with your current discount, and the better discount will be selected automatically.\n5. A better discount is guaranteed within {1} spins.
+DISCOUNT SPIN
+Discount Probability
+1. Purchasing items other than Grand Prizes will increase the Grand Prize unlock progress.\n2. Once the progress is full, the Grand Prizes will be unlocked for purchase.\n3. Once unlocked, ALL Grand Prizes will be available for purchase.
+PURCHASING
+My Discount
+Share the Mystery Shop
+Spent {0}/{1} diamonds in the Mystery Shop
+Prime Lv. {0}
+Spent diamonds in recent discount events
+Play {0}/{1} BR/CS-Ranked matches
+Play for {0}/{1} mins
+Recent discount events include the following:
+Mystery Shop
+Relay Mart
+Lucky Wheel
+SPIN
+Limit: {0}/{1}
+GO
+SHARE
+INCOMPLETE
+CLAIMED
+LIMIT REACHED
+Complete missions to earn respins
+SUPER DISCOUNT
+Spend diamonds to unlock all Grand Prizes
+Failed to claim rewards. Please try again later.
+Confirm to leave this squad?
+Your unclaimed rewards will be claimed automatically
+Failed to leave the squad. Please try again later.
+Squad status has been updated. Please refresh and try again.
+Clear search
+Unselected parts will stay as currently equipped
+No matching outfits found
+Search outfit name
+Armor taking Flame Grenade DMG
+Creates a burning area on the ground that lasts for a while
+Taking Flame Grenade DMG
+Flame Grenade
+Detects enemies within range after being thrown
+Sonar Grenade
+Position revealed by Sonar Grenade
+Safe Zone Proximity Alert
+Play Ranked to reduce the time needed to reignite
 Price based on your remaining diamond amount.
 The [57CAFD]less[-] you have, the [FFA83A]greater the discount[-]!
 Diamond Pack Price
@@ -73697,7 +75910,7 @@ SMG Ammo
 Sniper Ammo
 SPAS12
 SVD
-TEC9
+TEC-9
 UMP
 USP
 Damaged Vest
@@ -74180,7 +76393,7 @@ Souvenir from the circus, comes with applause from the crowd.
 Juicy Apple
 Remove Restriction
 To lift your restriction, diamond top-up required:
-Dear Survivor, you have requested and received a refund for a purchase recently, despite having received the items. This left us no choice but to remove the diamonds or its equivalent from your account, resulting in account restriction. You may contact our customer support at https://ffsupport.garena.com/ for more details.
+Dear Survivor, you have requested and received a refund for a purchase recently, despite having received the items. This left us no choice but to remove the diamonds or its equivalent from your account, resulting in account restriction. We appreciate your understanding as we continue our efforts to maintain a fair and healthy gaming environment for all players.
 Violation Notice
 EQUIP
 Failed to equip all
@@ -76088,6 +78301,177 @@ VAULT
 FACE SELECTION
 SKIN COLOR
 Customer Service
+Super Emote obtained
+Not enough collected for Super Emote
+Fire Scroll
+Earth Scroll
+Water Scroll
+Received movement speed buff after swinging
+Backpack - Wind Shuriken
+Backpack - Tsunade's Cloak
+Backpack - Ship
+Backpack - Omnitrix
+Ben 10 Banner
+Alien X Power
+Hinata Avatar
+Heatblast Avatar
+Alien X Avatar
+Loot Box - Froggy Wallet
+Diamondhead Machete
+MAG-7 - Ben 10
+NARUTO SHIPPUDEN collaboration music
+Blue Bird
+NARUTO SHIPPUDEN collaboration theme song
+Main Theme
+Skyboard - Hoverboard
+Heatblast
+Ben 10 Look Changer
+Alien X
+Rustbucket RV
+Hinata Bundle
+Lucky Girl Bundle
+Gwen Tennyson Bundle
+Ben Tennyson Bundle
+You've unlocked the Gamabunta Summoning Super Emote, but it seems you didn't claim it. Don't worry, we've included it in the mail, enjoy!
+Super Emote Reward
+The first NARUTO SHIPPUDEN collab was a blast! Now, the ninjas have returned!
+Welcome Back, Ninja
+Capture Sharingan: Control and command Nine Tails to blast an area. Enemies inside will receive continuous damage.
+Hinata's Courage
+Choose 1 of the 2 prizes to be your Grand Prize. The other prize will be available for purchase.
+Confirm to claim the following outfit as your grand prize?
+Confirm
+In CS Store, shurikens will replace pistols in the first round.
+Obtained in original event
+Mini Pass
+Unlock milestone prize to purchase
+Congratulations! You've collected this Super Emote!
+Ninja Returns
+NARUTO SHIPPUDEN Sticker Choice Crate
+Sharingan: Control
+Nine Tails Event
+Ninjutsu Items
+Eat
+Sharingan: Control captured
+Capturing Sharingan: Control
+Cancel
+Confirm
+Drag to choose a spot
+Choose a blast area
+Upon use, open the map and choose an area for Nine Tails to unleash the Tailed Beast Bomb.
+Sharingan: Control
+Cannot select this area
+Sharingan: Control obtained
+Tap anywhere to skip
+Sharingan: Control has appeared
+Control Nine Tails' blast
+Ninjutsu, ninja tools, and the Sharingan: Control that controls Nine Tails' blast will appear
+Nine Tails Event
+Ninja Academy
+Unleashes 8 Trigrams Palm Rotation
+Unleashing 8 Trigrams Palm Rotation
+Knocked back by 8 Trigrams Palm Rotation
+8 Trigrams Palm Rotation Knockback
+Enemy knocked back
+Dashes forward and Creates a chakra shield that blocks physical damage and knocks back enemies
+8 Trigrams Palm Rotation
+Dashes forward and create a chakra shield to protect yourself and knock back enemies
+Hidden Leaf Village
+Nine Tails will strike the airplane!
+Attacked Airplane
+Nine Tails' strike has left debris on the ground.
+Nine Tails' Strike
+Nine Tails has blasted open the arsenals!
+Blasted Arsenals
+Damage dealt
+Danger Zone
+Tailed Beast Bomb is falling
+Take cover in the houses!
+Nine Tails is blasting this area!
+Ichiraku Ramen Shop
+Buff received
+Swing
+Swing
+Shadow Clone Jutsu
+Charging Rasengan
+Fist Bump!
+NARUTO SHIPPUDEN Frame
+Naruto Sticker
+Sakura Sticker
+Kakashi Sticker
+Sasuke Sticker
+Jiraiya Sticker
+Rock Lee Sticker
+Hinata Sticker
+Orochimaru Sticker
+Deidara Sticker
+Minato Sticker
+Itachi Sticker
+Tsunade Sticker
+2026 Free Fire x NARUTO SHIPPUDEN
+2026 Free Fire x Ben 10
+Hinata
+Ben Tennyson
+Lucky Girl
+Gwen Tennyson
+BEN 10
+Grey Matter Mask
+Vilgax Mask
+Ben 10 Voucher
+Kakashi's ANBU Black Ops Mask
+Hinata Headwear
+Lucky Girl Mask
+Hinata Bottom
+Lucky Girl Bottom
+Gwen Tennyson Bottom
+Gaara's Tattoo
+Hinata Shoes
+Lucky Girl Shoes
+Gwen Tennyson Shoes
+Hinata Top
+Lucky Girl Top
+Gwen Tennyson Top
+Ben Tennyson Bottom
+Ben Tennyson Shoes
+Ben Tennyson Top
+Naruto Voice Pack
+Sasuke Voice Pack
+Sakura Voice Pack
+Kakashi Voice Pack
+Jiraiya Voice Pack
+Hinata Voice Pack
+Naruto Voice Pack
+Sasuke Voice Pack
+Sakura Voice Pack
+Kakashi Voice Pack
+Jiraiya Voice Pack
+Hinata Voice Pack
+How can you become the Hokage if you can't even save your friend?
+We go down together, Sasuke.
+My dream is to become the Hokage!
+Because we are friends!
+Rasengan!
+Shadow Clone Jutsu!
+I lost.
+Loser ninja.
+Disappear with the thunder!
+Amaterasu!
+Hahahahaha!
+Cha!
+I think I've finally caught up to those two!
+This time, I want all of you to watch me from behind!
+Yo! Morning, everyone! I got a little lost on the road of life today...
+Anyone who doesn't value their friends is no better than trash!
+I won't let anyone take down my friends!
+Bet I won't make it.
+I'll never give up! That's the true choice I have to make!
+The frog in the well won't survive the great sea.
+Because... I really like Naruto!
+I'm standing here by my own will.
+I never break my word... that's my ninja way!
+Ben 10 Token
+Hidden Leaf Token
+Hidden Leaf Special Token
 Monster Type
 VFX Type
 Target of attack
@@ -82525,7 +84909,7 @@ UI entity where it is located
 Anchor Min
 Anchor Max
 Random Consumable Loot
-MedKit
+Med Kit
 Repair Kit
 Horizaline
 Inhaler
