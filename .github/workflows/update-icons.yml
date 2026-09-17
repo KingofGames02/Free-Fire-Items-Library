@@ -28,11 +28,13 @@ jobs:
       - name: Run fetch script
         run: node fetch-icons.js
         env:
-          API_URL: ${{ secrets.API_URL }}
-          API_KEY: ${{ secrets.API_KEY }}
+          ROUTE_1: ${{ secrets.ROUTE_1 }}
+          ROUTE_2: ${{ secrets.ROUTE_2 }}
+          ROUTE_3: ${{ secrets.ROUTE_3 }}
+          ROUTE_4: ${{ secrets.ROUTE_4 }}
 
       - name: Commit and Push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Auto-fetched new icons"
+          commit_message: "Auto-fetched new icons from Garena CDN"
           file_pattern: 'ff-icons/'
