@@ -37,19 +37,30 @@ const DOMAINS = ['cdn', 'cvs', 'gmc', 'aw', 'dir', 'ak', 'tata'];
 let bestDomains = ['cdn', 'aw', 'dir'];
 
 async function findBestDomains() {
+    if (!ROUTE_1) return;
+    
+    let baseTestUrl = ROUTE_1;
+    if (baseTestUrl.includes('{icon}')) {
+        baseTestUrl = baseTestUrl.replace('{icon}', '101000001');
+    } else {
+        baseTestUrl = baseTestUrl.endsWith('/') ? `${baseTestUrl}101000001.png` : `${baseTestUrl}/101000001.png`;
+    }
+
     const results = [];
     for (const d of DOMAINS) {
         const start = Date.now();
         try {
+            const testUrl = baseTestUrl.replace(/https:\/\/dl\.[a-zA-Z0-9-]+\.freefiremobile\.com/i, `https://dl.${d}.freefiremobile.com`);
             const controller = new AbortController();
             const id = setTimeout(() => controller.abort(), 3000);
-            const res = await fetch(`https://dl.${d}.freefiremobile.com/live/ABHotUpdates/IconCDN/other/101000001.png`, { method: 'HEAD', signal: controller.signal });
+            const res = await fetch(testUrl, { method: 'HEAD', signal: controller.signal });
             clearTimeout(id);
             if (res.ok || res.status === 404) {
                 results.push({ domain: d, time: Date.now() - start });
             }
         } catch (e) {}
     }
+    
     if (results.length > 0) {
         results.sort((a, b) => a.time - b.time);
         const top = results.map(r => r.domain);
