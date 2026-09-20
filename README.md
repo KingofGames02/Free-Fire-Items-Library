@@ -3,13 +3,14 @@
 A comprehensive web-based library to explore and browse all Free Fire game items and icons with a professional and user-friendly interface.
 
 ## 🎯 Integration with Wishlist Manager
-Through this library, you can easily obtain **Item IDs** to use in the **[Wishlist Manager](https://kingofgames02.github.io/FFWM-app/)** tool. Searching for any item and adding it to your wishlist has become much easier and faster thanks to the integration between these tools.
+Through this library, you can directly add single or multiple items to the **[Wishlist Manager](https://kog-ff-wishlist.vercel.app)** tool with a single click, or bulk-copy **Item IDs** to manage your collection seamlessly.
 
 ## ✨ Quick Features
-* **Multi-Language**: Full support for English and Arabic.
+* **16 Global Languages**: Supports 16 global languages for item data.
+* **Dual Server Support**: Instantly toggle between Live and Advance Server databases.
 * **Advanced Filtering**: Filter by Type, Rarity, and Update Tags.
-* **Developer Tools**: Easily copy IDs and download icons (bulk or single).
-* **PWA Ready**: Can be installed as a standalone app on your mobile device.
+* **Smart Sharing**: Generate direct links to share specific items or filtered collections.
+* **Developer Tools**: Batch select items to copy IDs, or download icons (transparent, with rarity backgrounds, or banners).
 
 ---
 
@@ -18,14 +19,14 @@ Through this library, you can easily obtain **Item IDs** to use in the **[Wishli
 مكتبة ويب شاملة لاستعراض وتصفح كافة عناصر وأيقونات لعبة فري فاير بواجهة احترافية وسهلة الاستخدام.
 
 ## 🎯 التكامل مع Wishlist Manager
-من خلال هذه المكتبة، يمكنك الحصول بسهولة على **معرفات العناصر (Item IDs)** لاستخدامها في أداة **[Wishlist Manager](https://kingofgames02.github.io/FFWM-app/)**.
-لقد أصبح البحث عن أي عنصر وإضافته لقائمة أمنياتك أسهل وأسرع بكثير بفضل التكامل بين هذه الأدوات.
+من خلال هذه المكتبة، يمكنك إضافة عنصر أو مجموعة عناصر بضغطة زر مباشرة إلى أداة **[Wishlist Manager](https://kog-ff-wishlist.vercel.app)**، أو نسخ **معرفات العناصر (Item IDs)** دفعة واحدة لإدارة قائمتك بسهولة.
 
 ## ✨ المميزات باختصار
-* **دعم كامل** للغتين العربية والإنجليزية.
-* **تصفية متقدمة** حسب النوع، الندرة، وتحديثات اللعبة (Tags).
-* **أدوات مطورين** لنسخ المعرفات وتحميل الأيقونات بسهولة.
-* **تطبيق ويب (PWA)** قابل للتثبيت كبرنامج مستقل على الهاتف.
+* **16 لغة عالمية**: يدعم 16 لغة عالمية لبيانات العناصر.
+* **خوادم متعددة**: التبديل الفوري بين بيانات الخادم الرسمي (Live) والخادم المتقدم (Advance).
+* **تصفية متقدمة**: فرز العناصر حسب النوع، الندرة، وتحديثات اللعبة (Tags).
+* **مشاركة ذكية**: إنشاء روابط مباشرة لمشاركة عنصر محدد أو مجموعة فلاتر.
+* **أدوات المطورين**: تحديد متعدد للعناصر لنسخ المعرفات، أو تحميل الأيقونات (شفافة، بخلفية الندرة، أو خلفيات الرايات).
 
 ---
 
