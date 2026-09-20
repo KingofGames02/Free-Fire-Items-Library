@@ -1,8 +1,10 @@
 const fs = require('fs');
 const path = require('path');
 
-const API_URL = process.env.API_URL;
-const API_KEY = process.env.API_KEY;
+const ROUTE_1 = process.env.ROUTE_1;
+const ROUTE_2 = process.env.ROUTE_2;
+const ROUTE_3 = process.env.ROUTE_3;
+const ROUTE_4 = process.env.ROUTE_4;
 
 const liveDataPath = path.join(__dirname, 'Data', 'live', 'FF_ItemsData.json');
 const advDataPath = path.join(__dirname, 'Data', 'advance', 'FFAdv_ItemsData.json');
@@ -11,8 +13,8 @@ const advBannerPath = path.join(__dirname, 'Data', 'advance', 'CollectionBanner.
 const cdnMapPath = path.join(__dirname, 'Data', 'live', 'IconCDNMap.json');
 const iconsDir = path.join(__dirname, 'ff-icons');
 
-const CONCURRENCY_LIMIT = 50;
-const FORCE_UPDATE = true;
+const CONCURRENCY_LIMIT = 180;
+const FORCE_UPDATE = false;
 
 const stats = { downloaded: 0, skipped: 0, failed: 0, failedItems: [] };
 let allItems = [];
@@ -31,25 +33,128 @@ if (fs.existsSync(iconsDir)) {
     fs.mkdirSync(iconsDir);
 }
 
-async function fetchFromApi(queryParams, fileName) {
-    const filePath = path.join(iconsDir, `${fileName}.png`);
-    if (!FORCE_UPDATE && fs.existsSync(filePath)) {
-        return 'skipped';
+const DOMAINS = ['cdn', 'cvs', 'gmc', 'aw', 'dir', 'ak', 'tata'];
+let bestDomains = ['cdn', 'aw', 'dir'];
+
+async function findBestDomains() {
+    if (!ROUTE_1) return;
+    
+    let baseTestUrl = ROUTE_1;
+    if (baseTestUrl.includes('{icon}')) {
+        baseTestUrl = baseTestUrl.replace('{icon}', '101000001');
+    } else {
+        baseTestUrl = baseTestUrl.endsWith('/') ? `${baseTestUrl}101000001.png` : `${baseTestUrl}/101000001.png`;
     }
 
-    const url = `${API_URL}/api/icons/get?${queryParams}&no_fallback=true&key=${API_KEY}`;
-    
-    for (let i = 0; i < 3; i++) {
+    const results = [];
+    for (const d of DOMAINS) {
+        const start = Date.now();
         try {
-            const res = await fetch(url);
-            if (res.ok) {
-                fs.writeFileSync(filePath, Buffer.from(await res.arrayBuffer()));
-                console.log(`Downloaded: ${fileName}.png`);
-                return 'downloaded';
+            const testUrl = baseTestUrl.replace(/https:\/\/dl\.[a-zA-Z0-9-]+\.freefiremobile\.com/i, `https://dl.${d}.freefiremobile.com`);
+            const controller = new AbortController();
+            const id = setTimeout(() => controller.abort(), 3000);
+            const res = await fetch(testUrl, { method: 'HEAD', signal: controller.signal });
+            clearTimeout(id);
+            if (res.ok || res.status === 404) {
+                results.push({ domain: d, time: Date.now() - start });
             }
-            if (res.status === 404) break;
-        } catch (error) {}
+        } catch (e) {}
+    }
+    
+    if (results.length > 0) {
+        results.sort((a, b) => a.time - b.time);
+        const top = results.map(r => r.domain);
+        bestDomains = [top[0] || 'cdn', top[1] || top[0] || 'aw', top[2] || top[0] || 'dir'];
+    }
+    console.log("Dynamically Selected Domains:", bestDomains);
+}
+
+function buildRouteUrl(routeStr, domain, val) {
+    if (!routeStr) return null;
+    let url = domain ? routeStr.replace(/https:\/\/dl\.[a-zA-Z0-9-]+\.freefiremobile\.com/i, `https://dl.${domain}.freefiremobile.com`) : routeStr;
+    if (url.includes('{icon}')) return url.replace('{icon}', val);
+    return url.endsWith('/') ? `${url}${val}.png` : `${url}/${val}.png`;
+}
+
+function buildUrlsToTry(type, id, name, cdnUrl) {
+    let urls = [];
+    const validId = id && id !== 'undefined' ? String(id).trim() : null;
+    const validName = name && name !== 'undefined' ? String(name).trim() : null;
+    const validCdn = cdnUrl && cdnUrl !== 'undefined' ? String(cdnUrl).trim() : null;
+
+    const R = {
+        '1': val => buildRouteUrl(ROUTE_1, bestDomains[0], val),
+        '2': val => buildRouteUrl(ROUTE_2, null, val),
+        '3': val => buildRouteUrl(ROUTE_3, bestDomains[1], val),
+        '4': val => buildRouteUrl(ROUTE_4, bestDomains[2], val)
+    };
+
+    const addUrls = (val) => {
+        const u1 = R['1'](val); if(u1) urls.push(u1);
+        const u2 = R['2'](val); if(u2) urls.push(u2);
+        const u3 = R['3'](val); if(u3) urls.push(u3);
+        const u4 = R['4'](val); if(u4) urls.push(u4);
+    };
+
+    if (type === 'banner' && validName) {
+        const lowerName = validName.toLowerCase();
+        addUrls(validName);
+        if (lowerName !== validName) addUrls(lowerName);
+    } else if (type === 'cdn' && validCdn) {
+        const lowerCdn = validCdn.toLowerCase();
+        addUrls(validCdn);
+        if (/[a-zA-Z]/.test(validCdn) && lowerCdn !== validCdn) addUrls(lowerCdn);
+    } else {
+        if (validId) { const u1 = R['1'](validId); if(u1) urls.push(u1); }
+        if (validName) { const u1 = R['1'](validName); if(u1) urls.push(u1); }
+        if (validName) { const u2 = R['2'](validName); if(u2) urls.push(u2); }
+        if (validId) { const u3 = R['3'](validId); if(u3) urls.push(u3); }
+        if (validName) { const u3 = R['3'](validName); if(u3) urls.push(u3); }
+        if (validId) { const u4 = R['4'](validId); if(u4) urls.push(u4); }
+        if (validName) { const u4 = R['4'](validName); if(u4) urls.push(u4); }
+        
+        if (validName) {
+            const lowerName = validName.toLowerCase();
+            if (lowerName !== validName) {
+                const u1 = R['1'](lowerName); if(u1) urls.push(u1);
+                const u2 = R['2'](lowerName); if(u2) urls.push(u2);
+                const u3 = R['3'](lowerName); if(u3) urls.push(u3);
+                const u4 = R['4'](lowerName); if(u4) urls.push(u4);
+            }
+        }
+    }
+    return [...new Set(urls)].filter(Boolean);
+}
+
+async function fetchWithRetry(url, maxRetries = 3) {
+    for (let i = 0; i < maxRetries; i++) {
+        try {
+            const res = await fetch(url, {
+                headers: {
+                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+                    'Accept': '*/*'
+                }
+            });
+            if (res.ok || res.status === 404) return res;
+        } catch (error) {
+            if (i === maxRetries - 1) return { ok: false };
+        }
         await new Promise(resolve => setTimeout(resolve, 1000));
+    }
+    return { ok: false };
+}
+
+async function tryDownloadUrls(urls, fileName) {
+    const filePath = path.join(iconsDir, `${fileName}.png`);
+    if (!FORCE_UPDATE && fs.existsSync(filePath)) return 'skipped';
+
+    for (const url of urls) {
+        const res = await fetchWithRetry(url);
+        if (res.ok) {
+            fs.writeFileSync(filePath, Buffer.from(await res.arrayBuffer()));
+            console.log(`Downloaded: ${fileName}.png`);
+            return 'downloaded';
+        }
     }
     return 'failed';
 }
@@ -57,8 +162,9 @@ async function fetchFromApi(queryParams, fileName) {
 async function downloadIcon(item) {
     const id = item.Id ? String(item.Id) : '';
     const name = item.Icon ? String(item.Icon) : '';
-    const query = `type=item&id=${encodeURIComponent(id)}&name=${encodeURIComponent(name)}`;
-    const result = await fetchFromApi(query, id || name);
+    const urls = buildUrlsToTry('item', id, name, null);
+    
+    const result = await tryDownloadUrls(urls, id || name);
     
     if (result === 'downloaded') stats.downloaded++;
     else if (result === 'skipped') stats.skipped++;
@@ -73,8 +179,9 @@ async function downloadBanner(bannerItem) {
     const iconVal = bannerItem.icon;
     if (!iconVal || String(iconVal).trim() === "") return;
     const name = String(iconVal);
-    const query = `type=banner&name=${encodeURIComponent(name)}`;
-    const result = await fetchFromApi(query, name);
+    const urls = buildUrlsToTry('banner', null, name, null);
+    
+    const result = await tryDownloadUrls(urls, name.toLowerCase());
     
     if (result === 'downloaded') stats.downloaded++;
     else if (result === 'skipped') stats.skipped++;
@@ -105,18 +212,18 @@ async function downloadCdnEntry(entry) {
 
         for (const matchedItem of matchedItems) {
             const itemId = String(matchedItem.Id);
-            const q = `type=cdn&cdnUrl=${encodeURIComponent(itemId + '_2')}`;
-            const res = await fetchFromApi(q, `${itemId}_2`);
+            const urls = buildUrlsToTry('cdn', null, null, `${itemId}_2`);
+            const res = await tryDownloadUrls(urls, `${itemId}_2`);
             if (res === 'downloaded') success = true;
             if (res === 'skipped') skipFound = true;
         }
     }
 
     if (!success && !skipFound) {
-        const q1 = `type=cdn&cdnUrl=${encodeURIComponent(cdnUrl)}`;
-        const res1 = await fetchFromApi(q1, cdnUrl);
-        if (res1 === 'downloaded') success = true;
-        if (res1 === 'skipped') skipFound = true;
+        const urls = buildUrlsToTry('cdn', null, null, cdnUrl);
+        const res = await tryDownloadUrls(urls, cdnUrl);
+        if (res === 'downloaded') success = true;
+        if (res === 'skipped') skipFound = true;
     }
 
     if (success) stats.downloaded++;
@@ -131,10 +238,7 @@ async function downloadCdnEntry(entry) {
 }
 
 async function start() {
-    if (!API_URL || !API_KEY) {
-        console.error("Please set API_URL and API_KEY environment variables.");
-        return;
-    }
+    await findBestDomains();
 
     const tasks = [];
     const processedItems = new Set();
