@@ -10,7 +10,7 @@ Through this library, you can directly add single or multiple items to the **[Wi
 * **Dual Server Support**: Instantly toggle between Live and Advance Server databases.
 * **Advanced Filtering**: Filter by Type, Rarity, and Update Tags.
 * **Smart Sharing**: Generate direct links to share specific items or filtered collections.
-* **Developer Tools**: Batch select items to copy IDs, or download icons (transparent, with rarity backgrounds, or banners).
+* **Developer Tools**: Batch select multiple items to add them to your wishlist, download icons with various options, or copy item IDs.
 
 ---
 
@@ -26,7 +26,7 @@ Through this library, you can directly add single or multiple items to the **[Wi
 * **خوادم متعددة**: التبديل الفوري بين بيانات الخادم الرسمي (Live) والخادم المتقدم (Advance).
 * **تصفية متقدمة**: فرز العناصر حسب النوع، الندرة، وتحديثات اللعبة (Tags).
 * **مشاركة ذكية**: إنشاء روابط مباشرة لمشاركة عنصر محدد أو مجموعة فلاتر.
-* **أدوات المطورين**: تحديد متعدد للعناصر لنسخ المعرفات، أو تحميل الأيقونات (شفافة، بخلفية الندرة، أو خلفيات الرايات).
+* **أدوات المطورين**: تحديد عدة عناصر لإضافتها إلى قائمة الأمنيات، أو لتحميل الأيقونات بعدة خيارات، أو نسخ معرفات العناصر.
 
 ---
 
