@@ -430845,6 +430845,58 @@
         "Tag": "OB55"
     },
     {
+        "Id": 913055006,
+        "Type": "COLLECTION",
+        "CollectionType": "MUSIC",
+        "Name": "T_55_H_MUSIC_DIWALI26_01_N",
+        "Desc": "T_55_H_MUSIC_DIWALI26_01_D",
+        "Icon": "FF_UI_Vault_Music_Diwali26_01",
+        "Rare": "Purple",
+        "IsUnique": true,
+        "IconInAB": "CDN",
+        "Category": "Music",
+        "Tag": "OB55"
+    },
+    {
+        "Id": 913055007,
+        "Type": "COLLECTION",
+        "CollectionType": "MUSIC",
+        "Name": "T_55_H_MUSIC_DIWALI26_01_N",
+        "Desc": "T_55_H_MUSIC_DIWALI26_01_D",
+        "Icon": "FF_UI_Vault_Music_Diwali26_01",
+        "Rare": "Purple",
+        "IsUnique": true,
+        "IconInAB": "CDN",
+        "Category": "Music",
+        "Tag": "OB55"
+    },
+    {
+        "Id": 913055008,
+        "Type": "COLLECTION",
+        "CollectionType": "MUSIC",
+        "Name": "T_55_H_MUSIC_DIWALI26_02_N",
+        "Desc": "T_55_H_MUSIC_DIWALI26_02_D",
+        "Icon": "FF_UI_Vault_Music_Diwali26_02",
+        "Rare": "Purple",
+        "IsUnique": true,
+        "IconInAB": "CDN",
+        "Category": "Music",
+        "Tag": "OB55"
+    },
+    {
+        "Id": 913055009,
+        "Type": "COLLECTION",
+        "CollectionType": "MUSIC",
+        "Name": "T_55_H_MUSIC_DIWALI26_02_N",
+        "Desc": "T_55_H_MUSIC_DIWALI26_02_D",
+        "Icon": "FF_UI_Vault_Music_Diwali26_02",
+        "Rare": "Purple",
+        "IsUnique": true,
+        "IconInAB": "CDN",
+        "Category": "Music",
+        "Tag": "OB55"
+    },
+    {
         "Id": 914000001,
         "Type": "COLLECTION",
         "CollectionType": "TRANSFORM_EMOTE",
