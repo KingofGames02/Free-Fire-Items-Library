@@ -730,6 +730,10 @@
       <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
       <span id="txtDevCopy">Copy Page IDs</span>
     </button>
+    <button class="dev-btn" id="btnDevCopyLinks" style="display: none; background: #6b21a8; border-color: #a855f7;">
+      <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"></path></svg>
+      <span id="txtDevCopyLinks">Copy Page Links</span>
+    </button>
     <button class="dev-btn" id="btnDevDl">
       <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
       <span id="txtDevDl">Download Page icons</span>
@@ -862,6 +866,9 @@
         <button class="modal-btn btn-share" id="btnShare">
           <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z"></path></svg>
         </button>
+        <button class="modal-btn" id="btnAdminCopyLink" style="display: none; background: linear-gradient(135deg, #8b5cf6, #6d28d9);" title="Copy Name with Link">
+          <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"></path></svg>
+        </button>
         <button class="modal-btn" id="btnWishlistModal" style="background: linear-gradient(135deg, #ec4899, #e11d48);">
           <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path></svg>
         </button>
@@ -876,6 +883,13 @@
     const APP_VERSION = "1.0.0";
     const imgBase = "";
     const ENABLE_ADVANCE_SERVER = false;
+
+    const urlParamsObj = new URLSearchParams(window.location.search);
+    const isAdminMode = urlParamsObj.has('admin') || urlParamsObj.get('admin') === 'true';
+
+    if (isAdminMode) {
+      document.getElementById('btnAdminCopyLink').style.display = 'flex';
+    }
 
     if (localStorage.getItem('appVersion') !== APP_VERSION) {
       localStorage.setItem('appVersion', APP_VERSION);
@@ -912,6 +926,7 @@
         itemId: "Item id:", iconId: "Icon id:", desc: "Description:", settings: "Settings", dataLang: "Data Language", devMode: "Developer Mode",
         devDesc: "Tap cards to copy IDs or Download icons", copyIds: "Copy Page IDs", copySelIds: "Copy Selected IDs",
         dlIcons: "Download Page icons", dlSelIcons: "Download Selected icons", dlTitle: "Download options",
+        copyPageLinks: "Copy Page Links", copySelLinks: "Copy Selected Links",
         dlOpt1Single: "Download icon", dlOpt2Single: "Download icon with rarity background", dlOpt3Single: "Download Banner BG",
         dlOpt1Plural: "Download icons", dlOpt2Plural: "Download icons with rarity backgrounds", dlOpt3Plural: "Download Banners BGs",
         shareItemText: "Check out this item:", shareSearchText: "Check out this Items Collection:",
@@ -933,6 +948,7 @@
         itemId: "معرف العنصر:", iconId: "معرف الأيقونة:", desc: "الوصف:", settings: "الإعدادات", dataLang: "لغة البيانات", devMode: "وضع المطور",
         devDesc: "اضغط على البطاقات لتحديد العناصر لنسخ المعرفات أو تحميل الأيقونات", copyIds: "نسخ معرفات الصفحة", copySelIds: "نسخ المعرفات المحددة",
         dlIcons: "تحميل أيقونات الصفحة", dlSelIcons: "تحميل الأيقونات المحددة", dlTitle: "خيارات التحميل",
+        copyPageLinks: "نسخ روابط الصفحة", copySelLinks: "نسخ الروابط المحددة",
         dlOpt1Single: "تحميل الأيقونة", dlOpt2Single: "تحميل الأيقونة مع خلفية الندرة", dlOpt3Single: "تحميل خلفية الراية",
         dlOpt1Plural: "تحميل الأيقونات", dlOpt2Plural: "تحميل الأيقونات مع خلفيات الندرة", dlOpt3Plural: "تحميل خلفيات الرايات",
         shareItemText: "اطلع على هذا العنصر:", shareSearchText: "اطلع على هذه المجموعة من العناصر:",
@@ -1146,6 +1162,11 @@
       document.getElementById('txtDevCopy').textContent = `${isSel ? text.copySelIds : text.copyIds} (${count})`;
       document.getElementById('txtDevDl').textContent = `${isSel ? text.dlSelIcons : text.dlIcons} (${count})`;
       document.getElementById('txtDevAddWishlist').textContent = `${isSel ? text.addSelWishlist : text.addWishlist} (${count})`;
+
+      if (isAdminMode) {
+        document.getElementById('btnDevCopyLinks').style.display = 'flex';
+        document.getElementById('txtDevCopyLinks').textContent = `${isSel ? text.copySelLinks : text.copyPageLinks} (${count})`;
+      }
     }
 
     function resolveText(key, locMap, lines, hfMap, lang) {
@@ -1461,6 +1482,31 @@
         copyBtn.innerHTML = checkIconSVG;
         setTimeout(() => { copyBtn.innerHTML = copyIconSVG; }, 2000);
       });
+    }
+
+    async function copyRichLinks(items) {
+      let plainText = "";
+      let htmlText = "";
+      
+      items.forEach(item => {
+        const cleanPath = window.location.pathname.replace('index.html', '');
+        const url = new URL(window.location.origin + cleanPath);
+        url.searchParams.set('item', item.Id);
+        const name = (item.NameText && item.NameText.trim() !== "") ? item.NameText : "Unknown Item";
+        
+        plainText += `- <a href="${url.toString()}">${name}</a>\n`;
+        htmlText += `- <a href="${url.toString()}">${name}</a><br>`;
+      });
+
+      try {
+        const clipboardItem = new ClipboardItem({
+          "text/plain": new Blob([plainText], { type: "text/plain" }),
+          "text/html": new Blob([htmlText], { type: "text/html" })
+        });
+        await navigator.clipboard.write([clipboardItem]);
+      } catch (e) {
+        await navigator.clipboard.writeText(plainText);
+      }
     }
 
     function applyFilters(pageToLoad = null) {
@@ -1816,6 +1862,25 @@
         btn.innerHTML = checkIconSVG + `<span>${currentUILang === 'en' ? 'Copied!' : 'تم النسخ!'}</span>`;
         setTimeout(() => { btn.innerHTML = originalHtml; updateDevButtons(); }, 2000);
       });
+    });
+
+    document.getElementById('btnDevCopyLinks').addEventListener('click', async () => {
+      const items = getItemsToProcess();
+      if(items.length === 0) return;
+      await copyRichLinks(items);
+      const btn = document.getElementById('btnDevCopyLinks');
+      const originalHtml = btn.innerHTML;
+      btn.innerHTML = checkIconSVG + `<span>${currentUILang === 'en' ? 'Copied!' : 'تم النسخ!'}</span>`;
+      setTimeout(() => { btn.innerHTML = originalHtml; updateDevButtons(); }, 2000);
+    });
+
+    document.getElementById('btnAdminCopyLink').addEventListener('click', async () => {
+      if (!currentItem) return;
+      await copyRichLinks([currentItem]);
+      const btn = document.getElementById('btnAdminCopyLink');
+      const originalHtml = btn.innerHTML;
+      btn.innerHTML = checkIconSVG;
+      setTimeout(() => { btn.innerHTML = originalHtml; }, 2000);
     });
 
     document.getElementById('btnDlMain').addEventListener('click', () => {
