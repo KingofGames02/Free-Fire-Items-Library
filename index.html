@@ -887,6 +887,12 @@
     const urlParamsObj = new URLSearchParams(window.location.search);
     const isAdminMode = urlParamsObj.has('admin') || urlParamsObj.get('admin') === 'true';
 
+    let currentServer = 'live';
+    if (urlParamsObj.get('server') === 'adv') {
+      currentServer = 'advance';
+      document.body.classList.add('advance-theme');
+    }
+
     if (isAdminMode) {
       document.getElementById('btnAdminCopyLink').style.display = 'flex';
     }
@@ -971,20 +977,25 @@
       "Orange_Plus": "MYTHIC++", "NONE": "NONE", "Card": "Card"
     };
 
-    let currentServer = 'live'; 
     let currentDataLang = 'en';
     let currentUILang = 'en';
     let savedLiveLang = 'en';
 
     const browserLang = (navigator.language || navigator.userLanguage).toLowerCase();
     if (browserLang.includes('ar')) {
-        currentDataLang = 'ar';
-        currentUILang = 'ar';
+        savedLiveLang = 'ar';
     } else {
         const mapped = Object.keys(langConfig).find(k => browserLang.startsWith(k));
-        if (mapped) currentDataLang = mapped;
+        if (mapped) savedLiveLang = mapped;
     }
-    savedLiveLang = currentDataLang;
+
+    if (currentServer === 'advance') {
+      currentDataLang = 'en';
+      currentUILang = 'en';
+    } else {
+      currentDataLang = savedLiveLang;
+      currentUILang = currentDataLang === 'ar' ? 'ar' : 'en';
+    }
 
     document.body.setAttribute('dir', currentUILang === 'en' ? 'ltr' : 'rtl');
 
@@ -1053,6 +1064,15 @@
 
     if (ENABLE_ADVANCE_SERVER) {
       serverBtn.style.display = 'flex';
+      
+      if (currentServer === 'advance') {
+        serverBtn.innerHTML = svgFire;
+        serverBtn.classList.add('server-fire');
+      } else {
+        serverBtn.innerHTML = svgServer;
+        serverBtn.classList.remove('server-fire');
+      }
+
       serverBtn.addEventListener('click', () => {
         if (currentServer === 'live') {
           currentServer = 'advance';
@@ -1491,7 +1511,13 @@
       items.forEach(item => {
         const cleanPath = window.location.pathname.replace('index.html', '');
         const url = new URL(window.location.origin + cleanPath);
+        if (currentServer === 'advance') {
+          url.searchParams.set('server', 'adv');
+        } else {
+          url.searchParams.set('server', 'live');
+        }
         url.searchParams.set('item', item.Id);
+        
         const name = (item.NameText && item.NameText.trim() !== "") ? item.NameText : "Unknown Item";
         
         plainText += `- <a href="${url.toString()}">${name}</a>\n`;
@@ -1620,6 +1646,12 @@
       if (!currentItem) return;
       const cleanPath = window.location.pathname.replace('index.html', '');
       const shareUrl = new URL(window.location.origin + cleanPath);
+      
+      if (currentServer === 'advance') {
+        shareUrl.searchParams.set('server', 'adv');
+      } else {
+        shareUrl.searchParams.set('server', 'live');
+      }
       shareUrl.searchParams.set('item', currentItem.Id);
       
       const displayName = (currentItem.NameText && currentItem.NameText.trim() !== "") ? currentItem.NameText : "Free Fire Item";
@@ -1639,6 +1671,12 @@
       const cleanPath = window.location.pathname.replace('index.html', '');
       const url = new URL(window.location.origin + cleanPath);
       
+      if (currentServer === 'advance') {
+        url.searchParams.set('server', 'adv');
+      } else {
+        url.searchParams.set('server', 'live');
+      }
+
       let searchStr = "";
       let typeStr = "";
       let rareStr = "";
